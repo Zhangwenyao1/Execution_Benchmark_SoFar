@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<robot name="cube.urdf">
+  <link name="baseLink">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="0a51815f3c0941ae8312fc6917173ed6/material.obj" scale="1 1 1"/>
+      </geometry>
+      
+         <material name="texture">
+        <texture filename="0a51815f3c0941ae8312fc6917173ed6/material_2.png"/>
+      </material>
+    </visual>
+    
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+             <mesh filename="0a51815f3c0941ae8312fc6917173ed6/material.obj" scale="1 1 1"/>
+      </geometry>
+      
+    </collision>
+  </link>
+  </robot>
+  
