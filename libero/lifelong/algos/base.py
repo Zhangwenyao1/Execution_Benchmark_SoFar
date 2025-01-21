@@ -9,7 +9,7 @@ import torch.nn.functional as F
 from torch.utils.data import DataLoader, RandomSampler, Subset
 
 from libero.lifelong.metric import *
-from libero.lifelong.models import *
+from libero.lifelong.models_a import *
 from libero.lifelong.utils import *
 
 REGISTERED_ALGOS = {}

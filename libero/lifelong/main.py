@@ -20,7 +20,7 @@ from omegaconf import OmegaConf
 from libero.libero import get_libero_path
 from libero.libero.benchmark import get_benchmark
 from libero.lifelong.algos import get_algo_class, get_algo_list
-from libero.lifelong.models import get_policy_list
+from libero.lifelong.models_a import get_policy_list
 from libero.lifelong.datasets import GroupedTaskDataset, SequenceVLDataset, get_dataset
 from libero.lifelong.metric import evaluate_loss, evaluate_success
 from libero.lifelong.utils import (

@@ -232,10 +232,19 @@ class Open6dorMultiRegionRandomSampler(ObjectPositionSampler):
                         quat = quat_multiply(quat, obj.init_quat)
 
                     # location is valid, put the object down
-                    if self.init_pos[2] == 0:
-                        pos = [object_x, object_y, object_z]
+                    # if self.init_pos[2] == 0:
+                    #     pos = [object_x, object_y, object_z]
+                    # else:
+                    #     pos = [self.init_pos[0],self.init_pos[1], object_z]
+                    
+                    
+                    if self.init_pos[2] < 0.8:
+                        # pos = [object_x, object_y, object_z]
+                        pos = self.init_pos[0],self.init_pos[1], self.init_pos[2]+0.65
                     else:
-                        pos = [self.init_pos[0],self.init_pos[1], object_z]
+                        pos = [self.init_pos[0],self.init_pos[1], self.init_pos[2]]
+                    
+                    
                     # pos = self.init_pos
                     # print(
                     # 'obj.name:', obj.name, '\n',

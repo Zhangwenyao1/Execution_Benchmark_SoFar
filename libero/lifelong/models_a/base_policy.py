@@ -2,7 +2,7 @@ import robomimic.utils.tensor_utils as TensorUtils
 import torch
 import torch.nn as nn
 
-from libero.lifelong.models.modules.data_augmentation import (
+from libero.lifelong.models_a.modules.data_augmentation import (
     IdentityAug,
     TranslationAug,
     ImgColorJitterAug,

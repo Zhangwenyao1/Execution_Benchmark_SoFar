@@ -46,7 +46,6 @@ class ControlEnv:
             bddl_file_name
         ), f"[error] {bddl_file_name} does not exist!"
         if controller_config_file is not None:
-            
             controller_configs = suite.load_controller_config(custom_fpath=controller_config_file)
         else:
             controller_configs = suite.load_controller_config(default_controller=controller)

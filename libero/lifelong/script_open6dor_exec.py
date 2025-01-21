@@ -204,14 +204,6 @@ def create_task_dict(bddl_path, task_json_path, video_path, final_positions):
     }
     return task_dict
 
-
-
-
-
-
-
-
-
 def eval_libero(save_path, root, json_data, json_file, cfg: GenerateConfig, waypoint_path):
     
     scene_name = "kitchen_demo_scene"
@@ -234,15 +226,9 @@ def eval_libero(save_path, root, json_data, json_file, cfg: GenerateConfig, wayp
             ],
             json_data = json_data,
         )
-    
-
-
-    
     bddl_file_names, failures = generate_bddl_from_task_info(folder=save_path, json_data=json_data) # generate the bddl_file
-
     # bddl_file_names = ["/data/workspace/LIBERO/openvla/task_refine_pos/behind/Place_the_apple_behind_the_cup_on_the_table._/KITCHEN_DEMO_SCENE_20240824-223840_no_interaction.bddl"]
     mp4_path = bddl_file_names[0].replace('bddl','mp4')
-    
 
     local_log_filepath = os.path.join(save_path, "result.txt")
     log_file = open(local_log_filepath, "w")
@@ -252,7 +238,6 @@ def eval_libero(save_path, root, json_data, json_file, cfg: GenerateConfig, wayp
 
     # Initialize LIBERO environment and task description
     env_args = {
-
     "bddl_file_name": bddl_file_names[0],
     # "bddl_file_name": bddl_file_namesssss,
     "camera_heights": 256,
@@ -432,8 +417,6 @@ def eval_libero(save_path, root, json_data, json_file, cfg: GenerateConfig, wayp
     # import pdb; pdb.set_trace()
     return task_info
 
-
-
 if __name__ == "__main__":
     # add args
     args = argparse.ArgumentParser()
@@ -441,8 +424,6 @@ if __name__ == "__main__":
     
     args = args.parse_args()
     category = args.category
-
-
     cfg = GenerateConfig   
     # Load model
     model = ""
@@ -481,7 +462,6 @@ if __name__ == "__main__":
                     parts = json_file.split("/")
                     # if "20240824-224716_no_interaction" not in parts:
                     #     continue
-
                     # import pdb; pdb.set_trace()
                     save_path = os.path.join(output_root, f"{grasp_track_name}","/".join(parts[6:9]))
                     os.makedirs(save_path, exist_ok=True)
@@ -494,7 +474,6 @@ if __name__ == "__main__":
                     # if category not in waypoint_path:
                     #     continue
                     # import pdb; pdb.set_trace()
-           
                     task_dict[os.path.basename(root)] = eval_libero(save_path, root, file_data, json_file, cfg, waypoint_path=waypoint_path)#, model)
                     # 将 task_dict 保存到 JSON 文件
                     with open(output_file, 'w') as f: 

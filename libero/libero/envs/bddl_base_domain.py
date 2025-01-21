@@ -322,7 +322,7 @@ class BDDLBaseDomain(SingleArmEnv):
             xpos = self.robots[0].robot_model.base_xpos_offset["kitchen_table"](
                 self.kitchen_table_full_size[0]
             )
-            xpos = [0,0,0]
+            xpos = [-0.15,0,0]
             self.robots[0].robot_model.set_base_xpos((xpos))
             # self.robots[0].robot_model.set_base_ori([0,0,0])
             # wenyao

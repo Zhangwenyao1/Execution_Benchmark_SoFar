@@ -8,7 +8,7 @@ from torch.utils.data import ConcatDataset, DataLoader, RandomSampler
 
 from libero.lifelong.algos.base import Sequential
 from libero.lifelong.metric import *
-from libero.lifelong.models import *
+from libero.lifelong.models_a import *
 from libero.lifelong.utils import *
 
 

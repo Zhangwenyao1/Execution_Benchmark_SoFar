@@ -96,6 +96,7 @@ def parse_args():
         required=True,
         choices=["base", "er", "ewc", "packnet", "multitask"],
     )
+    
     parser.add_argument(
         "--policy",
         type=str,

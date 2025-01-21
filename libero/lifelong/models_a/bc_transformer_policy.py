@@ -2,11 +2,11 @@ import robomimic.utils.tensor_utils as TensorUtils
 import torch
 import torch.nn as nn
 
-from libero.lifelong.models.modules.rgb_modules import *
-from libero.lifelong.models.modules.language_modules import *
-from libero.lifelong.models.modules.transformer_modules import *
-from libero.lifelong.models.base_policy import BasePolicy
-from libero.lifelong.models.policy_head import *
+from libero.lifelong.models_a.modules.rgb_modules import *
+from libero.lifelong.models_a.modules.language_modules import *
+from libero.lifelong.models_a.modules.transformer_modules import *
+from libero.lifelong.models_a.base_policy import BasePolicy
+from libero.lifelong.models_a.policy_head import *
 
 
 ###############################################################################

@@ -242,14 +242,20 @@ class Open6Dor_Kitchen_Tabletop_Manipulation(BDDLBaseDomain):
         mujoco_arena.set_camera(
             camera_name="frontview", 
             # original:
-            pos=[1.6, 0.0, 1.3], 
-            quat=[0.56, 0.43, 0.43, 0.56]
+            # pos=[1.6, 0.0, 1.3], 
+            # quat=[0.56, 0.43, 0.43, 0.56],
             # yufei:
             # pos = [0.0, 0.0, 1.2],
             # quat =  [ 0.62721138,  0.32650558, -0.32650558 ,-0.62721138]
             # ego_view( -x ):
             # pos = [0.1, 0.0, 1.5],
             # quat =  [ 0.62721138,  0.32650558, -0.32650558 ,-0.62721138]
+            
+            # wenyao:
+            pos=[0.05, 0.0, 2.1],
+            # quat=[ 0.64959721,  0.2793268 , -0.2793268 , -0.64959721]
+            quat = [0.69975782,  0.10168084, -0.10168084, -0.69975782]
+            
 
         )
         mujoco_arena.set_camera(
