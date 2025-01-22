@@ -32,7 +32,7 @@ import open3d as o3d
 
 
 from GSNet.gsnet_simpler import grasp_inference, visualize_plotly
-from SpatialAgent.segmentation import florence, sam
+from SpatialAgent.segmentation import florence, sam, grounding_dino
 
 # Append current directory so that interpreter can find experiments.robot
 # sys.path.append("../..")
@@ -348,7 +348,7 @@ def create_task_dict(bddl_path, task_json_path, video_path, final_positions):
 
 
 
-def eval_libero(etection_model, sam_model, save_path, root, json_data, json_file, cfg: GenerateConfig):
+def eval_libero(detection_model, sam_model, save_path, root, json_data, json_file, cfg: GenerateConfig):
     
     scene_name = "kitchen_demo_scene"
     bddl_name = os.path.basename(root)
@@ -447,48 +447,25 @@ def eval_libero(etection_model, sam_model, save_path, root, json_data, json_file
 
         # Reset environment
         obs = env.reset()
+        mid_point = obs['robot0_joint_pos']
         # Setup
-        t = 0
-        replay_images = []
-        while t < 100:
-            # IMPORTANT: Do nothing for the first few timesteps because the simulator drops objects
-            # and we need to wait for them to fall
-            # obs, _, _, _ = env.step([0, -0.61521699,  1.40194223, -0.43245613, -2.1516109 , -0.86708925, 0.57265033, -2.44411672])
-                # import pdb; pdb.set_trace()
-            # cur_qpos = obs["robot0_joint_pos"]
-            # target_qpos = cur_qpos + np.array([0, 0, 0, 0, 0, 0, 0.1])
-            # for _ in range(10):
-            #     cur_qpos = obs["robot0_joint_pos"]
-            #     obs, _, _, _ = env.step(np.concatenate([target_qpos - cur_qpos, np.zeros(1)]))
-            obs, _, _, _ = env.step([0.1, 0, 0.1, 0, 0.1, 0, 0, 0])
-            t += 1
-
-
-
-        # waypoint_path = "/home/yufei/Projects/GSNet/output/traj/interpolated_waypoints_open6dor_ours_test4_formatted.npy"#"/home/yufei/Projects/GSNet/output/traj/interpolated_waypoints_open6dor_ours_test4_formatted.npy"#"/home/yufei/Projects/GSNet/output/traj/interpolated_waypoints_open6dor_ours_test4_formatted.npy"#"/home/yufei/Projects/GSNet/output/traj/interpolated_waypoints_rot_test6.npy"#"/home/yufei/Projects/GSNet/output/traj/interpolated_waypoints_rot_test4.npy" #"/home/yufei/Projects/GSNet/output/traj/interpolated_waypoints_ours_pre0.3_n20_filter5_osc_formatted.npy"#"/home/yufei/Projects/GSNet/output/traj/interpolated_waypoints_ours_osc_formatted.npy" #"/home/yufei/Projects/GSNet/output/traj/interpolated_waypoints_ours_osc_formatted.npy" #"/home/yufei/Projects/GSNet/output/traj/interpolated_waypoints_ours1_formatted.npy"#"/home/yufei/Projects/GSNet/output/traj/interpolated_waypoints.npy"
-        # actions = np.load(waypoint_path, allow_pickle=True)
+        Image.fromarray(obs['agentview_image'][::-1]).save("./image.png")
         print("task_description:", task_description)
         print(f"Starting episode {task_episodes+1}...")
         log_file.write(f"Starting episode {task_episodes+1}...\n")
-        # for t in range(10):
-        #     obs, reward, done, info = env.step([-0.2, 0, 0, 0, 0, 0, 0])
-        # obs, reward, done, info = env.step([0, 1, 0, 0, 0, 0, 0])
+        images = []
+        for _ in range(200):
+            obs, _, _, _ = env.step([0, 0, 0, 0, 0, 0, 0, 0])
+            images.append(obs["agentview_image"][::-1])
+        for _ in range(20):
+            # IMPORTANT: Do nothing for the first few timesteps because the simulator drops objects
+            obs, _, _, _ = env.step([0, 0, 0, 0.5, 0, 0, 0, 0])
+            images.append(obs["agentview_image"][::-1])
+        # waypoint_path = "/home/yufei/Projects/GSNet/output/traj/interpolated_waypoints_open6dor_ours_test4_formatted.npy"#"/home/yufei/Projects/GSNet/output/traj/interpolated_waypoints_open6dor_ours_test4_formatted.npy"#"/home/yufei/Projects/GSNet/output/traj/interpolated_waypoints_open6dor_ours_test4_formatted.npy"#"/home/yufei/Projects/GSNet/output/traj/interpolated_waypoints_rot_test6.npy"#"/home/yufei/Projects/GSNet/output/traj/interpolated_waypoints_rot_test4.npy" #"/home/yufei/Projects/GSNet/output/traj/interpolated_waypoints_ours_pre0.3_n20_filter5_osc_formatted.npy"#"/home/yufei/Projects/GSNet/output/traj/interpolated_waypoints_ours_osc_formatted.npy" #"/home/yufei/Projects/GSNet/output/traj/interpolated_waypoints_ours_osc_formatted.npy" #"/home/yufei/Projects/GSNet/output/traj/interpolated_waypoints_ours1_formatted.npy"#"/home/yufei/Projects/GSNet/output/traj/interpolated_waypoints.npy"
+        # actions = np.load(waypoint_path, allow_pickle=True)
 
-        # image = image[int(0.2*H):int(0.8*H),:]
-        # depth = depth[int(0.2*H):int(0.8*H),:]
-        # grasp_path, place_path = get_grasp_and_place_path(depth, intrinsic, extrinsic, task_description)
-        # i = 0
-        # while i<200:
-        #     i+=1
-        #     # obs, _, _, _ = env.step([0, -0.61521699,  1.40194223, -0.43245613, -2.1516109 , -0.86708925,
-        #     #     0.57265033, -2.44411672])
-        #     obs, _, _, _ = env.step(np.array([0, -0.4, 0.4, 0, 0, 0, 0]))
-        # exit(0)
         image = obs["frontview_image"][::-1]
         depth = obs['frontview_depth'][::-1]
-        H = image.shape[0]
-        
-        
         near = 0.01183098675640314
         far = 591.5493097230725
         depth = near / (1 - depth * (1 - near / far))
@@ -506,12 +483,16 @@ def eval_libero(etection_model, sam_model, save_path, root, json_data, json_file
         # visualize_plotly(pcd_base, 200 , None, extrinsic_new, gg_glob=True)
         
         
-        scene_pc_cam, object_pc_cam, scene_pc, relative_translation_table, relative_rotation_table = sofar(etection_model, sam_model, image, depth, intrinsic, extrinsic_new, task_description)
+        scene_pc_cam, object_pc_cam, scene_pc, relative_translation_table, relative_rotation_table = sofar(detection_model, sam_model, image, depth, intrinsic, extrinsic_new, task_description)
+        
+        
+        
         
         
         print(colored('Grasp Pose Inference', 'green'))
         gg_group, gg_goal_group = get_grasp_pose(task_description, object_pc_cam, scene_pc_cam, scene_pc, extrinsic_new, relative_translation_table, relative_rotation_table)
         if gg_group is None:
+            print(colored('No Grasp Pose Found', 'red'))
             task_dict = {
                 "bddl_path":  [],
                 "task_json_path": [],
@@ -530,21 +511,25 @@ def eval_libero(etection_model, sam_model, save_path, root, json_data, json_file
             urdf=robot_urdf,
             pc = scene_pc_filter,
         )
-        
+        vis = Vis(ARM_URDF_FULL)
         print(colored('Grasp Inference Completed', 'green'))
+        
+        
+        for _ in range(17):
+            obs, _, _, _ = env.step([0, 0, 0, -0.5, 0, 0, 0, 0])
+            images.append(obs["agentview_image"][::-1])
         
         try:
             for i in range(len(gg_group)):
             # get the grasp pose and pose pose
-                images = []
-                obs = env.reset()
+                # obs = env.reset()
                 gg = gg_group[i]  
                 gg_goal = gg_goal_group[i]
                 # from graspnetAPI import GraspGroup
                 # visuallize_list = GraspGroup()
                 # visuallize_list.add(gg)
                 # visuallize_list.add(gg_goal)
-                # visualize_plotly(scene_pc, 200 ,visuallize_list, extrinsic, gg_glob=True)
+                # visualize_plotly(scene_pc[::10], 200 ,visuallize_list, extrinsic, gg_glob=True)
                 print(colored("\nStar Planning Grasp Phase", 'green'))
                 init = np.array(obs['robot0_joint_pos']) 
                 
@@ -571,12 +556,12 @@ def eval_libero(etection_model, sam_model, save_path, root, json_data, json_file
                 # goal_qpos = to_torch(np.concatenate([goal, np.zeros(4)])[None]).float()
                 # goal_qpos = {k: goal_qpos[:, i] for i, k in enumerate(ROBOT_JOINTS)}
                 # rm.forward_kinematics(goal_qpos)[1]['link_gripper']
-                vis = Vis(ARM_URDF_FULL)
+                
                 # R.from_matrix().to_quat()
                 # vis.show(vis.robot_plotly(qpos=np.concatenate([goal, np.zeros(2)])))
-                for _ in range(3):
+                for _ in range(2):
                     planner = Planner(cfg_robot, fix_joints=['panda_finger_joint1', 'panda_finger_joint2'])
-                    res_grasp, grasp_path = planner.plan(robot_state[:7], goal, fix_joints_value = {'panda_finger_joint1': 0.04 - gg.width / 2, 'panda_finger_joint2': 0.04 - gg.width / 2}, interpolate_num=30)
+                    res_grasp, grasp_path = planner.plan(robot_state[:7], goal, fix_joints_value = {'panda_finger_joint1': 0.04 - gg.width / 2, 'panda_finger_joint2': 0.04 - gg.width / 2}, interpolate_num=20)
                     # res, path = planner.plan(robot_state[:7], goal, interpolate_num=50, fix_joints_value={'joint_head_pan': robot_state[9], 'joint_head_tilt': robot_state[10]})
                     # vis.show(vis.robot_plotly(qpos=np.concatenate([goal, np.zeros(2)]))+vis.pc_plotly(cfg_robot['pc'][::10]))
                     if res_grasp: # and isinstance(grasp_path, np.ndarray)
@@ -586,8 +571,32 @@ def eval_libero(etection_model, sam_model, save_path, root, json_data, json_file
                 print(colored('\nGrasp Path Completed', 'green'))
                 # vis.traj_plotly(grasp_path)
                 # place_init_qpos = obs['agent']['qpos'][:7]
-                print('\nPlace Path Starting')
-                place_init_qpos = goal
+                
+                
+                
+                
+                
+                # mid_path construction 
+                
+                print(colored('\n Mid Path Starting'), 'green')
+                mid_init_qpos = goal
+                
+                for _ in range(2):
+                    planner = Planner(cfg_robot, planner='AITstar', fix_joints=['panda_finger_joint1', 'panda_finger_joint2'])
+                    # res_place, place_path = planner.plan(place_init_qpos[:7], place_goal_qpos, interpolate_num=50, fix_joints_value={'panda_finger_joint1': 0.04 - gg.width / 2, 'panda_finger_joint2': 0.04 - gg.width / 2})
+                    res_mid, mid_path = planner.plan(mid_init_qpos[:7], mid_point[:7], fix_joints_value = {'panda_finger_joint1': 0.04 - gg.width / 2, 'panda_finger_joint2': 0.04 - gg.width / 2},  interpolate_num=20)
+                    # res, path = planner.plan(robot_state[:7], goal, interpolate_num=50, fix_joints_value={'joint_head_pan': robot_state[9], 'joint_head_tilt': robot_state[10]})
+                    if res_mid: #  and isinstance(place_path, np.ndarray)
+                        break
+                if mid_path is None or res_mid==False: #or not isinstance(place_path, np.ndarray)
+                    continue
+                
+                
+                mid_path[:,8] = 0
+                
+                
+                print(colored('\nPlace Path Starting'), 'green')
+                place_init_qpos = mid_point
                 rot2 = gg_goal.rotation_matrix @ align
                 trans_2 = gg_goal.translation
                 # try:
@@ -598,14 +607,14 @@ def eval_libero(etection_model, sam_model, save_path, root, json_data, json_file
                     continue
 
                 
-                for _ in range(3):
+                for _ in range(2):
                     planner = Planner(cfg_robot, planner='AITstar', fix_joints=['panda_finger_joint1', 'panda_finger_joint2'])
                     # res_place, place_path = planner.plan(place_init_qpos[:7], place_goal_qpos, interpolate_num=50, fix_joints_value={'panda_finger_joint1': 0.04 - gg.width / 2, 'panda_finger_joint2': 0.04 - gg.width / 2})
-                    res_place, place_path = planner.plan(place_init_qpos[:7], place_goal_qpos, fix_joints_value = {'panda_finger_joint1': 0.04 - gg.width / 2, 'panda_finger_joint2': 0.04 - gg.width / 2},  interpolate_num=30)
+                    res_place, place_path = planner.plan(place_init_qpos[:7], place_goal_qpos, fix_joints_value = {'panda_finger_joint1': 0.04 - gg.width / 2, 'panda_finger_joint2': 0.04 - gg.width / 2},  interpolate_num=20)
                     # res, path = planner.plan(robot_state[:7], goal, interpolate_num=50, fix_joints_value={'joint_head_pan': robot_state[9], 'joint_head_tilt': robot_state[10]})
                     if res_place: #  and isinstance(place_path, np.ndarray)
                         break
-                if place_path is None or res_grasp==False: #or not isinstance(place_path, np.ndarray)
+                if place_path is None or res_place==False: #or not isinstance(place_path, np.ndarray)
                     continue
 
                 print('\nPlace Path Completed')
@@ -624,7 +633,7 @@ def eval_libero(etection_model, sam_model, save_path, root, json_data, json_file
                 
 
                 gripper = [0,0,0,0,0,0,0, -10]
-                for i in range(2):
+                for i in range(20):
                     obs, _, _,_ = env.step(gripper)
                     images.append(obs['agentview_image'][::-1])   
                           
@@ -633,14 +642,25 @@ def eval_libero(etection_model, sam_model, save_path, root, json_data, json_file
                     # obs, reward, done, info  = env.step(grasp_path[index][:8])  
                     # while np.linalg.norm(obs['robot0_joint_pos']  - grasp_path[index][:7]) > 0.1:
                         # obs, reward, done, info  = env.step(grasp_path[index][:8])  
-                
                 print('Grasp Path Execution Completed')
-                
-                
+
+
+
+
+
                 gripper = [0,0,0,0,0,0,0, 10]
-                for i in range(2):
-                    obs, _, _,_ = env.step(gripper)
+                for i in range(20):
+                    obs, _, done, _ = env.step(gripper)
                     images.append(obs['agentview_image'][::-1])
+                
+                
+                
+                
+                for index in range(len(mid_path)):
+                    obs, images = upper_step(env, obs, mid_path[index][:8], images) 
+                print('Mid Path Execution Completed')   
+                
+                
                 
                 
                 for index in range(len(place_path)):
@@ -652,14 +672,14 @@ def eval_libero(etection_model, sam_model, save_path, root, json_data, json_file
                 print('Place Path Execution Completed')
                 
                 gripper = [0,0,0,0,0,0,0, -10]
-                for i in range(2):
+                for i in range(10):
                     obs, _, _,_ = env.step(gripper)
                     images.append(obs['agentview_image'][::-1])
                 save_rollout_video(
                 images, total_episodes, success=False, task_description=task_description, log_file=log_file, mp4_path=mp4_path
             )
-                if done:
-                    break
+                
+                break
                         # image = Image.fromarray(image)
                         # image.save("/data/workspace/SimplerEnv/test.png")             
         except Exception as e:
@@ -836,6 +856,7 @@ if __name__ == "__main__":
     category = args.category
 
     # load model
+    # detection_model = grounding_dino.get_model()
     detection_model = florence.get_model()
     sam_model = sam.get_model()
 
@@ -884,3 +905,4 @@ if __name__ == "__main__":
                         
                         
                         
+
