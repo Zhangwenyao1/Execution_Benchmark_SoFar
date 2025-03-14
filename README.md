@@ -21,21 +21,21 @@ We introduce the concept of semantic orientation, representing the object orient
 **Create an anaconda environment:**
 
 ```
-conda create -n simpler_env python=3.10 (any version above 3.10 should be fine)
-conda activate simpler_env
+conda create -n sofar_execution python=3.10 (any version above 3.10 should be fine)
+conda activate sofar_execution
 ```
 
 **Clone this repo:**
 
 ```
-git clone https://github.com/Zhangwenyao1/SimplerEnv-SOFAR
+git clone https://github.com/Zhangwenyao1/Execution_Benchmark_SoFar
 ```
 
-This repository's code is based in the [SimplerEnv](https://github.com/simpler-env/SimplerEnv) and the ManiSkill2 based [ManiSkill2](https://github.com/Jiayuan-Gu/ManiSkill2_real2sim) from [JiayuanGU](https://github.com/Jiayuan-Gu) for the Open-Loop control.
+This repository's code is based in the [LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO.git).
 
-**Install SimplerEnv:**
+**Install LIBERO:**
 
-see [SimplerEnv](https://github.com/simpler-env/SimplerEnv) for installation instructions.
+see [LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO.git) for installation instructions.
 
 **Install GSNET:**
 
@@ -59,7 +59,7 @@ see [SoFar](https://github.com/qizekun/SoFar) for installation instructions.
 
 **Notion:**
 
-You have to install GroundingDINO for the evaluation.
+You have to install GroundingDINO and Florence for the evaluation.
 
 You need modify the checkpoint or config  path  in following files in SoFar:
 
@@ -73,9 +73,18 @@ You need modify the checkpoint or config  path  in following files in SoFar:
 
 ## Execution
 
-You can run the evaluation in the script folder for different tasks:
+You can run the evaluation in the script folder for different track:
+For the position track, you can run as following command
 
-> sh scripts/sofar_bridge.sh
+> python sofar_execution/script_open6dor_exec_motion_planning.py  sofar
+
+For the rotation track, you can run as following command
+
+> python sofar_execution/script_open6dor_exec_motion_planning_rotonly.py  sofar
+
+For the 6 dof track, you can run as following command
+
+> python sofar_execution/script_open6dor_exec_motion_planning_rot.py  sofar
 
 ## Acknowledgement
 
