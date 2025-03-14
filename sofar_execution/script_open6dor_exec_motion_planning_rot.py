@@ -719,7 +719,7 @@ if __name__ == "__main__":
     output_root = "./execution_exp_0210_cont_rot"
     # output_file = os.path.join(output_root, f"{grasp_track_name}/open6dor_exec_dict.json") #!!!! do not overwrite
     output_file = f"./sofar_output/open6dor_exec_dict_rot_0313_{category}.json"
-    list_file_path = "/mnt/afs/zhangwenyao/LIBERO/open6dor_list.json"
+    list_file_path = "/mnt/afs/zhangwenyao/LIBERO/data/open6dor_list.json"
     with open(list_file_path, 'r') as f: 
         valid_key = json.load(f)
     # load task dict

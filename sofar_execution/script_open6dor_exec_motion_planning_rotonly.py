@@ -44,7 +44,7 @@ sys.path.append(BASE_DIR+'/SoFar')
 from GSNet.gsnet_simpler import grasp_inference, visualize_plotly
 from SoFar.segmentation import florence, sam, grounding_dino
 
-from serve.PointOFM import get_model as get_pointofm_model
+from SoFar.serve.pointso import get_model as get_pointofm_model
 # Append current directory so that interpreter can find experiments.robot
 # sys.path.append("../..")
 
@@ -68,7 +68,7 @@ from plan.src.utils.constants import ARM_URDF, ARM_URDF_FULL, ROBOT_JOINTS, ROBO
 
 # from SoFar.depth.utils import transform_point_cloud_nohw, inverse_transform_point_cloud
 # from SoFar_o.open6dor import sofar
-from SoFar.libero import sofar_libero
+from sofar_execution_libero import sofar_libero
 from termcolor import colored
 
 # absolute_path = pathlib.Path(__file__).parent.parent.parent.absolute()
@@ -399,7 +399,7 @@ def eval_libero(detection_model, sam_model, orientation_model, save_path, root, 
         # "camera_names": ["frontview","agentview"],
         "controller": "JOINT_POSITION",
         # "control_freq": 5, 
-        "controller_config_file": "/mnt/afs/zhangwenyao/LIBERO/workspace/controller/joint.json",
+        "controller_config_file": "/mnt/afs/zhangwenyao/LIBERO/plan/workspace/controller/joint.json",
         # "controller": "OSC_POSE",
         # "controller_config_file": "/mnt/afs/zhangwenyao/LIBERO/workspace/controller/no_delta.json",
         # "ignore_done": True
@@ -717,16 +717,13 @@ if __name__ == "__main__":
     cfg = GenerateConfig   
     # Load model
     model = ""
-    # [OpenVLA] Get task dictionary
-    # root_dir = "/mnt/afs/zhangwenyao/LIBERO/spatial/task_refine_pos"#
-    # root_dir = "/data/datasets/sofar_execution/task_refine_pos"## # task_refine_pos, task_refine_rot, task_refine_rot_only
-    # root_dir = f"/mnt/afs/zhangwenyao/LIBERO/spatial/task_refine_rot_only/rot_ins"
-    root_dir = f"/mnt/afs/zhangwenyao/LIBERO/spatial/task_refine_rot_only/rot_ins"
+
+    root_dir = f"/data/workspace/LIBERO/spatial/task_refine_rot_only/rot_ins"
     grasp_track_name = "task_refine_rotonly"
     output_root = "./execution_exp_0218_cont_rotonly"
-    # output_file = os.path.join(output_root, f"{grasp_track_name}/open6dor_exec_dict.json") #!!!! do not overwrite
-    output_file = f"./sofar_output/open6dor_exec_rotonly_rotonly_0218.json"
-    list_file_path = "/mnt/afs/zhangwenyao/LIBERO/open6dor_list.json"
+    
+    output_file = f"./sofar_output/open6dor_exec_rotonly_rotonly_0315.json"
+    list_file_path = "/mnt/afs/zhangwenyao/LIBERO/data/open6dor_list.json"
     with open(list_file_path, 'r') as f: 
         valid_key = json.load(f)
     # load task dict
@@ -740,7 +737,6 @@ if __name__ == "__main__":
         for file in files:
             if file.endswith('refine.json') and os.path.basename(root) in valid_key:
                 json_file = os.path.join(root, file)
-                # json_file = "/data/datasets/sofar_execution/task_refine_rot/center/Place_the_mug_at_the_center_of_all_the_objects_on_the_table.__handle_left/20240824-213803_no_interaction/task_config_new5_refine_ghost.json"
                 task_name = os.path.basename(root)
                 # test if the task is already processed
                 if task_name in task_dict:
