@@ -28,7 +28,7 @@ conda activate sofar_execution
 **Clone this repo:**
 
 ```
-git clone https://github.com/Zhangwenyao1/Execution_Benchmark_SoFar
+git clone https://github.com/Zhangwenyao1/Open6DOR_V2_Exection 
 ```
 
 This repository's code is based in the [LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO.git).
@@ -70,6 +70,7 @@ You need modify the checkpoint or config  path  in following files in SoFar:
 > SoFar/segmentation/sam.py
 >
 > SoFar/serve/pointso.py
+> sofar_execution_libero.py (the output folder)
 
 ## Execution
 
