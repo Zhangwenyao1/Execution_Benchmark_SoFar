@@ -28,7 +28,7 @@ conda activate sofar_execution
 **Clone this repo:**
 
 ```
-git clone https://github.com/Zhangwenyao1/Open6DOR_V2_Exection 
+git clone https://github.com/Zhangwenyao1/Open6DOR_V2_Execution 
 ```
 
 This repository's code is based in the [LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO.git).
