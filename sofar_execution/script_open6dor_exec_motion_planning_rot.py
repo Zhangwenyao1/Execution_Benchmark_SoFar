@@ -449,21 +449,7 @@ def eval_libero(detection_model, sam_model, orientation_model, save_path, root, 
         depth = obs['agentview_depth'][::-1]
         near = 0.01183098675640314
         far = 591.5493097230725
-        depth = near / (1 - depth * (1 - near / far))
-        
-        # from SoFar.depth.utils import depth2pcd
-        # intrinsic_matrix = intrinsic
-        # image2 = Image.fromarray(image)
-        # fx = intrinsic_matrix[0, 0]
-        # fy = intrinsic_matrix[1, 1]
-        # cx = intrinsic_matrix[0, 2]
-        # cy = intrinsic_matrix[1, 2]
-        # intrinsic = [fx, fy, cx, cy]
-        # pcd_camera, pcd_base = depth2pcd(depth, intrinsic, extrinsic_new)
-        # pcd_base = pcd_base.reshape(-1,3)
-        # visualize_plotly(pcd_base, 200 , None, extrinsic_new, gg_glob=True)
-        
-        
+        depth = near / (1 - depth * (1 - near / far)) 
         scene_pc_cam, scene_pc,  object_pc_cam, object_pc_base, object_mask, relative_translation_table, relative_rotation_table = sofar_libero(detection_model, sam_model, orientation_model, image, depth, intrinsic, extrinsic_new, task_description)
         
         
@@ -589,9 +575,7 @@ def eval_libero(detection_model, sam_model, orientation_model, save_path, root, 
                     
                     for _ in range(2):
                         planner = Planner(cfg_robot, planner='AITstar', fix_joints=['panda_finger_joint1', 'panda_finger_joint2'])
-                        # res_place, place_path = planner.plan(place_init_qpos[:7], place_goal_qpos, interpolate_num=30, fix_joints_value={'panda_finger_joint1': 0.04 - gg.width / 2, 'panda_finger_joint2': 0.04 - gg.width / 2})
                         res_place, place_path = planner.plan(place_init_qpos[:7], place_goal_qpos, fix_joints_value = {'panda_finger_joint1': 0.04 - gg.width / 2, 'panda_finger_joint2': 0.04 - gg.width / 2},  interpolate_num=30)
-                        # res, path = planner.plan(robot_state[:7], goal, interpolate_num=30, fix_joints_value={'joint_head_pan': robot_state[9], 'joint_head_tilt': robot_state[10]})
                         if res_place: #  and isinstance(place_path, np.ndarray)
                             break
                     if place_path is None or res_place==False: #or not isinstance(place_path, np.ndarray)
@@ -617,19 +601,8 @@ def eval_libero(detection_model, sam_model, orientation_model, save_path, root, 
                     last_gripper_qpose = 10
                     for i in range(20):
                         obs, _, done, _ = env.step(gripper)
-                        # curren_gripper_qpose = obs['robot0_gripper_qpos'][0]
-                        
-                        # if abs(curren_gripper_qpose - last_gripper_qpose) < 1e-5:
-                        #     break
-                        # last_gripper_qpose = curren_gripper_qpose
                         images.append(obs['frontview_image'][::-1])  
-                    
-                                    
-                    # gripper = [0,0,0,0,0,0,0, 0]
-                    # for i in range(10):
-                    #     obs, _, done, _ = env.step(gripper)
-                    #     images.append(obs['frontview_image'][::-1])   
-                    
+
                     for index in range(len(mid_path)):
                         obs, images = upper_step(env, obs, mid_path[index][:8], images) 
                     print('Mid Path Execution Completed')   
@@ -656,26 +629,6 @@ def eval_libero(detection_model, sam_model, orientation_model, save_path, root, 
             else:
                 graspness_threshold /= 2
             
-            # if isinstance(grasp_path, np.ndarray):
-            #     print('\nPlace Path Completed')
-            #     grasp_path[:, 7] = -0.00285961
-            #     grasp_path[:, 8] = 0.7851361
-                
-            #     num_copies = 5
-            #     repeated_elements = np.tile(grasp_path[-1], (num_copies, 1))
-            #     for index in range(num_copies):
-            #         repeated_elements[index, -2:] = [index/5, index/5]
-            #     grasp_path = np.vstack([grasp_path, repeated_elements])
-            #     for index in range(len(grasp_path)):
-            #         obs, reward, done, info  = env.step(grasp_path[index][:8])   
-            #     image = img = obs['frontview_image'][::-1]
-            #     images.append(image)    
-            # elif isinstance(grasp_path, list):
-            #     print('\nPlace Path Failed')
-            #     obs, reward, done, info  = env.step(np.array(grasp_path[0][:8]))
-            # else:
-            #     obs, reward, done, info  = env.step(np.zeros(8))
-            
         save_rollout_video(
                     images, total_episodes, success=False, task_description=task_description, log_file=log_file, mp4_path=mp4_path
                 )            
@@ -694,32 +647,43 @@ def eval_libero(detection_model, sam_model, orientation_model, save_path, root, 
 
 if __name__ == "__main__":
     # add args
-    args = argparse.ArgumentParser()
-    args.add_argument("--category", type=str, default="behind") # model path
+    parser = argparse.ArgumentParser("Task Refine Rot Configuration")
+    parser.add_argument("--category", type=str, default="behind") 
+    parser.add_argument('--root_dir', type=str, default="/mnt/afs/zhangwenyao/LIBERO/datasets/task/task_refine_rot/",
+                        help='Root directory for the task refine rot dataset')
+    parser.add_argument('--grasp_track_name', type=str, default="task_refine_rot",
+                        help='Name of the grasp track')
+    parser.add_argument('--output_root', type=str, default="./execution_exp_0313_cont_rot",
+                        help='Root directory for output files')
+    parser.add_argument('--output_file', type=str, default="./sofar_output/open6dor_exec_dict_rot_0313.json",
+                        help='Path to the output JSON file')
+    parser.add_argument('--list_file_path', type=str, default="/mnt/afs/zhangwenyao/LIBERO/datasets/open6dor_list.json",
+                        help='Path to the list file')
     
-    args = args.parse_args()
+    
+    args = parser.parse_args()
     category = args.category
-
-    # load model
+    root_dir = args.root_dir
+    grasp_track_name = args.grasp_track_name
+    output_root = args.output_root
+    output_file = args.output_file
+    list_file_path = args.list_file_path
+    
     # detection_model = grounding_dino.get_model()
     detection_model = florence.get_model()
     sam_model = sam.get_model()
     orientation_model = get_pointofm_model()
-
-
     cfg = GenerateConfig   
     # Load model
     model = ""
-    # [OpenVLA] Get task dictionary
-    # root_dir = "/mnt/afs/zhangwenyao/LIBERO/spatial/task_refine_pos"#
-    # root_dir = "/data/datasets/sofar_execution/task_refine_pos"## # task_refine_pos, task_refine_rot, task_refine_rot_only
-    # root_dir = f"/mnt/afs/zhangwenyao/LIBERO/spatial/task_refine_rot_only/rot_ins"
-    root_dir = f"/data/datasets/open6dor/task_refine_rot/{category}"
-    grasp_track_name = "task_refine_rot"
-    output_root = "./execution_exp_0210_cont_rot"
-    # output_file = os.path.join(output_root, f"{grasp_track_name}/open6dor_exec_dict.json") #!!!! do not overwrite
-    output_file = f"./sofar_output/open6dor_exec_dict_rot_0313_{category}.json"
-    list_file_path = "/mnt/afs/zhangwenyao/LIBERO/data/open6dor_list.json"
+    
+
+    # root_dir = f"/mnt/afs/zhangwenyao/LIBERO/datasets/task/task_refine_rot/{category}"
+    # grasp_track_name = "task_refine_rot"
+    # output_root = "./execution_exp_0210_cont_rot"
+    # output_file = f"./sofar_output/open6dor_exec_dict_rot_0313_{category}.json"
+    # list_file_path = "/mnt/afs/zhangwenyao/LIBERO/datasets/open6dor_list.json"
+    
     with open(list_file_path, 'r') as f: 
         valid_key = json.load(f)
     # load task dict
@@ -733,9 +697,7 @@ if __name__ == "__main__":
         for file in files:
             if file.endswith('refine_ghost.json') and os.path.basename(root) in valid_key:
                 json_file = os.path.join(root, file)
-                # json_file = "/data/datasets/sofar_execution/task_refine_rot/center/Place_the_mug_at_the_center_of_all_the_objects_on_the_table.__handle_left/20240824-213803_no_interaction/task_config_new5_refine_ghost.json"
                 task_name = os.path.basename(root)
-                # test if the task is already processed
                 if task_name in task_dict:
                     print(f"Skipping {task_name} as it is already processed.")
                     continue

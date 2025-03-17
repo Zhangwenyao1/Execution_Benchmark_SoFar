@@ -700,12 +700,36 @@ def eval_libero(detection_model, sam_model, orientation_model, save_path, root, 
 
 
 if __name__ == "__main__":
-    # add args
-    args = argparse.ArgumentParser()
-    args.add_argument("--category", type=str, default="behind") # model path
-    
-    args = args.parse_args()
+
+    parser = argparse.ArgumentParser("Task Refine Rot Configuration")
+    parser.add_argument('--root_dir', type=str, default="/mnt/afs/zhangwenyao/LIBERO/datasets/task/task_refine_rot_only/",
+                        help='Root directory for the task refine rot dataset')
+    parser.add_argument('--grasp_track_name', type=str, default="task_refine_rotonly",
+                        help='Name of the grasp track')
+    parser.add_argument('--output_root', type=str, default="./execution_exp_0313_cont_rotonly",
+                        help='Root directory for output files')
+    parser.add_argument('--output_file', type=str, default="./sofar_output/open6dor_exec_dict_rotonly_0313.json",
+                        help='Path to the output JSON file')
+    parser.add_argument('--list_file_path', type=str, default="/mnt/afs/zhangwenyao/LIBERO/datasets/open6dor_list.json",
+                        help='Path to the list file')
+
+
+
+    args = parser.parse_args()
     category = args.category
+    root_dir = args.root_dir
+    grasp_track_name = args.grasp_track_name
+    output_root = args.output_root
+    output_file = args.output_file
+    list_file_path = args.list_file_path
+
+    # root_dir = f"/mnt/afs/zhangwenyao/LIBERO/datasets/task/task_refine_rot_only"
+    # grasp_track_name = "task_refine_rotonly"
+    # output_root = "./execution_exp_0218_cont_rotonly"
+    
+    # output_file = f"./sofar_output/open6dor_exec_rotonly_rotonly_0315.json"
+    # list_file_path = "/mnt/afs/zhangwenyao/LIBERO/datasets/open6dor_list.json"
+
 
     # load model
     # detection_model = grounding_dino.get_model()
@@ -718,12 +742,7 @@ if __name__ == "__main__":
     # Load model
     model = ""
 
-    root_dir = f"/data/workspace/LIBERO/spatial/task_refine_rot_only/rot_ins"
-    grasp_track_name = "task_refine_rotonly"
-    output_root = "./execution_exp_0218_cont_rotonly"
-    
-    output_file = f"./sofar_output/open6dor_exec_rotonly_rotonly_0315.json"
-    list_file_path = "/mnt/afs/zhangwenyao/LIBERO/data/open6dor_list.json"
+
     with open(list_file_path, 'r') as f: 
         valid_key = json.load(f)
     # load task dict
