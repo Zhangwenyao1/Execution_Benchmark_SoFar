@@ -1,0 +1,133 @@
+{
+    "selected_obj_names": [
+        "wrench",
+        "spoon",
+        "tape measure",
+        "headphone"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf",
+        "objaverse_rescale/218768789fdd42bd95eb933046698499/material_2.urdf",
+        "objaverse_rescale/11307d06bb254318b95021d68c6fa12f/material_2.urdf",
+        "objaverse_rescale/f8891134871e48ce8cb5053c4287272b/material_2.urdf"
+    ],
+    "target_obj_name": "headphone",
+    "instruction": "Place the headphone at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the headphone is lying on the table, and the two earpieces are farther away from the nearer bringe of the table while the headband is nearer to the viewer(Imagine yourself as a viewer in front of the screen, judge 'far' and 'near' by the distance the item is from you).",
+    "init_obj_pos": [
+        [
+            0.69770566148778,
+            0.1924600456376508,
+            0.902088281041183,
+            0.012882787336555608,
+            -0.02130947673434252,
+            0.10667328122713583,
+            0.9939822689887319,
+            0.004153451882302761,
+            -0.004445104394108057,
+            0.03451389819383621,
+            -0.5987445116043091,
+            0.07105597853660583,
+            0.12359734624624252
+        ],
+        [
+            0.4686479990040453,
+            0.11641837932090514,
+            0.9351817902766694,
+            -0.33428041045977486,
+            0.5934006158065555,
+            0.19392603637414313,
+            0.706063034551065,
+            0.0031222316902130842,
+            -0.004245276562869549,
+            0.03670627996325493,
+            -1.3274465799331665,
+            1.162437915802002,
+            -0.583096444606781
+        ],
+        [
+            0.39386742342614145,
+            0.08949807698006654,
+            0.922691975008361,
+            0.03560345944252927,
+            -0.033231678243595304,
+            0.07704962570139078,
+            0.9958370370779112,
+            0.0011683162301778793,
+            0.001192278927192092,
+            -0.000508755911141634,
+            -0.018847374245524406,
+            0.01729092001914978,
+            0.014515496790409088
+        ],
+        [
+            0.535084894350541,
+            -0.10578761818721577,
+            0.9501879469769511,
+            -0.011879562940114595,
+            -0.0026872958307302703,
+            0.22129097615066012,
+            0.975131764583514,
+            0.0017969624605029821,
+            -0.0024275819305330515,
+            0.0019340456929057837,
+            0.05482425540685654,
+            0.028630558401346207,
+            -0.02572125941514969
+        ]
+    ],
+    "position_instruction": "Place the headphone at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the headphone is lying on the table, and the two earpieces are farther away from the nearer bringe of the table while the headband is nearer to the viewer(Imagine yourself as a viewer in front of the screen, judge 'far' and 'near' by the distance the item is from you).",
+    "rotation_instruction_label": "earpiece_far",
+    "obj_codes": [
+        "042",
+        "218768789fdd42bd95eb933046698499",
+        "11307d06bb254318b95021d68c6fa12f",
+        "f8891134871e48ce8cb5053c4287272b"
+    ],
+    "target_obj_code": "f8891134871e48ce8cb5053c4287272b",
+    "anno_target": {
+        "category": "headphone",
+        "annotation": {
+            " the headphone is lying on the table, and the two earpieces are closer to the nearer bringe of the table while the headband is farther from the viewer(Imagine yourself as a viewer in front of the screen, judge 'far' and 'near' by the distance the item is from you).": {
+                "quat": [
+                    [
+                        0.005033218767493963,
+                        0.009061583317816257,
+                        0.7043232321739197,
+                        0.7098037004470825
+                    ],
+                    [
+                        0.709821,
+                        -0.704229,
+                        0.014644,
+                        0.000593
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the headphone is lying on the table, and the two earpieces are farther away from the nearer bringe of the table while the headband is nearer to the viewer(Imagine yourself as a viewer in front of the screen, judge 'far' and 'near' by the distance the item is from you).": {
+                "quat": [
+                    [
+                        0.7101156711578369,
+                        0.7039318680763245,
+                        0.0007149285520426929,
+                        -0.01463855430483818
+                    ],
+                    [
+                        0.016601553186774254,
+                        0.0026608863845467567,
+                        -0.703927218914032,
+                        0.7100725173950195
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "earpiece_far",
+    "rot_tag_level": 1,
+    "position_tag": "center",
+    "rotation_tag": "earpiece_far"
+}

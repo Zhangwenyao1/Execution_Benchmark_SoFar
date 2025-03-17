@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "keyboard",
+        "can",
+        "wallet"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f5080a3df6d847b693c5cca415886c61/material_2.urdf",
+        "ycb_16k_backup/007_tuna_fish_can_google_16k/007_tuna_fish_can_google_16k.urdf",
+        "objaverse_rescale/f47fdcf9615d4e94a71e6731242a4c94/material_2.urdf"
+    ],
+    "target_obj_name": "wallet",
+    "instruction": "Place the wallet to the right of the keyboard on the table. We also need to specify the rotation of the object after placement:  the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)",
+    "init_obj_pos": [
+        [
+            0.4623704636038262,
+            -0.10424644411638966,
+            0.9138814323218042,
+            0.7045720892214192,
+            -0.004162796483802151,
+            -0.005426643976267824,
+            0.7095994600834712,
+            0.000846375129185617,
+            0.006389577407389879,
+            -0.004740517120808363,
+            -0.2554158568382263,
+            -0.040928877890110016,
+            0.006281799171119928
+        ],
+        [
+            0.4126432382695285,
+            0.10998619398090824,
+            0.9031500975068631,
+            0.00039199425969008525,
+            -0.0007823004637193986,
+            -0.11361920641425252,
+            0.9935239857599212,
+            0.0013305613538250327,
+            -0.0010956736514344811,
+            -0.007948148064315319,
+            -0.08033233135938644,
+            0.1621917337179184,
+            -0.057757556438446045
+        ],
+        [
+            0.6647809520321684,
+            0.23446157946788804,
+            0.9530487332590615,
+            0.05963753097133557,
+            0.7402792846048822,
+            -0.07489289328964237,
+            0.6654479695808186,
+            0.0002446360304020345,
+            0.0037382261361926794,
+            -0.000465620105387643,
+            -0.23371633887290955,
+            0.0040020872838795185,
+            -0.013860149309039116
+        ]
+    ],
+    "position_instruction": "Place the wallet to the right of the keyboard on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)",
+    "rotation_instruction_label": "clasp_right",
+    "obj_codes": [
+        "f5080a3df6d847b693c5cca415886c61",
+        "007",
+        "f47fdcf9615d4e94a71e6731242a4c94"
+    ],
+    "target_obj_code": "f47fdcf9615d4e94a71e6731242a4c94",
+    "anno_target": {
+        "category": "wallet",
+        "annotation": {
+            " the wallet is lying flat on the table, and the clasp is on the left(if the wallet has a clasp)": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            },
+            " the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "clasp_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "clasp_right"
+}

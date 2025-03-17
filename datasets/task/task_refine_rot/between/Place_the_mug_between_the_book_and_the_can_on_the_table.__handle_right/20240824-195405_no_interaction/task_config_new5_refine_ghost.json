@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "book",
+        "can",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/b2d30398ba3741da9f9aef2319ee2b8b/material_2.urdf",
+        "ycb_16k_backup/007_tuna_fish_can_google_16k/007_tuna_fish_can_google_16k.urdf",
+        "objaverse_rescale/a564a11174be455bbce4698f7da92fdf/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug between the book and the can on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.48127531942500784,
+            -0.12734950490858077,
+            0.9163594378647812,
+            3.316755374657498e-05,
+            -7.215421906289266e-05,
+            0.11698355424466914,
+            0.9931338488491701,
+            -0.0007264497107826173,
+            -0.00016838530427776277,
+            -8.721684935153462e-06,
+            -0.0004433532012626529,
+            0.0010774184484034777,
+            -0.0033859091345220804
+        ],
+        [
+            0.3620767591692784,
+            -0.05386831807291458,
+            0.9031513010366541,
+            0.00041178722651621035,
+            -0.0007890881300728696,
+            -0.12329142830767867,
+            0.9923701081134277,
+            -0.0010002456838265061,
+            -0.0005965876625850797,
+            -0.007796800695359707,
+            -0.03880175203084946,
+            0.1085825115442276,
+            -0.024059941992163658
+        ],
+        [
+            0.4112619189022126,
+            0.2365374262135119,
+            0.9571940159929117,
+            -0.07958572710828173,
+            0.2520586939953066,
+            0.017984884098531852,
+            0.9642660788216024,
+            -0.0004205914738122374,
+            0.00011803055531345308,
+            -0.0002922806888818741,
+            -0.0018840505508705974,
+            -0.006802181247621775,
+            -0.0007095952751114964
+        ]
+    ],
+    "position_instruction": "Place the mug between the book and the can on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "b2d30398ba3741da9f9aef2319ee2b8b",
+        "007",
+        "a564a11174be455bbce4698f7da92fdf"
+    ],
+    "target_obj_code": "a564a11174be455bbce4698f7da92fdf",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.4631405472755432,
+                        0.4735301733016968,
+                        0.5153847336769104,
+                        0.5437357425689697
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_right"
+}

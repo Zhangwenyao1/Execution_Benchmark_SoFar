@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "lighter",
+        "mobile phone",
+        "pitcher base"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-g_cups_google_16k/065-g_cups_google_16k.urdf",
+        "objaverse_rescale/d9675ab05c39447baf27e19ea07d484e/material_2.urdf",
+        "objaverse_rescale/bad5e04d290841779dad272897f384e1/material_2.urdf",
+        "ycb_16k_backup/019_pitcher_base_google_16k/019_pitcher_base_google_16k.urdf"
+    ],
+    "target_obj_name": "pitcher base",
+    "instruction": "Place the pitcher base to the left of the cup on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6902075111765963,
+            0.2045777144379066,
+            0.9005675551062625,
+            0.0005130107443794669,
+            -0.0012404210681768507,
+            0.12383262121851359,
+            0.9923022120794159,
+            0.0022835952695459127,
+            0.011231033131480217,
+            -0.003596600377932191,
+            -0.3782120645046234,
+            0.09252285212278366,
+            -0.0029700088780373335
+        ],
+        [
+            0.38854536117450755,
+            0.014387351470884312,
+            0.9266171581568747,
+            -0.01024902240050196,
+            -0.9998105111454693,
+            -0.005191299019478863,
+            0.015714635132895744,
+            -0.0019871490076184273,
+            0.004868126008659601,
+            0.011101617477834225,
+            -0.08155398070812225,
+            1.525558352470398,
+            -0.12983271479606628
+        ],
+        [
+            0.34031385156351845,
+            0.16851461275091598,
+            0.9143233757412388,
+            -0.14270787221470727,
+            0.60278966883835,
+            0.13521541767388198,
+            0.7733019262700572,
+            0.0048427884466946125,
+            0.00435249088332057,
+            0.038465578109025955,
+            0.5485381484031677,
+            -2.7040436267852783,
+            0.3224872350692749
+        ],
+        [
+            0.6074353280512207,
+            0.0055991661853619775,
+            0.9013198313298183,
+            0.00014394622009277215,
+            0.00068752725089115,
+            0.018772369966823396,
+            0.9998235367861643,
+            -0.005311201326549053,
+            0.0027123582549393177,
+            -0.00042532527004368603,
+            -0.024979494512081146,
+            -0.047281332314014435,
+            -0.011410756036639214
+        ]
+    ],
+    "position_instruction": "Place the pitcher base to the left of the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "065-g",
+        "d9675ab05c39447baf27e19ea07d484e",
+        "bad5e04d290841779dad272897f384e1",
+        "019"
+    ],
+    "target_obj_code": "019",
+    "anno_target": {
+        "category": "pitcher_base",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.3877721428871155,
+                        0.9217552542686462
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "handle_right"
+}

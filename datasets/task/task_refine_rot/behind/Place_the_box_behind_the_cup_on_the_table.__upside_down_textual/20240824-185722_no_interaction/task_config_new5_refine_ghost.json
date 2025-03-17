@@ -1,0 +1,97 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "box"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-h_cups_google_16k/065-h_cups_google_16k.urdf",
+        "ycb_16k_backup/004_sugar_box_google_16k/004_sugar_box_google_16k.urdf"
+    ],
+    "target_obj_name": "box",
+    "instruction": "Place the box behind the cup on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.",
+    "init_obj_pos": [
+        [
+            0.38006152063574217,
+            0.04981038725899523,
+            0.9004965355376389,
+            -0.0007098357568418961,
+            -0.0007533996076945608,
+            -0.05060044600761971,
+            0.9987184404956482,
+            0.005876082926988602,
+            -0.002351903822273016,
+            -0.005302295088768005,
+            0.06268572062253952,
+            0.20565812289714813,
+            -0.016498589888215065
+        ],
+        [
+            0.55597119536627,
+            0.050626072000416446,
+            0.8998694821984875,
+            -0.000660924065686271,
+            -0.00016350875935018544,
+            0.10197640862914925,
+            0.994786584412639,
+            -0.0026144422590732574,
+            -0.002844160422682762,
+            -0.0009112669504247606,
+            0.03730548173189163,
+            -0.03497633710503578,
+            -0.005362564232200384
+        ]
+    ],
+    "position_instruction": "Place the box behind the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.",
+    "rotation_instruction_label": "upside_down_textual",
+    "obj_codes": [
+        "065-h",
+        "004"
+    ],
+    "target_obj_code": "004",
+    "anno_target": {
+        "category": "box",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            },
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            },
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down_textual",
+    "rot_tag_level": 2,
+    "position_tag": "behind",
+    "rotation_tag": "upside_down_textual"
+}

@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "shoe",
+        "wineglass",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/8eda72f64e6e4443af4fdbeed07cad29/material_2.urdf",
+        "objaverse_rescale/ae7142127dd84ebbbe7762368ace452c/material_2.urdf",
+        "objaverse_rescale/dc707f81a94e48078069c6a463f59fcf/material_2.urdf",
+        "objaverse_rescale/4f24b866dab248b684149ec6bb40101f/material_2.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer on top of the tissue box on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6553793168027926,
+            -0.1375433255552387,
+            0.9296261089724683,
+            -2.365026398700239e-07,
+            4.39122928353238e-06,
+            0.07784218548096297,
+            0.9969656935623251,
+            -0.0009010088979266584,
+            0.0032281051389873028,
+            -0.008779117837548256,
+            -0.03278516232967377,
+            -0.02626272849738598,
+            -0.0014498927630484104
+        ],
+        [
+            0.4082927356416159,
+            -0.04341668813582647,
+            0.9310939656155225,
+            -0.01953865993475762,
+            0.22348070999824116,
+            0.08193429829569647,
+            0.9710619876142959,
+            -7.129201549105346e-05,
+            0.0004966157139278948,
+            0.00020877823408227414,
+            -0.01088628824800253,
+            -0.003442351007834077,
+            0.001350729027763009
+        ],
+        [
+            0.410244750385226,
+            -0.2370031009733644,
+            0.9245559292612396,
+            0.04483972727839209,
+            0.035341120595796784,
+            0.05314995075141511,
+            0.9969531015989452,
+            -0.0003177100152242929,
+            0.006506204139441252,
+            -0.0054800137877464294,
+            -0.15082451701164246,
+            0.05078059807419777,
+            0.0093512749299407
+        ],
+        [
+            0.5326439656949353,
+            0.1992356540600311,
+            0.9118843926726965,
+            0.020051759727473906,
+            0.021914438711779463,
+            -0.06307311918047188,
+            0.9975667726747038,
+            -0.012590566650032997,
+            0.004187146667391062,
+            0.014542640186846256,
+            0.39986664056777954,
+            -0.6166484951972961,
+            0.03762432560324669
+        ]
+    ],
+    "position_instruction": "Place the hammer on top of the tissue box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "8eda72f64e6e4443af4fdbeed07cad29",
+        "ae7142127dd84ebbbe7762368ace452c",
+        "dc707f81a94e48078069c6a463f59fcf",
+        "4f24b866dab248b684149ec6bb40101f"
+    ],
+    "target_obj_code": "4f24b866dab248b684149ec6bb40101f",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.9628205299377441,
+                        0.27014192938804626
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "handle_right"
+}

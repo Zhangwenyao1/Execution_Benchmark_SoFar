@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "hammer",
+        "tissue box",
+        "knife"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6d155e8051294915813e0c156e3cd6de/material_2.urdf",
+        "objaverse_rescale/6e9e9135bb5747f58d388e1e92477f02/material_2.urdf",
+        "ycb_16k_backup/032_knife_google_16k/032_knife_google_16k.urdf"
+    ],
+    "target_obj_name": "knife",
+    "instruction": "Place the knife behind the hammer on the table. We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.5019521709130358,
+            -0.15961128879252015,
+            0.9327226756088614,
+            0.08223262193875831,
+            -0.0024412563661636725,
+            -0.029573487595163903,
+            0.9961712929952803,
+            1.186203553515952e-05,
+            -0.0015947306528687477,
+            -0.003938034176826477,
+            0.037422385066747665,
+            -0.034262046217918396,
+            -0.022379189729690552
+        ],
+        [
+            0.5705854729594549,
+            0.06022526394121403,
+            0.9432272288014766,
+            -0.021936137353550572,
+            -0.7067755221709462,
+            -0.7067574310844543,
+            -0.02193400886511686,
+            0.0022890756372362375,
+            0.003945928532630205,
+            -0.007478835992515087,
+            -0.09523369371891022,
+            0.04417360946536064,
+            -0.0018798785749822855
+        ],
+        [
+            0.4261926167354073,
+            0.20962369464687697,
+            0.918039938258241,
+            -0.2632281119822548,
+            0.0036229841379644767,
+            0.07337567377565157,
+            -0.9619323497763048,
+            0.0038856191094964743,
+            -0.0003589462139643729,
+            0.03319614380598068,
+            -2.089892625808716,
+            0.04771900177001953,
+            0.026186343282461166
+        ]
+    ],
+    "position_instruction": "Place the knife behind the hammer on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blade_right",
+    "obj_codes": [
+        "6d155e8051294915813e0c156e3cd6de",
+        "6e9e9135bb5747f58d388e1e92477f02",
+        "032"
+    ],
+    "target_obj_code": "032",
+    "anno_target": {
+        "category": "knife",
+        "annotation": {
+            " the blade of the knife is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        -0.010130898095667362,
+                        0.010130898095667362,
+                        0.707034170627594,
+                        0.707034170627594
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blade of the knife is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        -0.010140104219317436,
+                        -0.010121682658791542,
+                        0.7076767086982727,
+                        -0.7063910365104675
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blade_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "blade_right"
+}

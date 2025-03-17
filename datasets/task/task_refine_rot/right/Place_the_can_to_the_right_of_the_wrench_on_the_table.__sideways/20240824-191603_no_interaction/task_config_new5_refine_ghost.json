@@ -1,0 +1,127 @@
+{
+    "selected_obj_names": [
+        "wrench",
+        "shoe",
+        "mug",
+        "can"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/8a6cb4f7b0004f53830e270dc6e1ff1d/material_2.urdf",
+        "objaverse_rescale/d5a5f0a954f94bcea3168329d1605fe9/material_2.urdf",
+        "objaverse_rescale/c25119c5ac6e4654be3b75d78e34a912/material_2.urdf",
+        "ycb_16k_backup/010_potted_meat_can_google_16k/010_potted_meat_can_google_16k.urdf"
+    ],
+    "target_obj_name": "can",
+    "instruction": "Place the can to the right of the wrench on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.5897762660728223,
+            -0.015002705513658905,
+            0.9018550674153358,
+            -0.48653114382208074,
+            0.5131090984456026,
+            0.4865147559262138,
+            0.5131373027266454,
+            -0.0005739575135521591,
+            0.0008874233462847769,
+            0.03490611910820007,
+            -1.9600006341934204,
+            -0.8381307721138,
+            -1.0867135524749756
+        ],
+        [
+            0.6087465256428758,
+            -0.1843808608207697,
+            0.9903638480678872,
+            -0.09500834097861388,
+            -0.04160021174556028,
+            -0.009381467368997197,
+            0.9945626303040053,
+            0.006736385636031628,
+            -0.0036342120729386806,
+            -0.000589494127780199,
+            -0.04893222078680992,
+            0.08363249152898788,
+            0.10530132055282593
+        ],
+        [
+            0.7514386096950373,
+            0.04545346907376277,
+            0.930436848587135,
+            0.7948301266792441,
+            0.5307465750811879,
+            -0.24037445581228947,
+            0.16962683677882867,
+            9.888251952361315e-05,
+            6.711955211358145e-05,
+            -0.00024684995878487825,
+            0.00032373194699175656,
+            2.493797364877537e-05,
+            7.955305773066357e-05
+        ],
+        [
+            0.3037629760422714,
+            0.19440470522793118,
+            0.9030836675808361,
+            -0.000616065644766642,
+            -0.00019475561113585087,
+            0.00687884219907707,
+            0.9999761317468397,
+            0.0007461394416168332,
+            -0.003004319965839386,
+            -0.0004749051877297461,
+            0.0739792063832283,
+            0.0016745139146223664,
+            0.024033578112721443
+        ]
+    ],
+    "position_instruction": "Place the can to the right of the wrench on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "8a6cb4f7b0004f53830e270dc6e1ff1d",
+        "d5a5f0a954f94bcea3168329d1605fe9",
+        "c25119c5ac6e4654be3b75d78e34a912",
+        "010"
+    ],
+    "target_obj_code": "010",
+    "anno_target": {
+        "category": "can",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.0,
+                        0.7071067690849304,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.0,
+                        -0.7071067690849304,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "sideways"
+}

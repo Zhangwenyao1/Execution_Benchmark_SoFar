@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "headphone",
+        "remote control",
+        "screwdriver",
+        "wrench"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f8891134871e48ce8cb5053c4287272b/material_2.urdf",
+        "objaverse_rescale/f1bbc61a42b94ee9a2976ca744f8962e/material_2.urdf",
+        "ycb_16k_backup/044_flat_screwdriver_google_16k/044_flat_screwdriver_google_16k.urdf",
+        "objaverse_rescale/5bf781c9fd8d4121b735503b13ba2eaf/material_2.urdf"
+    ],
+    "target_obj_name": "wrench",
+    "instruction": "Place the wrench to the left of the headphone on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.4806820137300399,
+            -0.17445398958826938,
+            0.9470990862555725,
+            -0.1013354620685785,
+            0.01641153884725876,
+            -0.0400520093285223,
+            0.9939102686202419,
+            0.006822490599006414,
+            -0.0022253741044551134,
+            0.0041981409303843975,
+            0.031293489038944244,
+            0.16386303305625916,
+            0.02274307794868946
+        ],
+        [
+            0.526011126198994,
+            -0.04973741157127686,
+            0.9396200841156367,
+            -0.8661991068085799,
+            0.19471427428717836,
+            -0.11661697670138393,
+            0.44518079417003664,
+            0.0030446932651102543,
+            0.0020712350960820913,
+            0.02764347940683365,
+            -0.30564555525779724,
+            -0.2511604130268097,
+            0.35771918296813965
+        ],
+        [
+            0.6681882870031246,
+            -0.0061453316037012404,
+            0.9005577028778337,
+            0.013101138417078495,
+            -0.011919433876119287,
+            -0.10580088086745057,
+            0.9942295815735515,
+            -0.0019093913724645972,
+            -0.00010782509343698621,
+            -0.0014638089342042804,
+            0.04038883000612259,
+            -0.06048549711704254,
+            0.00265374593436718
+        ],
+        [
+            0.5588373630352558,
+            0.23763451669143845,
+            0.9052623909514708,
+            -0.6717322972613692,
+            -0.20586911834597393,
+            0.22490420209357365,
+            0.6751383019856507,
+            -0.002127311425283551,
+            -0.0009689825237728655,
+            0.030402297154068947,
+            -0.5798094272613525,
+            0.025264907628297806,
+            0.0007544298423454165
+        ]
+    ],
+    "position_instruction": "Place the wrench to the left of the headphone on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "f8891134871e48ce8cb5053c4287272b",
+        "f1bbc61a42b94ee9a2976ca744f8962e",
+        "044",
+        "5bf781c9fd8d4121b735503b13ba2eaf"
+    ],
+    "target_obj_code": "5bf781c9fd8d4121b735503b13ba2eaf",
+    "anno_target": {
+        "category": "wrench",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "handle_right"
+}

@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "hot glue gun",
+        "bowl",
+        "pear",
+        "eraser"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/5ceec13e87774982afe825e7e74a0ce1/material_2.urdf",
+        "ycb_16k_backup/024_bowl_google_16k/024_bowl_google_16k.urdf",
+        "objaverse_rescale/f9ac5185507b4d0dbc744941e9055b96/material_2.urdf",
+        "objaverse_rescale/f0916a69ba514ecc973b44528b9dcc43/material_2.urdf"
+    ],
+    "target_obj_name": "eraser",
+    "instruction": "Place the eraser to the right of the hot glue gun on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.3159007604917049,
+            -0.10003622542453687,
+            0.9177698950277314,
+            -0.003682125713759578,
+            0.02998771034786025,
+            0.0761752725206171,
+            0.9966365972784315,
+            -0.0004916938487440348,
+            -0.004796595312654972,
+            -0.0028397925198078156,
+            0.18516473472118378,
+            -0.05653194338083267,
+            -0.07446162402629852
+        ],
+        [
+            0.5462592242002486,
+            -0.23510075902403132,
+            0.9004650142156774,
+            0.0002761937061332726,
+            -0.0004888133706485246,
+            0.11190304346202999,
+            0.9937189711595827,
+            -0.0004904145025648177,
+            7.712787191849202e-05,
+            -0.00021744858531747013,
+            0.0013194424100220203,
+            -0.017068222165107727,
+            0.006844230927526951
+        ],
+        [
+            0.5073755068031519,
+            0.12383717374872459,
+            0.9343448731624964,
+            -0.12920983959115256,
+            0.034381644581172564,
+            -0.1053442160216348,
+            0.9854061680441769,
+            0.0022544716484844685,
+            -0.0012735435739159584,
+            -0.000954899936914444,
+            0.026760073378682137,
+            0.043351929634809494,
+            0.03493398427963257
+        ],
+        [
+            0.6450107713129848,
+            -0.16091656974858523,
+            0.9106525556713381,
+            0.6882007694476757,
+            0.12378578467445196,
+            0.15120697691144222,
+            0.6987082585582202,
+            0.002017173683270812,
+            -0.0017132044304162264,
+            0.01760879158973694,
+            0.5991109609603882,
+            -0.2044793963432312,
+            -0.028159383684396744
+        ]
+    ],
+    "position_instruction": "Place the eraser to the right of the hot glue gun on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "5ceec13e87774982afe825e7e74a0ce1",
+        "024",
+        "f9ac5185507b4d0dbc744941e9055b96",
+        "f0916a69ba514ecc973b44528b9dcc43"
+    ],
+    "target_obj_code": "f0916a69ba514ecc973b44528b9dcc43",
+    "anno_target": {
+        "category": "eraser",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        -0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "right",
+    "rotation_tag": "lying_flat"
+}

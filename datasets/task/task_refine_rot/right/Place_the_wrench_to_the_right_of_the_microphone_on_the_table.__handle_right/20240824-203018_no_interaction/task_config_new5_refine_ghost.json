@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "microphone",
+        "wrench"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f9d07bb386a04de8b0e1a9a28a936985/material_2.urdf",
+        "objaverse_rescale/19c1913ba85042938f0a87d94397c946/material_2.urdf"
+    ],
+    "target_obj_name": "wrench",
+    "instruction": "Place the wrench to the right of the microphone on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.45923446404174906,
+            -0.12228296909179984,
+            0.9437370661604109,
+            -0.044733784436305046,
+            -0.013709991061515209,
+            -0.003842280604497582,
+            0.9988974729945289,
+            3.292066594440257e-06,
+            -0.0007253367803059518,
+            -0.002564559457823634,
+            0.022714126855134964,
+            0.014299566857516766,
+            -0.007992568425834179
+        ],
+        [
+            0.4333392988234024,
+            0.19712039835897882,
+            0.907534433220628,
+            0.00987964758803252,
+            0.0018405949087321987,
+            0.04109178211772855,
+            0.9991048344474713,
+            -0.000826978764962405,
+            0.0023683705367147923,
+            0.028574351221323013,
+            0.007689759600907564,
+            3.9583046436309814,
+            0.47936326265335083
+        ]
+    ],
+    "position_instruction": "Place the wrench to the right of the microphone on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "f9d07bb386a04de8b0e1a9a28a936985",
+        "19c1913ba85042938f0a87d94397c946"
+    ],
+    "target_obj_code": "19c1913ba85042938f0a87d94397c946",
+    "anno_target": {
+        "category": "wrench",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "handle_right"
+}

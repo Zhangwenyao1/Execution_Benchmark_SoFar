@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "toy",
+        "calculator"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/2bd98e8ea09f49bd85453a927011d31d/material_2.urdf",
+        "ycb_16k_backup/073-g_lego_duplo_google_16k/073-g_lego_duplo_google_16k.urdf",
+        "objaverse_rescale/f0b1f7c17d70489888f5ae922169c0ce/material_2.urdf"
+    ],
+    "target_obj_name": "calculator",
+    "instruction": "Place the calculator in front of tissue box on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.39755083748718545,
+            0.22079985279793807,
+            0.9149069279643025,
+            -0.0009795867331095446,
+            -7.8073408231529e-05,
+            0.07061749824240161,
+            0.9975029840839373,
+            0.00016340558067895472,
+            0.00028525429661385715,
+            -7.12164182914421e-05,
+            -0.0029544983990490437,
+            0.0013285174500197172,
+            1.2218617484904826e-05
+        ],
+        [
+            0.6371996011765689,
+            -0.16809009363529126,
+            0.9002527425817217,
+            0.0021708213890052393,
+            -0.0007667669524210329,
+            0.029033218307356057,
+            0.9995757959442867,
+            -0.0015510939992964268,
+            -0.00028933960129506886,
+            -0.0025887894444167614,
+            0.011736583895981312,
+            -0.01348947361111641,
+            -0.005989095661789179
+        ],
+        [
+            0.2919626001037857,
+            -0.1303421000040348,
+            0.9114246388686594,
+            0.7046923766215747,
+            -0.07336861610325594,
+            -0.07307288291909096,
+            0.7019159880530019,
+            -0.00022105294920038432,
+            0.00017579796258360147,
+            -0.0019145982805639505,
+            -0.01904173195362091,
+            -0.0012754773488268256,
+            -0.001406942610628903
+        ]
+    ],
+    "position_instruction": "Place the calculator in front of tissue box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "2bd98e8ea09f49bd85453a927011d31d",
+        "073-g",
+        "f0b1f7c17d70489888f5ae922169c0ce"
+    ],
+    "target_obj_code": "f0b1f7c17d70489888f5ae922169c0ce",
+    "anno_target": {
+        "category": "calculator",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5333969593048096,
+                    -0.5333969593048096,
+                    0.4642065465450287,
+                    0.4642064869403839
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "front",
+    "rotation_tag": "upside_down"
+}

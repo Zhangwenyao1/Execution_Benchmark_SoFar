@@ -1,0 +1,71 @@
+{
+    "selected_obj_names": [
+        "power drill",
+        "calculator"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/035_power_drill_google_16k/035_power_drill_google_16k.urdf",
+        "objaverse_rescale/69511a7fad2f42ee8c4b0579bbc8fec6/material_2.urdf"
+    ],
+    "target_obj_name": "calculator",
+    "instruction": "Place the calculator to the left of the power drill on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6764729477684667,
+            -0.019886710439790935,
+            0.9031001227785783,
+            -1.8369136847803105e-05,
+            0.0001734958205995763,
+            -0.048164693629491606,
+            0.9988393924196987,
+            -9.422728180652484e-05,
+            0.00014845782425254583,
+            -0.0003983861533924937,
+            -0.005392094142735004,
+            0.0005977552500553429,
+            1.3740977010456845e-05
+        ],
+        [
+            0.4574358647779365,
+            0.06580533690595129,
+            0.910229301239673,
+            0.00017997776321672973,
+            5.1157692134710004e-05,
+            -0.11791015888166391,
+            0.99302424916182,
+            0.0003971606201957911,
+            0.001056378474459052,
+            -0.008014852181077003,
+            -0.11231434345245361,
+            0.020902222022414207,
+            -0.0058831023052334785
+        ]
+    ],
+    "position_instruction": "Place the calculator to the left of the power drill on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "035",
+        "69511a7fad2f42ee8c4b0579bbc8fec6"
+    ],
+    "target_obj_code": "69511a7fad2f42ee8c4b0579bbc8fec6",
+    "anno_target": {
+        "category": "calculator",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "upside_down"
+}

@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "tape measure",
+        "power drill",
+        "screwdriver"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/1574b13827734d54b6d9d86be8be71d1/material_2.urdf",
+        "ycb_16k_backup/035_power_drill_google_16k/035_power_drill_google_16k.urdf",
+        "ycb_16k_backup/044_flat_screwdriver_google_16k/044_flat_screwdriver_google_16k.urdf"
+    ],
+    "target_obj_name": "screwdriver",
+    "instruction": "Place the screwdriver in front of tape measure on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.3850632318502078,
+            0.14841410343277386,
+            0.9536685830996366,
+            -0.952832524007594,
+            0.034671930877623436,
+            -0.0025632874065851094,
+            0.30149870308213034,
+            0.00010543489042902365,
+            -0.0012420129496604204,
+            -0.0005001183599233627,
+            0.0313136912882328,
+            -0.014323633164167404,
+            0.02216922491788864
+        ],
+        [
+            0.4833982889787142,
+            -0.224920414396397,
+            0.9031004323886372,
+            -2.6919095689048063e-05,
+            0.00021197574943890163,
+            -0.0989661355440798,
+            0.9950907789529123,
+            -0.0001482036750530824,
+            9.199748456012458e-05,
+            -0.00038709849468432367,
+            -0.0045484257861971855,
+            -0.002201160416007042,
+            -9.083939221454784e-05
+        ],
+        [
+            0.5458305222958213,
+            -0.090490071677963,
+            0.9005566323065561,
+            0.014231606186632084,
+            -0.01049608495601675,
+            -0.002825375074006504,
+            0.9998396425635637,
+            -0.001590737490914762,
+            0.0004294535028748214,
+            -0.0010623808484524488,
+            0.05111636966466904,
+            -0.06354542821645737,
+            -0.07917235791683197
+        ]
+    ],
+    "position_instruction": "Place the screwdriver in front of tape measure on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "1574b13827734d54b6d9d86be8be71d1",
+        "035",
+        "044"
+    ],
+    "target_obj_code": "044",
+    "anno_target": {
+        "category": "screwdriver",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.011427843011915684,
+                        0.021855341270565987,
+                        -0.40244925022125244,
+                        0.9151100516319275
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "handle_right"
+}

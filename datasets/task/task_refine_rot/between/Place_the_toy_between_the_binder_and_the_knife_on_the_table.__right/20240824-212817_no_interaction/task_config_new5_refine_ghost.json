@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "binder",
+        "knife",
+        "toy"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/78e016eeb0bf45d5bea47547128383a8/material_2.urdf",
+        "objaverse_rescale/85db1d392a89459dbde5cdd951c4f6fb/material_2.urdf",
+        "ycb_16k_backup/072-a_toy_airplane_google_16k/072-a_toy_airplane_google_16k.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "Place the toy between the binder and the knife on the table. We also need to specify the rotation of the object after placement: the toy is facing right, with its head oriented towards left",
+    "init_obj_pos": [
+        [
+            0.6550253022235469,
+            0.14452726607803665,
+            1.0259916338984159,
+            -4.930710250397273e-07,
+            -4.198344436917325e-06,
+            -0.08111474240812143,
+            0.9967047700027292,
+            -0.0017803710652515292,
+            1.1461062968010083e-05,
+            -0.0008047405863180757,
+            -0.0013038248289376497,
+            -0.009511989541351795,
+            0.0020517304074019194
+        ],
+        [
+            0.31457055184312777,
+            0.21699026849712566,
+            0.92131881963711,
+            -0.018213858678012465,
+            -0.012163266712858794,
+            0.049002501032506605,
+            0.9985584936234275,
+            0.0012477333657443523,
+            -0.00014886580174788833,
+            -0.00212584575638175,
+            0.04339655116200447,
+            -0.08945883065462112,
+            0.03902871534228325
+        ],
+        [
+            0.32964001668162696,
+            -0.07184315762228015,
+            0.9001957269742155,
+            -0.0014174307974496542,
+            -0.00036858401291636734,
+            0.12125760308600227,
+            0.9926199921065445,
+            0.003923810552805662,
+            0.0013779584551230073,
+            -0.0012223345693200827,
+            -0.018271347507834435,
+            0.05211668089032173,
+            -0.0017841880908235908
+        ]
+    ],
+    "position_instruction": "Place the toy between the binder and the knife on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement: the toy is facing right, with its head oriented towards left",
+    "rotation_instruction_label": "right",
+    "obj_codes": [
+        "78e016eeb0bf45d5bea47547128383a8",
+        "85db1d392a89459dbde5cdd951c4f6fb",
+        "072-a"
+    ],
+    "target_obj_code": "072-a",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        -0.0,
+                        0.0,
+                        -0.9992738962173462,
+                        -0.038100600242614746
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        -0.0,
+                        0.0,
+                        -0.042994238436222076,
+                        0.9990752935409546
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "right"
+}

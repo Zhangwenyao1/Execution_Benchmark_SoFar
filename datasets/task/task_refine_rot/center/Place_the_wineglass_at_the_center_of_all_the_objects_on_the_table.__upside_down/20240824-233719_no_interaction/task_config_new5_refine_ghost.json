@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "bottle",
+        "wrench",
+        "wineglass"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-a_cups_google_16k/065-a_cups_google_16k.urdf",
+        "objaverse_rescale/8c0f8088a5d546c886d1b07e3f4eafae/material_2.urdf",
+        "objaverse_rescale/8a6cb4f7b0004f53830e270dc6e1ff1d/material_2.urdf",
+        "objaverse_rescale/afca0b1933b84b1dbebd1244f25e72fc/material_2.urdf"
+    ],
+    "target_obj_name": "wineglass",
+    "instruction": "Place the wineglass at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.3940762045793708,
+            -0.0396120274186476,
+            0.9011073235437361,
+            0.002141698741755663,
+            -0.005127777800173962,
+            0.03785177199382902,
+            0.9992679132135978,
+            -0.002994178794324398,
+            -0.005196387879550457,
+            0.009853484109044075,
+            -0.252017080783844,
+            -0.7274049520492554,
+            1.4130829572677612
+        ],
+        [
+            0.5061567719549934,
+            0.272725297800434,
+            0.9332310382938128,
+            -0.05013058439069607,
+            -0.003924217251824657,
+            0.022642291571501955,
+            0.9984782679958534,
+            -0.013983850367367268,
+            0.09056790173053741,
+            0.06982693076133728,
+            -2.8863158226013184,
+            0.13300201296806335,
+            -1.0350189208984375
+        ],
+        [
+            0.6916292172663021,
+            0.04609057485561111,
+            0.9018278055459239,
+            0.17218846000025326,
+            -0.6858282706022564,
+            0.1722632709246965,
+            0.6857959484976448,
+            0.0014468630542978644,
+            -0.0001145294081652537,
+            0.025584157556295395,
+            -0.9279456734657288,
+            0.7393477559089661,
+            -0.03652625530958176
+        ],
+        [
+            0.5120357175588541,
+            -0.008506226115797473,
+            0.9424452141343042,
+            -0.0385683054187096,
+            0.1742522762482878,
+            0.06076433579154022,
+            0.9820673732159273,
+            0.018636904656887054,
+            -0.08134807646274567,
+            -0.051649365574121475,
+            2.4528114795684814,
+            1.0534111261367798,
+            -1.2579253911972046
+        ]
+    ],
+    "position_instruction": "Place the wineglass at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "065-a",
+        "8c0f8088a5d546c886d1b07e3f4eafae",
+        "8a6cb4f7b0004f53830e270dc6e1ff1d",
+        "afca0b1933b84b1dbebd1244f25e72fc"
+    ],
+    "target_obj_code": "afca0b1933b84b1dbebd1244f25e72fc",
+    "anno_target": {
+        "category": "wineglass",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "center",
+    "rotation_tag": "upside_down"
+}

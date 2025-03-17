@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "eraser",
+        "shoe",
+        "wrench"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f0916a69ba514ecc973b44528b9dcc43/material_2.urdf",
+        "objaverse_rescale/ece4453042144b4a82fb86a4eab1ba7f/material_2.urdf",
+        "objaverse_rescale/19c1913ba85042938f0a87d94397c946/material_2.urdf"
+    ],
+    "target_obj_name": "wrench",
+    "instruction": "Place the wrench between the eraser and the shoe on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.3542926071016388,
+            0.16331217956799884,
+            0.9106800028246262,
+            0.689225802017288,
+            0.11731841314744472,
+            0.14250638222562081,
+            0.7006397896174303,
+            -0.0017607987392693758,
+            -0.009429694153368473,
+            0.01914525404572487,
+            0.9084029793739319,
+            -0.11910413950681686,
+            0.1428716778755188
+        ],
+        [
+            0.26602813590023544,
+            -0.1669220342434193,
+            0.9314044227636676,
+            -0.13240123107322493,
+            -0.6881879174085925,
+            -0.09728043864222578,
+            0.7066850929520828,
+            -0.0006758598028682172,
+            0.000357055920176208,
+            -0.0008183254976756871,
+            -0.014286311343312263,
+            -0.025555837899446487,
+            0.00039195368299260736
+        ],
+        [
+            0.687171299649773,
+            0.23041180680621196,
+            0.9075128993972132,
+            0.01019067667096449,
+            0.0015855317245216625,
+            -0.011110498190792642,
+            0.9998850899118813,
+            -2.5662009647930972e-05,
+            0.00022066976816859096,
+            0.028220202773809433,
+            0.47180184721946716,
+            3.61045241355896,
+            -0.042905181646347046
+        ]
+    ],
+    "position_instruction": "Place the wrench between the eraser and the shoe on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "f0916a69ba514ecc973b44528b9dcc43",
+        "ece4453042144b4a82fb86a4eab1ba7f",
+        "19c1913ba85042938f0a87d94397c946"
+    ],
+    "target_obj_code": "19c1913ba85042938f0a87d94397c946",
+    "anno_target": {
+        "category": "wrench",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_right"
+}

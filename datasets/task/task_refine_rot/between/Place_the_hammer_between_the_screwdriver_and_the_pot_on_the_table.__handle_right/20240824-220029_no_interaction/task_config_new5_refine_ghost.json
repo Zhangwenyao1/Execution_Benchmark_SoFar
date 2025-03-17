@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "screwdriver",
+        "pot",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/043_phillips_screwdriver_google_16k/043_phillips_screwdriver_google_16k.urdf",
+        "objaverse_rescale/af249e607bea40cfa2f275e5e23b8283/material_2.urdf",
+        "objaverse_rescale/9bf1b31f641543c9a921042dac3b527f/material_2.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer between the screwdriver and the pot on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.46822622976858813,
+            -0.04470035296783256,
+            0.9337900381028735,
+            -0.4758588708987912,
+            -0.4653026242865793,
+            0.23652428231142303,
+            0.7078898690446256,
+            0.002850188175216317,
+            -9.076507558347657e-05,
+            -0.005512321833521128,
+            0.5675585269927979,
+            0.5019047260284424,
+            -0.19417396187782288
+        ],
+        [
+            0.39267716302846734,
+            -0.306570252722053,
+            0.9813025824895601,
+            0.7061633219979091,
+            0.03655725210279839,
+            0.03655219692872281,
+            0.7061592362089838,
+            0.0020273770205676556,
+            0.0008862076210789382,
+            -0.00015706787235103548,
+            -0.012815626338124275,
+            0.035736922174692154,
+            -0.006233902182430029
+        ],
+        [
+            0.5344427616391418,
+            -0.029840180273406344,
+            0.9292030939275263,
+            0.3930578780859204,
+            0.584546479918638,
+            -0.5786267077802277,
+            0.4110985895533316,
+            0.007477997802197933,
+            0.002623410429805517,
+            0.0314263291656971,
+            -0.19974178075790405,
+            0.41737332940101624,
+            0.012228448875248432
+        ]
+    ],
+    "position_instruction": "Place the hammer between the screwdriver and the pot on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "043",
+        "af249e607bea40cfa2f275e5e23b8283",
+        "9bf1b31f641543c9a921042dac3b527f"
+    ],
+    "target_obj_code": "9bf1b31f641543c9a921042dac3b527f",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        -0.7071067690849304,
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_right"
+}

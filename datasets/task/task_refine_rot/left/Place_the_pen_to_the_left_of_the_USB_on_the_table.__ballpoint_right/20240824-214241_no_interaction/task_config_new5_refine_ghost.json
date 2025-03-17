@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "USB",
+        "headphone",
+        "pen"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/0a51815f3c0941ae8312fc6917173ed6/material_2.urdf",
+        "objaverse_rescale/f8891134871e48ce8cb5053c4287272b/material_2.urdf",
+        "objaverse_rescale/fbeb7c776372466daffa619106e0b2e0/material_2.urdf"
+    ],
+    "target_obj_name": "pen",
+    "instruction": "Place the pen to the left of the USB on the table. We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "init_obj_pos": [
+        [
+            0.2622516732435662,
+            -0.20710460991422766,
+            0.911186799003888,
+            -0.20796707384644095,
+            -0.39941906408225275,
+            -0.077835245593484,
+            0.889469382264959,
+            9.11353636183776e-05,
+            -3.340985858812928e-05,
+            -3.0009890906512737e-05,
+            0.00402766652405262,
+            0.007169326301664114,
+            -7.189539610408247e-05
+        ],
+        [
+            0.6912621930383831,
+            0.012109835625283418,
+            0.9458072565388309,
+            -0.11381791156493257,
+            -0.0008234145562385679,
+            0.007190806732905281,
+            0.9934752625475857,
+            0.00030724439420737326,
+            0.00026344892103224993,
+            1.4011559869686607e-05,
+            -0.005884053185582161,
+            0.008649040013551712,
+            -0.0005156651604920626
+        ],
+        [
+            0.43641136286099835,
+            0.07221569767574862,
+            0.907210818516951,
+            -0.13594382420501722,
+            0.014529766162948503,
+            -0.037517429091769534,
+            0.9898992903675153,
+            -0.001145623275078833,
+            0.0005281843477860093,
+            0.03125062212347984,
+            -2.2564210891723633,
+            -0.5455729365348816,
+            0.48517513275146484
+        ]
+    ],
+    "position_instruction": "Place the pen to the left of the USB on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "rotation_instruction_label": "ballpoint_right",
+    "obj_codes": [
+        "0a51815f3c0941ae8312fc6917173ed6",
+        "f8891134871e48ce8cb5053c4287272b",
+        "fbeb7c776372466daffa619106e0b2e0"
+    ],
+    "target_obj_code": "fbeb7c776372466daffa619106e0b2e0",
+    "anno_target": {
+        "category": "pen",
+        "annotation": {
+            " the ballpoint of the pen is on the left(oriented towards left), while the clicker is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "ballpoint_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "ballpoint_right"
+}

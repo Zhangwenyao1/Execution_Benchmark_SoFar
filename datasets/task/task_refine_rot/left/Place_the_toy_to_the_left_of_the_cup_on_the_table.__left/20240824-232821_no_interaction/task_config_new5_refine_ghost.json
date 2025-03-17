@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "pear",
+        "toy"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-j_cups_google_16k/065-j_cups_google_16k.urdf",
+        "objaverse_rescale/f9ac5185507b4d0dbc744941e9055b96/material_2.urdf",
+        "ycb_16k_backup/072-a_toy_airplane_google_16k/072-a_toy_airplane_google_16k.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "Place the toy to the left of the cup on the table. We also need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "init_obj_pos": [
+        [
+            0.4559920358492451,
+            -0.09551522689740656,
+            0.9003776166805365,
+            0.0001326846426265996,
+            -0.00037523883215356184,
+            -0.49260835945908193,
+            0.8702510245794808,
+            0.0013879588805139065,
+            -0.002162190619856119,
+            -0.002762802178040147,
+            0.0790596678853035,
+            0.05635378509759903,
+            -0.013361236080527306
+        ],
+        [
+            0.4621657686349636,
+            0.053406269746194286,
+            0.9343449121198941,
+            -0.13076324308469792,
+            0.027880381286472647,
+            -0.055958097950291975,
+            0.9894404225980855,
+            0.002071274211630225,
+            -0.0011519364779815078,
+            -0.000756503373850137,
+            0.02576061151921749,
+            0.038303349167108536,
+            0.033797454088926315
+        ],
+        [
+            0.581221497679263,
+            -0.03603714171865377,
+            0.9255790935684914,
+            0.09055144735646471,
+            0.3347007518584663,
+            -0.11031994473128046,
+            0.9314533546461224,
+            -0.0004470833810046315,
+            -0.0005090359481982887,
+            -0.0004900528583675623,
+            0.002159212250262499,
+            0.003455166472122073,
+            0.004635028541088104
+        ]
+    ],
+    "position_instruction": "Place the toy to the left of the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "rotation_instruction_label": "left",
+    "obj_codes": [
+        "065-j",
+        "f9ac5185507b4d0dbc744941e9055b96",
+        "072-a"
+    ],
+    "target_obj_code": "072-a",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        -0.0,
+                        0.0,
+                        -0.9992738962173462,
+                        -0.038100600242614746
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        -0.0,
+                        0.0,
+                        -0.042994238436222076,
+                        0.9990752935409546
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_left",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "left"
+}

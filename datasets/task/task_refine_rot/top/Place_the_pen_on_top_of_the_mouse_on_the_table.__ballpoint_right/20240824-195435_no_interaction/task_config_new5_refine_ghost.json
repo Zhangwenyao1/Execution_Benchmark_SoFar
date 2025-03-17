@@ -1,0 +1,85 @@
+{
+    "selected_obj_names": [
+        "mouse",
+        "pen"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f496168739384cdb86ef6d65e2068a3f/material_2.urdf",
+        "objaverse_rescale/f126e15c0f904fccbd76f9348baea12c/material_2.urdf"
+    ],
+    "target_obj_name": "pen",
+    "instruction": "Place the pen on top of the mouse on the table. We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "init_obj_pos": [
+        [
+            0.5978840002495955,
+            -0.009429522220354397,
+            0.9284731179510037,
+            -0.6259029828921759,
+            0.051967004877713364,
+            -0.06352722718546536,
+            0.775570227520913,
+            0.0039199902676045895,
+            -0.000127291728858836,
+            -0.0003576449234969914,
+            0.004253905266523361,
+            0.19901295006275177,
+            -0.030147584155201912
+        ],
+        [
+            0.48497419556776694,
+            -0.03267054814012405,
+            0.9070407271673164,
+            -0.47769956144943027,
+            -0.5236123186436553,
+            -0.29414322103008705,
+            0.6411809684306621,
+            -0.0013103591045364738,
+            -0.00676226569339633,
+            0.032545074820518494,
+            0.6721200942993164,
+            -4.046010494232178,
+            0.23705771565437317
+        ]
+    ],
+    "position_instruction": "Place the pen on top of the mouse on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "rotation_instruction_label": "ballpoint_right",
+    "obj_codes": [
+        "f496168739384cdb86ef6d65e2068a3f",
+        "f126e15c0f904fccbd76f9348baea12c"
+    ],
+    "target_obj_code": "f126e15c0f904fccbd76f9348baea12c",
+    "anno_target": {
+        "category": "pen",
+        "annotation": {
+            " the ballpoint of the pen is on the left(oriented towards left), while the clicker is on the right.": {
+                "quat": [
+                    [
+                        -0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.": {
+                "quat": [
+                    [
+                        -0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "ballpoint_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "ballpoint_right"
+}

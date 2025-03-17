@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "tape measure",
+        "remote control",
+        "speaker"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/d1d1c4b27f5c45a29910830e268f7ee2/material_2.urdf",
+        "objaverse_rescale/d72eebbf82be48f0a53e7e8b712e6a66/material_2.urdf",
+        "objaverse_rescale/4445f4442a884999960e7e6660459095/material_2.urdf"
+    ],
+    "target_obj_name": "speaker",
+    "instruction": "Place the speaker behind the tape measure on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.",
+    "init_obj_pos": [
+        [
+            0.647742578257298,
+            0.15373610935527685,
+            0.96746224789453,
+            0.0037125014186510067,
+            0.03010984518703993,
+            -0.12455987497526251,
+            0.9917481797826391,
+            -0.0005236784345470369,
+            0.0008775352034717798,
+            -0.00028974469751119614,
+            -0.015755701810121536,
+            -0.017100252211093903,
+            0.028487233445048332
+        ],
+        [
+            0.4005247820915033,
+            -0.04109223606466349,
+            0.9117730494348326,
+            0.0112220606320812,
+            0.00030768934387920087,
+            0.02724459673884918,
+            0.9995657570320096,
+            0.0007122629904188216,
+            0.0006080642924644053,
+            0.00010418787860544398,
+            -0.02184167504310608,
+            0.09986765682697296,
+            0.019603678956627846
+        ],
+        [
+            0.31170460370198405,
+            0.02027386617434429,
+            0.9687480920311408,
+            -0.002851242628780527,
+            -5.165613979114622e-06,
+            0.001577303994241945,
+            0.9999946912363572,
+            0.0024261584039777517,
+            -0.0018133175326511264,
+            -0.0009933492401614785,
+            0.02764352783560753,
+            0.0332086905837059,
+            0.0005753799923695624
+        ]
+    ],
+    "position_instruction": "Place the speaker behind the tape measure on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.",
+    "rotation_instruction_label": "upright_textual",
+    "obj_codes": [
+        "d1d1c4b27f5c45a29910830e268f7ee2",
+        "d72eebbf82be48f0a53e7e8b712e6a66",
+        "4445f4442a884999960e7e6660459095"
+    ],
+    "target_obj_code": "4445f4442a884999960e7e6660459095",
+    "anno_target": {
+        "category": "speaker",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.": {
+                "quat": [
+                    [
+                        -0.4999999701976776,
+                        -0.5000000596046448,
+                        -0.4999999701976776,
+                        -0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright_textual",
+    "rot_tag_level": 2,
+    "position_tag": "behind",
+    "rotation_tag": "upright_textual"
+}

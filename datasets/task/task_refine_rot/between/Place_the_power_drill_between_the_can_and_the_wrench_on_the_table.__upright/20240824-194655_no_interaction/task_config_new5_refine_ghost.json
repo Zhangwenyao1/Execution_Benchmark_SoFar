@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "can",
+        "wrench",
+        "book",
+        "power drill"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/005_tomato_soup_can_google_16k/005_tomato_soup_can_google_16k.urdf",
+        "objaverse_rescale/19c1913ba85042938f0a87d94397c946/material_2.urdf",
+        "objaverse_rescale/c61227cac7224b86b43c53ac2a2b6ec7/material_2.urdf",
+        "ycb_16k_backup/035_power_drill_google_16k/035_power_drill_google_16k.urdf"
+    ],
+    "target_obj_name": "power drill",
+    "instruction": "Place the power drill between the can and the wrench on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.48641360686893337,
+            -0.15711438066844635,
+            0.8998182974648695,
+            0.0002964349395745762,
+            -0.0007604064863757977,
+            0.0496524671052025,
+            0.9987662221053876,
+            -0.0019117484334856272,
+            -0.0010080959182232618,
+            -0.0001717891136649996,
+            0.015008182264864445,
+            -0.0396110936999321,
+            -0.002569799078628421
+        ],
+        [
+            0.41910361044405436,
+            0.25008051090022404,
+            0.9075141258431334,
+            0.010349407531884824,
+            0.0007340778655799604,
+            -0.12526843077420763,
+            0.9920686322754054,
+            7.136274507502094e-05,
+            0.0016811619279906154,
+            0.028503738343715668,
+            1.0698312520980835,
+            2.8942744731903076,
+            0.2543342411518097
+        ],
+        [
+            0.40775481946963354,
+            -0.224899238390323,
+            0.9141637444048516,
+            -7.887836655177445e-05,
+            4.0092624927408705e-05,
+            0.015440168458823789,
+            0.9998807895788123,
+            -0.0009266507695429027,
+            -1.951810008904431e-05,
+            -0.0025567577686160803,
+            -0.030565433204174042,
+            -0.010634560137987137,
+            0.0050552356988191605
+        ],
+        [
+            0.6616198234332047,
+            -0.20531155533129872,
+            0.9029937926589198,
+            0.0010302238202618108,
+            0.0067797037258425525,
+            -0.10032963356631952,
+            0.9949306201362579,
+            -7.90556296124123e-05,
+            9.695238986751065e-05,
+            -0.0003817843971773982,
+            -0.0048865522257983685,
+            0.0005924999713897705,
+            -0.0001446957467123866
+        ]
+    ],
+    "position_instruction": "Place the power drill between the can and the wrench on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "005",
+        "19c1913ba85042938f0a87d94397c946",
+        "c61227cac7224b86b43c53ac2a2b6ec7",
+        "035"
+    ],
+    "target_obj_code": "035",
+    "anno_target": {
+        "category": "power_drill",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upright"
+}

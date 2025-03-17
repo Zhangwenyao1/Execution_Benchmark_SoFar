@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "wineglass",
+        "cup",
+        "knife",
+        "pen"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/afca0b1933b84b1dbebd1244f25e72fc/material_2.urdf",
+        "ycb_16k_backup/065-f_cups_google_16k/065-f_cups_google_16k.urdf",
+        "objaverse_rescale/0df75457524743ec81468c916fddb930/material_2.urdf",
+        "objaverse_rescale/f126e15c0f904fccbd76f9348baea12c/material_2.urdf"
+    ],
+    "target_obj_name": "pen",
+    "instruction": "Place the pen behind the wineglass on the table. We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "init_obj_pos": [
+        [
+            0.6162702833291801,
+            -0.29834052578316583,
+            0.9407284540835814,
+            0.6083903963318276,
+            0.7810846735549263,
+            0.0895454194598911,
+            -0.10839500100349542,
+            -0.0004742281453218311,
+            0.003652020124718547,
+            -0.0023107677698135376,
+            -0.08342137187719345,
+            -0.0194749403744936,
+            -0.05369625240564346
+        ],
+        [
+            0.5263562167592281,
+            -0.20842090327997734,
+            0.9546028470445699,
+            0.15679320586702927,
+            -0.6453947782944409,
+            -0.09421948726885511,
+            0.7416226526765496,
+            0.00797655712813139,
+            -0.002799851354211569,
+            0.008192026987671852,
+            0.15317294001579285,
+            0.12460010498762131,
+            -0.10517478734254837
+        ],
+        [
+            0.6368828903893138,
+            -0.18501032264699238,
+            0.9013197154873321,
+            -0.7044354981686484,
+            0.07385866022914075,
+            -0.07336353498340087,
+            0.7020921014822665,
+            0.0015712535241618752,
+            0.0036473446525633335,
+            0.0337190255522728,
+            50.22892379760742,
+            -9.790132522583008,
+            1.017769455909729
+        ],
+        [
+            0.5028157740262315,
+            0.06180277297189767,
+            0.9070438737039574,
+            -0.541287078156956,
+            -0.4575566709379456,
+            -0.3764664979961404,
+            0.5965929665919752,
+            -0.0026423519011586905,
+            -0.003995963372290134,
+            0.03017096407711506,
+            -0.7951743602752686,
+            2.6608223915100098,
+            0.027224676683545113
+        ]
+    ],
+    "position_instruction": "Place the pen behind the wineglass on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "rotation_instruction_label": "ballpoint_right",
+    "obj_codes": [
+        "afca0b1933b84b1dbebd1244f25e72fc",
+        "065-f",
+        "0df75457524743ec81468c916fddb930",
+        "f126e15c0f904fccbd76f9348baea12c"
+    ],
+    "target_obj_code": "f126e15c0f904fccbd76f9348baea12c",
+    "anno_target": {
+        "category": "pen",
+        "annotation": {
+            " the ballpoint of the pen is on the left(oriented towards left), while the clicker is on the right.": {
+                "quat": [
+                    [
+                        -0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.": {
+                "quat": [
+                    [
+                        -0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "ballpoint_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "ballpoint_right"
+}

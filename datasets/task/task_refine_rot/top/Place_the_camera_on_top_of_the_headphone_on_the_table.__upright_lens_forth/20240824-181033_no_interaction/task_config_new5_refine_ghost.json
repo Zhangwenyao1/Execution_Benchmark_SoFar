@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "headphone",
+        "microphone",
+        "mouse",
+        "camera"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f8891134871e48ce8cb5053c4287272b/material_2.urdf",
+        "objaverse_rescale/5172dbe9281a45f48cee8c15bdfa1831/material_2.urdf",
+        "objaverse_rescale/e51e63e374ee4c25ae3fb4a9c74bd335/material_2.urdf",
+        "objaverse_rescale/f6f8675406b7437faaf96a1f82062028/material_2.urdf"
+    ],
+    "target_obj_name": "camera",
+    "instruction": "Place the camera on top of the headphone on the table. We also need to specify the rotation of the object after placement:  the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.",
+    "init_obj_pos": [
+        [
+            0.49632113293649666,
+            -0.15351928622357167,
+            0.948869527359431,
+            -0.06705962637969136,
+            -0.024890184009148258,
+            0.05064448630525291,
+            0.996151906717386,
+            0.0003511014219839126,
+            0.00027212276472710073,
+            2.851405952242203e-05,
+            -0.0059709870256483555,
+            0.009128200821578503,
+            -0.0003397358814254403
+        ],
+        [
+            0.7466292763712281,
+            -0.23775285850470126,
+            0.9439556948430771,
+            -0.06926237276318961,
+            0.13149667106300933,
+            0.007116980610722285,
+            0.9888683925606819,
+            -0.0033164522610604763,
+            0.0009441478177905083,
+            -0.0008517985697835684,
+            -0.01871447265148163,
+            -0.09686175733804703,
+            -0.002174803987145424
+        ],
+        [
+            0.6467472533543193,
+            0.14761659871681765,
+            0.9406924290686595,
+            0.16291127590764648,
+            -0.021985876906706128,
+            -0.0940122538720248,
+            0.9819054096605689,
+            0.0008370738942176104,
+            -0.003016579896211624,
+            -0.0005298033938743174,
+            0.09918985515832901,
+            0.014832649379968643,
+            0.11096101254224777
+        ],
+        [
+            0.4546790067169386,
+            0.33778881733401855,
+            0.958012844671551,
+            -0.4837313630968918,
+            0.24478612250152085,
+            0.30900913077082426,
+            0.7814071152013866,
+            0.002348517067730427,
+            -0.0012577021261677146,
+            -0.0008194462861865759,
+            0.009494871832430363,
+            0.022266803309321404,
+            -0.005386476404964924
+        ]
+    ],
+    "position_instruction": "Place the camera on top of the headphone on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.",
+    "rotation_instruction_label": "upright_lens_forth",
+    "obj_codes": [
+        "f8891134871e48ce8cb5053c4287272b",
+        "5172dbe9281a45f48cee8c15bdfa1831",
+        "e51e63e374ee4c25ae3fb4a9c74bd335",
+        "f6f8675406b7437faaf96a1f82062028"
+    ],
+    "target_obj_code": "f6f8675406b7437faaf96a1f82062028",
+    "anno_target": {
+        "category": "camera",
+        "annotation": {
+            " the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "upright_lens_forth",
+    "rot_tag_level": 2,
+    "position_tag": "top",
+    "rotation_tag": "upright_lens_forth"
+}

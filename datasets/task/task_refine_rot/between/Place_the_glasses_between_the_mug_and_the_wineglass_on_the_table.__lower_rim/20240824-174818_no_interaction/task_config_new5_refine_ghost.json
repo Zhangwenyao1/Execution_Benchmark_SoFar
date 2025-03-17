@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "wineglass",
+        "binder",
+        "glasses"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/025_mug_google_16k/025_mug_google_16k.urdf",
+        "objaverse_rescale/dc707f81a94e48078069c6a463f59fcf/material_2.urdf",
+        "objaverse_rescale/78e016eeb0bf45d5bea47547128383a8/material_2.urdf",
+        "objaverse_rescale/e4f348e98ceb45e3abc77da5b738f1b2/material_2.urdf"
+    ],
+    "target_obj_name": "glasses",
+    "instruction": "Place the glasses between the mug and the wineglass on the table. We also need to specify the rotation of the object after placement:  the lens of the glasses in not in contact with the table while the temples(arms) and lower rim of the glasses are in contact with the table, which means that the glasses is in a position consistent with how humans generally wear them. ",
+    "init_obj_pos": [
+        [
+            0.4924213134525579,
+            -0.22196312459252904,
+            0.9004583540906105,
+            -0.0007035995505808184,
+            -0.0011204334959700397,
+            0.005527619142883318,
+            0.9999838473710787,
+            -0.0005802785744890571,
+            -0.0012513946276158094,
+            -0.0004968680441379547,
+            0.036332350224256516,
+            -0.024826539680361748,
+            -0.008614626713097095
+        ],
+        [
+            0.5239058958307858,
+            0.22317434361355773,
+            0.9245420125164614,
+            0.046798806178639796,
+            0.03419612727508132,
+            -0.008566977591047565,
+            0.9982820761260794,
+            -0.0015345319407060742,
+            0.00291834631934762,
+            -0.006312130019068718,
+            -0.07008001953363419,
+            -0.041110944002866745,
+            -0.0022325310856103897
+        ],
+        [
+            0.4773072558841133,
+            0.08214131853038453,
+            1.0259558379332814,
+            -4.0774016783505303e-05,
+            -5.789969899104619e-06,
+            0.08825445464067222,
+            0.9960979618190339,
+            -0.0015761241083964705,
+            0.0005370350554585457,
+            -0.0005261739133857191,
+            -0.003987819887697697,
+            -0.010279567912220955,
+            0.0015070486115291715
+        ],
+        [
+            0.6991145174064003,
+            0.049647805721256544,
+            0.913095907392799,
+            -0.6205471932555209,
+            0.2573502866287572,
+            -0.2470617994745722,
+            0.6983211855265292,
+            7.492073928005993e-05,
+            0.002686168299987912,
+            0.03479029983282089,
+            1.292222261428833,
+            -0.5942797064781189,
+            0.118971087038517
+        ]
+    ],
+    "position_instruction": "Place the glasses between the mug and the wineglass on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the lens of the glasses in not in contact with the table while the temples(arms) and lower rim of the glasses are in contact with the table, which means that the glasses is in a position consistent with how humans generally wear them. ",
+    "rotation_instruction_label": "lower_rim",
+    "obj_codes": [
+        "025",
+        "dc707f81a94e48078069c6a463f59fcf",
+        "78e016eeb0bf45d5bea47547128383a8",
+        "e4f348e98ceb45e3abc77da5b738f1b2"
+    ],
+    "target_obj_code": "e4f348e98ceb45e3abc77da5b738f1b2",
+    "anno_target": {
+        "category": "glasses",
+        "annotation": {
+            " the lens of the glasses in not in contact with the table while the temples(arms) and upper rim of the glasses are in contact with the table, which means that the glasses is in an upside down position compared to how humans generally wear them. ": {
+                "quat": [
+                    [
+                        -0.334464967250824,
+                        0.609382152557373,
+                        -0.6155509948730469,
+                        0.371326744556427
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the lens of the glasses in not in contact with the table while the temples(arms) and lower rim of the glasses are in contact with the table, which means that the glasses is in a position consistent with how humans generally wear them. ": {
+                "quat": [
+                    [
+                        0.3672770857810974,
+                        0.6228358745574951,
+                        0.6019344329833984,
+                        0.3389069437980652
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "lower_rim",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "lower_rim"
+}

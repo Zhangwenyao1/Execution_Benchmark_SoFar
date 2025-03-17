@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "credit card",
+        "bottle",
+        "camera"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/5de830b2cccf4fe7a2e6b400abf26ca7/material_2.urdf",
+        "objaverse_rescale/8c0f8088a5d546c886d1b07e3f4eafae/material_2.urdf",
+        "objaverse_rescale/f6f8675406b7437faaf96a1f82062028/material_2.urdf"
+    ],
+    "target_obj_name": "camera",
+    "instruction": "Place the camera between the credit card and the bottle on the table. We also need to specify the rotation of the object after placement:  the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.",
+    "init_obj_pos": [
+        [
+            0.5508868956971661,
+            0.10940862717977176,
+            0.9017946963989291,
+            -0.021380912980995807,
+            0.002033428248441453,
+            -0.09445561486807494,
+            0.9952973719193431,
+            -2.2062655261834152e-05,
+            -2.4677068722667173e-05,
+            0.035191748291254044,
+            1.5231362581253052,
+            -0.1429552584886551,
+            0.007991031743586063
+        ],
+        [
+            0.6663262906219894,
+            -0.19929304730088607,
+            0.9293437022733869,
+            -0.025334084570468762,
+            0.5499066592776207,
+            0.037256160671549965,
+            0.8340100891075123,
+            -0.001352367689833045,
+            6.1017999541945755e-05,
+            -0.0003051975800190121,
+            -9.5313873316627e-05,
+            -0.05130649730563164,
+            -0.0007419202011078596
+        ],
+        [
+            0.5505356381935324,
+            -0.12696512709139532,
+            0.9580125484223064,
+            -0.49161307455830006,
+            0.22856249457092875,
+            0.3348458398791536,
+            0.7706841340747027,
+            0.0024504002649337053,
+            -0.0011528829345479608,
+            -0.0007494051242247224,
+            0.007345688994973898,
+            0.025024330243468285,
+            -0.006217395421117544
+        ]
+    ],
+    "position_instruction": "Place the camera between the credit card and the bottle on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.",
+    "rotation_instruction_label": "upright_lens_forth",
+    "obj_codes": [
+        "5de830b2cccf4fe7a2e6b400abf26ca7",
+        "8c0f8088a5d546c886d1b07e3f4eafae",
+        "f6f8675406b7437faaf96a1f82062028"
+    ],
+    "target_obj_code": "f6f8675406b7437faaf96a1f82062028",
+    "anno_target": {
+        "category": "camera",
+        "annotation": {
+            " the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "upright_lens_forth",
+    "rot_tag_level": 2,
+    "position_tag": "between",
+    "rotation_tag": "upright_lens_forth"
+}

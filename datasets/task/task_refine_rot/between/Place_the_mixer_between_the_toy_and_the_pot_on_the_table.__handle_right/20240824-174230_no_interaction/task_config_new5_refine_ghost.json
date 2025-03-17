@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "toy",
+        "pot",
+        "mixer"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/072-b_toy_airplane_google_16k/072-b_toy_airplane_google_16k.urdf",
+        "objaverse_rescale/cba3e4df7c354d22b7913d45a28a8159/material_2.urdf",
+        "objaverse_rescale/990d0cb9499540fda49b1ff36be9ba26/material_2.urdf"
+    ],
+    "target_obj_name": "mixer",
+    "instruction": "Place the mixer between the toy and the pot on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6652848878629865,
+            0.09449093907218646,
+            0.9001519731861084,
+            -9.642647713551702e-05,
+            -0.00029275556411459,
+            -0.00858272531646053,
+            0.9999631202310695,
+            -0.0008201977470889688,
+            -0.0014807474799454212,
+            -0.0006504645571112633,
+            0.025152718648314476,
+            0.005004236940294504,
+            -0.0032639307901263237
+        ],
+        [
+            0.43238190947704186,
+            0.1495486155986229,
+            0.9375382960738132,
+            -0.18138060932940855,
+            -0.05050658054887865,
+            0.07514073205730061,
+            0.9792364526846635,
+            -0.022646421566605568,
+            -0.04775486886501312,
+            -0.014189212583005428,
+            0.8083201050758362,
+            -0.37159886956214905,
+            -0.036049164831638336
+        ],
+        [
+            0.34493886620443054,
+            -0.2649896794511547,
+            0.9191696488464771,
+            0.09686956980674646,
+            0.3067591624015356,
+            -0.4461295213026104,
+            0.8351548077754614,
+            0.002157479291781783,
+            0.0004858195025008172,
+            0.03364869952201843,
+            -1.2116787433624268,
+            -1.6277897357940674,
+            -0.36336174607276917
+        ]
+    ],
+    "position_instruction": "Place the mixer between the toy and the pot on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "072-b",
+        "cba3e4df7c354d22b7913d45a28a8159",
+        "990d0cb9499540fda49b1ff36be9ba26"
+    ],
+    "target_obj_code": "990d0cb9499540fda49b1ff36be9ba26",
+    "anno_target": {
+        "category": "mixer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_right"
+}

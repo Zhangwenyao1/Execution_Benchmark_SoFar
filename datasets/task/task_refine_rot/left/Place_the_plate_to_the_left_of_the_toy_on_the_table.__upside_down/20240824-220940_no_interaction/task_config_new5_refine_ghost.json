@@ -1,0 +1,71 @@
+{
+    "selected_obj_names": [
+        "toy",
+        "plate"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/073-g_lego_duplo_google_16k/073-g_lego_duplo_google_16k.urdf",
+        "objaverse_rescale/8d50c19e138b403e8b2ede9b47d8be3c/material_2.urdf"
+    ],
+    "target_obj_name": "plate",
+    "instruction": "Place the plate to the left of the toy on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.3069683498063993,
+            -0.12907687496441933,
+            0.9002527436158896,
+            0.0021023949845846166,
+            -0.0009390516871775707,
+            -0.051357482382714155,
+            0.9986776792942587,
+            -0.0017207663040608168,
+            -0.00024035196111071855,
+            -0.0026189035270363092,
+            0.007237681187689304,
+            -0.023632362484931946,
+            -0.003718308173120022
+        ],
+        [
+            0.6803961566727591,
+            -0.20598474219517635,
+            0.9147542680612245,
+            0.7022260560017318,
+            0.0829555341083695,
+            0.08295847467993508,
+            0.7022213590541285,
+            -2.6939947929349728e-05,
+            0.0005316138849593699,
+            -0.000924007676076144,
+            -0.05295095220208168,
+            0.007668277248740196,
+            0.0025583088863641024
+        ]
+    ],
+    "position_instruction": "Place the plate to the left of the toy on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "073-g",
+        "8d50c19e138b403e8b2ede9b47d8be3c"
+    ],
+    "target_obj_code": "8d50c19e138b403e8b2ede9b47d8be3c",
+    "anno_target": {
+        "category": "plate",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "upside_down"
+}

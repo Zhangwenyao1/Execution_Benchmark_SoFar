@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "binder",
+        "cup",
+        "watch"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/025_mug_google_16k/025_mug_google_16k.urdf",
+        "objaverse_rescale/a0026e7d1b244b9a9223daf4223c9372/material_2.urdf",
+        "ycb_16k_backup/065-c_cups_google_16k/065-c_cups_google_16k.urdf",
+        "objaverse_rescale/243b381dcdc34316a7e78a533572d273/material_2.urdf"
+    ],
+    "target_obj_name": "watch",
+    "instruction": "Place the watch on top of the mug on the table. We also need to specify the rotation of the object after placement:  the watch is placed steadily on the table, and its contact with the table is in the shape of a circle, which means that the bringe of the watch bracelet is in touch with the table and while the plane of the watch dial is perpendicular to the table.",
+    "init_obj_pos": [
+        [
+            0.4915319731395979,
+            0.09838031921577294,
+            0.9004742813768261,
+            -0.0007502160581474291,
+            0.0007488214856004409,
+            -0.13668453628728192,
+            0.990614059047306,
+            -0.0007375071872957051,
+            -0.0011334149166941643,
+            -0.0010529864812269807,
+            0.030394207686185837,
+            -0.02422611229121685,
+            -0.006497799418866634
+        ],
+        [
+            0.3262840856050304,
+            -0.08442909677346905,
+            0.927265978517813,
+            -0.00046814051679510137,
+            -8.116099069577551e-05,
+            -0.012117251444900116,
+            0.999926470534095,
+            8.38255655253306e-05,
+            -0.00014960338012315333,
+            -0.0008098278776742518,
+            0.0012833382934331894,
+            0.007210389245301485,
+            8.904396236175671e-05
+        ],
+        [
+            0.6131646602489325,
+            0.22913548336655254,
+            0.9005670702906676,
+            0.0007385229935871646,
+            -0.0006804884918170778,
+            0.12272425549903687,
+            0.9924402997820104,
+            -0.0007931017898954451,
+            -0.005466185975819826,
+            -0.0011176122352480888,
+            0.16596436500549316,
+            -0.008505445905029774,
+            -0.07222592085599899
+        ],
+        [
+            0.34578100418410107,
+            0.11491590544796469,
+            0.9248368061746757,
+            0.10193671722281242,
+            0.00283253846055886,
+            0.028068749781829164,
+            0.9943907821844434,
+            -0.0007346327765844762,
+            0.0006384898442775011,
+            -0.0005501341656781733,
+            -0.0030805731657892466,
+            -0.0016406385693699121,
+            -0.07232588529586792
+        ]
+    ],
+    "position_instruction": "Place the watch on top of the mug on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the watch is placed steadily on the table, and its contact with the table is in the shape of a circle, which means that the bringe of the watch bracelet is in touch with the table and while the plane of the watch dial is perpendicular to the table.",
+    "rotation_instruction_label": "watch_upright",
+    "obj_codes": [
+        "025",
+        "a0026e7d1b244b9a9223daf4223c9372",
+        "065-c",
+        "243b381dcdc34316a7e78a533572d273"
+    ],
+    "target_obj_code": "243b381dcdc34316a7e78a533572d273",
+    "anno_target": {
+        "category": "watch",
+        "annotation": {
+            " the watch is placed steadily on the table, and its contact with the table is in the shape of a circle, which means that the bringe of the watch bracelet is in touch with the table and while the plane of the watch dial is perpendicular to the table.": {
+                "quat": [
+                    [
+                        -0.09765274077653885,
+                        -0.7010872960090637,
+                        0.10222410410642624,
+                        -0.6989211440086365
+                    ],
+                    [
+                        0.6981616020202637,
+                        0.09691125154495239,
+                        0.7018415331840515,
+                        -0.10294347256422043
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "watch_upright",
+    "rot_tag_level": 2,
+    "position_tag": "top",
+    "rotation_tag": "watch_upright"
+}

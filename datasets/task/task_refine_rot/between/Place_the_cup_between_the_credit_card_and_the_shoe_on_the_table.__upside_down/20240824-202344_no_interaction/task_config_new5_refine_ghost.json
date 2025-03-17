@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "credit card",
+        "shoe",
+        "lighter",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/5de830b2cccf4fe7a2e6b400abf26ca7/material_2.urdf",
+        "objaverse_rescale/aa51af2f1270482193471455b504efc6/material_2.urdf",
+        "objaverse_rescale/b640aa4990b64db9ab3d868c6f49820e/material_2.urdf",
+        "ycb_16k_backup/065-b_cups_google_16k/065-b_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup between the credit card and the shoe on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.2785157351398396,
+            -0.08204342937873534,
+            0.9014649694904765,
+            -0.016463242151618502,
+            0.0031845087030096197,
+            -0.18973194263862006,
+            0.9816927271324533,
+            -1.850285661930684e-05,
+            -2.8352926165098324e-05,
+            0.03519239276647568,
+            1.4668381214141846,
+            -0.4321141541004181,
+            0.009036287665367126
+        ],
+        [
+            0.5512064183998716,
+            0.14116683552126064,
+            0.9320621676828724,
+            0.059389176265161596,
+            0.0596910823684047,
+            -0.31841294224571537,
+            0.9442050087976976,
+            -0.0011625232873484492,
+            -0.0005619301227852702,
+            0.0013816431164741516,
+            0.0592505969107151,
+            -0.054789017885923386,
+            0.020210906863212585
+        ],
+        [
+            0.6301379620556457,
+            0.2635891705305876,
+            1.0002604663903354,
+            -0.26367710271387507,
+            0.6975812326064433,
+            0.2488699435388755,
+            0.617995599193594,
+            0.0011554505908861756,
+            -0.00044401688501238823,
+            0.029512792825698853,
+            -0.9237852096557617,
+            -0.03725063428282738,
+            -0.003029186511412263
+        ],
+        [
+            0.32988106745881596,
+            0.15476706110344918,
+            0.9006720028762516,
+            0.00046249257367919974,
+            -0.0014774205043256903,
+            -0.0322953598186253,
+            0.9994771698560493,
+            0.0025143029633909464,
+            0.0019385551568120718,
+            -0.007883255369961262,
+            -0.08995813876390457,
+            0.18936562538146973,
+            0.07047519087791443
+        ]
+    ],
+    "position_instruction": "Place the cup between the credit card and the shoe on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "5de830b2cccf4fe7a2e6b400abf26ca7",
+        "aa51af2f1270482193471455b504efc6",
+        "b640aa4990b64db9ab3d868c6f49820e",
+        "065-b"
+    ],
+    "target_obj_code": "065-b",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

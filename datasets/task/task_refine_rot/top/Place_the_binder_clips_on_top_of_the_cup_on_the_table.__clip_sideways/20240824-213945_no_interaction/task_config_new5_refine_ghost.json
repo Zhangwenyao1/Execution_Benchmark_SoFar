@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "book",
+        "headphone",
+        "binder clips"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-e_cups_google_16k/065-e_cups_google_16k.urdf",
+        "objaverse_rescale/de79a920c48745ff95c0df7a7c300091/material_2.urdf",
+        "objaverse_rescale/efb1727dee214d49b88c58792e4bdffc/material_2.urdf",
+        "objaverse_rescale/5e55c38b24dc4c239448efa1c6b7f49f/material_2.urdf"
+    ],
+    "target_obj_name": "binder clips",
+    "instruction": "Place the binder clips on top of the cup on the table. We also need to specify the rotation of the object after placement:  the binder clip is lying sideways on the table, which means that one side face of the black triangular prism is facing the table.",
+    "init_obj_pos": [
+        [
+            0.554084244968206,
+            -0.12342853362997501,
+            0.9008432183898483,
+            0.0012977115308243131,
+            -0.0020664144413631166,
+            0.1282337523772494,
+            0.991740969521472,
+            0.0019422848708927631,
+            0.003919705748558044,
+            -0.009591766633093357,
+            -0.10997577756643295,
+            0.11647958308458328,
+            0.01990942656993866
+        ],
+        [
+            0.5746016255736273,
+            0.19581939481704316,
+            0.9151991520116707,
+            0.007300728325759008,
+            -0.0006537402048600277,
+            0.11222134889294286,
+            0.9936561985124971,
+            0.0020452607423067093,
+            -0.0014847959391772747,
+            -0.0012041589943692088,
+            0.08519766479730606,
+            0.16049504280090332,
+            -0.005244765896350145
+        ],
+        [
+            0.3109374056515019,
+            -0.064263928781158,
+            0.9324172666521872,
+            -0.0031030114057953168,
+            -0.00033861864474655606,
+            0.10849453446701463,
+            0.9940921449485529,
+            0.00043962764902971685,
+            0.0016923147486522794,
+            -0.0021266865078359842,
+            -0.035841457545757294,
+            0.026643039658665657,
+            0.013085126876831055
+        ],
+        [
+            0.5978370605970174,
+            0.019159621508773494,
+            0.9100080129710696,
+            3.673817350569862e-05,
+            -1.3526235938643246e-06,
+            -0.03749532428556513,
+            0.9992968024091728,
+            0.0011506315786391497,
+            -0.0005458716186694801,
+            -0.0003578395408112556,
+            0.007304911036044359,
+            0.014901037327945232,
+            0.0012890886282548308
+        ]
+    ],
+    "position_instruction": "Place the binder clips on top of the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the binder clip is lying sideways on the table, which means that one side face of the black triangular prism is facing the table.",
+    "rotation_instruction_label": "clip_sideways",
+    "obj_codes": [
+        "065-e",
+        "de79a920c48745ff95c0df7a7c300091",
+        "efb1727dee214d49b88c58792e4bdffc",
+        "5e55c38b24dc4c239448efa1c6b7f49f"
+    ],
+    "target_obj_code": "5e55c38b24dc4c239448efa1c6b7f49f",
+    "anno_target": {
+        "category": "binder_clips",
+        "annotation": {
+            " the binder clip is lying sideways on the table, which means that one side face of the black triangular prism is facing the table.": {
+                "quat": [
+                    [
+                        -0.13100828230381012,
+                        0.6948646306991577,
+                        -0.13100828230381012,
+                        0.6948646306991577
+                    ],
+                    [
+                        -0.6943783164024353,
+                        0.13356173038482666,
+                        -0.6943783164024353,
+                        0.13356173038482666
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "clip_sideways",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "clip_sideways"
+}

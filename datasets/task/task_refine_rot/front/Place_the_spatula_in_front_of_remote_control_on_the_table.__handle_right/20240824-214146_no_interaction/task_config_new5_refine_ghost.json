@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "remote control",
+        "can",
+        "spatula"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/89dcd45ac1f04680b76b709357a3dba3/material_2.urdf",
+        "ycb_16k_backup/002_master_chef_can_google_16k/002_master_chef_can_google_16k.urdf",
+        "objaverse_rescale/4b27628be0804c0285d0b13dda025a0d/material_2.urdf"
+    ],
+    "target_obj_name": "spatula",
+    "instruction": "Place the spatula in front of remote control on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.3125323299588271,
+            -0.07272861469661099,
+            0.9092744390969916,
+            -0.6996172783539302,
+            0.06128816825535871,
+            -0.062029678381294424,
+            0.7091768067699724,
+            -0.0029845412354916334,
+            0.005575836170464754,
+            -0.011055170558393002,
+            -0.6837025880813599,
+            -0.33037418127059937,
+            -0.07418342679738998
+        ],
+        [
+            0.49367256019097605,
+            -0.1117417481034262,
+            0.9000908698596597,
+            -0.00015201857040206222,
+            0.00023923922776695195,
+            -0.07183060643003421,
+            0.9974168053701717,
+            0.00034697033697739244,
+            0.0008979046251624823,
+            -0.0006906500202603638,
+            -0.017396675422787666,
+            0.0046777077950537205,
+            0.00020394778402987868
+        ],
+        [
+            0.38436702878199264,
+            -0.1642041036753595,
+            0.9039865437546912,
+            -0.004304497599664498,
+            0.0018209481592607833,
+            -0.05068738374777477,
+            0.9987036320035192,
+            -0.0014327912358567119,
+            0.00017395743634551764,
+            -0.01002541370689869,
+            0.06930572539567947,
+            -0.05093468725681305,
+            -0.03867386654019356
+        ]
+    ],
+    "position_instruction": "Place the spatula in front of remote control on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "89dcd45ac1f04680b76b709357a3dba3",
+        "002",
+        "4b27628be0804c0285d0b13dda025a0d"
+    ],
+    "target_obj_code": "4b27628be0804c0285d0b13dda025a0d",
+    "anno_target": {
+        "category": "spatula",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "handle_right"
+}

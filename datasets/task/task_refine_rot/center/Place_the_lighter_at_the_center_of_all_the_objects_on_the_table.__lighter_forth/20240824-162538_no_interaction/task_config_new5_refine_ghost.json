@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "mug",
+        "box",
+        "lighter"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-b_cups_google_16k/065-b_cups_google_16k.urdf",
+        "objaverse_rescale/9321c45cb9cf459f9f803507d3a11fb3/material_2.urdf",
+        "objaverse_rescale/9660e0c0326b4f7386014e27717231ae/material_2.urdf",
+        "objaverse_rescale/d9675ab05c39447baf27e19ea07d484e/material_2.urdf"
+    ],
+    "target_obj_name": "lighter",
+    "instruction": "Place the lighter at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the lighter is lying steadily on the table(not standing up), with its grey head pointing forth.",
+    "init_obj_pos": [
+        [
+            0.4110829283869156,
+            0.1549282980208704,
+            0.9004759083212228,
+            -0.0008149018852572788,
+            -0.0006723317576711896,
+            -0.06671296662845694,
+            0.9977716492206801,
+            0.002625471679493785,
+            0.0017503767739981413,
+            -0.00775486184284091,
+            -0.07966260612010956,
+            0.18782180547714233,
+            0.06652876734733582
+        ],
+        [
+            0.34023568874546495,
+            -0.038961420675827196,
+            0.9636732499634107,
+            0.11460808007532111,
+            -0.22831614657107513,
+            0.1324565015540285,
+            0.9577014150519205,
+            -0.0013634937349706888,
+            0.0009086538921110332,
+            -0.0011254313867539167,
+            -0.017770977690815926,
+            -0.022804852575063705,
+            0.006854378152638674
+        ],
+        [
+            0.5098328415674425,
+            0.00374325220483318,
+            0.9190743564185668,
+            -9.766607248739728e-05,
+            -9.960184124526623e-05,
+            -0.0687065981801165,
+            0.9976368998324624,
+            0.00038695894181728363,
+            -0.0001429604017175734,
+            -0.00017306952213402838,
+            -9.006015170598403e-05,
+            0.0028375929687172174,
+            0.0014877611538395286
+        ],
+        [
+            0.4638832363010235,
+            0.22001304090390633,
+            0.9251612993262182,
+            0.0033776311479417074,
+            0.0002951532281607068,
+            -0.083737002252927,
+            0.9964821217393192,
+            0.001550357323139906,
+            -0.0050281803123652935,
+            0.03109774738550186,
+            0.6431393623352051,
+            0.4108428359031677,
+            0.052298981696367264
+        ]
+    ],
+    "position_instruction": "Place the lighter at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the lighter is lying steadily on the table(not standing up), with its grey head pointing forth.",
+    "rotation_instruction_label": "lighter_forth",
+    "obj_codes": [
+        "065-b",
+        "9321c45cb9cf459f9f803507d3a11fb3",
+        "9660e0c0326b4f7386014e27717231ae",
+        "d9675ab05c39447baf27e19ea07d484e"
+    ],
+    "target_obj_code": "d9675ab05c39447baf27e19ea07d484e",
+    "anno_target": {
+        "category": "lighter",
+        "annotation": {
+            " the lighter is lying steadily on the table(not standing up), with its grey head pointing forth, oriented towards the viewer.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "lighter_forth",
+    "rot_tag_level": 1,
+    "position_tag": "center",
+    "rotation_tag": "lighter_forth"
+}

@@ -1,0 +1,67 @@
+{
+    "selected_obj_names": [
+        "toy"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/073-g_lego_duplo_google_16k/073-g_lego_duplo_google_16k.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "We need to specify the rotation of the object after placement: the toy is facing right, with its head oriented towards left",
+    "init_obj_pos": [
+        [
+            0.3694112854163165,
+            0.22710583275892327,
+            0.9035275407679776,
+            0.011899244057189583,
+            -0.0011968064608527044,
+            0.09706579784249471,
+            0.9952061125889258,
+            -0.0015131683321669698,
+            -0.00034125728416256607,
+            -0.00269290991127491,
+            0.01344781182706356,
+            -0.010587174445390701,
+            -0.0068966541439294815
+        ]
+    ],
+    "position_instruction": "",
+    "rotation_instruction": "We need to specify the rotation of the object after placement: the toy is facing right, with its head oriented towards left",
+    "rotation_instruction_label": "right",
+    "obj_codes": [
+        "073-g"
+    ],
+    "target_obj_code": "073-g",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_right",
+    "rot_tag_level": 1,
+    "position_tag": "rot_ins",
+    "rotation_tag": "right"
+}

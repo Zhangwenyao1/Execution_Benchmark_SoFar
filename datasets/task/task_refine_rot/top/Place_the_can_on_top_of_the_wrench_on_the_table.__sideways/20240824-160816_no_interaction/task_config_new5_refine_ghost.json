@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "wrench",
+        "can"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/19c1913ba85042938f0a87d94397c946/material_2.urdf",
+        "ycb_16k_backup/002_master_chef_can_google_16k/002_master_chef_can_google_16k.urdf"
+    ],
+    "target_obj_name": "can",
+    "instruction": "Place the can on top of the wrench on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.5705232382653501,
+            -0.1534247102589246,
+            0.9075121768556312,
+            0.010228616694078306,
+            0.0004712979435133176,
+            -0.06713652564990025,
+            0.997691254949363,
+            -3.0458202672889456e-05,
+            0.007203978020697832,
+            0.02902984246611595,
+            0.8745750188827515,
+            3.8979551792144775,
+            0.5731327533721924
+        ],
+        [
+            0.3487161103623133,
+            0.24917988437243557,
+            0.900091443873694,
+            -0.00014414860075902036,
+            0.0002347540024196284,
+            -0.07743682783966617,
+            0.9969972225667773,
+            0.0003565808292478323,
+            0.0008787174592725933,
+            -0.0006911777891218662,
+            -0.01719902828335762,
+            0.004733545705676079,
+            0.00017140786803793162
+        ]
+    ],
+    "position_instruction": "Place the can on top of the wrench on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "19c1913ba85042938f0a87d94397c946",
+        "002"
+    ],
+    "target_obj_code": "002",
+    "anno_target": {
+        "category": "can",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "top",
+    "rotation_tag": "sideways"
+}

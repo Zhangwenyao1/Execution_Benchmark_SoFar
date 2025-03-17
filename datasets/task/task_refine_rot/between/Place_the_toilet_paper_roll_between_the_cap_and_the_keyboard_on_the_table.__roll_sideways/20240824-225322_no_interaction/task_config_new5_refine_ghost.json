@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "cap",
+        "keyboard",
+        "toilet paper roll"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/87e82aa304ce4571b69bdd5182549c72/material_2.urdf",
+        "objaverse_rescale/44bb12d306864e2cb4256a61d4168942/material_2.urdf",
+        "objaverse_rescale/ea0cf48616e34708b73c82eb7c7366ca/material_2.urdf"
+    ],
+    "target_obj_name": "toilet paper roll",
+    "instruction": "Place the toilet paper roll between the cap and the keyboard on the table. We also need to specify the rotation of the object after placement:  the paper roll is lying sideways on the table, with its lateral surface in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.4589897598200761,
+            -0.18991146246707633,
+            0.9314045968433898,
+            0.5323032609028745,
+            0.13507232031424551,
+            0.16754592607636248,
+            0.8187411491871577,
+            0.0019451257539913058,
+            -0.002132992260158062,
+            0.03162001073360443,
+            -0.7583164572715759,
+            0.11985120922327042,
+            0.2949919104576111
+        ],
+        [
+            0.42231581355618414,
+            0.21653898912295338,
+            0.9085812451488979,
+            -0.7048293825786559,
+            -0.057372076903728635,
+            0.057656711219291494,
+            0.7046982970725257,
+            -1.685796451056376e-05,
+            -6.675214535789564e-06,
+            -4.553337475954322e-06,
+            0.0020863658282905817,
+            0.00014204572653397918,
+            0.000582326203584671
+        ],
+        [
+            0.5524092885364364,
+            -0.08910825930901542,
+            0.9495344435778433,
+            -0.00011088155560919286,
+            0.00690820536213227,
+            0.11274347734799707,
+            0.9936001070447993,
+            -0.007852236740291119,
+            0.0003622156218625605,
+            -0.000559698324650526,
+            -0.004527653567492962,
+            -0.10023044794797897,
+            -0.00015980080934241414
+        ]
+    ],
+    "position_instruction": "Place the toilet paper roll between the cap and the keyboard on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the paper roll is lying sideways on the table, with its lateral surface in contact with the tabletop.",
+    "rotation_instruction_label": "roll_sideways",
+    "obj_codes": [
+        "87e82aa304ce4571b69bdd5182549c72",
+        "44bb12d306864e2cb4256a61d4168942",
+        "ea0cf48616e34708b73c82eb7c7366ca"
+    ],
+    "target_obj_code": "ea0cf48616e34708b73c82eb7c7366ca",
+    "anno_target": {
+        "category": "toilet_paper_roll",
+        "annotation": {
+            " the paper roll is standing upright on the table, in the shape of a cylinder, and the axis(height) of the cylinder is perpendicular to the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the paper roll is lying sideways on the table, with its lateral surface in contact with the tabletop.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            }
+        }
+    },
+    "rot_tag_detail": "roll_sideways",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "roll_sideways"
+}

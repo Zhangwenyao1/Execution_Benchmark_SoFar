@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "pear",
+        "scissors",
+        "multimeter",
+        "tissue box"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f3dd3064db4f4e8880344425970cecad/material_2.urdf",
+        "ycb_16k_backup/037_scissors_google_16k/037_scissors_google_16k.urdf",
+        "objaverse_rescale/79ac684e66b34554ba869bd2fc3c2653/material_2.urdf",
+        "objaverse_rescale/8eda72f64e6e4443af4fdbeed07cad29/material_2.urdf"
+    ],
+    "target_obj_name": "tissue box",
+    "instruction": "Place the tissue box to the left of the pear on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.3375289528608841,
+            0.2454516657428597,
+            0.9343877581639516,
+            -0.17272623351412397,
+            -0.016214898979870416,
+            0.09949102530697325,
+            0.9797980716405115,
+            -0.0020982185378670692,
+            0.0014258124865591526,
+            -0.00025031340192072093,
+            -0.032702576369047165,
+            -0.05869532749056816,
+            -0.05361299589276314
+        ],
+        [
+            0.5631161708903615,
+            -0.08603450119887206,
+            0.9001633999185503,
+            -0.001120954057414957,
+            -0.0013476566070588693,
+            -0.08707080092054545,
+            0.9962005836731506,
+            0.00038701924495399,
+            0.004838136024773121,
+            -0.00019460823386907578,
+            -0.5547705888748169,
+            -1.015833854675293,
+            0.4768019914627075
+        ],
+        [
+            0.6578194734542502,
+            -0.23509795639252726,
+            0.9203045232868413,
+            0.7033531780131378,
+            -0.07234030356669198,
+            -0.06780151975282563,
+            0.7038921376019949,
+            0.002165967831388116,
+            -8.085915760602802e-05,
+            -0.0042594424448907375,
+            0.0028172414749860764,
+            0.14413565397262573,
+            9.837216202868149e-05
+        ],
+        [
+            0.3703102242912024,
+            0.10242468162625475,
+            0.9296258641009851,
+            -4.871650577149732e-06,
+            2.39529936434469e-06,
+            -0.051257112833550035,
+            0.9986854902092536,
+            -0.0010923799127340317,
+            0.003693273290991783,
+            -0.004704063758254051,
+            -0.03308965265750885,
+            -0.011729496531188488,
+            -0.010600980371236801
+        ]
+    ],
+    "position_instruction": "Place the tissue box to the left of the pear on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "f3dd3064db4f4e8880344425970cecad",
+        "037",
+        "79ac684e66b34554ba869bd2fc3c2653",
+        "8eda72f64e6e4443af4fdbeed07cad29"
+    ],
+    "target_obj_code": "8eda72f64e6e4443af4fdbeed07cad29",
+    "anno_target": {
+        "category": "tissue_box",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "upright"
+}

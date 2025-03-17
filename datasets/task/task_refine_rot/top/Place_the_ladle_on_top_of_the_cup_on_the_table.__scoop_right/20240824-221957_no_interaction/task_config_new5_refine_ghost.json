@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "tape measure",
+        "ladle"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-g_cups_google_16k/065-g_cups_google_16k.urdf",
+        "objaverse_rescale/1574b13827734d54b6d9d86be8be71d1/material_2.urdf",
+        "objaverse_rescale/ce27e3369587476c85a436905f1e5c00/material_2.urdf"
+    ],
+    "target_obj_name": "ladle",
+    "instruction": "Place the ladle on top of the cup on the table. We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "init_obj_pos": [
+        [
+            0.6938421213923079,
+            -0.2283810123188134,
+            0.9005730404726418,
+            0.000228492556855092,
+            -0.0012297063489864967,
+            -0.0527056304476149,
+            0.9986093090556316,
+            0.005688082426786423,
+            0.009135724976658821,
+            -0.003879368305206299,
+            -0.3120262622833252,
+            0.20050521194934845,
+            -0.005885232239961624
+        ],
+        [
+            0.49499431186855786,
+            0.14024362739895407,
+            0.9536689962536411,
+            -0.9528580489764588,
+            0.033841652935953204,
+            -0.002306138904800524,
+            0.30151444865991145,
+            0.00012460353900678456,
+            -0.0014195004478096962,
+            -0.0003794671793002635,
+            0.03532419353723526,
+            -0.011150987818837166,
+            0.01844819076359272
+        ],
+        [
+            0.5874403853152667,
+            -0.004573074636908519,
+            0.9195590312059381,
+            0.013569682855517153,
+            0.03929330933392572,
+            -0.15874832310375345,
+            0.9864435460078473,
+            0.0029537957161664963,
+            -0.0028001682367175817,
+            -0.010462216101586819,
+            -1.6001126766204834,
+            -3.5834131240844727,
+            -1.586045503616333
+        ]
+    ],
+    "position_instruction": "Place the ladle on top of the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "rotation_instruction_label": "scoop_right",
+    "obj_codes": [
+        "065-g",
+        "1574b13827734d54b6d9d86be8be71d1",
+        "ce27e3369587476c85a436905f1e5c00"
+    ],
+    "target_obj_code": "ce27e3369587476c85a436905f1e5c00",
+    "anno_target": {
+        "category": "ladle",
+        "annotation": {
+            " the ladle is lying on the table, with its scoop on the left(pointing towards left) and its handle on the right. ": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ladle is lying on the table, with its scoop on the right(pointing towards right) and its handle on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "scoop_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "scoop_right"
+}

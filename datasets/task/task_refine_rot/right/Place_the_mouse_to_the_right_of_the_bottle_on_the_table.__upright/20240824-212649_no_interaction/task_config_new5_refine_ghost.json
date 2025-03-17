@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "bottle",
+        "skillet",
+        "mouse"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/794b730ae452424bb3a9ce3c6caaff7a/material_2.urdf",
+        "ycb_16k_backup/027_skillet_google_16k/027_skillet_google_16k.urdf",
+        "objaverse_rescale/f017c73a85484b6da3a66ec1cda70c71/material_2.urdf"
+    ],
+    "target_obj_name": "mouse",
+    "instruction": "Place the mouse to the right of the bottle on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.44478953854796804,
+            0.1331749276759429,
+            0.9298512573239255,
+            -0.06404292879272765,
+            0.865898148907189,
+            0.027436348979765268,
+            0.49534447180261737,
+            -0.004610753618180752,
+            -0.0040507204830646515,
+            -0.005687416065484285,
+            0.10254227370023727,
+            -0.4112548232078552,
+            0.07201883941888809
+        ],
+        [
+            0.4814579795062458,
+            -0.20723278470827244,
+            0.9020725896152909,
+            0.019723149786667653,
+            0.00893191822092017,
+            -0.1077622945561622,
+            0.993940896669102,
+            0.00032908449065871537,
+            5.672089537256397e-05,
+            -6.645359826507047e-05,
+            0.0010353538673371077,
+            0.00279560056515038,
+            0.0017160881543532014
+        ],
+        [
+            0.3781291525393879,
+            0.017349489859649774,
+            0.9155511674071003,
+            -0.5403378430435034,
+            -0.37058799979312873,
+            0.3610487818727284,
+            0.6635836999901675,
+            0.0002918551617767662,
+            0.00046297110384330153,
+            -0.00019103848899248987,
+            -0.029227884486317635,
+            0.025076905265450478,
+            0.0050843507051467896
+        ]
+    ],
+    "position_instruction": "Place the mouse to the right of the bottle on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "794b730ae452424bb3a9ce3c6caaff7a",
+        "027",
+        "f017c73a85484b6da3a66ec1cda70c71"
+    ],
+    "target_obj_code": "f017c73a85484b6da3a66ec1cda70c71",
+    "anno_target": {
+        "category": "mouse",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upright"
+}

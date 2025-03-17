@@ -1,0 +1,127 @@
+{
+    "selected_obj_names": [
+        "bottle",
+        "pen",
+        "wallet"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/8c0f8088a5d546c886d1b07e3f4eafae/material_2.urdf",
+        "objaverse_rescale/f126e15c0f904fccbd76f9348baea12c/material_2.urdf",
+        "objaverse_rescale/ccfcc4ae6efa44a2ba34c4c479be7daf/material_2.urdf"
+    ],
+    "target_obj_name": "wallet",
+    "instruction": "Place the wallet between the bottle and the pen on the table. We also need to specify the rotation of the object after placement:  the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)",
+    "init_obj_pos": [
+        [
+            0.4371825318112887,
+            -0.056533606131105,
+            0.9292855116029646,
+            -0.04684426720691543,
+            0.7018418538097957,
+            0.04801768365308362,
+            0.7091670670069706,
+            -0.0012404145672917366,
+            0.0003852269146591425,
+            -8.291545236716047e-05,
+            -0.0027964147739112377,
+            -0.018394697457551956,
+            0.0025713592767715454
+        ],
+        [
+            0.3340873799286308,
+            0.2779255863052522,
+            0.9086706687836891,
+            0.05115617328444206,
+            -0.7068921963835354,
+            -0.6460983087144818,
+            0.28327273801627695,
+            0.0017948129680007696,
+            0.0018274987814947963,
+            0.020541934296488762,
+            -0.6015531420707703,
+            0.4807018041610718,
+            -0.06181110069155693
+        ],
+        [
+            0.6299752612851451,
+            -0.012110539947205259,
+            0.907299183198773,
+            -0.6994783897598859,
+            0.10324489527000653,
+            -0.0736679522631096,
+            0.703308969563848,
+            0.0007371422834694386,
+            -0.00014446860586758703,
+            -0.0008275863365270197,
+            0.04276324063539505,
+            0.13209056854248047,
+            0.01307420339435339
+        ]
+    ],
+    "position_instruction": "Place the wallet between the bottle and the pen on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)",
+    "rotation_instruction_label": "clasp_right",
+    "obj_codes": [
+        "8c0f8088a5d546c886d1b07e3f4eafae",
+        "f126e15c0f904fccbd76f9348baea12c",
+        "ccfcc4ae6efa44a2ba34c4c479be7daf"
+    ],
+    "target_obj_code": "ccfcc4ae6efa44a2ba34c4c479be7daf",
+    "anno_target": {
+        "category": "wallet",
+        "annotation": {
+            " the wallet is lying flat on the table, and the clasp is on the left(if the wallet has a clasp)": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ],
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ],
+                    [
+                        0.4999999701976776,
+                        0.5,
+                        -0.4999999701976776,
+                        -0.5000000596046448
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)": {
+                "quat": [
+                    [
+                        -0.5,
+                        0.4999999701976776,
+                        -0.5000000596046448,
+                        0.4999999701976776
+                    ],
+                    [
+                        -0.5,
+                        0.4999999701976776,
+                        -0.5000000596046448,
+                        0.4999999701976776
+                    ],
+                    [
+                        -0.5,
+                        0.5,
+                        0.4999999403953552,
+                        -0.5
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "clasp_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "clasp_right"
+}

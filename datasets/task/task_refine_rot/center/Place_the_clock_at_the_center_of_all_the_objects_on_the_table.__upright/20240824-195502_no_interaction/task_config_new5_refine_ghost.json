@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "tape measure",
+        "fork",
+        "paperweight",
+        "clock"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/11307d06bb254318b95021d68c6fa12f/material_2.urdf",
+        "ycb_16k_backup/030_fork_google_16k/030_fork_google_16k.urdf",
+        "objaverse_rescale/21c10181c122474a8f72a4ad0331f185/material_2.urdf",
+        "objaverse_rescale/fdf932b04e6c4e0fbd6e274563b94536/material_2.urdf"
+    ],
+    "target_obj_name": "clock",
+    "instruction": "Place the clock at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.5552054146912285,
+            -0.13857366905992283,
+            0.9226917543257813,
+            0.03317253080066229,
+            -0.03564189382073929,
+            0.006793695314315738,
+            0.9987908110856473,
+            0.0013199907261878252,
+            0.000829700380563736,
+            -0.0003199831990059465,
+            -0.011397531256079674,
+            0.01842026598751545,
+            0.01559530571103096
+        ],
+        [
+            0.44169076388376444,
+            -0.11748336026942882,
+            0.9028611669473554,
+            0.054513527118599796,
+            -0.003103660400819029,
+            -0.0833022553437213,
+            0.9950273247041289,
+            -0.000609764305409044,
+            0.003129011718556285,
+            -0.0002556023246143013,
+            0.4129728376865387,
+            0.13435009121894836,
+            0.005831291899085045
+        ],
+        [
+            0.7087540522440824,
+            -0.19614622012812724,
+            0.9379810753414762,
+            -0.12063915021716674,
+            0.19826824725265632,
+            -0.14904986520634078,
+            0.9612075921715412,
+            0.0011328906984999776,
+            -0.004370686132460833,
+            -0.0006892199744470417,
+            0.08188454061746597,
+            0.0514228418469429,
+            0.021856561303138733
+        ],
+        [
+            0.4463202739192624,
+            0.08503305638675523,
+            0.934312193944345,
+            -0.015607402456924699,
+            0.0003870708208472523,
+            -0.023163504335334578,
+            0.9996097794797891,
+            -6.474378096754663e-06,
+            -1.4547116734320298e-05,
+            -1.3149880942364689e-05,
+            0.00033250078558921814,
+            -0.0001511040172772482,
+            6.091725481383037e-06
+        ]
+    ],
+    "position_instruction": "Place the clock at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "11307d06bb254318b95021d68c6fa12f",
+        "030",
+        "21c10181c122474a8f72a4ad0331f185",
+        "fdf932b04e6c4e0fbd6e274563b94536"
+    ],
+    "target_obj_code": "fdf932b04e6c4e0fbd6e274563b94536",
+    "anno_target": {
+        "category": "clock",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "center",
+    "rotation_tag": "upright"
+}

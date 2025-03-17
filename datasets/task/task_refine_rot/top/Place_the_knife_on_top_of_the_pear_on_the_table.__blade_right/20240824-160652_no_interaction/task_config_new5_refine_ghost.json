@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "pear",
+        "can",
+        "knife"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f9ac5185507b4d0dbc744941e9055b96/material_2.urdf",
+        "ycb_16k_backup/002_master_chef_can_google_16k/002_master_chef_can_google_16k.urdf",
+        "objaverse_rescale/f93d05bc2db144f7a50374794ef5cf8d/material_2.urdf"
+    ],
+    "target_obj_name": "knife",
+    "instruction": "Place the knife on top of the pear on the table. We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.39184372351833974,
+            -0.09562387560039604,
+            0.9343454892750661,
+            -0.1325064966467151,
+            0.01798610363763237,
+            0.019038590453846278,
+            0.9908360411772891,
+            0.0024911926593631506,
+            -0.0001125339258578606,
+            -0.000366057240171358,
+            0.001598907052539289,
+            0.06158037856221199,
+            0.013544655404984951
+        ],
+        [
+            0.6575825536646112,
+            -0.025406479436679223,
+            0.9000917392491374,
+            -0.0001579909936793106,
+            0.00022596931970906835,
+            -0.017441184269766905,
+            0.9998478529596292,
+            0.0002819061919581145,
+            0.0010333055397495627,
+            -0.000639519072137773,
+            -0.018827732652425766,
+            0.004086323082447052,
+            0.0005755493184551597
+        ],
+        [
+            0.3830255725817654,
+            0.07295727105791296,
+            0.9029635379964116,
+            -0.3825032720143704,
+            0.6055147410147281,
+            0.39693240211049047,
+            0.57401029038421,
+            -8.950063784141093e-05,
+            -0.0014733807183802128,
+            -6.83109974488616e-05,
+            0.2630268335342407,
+            0.6020479798316956,
+            -0.01005664374679327
+        ]
+    ],
+    "position_instruction": "Place the knife on top of the pear on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blade_right",
+    "obj_codes": [
+        "f9ac5185507b4d0dbc744941e9055b96",
+        "002",
+        "f93d05bc2db144f7a50374794ef5cf8d"
+    ],
+    "target_obj_code": "f93d05bc2db144f7a50374794ef5cf8d",
+    "anno_target": {
+        "category": "knife",
+        "annotation": {
+            " the blade of the knife is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blade of the knife is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        -0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blade_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "blade_right"
+}

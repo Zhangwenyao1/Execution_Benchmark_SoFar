@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "speaker",
+        "wineglass",
+        "camera",
+        "can"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/4445f4442a884999960e7e6660459095/material_2.urdf",
+        "objaverse_rescale/dc707f81a94e48078069c6a463f59fcf/material_2.urdf",
+        "objaverse_rescale/f6f8675406b7437faaf96a1f82062028/material_2.urdf",
+        "ycb_16k_backup/002_master_chef_can_google_16k/002_master_chef_can_google_16k.urdf"
+    ],
+    "target_obj_name": "can",
+    "instruction": "Place the can between the speaker and the wineglass on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.49644727704453256,
+            -0.14776873341162527,
+            0.9687469553790898,
+            -0.0028531807693276292,
+            -0.0002215631203580699,
+            0.07706993142439582,
+            0.9970215824843112,
+            0.002790994243696332,
+            -0.002115183277055621,
+            -0.00040822758455760777,
+            0.02594965137541294,
+            0.03306322172284126,
+            0.000782053277362138
+        ],
+        [
+            0.48947250456525776,
+            0.2887028779189528,
+            0.924460560503969,
+            0.41905848829220577,
+            -0.3788500917080516,
+            -0.6634336447452981,
+            -0.4906306048576881,
+            -0.007414360996335745,
+            0.004011010285466909,
+            -0.006722386460751295,
+            -0.15087805688381195,
+            -0.12141776084899902,
+            0.05001797899603844
+        ],
+        [
+            0.36472035379683604,
+            0.18045565704957914,
+            0.9580866730816878,
+            -0.44424245902603066,
+            0.25675225723167155,
+            0.2188107468115696,
+            0.8299691398387714,
+            -0.0005148457712493837,
+            -0.0004661102721001953,
+            0.0004304857866372913,
+            0.010096104815602303,
+            -0.010097043588757515,
+            0.0011534059885889292
+        ],
+        [
+            0.621155749552097,
+            0.14490863639478965,
+            0.9576307728238964,
+            -0.6896829076492216,
+            -0.15275376985440975,
+            -0.036487011565801225,
+            -0.7068751450424464,
+            -0.00015991582768037915,
+            -8.958730904851109e-05,
+            7.415653817588463e-05,
+            0.0007948523852974176,
+            -0.0030537338461726904,
+            -0.0016803196631371975
+        ]
+    ],
+    "position_instruction": "Place the can between the speaker and the wineglass on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "4445f4442a884999960e7e6660459095",
+        "dc707f81a94e48078069c6a463f59fcf",
+        "f6f8675406b7437faaf96a1f82062028",
+        "002"
+    ],
+    "target_obj_code": "002",
+    "anno_target": {
+        "category": "can",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "sideways"
+}

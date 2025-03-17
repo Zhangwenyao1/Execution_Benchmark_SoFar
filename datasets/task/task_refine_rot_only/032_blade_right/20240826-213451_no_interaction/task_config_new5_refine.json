@@ -1,0 +1,67 @@
+{
+    "selected_obj_names": [
+        "knife"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/032_knife_google_16k/032_knife_google_16k.urdf"
+    ],
+    "target_obj_name": "knife",
+    "instruction": "We need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.24972105696160762,
+            -0.19232306133792812,
+            0.8994520185327836,
+            0.8676690061570794,
+            -0.45256321650760206,
+            0.11872819917739344,
+            -0.16804953299183487,
+            0.0034957081079483032,
+            0.004292529076337814,
+            -0.005060727708041668,
+            0.6599993705749512,
+            -0.9753879904747009,
+            0.09870091825723648
+        ]
+    ],
+    "position_instruction": "",
+    "rotation_instruction": "We need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blade_right",
+    "obj_codes": [
+        "032"
+    ],
+    "target_obj_code": "032",
+    "anno_target": {
+        "category": "knife",
+        "annotation": {
+            " the blade of the knife is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        -0.010130898095667362,
+                        0.010130898095667362,
+                        0.707034170627594,
+                        0.707034170627594
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blade of the knife is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        -0.010140104219317436,
+                        -0.010121682658791542,
+                        0.7076767086982727,
+                        -0.7063910365104675
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blade_right",
+    "rot_tag_level": 1,
+    "position_tag": "rot_ins",
+    "rotation_tag": "blade_right"
+}

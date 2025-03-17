@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "cap",
+        "box",
+        "box"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/87e82aa304ce4571b69bdd5182549c72/material_2.urdf",
+        "ycb_16k_backup/003_cracker_box_google_16k/003_cracker_box_google_16k.urdf",
+        "ycb_16k_backup/008_pudding_box_google_16k/008_pudding_box_google_16k.urdf"
+    ],
+    "target_obj_name": "box",
+    "instruction": "Place the box to the right of the cap on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.",
+    "init_obj_pos": [
+        [
+            0.5495352009404848,
+            0.08331589393877954,
+            0.9390360124194341,
+            -0.5813147666938372,
+            0.69305172598195,
+            -0.3289762005039222,
+            0.2711588217984675,
+            -0.0035530480090528727,
+            -0.00235101324506104,
+            -0.0011200259905308485,
+            0.0740908533334732,
+            -0.10450446605682373,
+            -0.01747882552444935
+        ],
+        [
+            0.39607953723677386,
+            0.23943329718212616,
+            0.9036105071483631,
+            0.00045068535051878103,
+            -0.011580651899589612,
+            0.10197059111501719,
+            0.9947199022498497,
+            0.002172427251935005,
+            -0.0001484687818447128,
+            -0.0008035239297896624,
+            -0.0009362362907268107,
+            0.024570396170020103,
+            -0.0038226828910410404
+        ],
+        [
+            0.546923843562208,
+            0.14841018931953995,
+            0.30074331164360046,
+            -0.006078922655433416,
+            0.0027342806570231915,
+            -0.03642908111214638,
+            0.9993138909339905,
+            -0.00022524512314703315,
+            -0.001091752084903419,
+            -0.002535373205319047,
+            -0.013973578810691833,
+            -0.0395689494907856,
+            0.009052683599293232
+        ]
+    ],
+    "position_instruction": "Place the box to the right of the cap on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.",
+    "rotation_instruction_label": "sideways_textual",
+    "obj_codes": [
+        "87e82aa304ce4571b69bdd5182549c72",
+        "003",
+        "008"
+    ],
+    "target_obj_code": "008",
+    "anno_target": {
+        "category": "box",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            },
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            },
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways_textual",
+    "rot_tag_level": 2,
+    "position_tag": "right",
+    "rotation_tag": "sideways_textual"
+}

@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "keyboard",
+        "calipers",
+        "bottle",
+        "plate"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f5080a3df6d847b693c5cca415886c61/material_2.urdf",
+        "objaverse_rescale/95c967114b624291bc26bcd705aaa334/material_2.urdf",
+        "objaverse_rescale/a7785ac7ce7f4ba79df661db33637ba9/material_2.urdf",
+        "ycb_16k_backup/029_plate_google_16k/029_plate_google_16k.urdf"
+    ],
+    "target_obj_name": "plate",
+    "instruction": "Place the plate between the keyboard and the calipers on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.5687997798222322,
+            -0.33220964776370226,
+            0.9139524626320693,
+            0.7037552774815836,
+            -0.025673711623247025,
+            -0.02757291970191551,
+            0.7094428123868876,
+            -0.0003378798719495535,
+            0.009018664248287678,
+            -0.004451059736311436,
+            -0.37154823541641235,
+            -0.07117150723934174,
+            0.02315625734627247
+        ],
+        [
+            0.34795213153806837,
+            0.013955368743482651,
+            0.9029121293176279,
+            -0.6933849066752388,
+            0.1475090934526802,
+            -0.15067694858481145,
+            0.6890245973177657,
+            -0.004163527395576239,
+            -0.0006003499729558825,
+            0.03338799253106117,
+            1.5545562505722046,
+            -1.9501996040344238,
+            0.0206775963306427
+        ],
+        [
+            0.5882075003999095,
+            -0.07408579867365471,
+            0.9305373042023525,
+            -0.01249368149469299,
+            -0.36463182374122877,
+            -0.046095295322555005,
+            0.9299262147003812,
+            0.0004106168053112924,
+            -0.0002256873995065689,
+            -5.777295882580802e-06,
+            0.010416575707495213,
+            0.045934468507766724,
+            0.014875679276883602
+        ],
+        [
+            0.3090099022564547,
+            0.20136905322297535,
+            0.9030413127231783,
+            -0.00011880990725427592,
+            -0.00015586982245380238,
+            -0.01118543323801535,
+            0.9999374218780301,
+            8.062550477916375e-05,
+            -4.585637361742556e-05,
+            -0.0003638346679508686,
+            0.002539744833484292,
+            0.009207421913743019,
+            -0.00033344028634019196
+        ]
+    ],
+    "position_instruction": "Place the plate between the keyboard and the calipers on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "f5080a3df6d847b693c5cca415886c61",
+        "95c967114b624291bc26bcd705aaa334",
+        "a7785ac7ce7f4ba79df661db33637ba9",
+        "029"
+    ],
+    "target_obj_code": "029",
+    "anno_target": {
+        "category": "plate",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

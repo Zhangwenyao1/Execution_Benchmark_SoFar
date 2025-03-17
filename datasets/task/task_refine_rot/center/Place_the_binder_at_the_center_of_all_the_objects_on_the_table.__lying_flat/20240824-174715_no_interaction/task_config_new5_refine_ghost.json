@@ -1,0 +1,127 @@
+{
+    "selected_obj_names": [
+        "calculator",
+        "pear",
+        "wrench",
+        "binder"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/b4bb8bd7791648fdb36c458fd9a877bf/material_2.urdf",
+        "objaverse_rescale/f9ac5185507b4d0dbc744941e9055b96/material_2.urdf",
+        "objaverse_rescale/5bf781c9fd8d4121b735503b13ba2eaf/material_2.urdf",
+        "objaverse_rescale/78e016eeb0bf45d5bea47547128383a8/material_2.urdf"
+    ],
+    "target_obj_name": "binder",
+    "instruction": "Place the binder at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.3759093862775073,
+            0.019403627973727498,
+            0.9856402408428998,
+            0.23441257036992227,
+            0.001613514043442455,
+            0.00617477481423321,
+            0.972116256206526,
+            -0.005907244049012661,
+            0.006917770020663738,
+            0.00288873421959579,
+            -0.08715307712554932,
+            -0.03131076693534851,
+            -0.05360087379813194
+        ],
+        [
+            0.3430946234966555,
+            0.11167665399084033,
+            0.9343440282904795,
+            -0.12840650697575431,
+            0.03703056222763707,
+            -0.12675882145080888,
+            0.9828899773686739,
+            0.0032411955762654543,
+            -0.00022065835946705192,
+            -0.0005887807928957045,
+            -0.010646726936101913,
+            0.08776501566171646,
+            0.0628817230463028
+        ],
+        [
+            0.3055235592731218,
+            0.17912144824827017,
+            0.9056067473606361,
+            0.6203093952702257,
+            0.2943523093011106,
+            0.29570602756699216,
+            0.6641768720823844,
+            -0.0003589667030610144,
+            -0.004059635102748871,
+            0.029794596135616302,
+            0.20734697580337524,
+            0.9548200964927673,
+            0.0002293428551638499
+        ],
+        [
+            0.42669466708845055,
+            -0.16101691388693987,
+            1.0259579403256491,
+            -1.0441772843589256e-05,
+            -1.0394680003013787e-06,
+            -0.058090995797538965,
+            0.9983112921815213,
+            -0.002478522714227438,
+            -0.013105257414281368,
+            0.002318084007129073,
+            0.14060750603675842,
+            -0.0779460147023201,
+            -0.08528931438922882
+        ]
+    ],
+    "position_instruction": "Place the binder at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "b4bb8bd7791648fdb36c458fd9a877bf",
+        "f9ac5185507b4d0dbc744941e9055b96",
+        "5bf781c9fd8d4121b735503b13ba2eaf",
+        "78e016eeb0bf45d5bea47547128383a8"
+    ],
+    "target_obj_code": "78e016eeb0bf45d5bea47547128383a8",
+    "anno_target": {
+        "category": "binder",
+        "annotation": {
+            "the binder is standing upright on the table and oriented in a way so that its smaller side is in contact with the tabletop and the larger face is perpendicular to the tabletop, and the label should be in sight as well.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        0.5,
+                        0.4999999701976776
+                    ],
+                    [
+                        -0.4999997913837433,
+                        0.5000002384185791,
+                        0.4999997615814209,
+                        0.5000002384185791
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "center",
+    "rotation_tag": "lying_flat"
+}

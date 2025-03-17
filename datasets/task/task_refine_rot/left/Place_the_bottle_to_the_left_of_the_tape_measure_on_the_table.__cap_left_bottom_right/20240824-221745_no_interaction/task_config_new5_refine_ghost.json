@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "tape measure",
+        "spoon",
+        "hammer",
+        "bottle"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/1574b13827734d54b6d9d86be8be71d1/material_2.urdf",
+        "objaverse_rescale/218768789fdd42bd95eb933046698499/material_2.urdf",
+        "objaverse_rescale/4f24b866dab248b684149ec6bb40101f/material_2.urdf",
+        "ycb_16k_backup/021_bleach_cleanser_google_16k/021_bleach_cleanser_google_16k.urdf"
+    ],
+    "target_obj_name": "bottle",
+    "instruction": "Place the bottle to the left of the tape measure on the table. We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.",
+    "init_obj_pos": [
+        [
+            0.5085531413467704,
+            0.054580877839868626,
+            0.9536691417259975,
+            -0.9465308830547375,
+            -0.11470658660686547,
+            0.04459856228970771,
+            0.298215785387547,
+            0.0005136921536177397,
+            -0.0013152247993275523,
+            -0.0003302618279121816,
+            0.03599682077765465,
+            -0.0009124116040766239,
+            0.018779510632157326
+        ],
+        [
+            0.6865661801745443,
+            0.13552728771868314,
+            0.9075755706177204,
+            0.00591362937584576,
+            -0.04628455771819925,
+            -0.08885180599029693,
+            0.9949513180436007,
+            -0.0003423081652726978,
+            -0.0034306026063859463,
+            0.03019334003329277,
+            0.029338892549276352,
+            7.141946315765381,
+            -0.3236579895019531
+        ],
+        [
+            0.4261128805124645,
+            0.010482862415163403,
+            0.9118844251706211,
+            0.0202100001250334,
+            0.021766248351934348,
+            -0.07013825667734436,
+            0.9970949860860258,
+            -0.012581432238221169,
+            0.004347590263932943,
+            0.01447837520390749,
+            0.39274629950523376,
+            -0.6269372701644897,
+            0.038288116455078125
+        ],
+        [
+            0.3622040533190266,
+            -0.1304725718073564,
+            0.9003783241011583,
+            -0.0008839146301430178,
+            -0.0005489081273000414,
+            0.02407656244260481,
+            0.999709576094849,
+            -0.0021803989075124264,
+            -0.003116304287686944,
+            -0.0009743233094923198,
+            0.03366920351982117,
+            -0.024990135803818703,
+            -0.0036314900498837233
+        ]
+    ],
+    "position_instruction": "Place the bottle to the left of the tape measure on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.",
+    "rotation_instruction_label": "cap_left_bottom_right",
+    "obj_codes": [
+        "1574b13827734d54b6d9d86be8be71d1",
+        "218768789fdd42bd95eb933046698499",
+        "4f24b866dab248b684149ec6bb40101f",
+        "021"
+    ],
+    "target_obj_code": "021",
+    "anno_target": {
+        "category": "bottle",
+        "annotation": {
+            " the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.": {
+                "quat": [
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "cap_left_bottom_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "cap_left_bottom_right"
+}

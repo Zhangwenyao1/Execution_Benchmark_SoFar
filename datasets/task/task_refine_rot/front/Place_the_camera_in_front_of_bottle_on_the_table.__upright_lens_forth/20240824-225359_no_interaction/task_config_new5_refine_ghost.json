@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "bottle",
+        "pear",
+        "camera"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/006_mustard_bottle_google_16k/006_mustard_bottle_google_16k.urdf",
+        "objaverse_rescale/f3dd3064db4f4e8880344425970cecad/material_2.urdf",
+        "objaverse_rescale/f6f8675406b7437faaf96a1f82062028/material_2.urdf"
+    ],
+    "target_obj_name": "camera",
+    "instruction": "Place the camera in front of bottle on the table. We also need to specify the rotation of the object after placement:  the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.",
+    "init_obj_pos": [
+        [
+            0.6464539961358267,
+            0.048359127621055625,
+            0.9030943623206397,
+            0.0002950945761297979,
+            5.6144465707832564e-05,
+            0.12399223233570199,
+            0.9922831431035186,
+            0.0014300497714430094,
+            -0.0006694600451737642,
+            -0.0004381146572995931,
+            0.01746177114546299,
+            0.01811745949089527,
+            0.011916691437363625
+        ],
+        [
+            0.31211132954473403,
+            0.022282949447736854,
+            0.9343877128507571,
+            -0.1729598026141962,
+            -0.013576139519184863,
+            0.08449975595574236,
+            0.9812035397198853,
+            -0.001965907169505954,
+            0.0014427491696551442,
+            -0.0002394351176917553,
+            -0.032699473202228546,
+            -0.05565501004457474,
+            -0.05789142847061157
+        ],
+        [
+            0.4816917282112446,
+            0.1464489850606299,
+            0.9580856746318964,
+            -0.46710429833431905,
+            0.21265265518560741,
+            0.2983139278998692,
+            0.8047367415130648,
+            -0.00015776082000229508,
+            -0.0007632878259755671,
+            0.00017220246081706136,
+            0.010664970614016056,
+            0.0008958711405284703,
+            0.00600517587736249
+        ]
+    ],
+    "position_instruction": "Place the camera in front of bottle on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.",
+    "rotation_instruction_label": "upright_lens_forth",
+    "obj_codes": [
+        "006",
+        "f3dd3064db4f4e8880344425970cecad",
+        "f6f8675406b7437faaf96a1f82062028"
+    ],
+    "target_obj_code": "f6f8675406b7437faaf96a1f82062028",
+    "anno_target": {
+        "category": "camera",
+        "annotation": {
+            " the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "upright_lens_forth",
+    "rot_tag_level": 2,
+    "position_tag": "front",
+    "rotation_tag": "upright_lens_forth"
+}

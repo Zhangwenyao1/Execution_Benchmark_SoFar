@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "bowl",
+        "microphone",
+        "mug",
+        "spoon"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/bdd36c94f3f74f22b02b8a069c8d97b7/material_2.urdf",
+        "objaverse_rescale/fac08019fef5474189f965bb495771eb/material_2.urdf",
+        "objaverse_rescale/ca4f9a92cc2f4ee98fe9332db41bf7f7/material_2.urdf",
+        "objaverse_rescale/218768789fdd42bd95eb933046698499/material_2.urdf"
+    ],
+    "target_obj_name": "spoon",
+    "instruction": "Place the spoon at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "init_obj_pos": [
+        [
+            0.4342709605899465,
+            -0.1419676412173164,
+            0.9948669411602227,
+            0.010141814587525631,
+            0.08737249180728279,
+            0.3267644638314281,
+            0.9410038131958962,
+            0.10025421530008316,
+            0.048945553600788116,
+            -0.06401538103818893,
+            0.05391069874167442,
+            0.7736403346061707,
+            1.5934152603149414
+        ],
+        [
+            0.2917844800346722,
+            0.023044034540481508,
+            0.9282108546666896,
+            -0.12058832831099284,
+            -0.7552434973351536,
+            -0.11675919061134209,
+            0.6335874100831778,
+            -0.0014987379545345902,
+            -0.0018042855663225055,
+            -0.0008573521045036614,
+            0.10796591639518738,
+            -0.038860172033309937,
+            0.08517954498529434
+        ],
+        [
+            0.7237504995299148,
+            -0.16990023864491194,
+            0.9630121304406682,
+            -0.06364247393739142,
+            0.08593025273742934,
+            0.887060420967471,
+            0.4490984710824837,
+            -0.015290492214262486,
+            -0.016266431659460068,
+            0.0018794350326061249,
+            0.3102452754974365,
+            -0.2543483078479767,
+            -0.46827778220176697
+        ],
+        [
+            0.3870390129411995,
+            0.02774225290953072,
+            0.9081310505146245,
+            -0.012664779006315418,
+            -0.048270982438105334,
+            -0.3242344482711632,
+            0.9446594826610677,
+            0.00025318568805232644,
+            0.0003553064016159624,
+            0.03430207818746567,
+            -3.3934881687164307,
+            -3.946047067642212,
+            0.5594794750213623
+        ]
+    ],
+    "position_instruction": "Place the spoon at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "rotation_instruction_label": "scoop_right",
+    "obj_codes": [
+        "bdd36c94f3f74f22b02b8a069c8d97b7",
+        "fac08019fef5474189f965bb495771eb",
+        "ca4f9a92cc2f4ee98fe9332db41bf7f7",
+        "218768789fdd42bd95eb933046698499"
+    ],
+    "target_obj_code": "218768789fdd42bd95eb933046698499",
+    "anno_target": {
+        "category": "spoon",
+        "annotation": {
+            " the ladle is lying on the table, with its scoop on the left(pointing towards left) and its handle on the right. ": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ladle is lying on the table, with its scoop on the right(pointing towards right) and its handle on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "scoop_right",
+    "rot_tag_level": 1,
+    "position_tag": "center",
+    "rotation_tag": "scoop_right"
+}

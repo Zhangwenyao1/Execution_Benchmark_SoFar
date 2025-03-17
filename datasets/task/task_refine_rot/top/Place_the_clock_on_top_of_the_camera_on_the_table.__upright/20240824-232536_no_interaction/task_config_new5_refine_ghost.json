@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "camera",
+        "toy",
+        "clock"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6a63fc4af48b453c91ca2b335a4d464d/material_2.urdf",
+        "ycb_16k_backup/073-g_lego_duplo_google_16k/073-g_lego_duplo_google_16k.urdf",
+        "objaverse_rescale/fdf932b04e6c4e0fbd6e274563b94536/material_2.urdf"
+    ],
+    "target_obj_name": "clock",
+    "instruction": "Place the clock on top of the camera on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.5956168557345596,
+            -0.15590582229078848,
+            0.9565249966956125,
+            0.09435314458554941,
+            -0.012511364377340267,
+            -0.11065606602749885,
+            0.98929074842513,
+            0.00032536324579268694,
+            -0.00043397751869633794,
+            -0.0006397460820153356,
+            0.0029690484516322613,
+            0.0060241203755140305,
+            -0.006375952158123255
+        ],
+        [
+            0.35729607107673367,
+            -0.10883508818115023,
+            0.9002527815697512,
+            0.0022216511734888173,
+            -0.0006094179308623935,
+            0.10463346079629628,
+            0.9945081858675868,
+            -0.0015078946016728878,
+            -0.0003442172601353377,
+            -0.002697934163734317,
+            0.013424412347376347,
+            -0.010350402444601059,
+            -0.006792498752474785
+        ],
+        [
+            0.4439626317986176,
+            0.21435959371399435,
+            0.9343138815682885,
+            -0.01573985590485692,
+            0.0008858382892257511,
+            -0.05999256216614004,
+            0.9980743282498358,
+            -7.474085577996448e-06,
+            -1.442824304831447e-05,
+            -1.3542882697947789e-05,
+            0.000335893826559186,
+            -0.00016579337534494698,
+            -2.4802645839372417e-06
+        ]
+    ],
+    "position_instruction": "Place the clock on top of the camera on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "6a63fc4af48b453c91ca2b335a4d464d",
+        "073-g",
+        "fdf932b04e6c4e0fbd6e274563b94536"
+    ],
+    "target_obj_code": "fdf932b04e6c4e0fbd6e274563b94536",
+    "anno_target": {
+        "category": "clock",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "top",
+    "rotation_tag": "upright"
+}

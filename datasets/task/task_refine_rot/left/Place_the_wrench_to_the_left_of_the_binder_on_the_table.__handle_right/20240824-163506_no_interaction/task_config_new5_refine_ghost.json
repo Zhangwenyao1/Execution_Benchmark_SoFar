@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "binder",
+        "calculator",
+        "bottle",
+        "wrench"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/78e016eeb0bf45d5bea47547128383a8/material_2.urdf",
+        "objaverse_rescale/f0b1f7c17d70489888f5ae922169c0ce/material_2.urdf",
+        "objaverse_rescale/6add0a1fa81942acbb24504b130661c1/material_2.urdf",
+        "objaverse_rescale/19c1913ba85042938f0a87d94397c946/material_2.urdf"
+    ],
+    "target_obj_name": "wrench",
+    "instruction": "Place the wrench to the left of the binder on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.5411894288321114,
+            0.2760094493567662,
+            1.0289901960798642,
+            0.012671340105573426,
+            0.08320826534848684,
+            -0.15138532868691887,
+            0.9848849191534914,
+            -0.005046051926910877,
+            0.008210273459553719,
+            -0.02300594002008438,
+            0.000390066736144945,
+            -0.15249401330947876,
+            0.06809811294078827
+        ],
+        [
+            0.4095485589026763,
+            0.03435575694129097,
+            0.9113746617035684,
+            0.7076143229525174,
+            0.04055331598732413,
+            0.04036461307139232,
+            0.704278422590441,
+            -0.0001269388449145481,
+            0.00017879166989587247,
+            -0.0019143936224281788,
+            -0.013292756862938404,
+            0.0005392184248194098,
+            -0.0005470793112181127
+        ],
+        [
+            0.6883933006003444,
+            0.18595923634095388,
+            0.9435231999343372,
+            0.03257061284069289,
+            0.0713776683136714,
+            0.3223500225122694,
+            0.9433635813574864,
+            0.0018011999782174826,
+            -0.00029247120255604386,
+            -0.0004317019192967564,
+            0.010062336921691895,
+            0.059344347566366196,
+            0.0036361245438456535
+        ],
+        [
+            0.5675037381534386,
+            0.16503589462389995,
+            0.9560589863276011,
+            -0.3846815200954405,
+            -0.670242058763041,
+            0.1003014754741141,
+            0.6266859857854308,
+            0.003763926215469837,
+            -0.0035197229590266943,
+            0.04019830748438835,
+            -0.22970151901245117,
+            0.17236445844173431,
+            0.16701099276542664
+        ]
+    ],
+    "position_instruction": "Place the wrench to the left of the binder on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "78e016eeb0bf45d5bea47547128383a8",
+        "f0b1f7c17d70489888f5ae922169c0ce",
+        "6add0a1fa81942acbb24504b130661c1",
+        "19c1913ba85042938f0a87d94397c946"
+    ],
+    "target_obj_code": "19c1913ba85042938f0a87d94397c946",
+    "anno_target": {
+        "category": "wrench",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "handle_right"
+}

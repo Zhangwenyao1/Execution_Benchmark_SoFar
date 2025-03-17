@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "glue gun",
+        "power drill",
+        "calculator"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/a1da12b81f034db894496c1ffc4be1f5/material_2.urdf",
+        "ycb_16k_backup/035_power_drill_google_16k/035_power_drill_google_16k.urdf",
+        "objaverse_rescale/054be0c3f09143f38c4d8038eb2588c6/material_2.urdf"
+    ],
+    "target_obj_name": "calculator",
+    "instruction": "Place the calculator behind the glue gun on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.5625954438279126,
+            0.11791769262391855,
+            0.9143089501168085,
+            0.6895992406084159,
+            0.1300651807820611,
+            0.1322594254336843,
+            0.7000309853744878,
+            6.270225276239216e-05,
+            0.005701116751879454,
+            0.023399561643600464,
+            -0.00458608428016305,
+            0.5610881447792053,
+            -0.09700451046228409
+        ],
+        [
+            0.3071415881362886,
+            0.18220681230525018,
+            0.9031003785368565,
+            -2.970042823642522e-05,
+            0.00017073792693436617,
+            0.04763480324135932,
+            0.9988648034076487,
+            -0.00011811898730229586,
+            0.00019835465354844928,
+            -0.0004624934808816761,
+            -0.006619845051318407,
+            0.0003934602136723697,
+            0.0003658578498288989
+        ],
+        [
+            0.6099213022816442,
+            -0.14386054325935674,
+            0.905600499017427,
+            7.261435174760959e-05,
+            1.2515788762120625e-05,
+            -0.06219943016426054,
+            0.9980637381739468,
+            -9.242419037036598e-05,
+            0.0016281167045235634,
+            -0.010299411602318287,
+            -0.1292152851819992,
+            0.017585301771759987,
+            0.018060442060232162
+        ]
+    ],
+    "position_instruction": "Place the calculator behind the glue gun on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "a1da12b81f034db894496c1ffc4be1f5",
+        "035",
+        "054be0c3f09143f38c4d8038eb2588c6"
+    ],
+    "target_obj_code": "054be0c3f09143f38c4d8038eb2588c6",
+    "anno_target": {
+        "category": "calculator",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "upside_down"
+}

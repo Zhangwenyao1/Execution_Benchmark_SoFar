@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "USB",
+        "wrench",
+        "box",
+        "tissue box"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/0a51815f3c0941ae8312fc6917173ed6/material_2.urdf",
+        "objaverse_rescale/19c1913ba85042938f0a87d94397c946/material_2.urdf",
+        "ycb_16k_backup/009_gelatin_box_google_16k/009_gelatin_box_google_16k.urdf",
+        "objaverse_rescale/6f8040c86eb84e7bba2cd928c0755029/material_2.urdf"
+    ],
+    "target_obj_name": "tissue box",
+    "instruction": "Place the tissue box at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.4885672503309345,
+            0.05235680698348253,
+            0.9111774075918428,
+            -0.24281122553672896,
+            -0.3813829280965878,
+            -0.15547203207455287,
+            0.8783041717721906,
+            0.00031065658549778163,
+            -0.000263596186414361,
+            -0.000394460599636659,
+            0.029377765953540802,
+            0.030901191756129265,
+            -0.00015196658205240965
+        ],
+        [
+            0.38462332398476223,
+            -0.011039831536098908,
+            0.9075138792188794,
+            0.009975745620440459,
+            0.002844166070113208,
+            0.08235721326982981,
+            0.9965488872308818,
+            -0.0007683014264330268,
+            0.001897443551570177,
+            0.028024030849337578,
+            -0.41451114416122437,
+            4.248172283172607,
+            0.24035686254501343
+        ],
+        [
+            0.6110455854394975,
+            0.21160279314538047,
+            0.9003030072042746,
+            -0.002694727720361999,
+            0.0016249829346368157,
+            -0.41074618795349976,
+            0.9117442991072897,
+            -0.014717807993292809,
+            0.008849301375448704,
+            0.022404838353395462,
+            -0.4274674654006958,
+            -1.2781821489334106,
+            -0.1641295701265335
+        ],
+        [
+            0.6345371820505353,
+            -0.24066700032863794,
+            0.9273055417477634,
+            0.012657383476246061,
+            0.00018645026484359232,
+            0.014378834428950483,
+            0.9998164856613933,
+            -0.00018611278210300952,
+            -0.0011118205729871988,
+            -0.00020103747374378145,
+            0.02005801536142826,
+            -0.002050307346507907,
+            -0.00013641333498526365
+        ]
+    ],
+    "position_instruction": "Place the tissue box at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "0a51815f3c0941ae8312fc6917173ed6",
+        "19c1913ba85042938f0a87d94397c946",
+        "009",
+        "6f8040c86eb84e7bba2cd928c0755029"
+    ],
+    "target_obj_code": "6f8040c86eb84e7bba2cd928c0755029",
+    "anno_target": {
+        "category": "tissue_box",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "center",
+    "rotation_tag": "upright"
+}

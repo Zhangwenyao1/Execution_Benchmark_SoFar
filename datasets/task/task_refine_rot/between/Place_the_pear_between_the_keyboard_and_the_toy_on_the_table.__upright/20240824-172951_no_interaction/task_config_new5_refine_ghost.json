@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "keyboard",
+        "toy",
+        "pear"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/44bb12d306864e2cb4256a61d4168942/material_2.urdf",
+        "ycb_16k_backup/072-b_toy_airplane_google_16k/072-b_toy_airplane_google_16k.urdf",
+        "objaverse_rescale/f3dd3064db4f4e8880344425970cecad/material_2.urdf"
+    ],
+    "target_obj_name": "pear",
+    "instruction": "Place the pear between the keyboard and the toy on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.4565538950672948,
+            0.22136316954230337,
+            0.9129165026929462,
+            -0.6582522695023938,
+            -0.04691456392583222,
+            0.053401871245055535,
+            0.7494339287316287,
+            0.0014647162752225995,
+            -0.006598275620490313,
+            0.003176380880177021,
+            0.25931838154792786,
+            0.048258762806653976,
+            -0.006889237090945244
+        ],
+        [
+            0.33985427602756696,
+            -0.015427755556159363,
+            0.9001519037382676,
+            -0.00011251079852429583,
+            -0.00028723746564706553,
+            -0.06466918871855566,
+            0.9979067095006637,
+            -0.0011846423149108887,
+            -0.0015496601117774844,
+            -0.00046822408330626786,
+            0.028407298028469086,
+            -0.0013172879116609693,
+            0.00046212755842134356
+        ],
+        [
+            0.6416779663455012,
+            0.2604995577866018,
+            0.9343327765365306,
+            -0.17833828148647335,
+            -0.010326268243740024,
+            0.07676355824290232,
+            0.9809159911360907,
+            -0.005792907904833555,
+            -0.0043098595924675465,
+            -0.0048080021515488625,
+            0.0757749080657959,
+            -0.11744022369384766,
+            0.2981834411621094
+        ]
+    ],
+    "position_instruction": "Place the pear between the keyboard and the toy on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "44bb12d306864e2cb4256a61d4168942",
+        "072-b",
+        "f3dd3064db4f4e8880344425970cecad"
+    ],
+    "target_obj_code": "f3dd3064db4f4e8880344425970cecad",
+    "anno_target": {
+        "category": "pear",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7223767042160034,
+                        -0.006980384234338999,
+                        0.007292850874364376,
+                        0.6914260387420654
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upright"
+}

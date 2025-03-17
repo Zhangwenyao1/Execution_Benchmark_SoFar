@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "bottle",
+        "plate",
+        "plate"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6add0a1fa81942acbb24504b130661c1/material_2.urdf",
+        "objaverse_rescale/8d50c19e138b403e8b2ede9b47d8be3c/material_2.urdf",
+        "ycb_16k_backup/029_plate_google_16k/029_plate_google_16k.urdf"
+    ],
+    "target_obj_name": "plate",
+    "instruction": "Place the plate in front of bottle on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.4442736779396571,
+            -0.18719244281270236,
+            0.9344710453830055,
+            -0.00428039813526815,
+            -0.03705609926969246,
+            -0.015311051714732645,
+            0.9991867169824207,
+            0.0027974098920822144,
+            -0.01757904700934887,
+            -0.01524447277188301,
+            0.6592625975608826,
+            -0.2812829315662384,
+            0.24433006346225739
+        ],
+        [
+            0.47071873801791086,
+            0.07930234363970608,
+            0.9230399047342633,
+            0.6407381366926677,
+            -0.038413609902173525,
+            0.006803325530452371,
+            0.7667677285355844,
+            0.0012875262182205915,
+            -0.025129584595561028,
+            -0.13211461901664734,
+            1.944848656654358,
+            -0.768619954586029,
+            0.5205523371696472
+        ],
+        [
+            0.6634476780891418,
+            -0.04506377327420728,
+            0.302784264087677,
+            4.42724331151112e-06,
+            7.671347702853382e-06,
+            -0.08240360021591187,
+            0.9965991377830505,
+            5.9633741329889745e-05,
+            -4.873362195212394e-05,
+            -0.00031134081655181944,
+            0.0030691015999764204,
+            0.007310546934604645,
+            -0.0003834987001027912
+        ]
+    ],
+    "position_instruction": "Place the plate in front of bottle on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "6add0a1fa81942acbb24504b130661c1",
+        "8d50c19e138b403e8b2ede9b47d8be3c",
+        "029"
+    ],
+    "target_obj_code": "029",
+    "anno_target": {
+        "category": "plate",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "front",
+    "rotation_tag": "upside_down"
+}

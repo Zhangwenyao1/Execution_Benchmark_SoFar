@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "power drill",
+        "tissue box",
+        "bottle"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/035_power_drill_google_16k/035_power_drill_google_16k.urdf",
+        "objaverse_rescale/2bd98e8ea09f49bd85453a927011d31d/material_2.urdf",
+        "ycb_16k_backup/006_mustard_bottle_google_16k/006_mustard_bottle_google_16k.urdf"
+    ],
+    "target_obj_name": "bottle",
+    "instruction": "Place the bottle to the right of the power drill on the table. We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.",
+    "init_obj_pos": [
+        [
+            0.5380533985486207,
+            0.1628911379247598,
+            0.9030941595631053,
+            -2.1254074591021832e-05,
+            0.00025958493928019105,
+            -0.10826564259211528,
+            0.9941219657557322,
+            1.499805148341693e-05,
+            9.618213516660035e-05,
+            -0.00032657195697538555,
+            -0.00482986681163311,
+            0.004279653541743755,
+            -0.00025937907048501074
+        ],
+        [
+            0.4376797276246608,
+            -0.2196516920150956,
+            0.914906852824913,
+            -0.0009784094693306095,
+            -8.850468063258203e-05,
+            0.09444686467870456,
+            0.9955294192710706,
+            0.00015574629651382565,
+            0.00029361326596699655,
+            -8.201988384826109e-05,
+            -0.0032821737695485353,
+            0.0010638112435117364,
+            -7.321623706957325e-05
+        ],
+        [
+            0.695568307246053,
+            0.07006359016202941,
+            0.9030929138267392,
+            0.00028496740595364674,
+            7.15037498846254e-05,
+            0.07386393438723811,
+            0.9972682853062304,
+            0.0010492500150576234,
+            -0.00026987181627191603,
+            -0.0002722632489167154,
+            0.004636866040527821,
+            0.013898632489144802,
+            0.004645607899874449
+        ]
+    ],
+    "position_instruction": "Place the bottle to the right of the power drill on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.",
+    "rotation_instruction_label": "cap_right_bottom_left",
+    "obj_codes": [
+        "035",
+        "2bd98e8ea09f49bd85453a927011d31d",
+        "006"
+    ],
+    "target_obj_code": "006",
+    "anno_target": {
+        "category": "bottle",
+        "annotation": {
+            " the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.": {
+                "quat": [
+                    [
+                        0.6940461993217468,
+                        -0.13927604258060455,
+                        0.13960807025432587,
+                        0.6923955678939819
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.": {
+                "quat": [
+                    [
+                        0.6968799233436584,
+                        -0.14050795137882233,
+                        -0.138368159532547,
+                        -0.6895434260368347
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "cap_right_bottom_left",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "cap_right_bottom_left"
+}

@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "remote control",
+        "stapler",
+        "watch",
+        "scissors"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/c7ec86e7feb746489b30b4a01c2510af/material_2.urdf",
+        "objaverse_rescale/d2c345be5c084b4e8c92b48f7be69315/material_2.urdf",
+        "objaverse_rescale/243b381dcdc34316a7e78a533572d273/material_2.urdf",
+        "objaverse_rescale/2b1120c4b517409184413ed709c57a66/material_2.urdf"
+    ],
+    "target_obj_name": "scissors",
+    "instruction": "Place the scissors between the remote control and the stapler on the table. We also need to specify the rotation of the object after placement:  the blades of the scissors are on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.5498783646261423,
+            -0.085906511412037,
+            0.9442750845794946,
+            0.47086970980622284,
+            0.08659645107915202,
+            0.13213332099387629,
+            0.8679421389301415,
+            0.001507854787632823,
+            0.0011367433471605182,
+            0.028992846608161926,
+            -0.2533174753189087,
+            -0.25016677379608154,
+            -0.013853550888597965
+        ],
+        [
+            0.5996611900365862,
+            -0.1793410563877328,
+            0.9257659061638057,
+            -0.16038262696252134,
+            0.3327040180662713,
+            0.16576430715012763,
+            0.9143892189905765,
+            -0.0002288530085934326,
+            0.004567173775285482,
+            -0.008067179471254349,
+            -0.2197362631559372,
+            -0.0336838960647583,
+            -0.00292672379873693
+        ],
+        [
+            0.3643778770416173,
+            0.06704514485572502,
+            0.9248375463657902,
+            0.08609553810521524,
+            -0.05451074388638722,
+            -0.5323372270704567,
+            0.8403768284491565,
+            -0.0001669891207711771,
+            -0.0005453088670037687,
+            -0.00011345681559760123,
+            0.0057860142551362514,
+            -0.00019158920622430742,
+            6.252625462366268e-05
+        ],
+        [
+            0.47574104052112604,
+            0.06166625871865118,
+            0.9045176235302177,
+            0.9879159527986545,
+            -0.15487498422748489,
+            -0.004000793294642846,
+            -0.004450069603334548,
+            -0.008969360031187534,
+            -0.00237241480499506,
+            0.010448438115417957,
+            0.9387270212173462,
+            -1.256463885307312,
+            0.09706511348485947
+        ]
+    ],
+    "position_instruction": "Place the scissors between the remote control and the stapler on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the blades of the scissors are on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blades_right",
+    "obj_codes": [
+        "c7ec86e7feb746489b30b4a01c2510af",
+        "d2c345be5c084b4e8c92b48f7be69315",
+        "243b381dcdc34316a7e78a533572d273",
+        "2b1120c4b517409184413ed709c57a66"
+    ],
+    "target_obj_code": "2b1120c4b517409184413ed709c57a66",
+    "anno_target": {
+        "category": "scissors",
+        "annotation": {
+            " the blades of the scissors are on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blades of the scissors are on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blades_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "blades_right"
+}

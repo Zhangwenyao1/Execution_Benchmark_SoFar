@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "remote control",
+        "screwdriver"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6f8040c86eb84e7bba2cd928c0755029/material_2.urdf",
+        "objaverse_rescale/f1bbc61a42b94ee9a2976ca744f8962e/material_2.urdf",
+        "ycb_16k_backup/043_phillips_screwdriver_google_16k/043_phillips_screwdriver_google_16k.urdf"
+    ],
+    "target_obj_name": "screwdriver",
+    "instruction": "Place the screwdriver on top of the tissue box on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6558572034170231,
+            0.20995700693184613,
+            0.9273059265419704,
+            0.012649792694560123,
+            -0.0006474225344695726,
+            -0.05144204661055532,
+            0.9985956536203048,
+            -0.00018070699297823012,
+            -0.002165868878364563,
+            -0.000561913417186588,
+            0.044991765171289444,
+            -0.004145082086324692,
+            -3.2679254218237475e-05
+        ],
+        [
+            0.596668399272931,
+            0.11003603851741503,
+            0.9086532641120795,
+            -0.33097426055842283,
+            0.6248633121019157,
+            0.6242440599781113,
+            -0.33214640389273015,
+            0.00027717105695046484,
+            0.0013064630329608917,
+            0.021362969651818275,
+            -1.068572759628296,
+            -0.4041910171508789,
+            -0.058615852147340775
+        ],
+        [
+            0.32576295978883946,
+            -0.14403232394841417,
+            0.9014704619927223,
+            -0.027251792416427383,
+            -0.009660957169330336,
+            -0.06631745431321738,
+            0.9973795671508808,
+            0.00029313203413039446,
+            -0.0007935687899589539,
+            -0.0004074731841683388,
+            0.018480544909834862,
+            0.03236810863018036,
+            0.00661038001999259
+        ]
+    ],
+    "position_instruction": "Place the screwdriver on top of the tissue box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "6f8040c86eb84e7bba2cd928c0755029",
+        "f1bbc61a42b94ee9a2976ca744f8962e",
+        "043"
+    ],
+    "target_obj_code": "043",
+    "anno_target": {
+        "category": "screwdriver",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.8475578427314758,
+                        0.530703067779541
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "handle_right"
+}

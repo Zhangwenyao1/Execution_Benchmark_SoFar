@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "box",
+        "clock",
+        "spatula"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/003_cracker_box_google_16k/003_cracker_box_google_16k.urdf",
+        "objaverse_rescale/fdf932b04e6c4e0fbd6e274563b94536/material_2.urdf",
+        "objaverse_rescale/4b27628be0804c0285d0b13dda025a0d/material_2.urdf"
+    ],
+    "target_obj_name": "spatula",
+    "instruction": "Place the spatula behind the box on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.3059074294328218,
+            -0.2292194577201692,
+            0.9038246892512705,
+            -0.0009758588468992296,
+            -0.0146267298209597,
+            -0.06272445669800275,
+            0.9979232179913426,
+            -0.0006888877251185477,
+            -5.593903551925905e-05,
+            -0.0008088641334325075,
+            0.002730945125222206,
+            -0.009975705295801163,
+            0.0005622314638458192
+        ],
+        [
+            0.5397408402940618,
+            -0.32483141307553665,
+            0.9343179899318191,
+            -0.01476706556432746,
+            -0.0057322832354698575,
+            0.3561735892731557,
+            0.9342855286301965,
+            -5.482712026605441e-07,
+            -3.631651679825154e-06,
+            -4.846918727707816e-06,
+            7.155381899792701e-05,
+            3.317301988658983e-08,
+            -4.747843195218593e-05
+        ],
+        [
+            0.6385015685299408,
+            0.06100104495938014,
+            0.9039863390653298,
+            0.00449338245141107,
+            0.0010020402418410314,
+            -0.49668794542224876,
+            -0.8679169835311006,
+            4.7761728637851775e-05,
+            -0.0016302290605381131,
+            -0.010596273466944695,
+            -0.004914587363600731,
+            0.1317206621170044,
+            -0.04265579581260681
+        ]
+    ],
+    "position_instruction": "Place the spatula behind the box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "003",
+        "fdf932b04e6c4e0fbd6e274563b94536",
+        "4b27628be0804c0285d0b13dda025a0d"
+    ],
+    "target_obj_code": "4b27628be0804c0285d0b13dda025a0d",
+    "anno_target": {
+        "category": "spatula",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "handle_right"
+}

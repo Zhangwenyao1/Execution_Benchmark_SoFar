@@ -1,0 +1,85 @@
+{
+    "selected_obj_names": [
+        "binder clips",
+        "wallet"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/5e55c38b24dc4c239448efa1c6b7f49f/material_2.urdf",
+        "objaverse_rescale/dbb07d13a33546f09ac8ca98b1ddef20/material_2.urdf"
+    ],
+    "target_obj_name": "wallet",
+    "instruction": "Place the wallet in front of binder clips on the table. We also need to specify the rotation of the object after placement:  the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)",
+    "init_obj_pos": [
+        [
+            0.41951156562126635,
+            0.15138703440877493,
+            0.9100080992349607,
+            3.446782666135784e-05,
+            3.3558265032276518e-06,
+            0.051881282998763746,
+            0.9986532587816006,
+            0.0011614401591941714,
+            -0.0003193195734638721,
+            -0.00035864042001776397,
+            0.004407425876706839,
+            0.015113851986825466,
+            0.001365960924886167
+        ],
+        [
+            0.6134820354580858,
+            0.030778148128604018,
+            0.9118069184403367,
+            0.7217841813489099,
+            -0.16257097499609843,
+            -0.05213018177448274,
+            0.6707314796484979,
+            -0.00016900697664823383,
+            9.982068877434358e-05,
+            -0.0014098010724410415,
+            -0.02269653044641018,
+            0.009807420894503593,
+            -0.02155836671590805
+        ]
+    ],
+    "position_instruction": "Place the wallet in front of binder clips on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)",
+    "rotation_instruction_label": "clasp_right",
+    "obj_codes": [
+        "5e55c38b24dc4c239448efa1c6b7f49f",
+        "dbb07d13a33546f09ac8ca98b1ddef20"
+    ],
+    "target_obj_code": "dbb07d13a33546f09ac8ca98b1ddef20",
+    "anno_target": {
+        "category": "wallet",
+        "annotation": {
+            " the wallet is lying flat on the table, and the clasp is on the left(if the wallet has a clasp)": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            },
+            " the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "clasp_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "clasp_right"
+}

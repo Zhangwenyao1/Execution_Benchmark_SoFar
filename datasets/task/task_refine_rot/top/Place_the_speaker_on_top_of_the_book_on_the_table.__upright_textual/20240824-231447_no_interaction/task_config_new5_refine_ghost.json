@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "book",
+        "binder",
+        "speaker"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/c61227cac7224b86b43c53ac2a2b6ec7/material_2.urdf",
+        "objaverse_rescale/78e016eeb0bf45d5bea47547128383a8/material_2.urdf",
+        "objaverse_rescale/4445f4442a884999960e7e6660459095/material_2.urdf"
+    ],
+    "target_obj_name": "speaker",
+    "instruction": "Place the speaker on top of the book on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.",
+    "init_obj_pos": [
+        [
+            0.3214231974296277,
+            -0.10838490787554697,
+            0.9141658000239378,
+            -9.389502742449995e-05,
+            3.7418570352474613e-06,
+            0.09968608940664396,
+            0.9950189318543302,
+            -0.001961209811270237,
+            0.001217208686284721,
+            -0.002664616098627448,
+            -0.03201261907815933,
+            -0.02461957558989525,
+            0.02475111559033394
+        ],
+        [
+            0.6159603687205599,
+            0.13534466328483122,
+            1.0259914994788881,
+            -2.4907695933012096e-07,
+            -4.739012532851881e-06,
+            -0.03193867963141099,
+            0.9994898302238403,
+            -0.0014940905384719372,
+            -0.0002510496706236154,
+            -0.0006951153627596796,
+            0.001288586645387113,
+            -0.007950379513204098,
+            0.0025021913461387157
+        ],
+        [
+            0.33085590481957167,
+            0.09481886558896456,
+            0.9687468102804906,
+            -0.0028570451967087386,
+            -0.00018631681544358541,
+            0.06468607745477434,
+            0.9979015552459595,
+            0.002758114831522107,
+            -0.002124255057424307,
+            -0.0004740659205708653,
+            0.026904640719294548,
+            0.03289239853620529,
+            0.0007228808244690299
+        ]
+    ],
+    "position_instruction": "Place the speaker on top of the book on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.",
+    "rotation_instruction_label": "upright_textual",
+    "obj_codes": [
+        "c61227cac7224b86b43c53ac2a2b6ec7",
+        "78e016eeb0bf45d5bea47547128383a8",
+        "4445f4442a884999960e7e6660459095"
+    ],
+    "target_obj_code": "4445f4442a884999960e7e6660459095",
+    "anno_target": {
+        "category": "speaker",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.": {
+                "quat": [
+                    [
+                        -0.4999999701976776,
+                        -0.5000000596046448,
+                        -0.4999999701976776,
+                        -0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright_textual",
+    "rot_tag_level": 2,
+    "position_tag": "top",
+    "rotation_tag": "upright_textual"
+}

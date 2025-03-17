@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "knife",
+        "hammer",
+        "bottle",
+        "plate"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/032_knife_google_16k/032_knife_google_16k.urdf",
+        "objaverse_rescale/8ed38a92668a425eb16da938622d9ace/material_2.urdf",
+        "objaverse_rescale/794b730ae452424bb3a9ce3c6caaff7a/material_2.urdf",
+        "objaverse_rescale/6d5a4e1174dd4f5fa0a9a9076e476b91/material_2.urdf"
+    ],
+    "target_obj_name": "plate",
+    "instruction": "Place the plate in front of knife on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.41834166866144423,
+            0.1936785390387865,
+            0.916412412698925,
+            0.23436712658695738,
+            0.013464052605042492,
+            -0.01658888378796135,
+            0.9719133594088988,
+            0.0016906519886106253,
+            0.0004927517147734761,
+            0.033229582011699677,
+            -5.311476707458496,
+            1.418174147605896,
+            0.6840733885765076
+        ],
+        [
+            0.455387174195346,
+            0.05091600578066263,
+            0.911275366042913,
+            -0.5847114763800911,
+            0.39393627565488065,
+            -0.3969580584037529,
+            0.5876657212913642,
+            -0.003358107293024659,
+            0.0008192514069378376,
+            -0.011641460470855236,
+            -0.07023891806602478,
+            -0.4039076566696167,
+            0.00792774185538292
+        ],
+        [
+            0.35774759111676485,
+            -0.08454037783691802,
+            0.9288747775365154,
+            0.16378539187975288,
+            0.7736460951269831,
+            -0.1366104097364528,
+            0.5966436632138179,
+            -0.0005661119357682765,
+            0.0022613999899476767,
+            -0.0019422051263973117,
+            -0.03434919938445091,
+            -0.13453276455402374,
+            0.0051831635646522045
+        ],
+        [
+            0.5703111503145809,
+            -0.1886610728274833,
+            0.9127414084897035,
+            0.7061046663047109,
+            -0.0376504846299408,
+            -0.037642748849604196,
+            0.7061031544249672,
+            0.00017792214930523187,
+            7.251347415149212e-05,
+            -0.0006183484219945967,
+            -0.010080252774059772,
+            0.014361291192471981,
+            -0.000967375875916332
+        ]
+    ],
+    "position_instruction": "Place the plate in front of knife on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "032",
+        "8ed38a92668a425eb16da938622d9ace",
+        "794b730ae452424bb3a9ce3c6caaff7a",
+        "6d5a4e1174dd4f5fa0a9a9076e476b91"
+    ],
+    "target_obj_code": "6d5a4e1174dd4f5fa0a9a9076e476b91",
+    "anno_target": {
+        "category": "plate",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "front",
+    "rotation_tag": "upside_down"
+}

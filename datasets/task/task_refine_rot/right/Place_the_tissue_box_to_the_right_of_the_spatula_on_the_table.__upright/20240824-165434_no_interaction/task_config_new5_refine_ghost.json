@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "spatula",
+        "knife",
+        "bottle",
+        "tissue box"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/4b27628be0804c0285d0b13dda025a0d/material_2.urdf",
+        "objaverse_rescale/f93d05bc2db144f7a50374794ef5cf8d/material_2.urdf",
+        "ycb_16k_backup/021_bleach_cleanser_google_16k/021_bleach_cleanser_google_16k.urdf",
+        "objaverse_rescale/dc4c91abf45342b4bb8822f50fa162b2/material_2.urdf"
+    ],
+    "target_obj_name": "tissue box",
+    "instruction": "Place the tissue box to the right of the spatula on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.5456155844865985,
+            0.23813475653591454,
+            0.9039864425380201,
+            -0.004298685962642313,
+            0.0015116258276009656,
+            -0.07436708486177555,
+            0.997220523743627,
+            -0.0011283619096502662,
+            0.0002981026773341,
+            -0.01038567814975977,
+            0.06543827056884766,
+            -0.2300974279642105,
+            -0.033131424337625504
+        ],
+        [
+            0.7063845838091414,
+            -0.2562842884899579,
+            0.9032016821207193,
+            0.37767404436518964,
+            0.6074051366998163,
+            -0.3754412827157358,
+            0.5894617539385238,
+            0.00046718117664568126,
+            6.05491477472242e-05,
+            8.375504694413394e-05,
+            -0.2301928997039795,
+            0.4785683751106262,
+            0.018277723342180252
+        ],
+        [
+            0.5257967741142067,
+            0.047622284966693816,
+            0.9003780097403731,
+            -0.0008307984090814827,
+            -0.0006193096104466222,
+            0.10734228609702619,
+            0.9942215848818982,
+            -0.0013921274803578854,
+            0.0005957754328846931,
+            -0.0005093231447972357,
+            -0.006912071257829666,
+            -0.01752905175089836,
+            0.00043910430395044386
+        ],
+        [
+            0.6164744316541513,
+            -0.000541316308932516,
+            0.9471224720383522,
+            0.7068582589319115,
+            0.018737868359675357,
+            0.01872386520431602,
+            0.7068590460204163,
+            4.7831665142439306e-05,
+            -0.00021830439800396562,
+            0.00021120249584782869,
+            0.0037617443595081568,
+            -0.0012160394107922912,
+            -0.002578694373369217
+        ]
+    ],
+    "position_instruction": "Place the tissue box to the right of the spatula on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "4b27628be0804c0285d0b13dda025a0d",
+        "f93d05bc2db144f7a50374794ef5cf8d",
+        "021",
+        "dc4c91abf45342b4bb8822f50fa162b2"
+    ],
+    "target_obj_code": "dc4c91abf45342b4bb8822f50fa162b2",
+    "anno_target": {
+        "category": "tissue_box",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upright"
+}

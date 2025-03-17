@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "plate",
+        "orange",
+        "box",
+        "hard drive"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/029_plate_google_16k/029_plate_google_16k.urdf",
+        "objaverse_rescale/a4c9a503f63e440e8d6d924d4e5c36b1/material_2.urdf",
+        "objaverse_rescale/9660e0c0326b4f7386014e27717231ae/material_2.urdf",
+        "objaverse_rescale/e32b159011544b8aa7cacd812636353e/material_2.urdf"
+    ],
+    "target_obj_name": "hard drive",
+    "instruction": "Place the hard drive between the plate and the orange on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.4079786164554404,
+            0.25786282049002784,
+            0.9051720079346758,
+            -0.014091394668269315,
+            -0.002035353547478932,
+            0.14861949338143074,
+            0.9887919579564178,
+            -3.243491300963797e-05,
+            -9.80149197857827e-05,
+            -0.00015038740821182728,
+            -0.0028153422754257917,
+            -0.002515805885195732,
+            -0.0018260364886373281
+        ],
+        [
+            0.3850048740780329,
+            -0.03221514571838055,
+            0.9425110545058184,
+            0.4114506436044368,
+            0.669417054412969,
+            -0.5104936476415863,
+            0.3492640990083981,
+            -0.0030475957319140434,
+            -0.0029624232556670904,
+            -0.0006567497039213777,
+            0.09171654284000397,
+            -0.07257039099931717,
+            0.03303106129169464
+        ],
+        [
+            0.6464516204199168,
+            0.24252886777900617,
+            0.9190810160506003,
+            -0.0001401809507048978,
+            9.133703047649557e-07,
+            0.12283885093863069,
+            0.9924266204856372,
+            0.000391883950214833,
+            -0.00045051236520521343,
+            2.3178132323664613e-05,
+            0.00026015235926024616,
+            0.0005382462404668331,
+            -0.00021131870744284242
+        ],
+        [
+            0.6567026901882007,
+            -0.1685973686919552,
+            0.9151864056343039,
+            0.7029093296954142,
+            -0.07728274769772871,
+            -0.0771766644109648,
+            0.7028439468372976,
+            -0.0006386164459399879,
+            -0.00018371152691543102,
+            -0.0004040064522996545,
+            0.01757095754146576,
+            -0.03319830819964409,
+            0.0016737364931032062
+        ]
+    ],
+    "position_instruction": "Place the hard drive between the plate and the orange on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "029",
+        "a4c9a503f63e440e8d6d924d4e5c36b1",
+        "9660e0c0326b4f7386014e27717231ae",
+        "e32b159011544b8aa7cacd812636353e"
+    ],
+    "target_obj_code": "e32b159011544b8aa7cacd812636353e",
+    "anno_target": {
+        "category": "hard_drive",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "between",
+    "rotation_tag": "lying_flat"
+}

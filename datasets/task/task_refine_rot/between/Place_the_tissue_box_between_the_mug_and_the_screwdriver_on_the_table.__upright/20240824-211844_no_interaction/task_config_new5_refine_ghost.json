@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "screwdriver",
+        "tissue box"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/3ea2fd4e065147048064f4c97a89fe6f/material_2.urdf",
+        "ycb_16k_backup/043_phillips_screwdriver_google_16k/043_phillips_screwdriver_google_16k.urdf",
+        "objaverse_rescale/8eda72f64e6e4443af4fdbeed07cad29/material_2.urdf"
+    ],
+    "target_obj_name": "tissue box",
+    "instruction": "Place the tissue box between the mug and the screwdriver on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.3248059385599165,
+            -0.25038499581400203,
+            0.9544241977296087,
+            0.49859660109817694,
+            0.5013941606377444,
+            0.5013963208459657,
+            0.49860510877230874,
+            -0.0010549818398430943,
+            0.0006326495204120874,
+            0.0002161600423278287,
+            -0.015469481237232685,
+            -0.02332640066742897,
+            -0.0026283184997737408
+        ],
+        [
+            0.3669438726567043,
+            -0.0508615752227004,
+            0.9014839376376858,
+            -0.027322301190361328,
+            -0.01041903107377052,
+            -0.04351433060056551,
+            0.9986247737171013,
+            0.000941586447879672,
+            -0.001816549338400364,
+            -0.00032392103457823396,
+            0.12324228137731552,
+            0.07422935217618942,
+            -0.00631788419559598
+        ],
+        [
+            0.6973198406918377,
+            0.11710863492668883,
+            0.9296261845740444,
+            -4.784654126141063e-06,
+            -2.59429925708032e-06,
+            0.06477015486232937,
+            0.9979002089435023,
+            -0.0007879698532633483,
+            0.003274213522672653,
+            -0.008431082591414452,
+            -0.03456879034638405,
+            -0.0228242389857769,
+            -0.0014772209106013179
+        ]
+    ],
+    "position_instruction": "Place the tissue box between the mug and the screwdriver on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "3ea2fd4e065147048064f4c97a89fe6f",
+        "043",
+        "8eda72f64e6e4443af4fdbeed07cad29"
+    ],
+    "target_obj_code": "8eda72f64e6e4443af4fdbeed07cad29",
+    "anno_target": {
+        "category": "tissue_box",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upright"
+}

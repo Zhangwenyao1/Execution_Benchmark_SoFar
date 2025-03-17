@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "marker",
+        "bowl",
+        "USB",
+        "microphone"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/040_large_marker_google_16k/040_large_marker_google_16k.urdf",
+        "ycb_16k_backup/024_bowl_google_16k/024_bowl_google_16k.urdf",
+        "objaverse_rescale/0a51815f3c0941ae8312fc6917173ed6/material_2.urdf",
+        "objaverse_rescale/5172dbe9281a45f48cee8c15bdfa1831/material_2.urdf"
+    ],
+    "target_obj_name": "microphone",
+    "instruction": "Place the microphone between the marker and the bowl on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.44408690789559135,
+            0.34215088870112725,
+            0.9071635226258614,
+            0.01447347565197528,
+            -0.09372748410507516,
+            0.13102293168452547,
+            0.9868326446762278,
+            0.005776088684797287,
+            -0.007288952823728323,
+            0.026301149278879166,
+            -0.13449443876743317,
+            -0.8083618879318237,
+            0.05131622776389122
+        ],
+        [
+            0.6061737884635469,
+            -0.01879540985482055,
+            0.9111512371166779,
+            0.010033682002577468,
+            0.08550071333000558,
+            0.6138402914218063,
+            0.7847222756317835,
+            0.010052783414721489,
+            0.0015057625714689493,
+            -0.019357997924089432,
+            -0.017953692004084587,
+            0.4294454753398895,
+            -0.08022835850715637
+        ],
+        [
+            0.5354113135104118,
+            -0.15976430759358026,
+            0.9111771313277903,
+            0.06474699578911006,
+            -0.4481870344926505,
+            0.4543794597871034,
+            0.7671215778301044,
+            0.016632454469799995,
+            0.01949634961783886,
+            -0.000594052136875689,
+            -1.6299266815185547,
+            1.512138843536377,
+            0.07875987887382507
+        ],
+        [
+            0.38676005491673826,
+            0.014514510199305771,
+            0.9411514529679914,
+            -0.09981322543545881,
+            0.17202152485440875,
+            -0.05400162926172585,
+            0.9785344853667722,
+            -0.0033762152306735516,
+            0.000790527556091547,
+            -0.0009322018013335764,
+            -0.014314173720777035,
+            -0.09658064693212509,
+            -0.0015990363899618387
+        ]
+    ],
+    "position_instruction": "Place the microphone between the marker and the bowl on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "040",
+        "024",
+        "0a51815f3c0941ae8312fc6917173ed6",
+        "5172dbe9281a45f48cee8c15bdfa1831"
+    ],
+    "target_obj_code": "5172dbe9281a45f48cee8c15bdfa1831",
+    "anno_target": {
+        "category": "microphone",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upright"
+}

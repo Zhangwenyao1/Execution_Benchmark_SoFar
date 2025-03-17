@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "toy",
+        "keyboard",
+        "bottle"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/9adc77036b434348ae049776c50df624/material_2.urdf",
+        "objaverse_rescale/44bb12d306864e2cb4256a61d4168942/material_2.urdf",
+        "ycb_16k_backup/022_windex_bottle_google_16k/022_windex_bottle_google_16k.urdf"
+    ],
+    "target_obj_name": "bottle",
+    "instruction": "Place the bottle in front of toy on the table. We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.",
+    "init_obj_pos": [
+        [
+            0.5382679894527312,
+            0.1543425958570278,
+            0.9411383257198247,
+            -0.07350680363649538,
+            0.009101507457799364,
+            -0.11317857124381547,
+            0.9908100339582505,
+            0.0021798936650156975,
+            0.0037692829500883818,
+            -0.00038640701677650213,
+            -0.057682137936353683,
+            0.034353721886873245,
+            -0.004194127395749092
+        ],
+        [
+            0.6327898799405467,
+            0.2687010761335821,
+            0.9086011666716576,
+            -0.6969219208976675,
+            0.11892883489724806,
+            -0.11845238837770751,
+            0.6972265055847379,
+            -6.44482861389406e-06,
+            -3.341682895552367e-05,
+            -3.906062192982063e-05,
+            0.001741655869409442,
+            -0.0003756409860216081,
+            -0.0003095447609666735
+        ],
+        [
+            0.4248087209475004,
+            0.17395087981345989,
+            0.9301882548823719,
+            0.2340105817039178,
+            -0.6896126932433798,
+            0.4078456887735506,
+            0.5507588175572247,
+            -0.002964622341096401,
+            0.0006701641832478344,
+            -0.00020123527792748064,
+            -0.02234453335404396,
+            -0.10488588362932205,
+            -0.014314904808998108
+        ]
+    ],
+    "position_instruction": "Place the bottle in front of toy on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.",
+    "rotation_instruction_label": "cap_left_bottom_right",
+    "obj_codes": [
+        "9adc77036b434348ae049776c50df624",
+        "44bb12d306864e2cb4256a61d4168942",
+        "022"
+    ],
+    "target_obj_code": "022",
+    "anno_target": {
+        "category": "bottle",
+        "annotation": {
+            " the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            },
+            " the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "cap_left_bottom_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "cap_left_bottom_right"
+}

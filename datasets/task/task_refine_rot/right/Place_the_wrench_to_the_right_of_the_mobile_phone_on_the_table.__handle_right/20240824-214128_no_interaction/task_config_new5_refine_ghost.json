@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "mobile phone",
+        "knife",
+        "highlighter",
+        "wrench"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/bad5e04d290841779dad272897f384e1/material_2.urdf",
+        "ycb_16k_backup/032_knife_google_16k/032_knife_google_16k.urdf",
+        "objaverse_rescale/25481a65cad54e2a956394ff2b2765cd/material_2.urdf",
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf"
+    ],
+    "target_obj_name": "wrench",
+    "instruction": "Place the wrench to the right of the mobile phone on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6052028457241058,
+            -0.2079288301527332,
+            0.9062991313395289,
+            -0.6662014887585709,
+            0.23702396422955593,
+            -0.6661959653182866,
+            -0.2370193083915447,
+            0.0030611162073910236,
+            -0.002772919600829482,
+            0.026852339506149292,
+            -0.014894254505634308,
+            0.6479082703590393,
+            -0.09085952490568161
+        ],
+        [
+            0.559787401298522,
+            0.06092343920903573,
+            0.910026412318473,
+            -0.9436647004575048,
+            0.32794059356318345,
+            -0.0398620415564684,
+            0.019050402799517217,
+            -0.00048487787717022,
+            -0.0008832459570840001,
+            -0.008358246646821499,
+            0.265276163816452,
+            -0.3649888336658478,
+            0.07871308922767639
+        ],
+        [
+            0.6970453288025662,
+            0.1952601903181966,
+            0.9114601962906268,
+            0.7020805332200818,
+            -0.006483106264947222,
+            -0.021015447653033405,
+            0.7117578557111303,
+            0.0006847115000709891,
+            0.0036985946353524923,
+            -0.01592095196247101,
+            -0.37259235978126526,
+            0.12893046438694,
+            0.024432005360722542
+        ],
+        [
+            0.6694993232301681,
+            0.10903660112339578,
+            0.9020845932674563,
+            0.011049553998500624,
+            -0.02229270650890261,
+            0.02424059909126749,
+            0.9993964858596605,
+            0.004030443727970123,
+            -0.006401357240974903,
+            0.033850330859422684,
+            -1.8004060983657837,
+            0.8100475668907166,
+            -0.14837732911109924
+        ]
+    ],
+    "position_instruction": "Place the wrench to the right of the mobile phone on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "bad5e04d290841779dad272897f384e1",
+        "032",
+        "25481a65cad54e2a956394ff2b2765cd",
+        "042"
+    ],
+    "target_obj_code": "042",
+    "anno_target": {
+        "category": "wrench",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.2856176793575287,
+                        0.9583436250686646
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "handle_right"
+}

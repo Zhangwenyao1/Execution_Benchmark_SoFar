@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "speaker"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/8eda72f64e6e4443af4fdbeed07cad29/material_2.urdf",
+        "objaverse_rescale/4445f4442a884999960e7e6660459095/material_2.urdf"
+    ],
+    "target_obj_name": "speaker",
+    "instruction": "Place the speaker behind the tissue box on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.",
+    "init_obj_pos": [
+        [
+            0.3061937398805144,
+            -0.05930374191827134,
+            0.9296260828815096,
+            4.561744628063116e-06,
+            2.2870256146883547e-06,
+            0.019840867408163192,
+            0.9998031506023829,
+            -0.0006854671519249678,
+            0.0033877859823405743,
+            -0.006736522074788809,
+            -0.03937697783112526,
+            -0.015696365386247635,
+            -0.004015367012470961
+        ],
+        [
+            0.5145471477580371,
+            0.19749635714538896,
+            0.9687462600331677,
+            -0.0028501024205942896,
+            -0.00032177690353689435,
+            0.11319348736861878,
+            0.9935688238834514,
+            0.0029254844412207603,
+            -0.00205977912992239,
+            -0.00019488359976094216,
+            0.022517811506986618,
+            0.03411220759153366,
+            0.0013013080460950732
+        ]
+    ],
+    "position_instruction": "Place the speaker behind the tissue box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.",
+    "rotation_instruction_label": "upright_textual",
+    "obj_codes": [
+        "8eda72f64e6e4443af4fdbeed07cad29",
+        "4445f4442a884999960e7e6660459095"
+    ],
+    "target_obj_code": "4445f4442a884999960e7e6660459095",
+    "anno_target": {
+        "category": "speaker",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.": {
+                "quat": [
+                    [
+                        -0.4999999701976776,
+                        -0.5000000596046448,
+                        -0.4999999701976776,
+                        -0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright_textual",
+    "rot_tag_level": 2,
+    "position_tag": "behind",
+    "rotation_tag": "upright_textual"
+}

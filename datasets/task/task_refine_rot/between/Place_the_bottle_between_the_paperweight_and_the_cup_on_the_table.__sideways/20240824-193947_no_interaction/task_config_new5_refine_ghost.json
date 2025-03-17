@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "paperweight",
+        "cup",
+        "calculator",
+        "bottle"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/21c10181c122474a8f72a4ad0331f185/material_2.urdf",
+        "ycb_16k_backup/065-d_cups_google_16k/065-d_cups_google_16k.urdf",
+        "objaverse_rescale/b4bb8bd7791648fdb36c458fd9a877bf/material_2.urdf",
+        "objaverse_rescale/794b730ae452424bb3a9ce3c6caaff7a/material_2.urdf"
+    ],
+    "target_obj_name": "bottle",
+    "instruction": "Place the bottle between the paperweight and the cup on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.3752768388040801,
+            0.09429118132527226,
+            0.9379512937892773,
+            -0.12451310581788347,
+            0.19649650816141132,
+            -0.13436142471994184,
+            0.9632406845161727,
+            0.0012845942983403802,
+            -0.004329721909016371,
+            -0.0006387571338564157,
+            0.07986882328987122,
+            0.05548515170812607,
+            0.02347595989704132
+        ],
+        [
+            0.6018036036860182,
+            -0.06457466544624953,
+            0.8968520930109403,
+            -0.036957490726394066,
+            0.026304493792586234,
+            -0.11909426527049602,
+            0.9918461440491685,
+            0.004366304259747267,
+            0.012826680205762386,
+            0.003807390108704567,
+            -0.4785896837711334,
+            0.17507308721542358,
+            -0.01040315069258213
+        ],
+        [
+            0.563499685655458,
+            -0.0805393225686167,
+            0.984774735464812,
+            0.46948221124466916,
+            -0.07541871541216834,
+            -0.12993031900373553,
+            0.8700669990833936,
+            0.005393825471401215,
+            0.0047182743437588215,
+            0.007835574448108673,
+            -0.11356516927480698,
+            0.06827712804079056,
+            0.026300277560949326
+        ],
+        [
+            0.47451188173082404,
+            -0.22587062090617335,
+            0.9350550356276456,
+            0.0663082019708602,
+            0.4021837780593228,
+            -0.04472233200957808,
+            0.9120588489987618,
+            -0.003847865154966712,
+            0.00034944628714583814,
+            0.02248929813504219,
+            0.10128293186426163,
+            -0.6340670585632324,
+            -0.13740989565849304
+        ]
+    ],
+    "position_instruction": "Place the bottle between the paperweight and the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "21c10181c122474a8f72a4ad0331f185",
+        "065-d",
+        "b4bb8bd7791648fdb36c458fd9a877bf",
+        "794b730ae452424bb3a9ce3c6caaff7a"
+    ],
+    "target_obj_code": "794b730ae452424bb3a9ce3c6caaff7a",
+    "anno_target": {
+        "category": "bottle",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "sideways"
+}

@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "clipboard",
+        "watch",
+        "toy"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/a37158f20ccf436483029e8295629738/material_2.urdf",
+        "objaverse_rescale/fdb8227a88b2448d8c64fa82ffee3f58/material_2.urdf",
+        "objaverse_rescale/9adc77036b434348ae049776c50df624/material_2.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "Place the toy in front of clipboard on the table. We also need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "init_obj_pos": [
+        [
+            0.29975260262549397,
+            -0.3416765595242774,
+            0.9365693882585828,
+            0.5298664526132086,
+            -0.46938295804603647,
+            0.22643147268131877,
+            0.6690664909188158,
+            -0.006181423086673021,
+            0.0022147069685161114,
+            0.00650688074529171,
+            -0.04736403003334999,
+            -0.1297595053911209,
+            0.03411172702908516
+        ],
+        [
+            0.4581051672376449,
+            0.16657977632981813,
+            0.9695475145357838,
+            -0.0016992069687108036,
+            0.022854591944691104,
+            0.07289192388393557,
+            0.9970765004528068,
+            0.002764795906841755,
+            -0.00024135511193890125,
+            -0.0005021184333600104,
+            0.0013446628581732512,
+            0.03926822915673256,
+            -0.028799090534448624
+        ],
+        [
+            0.3901565864257929,
+            -0.3893403103721942,
+            0.9599346897174714,
+            0.5680958816001396,
+            -0.5362078418528415,
+            0.13322529845867667,
+            0.6099174038302843,
+            0.003464203327894211,
+            -0.00315373414196074,
+            -0.007095964625477791,
+            0.002650725655257702,
+            0.0016439066966995597,
+            0.012165914289653301
+        ]
+    ],
+    "position_instruction": "Place the toy in front of clipboard on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "rotation_instruction_label": "left",
+    "obj_codes": [
+        "a37158f20ccf436483029e8295629738",
+        "fdb8227a88b2448d8c64fa82ffee3f58",
+        "9adc77036b434348ae049776c50df624"
+    ],
+    "target_obj_code": "9adc77036b434348ae049776c50df624",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        0.6684325933456421,
+                        0.2306467592716217,
+                        0.2306467443704605,
+                        0.6684325337409973
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        -0.2339881807565689,
+                        0.6672703623771667,
+                        0.667270302772522,
+                        -0.23398815095424652
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_left",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "left"
+}

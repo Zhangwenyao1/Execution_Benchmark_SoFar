@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "bottle",
+        "USB"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-b_cups_google_16k/065-b_cups_google_16k.urdf",
+        "objaverse_rescale/a7785ac7ce7f4ba79df661db33637ba9/material_2.urdf",
+        "objaverse_rescale/b1098389cc3b460bb1f1ce558d4b0764/material_2.urdf"
+    ],
+    "target_obj_name": "USB",
+    "instruction": "Place the USB between the cup and the bottle on the table. We also need to specify the rotation of the object after placement:  the silver plug end of the USB is oriented towards right, and the larger end is on the left.",
+    "init_obj_pos": [
+        [
+            0.39617607549532835,
+            0.0010441153606107136,
+            0.9006682385707258,
+            0.0004374756667208641,
+            -0.0014382931626165478,
+            -0.03663952578096913,
+            0.9993274163548026,
+            0.0024695403408259153,
+            0.0019166237907484174,
+            -0.0077739437110722065,
+            -0.08942446857690811,
+            0.17993101477622986,
+            0.06409188359975815
+        ],
+        [
+            0.6969605964479552,
+            0.0941508304921972,
+            0.9294356098162859,
+            -0.0039390980601852815,
+            0.04216851011835561,
+            0.012385476262514992,
+            0.9990259757576974,
+            -0.004202443175017834,
+            0.00024884360027499497,
+            -0.0008431026362814009,
+            -0.010911200195550919,
+            -0.16050511598587036,
+            0.008631938137114048
+        ],
+        [
+            0.3985529323799772,
+            -0.10263876074021824,
+            0.9250260330504287,
+            -0.024552060969428798,
+            -0.0007740421614030733,
+            0.03161603650354571,
+            0.9991981902489077,
+            -0.002511469181627035,
+            0.0009873488452285528,
+            -0.0046831173822283745,
+            -0.04202516749501228,
+            -0.12822486460208893,
+            0.03793342784047127
+        ]
+    ],
+    "position_instruction": "Place the USB between the cup and the bottle on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the silver plug end of the USB is oriented towards right, and the larger end is on the left.",
+    "rotation_instruction_label": "plug_right",
+    "obj_codes": [
+        "065-b",
+        "a7785ac7ce7f4ba79df661db33637ba9",
+        "b1098389cc3b460bb1f1ce558d4b0764"
+    ],
+    "target_obj_code": "b1098389cc3b460bb1f1ce558d4b0764",
+    "anno_target": {
+        "category": "USB",
+        "annotation": {
+            " the silver plug end of the USB is oriented towards left, and the larger end is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the silver plug end of the USB is oriented towards right, and the larger end is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "plug_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "plug_right"
+}

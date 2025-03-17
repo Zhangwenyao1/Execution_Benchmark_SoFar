@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "toy",
+        "keyboard"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/072-a_toy_airplane_google_16k/072-a_toy_airplane_google_16k.urdf",
+        "objaverse_rescale/f5080a3df6d847b693c5cca415886c61/material_2.urdf"
+    ],
+    "target_obj_name": "keyboard",
+    "instruction": "Place the keyboard to the left of the toy on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.5778083326490442,
+            -0.12820742303430868,
+            0.9001979014578743,
+            -0.001441855475926762,
+            -1.7807049910724432e-05,
+            -0.09074848483500673,
+            0.9958727997268757,
+            0.00063245341880247,
+            -7.999895751709118e-05,
+            -0.00029303989140316844,
+            0.0009926166385412216,
+            0.009663796052336693,
+            0.00044877338223159313
+        ],
+        [
+            0.43741519416402314,
+            0.16471531263205047,
+            0.9139733468744141,
+            0.7057239437545693,
+            0.042606863641259006,
+            0.038826806834721415,
+            0.7061379818797248,
+            -0.00026407570112496614,
+            0.0062711481004953384,
+            -0.0034736061934381723,
+            -0.25015226006507874,
+            -0.10157723724842072,
+            0.014774598181247711
+        ]
+    ],
+    "position_instruction": "Place the keyboard to the left of the toy on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "072-a",
+        "f5080a3df6d847b693c5cca415886c61"
+    ],
+    "target_obj_code": "f5080a3df6d847b693c5cca415886c61",
+    "anno_target": {
+        "category": "keyboard",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "upright"
+}

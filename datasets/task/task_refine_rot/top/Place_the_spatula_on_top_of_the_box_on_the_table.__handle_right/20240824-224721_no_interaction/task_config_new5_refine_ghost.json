@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "box",
+        "bottle",
+        "tissue box",
+        "spatula"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/003_cracker_box_google_16k/003_cracker_box_google_16k.urdf",
+        "ycb_16k_backup/022_windex_bottle_google_16k/022_windex_bottle_google_16k.urdf",
+        "objaverse_rescale/2bd98e8ea09f49bd85453a927011d31d/material_2.urdf",
+        "objaverse_rescale/81b129ecf5724f63b5b044702a3140c2/material_2.urdf"
+    ],
+    "target_obj_name": "spatula",
+    "instruction": "Place the spatula on top of the box on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.3989903176038079,
+            0.014390019431399365,
+            0.9038271997899525,
+            -0.0008278239036187447,
+            -0.01468624671106219,
+            -0.052125409177541646,
+            0.9985322080850468,
+            0.002734212437644601,
+            0.00014896357606630772,
+            -0.0008244675118476152,
+            0.00010410187678644434,
+            0.02813941054046154,
+            0.004437205381691456
+        ],
+        [
+            0.448450824477699,
+            0.2093102387849403,
+            0.8966477348047333,
+            0.025458163649316246,
+            -0.08354268577457571,
+            0.115142902018359,
+            0.9895022049859032,
+            0.004201068542897701,
+            -0.0002700459153857082,
+            -0.0006570243276655674,
+            0.001497454708442092,
+            0.051407672464847565,
+            -0.0031451359391212463
+        ],
+        [
+            0.36351894697892106,
+            0.12929884395344446,
+            0.914906011079641,
+            -0.0009418803780823458,
+            -6.241391557690291e-05,
+            0.06917221250062448,
+            0.997604287272076,
+            0.0010210234904661775,
+            0.0014428207650780678,
+            -0.001052912208251655,
+            -0.00547799002379179,
+            0.008009498007595539,
+            0.0021707515697926283
+        ],
+        [
+            0.6489985476500966,
+            0.12415865540423035,
+            0.9124617767045267,
+            0.08968988947547635,
+            0.013238887084245974,
+            0.018784006156297963,
+            0.995704583050297,
+            0.009548618458211422,
+            -0.0014777512988075614,
+            -0.004568979609757662,
+            0.180161714553833,
+            0.3387465476989746,
+            -0.18293702602386475
+        ]
+    ],
+    "position_instruction": "Place the spatula on top of the box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "003",
+        "022",
+        "2bd98e8ea09f49bd85453a927011d31d",
+        "81b129ecf5724f63b5b044702a3140c2"
+    ],
+    "target_obj_code": "81b129ecf5724f63b5b044702a3140c2",
+    "anno_target": {
+        "category": "spatula",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.07927235215902328,
+                        0.0,
+                        0.0,
+                        0.9968529939651489
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "handle_right"
+}

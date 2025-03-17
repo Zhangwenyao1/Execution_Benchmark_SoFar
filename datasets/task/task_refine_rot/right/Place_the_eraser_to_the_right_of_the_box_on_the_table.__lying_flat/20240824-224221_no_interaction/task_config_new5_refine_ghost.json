@@ -1,0 +1,79 @@
+{
+    "selected_obj_names": [
+        "box",
+        "eraser"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f81ca566b008446eb704cad4844603b6/material_2.urdf",
+        "objaverse_rescale/f0916a69ba514ecc973b44528b9dcc43/material_2.urdf"
+    ],
+    "target_obj_name": "eraser",
+    "instruction": "Place the eraser to the right of the box on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.5606110451129649,
+            0.06509840579219313,
+            0.9215659858556514,
+            -1.5969417148677867e-05,
+            0.00022508977909701698,
+            0.04880991649796185,
+            0.9988080602052785,
+            -7.411075057461858e-05,
+            0.0012013071682304144,
+            -0.0003116810694336891,
+            -0.02706390991806984,
+            0.0007988560828380287,
+            0.0002351108123548329
+        ],
+        [
+            0.5317893678044799,
+            0.1286170427429756,
+            0.9632959392155052,
+            0.17986506189773896,
+            -0.0025448200074606104,
+            0.04960958430734319,
+            0.982436243501076,
+            -0.003837292082607746,
+            0.004689007997512817,
+            -0.00916214194148779,
+            -0.06412932276725769,
+            0.15190863609313965,
+            -0.45566079020500183
+        ]
+    ],
+    "position_instruction": "Place the eraser to the right of the box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "f81ca566b008446eb704cad4844603b6",
+        "f0916a69ba514ecc973b44528b9dcc43"
+    ],
+    "target_obj_code": "f0916a69ba514ecc973b44528b9dcc43",
+    "anno_target": {
+        "category": "eraser",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        -0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "right",
+    "rotation_tag": "lying_flat"
+}

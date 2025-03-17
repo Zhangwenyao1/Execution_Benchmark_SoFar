@@ -1,0 +1,79 @@
+{
+    "selected_obj_names": [
+        "screwdriver",
+        "eraser"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/044_flat_screwdriver_google_16k/044_flat_screwdriver_google_16k.urdf",
+        "objaverse_rescale/f0916a69ba514ecc973b44528b9dcc43/material_2.urdf"
+    ],
+    "target_obj_name": "eraser",
+    "instruction": "Place the eraser on top of the screwdriver on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.5801916415547269,
+            0.17870010233051897,
+            0.9005582645347299,
+            0.014003321719935638,
+            -0.010868135155547307,
+            -0.028056775564610593,
+            0.9994491522653695,
+            -0.0019255317747592926,
+            1.811682159313932e-05,
+            -0.0013342705788090825,
+            0.06407138705253601,
+            -0.07634200900793076,
+            -0.06486889719963074
+        ],
+        [
+            0.5304079693568969,
+            -0.2222120935786437,
+            0.9110850777438911,
+            0.32664283427794366,
+            -0.634726366444211,
+            0.6151599749230018,
+            -0.334671635798635,
+            -0.0036330982111394405,
+            0.0025851207319647074,
+            0.00998067669570446,
+            -0.08079497516155243,
+            -0.3620573580265045,
+            0.019731657579541206
+        ]
+    ],
+    "position_instruction": "Place the eraser on top of the screwdriver on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "044",
+        "f0916a69ba514ecc973b44528b9dcc43"
+    ],
+    "target_obj_code": "f0916a69ba514ecc973b44528b9dcc43",
+    "anno_target": {
+        "category": "eraser",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        -0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "top",
+    "rotation_tag": "lying_flat"
+}

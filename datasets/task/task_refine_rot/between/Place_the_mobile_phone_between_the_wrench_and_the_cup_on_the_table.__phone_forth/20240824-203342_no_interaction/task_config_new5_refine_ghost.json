@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "wrench",
+        "cup",
+        "mouse",
+        "mobile phone"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/8a6cb4f7b0004f53830e270dc6e1ff1d/material_2.urdf",
+        "ycb_16k_backup/065-f_cups_google_16k/065-f_cups_google_16k.urdf",
+        "objaverse_rescale/f496168739384cdb86ef6d65e2068a3f/material_2.urdf",
+        "objaverse_rescale/45c813a9fac4458ead1f90280826c0a4/material_2.urdf"
+    ],
+    "target_obj_name": "mobile phone",
+    "instruction": "Place the mobile phone between the wrench and the cup on the table. We also need to specify the rotation of the object after placement:  the rectangular phone is placed steadily on the table, with the screen facing up, and is oriented in a 'pointing forward' way so that from a viewer's perspective: its two long edges are in a left-right position while the two short edges are in a front-back / near-far position.",
+    "init_obj_pos": [
+        [
+            0.6493231743494353,
+            0.20438173738314047,
+            0.9019470828659888,
+            0.31010935461510974,
+            -0.6349974538692286,
+            0.3104842412942881,
+            0.6357750841828482,
+            0.001957427943125367,
+            0.0026365758385509253,
+            0.014642677269876003,
+            0.8197402358055115,
+            -0.8146072030067444,
+            0.05407966300845146
+        ],
+        [
+            0.6856737671145199,
+            0.007535045876345203,
+            0.900351805651374,
+            0.0004658467170333386,
+            0.00024068232452651242,
+            0.07548312589099784,
+            0.9971469414106315,
+            0.0021226289682090282,
+            -0.0003029067302122712,
+            -0.004154045134782791,
+            -0.005858412943780422,
+            0.0772504061460495,
+            -0.01967557892203331
+        ],
+        [
+            0.7013649634192565,
+            0.27808767567007203,
+            0.9286328741096458,
+            -0.6442943274199489,
+            0.005962827784353654,
+            0.014084972802944204,
+            0.7646246647083985,
+            0.0037877403665333986,
+            0.0007245464948937297,
+            -0.0006111522088758647,
+            -0.0318753756582737,
+            0.18749764561653137,
+            -0.01943398267030716
+        ],
+        [
+            0.37017555865088064,
+            0.02443391964009322,
+            0.9056140615905459,
+            -0.7053199317607609,
+            0.011054372416999938,
+            -0.011106159714359388,
+            0.7087159148261455,
+            0.0009482005843892694,
+            0.0032834417652338743,
+            0.024643482640385628,
+            -0.5463669300079346,
+            0.16045339405536652,
+            0.05207133665680885
+        ]
+    ],
+    "position_instruction": "Place the mobile phone between the wrench and the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the rectangular phone is placed steadily on the table, with the screen facing up, and is oriented in a 'pointing forward' way so that from a viewer's perspective: its two long edges are in a left-right position while the two short edges are in a front-back / near-far position.",
+    "rotation_instruction_label": "phone_forth",
+    "obj_codes": [
+        "8a6cb4f7b0004f53830e270dc6e1ff1d",
+        "065-f",
+        "f496168739384cdb86ef6d65e2068a3f",
+        "45c813a9fac4458ead1f90280826c0a4"
+    ],
+    "target_obj_code": "45c813a9fac4458ead1f90280826c0a4",
+    "anno_target": {
+        "category": "mobile_phone",
+        "annotation": {
+            " the rectangular phone is placed steadily on the table, with the screen facing up, and is oriented in a 'pointing forward' way so that from a viewer's perspective, its two long edges are in a left-right position while the two short edges are in a front-back / near-far position.": {
+                "quat": [
+                    [
+                        -0.5,
+                        -0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "phone_forth",
+    "rot_tag_level": 2,
+    "position_tag": "between",
+    "rotation_tag": "phone_forth"
+}

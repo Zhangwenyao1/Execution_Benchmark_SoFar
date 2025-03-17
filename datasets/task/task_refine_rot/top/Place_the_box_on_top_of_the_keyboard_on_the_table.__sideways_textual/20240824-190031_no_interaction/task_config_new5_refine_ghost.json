@@ -1,0 +1,133 @@
+{
+    "selected_obj_names": [
+        "keyboard",
+        "remote control",
+        "box"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/0161b6232216457aa8f4f3393960ec85/material_2.urdf",
+        "objaverse_rescale/89dcd45ac1f04680b76b709357a3dba3/material_2.urdf",
+        "objaverse_rescale/5e1a1527a0bd49ed8e473079392c31c8/material_2.urdf"
+    ],
+    "target_obj_name": "box",
+    "instruction": "Place the box on top of the keyboard on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.",
+    "init_obj_pos": [
+        [
+            0.6819699868617911,
+            -0.1719048961211783,
+            0.9133010021238676,
+            0.5079726774390653,
+            0.22372712515359588,
+            0.1506902646569426,
+            0.8180479060443316,
+            -0.0004177509108558297,
+            -0.00047296308912336826,
+            0.0003383351431693882,
+            0.03618147224187851,
+            -0.03310495987534523,
+            0.0005694884457625449
+        ],
+        [
+            0.419247704831158,
+            -0.1379118306488174,
+            0.9092708246488278,
+            -0.6971964982699892,
+            0.08492337751262014,
+            -0.08629018263838449,
+            0.706582668293066,
+            -0.003295908449217677,
+            -0.00034213473554700613,
+            -0.000945794046856463,
+            -0.19376036524772644,
+            -0.20278668403625488,
+            -0.04572070762515068
+        ],
+        [
+            0.648607161785348,
+            0.18438747875736347,
+            0.9527398626573872,
+            -0.002801750371101013,
+            0.005697847448695006,
+            -0.09087271580035906,
+            0.9958422737825396,
+            -0.0017393945017829537,
+            0.0003340074035804719,
+            -0.000576931401155889,
+            -0.006407295819371939,
+            -0.03755170851945877,
+            -0.0018900021677836776
+        ]
+    ],
+    "position_instruction": "Place the box on top of the keyboard on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.",
+    "rotation_instruction_label": "sideways_textual",
+    "obj_codes": [
+        "0161b6232216457aa8f4f3393960ec85",
+        "89dcd45ac1f04680b76b709357a3dba3",
+        "5e1a1527a0bd49ed8e473079392c31c8"
+    ],
+    "target_obj_code": "5e1a1527a0bd49ed8e473079392c31c8",
+    "anno_target": {
+        "category": "box",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.": {
+                "quat": [
+                    [
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        0.0,
+                        0.7071067690849304,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.0,
+                        1.0,
+                        0.0,
+                        -4.371138828673793e-08
+                    ],
+                    [
+                        0.0,
+                        0.7071067690849304,
+                        0.0,
+                        -0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.": {
+                "quat": [
+                    [
+                        -0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways_textual",
+    "rot_tag_level": 2,
+    "position_tag": "top",
+    "rotation_tag": "sideways_textual"
+}

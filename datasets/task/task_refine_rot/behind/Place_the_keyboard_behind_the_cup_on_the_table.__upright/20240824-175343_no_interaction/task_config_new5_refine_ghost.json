@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "bottle",
+        "keyboard"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-c_cups_google_16k/065-c_cups_google_16k.urdf",
+        "objaverse_rescale/a7785ac7ce7f4ba79df661db33637ba9/material_2.urdf",
+        "objaverse_rescale/f5080a3df6d847b693c5cca415886c61/material_2.urdf"
+    ],
+    "target_obj_name": "keyboard",
+    "instruction": "Place the keyboard behind the cup on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.3769828207248091,
+            -0.28682565437891033,
+            0.9003416420674978,
+            -0.003613987888303727,
+            -0.004546287253439174,
+            0.056423805438113206,
+            0.9983900162479765,
+            -0.00139644427690655,
+            -0.005211555399000645,
+            -0.0011344637023285031,
+            0.15796534717082977,
+            -0.023252615705132484,
+            -0.080681711435318
+        ],
+        [
+            0.6643843020963983,
+            -0.16491058360539723,
+            0.929439619452389,
+            0.0004032994029224405,
+            0.041581175402570364,
+            -0.09168712341919692,
+            0.9949192502916229,
+            -0.000251089601079002,
+            9.066836355486885e-05,
+            -3.4521387988206698e-06,
+            -0.0007845137151889503,
+            -0.010449487715959549,
+            0.0021478391718119383
+        ],
+        [
+            0.3268126352549539,
+            -0.19935743675597428,
+            0.9138736122264235,
+            0.699645390239659,
+            0.0663748300040969,
+            0.06586534198984184,
+            0.708344878278147,
+            -0.002301278989762068,
+            0.005659952759742737,
+            -0.005339475814253092,
+            -0.36160942912101746,
+            -0.23796480894088745,
+            -0.004827964585274458
+        ]
+    ],
+    "position_instruction": "Place the keyboard behind the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "065-c",
+        "a7785ac7ce7f4ba79df661db33637ba9",
+        "f5080a3df6d847b693c5cca415886c61"
+    ],
+    "target_obj_code": "f5080a3df6d847b693c5cca415886c61",
+    "anno_target": {
+        "category": "keyboard",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "upright"
+}

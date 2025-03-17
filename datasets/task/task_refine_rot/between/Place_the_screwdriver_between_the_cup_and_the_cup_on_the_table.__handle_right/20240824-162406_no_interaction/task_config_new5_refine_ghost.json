@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "cup",
+        "book",
+        "screwdriver"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-d_cups_google_16k/065-d_cups_google_16k.urdf",
+        "ycb_16k_backup/065-f_cups_google_16k/065-f_cups_google_16k.urdf",
+        "objaverse_rescale/2a371c84c5454f7facba7bb2f5312ad6/material_2.urdf",
+        "ycb_16k_backup/044_flat_screwdriver_google_16k/044_flat_screwdriver_google_16k.urdf"
+    ],
+    "target_obj_name": "screwdriver",
+    "instruction": "Place the screwdriver between the cup and the cup on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.5904305451057736,
+            -0.16501379468612543,
+            0.9006119815627384,
+            0.0007706303740459764,
+            -0.0008226242398882975,
+            -0.06940471535888887,
+            0.9975879484557427,
+            0.007653581444174051,
+            -0.0017608979251235723,
+            -0.0070451595820486546,
+            0.02499230019748211,
+            0.20513610541820526,
+            -0.02118169143795967
+        ],
+        [
+            0.5904305451057736,
+            -0.16501379468612543,
+            0.9006119815627384,
+            0.0007706303740459764,
+            -0.0008226242398882975,
+            -0.06940471535888887,
+            0.9975879484557427,
+            0.0026284107007086277,
+            -0.0035788496024906635,
+            -0.002721989993005991,
+            0.10556086152791977,
+            0.09034267067909241,
+            -0.034547045826911926
+        ],
+        [
+            0.4861528319375753,
+            0.1922422507040736,
+            0.9770793009615527,
+            -5.574691031865606e-06,
+            -3.324601957165388e-05,
+            0.07358394204872216,
+            0.9972890264793826,
+            0.00040489138336852193,
+            -0.0029377818573266268,
+            -0.0006552106933668256,
+            0.041837409138679504,
+            0.0077034467831254005,
+            0.00039181311149150133
+        ],
+        [
+            0.5849350752836632,
+            -0.13933820910318867,
+            0.9005566067037689,
+            0.014265501069776657,
+            -0.010451225887456617,
+            0.00038370243903147587,
+            0.9998435478259161,
+            -0.0015905111795291305,
+            0.0004382859042380005,
+            -0.001055282074958086,
+            0.05242932587862015,
+            -0.06427837163209915,
+            -0.08092007040977478
+        ]
+    ],
+    "position_instruction": "Place the screwdriver between the cup and the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "065-d",
+        "065-f",
+        "2a371c84c5454f7facba7bb2f5312ad6",
+        "044"
+    ],
+    "target_obj_code": "044",
+    "anno_target": {
+        "category": "screwdriver",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.011427843011915684,
+                        0.021855341270565987,
+                        -0.40244925022125244,
+                        0.9151100516319275
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_right"
+}

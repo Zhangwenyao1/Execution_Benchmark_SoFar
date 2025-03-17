@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "mouse",
+        "scissors",
+        "toilet paper roll",
+        "fork"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/e51e63e374ee4c25ae3fb4a9c74bd335/material_2.urdf",
+        "objaverse_rescale/2b1120c4b517409184413ed709c57a66/material_2.urdf",
+        "objaverse_rescale/7ca7ebcfad964498b49af73be442acf9/material_2.urdf",
+        "ycb_16k_backup/030_fork_google_16k/030_fork_google_16k.urdf"
+    ],
+    "target_obj_name": "fork",
+    "instruction": "Place the fork in front of mouse on the table. We also need to specify the rotation of the object after placement:  the prong of the fork is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.4127248945589623,
+            -0.04159163692495835,
+            0.9512709867316128,
+            0.2356872061904114,
+            0.8436935003187773,
+            0.34797013474599103,
+            0.3339904245376877,
+            0.016127604991197586,
+            0.012012016028165817,
+            0.015801284462213516,
+            -0.5286636352539062,
+            0.6423835158348083,
+            0.02722407504916191
+        ],
+        [
+            0.3444999436231553,
+            -0.31298819668057126,
+            0.904214028618269,
+            -0.004701385097777121,
+            -0.0037774642172247646,
+            -0.3255778567732966,
+            0.945496000478668,
+            0.005245937034487724,
+            -0.005915979389101267,
+            0.02487259916961193,
+            0.724195122718811,
+            1.4886443614959717,
+            0.3642975986003876
+        ],
+        [
+            0.5069812305077395,
+            0.038521511009692755,
+            0.9457628423222868,
+            0.003638123585093399,
+            -0.4713612081934121,
+            0.006804959175014947,
+            0.8819064961762404,
+            0.0015947247156873345,
+            -0.00021393877977970988,
+            -6.63819009787403e-05,
+            0.0029086763970553875,
+            0.021838242188096046,
+            -0.0002832780301105231
+        ],
+        [
+            0.5100879822278869,
+            -0.16743997233487612,
+            0.9029010196642019,
+            0.05583910530149504,
+            0.003398535428166538,
+            0.037540783051413666,
+            0.997727985917985,
+            0.0005806132103316486,
+            0.0033239414915442467,
+            -0.0006881706649437547,
+            -1.0419386625289917,
+            -0.1949700117111206,
+            -0.23972201347351074
+        ]
+    ],
+    "position_instruction": "Place the fork in front of mouse on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the prong of the fork is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "prong_right",
+    "obj_codes": [
+        "e51e63e374ee4c25ae3fb4a9c74bd335",
+        "2b1120c4b517409184413ed709c57a66",
+        "7ca7ebcfad964498b49af73be442acf9",
+        "030"
+    ],
+    "target_obj_code": "030",
+    "anno_target": {
+        "category": "fork",
+        "annotation": {
+            " the prong of the fork is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the prong of the fork is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "prong_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "prong_right"
+}

@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "hammer",
+        "stapler",
+        "pear"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-a_cups_google_16k/065-a_cups_google_16k.urdf",
+        "ycb_16k_backup/048_hammer_google_16k/048_hammer_google_16k.urdf",
+        "objaverse_rescale/d2c345be5c084b4e8c92b48f7be69315/material_2.urdf",
+        "objaverse_rescale/f9ac5185507b4d0dbc744941e9055b96/material_2.urdf"
+    ],
+    "target_obj_name": "pear",
+    "instruction": "Place the pear between the cup and the hammer on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.5593415874960943,
+            0.3328090919759923,
+            0.9022263503372161,
+            0.011354034730683195,
+            -0.005558513545329459,
+            0.3706082974977774,
+            0.9287032242047505,
+            0.006590919103473425,
+            -0.01406940445303917,
+            0.0193871408700943,
+            2.239931106567383,
+            3.1446194648742676,
+            4.937093734741211
+        ],
+        [
+            0.6615045803323263,
+            0.04194437882937366,
+            0.8975567710633195,
+            0.0018293544540923295,
+            -0.0022518144961237024,
+            0.033952132887558294,
+            0.9994192490972662,
+            -0.011344465427100658,
+            -0.0018373405328020453,
+            0.02358921431005001,
+            0.31862208247184753,
+            -1.0009485483169556,
+            0.05115111172199249
+        ],
+        [
+            0.3914966585872727,
+            -0.05764184511059656,
+            0.9219467780473344,
+            -0.05046438985089866,
+            0.369356751165944,
+            0.0186810831103386,
+            0.9277283831267316,
+            0.00014565192395821214,
+            0.0043996660970151424,
+            -0.00163599185179919,
+            -0.15466368198394775,
+            0.0025266255252063274,
+            -0.0252225399017334
+        ],
+        [
+            0.3851724364152125,
+            0.22955782808260206,
+            0.9343452250998953,
+            -0.1315318708897299,
+            0.024159092002502658,
+            -0.0274023975077019,
+            0.990638588903487,
+            0.0028082963544875383,
+            0.0003024634497705847,
+            -7.89741170592606e-05,
+            -0.00978008471429348,
+            0.07150878012180328,
+            0.001484259613789618
+        ]
+    ],
+    "position_instruction": "Place the pear between the cup and the hammer on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "065-a",
+        "048",
+        "d2c345be5c084b4e8c92b48f7be69315",
+        "f9ac5185507b4d0dbc744941e9055b96"
+    ],
+    "target_obj_code": "f9ac5185507b4d0dbc744941e9055b96",
+    "anno_target": {
+        "category": "pear",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.710725724697113,
+                        0.05059582740068436,
+                        -0.04982345923781395,
+                        0.6998761892318726
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upright"
+}

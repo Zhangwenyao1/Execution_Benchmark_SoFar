@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "knife",
+        "screwdriver"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/0df75457524743ec81468c916fddb930/material_2.urdf",
+        "ycb_16k_backup/044_flat_screwdriver_google_16k/044_flat_screwdriver_google_16k.urdf"
+    ],
+    "target_obj_name": "screwdriver",
+    "instruction": "Place the screwdriver behind the knife on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6477770760417536,
+            0.06404956253899259,
+            0.9048130602149753,
+            -0.6135387199980497,
+            -0.024610265635927546,
+            0.029510397071726,
+            0.788729174275398,
+            -0.0064764185808598995,
+            -0.011362260207533836,
+            0.051812902092933655,
+            -18.324949264526367,
+            0.01865103282034397,
+            -2.124203681945801
+        ],
+        [
+            0.40979375307736354,
+            -0.2443234499638491,
+            0.9005580578526972,
+            0.014880200280691312,
+            -0.00960809618751784,
+            0.05853051825908743,
+            0.9981284699674584,
+            -0.0021344092674553394,
+            -2.7057396891905228e-06,
+            -0.0010809354716911912,
+            0.13503922522068024,
+            -0.12111356854438782,
+            -0.13432817161083221
+        ]
+    ],
+    "position_instruction": "Place the screwdriver behind the knife on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "0df75457524743ec81468c916fddb930",
+        "044"
+    ],
+    "target_obj_code": "044",
+    "anno_target": {
+        "category": "screwdriver",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.011427843011915684,
+                        0.021855341270565987,
+                        -0.40244925022125244,
+                        0.9151100516319275
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "handle_right"
+}

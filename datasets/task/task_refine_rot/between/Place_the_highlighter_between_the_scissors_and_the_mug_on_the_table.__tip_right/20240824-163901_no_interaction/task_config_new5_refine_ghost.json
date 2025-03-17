@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "scissors",
+        "mug",
+        "highlighter"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/2b1120c4b517409184413ed709c57a66/material_2.urdf",
+        "objaverse_rescale/2c88306f3d724a839054f3c2913fb1d5/material_2.urdf",
+        "objaverse_rescale/25481a65cad54e2a956394ff2b2765cd/material_2.urdf"
+    ],
+    "target_obj_name": "highlighter",
+    "instruction": "Place the highlighter between the scissors and the mug on the table. We also need to specify the rotation of the object after placement:  the marker is placed in a stable pose on the table. Its tip end is pointing towards right and its cap end is pointing towards left.",
+    "init_obj_pos": [
+        [
+            0.46680479928625024,
+            -0.16298645126179426,
+            0.9044767802422201,
+            -0.37515801621724876,
+            0.9269460737358746,
+            -0.0012210433182022612,
+            0.005093948056136152,
+            0.0026006223633885384,
+            0.012174582108855247,
+            0.01707872934639454,
+            -0.7940183877944946,
+            0.045340195298194885,
+            0.14630953967571259
+        ],
+        [
+            0.4089052582754208,
+            -0.008182902956249303,
+            0.939098546222529,
+            -0.06568544899284923,
+            0.03959755165444477,
+            0.031757225349881034,
+            0.996548510776901,
+            -0.00073196308221668,
+            -0.0008073773351497948,
+            -0.00021232450671959668,
+            0.01153518632054329,
+            -0.012234896421432495,
+            0.0026011611334979534
+        ],
+        [
+            0.4809348629512167,
+            0.16779539324131468,
+            0.9114620901899009,
+            0.700150942542101,
+            0.049508014286819446,
+            0.03612316695870187,
+            0.711359776054043,
+            0.001935072592459619,
+            0.00548930699005723,
+            0.014620241709053516,
+            -0.7063026428222656,
+            0.08156248927116394,
+            0.03078841045498848
+        ]
+    ],
+    "position_instruction": "Place the highlighter between the scissors and the mug on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the marker is placed in a stable pose on the table. Its tip end is pointing towards right and its cap end is pointing towards left.",
+    "rotation_instruction_label": "tip_right",
+    "obj_codes": [
+        "2b1120c4b517409184413ed709c57a66",
+        "2c88306f3d724a839054f3c2913fb1d5",
+        "25481a65cad54e2a956394ff2b2765cd"
+    ],
+    "target_obj_code": "25481a65cad54e2a956394ff2b2765cd",
+    "anno_target": {
+        "category": "highlighter",
+        "annotation": {
+            " the marker is placed in a stable pose on the table. Its tip(or cap) end is pointing towards left and its rear end is pointing towards right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the marker is placed in a stable pose on the table. Its tip(or cap) end is pointing towards right and its rear end is pointing towards left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "tip_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "tip_right"
+}

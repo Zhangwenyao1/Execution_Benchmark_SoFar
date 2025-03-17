@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "binder",
+        "cup",
+        "knife",
+        "remote control"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/a0026e7d1b244b9a9223daf4223c9372/material_2.urdf",
+        "ycb_16k_backup/065-i_cups_google_16k/065-i_cups_google_16k.urdf",
+        "ycb_16k_backup/032_knife_google_16k/032_knife_google_16k.urdf",
+        "objaverse_rescale/67a5956349574fac8431b9b12aad8b81/material_2.urdf"
+    ],
+    "target_obj_name": "remote control",
+    "instruction": "Place the remote control between the binder and the cup on the table. We also need to specify the rotation of the object after placement:  the remote control is lying flat on the tablel, and its buttons are all facing up, which means that the particular side of the remote-control that has all the buttons on it is parallel to the table plane.",
+    "init_obj_pos": [
+        [
+            0.5187580875650655,
+            -0.22211694332112455,
+            0.9272591826350426,
+            -0.00044172589698760454,
+            -0.00026068393615172694,
+            -0.22646901730801194,
+            0.9740182344913574,
+            -0.00026738407905213535,
+            -0.0005698017776012421,
+            0.001970976358279586,
+            0.0010291270446032286,
+            -0.025633467361330986,
+            -0.005621637683361769
+        ],
+        [
+            0.325230758838211,
+            -0.027210833931611226,
+            0.9005105111468424,
+            0.0015400152667642746,
+            -0.0017505893188713483,
+            0.0712472718896608,
+            0.9974559589467072,
+            0.0030891811475157738,
+            -0.004574345890432596,
+            -0.0047320155426859856,
+            0.13550539314746857,
+            0.1628541201353073,
+            0.03315306827425957
+        ],
+        [
+            0.5431937966969786,
+            0.22264024749589556,
+            0.916329704109451,
+            0.2259996357756024,
+            0.05795719479357755,
+            0.17017312120838388,
+            0.9573955488820437,
+            -0.0023893804755061865,
+            0.0008353064768016338,
+            0.03294319659471512,
+            3.8276472091674805,
+            2.8320815563201904,
+            -0.4359848201274872
+        ],
+        [
+            0.46586301412339404,
+            -0.00649566948273267,
+            0.9069054678481397,
+            0.9807973235510647,
+            0.087322802803971,
+            -0.12298224227295061,
+            -0.12363942053828884,
+            0.002282547764480114,
+            0.0008823520038276911,
+            0.03465485945343971,
+            0.42496246099472046,
+            0.28044524788856506,
+            -0.027952594682574272
+        ]
+    ],
+    "position_instruction": "Place the remote control between the binder and the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the remote control is lying flat on the tablel, and its buttons are all facing up, which means that the particular side of the remote-control that has all the buttons on it is parallel to the table plane.",
+    "rotation_instruction_label": "remote_control_forth",
+    "obj_codes": [
+        "a0026e7d1b244b9a9223daf4223c9372",
+        "065-i",
+        "032",
+        "67a5956349574fac8431b9b12aad8b81"
+    ],
+    "target_obj_code": "67a5956349574fac8431b9b12aad8b81",
+    "anno_target": {
+        "category": "remote_control",
+        "annotation": {
+            " the remote control is lying flat on the tablel, and its buttons are all facing up, which means that the particular side of the remote-control that has all the buttons on it is parallel to the table plane.": {
+                "quat": [
+                    [
+                        0.16378845274448395,
+                        0.059982579201459885,
+                        0.9167855978012085,
+                        0.35927653312683105
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "remote_control_forth",
+    "rot_tag_level": 2,
+    "position_tag": "between",
+    "rotation_tag": "remote_control_forth"
+}

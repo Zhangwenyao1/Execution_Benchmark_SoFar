@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "spoon",
+        "toy",
+        "hard drive",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/2613c5f24bb3407da2664c410c34d523/material_2.urdf",
+        "ycb_16k_backup/073-g_lego_duplo_google_16k/073-g_lego_duplo_google_16k.urdf",
+        "objaverse_rescale/e32b159011544b8aa7cacd812636353e/material_2.urdf",
+        "objaverse_rescale/a564a11174be455bbce4698f7da92fdf/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug to the right of the spoon on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "init_obj_pos": [
+        [
+            0.7142126403596257,
+            0.3532354664122618,
+            0.9042293663743113,
+            0.12318188291148956,
+            0.21543820903858965,
+            0.9382680534269119,
+            -0.2409681757558388,
+            0.023561084643006325,
+            0.015577823854982853,
+            0.020830975845456123,
+            -5.4736738204956055,
+            -1.2653214931488037,
+            -1.4951505661010742
+        ],
+        [
+            0.3729250133037567,
+            -0.14643580538235154,
+            0.3009495735168457,
+            0.0019328888738527894,
+            -2.4384686184930615e-05,
+            -0.09068480134010315,
+            0.9958778619766235,
+            -0.001709750504232943,
+            -0.00010378664592280984,
+            -0.0025522378273308277,
+            0.0035547781735658646,
+            -0.03106633573770523,
+            -0.0027986611239612103
+        ],
+        [
+            0.507896900177002,
+            0.08907775580883026,
+            0.3125455975532532,
+            0.7068471908569336,
+            0.018971672281622887,
+            0.018945783376693726,
+            0.7068579196929932,
+            1.2360222171992064e-05,
+            2.3677499484620057e-05,
+            -2.0903662516502663e-05,
+            0.0008864929550327361,
+            -0.00416244613006711,
+            -0.0011548710754141212
+        ],
+        [
+            0.5930624008178711,
+            0.20603762567043304,
+            0.3762452304363251,
+            0.5069948434829712,
+            -0.22170861065387726,
+            0.769537627696991,
+            0.31876859068870544,
+            -0.05040201172232628,
+            0.021368645131587982,
+            0.009385822340846062,
+            -0.3725273013114929,
+            -0.8057873249053955,
+            -0.06532475352287292
+        ]
+    ],
+    "position_instruction": "Place the mug to the right of the spoon on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "rotation_instruction_label": "handle_left",
+    "obj_codes": [
+        "2613c5f24bb3407da2664c410c34d523",
+        "073-g",
+        "e32b159011544b8aa7cacd812636353e",
+        "a564a11174be455bbce4698f7da92fdf"
+    ],
+    "target_obj_code": "a564a11174be455bbce4698f7da92fdf",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).": {
+                "quat": [
+                    [
+                        0.47213223576545715,
+                        -0.45122507214546204,
+                        -0.5337954163551331,
+                        0.5371680855751038
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "handle_left"
+}

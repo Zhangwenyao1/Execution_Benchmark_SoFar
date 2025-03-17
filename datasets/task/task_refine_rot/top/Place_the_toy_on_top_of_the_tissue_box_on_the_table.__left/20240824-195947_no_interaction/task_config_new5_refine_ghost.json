@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "apple",
+        "toy"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/213d8df9c37a4d8cba794965676f7a75/material_2.urdf",
+        "objaverse_rescale/fbda0b25f41f40958ea984f460e4770b/material_2.urdf",
+        "ycb_16k_backup/072-a_toy_airplane_google_16k/072-a_toy_airplane_google_16k.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "Place the toy on top of the tissue box on the table. We also need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "init_obj_pos": [
+        [
+            0.6489318630378482,
+            -0.010381576933039087,
+            0.9329000069633867,
+            3.822068383716071e-06,
+            3.208753144641807e-06,
+            -0.017493345920776397,
+            0.9998469797041915,
+            0.00021016418759245425,
+            0.0005110599449835718,
+            -0.0004006191738881171,
+            -0.016534825786948204,
+            0.0011194043327122927,
+            -0.002200962044298649
+        ],
+        [
+            0.5962182585795993,
+            0.22058597439098374,
+            0.9260358933039566,
+            0.10382826988401213,
+            0.06860987865899759,
+            0.07626707252526638,
+            0.9892905076729056,
+            -0.0021899971179664135,
+            -0.0016254064394161105,
+            -0.0009415822569280863,
+            0.04147867113351822,
+            -0.0416046679019928,
+            0.01982220821082592
+        ],
+        [
+            0.3033335312524639,
+            -0.21891698936703066,
+            0.9001972831406581,
+            -0.0014308015390818599,
+            -0.00011608498315117937,
+            -0.024213029697703004,
+            0.9997057909825724,
+            0.0010163761908188462,
+            -5.716470695915632e-06,
+            -0.0004052494768984616,
+            -0.00028815167024731636,
+            0.014929093420505524,
+            0.0003930782258976251
+        ]
+    ],
+    "position_instruction": "Place the toy on top of the tissue box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "rotation_instruction_label": "left",
+    "obj_codes": [
+        "213d8df9c37a4d8cba794965676f7a75",
+        "fbda0b25f41f40958ea984f460e4770b",
+        "072-a"
+    ],
+    "target_obj_code": "072-a",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        -0.0,
+                        0.0,
+                        -0.9992738962173462,
+                        -0.038100600242614746
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        -0.0,
+                        0.0,
+                        -0.042994238436222076,
+                        0.9990752935409546
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_left",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "left"
+}

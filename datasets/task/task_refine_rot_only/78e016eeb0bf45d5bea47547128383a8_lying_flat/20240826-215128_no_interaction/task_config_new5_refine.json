@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "binder"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/78e016eeb0bf45d5bea47547128383a8/material_2.urdf"
+    ],
+    "target_obj_name": "binder",
+    "instruction": "We need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.3488793247859212,
+            -0.1743085053628434,
+            1.0259863766201633,
+            5.45750557797937e-05,
+            7.035220000458164e-07,
+            -0.07146989852432264,
+            0.9974427555634414,
+            -0.0004196548252366483,
+            0.0005183322937227786,
+            -0.0006998982280492783,
+            -0.005008813459426165,
+            -0.0014247483341023326,
+            0.0004976753843948245
+        ]
+    ],
+    "position_instruction": "",
+    "rotation_instruction": "We need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "78e016eeb0bf45d5bea47547128383a8"
+    ],
+    "target_obj_code": "78e016eeb0bf45d5bea47547128383a8",
+    "anno_target": {
+        "category": "binder",
+        "annotation": {
+            "the binder is standing upright on the table and oriented in a way so that its smaller side is in contact with the tabletop and the larger face is perpendicular to the tabletop, and the label should be in sight as well.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        0.5,
+                        0.4999999701976776
+                    ],
+                    [
+                        -0.4999997913837433,
+                        0.5000002384185791,
+                        0.4999997615814209,
+                        0.5000002384185791
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "rot_ins",
+    "rotation_tag": "lying_flat"
+}

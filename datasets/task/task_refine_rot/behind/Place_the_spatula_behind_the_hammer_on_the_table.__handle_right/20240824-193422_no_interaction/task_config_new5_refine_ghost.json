@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "hammer",
+        "cup",
+        "spatula"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/9bf1b31f641543c9a921042dac3b527f/material_2.urdf",
+        "ycb_16k_backup/065-j_cups_google_16k/065-j_cups_google_16k.urdf",
+        "objaverse_rescale/4b27628be0804c0285d0b13dda025a0d/material_2.urdf"
+    ],
+    "target_obj_name": "spatula",
+    "instruction": "Place the spatula behind the hammer on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.669941820002287,
+            0.04806461231241743,
+            0.9076517575240602,
+            -0.0879654444510428,
+            -0.6996246446678708,
+            -0.1043131821734308,
+            0.7013602477904908,
+            0.0002392676251474768,
+            0.004626747220754623,
+            0.03124723769724369,
+            1.513195514678955,
+            4.00673770904541,
+            0.2599567472934723
+        ],
+        [
+            0.4169247912301316,
+            -0.03343661034650946,
+            0.9003782558371843,
+            0.00022695713474031235,
+            -0.0003272119646245478,
+            -0.11507017051649669,
+            0.9933572858141686,
+            0.002437553834170103,
+            -0.002617168240249157,
+            -0.002434039255604148,
+            0.07225409895181656,
+            0.08906956762075424,
+            -0.007844635285437107
+        ],
+        [
+            0.575430022645819,
+            -0.06537538034628272,
+            0.903987705483957,
+            -0.004394649669813202,
+            0.0007519232302935241,
+            0.0054647208828390165,
+            0.9999751289364192,
+            -0.0011418225476518273,
+            -2.938255647677579e-06,
+            -0.009869886562228203,
+            0.07392679899930954,
+            0.08713556081056595,
+            -0.0187215656042099
+        ]
+    ],
+    "position_instruction": "Place the spatula behind the hammer on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "9bf1b31f641543c9a921042dac3b527f",
+        "065-j",
+        "4b27628be0804c0285d0b13dda025a0d"
+    ],
+    "target_obj_code": "4b27628be0804c0285d0b13dda025a0d",
+    "anno_target": {
+        "category": "spatula",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "handle_right"
+}

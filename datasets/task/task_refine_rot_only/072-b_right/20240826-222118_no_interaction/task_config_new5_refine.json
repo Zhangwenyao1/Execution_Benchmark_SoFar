@@ -1,0 +1,67 @@
+{
+    "selected_obj_names": [
+        "toy"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/072-b_toy_airplane_google_16k/072-b_toy_airplane_google_16k.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "We need to specify the rotation of the object after placement: the toy is facing right, with its head oriented towards left",
+    "init_obj_pos": [
+        [
+            0.3857870253441632,
+            0.24429404044651779,
+            0.9004593692808573,
+            -0.00013170678416882245,
+            -0.0009219267029023878,
+            0.0973733132605219,
+            0.9952474921189928,
+            -0.0004567797004710883,
+            -0.0012939119478687644,
+            -0.0010718791745603085,
+            0.02820449322462082,
+            0.00914512388408184,
+            -0.005335782188922167
+        ]
+    ],
+    "position_instruction": "",
+    "rotation_instruction": "We need to specify the rotation of the object after placement: the toy is facing right, with its head oriented towards left",
+    "rotation_instruction_label": "right",
+    "obj_codes": [
+        "072-b"
+    ],
+    "target_obj_code": "072-b",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_right",
+    "rot_tag_level": 1,
+    "position_tag": "rot_ins",
+    "rotation_tag": "right"
+}

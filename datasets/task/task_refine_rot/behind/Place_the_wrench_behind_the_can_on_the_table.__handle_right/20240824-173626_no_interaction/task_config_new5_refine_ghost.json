@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "can",
+        "wrench"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/005_tomato_soup_can_google_16k/005_tomato_soup_can_google_16k.urdf",
+        "objaverse_rescale/8a6cb4f7b0004f53830e270dc6e1ff1d/material_2.urdf"
+    ],
+    "target_obj_name": "wrench",
+    "instruction": "Place the wrench behind the can on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.5613399659402246,
+            -0.073948968009119,
+            0.8998962296101113,
+            -0.00017198384744479664,
+            -0.0008175777741136669,
+            0.0553235511760444,
+            0.9984681300238943,
+            -0.0018939943984150887,
+            -0.0010250024497509003,
+            -0.0001764508633641526,
+            0.01525916624814272,
+            -0.039071232080459595,
+            -0.002614972647279501
+        ],
+        [
+            0.69131548037612,
+            0.13615698337978244,
+            0.9018520593418746,
+            0.2547354656208219,
+            -0.6596286866410523,
+            0.2547253053343077,
+            0.6596323651379521,
+            -0.0016981412190943956,
+            -0.0009182204958051443,
+            0.022121695801615715,
+            0.2827218174934387,
+            -1.7074856758117676,
+            0.021062446758151054
+        ]
+    ],
+    "position_instruction": "Place the wrench behind the can on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "005",
+        "8a6cb4f7b0004f53830e270dc6e1ff1d"
+    ],
+    "target_obj_code": "8a6cb4f7b0004f53830e270dc6e1ff1d",
+    "anno_target": {
+        "category": "wrench",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "handle_right"
+}

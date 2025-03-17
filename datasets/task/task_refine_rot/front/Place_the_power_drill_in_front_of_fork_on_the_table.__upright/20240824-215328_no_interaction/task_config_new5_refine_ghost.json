@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "fork",
+        "toilet paper roll",
+        "cup",
+        "power drill"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/030_fork_google_16k/030_fork_google_16k.urdf",
+        "objaverse_rescale/ea0cf48616e34708b73c82eb7c7366ca/material_2.urdf",
+        "ycb_16k_backup/065-d_cups_google_16k/065-d_cups_google_16k.urdf",
+        "ycb_16k_backup/035_power_drill_google_16k/035_power_drill_google_16k.urdf"
+    ],
+    "target_obj_name": "power drill",
+    "instruction": "Place the power drill in front of fork on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.2499348599652243,
+            -0.03262312788277288,
+            0.9024445105485478,
+            0.03579669404749106,
+            0.033159361855077736,
+            0.6802049833167527,
+            0.7313960856387534,
+            -0.002556466730311513,
+            0.0010114143369719386,
+            -0.0011980991112068295,
+            -0.1116042286157608,
+            -1.0219640731811523,
+            -0.009722093120217323
+        ],
+        [
+            0.6203305650391228,
+            -0.14726936376449778,
+            0.9495085759155227,
+            0.002132609119612784,
+            -0.01578612817982068,
+            0.1277813537681247,
+            0.9916744303271205,
+            0.003180240746587515,
+            -0.002033855067566037,
+            -0.000913191179279238,
+            0.02569676749408245,
+            0.040279414504766464,
+            0.00021926859335508198
+        ],
+        [
+            0.6121911583866771,
+            -0.07847432695154763,
+            0.8971236970483002,
+            -0.6327494005243025,
+            0.2295817123727624,
+            0.6297102769831648,
+            0.3877955653974273,
+            0.006873425096273422,
+            -0.007422967813909054,
+            0.01198074035346508,
+            0.35688677430152893,
+            0.265243262052536,
+            -0.03294405713677406
+        ],
+        [
+            0.4003032322441471,
+            0.10320608768912827,
+            0.903167549560517,
+            -0.0006016259452598233,
+            0.0002733284126017331,
+            0.1166568562216307,
+            0.9931720602364359,
+            3.608131009968929e-05,
+            8.479729331156705e-06,
+            8.332833203894552e-06,
+            -0.00018114976410288364,
+            0.0015048799104988575,
+            -8.531696948921308e-06
+        ]
+    ],
+    "position_instruction": "Place the power drill in front of fork on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "030",
+        "ea0cf48616e34708b73c82eb7c7366ca",
+        "065-d",
+        "035"
+    ],
+    "target_obj_code": "035",
+    "anno_target": {
+        "category": "power_drill",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "front",
+    "rotation_tag": "upright"
+}

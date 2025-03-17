@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "toy",
+        "screwdriver",
+        "keyboard"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/ca4f9a92cc2f4ee98fe9332db41bf7f7/material_2.urdf",
+        "ycb_16k_backup/072-a_toy_airplane_google_16k/072-a_toy_airplane_google_16k.urdf",
+        "ycb_16k_backup/044_flat_screwdriver_google_16k/044_flat_screwdriver_google_16k.urdf",
+        "objaverse_rescale/44bb12d306864e2cb4256a61d4168942/material_2.urdf"
+    ],
+    "target_obj_name": "keyboard",
+    "instruction": "Place the keyboard at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.7064383818003428,
+            0.19599493620472067,
+            0.961016248446001,
+            0.005579361425956398,
+            0.23308527262415105,
+            0.11728232599317014,
+            0.9653418992364501,
+            -6.305191345745698e-05,
+            0.0005208675866015255,
+            -4.9958522140514106e-05,
+            -0.011380044743418694,
+            -0.0012864255113527179,
+            0.0006869723438285291
+        ],
+        [
+            0.4278085829557087,
+            -0.033335916206202826,
+            0.9001952592226415,
+            -0.001458406340828589,
+            -7.404416870494023e-05,
+            -0.08093719987835088,
+            0.9967181332976026,
+            0.003262444632127881,
+            -0.00022050189727451652,
+            -0.0008752578869462013,
+            0.002800119575113058,
+            0.04271623492240906,
+            -0.0015593103598803282
+        ],
+        [
+            0.6189321697162885,
+            0.17573630151971376,
+            0.9210840523703854,
+            0.46183625541725615,
+            -0.6877259447956546,
+            -0.08192439610318865,
+            0.5541016976694974,
+            0.0008995752432383597,
+            0.0004886710667051375,
+            -0.0003082038601860404,
+            -0.07575186342000961,
+            -0.0066846879199147224,
+            -0.0425911508500576
+        ],
+        [
+            0.67819295878763,
+            0.03713187412316358,
+            0.9085836250081164,
+            -0.7070655578513033,
+            -0.010135891471538766,
+            0.00999036920116109,
+            0.7070047758874951,
+            -3.25793371303007e-05,
+            0.0010858632158488035,
+            -0.0026700180023908615,
+            -0.10082079470157623,
+            -0.00039425870636478066,
+            -0.002419263357296586
+        ]
+    ],
+    "position_instruction": "Place the keyboard at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "ca4f9a92cc2f4ee98fe9332db41bf7f7",
+        "072-a",
+        "044",
+        "44bb12d306864e2cb4256a61d4168942"
+    ],
+    "target_obj_code": "44bb12d306864e2cb4256a61d4168942",
+    "anno_target": {
+        "category": "keyboard",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "center",
+    "rotation_tag": "upright"
+}

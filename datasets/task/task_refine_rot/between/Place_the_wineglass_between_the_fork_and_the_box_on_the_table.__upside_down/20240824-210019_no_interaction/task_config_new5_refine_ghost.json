@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "fork",
+        "box",
+        "wineglass"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/e98e7fb33743442383812b68608f7006/material_2.urdf",
+        "ycb_16k_backup/004_sugar_box_google_16k/004_sugar_box_google_16k.urdf",
+        "objaverse_rescale/dc707f81a94e48078069c6a463f59fcf/material_2.urdf"
+    ],
+    "target_obj_name": "wineglass",
+    "instruction": "Place the wineglass between the fork and the box on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.5875361137938538,
+            -0.11384739130806897,
+            0.9053583995096404,
+            0.6766983574598522,
+            -0.20177183861243897,
+            -0.18740352692919077,
+            0.6828230929373967,
+            0.00022106102551333606,
+            0.0013517361367121339,
+            0.033711377531290054,
+            4.724642276763916,
+            10.580390930175781,
+            -0.34576356410980225
+        ],
+        [
+            0.3853755139844712,
+            -0.19962252852133702,
+            0.8998714923153126,
+            -0.0006305826612063326,
+            -2.707216527748036e-05,
+            -0.10077480413561139,
+            0.9949090614141749,
+            -0.00445214007049799,
+            -0.00015888697816990316,
+            -0.0013419832102954388,
+            0.0030917164403945208,
+            -0.05852540582418442,
+            0.010000685229897499
+        ],
+        [
+            0.5970918109194094,
+            0.09341697087466007,
+            0.9245497550031413,
+            0.04741961644770733,
+            0.03171561265764445,
+            -0.025415257931343704,
+            0.9980478768846647,
+            0.0009615023736841977,
+            0.005895636975765228,
+            -0.004440736025571823,
+            -0.1479150801897049,
+            -0.0006561254267580807,
+            -0.01189731527119875
+        ]
+    ],
+    "position_instruction": "Place the wineglass between the fork and the box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "e98e7fb33743442383812b68608f7006",
+        "004",
+        "dc707f81a94e48078069c6a463f59fcf"
+    ],
+    "target_obj_code": "dc707f81a94e48078069c6a463f59fcf",
+    "anno_target": {
+        "category": "wineglass",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

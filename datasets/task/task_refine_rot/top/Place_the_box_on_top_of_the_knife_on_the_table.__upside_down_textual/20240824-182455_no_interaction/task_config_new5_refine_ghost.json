@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "knife",
+        "box"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/032_knife_google_16k/032_knife_google_16k.urdf",
+        "objaverse_rescale/f81ca566b008446eb704cad4844603b6/material_2.urdf"
+    ],
+    "target_obj_name": "box",
+    "instruction": "Place the box on top of the knife on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.",
+    "init_obj_pos": [
+        [
+            0.46996492218032737,
+            0.11465962848570566,
+            0.9164209205552419,
+            0.23272964475107213,
+            0.03175547385351957,
+            0.05970677296533443,
+            0.9701874064305546,
+            -0.004273357801139355,
+            0.0007746097398921847,
+            0.03345844894647598,
+            0.14658495783805847,
+            1.1559427976608276,
+            -0.4731671214103699
+        ],
+        [
+            0.30906951493374707,
+            0.017820445056342386,
+            0.9215663099509558,
+            -2.555990248000394e-05,
+            0.00022767870014238776,
+            0.06663585853279155,
+            0.997777334813083,
+            0.0001532204041723162,
+            0.00023074689670465887,
+            -8.563777373638004e-05,
+            -0.0025531728751957417,
+            0.0012371559860184789,
+            -3.478037615423091e-05
+        ]
+    ],
+    "position_instruction": "Place the box on top of the knife on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.",
+    "rotation_instruction_label": "upside_down_textual",
+    "obj_codes": [
+        "032",
+        "f81ca566b008446eb704cad4844603b6"
+    ],
+    "target_obj_code": "f81ca566b008446eb704cad4844603b6",
+    "anno_target": {
+        "category": "box",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        1.0,
+                        0.0,
+                        0.0,
+                        -4.371138828673793e-08
+                    ],
+                    [
+                        -0.7071067690849304,
+                        5.338507946817117e-08,
+                        0.7071067690849304,
+                        5.338507591545749e-08
+                    ],
+                    [
+                        0.0,
+                        0.7071067690849304,
+                        0.0,
+                        0.7071068286895752
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.": {
+                "quat": [
+                    [
+                        -0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down_textual",
+    "rot_tag_level": 2,
+    "position_tag": "top",
+    "rotation_tag": "upside_down_textual"
+}

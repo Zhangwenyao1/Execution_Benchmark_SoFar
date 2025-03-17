@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "spatula",
+        "stapler",
+        "spoon",
+        "microphone"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/4b27628be0804c0285d0b13dda025a0d/material_2.urdf",
+        "objaverse_rescale/d2c345be5c084b4e8c92b48f7be69315/material_2.urdf",
+        "ycb_16k_backup/031_spoon_google_16k/031_spoon_google_16k.urdf",
+        "objaverse_rescale/fac08019fef5474189f965bb495771eb/material_2.urdf"
+    ],
+    "target_obj_name": "microphone",
+    "instruction": "Place the microphone behind the spatula on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.41035831210487805,
+            -0.2159675993015917,
+            0.9039192834250623,
+            -0.005183261950294697,
+            0.00134331638365641,
+            -0.026029823744576047,
+            0.9996468264204484,
+            -0.001411537523381412,
+            9.846369357546791e-05,
+            -0.010215886868536472,
+            0.08329851180315018,
+            -0.06553059071302414,
+            -0.02480367384850979
+        ],
+        [
+            0.5965446869942074,
+            -0.022588794863108164,
+            0.9220166039167045,
+            -0.16019322719961565,
+            0.32911610112188416,
+            0.356032706243229,
+            0.8598031367858717,
+            0.00021307232964318246,
+            0.007397379260510206,
+            -0.0023085493594408035,
+            -0.3012092411518097,
+            0.005789394024759531,
+            -0.03536886349320412
+        ],
+        [
+            0.5800281218559148,
+            0.13005552870968265,
+            0.9005894953797936,
+            0.005112844077523421,
+            -0.0021980248847955474,
+            0.18161168419490087,
+            0.9833545767808971,
+            0.0038558763917535543,
+            0.0007353252731263638,
+            0.03366071358323097,
+            0.9527496099472046,
+            0.17348513007164001,
+            -0.10474370419979095
+        ],
+        [
+            0.34045404742148694,
+            0.047615219951842924,
+            0.9407691223863708,
+            0.008495343263248686,
+            -0.026024979036533367,
+            -0.09720505067078358,
+            0.9948877865031202,
+            -0.0022465011570602655,
+            0.0008371079456992447,
+            -0.0005712559213861823,
+            -0.028627285733819008,
+            -0.07522713392972946,
+            -0.017536744475364685
+        ]
+    ],
+    "position_instruction": "Place the microphone behind the spatula on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "4b27628be0804c0285d0b13dda025a0d",
+        "d2c345be5c084b4e8c92b48f7be69315",
+        "031",
+        "fac08019fef5474189f965bb495771eb"
+    ],
+    "target_obj_code": "fac08019fef5474189f965bb495771eb",
+    "anno_target": {
+        "category": "microphone",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "upright"
+}

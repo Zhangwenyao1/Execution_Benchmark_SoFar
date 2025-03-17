@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "camera",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/2bd98e8ea09f49bd85453a927011d31d/material_2.urdf",
+        "objaverse_rescale/6a63fc4af48b453c91ca2b335a4d464d/material_2.urdf",
+        "ycb_16k_backup/065-e_cups_google_16k/065-e_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup on top of the tissue box on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.43099347557704043,
+            -0.2459466094998872,
+            0.9149068670931639,
+            -0.0009814478706369994,
+            3.147120528819715e-05,
+            -0.03354921764119039,
+            0.9994365841639494,
+            0.00015535714919678867,
+            0.0003017651033587754,
+            -9.653096640249714e-05,
+            -0.003590544918552041,
+            0.0019615397322922945,
+            -0.00016157914069481194
+        ],
+        [
+            0.5023566536023599,
+            0.22879474079044726,
+            0.9565252301399769,
+            0.09514805489771694,
+            0.0020583171811955838,
+            0.04200553342137564,
+            0.9945743542548977,
+            0.000863538880366832,
+            -0.0002049942995654419,
+            -0.0011366360122337937,
+            -0.00249680713750422,
+            0.005383627489209175,
+            -0.012421571649610996
+        ],
+        [
+            0.5831608395855424,
+            -0.037333275714114135,
+            0.9008622157198908,
+            0.0009913874908311032,
+            -0.0024058281571198016,
+            -0.05400048513110746,
+            0.9985375189482492,
+            0.0028612702153623104,
+            0.003843285609036684,
+            -0.009655114263296127,
+            -0.05126185342669487,
+            0.1635163277387619,
+            0.03505488857626915
+        ]
+    ],
+    "position_instruction": "Place the cup on top of the tissue box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "2bd98e8ea09f49bd85453a927011d31d",
+        "6a63fc4af48b453c91ca2b335a4d464d",
+        "065-e"
+    ],
+    "target_obj_code": "065-e",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "top",
+    "rotation_tag": "upside_down"
+}

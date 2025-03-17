@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "glue gun",
+        "keyboard",
+        "wrench",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/a1da12b81f034db894496c1ffc4be1f5/material_2.urdf",
+        "objaverse_rescale/44bb12d306864e2cb4256a61d4168942/material_2.urdf",
+        "objaverse_rescale/19c1913ba85042938f0a87d94397c946/material_2.urdf",
+        "objaverse_rescale/9321c45cb9cf459f9f803507d3a11fb3/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug to the right of the glue gun on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "init_obj_pos": [
+        [
+            0.4926195889252373,
+            0.09791486251988259,
+            0.9466380943983062,
+            -0.2826732968295257,
+            -0.714525597718202,
+            -0.5503943053144421,
+            0.3265196565942182,
+            -0.005065968260169029,
+            0.006044969893991947,
+            0.03233635798096657,
+            -0.38051947951316833,
+            -0.045478884130716324,
+            -0.07053370773792267
+        ],
+        [
+            0.36654228666906374,
+            -0.11800161003404404,
+            0.9085821579446115,
+            -0.03923245354911324,
+            -0.7060715913546255,
+            0.7059642315237987,
+            0.039220227937583646,
+            0.002076961798593402,
+            -0.007059921510517597,
+            -0.004657863639295101,
+            -0.48302003741264343,
+            0.027583234012126923,
+            -0.05447002872824669
+        ],
+        [
+            0.374112919036701,
+            0.05075745670098367,
+            0.9075365002333234,
+            -0.9557753073045754,
+            -0.2938989504166322,
+            -0.006286971698731291,
+            -0.008800163504491346,
+            0.003988297190517187,
+            -0.007693266496062279,
+            0.028663625940680504,
+            -3.4883415699005127,
+            4.570905685424805,
+            -0.42631882429122925
+        ],
+        [
+            0.6522602672539634,
+            -0.09082913790920082,
+            0.963673323382016,
+            0.06928927704357447,
+            -0.24588757977843417,
+            -0.05134333582246354,
+            0.9654543780335271,
+            0.0005419948138296604,
+            0.0005335186142474413,
+            -0.0009707171120680869,
+            -0.016785429790616035,
+            0.010192628018558025,
+            -0.004788023419678211
+        ]
+    ],
+    "position_instruction": "Place the mug to the right of the glue gun on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "rotation_instruction_label": "handle_left",
+    "obj_codes": [
+        "a1da12b81f034db894496c1ffc4be1f5",
+        "44bb12d306864e2cb4256a61d4168942",
+        "19c1913ba85042938f0a87d94397c946",
+        "9321c45cb9cf459f9f803507d3a11fb3"
+    ],
+    "target_obj_code": "9321c45cb9cf459f9f803507d3a11fb3",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "handle_left"
+}

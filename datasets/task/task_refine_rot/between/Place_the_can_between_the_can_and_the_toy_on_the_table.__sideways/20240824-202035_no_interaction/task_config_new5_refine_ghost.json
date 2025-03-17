@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "can",
+        "toy",
+        "can"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/002_master_chef_can_google_16k/002_master_chef_can_google_16k.urdf",
+        "ycb_16k_backup/072-b_toy_airplane_google_16k/072-b_toy_airplane_google_16k.urdf",
+        "ycb_16k_backup/007_tuna_fish_can_google_16k/007_tuna_fish_can_google_16k.urdf"
+    ],
+    "target_obj_name": "can",
+    "instruction": "Place the can between the can and the toy on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.4519924649744135,
+            -0.16066783838222395,
+            0.9000772983881599,
+            0.00022955232331075905,
+            0.0007227211928896165,
+            -0.08848740580747033,
+            0.9960770070598317,
+            0.0003702802932821214,
+            0.0008446737774647772,
+            -0.0007022548816166818,
+            -0.01679321378469467,
+            0.0048241694457829,
+            5.4786236432846636e-05
+        ],
+        [
+            0.6699366629548937,
+            0.17915072041464472,
+            0.9001524324771878,
+            -0.00011100800740024149,
+            -0.0002997196839506325,
+            -0.034382514183706435,
+            0.9994086954613421,
+            -3.742134140338749e-05,
+            -0.00034180155489593744,
+            -0.000512037833686918,
+            0.01588980294764042,
+            0.00016863783821463585,
+            -0.0009914400288835168
+        ],
+        [
+            0.5239201188087463,
+            0.012535617032305872,
+            0.3028195798397064,
+            0.00012753362534567714,
+            -0.00022318142873700708,
+            0.008214148692786694,
+            0.9999661445617676,
+            0.0024581279139965773,
+            0.0008313502185046673,
+            -0.00960559956729412,
+            -0.10406828671693802,
+            0.2501623332500458,
+            0.005068463739007711
+        ]
+    ],
+    "position_instruction": "Place the can between the can and the toy on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "002",
+        "072-b",
+        "007"
+    ],
+    "target_obj_code": "007",
+    "anno_target": {
+        "category": "can",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "sideways"
+}

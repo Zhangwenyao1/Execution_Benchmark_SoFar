@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "flashlight",
+        "mouse",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/123a79642c2646d8b315576828fea84a/material_2.urdf",
+        "objaverse_rescale/969b0d9d99a8468898753fdcd219f883/material_2.urdf",
+        "ycb_16k_backup/065-b_cups_google_16k/065-b_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup to the left of the flashlight on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6056828449050184,
+            -0.1356659281684092,
+            0.9989369111097943,
+            2.517818252901355e-06,
+            6.926093154744379e-06,
+            0.08886600381330315,
+            0.9960435900661903,
+            0.0005296561866998672,
+            -0.001031568506732583,
+            -0.0002573932579252869,
+            0.006839803885668516,
+            0.009530548937618732,
+            -0.006402136292308569
+        ],
+        [
+            0.46922633941517045,
+            0.1333333578850038,
+            0.9208186036102897,
+            -0.5489594167665806,
+            -0.32421703798929197,
+            0.26842567004012885,
+            0.7221319344027469,
+            0.007059824652969837,
+            0.001344463787972927,
+            0.0005363320233300328,
+            0.11298110336065292,
+            0.30258962512016296,
+            -0.0690905898809433
+        ],
+        [
+            0.4018718167523113,
+            -0.06385333503243762,
+            0.9006717111879202,
+            0.0006496945984592624,
+            -0.0013622423551527332,
+            0.09651431603988657,
+            0.9953304521574978,
+            0.0013586115092039108,
+            0.002685188315808773,
+            -0.007489725947380066,
+            -0.12409061193466187,
+            0.15116797387599945,
+            0.08582895249128342
+        ]
+    ],
+    "position_instruction": "Place the cup to the left of the flashlight on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "123a79642c2646d8b315576828fea84a",
+        "969b0d9d99a8468898753fdcd219f883",
+        "065-b"
+    ],
+    "target_obj_code": "065-b",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "upside_down"
+}

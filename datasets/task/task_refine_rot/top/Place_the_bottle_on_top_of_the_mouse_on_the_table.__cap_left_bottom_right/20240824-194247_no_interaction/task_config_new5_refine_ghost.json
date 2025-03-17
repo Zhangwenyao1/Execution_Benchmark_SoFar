@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "mouse",
+        "cap",
+        "bottle"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/e51e63e374ee4c25ae3fb4a9c74bd335/material_2.urdf",
+        "objaverse_rescale/87e82aa304ce4571b69bdd5182549c72/material_2.urdf",
+        "objaverse_rescale/d17b8f44d1544364b8ad9fe2554ddfdf/material_2.urdf"
+    ],
+    "target_obj_name": "bottle",
+    "instruction": "Place the bottle on top of the mouse on the table. We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.",
+    "init_obj_pos": [
+        [
+            0.6009827734121442,
+            -0.1400383425434435,
+            0.9275075576271338,
+            0.7070694913274758,
+            -0.006717761992215902,
+            -0.006719544147167455,
+            0.7070802315396562,
+            0.001206139218993485,
+            0.0023225818295031786,
+            -0.001723973429761827,
+            -0.016480106860399246,
+            0.09285918623209,
+            -0.012700879946351051
+        ],
+        [
+            0.46887309948381134,
+            -0.20657751313152875,
+            0.9389528423222546,
+            -0.6127404246568324,
+            0.667299351956282,
+            -0.3156404346908751,
+            0.28219118139701926,
+            0.0003032298991456628,
+            -0.001884496072307229,
+            -0.00029553016065619886,
+            0.05662176385521889,
+            0.00918260496109724,
+            -0.0024864720180630684
+        ],
+        [
+            0.6712994341935571,
+            0.10489847945054749,
+            0.9346903763664919,
+            -0.0028949087937614,
+            0.09338573903720858,
+            0.05673698868522917,
+            0.9940078658453786,
+            -0.0012543140910565853,
+            0.00027922054869122803,
+            9.744760063767899e-06,
+            -0.003292189445346594,
+            -0.018296433612704277,
+            0.007145199459046125
+        ]
+    ],
+    "position_instruction": "Place the bottle on top of the mouse on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.",
+    "rotation_instruction_label": "cap_left_bottom_right",
+    "obj_codes": [
+        "e51e63e374ee4c25ae3fb4a9c74bd335",
+        "87e82aa304ce4571b69bdd5182549c72",
+        "d17b8f44d1544364b8ad9fe2554ddfdf"
+    ],
+    "target_obj_code": "d17b8f44d1544364b8ad9fe2554ddfdf",
+    "anno_target": {
+        "category": "bottle",
+        "annotation": {
+            " the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "cap_left_bottom_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "cap_left_bottom_right"
+}

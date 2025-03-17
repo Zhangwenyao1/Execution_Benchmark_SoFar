@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "hammer",
+        "mug",
+        "mixer"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/d499e1bc8a514e4bb5ca995ea6ba23b6/material_2.urdf",
+        "objaverse_rescale/ca4f9a92cc2f4ee98fe9332db41bf7f7/material_2.urdf",
+        "objaverse_rescale/990d0cb9499540fda49b1ff36be9ba26/material_2.urdf"
+    ],
+    "target_obj_name": "mixer",
+    "instruction": "Place the mixer to the right of the hammer on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6338808064924405,
+            0.17905130171673692,
+            0.9200772176360296,
+            0.039302662542730946,
+            -0.05673321635269084,
+            -0.14504029656140566,
+            0.9870156813610961,
+            -0.013098987750709057,
+            -0.00014006244600750506,
+            -0.01099153608083725,
+            0.1484031081199646,
+            -0.37859591841697693,
+            0.08103638142347336
+        ],
+        [
+            0.630953291559836,
+            -0.10944160460185581,
+            0.9610042298965324,
+            0.032031907698056056,
+            0.23127599166278587,
+            0.0035553002571458545,
+            0.972354221675259,
+            0.000778182118665427,
+            -0.0012114864075556397,
+            -0.0006071865209378302,
+            0.02397499419748783,
+            0.0137177100405097,
+            0.002535717561841011
+        ],
+        [
+            0.4620343684027625,
+            0.16026030110165054,
+            0.9185631938019146,
+            0.07563642009070723,
+            -0.9903150799445322,
+            0.06667585245435638,
+            0.09544372734654971,
+            -0.0009775519138202071,
+            0.007824777625501156,
+            0.03550328314304352,
+            0.2703363001346588,
+            -0.009592561051249504,
+            -0.3960554599761963
+        ]
+    ],
+    "position_instruction": "Place the mixer to the right of the hammer on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "d499e1bc8a514e4bb5ca995ea6ba23b6",
+        "ca4f9a92cc2f4ee98fe9332db41bf7f7",
+        "990d0cb9499540fda49b1ff36be9ba26"
+    ],
+    "target_obj_code": "990d0cb9499540fda49b1ff36be9ba26",
+    "anno_target": {
+        "category": "mixer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "handle_right"
+}

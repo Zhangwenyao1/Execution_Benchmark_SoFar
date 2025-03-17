@@ -1,0 +1,127 @@
+{
+    "selected_obj_names": [
+        "knife",
+        "box",
+        "can",
+        "toilet paper roll"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f93d05bc2db144f7a50374794ef5cf8d/material_2.urdf",
+        "ycb_16k_backup/008_pudding_box_google_16k/008_pudding_box_google_16k.urdf",
+        "ycb_16k_backup/010_potted_meat_can_google_16k/010_potted_meat_can_google_16k.urdf",
+        "objaverse_rescale/6d5284b842434413a17133f7bf259669/material_2.urdf"
+    ],
+    "target_obj_name": "toilet paper roll",
+    "instruction": "Place the toilet paper roll in front of knife on the table. We also need to specify the rotation of the object after placement:  the paper roll is lying sideways on the table, with its lateral surface in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.49972839300997796,
+            0.11165790793324581,
+            0.903182269510398,
+            0.42058740289523994,
+            0.5785438550007751,
+            -0.4152021958590225,
+            0.5621391117157087,
+            -0.0010191283654421568,
+            -0.0006446204497478902,
+            0.00014241989993024617,
+            0.5914750099182129,
+            -1.9869205951690674,
+            0.6521131992340088
+        ],
+        [
+            0.6559352662895125,
+            0.06071168045614372,
+            0.9003420852529825,
+            -0.006538504243983892,
+            0.0012373435249768494,
+            0.11785315769364463,
+            0.9930087361976679,
+            0.0006342144915834069,
+            -0.0012092225952073932,
+            -0.0017357158940285444,
+            -0.01678512990474701,
+            -0.00029090463067404926,
+            -0.0016858814051374793
+        ],
+        [
+            0.4273310972078313,
+            -0.069223674827174,
+            0.9030864680178408,
+            -0.000523277964073478,
+            -0.00018738366360339565,
+            0.09588689188452144,
+            0.9953920810576401,
+            -0.001186834299005568,
+            0.0038989067543298006,
+            -0.0006821671267971396,
+            -0.09949375689029694,
+            -0.015226134099066257,
+            0.03290538862347603
+        ],
+        [
+            0.38955051673441077,
+            0.0061505121648550085,
+            0.9340621889107987,
+            0.026806456278973895,
+            -0.24073855714451403,
+            0.10735312098711622,
+            0.9642622404823631,
+            0.02593403495848179,
+            0.007233590353280306,
+            0.000304342684103176,
+            -0.09489582479000092,
+            0.3309921324253082,
+            0.0056007481180131435
+        ]
+    ],
+    "position_instruction": "Place the toilet paper roll in front of knife on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the paper roll is lying sideways on the table, with its lateral surface in contact with the tabletop.",
+    "rotation_instruction_label": "roll_sideways",
+    "obj_codes": [
+        "f93d05bc2db144f7a50374794ef5cf8d",
+        "008",
+        "010",
+        "6d5284b842434413a17133f7bf259669"
+    ],
+    "target_obj_code": "6d5284b842434413a17133f7bf259669",
+    "anno_target": {
+        "category": "toilet_paper_roll",
+        "annotation": {
+            " the paper roll is standing upright on the table, in the shape of a cylinder, and the axis(height) of the cylinder is perpendicular to the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the paper roll is lying sideways on the table, with its lateral surface in contact with the tabletop.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            }
+        }
+    },
+    "rot_tag_detail": "roll_sideways",
+    "rot_tag_level": 0,
+    "position_tag": "front",
+    "rotation_tag": "roll_sideways"
+}

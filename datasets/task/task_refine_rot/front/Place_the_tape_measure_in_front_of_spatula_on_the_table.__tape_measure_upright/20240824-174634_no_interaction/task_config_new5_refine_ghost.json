@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "spatula",
+        "tape measure"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/033_spatula_google_16k/033_spatula_google_16k.urdf",
+        "objaverse_rescale/7138f5e13b2e4e17975c23ba5584164b/material_2.urdf"
+    ],
+    "target_obj_name": "tape measure",
+    "instruction": "Place the tape measure in front of spatula on the table. We also need to specify the rotation of the object after placement:  the tape measure is placed upright on the table.",
+    "init_obj_pos": [
+        [
+            0.3320137412777964,
+            -0.025008704319061582,
+            0.9004181311862424,
+            0.001029216980165796,
+            -0.001367211539115353,
+            0.1151247516321211,
+            0.9933495673762877,
+            0.002099627396091819,
+            -0.0063926903530955315,
+            -0.00938965380191803,
+            0.4191629886627197,
+            0.20479799807071686,
+            -0.028800249099731445
+        ],
+        [
+            0.3681860981034422,
+            0.20811407714598906,
+            0.9173246133766909,
+            0.049076402460198496,
+            -0.006087046639231235,
+            0.053548705517799146,
+            0.9973399574478825,
+            0.002585302572697401,
+            -0.0012220116332173347,
+            -0.0004692355287261307,
+            0.057161249220371246,
+            0.09303612262010574,
+            0.00473089748993516
+        ]
+    ],
+    "position_instruction": "Place the tape measure in front of spatula on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the tape measure is placed upright on the table.",
+    "rotation_instruction_label": "tape_measure_upright",
+    "obj_codes": [
+        "033",
+        "7138f5e13b2e4e17975c23ba5584164b"
+    ],
+    "target_obj_code": "7138f5e13b2e4e17975c23ba5584164b",
+    "anno_target": {
+        "category": "tape_measure",
+        "annotation": {
+            " the tape measure is placed upright on the table.": {
+                "quat": [
+                    [
+                        0.7488577365875244,
+                        0.0,
+                        0.0,
+                        0.6627307534217834
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "tape_measure_upright",
+    "rot_tag_level": 0,
+    "position_tag": "front",
+    "rotation_tag": "tape_measure_upright"
+}

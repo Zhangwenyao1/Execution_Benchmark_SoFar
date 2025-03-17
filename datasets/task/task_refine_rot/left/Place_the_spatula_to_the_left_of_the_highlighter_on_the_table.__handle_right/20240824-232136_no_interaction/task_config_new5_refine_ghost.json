@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "highlighter",
+        "USB",
+        "spoon",
+        "spatula"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/fd058916fb8843c09b4a2e05e3ee894e/material_2.urdf",
+        "objaverse_rescale/0a51815f3c0941ae8312fc6917173ed6/material_2.urdf",
+        "objaverse_rescale/218768789fdd42bd95eb933046698499/material_2.urdf",
+        "ycb_16k_backup/033_spatula_google_16k/033_spatula_google_16k.urdf"
+    ],
+    "target_obj_name": "spatula",
+    "instruction": "Place the spatula to the left of the highlighter on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.4811555174742508,
+            -0.06162780728579905,
+            0.9292547706748259,
+            0.6315949171901069,
+            -0.09825606813082347,
+            -0.03574582193004163,
+            0.768216012505361,
+            -0.0003616867761593312,
+            0.005124684888869524,
+            0.0327676385641098,
+            -0.33269256353378296,
+            -0.16577254235744476,
+            0.1329222172498703
+        ],
+        [
+            0.5845907209972304,
+            0.160987287885787,
+            0.9111761867959851,
+            -0.20773443794952753,
+            -0.40123142837125186,
+            -0.07658580808554383,
+            0.8888162679524054,
+            0.0010522787924855947,
+            -0.00044753128895536065,
+            -0.0004257691325619817,
+            0.04415740445256233,
+            0.08576186001300812,
+            -0.002190320286899805
+        ],
+        [
+            0.6512403396128146,
+            -0.09089387848165031,
+            0.9138056272888836,
+            -0.03006366981544363,
+            0.999269050173405,
+            -0.01821086646975313,
+            0.015030151868497033,
+            0.0014035418862476945,
+            -0.0024093203246593475,
+            0.027228763327002525,
+            0.2133859097957611,
+            2.451077461242676,
+            0.22954048216342926
+        ],
+        [
+            0.4545537042497852,
+            -0.05459905741422689,
+            0.8987290010796152,
+            -0.009548154032367105,
+            -0.0014181292178487438,
+            0.08929313049751161,
+            0.9959586128499764,
+            -0.0018812839407473803,
+            0.0028975741006433964,
+            0.0063469926826655865,
+            0.07342663407325745,
+            -0.035862162709236145,
+            -0.00786321796476841
+        ]
+    ],
+    "position_instruction": "Place the spatula to the left of the highlighter on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "fd058916fb8843c09b4a2e05e3ee894e",
+        "0a51815f3c0941ae8312fc6917173ed6",
+        "218768789fdd42bd95eb933046698499",
+        "033"
+    ],
+    "target_obj_code": "033",
+    "anno_target": {
+        "category": "spatula",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.621095597743988,
+                        0.7837347984313965
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "handle_right"
+}

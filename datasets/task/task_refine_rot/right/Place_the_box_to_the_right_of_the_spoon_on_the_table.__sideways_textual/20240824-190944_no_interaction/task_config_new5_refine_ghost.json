@@ -1,0 +1,97 @@
+{
+    "selected_obj_names": [
+        "spoon",
+        "box"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/2613c5f24bb3407da2664c410c34d523/material_2.urdf",
+        "ycb_16k_backup/004_sugar_box_google_16k/004_sugar_box_google_16k.urdf"
+    ],
+    "target_obj_name": "box",
+    "instruction": "Place the box to the right of the spoon on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.",
+    "init_obj_pos": [
+        [
+            0.5359494389247018,
+            0.00837067889796293,
+            0.906326123262263,
+            0.1507326511176121,
+            -0.19047532325009817,
+            -0.13958924482335616,
+            0.9599550311600401,
+            0.0034818071871995926,
+            -0.0037627280689775944,
+            0.025830470025539398,
+            2.0623016357421875,
+            -2.058305025100708,
+            -0.42693808674812317
+        ],
+        [
+            0.5337023768328711,
+            -0.1112077505251947,
+            0.899870920675261,
+            -0.0006296702967054312,
+            -0.0001731194422236416,
+            0.08536557661655632,
+            0.996349482799032,
+            -0.0026545366272330284,
+            -0.0027377691585570574,
+            -0.0008882821421138942,
+            0.03534549102187157,
+            -0.035052645951509476,
+            -0.00864797830581665
+        ]
+    ],
+    "position_instruction": "Place the box to the right of the spoon on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.",
+    "rotation_instruction_label": "sideways_textual",
+    "obj_codes": [
+        "2613c5f24bb3407da2664c410c34d523",
+        "004"
+    ],
+    "target_obj_code": "004",
+    "anno_target": {
+        "category": "box",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            },
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            },
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways_textual",
+    "rot_tag_level": 2,
+    "position_tag": "right",
+    "rotation_tag": "sideways_textual"
+}

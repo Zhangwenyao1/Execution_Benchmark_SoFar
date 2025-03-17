@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "apple",
+        "knife",
+        "mobile phone",
+        "power drill"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/fbda0b25f41f40958ea984f460e4770b/material_2.urdf",
+        "ycb_16k_backup/032_knife_google_16k/032_knife_google_16k.urdf",
+        "objaverse_rescale/45c813a9fac4458ead1f90280826c0a4/material_2.urdf",
+        "ycb_16k_backup/035_power_drill_google_16k/035_power_drill_google_16k.urdf"
+    ],
+    "target_obj_name": "power drill",
+    "instruction": "Place the power drill on top of the apple on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.3068589311533165,
+            -0.10401763880795442,
+            0.9262028178189579,
+            0.021170160854789344,
+            -0.25832185043369227,
+            -0.023673620257487125,
+            0.9655367448118167,
+            -0.0008727633394300938,
+            0.005126469302922487,
+            -0.0002507749595679343,
+            -0.1016676276922226,
+            -0.019335709512233734,
+            -0.03167035058140755
+        ],
+        [
+            0.6641041835710577,
+            0.16560100530476352,
+            0.9247819336193958,
+            0.38581118250530144,
+            0.007923140031244232,
+            -0.006321722887898767,
+            0.922522081646632,
+            0.006458648946136236,
+            -2.9723312763962895e-05,
+            0.0333482101559639,
+            -5.701132297515869,
+            0.51164710521698,
+            -0.029048295691609383
+        ],
+        [
+            0.3967319871298468,
+            0.15557842020314094,
+            0.9056208260927301,
+            -0.7054257124555068,
+            -0.006095059727786387,
+            0.005695275412247128,
+            0.7087347728816005,
+            0.0011748233810067177,
+            0.0037640160880982876,
+            0.02433125674724579,
+            -0.5416992902755737,
+            0.14834101498126984,
+            0.07857690751552582
+        ],
+        [
+            0.3820589201588422,
+            -0.25540608919568686,
+            0.903106706851252,
+            1.994140384510236e-06,
+            7.252984406067977e-05,
+            -0.007688717405891479,
+            0.9999704387431146,
+            0.00019397387222852558,
+            6.4895589275693055e-06,
+            -0.00015675266331527382,
+            -0.00036806988646276295,
+            0.0020523425191640854,
+            0.0015650081913918257
+        ]
+    ],
+    "position_instruction": "Place the power drill on top of the apple on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "fbda0b25f41f40958ea984f460e4770b",
+        "032",
+        "45c813a9fac4458ead1f90280826c0a4",
+        "035"
+    ],
+    "target_obj_code": "035",
+    "anno_target": {
+        "category": "power_drill",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "top",
+    "rotation_tag": "upright"
+}

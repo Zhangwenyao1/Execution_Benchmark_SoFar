@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "power drill",
+        "book",
+        "wrench"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/035_power_drill_google_16k/035_power_drill_google_16k.urdf",
+        "objaverse_rescale/b2d30398ba3741da9f9aef2319ee2b8b/material_2.urdf",
+        "objaverse_rescale/19c1913ba85042938f0a87d94397c946/material_2.urdf"
+    ],
+    "target_obj_name": "wrench",
+    "instruction": "Place the wrench behind the power drill on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.3689647569721245,
+            0.061546656568467716,
+            0.9030999208196269,
+            -4.409074268215006e-05,
+            0.00016832613969524593,
+            0.10221485325683179,
+            0.9947623301552999,
+            -0.00016882061026990414,
+            0.0002033589407801628,
+            -0.00048530776984989643,
+            -0.006132829003036022,
+            -0.0015830369666218758,
+            0.00030162555049173534
+        ],
+        [
+            0.5325728090366799,
+            -0.21912596935263823,
+            0.9163737091067705,
+            -0.0002444520568409627,
+            7.453621589651704e-06,
+            -0.08222583422193463,
+            0.9966136926483316,
+            -0.0003546196094248444,
+            -0.00034381452132947743,
+            -4.6605207899119705e-05,
+            0.0013417490990832448,
+            -0.0006651245057582855,
+            8.806746336631477e-05
+        ],
+        [
+            0.6849656401299636,
+            0.0443909578111069,
+            0.9075135683773419,
+            0.009988198649231261,
+            0.002696423789128937,
+            0.08134772199400207,
+            0.9966320852314959,
+            -0.0005624003242701292,
+            0.0012105960631743073,
+            0.02831883169710636,
+            -0.356035053730011,
+            3.924952268600464,
+            0.2298879623413086
+        ]
+    ],
+    "position_instruction": "Place the wrench behind the power drill on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "035",
+        "b2d30398ba3741da9f9aef2319ee2b8b",
+        "19c1913ba85042938f0a87d94397c946"
+    ],
+    "target_obj_code": "19c1913ba85042938f0a87d94397c946",
+    "anno_target": {
+        "category": "wrench",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "handle_right"
+}

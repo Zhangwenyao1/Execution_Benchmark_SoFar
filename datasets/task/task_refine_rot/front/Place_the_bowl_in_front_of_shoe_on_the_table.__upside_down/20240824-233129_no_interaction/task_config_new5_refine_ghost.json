@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "shoe",
+        "orange",
+        "can",
+        "bowl"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/d6951661c1e445d8a1d00b7d38d86030/material_2.urdf",
+        "objaverse_rescale/a4c9a503f63e440e8d6d924d4e5c36b1/material_2.urdf",
+        "ycb_16k_backup/010_potted_meat_can_google_16k/010_potted_meat_can_google_16k.urdf",
+        "objaverse_rescale/bf83213efac34b3cb2ad6ac5ddaf05d9/material_2.urdf"
+    ],
+    "target_obj_name": "bowl",
+    "instruction": "Place the bowl in front of shoe on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.44376463457992743,
+            -0.2554804558649456,
+            0.9277157784982052,
+            -0.03999690182628268,
+            -0.09012909779898395,
+            0.4060965584136457,
+            0.9084946773750694,
+            -0.004349098540842533,
+            -0.0032420274801552296,
+            8.006275311345235e-05,
+            0.05223129317164421,
+            -0.17481885850429535,
+            -0.03699725121259689
+        ],
+        [
+            0.3514684489528267,
+            0.28041303613459234,
+            0.9391696500669008,
+            0.4409054491324135,
+            0.39908484102436675,
+            -0.6848625746549835,
+            0.4210664180706515,
+            -0.003674125764518976,
+            -0.0018571085529401898,
+            -0.0003554055583663285,
+            0.022596634924411774,
+            -0.07668088376522064,
+            -8.61781882122159e-05
+        ],
+        [
+            0.3902710612882329,
+            0.07573834652641313,
+            0.9030846042277336,
+            -0.0006194192138192797,
+            -0.00016927988456352935,
+            -0.0501905146147819,
+            0.9987394554671709,
+            0.0004957291530445218,
+            -0.0031461946200579405,
+            -0.0005182081367820501,
+            0.07654160261154175,
+            -0.0068653654307127,
+            0.021841228008270264
+        ],
+        [
+            0.3297964874937015,
+            -0.2298727235237177,
+            0.9505640704314436,
+            0.7073158517139015,
+            0.02159401738294819,
+            0.02128381717366447,
+            0.7062471121739334,
+            0.001169484807178378,
+            0.0007994913612492383,
+            -0.0004118417564313859,
+            -0.021130327135324478,
+            0.035880547016859055,
+            -0.011646990664303303
+        ]
+    ],
+    "position_instruction": "Place the bowl in front of shoe on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "d6951661c1e445d8a1d00b7d38d86030",
+        "a4c9a503f63e440e8d6d924d4e5c36b1",
+        "010",
+        "bf83213efac34b3cb2ad6ac5ddaf05d9"
+    ],
+    "target_obj_code": "bf83213efac34b3cb2ad6ac5ddaf05d9",
+    "anno_target": {
+        "category": "bowl",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "front",
+    "rotation_tag": "upside_down"
+}

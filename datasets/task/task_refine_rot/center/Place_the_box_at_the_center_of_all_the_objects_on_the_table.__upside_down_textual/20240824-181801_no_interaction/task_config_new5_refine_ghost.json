@@ -1,0 +1,151 @@
+{
+    "selected_obj_names": [
+        "microphone",
+        "scissors",
+        "flashlight",
+        "box"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f9d07bb386a04de8b0e1a9a28a936985/material_2.urdf",
+        "objaverse_rescale/2b1120c4b517409184413ed709c57a66/material_2.urdf",
+        "objaverse_rescale/123a79642c2646d8b315576828fea84a/material_2.urdf",
+        "objaverse_rescale/f81ca566b008446eb704cad4844603b6/material_2.urdf"
+    ],
+    "target_obj_name": "box",
+    "instruction": "Place the box at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.",
+    "init_obj_pos": [
+        [
+            0.5959905567734715,
+            0.15196936882811887,
+            0.9437114888145643,
+            -0.04780676134507591,
+            -0.02002143271030232,
+            -0.13924226752801316,
+            0.9889010297980172,
+            -0.0038463163655251265,
+            -0.00020732407574541867,
+            -0.0024608115199953318,
+            0.007622197270393372,
+            -0.08828520029783249,
+            -0.007590162567794323
+        ],
+        [
+            0.3788659805526362,
+            0.21029679408132296,
+            0.9045230812255489,
+            -0.2459113002998101,
+            0.9692648909787953,
+            -0.002347923551484799,
+            0.006905849384184388,
+            0.004793529398739338,
+            0.006467126309871674,
+            0.012289314530789852,
+            -0.9559416174888611,
+            1.1261241436004639,
+            0.09013217687606812
+        ],
+        [
+            0.6117920516286321,
+            -0.13229040321939992,
+            0.9989369861716875,
+            1.7734631091815043e-06,
+            -6.5495112437772035e-06,
+            0.07961934582582803,
+            0.9968253406310582,
+            0.0005072742933407426,
+            -0.0010353279067203403,
+            -0.0002578632556833327,
+            0.0067581855691969395,
+            0.00898242462426424,
+            -0.006547293160110712
+        ],
+        [
+            0.3372959488412186,
+            -0.21186383747337384,
+            0.9215662663006656,
+            1.4350533244018665e-05,
+            0.00022527078966594357,
+            -0.08530914943333273,
+            0.9963545042152894,
+            0.00015190542035270482,
+            0.00025765004102140665,
+            -0.00010384738561697304,
+            -0.0025160182267427444,
+            0.001994479913264513,
+            0.00011355599417584017
+        ]
+    ],
+    "position_instruction": "Place the box at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.",
+    "rotation_instruction_label": "upside_down_textual",
+    "obj_codes": [
+        "f9d07bb386a04de8b0e1a9a28a936985",
+        "2b1120c4b517409184413ed709c57a66",
+        "123a79642c2646d8b315576828fea84a",
+        "f81ca566b008446eb704cad4844603b6"
+    ],
+    "target_obj_code": "f81ca566b008446eb704cad4844603b6",
+    "anno_target": {
+        "category": "box",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        1.0,
+                        0.0,
+                        0.0,
+                        -4.371138828673793e-08
+                    ],
+                    [
+                        -0.7071067690849304,
+                        5.338507946817117e-08,
+                        0.7071067690849304,
+                        5.338507591545749e-08
+                    ],
+                    [
+                        0.0,
+                        0.7071067690849304,
+                        0.0,
+                        0.7071068286895752
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.": {
+                "quat": [
+                    [
+                        -0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down_textual",
+    "rot_tag_level": 2,
+    "position_tag": "center",
+    "rotation_tag": "upside_down_textual"
+}

@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "binder",
+        "apple",
+        "cup",
+        "plate"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/78e016eeb0bf45d5bea47547128383a8/material_2.urdf",
+        "ycb_16k_backup/013_apple_google_16k/013_apple_google_16k.urdf",
+        "ycb_16k_backup/065-b_cups_google_16k/065-b_cups_google_16k.urdf",
+        "objaverse_rescale/8d50c19e138b403e8b2ede9b47d8be3c/material_2.urdf"
+    ],
+    "target_obj_name": "plate",
+    "instruction": "Place the plate between the binder and the apple on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.3293685451185838,
+            0.03738466258277681,
+            1.0259601945587913,
+            -6.179929833126338e-05,
+            -6.864713865332194e-06,
+            0.047712890172270137,
+            0.998861089564075,
+            -0.0012321473332121968,
+            0.0003971932746935636,
+            -0.0009860662976279855,
+            -0.004342562519013882,
+            -0.008040277287364006,
+            0.0021654986776411533
+        ],
+        [
+            0.56544895519231,
+            -0.07062571024791715,
+            0.9006138729324079,
+            0.006763172241564823,
+            -0.01902580646795501,
+            0.00038826886337192597,
+            0.9997960429191363,
+            -0.0020711885299533606,
+            0.001328526297584176,
+            -0.00048502167919650674,
+            -0.028247494250535965,
+            -0.07218959927558899,
+            0.07623526453971863
+        ],
+        [
+            0.4805700972103059,
+            0.11237137649844112,
+            0.9006703977269016,
+            0.0006405787810055088,
+            -0.0013491294724787485,
+            0.09593247626306574,
+            0.9953867235936629,
+            0.0013647349551320076,
+            0.0026667106430977583,
+            -0.007506432477384806,
+            -0.1242344006896019,
+            0.15072308480739594,
+            0.0838288739323616
+        ],
+        [
+            0.5152567736694031,
+            -0.23300566184545782,
+            0.9147543552736582,
+            0.7067988548938376,
+            -0.02090800363362158,
+            -0.02090032854646737,
+            0.7067965834463732,
+            7.583272235933691e-05,
+            0.0005037858500145376,
+            -0.0008218036964535713,
+            -0.043295685201883316,
+            0.018017562106251717,
+            0.0032756198197603226
+        ]
+    ],
+    "position_instruction": "Place the plate between the binder and the apple on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "78e016eeb0bf45d5bea47547128383a8",
+        "013",
+        "065-b",
+        "8d50c19e138b403e8b2ede9b47d8be3c"
+    ],
+    "target_obj_code": "8d50c19e138b403e8b2ede9b47d8be3c",
+    "anno_target": {
+        "category": "plate",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

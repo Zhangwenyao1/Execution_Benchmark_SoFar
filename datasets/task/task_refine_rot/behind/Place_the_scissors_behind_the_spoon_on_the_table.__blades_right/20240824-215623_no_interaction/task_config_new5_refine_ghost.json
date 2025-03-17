@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "spoon",
+        "USB",
+        "toy",
+        "scissors"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/2613c5f24bb3407da2664c410c34d523/material_2.urdf",
+        "objaverse_rescale/878049e8c3174fa68a56530e5aef7a5a/material_2.urdf",
+        "ycb_16k_backup/072-a_toy_airplane_google_16k/072-a_toy_airplane_google_16k.urdf",
+        "ycb_16k_backup/037_scissors_google_16k/037_scissors_google_16k.urdf"
+    ],
+    "target_obj_name": "scissors",
+    "instruction": "Place the scissors behind the spoon on the table. We also need to specify the rotation of the object after placement:  the blades of the scissors are on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.4573206058116774,
+            -0.10373886512937212,
+            0.9057175375283265,
+            0.1784974213614599,
+            -0.16968940361507032,
+            0.009344900335810254,
+            0.9691526452039357,
+            0.004825162701308727,
+            0.0007868355023674667,
+            0.028874121606349945,
+            0.9153922200202942,
+            -0.9187253713607788,
+            0.20440196990966797
+        ],
+        [
+            0.4167431135884996,
+            -0.20427923496757053,
+            0.9177161164271223,
+            -0.6887139500365287,
+            -0.06358202545813794,
+            0.05691021824860144,
+            0.7199942000617916,
+            -1.6239901015069336e-05,
+            0.01584557257592678,
+            -0.004592425189912319,
+            -0.37511128187179565,
+            -0.05519605055451393,
+            0.14196301996707916
+        ],
+        [
+            0.6712683884662768,
+            -0.23147554273091162,
+            0.9106422045422309,
+            -0.060565227246804174,
+            0.05858712937246014,
+            0.09441065292664924,
+            0.9919606998941044,
+            0.0038487021811306477,
+            0.0003690016164910048,
+            -0.0010801282478496432,
+            -0.004965198691934347,
+            0.05043676495552063,
+            -0.001868229708634317
+        ],
+        [
+            0.5419677440618534,
+            -0.25515714800748246,
+            0.915250846967009,
+            0.48697175000610854,
+            0.8731401533136519,
+            -0.0011247639875355303,
+            -0.02198913989612306,
+            -0.005441484972834587,
+            0.012773830443620682,
+            0.013580173254013062,
+            -1.100598692893982,
+            0.09781544655561447,
+            0.0018934245454147458
+        ]
+    ],
+    "position_instruction": "Place the scissors behind the spoon on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the blades of the scissors are on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blades_right",
+    "obj_codes": [
+        "2613c5f24bb3407da2664c410c34d523",
+        "878049e8c3174fa68a56530e5aef7a5a",
+        "072-a",
+        "037"
+    ],
+    "target_obj_code": "037",
+    "anno_target": {
+        "category": "scissors",
+        "annotation": {
+            " the blades of the scissors are on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.9899005889892578,
+                        0.1417630910873413
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blades of the scissors are on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.13520878553390503,
+                        0.990817129611969
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blades_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "blades_right"
+}

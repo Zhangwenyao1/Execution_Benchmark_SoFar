@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "speaker",
+        "cup",
+        "keyboard",
+        "bottle"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/4445f4442a884999960e7e6660459095/material_2.urdf",
+        "ycb_16k_backup/065-g_cups_google_16k/065-g_cups_google_16k.urdf",
+        "objaverse_rescale/44bb12d306864e2cb4256a61d4168942/material_2.urdf",
+        "objaverse_rescale/794b730ae452424bb3a9ce3c6caaff7a/material_2.urdf"
+    ],
+    "target_obj_name": "bottle",
+    "instruction": "Place the bottle at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.3141901128467458,
+            -0.0596166283450877,
+            0.968253258962801,
+            -0.007382150784637362,
+            -0.00048085065238162795,
+            0.06502015934744286,
+            0.9978565285204455,
+            0.0016136164776980877,
+            -0.001570003922097385,
+            -0.0005322090000845492,
+            0.016197364777326584,
+            0.013565423898398876,
+            0.0022790583316236734
+        ],
+        [
+            0.4653177104595695,
+            -0.0680232772050034,
+            0.9105503207815032,
+            -0.022686288394187838,
+            0.0764411504579128,
+            -0.7128671385125006,
+            0.6967514087998428,
+            0.007794164586812258,
+            -0.0028527434915304184,
+            -0.0056029255501925945,
+            0.10382317006587982,
+            0.22790169715881348,
+            0.015570157207548618
+        ],
+        [
+            0.5397144673527903,
+            0.08688559076825972,
+            0.9085941268106413,
+            -0.7063532860393901,
+            0.03286927581059661,
+            -0.032737109553647205,
+            0.706337686710198,
+            -1.6424455679953098e-06,
+            -3.8218517147470266e-05,
+            -0.00016275973757728934,
+            0.0004616115184035152,
+            0.0005789706483483315,
+            -0.00032999779796227813
+        ],
+        [
+            0.46595218885797807,
+            -0.36052067666625165,
+            0.9316331573363695,
+            0.13738392338590527,
+            -0.9787451087943412,
+            0.02912177003372854,
+            0.1494509689374803,
+            0.003391464240849018,
+            0.001604586374014616,
+            -0.0013852022821083665,
+            -0.05640958622097969,
+            0.2319490909576416,
+            -0.011494125239551067
+        ]
+    ],
+    "position_instruction": "Place the bottle at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "4445f4442a884999960e7e6660459095",
+        "065-g",
+        "44bb12d306864e2cb4256a61d4168942",
+        "794b730ae452424bb3a9ce3c6caaff7a"
+    ],
+    "target_obj_code": "794b730ae452424bb3a9ce3c6caaff7a",
+    "anno_target": {
+        "category": "bottle",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "center",
+    "rotation_tag": "sideways"
+}

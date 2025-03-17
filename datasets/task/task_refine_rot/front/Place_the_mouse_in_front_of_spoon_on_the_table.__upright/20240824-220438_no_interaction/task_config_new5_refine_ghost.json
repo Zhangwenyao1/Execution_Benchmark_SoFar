@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "spoon",
+        "bottle",
+        "book",
+        "mouse"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/218768789fdd42bd95eb933046698499/material_2.urdf",
+        "ycb_16k_backup/022_windex_bottle_google_16k/022_windex_bottle_google_16k.urdf",
+        "objaverse_rescale/c61227cac7224b86b43c53ac2a2b6ec7/material_2.urdf",
+        "objaverse_rescale/969b0d9d99a8468898753fdcd219f883/material_2.urdf"
+    ],
+    "target_obj_name": "mouse",
+    "instruction": "Place the mouse in front of spoon on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.5012163766961478,
+            -0.20265032798752994,
+            0.9072433277454401,
+            0.011502902955219095,
+            -0.03620158450915221,
+            -0.06997258173329605,
+            0.9968254442520046,
+            -0.00013160781236365438,
+            0.006206881254911423,
+            0.03469594568014145,
+            1.235752820968628,
+            6.731510639190674,
+            0.6280513405799866
+        ],
+        [
+            0.6873108858212006,
+            -0.1217212780452701,
+            0.9638831289895033,
+            -0.5225400711479695,
+            0.5345325562040784,
+            0.5386868366073241,
+            0.38864291125479616,
+            0.0020506437867879868,
+            0.00014234888658393174,
+            -0.0004422086349222809,
+            -0.004727216437458992,
+            0.06359890103340149,
+            -0.00010489634587429464
+        ],
+        [
+            0.5999995504962703,
+            -0.2305073375251717,
+            0.9141642933641101,
+            -5.6325161816594047e-05,
+            0.00015579509993200632,
+            -0.057764433297682986,
+            0.9983302273301956,
+            -0.00019307233742438257,
+            0.0006927315262146294,
+            -0.002735051792114973,
+            -0.04051179066300392,
+            -0.028316384181380272,
+            -0.006029216106981039
+        ],
+        [
+            0.4056994295961688,
+            -0.04119713569497518,
+            0.9208042342356677,
+            -0.4935569489824269,
+            -0.40351373044206823,
+            0.37513047437360164,
+            0.6729452686898992,
+            0.0029645361937582493,
+            0.006120822858065367,
+            0.000959375174716115,
+            -0.2511032223701477,
+            0.20437873899936676,
+            -0.003930651117116213
+        ]
+    ],
+    "position_instruction": "Place the mouse in front of spoon on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "218768789fdd42bd95eb933046698499",
+        "022",
+        "c61227cac7224b86b43c53ac2a2b6ec7",
+        "969b0d9d99a8468898753fdcd219f883"
+    ],
+    "target_obj_code": "969b0d9d99a8468898753fdcd219f883",
+    "anno_target": {
+        "category": "mouse",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "front",
+    "rotation_tag": "upright"
+}

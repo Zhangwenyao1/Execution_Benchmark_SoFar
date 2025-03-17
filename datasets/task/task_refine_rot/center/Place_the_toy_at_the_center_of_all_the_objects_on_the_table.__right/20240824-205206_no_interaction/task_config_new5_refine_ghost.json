@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "bottle",
+        "tissue box",
+        "can",
+        "toy"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/022_windex_bottle_google_16k/022_windex_bottle_google_16k.urdf",
+        "objaverse_rescale/2bd98e8ea09f49bd85453a927011d31d/material_2.urdf",
+        "ycb_16k_backup/007_tuna_fish_can_google_16k/007_tuna_fish_can_google_16k.urdf",
+        "ycb_16k_backup/072-b_toy_airplane_google_16k/072-b_toy_airplane_google_16k.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "Place the toy at the center of all the objects on the table. We also need to specify the rotation of the object after placement: the toy is facing right, with its head oriented towards left",
+    "init_obj_pos": [
+        [
+            0.3759651565227828,
+            0.017550460608972647,
+            0.964625012655941,
+            -0.5382355015064098,
+            -0.5224634605975217,
+            0.3950560837081723,
+            -0.5303443862093461,
+            -0.002013187622651458,
+            -0.00010758741700556129,
+            -0.00043395403190515935,
+            0.0045545874163508415,
+            -0.06199580430984497,
+            -0.0005482942215166986
+        ],
+        [
+            0.48041080772767986,
+            0.07639565215715438,
+            0.9149067921680433,
+            -0.0009077132636474733,
+            0.00038204939579743267,
+            -0.3879785405985292,
+            0.9216678806001241,
+            0.0001395749277435243,
+            -6.054035111446865e-06,
+            -8.967299072537571e-05,
+            -0.0010290780337527394,
+            0.0027166674844920635,
+            -0.000581134285312146
+        ],
+        [
+            0.22798460132762222,
+            -0.004712791509598007,
+            0.9031499375000107,
+            0.0006178582022708112,
+            0.0006159955318601561,
+            0.9819279945611291,
+            -0.1892528792328031,
+            -0.00038620748091489077,
+            -0.0013274766970425844,
+            -0.007512130308896303,
+            0.060250360518693924,
+            -0.10205771028995514,
+            -0.008865207433700562
+        ],
+        [
+            0.2784244276072487,
+            -0.23176993686989975,
+            0.9001521900177926,
+            0.00025091315920078695,
+            0.00018594411578664742,
+            0.6076479521090381,
+            -0.7942064396396346,
+            -0.0004020996275357902,
+            -0.00027180477627553046,
+            -0.0009258983191102743,
+            0.01957600936293602,
+            -0.009336446411907673,
+            -0.002297797240316868
+        ]
+    ],
+    "position_instruction": "Place the toy at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement: the toy is facing right, with its head oriented towards left",
+    "rotation_instruction_label": "right",
+    "obj_codes": [
+        "022",
+        "2bd98e8ea09f49bd85453a927011d31d",
+        "007",
+        "072-b"
+    ],
+    "target_obj_code": "072-b",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_right",
+    "rot_tag_level": 1,
+    "position_tag": "center",
+    "rotation_tag": "right"
+}

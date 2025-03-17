@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "binder clips",
+        "tape measure",
+        "bottle"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/5e55c38b24dc4c239448efa1c6b7f49f/material_2.urdf",
+        "objaverse_rescale/11307d06bb254318b95021d68c6fa12f/material_2.urdf",
+        "ycb_16k_backup/021_bleach_cleanser_google_16k/021_bleach_cleanser_google_16k.urdf"
+    ],
+    "target_obj_name": "bottle",
+    "instruction": "Place the bottle on top of the binder clips on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.4371044955270096,
+            -0.025887302440453525,
+            0.9100077617057653,
+            -3.377608996481654e-05,
+            -1.1560051351493991e-05,
+            0.07492284401727652,
+            0.9971893331609117,
+            0.0012285530101507902,
+            -0.0002803058596327901,
+            -0.00034734513610601425,
+            0.004227971658110619,
+            0.01636926643550396,
+            0.002136949449777603
+        ],
+        [
+            0.6332604754967153,
+            -0.09820711365928594,
+            0.9226919448890802,
+            0.03258616169604907,
+            -0.036180879850616444,
+            -0.009298290201893733,
+            0.9987705581355887,
+            0.001495969481766224,
+            0.0008381492225453258,
+            -0.000337112694978714,
+            -0.011066976934671402,
+            0.020196110010147095,
+            0.017770403996109962
+        ],
+        [
+            0.514020701990628,
+            0.05225449535555483,
+            0.900378271271622,
+            -0.0008845251365913558,
+            -0.0005526915253367296,
+            0.024414440862187584,
+            0.9997013790251305,
+            -0.004347092472016811,
+            -0.0018650738056749105,
+            -0.0006950687966309488,
+            0.021030070260167122,
+            -0.052763789892196655,
+            -0.00044650310883298516
+        ]
+    ],
+    "position_instruction": "Place the bottle on top of the binder clips on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "5e55c38b24dc4c239448efa1c6b7f49f",
+        "11307d06bb254318b95021d68c6fa12f",
+        "021"
+    ],
+    "target_obj_code": "021",
+    "anno_target": {
+        "category": "bottle",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.0,
+                        0.6908057332038879,
+                        -0.0,
+                        0.7230404019355774
+                    ],
+                    [
+                        -0.0,
+                        -0.7413507699966431,
+                        -0.0,
+                        0.6711177229881287
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "top",
+    "rotation_tag": "sideways"
+}

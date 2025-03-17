@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "spatula",
+        "hammer",
+        "calculator",
+        "wallet"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/033_spatula_google_16k/033_spatula_google_16k.urdf",
+        "objaverse_rescale/35a76a67ea1c45edabbd5013de70d68d/material_2.urdf",
+        "objaverse_rescale/f0b1f7c17d70489888f5ae922169c0ce/material_2.urdf",
+        "objaverse_rescale/dbb07d13a33546f09ac8ca98b1ddef20/material_2.urdf"
+    ],
+    "target_obj_name": "wallet",
+    "instruction": "Place the wallet between the spatula and the hammer on the table. We also need to specify the rotation of the object after placement:  the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)",
+    "init_obj_pos": [
+        [
+            0.6485187925699736,
+            0.08737493497238258,
+            0.9456587163659896,
+            -0.951788936881369,
+            -0.3005052263732171,
+            -0.007046686300746315,
+            -0.06119454848918458,
+            -0.011084196157753468,
+            0.005834003910422325,
+            0.00882777664810419,
+            -0.46495679020881653,
+            -1.015844702720642,
+            0.07321933656930923
+        ],
+        [
+            0.3736541003637942,
+            -0.0933596351815488,
+            0.931824220123139,
+            4.273698177288804e-06,
+            -1.427657710726005e-07,
+            0.05482622744162519,
+            0.9984959112416211,
+            0.002239389345049858,
+            -0.0017564048757776618,
+            -0.0014210980152711272,
+            0.06604667007923126,
+            0.08294644206762314,
+            -0.005908752791583538
+        ],
+        [
+            0.6108345355582936,
+            -0.09320558493599188,
+            0.9320739897215061,
+            0.5126280868030546,
+            0.266659545432833,
+            0.37664385966949093,
+            0.7240473288559693,
+            -0.004891581367701292,
+            0.005716269835829735,
+            0.007373010274022818,
+            -0.17149904370307922,
+            -0.22722411155700684,
+            0.014333660714328289
+        ],
+        [
+            0.6951535809903072,
+            -0.027538952733366578,
+            0.9118211841626831,
+            0.7405980810109164,
+            0.00013438677472969786,
+            0.09674848145957753,
+            0.6649467615368976,
+            0.0005532778450287879,
+            -0.003385314717888832,
+            0.0005744337686337531,
+            0.17098145186901093,
+            0.023291710764169693,
+            -0.04301254451274872
+        ]
+    ],
+    "position_instruction": "Place the wallet between the spatula and the hammer on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)",
+    "rotation_instruction_label": "clasp_right",
+    "obj_codes": [
+        "033",
+        "35a76a67ea1c45edabbd5013de70d68d",
+        "f0b1f7c17d70489888f5ae922169c0ce",
+        "dbb07d13a33546f09ac8ca98b1ddef20"
+    ],
+    "target_obj_code": "dbb07d13a33546f09ac8ca98b1ddef20",
+    "anno_target": {
+        "category": "wallet",
+        "annotation": {
+            " the wallet is lying flat on the table, and the clasp is on the left(if the wallet has a clasp)": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            },
+            " the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "clasp_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "clasp_right"
+}

@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "bowl",
+        "cup",
+        "pen"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/bf83213efac34b3cb2ad6ac5ddaf05d9/material_2.urdf",
+        "ycb_16k_backup/065-e_cups_google_16k/065-e_cups_google_16k.urdf",
+        "objaverse_rescale/fbeb7c776372466daffa619106e0b2e0/material_2.urdf"
+    ],
+    "target_obj_name": "pen",
+    "instruction": "Place the pen behind the bowl on the table. We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "init_obj_pos": [
+        [
+            0.5428038809698434,
+            0.11822062727143146,
+            0.9506064946005337,
+            0.695554648214413,
+            -0.13275229869414001,
+            -0.13193296960128845,
+            0.6936672473678794,
+            0.0010384833440184593,
+            0.0030580360908061266,
+            -0.0008726820233277977,
+            -0.08646425604820251,
+            0.028604993596673012,
+            0.004685892257839441
+        ],
+        [
+            0.4558234394443133,
+            0.10448442158649074,
+            0.9075395453529317,
+            0.018258148199724027,
+            -0.05311676005901272,
+            0.12386600448742753,
+            0.9907080613164863,
+            0.002325685229152441,
+            0.003917268011718988,
+            -0.009593933820724487,
+            -0.08950819820165634,
+            0.13632220029830933,
+            0.02123900130391121
+        ],
+        [
+            0.5762937510876189,
+            -0.033761263653660556,
+            0.9089611124255306,
+            -0.1383989766442918,
+            -0.02280440506111373,
+            0.09519603537496256,
+            0.9855269642290414,
+            -0.006510371807962656,
+            0.00012378969404380769,
+            0.030750632286071777,
+            -4.740871429443359,
+            -0.5318375825881958,
+            0.14969077706336975
+        ]
+    ],
+    "position_instruction": "Place the pen behind the bowl on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "rotation_instruction_label": "ballpoint_right",
+    "obj_codes": [
+        "bf83213efac34b3cb2ad6ac5ddaf05d9",
+        "065-e",
+        "fbeb7c776372466daffa619106e0b2e0"
+    ],
+    "target_obj_code": "fbeb7c776372466daffa619106e0b2e0",
+    "anno_target": {
+        "category": "pen",
+        "annotation": {
+            " the ballpoint of the pen is on the left(oriented towards left), while the clicker is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "ballpoint_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "ballpoint_right"
+}

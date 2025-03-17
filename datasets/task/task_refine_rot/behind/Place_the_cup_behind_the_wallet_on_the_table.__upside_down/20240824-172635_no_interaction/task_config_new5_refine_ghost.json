@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "wallet",
+        "clock",
+        "pitcher base",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f47fdcf9615d4e94a71e6731242a4c94/material_2.urdf",
+        "objaverse_rescale/fdf932b04e6c4e0fbd6e274563b94536/material_2.urdf",
+        "ycb_16k_backup/019_pitcher_base_google_16k/019_pitcher_base_google_16k.urdf",
+        "ycb_16k_backup/065-e_cups_google_16k/065-e_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup behind the wallet on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6266790847622161,
+            0.0072830508399504895,
+            0.9530488905853689,
+            0.09356363729356935,
+            0.7367588248369329,
+            -0.10535063392553999,
+            0.6613119715631858,
+            0.0004883327055722475,
+            0.003750554518774152,
+            -0.00013761204900220037,
+            -0.24606776237487793,
+            0.021274996921420097,
+            -0.011022485792636871
+        ],
+        [
+            0.4121617682296527,
+            0.06754909005511786,
+            0.9343130348806452,
+            -0.015798145727859758,
+            -0.00012455161288737552,
+            0.020837233200542635,
+            0.9996580479298923,
+            -5.33052661921829e-06,
+            -1.4282607480708975e-05,
+            -1.2535917448985856e-05,
+            0.0003225968102924526,
+            -0.00013406314246822149,
+            1.375834926875541e-05
+        ],
+        [
+            0.6179173574880009,
+            0.14392592371795962,
+            0.9013211142029949,
+            0.00019515207176451025,
+            0.0006633714917196089,
+            -0.0861036202192885,
+            0.9962859471251546,
+            -0.0038799101021140814,
+            0.0037327841855585575,
+            -0.00016821507597342134,
+            -0.03381515294313431,
+            -0.035143692046403885,
+            -0.004916831851005554
+        ],
+        [
+            0.4542049549169597,
+            0.010971817241461476,
+            0.9008546496922069,
+            0.0012940126805074297,
+            -0.0021552330133301537,
+            0.09605885812067831,
+            0.9953724811739528,
+            0.0021384910214692354,
+            0.003921922296285629,
+            -0.009633790701627731,
+            -0.09977622330188751,
+            0.12653152644634247,
+            0.02002272568643093
+        ]
+    ],
+    "position_instruction": "Place the cup behind the wallet on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "f47fdcf9615d4e94a71e6731242a4c94",
+        "fdf932b04e6c4e0fbd6e274563b94536",
+        "019",
+        "065-e"
+    ],
+    "target_obj_code": "065-e",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "upside_down"
+}

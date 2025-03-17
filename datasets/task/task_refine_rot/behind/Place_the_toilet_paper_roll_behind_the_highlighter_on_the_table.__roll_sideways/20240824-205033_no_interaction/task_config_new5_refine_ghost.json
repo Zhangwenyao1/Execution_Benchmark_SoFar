@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "highlighter",
+        "bowl",
+        "toilet paper roll"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/fd058916fb8843c09b4a2e05e3ee894e/material_2.urdf",
+        "ycb_16k_backup/024_bowl_google_16k/024_bowl_google_16k.urdf",
+        "objaverse_rescale/ea0cf48616e34708b73c82eb7c7366ca/material_2.urdf"
+    ],
+    "target_obj_name": "toilet paper roll",
+    "instruction": "Place the toilet paper roll behind the highlighter on the table. We also need to specify the rotation of the object after placement:  the paper roll is lying sideways on the table, with its lateral surface in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.5966906075030708,
+            -0.25596037244742853,
+            0.9115172433078922,
+            0.7027104097428196,
+            0.10933924888558172,
+            0.10841438206300734,
+            0.6946145193228496,
+            -0.012703150510787964,
+            -0.001342100789770484,
+            -0.006072010844945908,
+            0.31464001536369324,
+            -1.2708964347839355,
+            0.03863738104701042
+        ],
+        [
+            0.34422265726079976,
+            -0.020182670709149517,
+            0.9004655218865116,
+            0.00023347304574041744,
+            -0.0005103866571633567,
+            0.016505194525058428,
+            0.9998636224753289,
+            -0.0012995972065255046,
+            5.731603960157372e-05,
+            -0.0006828456535004079,
+            3.0316672564367764e-05,
+            -0.05275745689868927,
+            0.011759567074477673
+        ],
+        [
+            0.30009258747071316,
+            0.19726735571138174,
+            0.9495373256103815,
+            0.0001869162346737511,
+            -0.000692089833876343,
+            0.12553052937229417,
+            0.9920894981147098,
+            -8.114831143757328e-05,
+            -0.0013150495942682028,
+            -0.0004935677861794829,
+            0.016890499740839005,
+            -0.000991560984402895,
+            8.332177094416693e-05
+        ]
+    ],
+    "position_instruction": "Place the toilet paper roll behind the highlighter on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the paper roll is lying sideways on the table, with its lateral surface in contact with the tabletop.",
+    "rotation_instruction_label": "roll_sideways",
+    "obj_codes": [
+        "fd058916fb8843c09b4a2e05e3ee894e",
+        "024",
+        "ea0cf48616e34708b73c82eb7c7366ca"
+    ],
+    "target_obj_code": "ea0cf48616e34708b73c82eb7c7366ca",
+    "anno_target": {
+        "category": "toilet_paper_roll",
+        "annotation": {
+            " the paper roll is standing upright on the table, in the shape of a cylinder, and the axis(height) of the cylinder is perpendicular to the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the paper roll is lying sideways on the table, with its lateral surface in contact with the tabletop.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            }
+        }
+    },
+    "rot_tag_detail": "roll_sideways",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "roll_sideways"
+}

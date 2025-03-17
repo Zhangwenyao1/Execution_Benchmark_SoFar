@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "hammer",
+        "book",
+        "microphone",
+        "camera"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/048_hammer_google_16k/048_hammer_google_16k.urdf",
+        "objaverse_rescale/c61227cac7224b86b43c53ac2a2b6ec7/material_2.urdf",
+        "objaverse_rescale/f9d07bb386a04de8b0e1a9a28a936985/material_2.urdf",
+        "objaverse_rescale/6a63fc4af48b453c91ca2b335a4d464d/material_2.urdf"
+    ],
+    "target_obj_name": "camera",
+    "instruction": "Place the camera to the left of the hammer on the table. We also need to specify the rotation of the object after placement:  the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.",
+    "init_obj_pos": [
+        [
+            0.7554683974603312,
+            -0.10392865044862694,
+            0.8976116152632792,
+            0.0015698441484932294,
+            -0.001998361439856349,
+            0.23868966567129676,
+            0.9710925731580019,
+            -0.007264813873916864,
+            -0.0033261484932154417,
+            0.02165778912603855,
+            0.27838435769081116,
+            -0.3073250353336334,
+            0.010191413573920727
+        ],
+        [
+            0.3595763546133894,
+            -0.14931201563273427,
+            0.9141636337789498,
+            8.937077797408296e-05,
+            -0.00021284367503361735,
+            0.048192479890647566,
+            0.9988380407215293,
+            -0.0006945660570636392,
+            0.002926517277956009,
+            -0.006397676188498735,
+            -0.06419938802719116,
+            -0.007252671755850315,
+            0.026755396276712418
+        ],
+        [
+            0.34071770007940466,
+            0.047507127286903386,
+            0.9989366363787675,
+            0.697757003751905,
+            0.1145983741665051,
+            0.11460620879609648,
+            0.6977591226626437,
+            0.0010670884512364864,
+            0.0002663121558725834,
+            -0.0008256399305537343,
+            0.010186472907662392,
+            0.009275794960558414,
+            -0.010002491064369678
+        ],
+        [
+            0.484435811970167,
+            0.18002739215500074,
+            0.956525168060822,
+            0.09490058314971088,
+            0.007179132856995426,
+            0.09546496482151498,
+            0.9908727364605878,
+            0.0008654274279251695,
+            -8.605860057286918e-05,
+            -0.0012073154794052243,
+            -0.004573449958115816,
+            0.003589148400351405,
+            -0.012836785987019539
+        ]
+    ],
+    "position_instruction": "Place the camera to the left of the hammer on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.",
+    "rotation_instruction_label": "upright_lens_forth",
+    "obj_codes": [
+        "048",
+        "c61227cac7224b86b43c53ac2a2b6ec7",
+        "f9d07bb386a04de8b0e1a9a28a936985",
+        "6a63fc4af48b453c91ca2b335a4d464d"
+    ],
+    "target_obj_code": "6a63fc4af48b453c91ca2b335a4d464d",
+    "anno_target": {
+        "category": "camera",
+        "annotation": {
+            " the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "upright_lens_forth",
+    "rot_tag_level": 2,
+    "position_tag": "left",
+    "rotation_tag": "upright_lens_forth"
+}

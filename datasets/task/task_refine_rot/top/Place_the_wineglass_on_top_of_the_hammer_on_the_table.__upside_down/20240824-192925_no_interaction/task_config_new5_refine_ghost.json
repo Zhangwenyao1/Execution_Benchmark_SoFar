@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "hammer",
+        "bottle",
+        "wineglass"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/9bf1b31f641543c9a921042dac3b527f/material_2.urdf",
+        "objaverse_rescale/6add0a1fa81942acbb24504b130661c1/material_2.urdf",
+        "objaverse_rescale/dc707f81a94e48078069c6a463f59fcf/material_2.urdf"
+    ],
+    "target_obj_name": "wineglass",
+    "instruction": "Place the wineglass on top of the hammer on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.401097758335001,
+            -0.2511671629689334,
+            0.907619538508542,
+            0.21736810856668196,
+            0.6734695062693549,
+            -0.2018801140077756,
+            0.6770778013431412,
+            0.0006117569864727557,
+            0.0021406342275440693,
+            0.03150879964232445,
+            0.3316858410835266,
+            -0.1121836006641388,
+            0.007116092834621668
+        ],
+        [
+            0.6351268002540377,
+            0.23516237281410415,
+            0.9345123995520642,
+            -0.006401522567426428,
+            -0.03150017427366383,
+            -0.06982943488972407,
+            0.9970409267189225,
+            0.0018160806503146887,
+            -0.00025449678651057184,
+            -0.0004362808831501752,
+            0.008834823966026306,
+            0.059574879705905914,
+            0.0037415465340018272
+        ],
+        [
+            0.5978321624103562,
+            -0.1607041927762426,
+            0.9245647350792604,
+            0.041922583265673004,
+            0.03885069778553077,
+            0.13359127971200135,
+            0.9893869264745815,
+            -0.0009501643944531679,
+            0.006159958429634571,
+            -0.00947308074682951,
+            -0.1623782217502594,
+            0.04699622094631195,
+            0.027446119114756584
+        ]
+    ],
+    "position_instruction": "Place the wineglass on top of the hammer on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "9bf1b31f641543c9a921042dac3b527f",
+        "6add0a1fa81942acbb24504b130661c1",
+        "dc707f81a94e48078069c6a463f59fcf"
+    ],
+    "target_obj_code": "dc707f81a94e48078069c6a463f59fcf",
+    "anno_target": {
+        "category": "wineglass",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "top",
+    "rotation_tag": "upside_down"
+}

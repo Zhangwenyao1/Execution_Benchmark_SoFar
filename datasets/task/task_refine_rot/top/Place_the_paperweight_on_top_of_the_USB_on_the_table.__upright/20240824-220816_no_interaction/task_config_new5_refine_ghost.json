@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "USB",
+        "tissue box",
+        "cup",
+        "paperweight"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/878049e8c3174fa68a56530e5aef7a5a/material_2.urdf",
+        "objaverse_rescale/dc4c91abf45342b4bb8822f50fa162b2/material_2.urdf",
+        "ycb_16k_backup/065-j_cups_google_16k/065-j_cups_google_16k.urdf",
+        "objaverse_rescale/21c10181c122474a8f72a4ad0331f185/material_2.urdf"
+    ],
+    "target_obj_name": "paperweight",
+    "instruction": "Place the paperweight on top of the USB on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.6988098944512044,
+            -0.18730649874149546,
+            0.9401690238375984,
+            -0.0019440811544189868,
+            -0.00018054247729988628,
+            0.0941966235862378,
+            0.9955516983350652,
+            0.0004956906195729971,
+            -0.0014370362041518092,
+            -0.00117669312749058,
+            0.045182082802057266,
+            0.015664812177419662,
+            0.0002637207799125463
+        ],
+        [
+            0.48411943021975407,
+            -0.03870928138742826,
+            0.9471222639379101,
+            0.7070922726655265,
+            0.0040002380611805066,
+            0.004000462033400104,
+            0.707098658134545,
+            4.456055467016995e-05,
+            -0.00016503468214068562,
+            0.00014538317918777466,
+            0.003017005743458867,
+            0.0004096819902770221,
+            -0.0005565309547819197
+        ],
+        [
+            0.6182450803159388,
+            0.0611941573530806,
+            0.9004900897447943,
+            0.002266286460483002,
+            -0.0002800083322820253,
+            -0.11835340288690556,
+            0.9929689106744997,
+            0.0018522321479395032,
+            -0.002277188701555133,
+            -0.0022963997907936573,
+            0.0651342123746872,
+            0.0732971802353859,
+            -0.0014964921865612268
+        ],
+        [
+            0.6318166115707291,
+            0.12601387484713622,
+            0.9383818345168031,
+            -0.09842335677961728,
+            0.27347052704762886,
+            -0.15047367341126625,
+            0.9449255988101086,
+            -0.002266236115247011,
+            -0.0029068277217447758,
+            -0.0002431175671517849,
+            0.03339261934161186,
+            -0.042581312358379364,
+            0.01660010777413845
+        ]
+    ],
+    "position_instruction": "Place the paperweight on top of the USB on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "878049e8c3174fa68a56530e5aef7a5a",
+        "dc4c91abf45342b4bb8822f50fa162b2",
+        "065-j",
+        "21c10181c122474a8f72a4ad0331f185"
+    ],
+    "target_obj_code": "21c10181c122474a8f72a4ad0331f185",
+    "anno_target": {
+        "category": "paperweight",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "top",
+    "rotation_tag": "upright"
+}

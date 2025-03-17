@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "bottle",
+        "apple",
+        "camera"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/794b730ae452424bb3a9ce3c6caaff7a/material_2.urdf",
+        "objaverse_rescale/fbda0b25f41f40958ea984f460e4770b/material_2.urdf",
+        "objaverse_rescale/6a63fc4af48b453c91ca2b335a4d464d/material_2.urdf"
+    ],
+    "target_obj_name": "camera",
+    "instruction": "Place the camera between the bottle and the apple on the table. We also need to specify the rotation of the object after placement:  the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.",
+    "init_obj_pos": [
+        [
+            0.25670492001923684,
+            0.14772513704476609,
+            0.9270915605501933,
+            0.03214294042491987,
+            0.6219160832506275,
+            -0.053158839574231675,
+            0.7806160096681083,
+            -0.006274687126278877,
+            0.0033870397601276636,
+            -0.003586514387279749,
+            -0.10490265488624573,
+            -0.09917578846216202,
+            0.06278889626264572
+        ],
+        [
+            0.5344997573069943,
+            -0.07183821713262002,
+            0.9260360490773782,
+            0.10009864540494862,
+            0.07389674437928366,
+            0.12723088377881372,
+            0.9840385330723077,
+            -0.004797840490937233,
+            0.00027147657237946987,
+            -0.0016127268318086863,
+            -0.006717029493302107,
+            -0.08375225961208344,
+            0.03363019600510597
+        ],
+        [
+            0.43464089009393164,
+            0.11238303058818445,
+            0.9565803582928301,
+            0.09338273732605334,
+            0.012655637736563913,
+            0.11830770521903085,
+            0.9884952129822279,
+            0.00019448617240414023,
+            0.0010544677497819066,
+            0.0002029007882811129,
+            -0.0053331851959228516,
+            -0.07580680400133133,
+            -0.04239730164408684
+        ]
+    ],
+    "position_instruction": "Place the camera between the bottle and the apple on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.",
+    "rotation_instruction_label": "upright_lens_forth",
+    "obj_codes": [
+        "794b730ae452424bb3a9ce3c6caaff7a",
+        "fbda0b25f41f40958ea984f460e4770b",
+        "6a63fc4af48b453c91ca2b335a4d464d"
+    ],
+    "target_obj_code": "6a63fc4af48b453c91ca2b335a4d464d",
+    "anno_target": {
+        "category": "camera",
+        "annotation": {
+            " the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "upright_lens_forth",
+    "rot_tag_level": 2,
+    "position_tag": "between",
+    "rotation_tag": "upright_lens_forth"
+}

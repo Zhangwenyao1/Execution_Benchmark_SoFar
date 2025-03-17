@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "hammer",
+        "book",
+        "calipers",
+        "toy"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/4f24b866dab248b684149ec6bb40101f/material_2.urdf",
+        "objaverse_rescale/c61227cac7224b86b43c53ac2a2b6ec7/material_2.urdf",
+        "objaverse_rescale/95c967114b624291bc26bcd705aaa334/material_2.urdf",
+        "ycb_16k_backup/072-b_toy_airplane_google_16k/072-b_toy_airplane_google_16k.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "Place the toy behind the hammer on the table. We also need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "init_obj_pos": [
+        [
+            0.6299313997501094,
+            -0.22113640138622556,
+            0.9118842089265501,
+            0.01626997391549542,
+            0.02485111653524739,
+            0.09801241634918346,
+            0.994741813837709,
+            -0.013278217054903507,
+            0.0002488749159965664,
+            0.014751363545656204,
+            0.5748224258422852,
+            -0.45682209730148315,
+            0.039627499878406525
+        ],
+        [
+            0.49683731330993974,
+            0.24552931628200422,
+            0.9142128790062487,
+            0.00014250406085099157,
+            9.646792909298507e-05,
+            0.07846975038598974,
+            0.9969164802835253,
+            -0.001844504731707275,
+            0.0008598357089795172,
+            -0.002679413417354226,
+            -0.03074585646390915,
+            -0.021800071001052856,
+            0.02024207077920437
+        ],
+        [
+            0.4322933453649938,
+            -0.2010524023337882,
+            0.9024539797912902,
+            0.6435841643839253,
+            -0.28216121216337553,
+            -0.28882206171631564,
+            0.6502048064807548,
+            -0.0013345106272026896,
+            0.002428587758913636,
+            0.03217913582921028,
+            2.0197737216949463,
+            -1.6256622076034546,
+            -0.036316126585006714
+        ],
+        [
+            0.6155716345034342,
+            0.06627981270038383,
+            0.9001521634921382,
+            -7.997527064057754e-05,
+            -0.00030083220455345274,
+            0.029311949705958948,
+            0.9995702640176813,
+            0.00016819924348965287,
+            -0.0006043259636498988,
+            -0.0007806340581737459,
+            0.0124366395175457,
+            0.020775504410266876,
+            -0.0022039557807147503
+        ]
+    ],
+    "position_instruction": "Place the toy behind the hammer on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "rotation_instruction_label": "left",
+    "obj_codes": [
+        "4f24b866dab248b684149ec6bb40101f",
+        "c61227cac7224b86b43c53ac2a2b6ec7",
+        "95c967114b624291bc26bcd705aaa334",
+        "072-b"
+    ],
+    "target_obj_code": "072-b",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_left",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "left"
+}

@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "wrench",
+        "box",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/8a6cb4f7b0004f53830e270dc6e1ff1d/material_2.urdf",
+        "ycb_16k_backup/008_pudding_box_google_16k/008_pudding_box_google_16k.urdf",
+        "objaverse_rescale/c609327dd3a74fb597584e1b4a14a615/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug between the wrench and the box on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "init_obj_pos": [
+        [
+            0.44580915719895414,
+            0.10716246927075411,
+            0.9018425543017099,
+            0.49087225100173737,
+            -0.5089439097991563,
+            0.49093029258114335,
+            0.5089282638064324,
+            9.06249406398274e-05,
+            0.002984604798257351,
+            0.01638154499232769,
+            0.8369584083557129,
+            -0.718691885471344,
+            0.04783884808421135
+        ],
+        [
+            0.61937958205521,
+            0.16716597162808108,
+            0.9003464917914413,
+            -0.006116974521399405,
+            0.0026780887399320947,
+            -0.06688784479712806,
+            0.9977381553703356,
+            -0.005167122930288315,
+            -0.0015387192834168673,
+            -0.005080047994852066,
+            0.09431856870651245,
+            -0.21170970797538757,
+            -0.008189992047846317
+        ],
+        [
+            0.614460589058989,
+            -0.10790932034296243,
+            0.9360364305431326,
+            -0.002907291564409411,
+            0.014038081877133773,
+            0.08412303817974555,
+            0.996352244118705,
+            -0.0009735961211845279,
+            0.00014158326666802168,
+            -0.00013725609460379928,
+            -0.0013915617018938065,
+            -0.016756558790802956,
+            -0.0010698166443035007
+        ]
+    ],
+    "position_instruction": "Place the mug between the wrench and the box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "rotation_instruction_label": "handle_left",
+    "obj_codes": [
+        "8a6cb4f7b0004f53830e270dc6e1ff1d",
+        "008",
+        "c609327dd3a74fb597584e1b4a14a615"
+    ],
+    "target_obj_code": "c609327dd3a74fb597584e1b4a14a615",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_left"
+}

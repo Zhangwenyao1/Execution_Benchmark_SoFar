@@ -1,0 +1,67 @@
+{
+    "selected_obj_names": [
+        "bottle"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/a7785ac7ce7f4ba79df661db33637ba9/material_2.urdf"
+    ],
+    "target_obj_name": "bottle",
+    "instruction": "We need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.",
+    "init_obj_pos": [
+        [
+            0.5603345270373472,
+            0.007510073513266111,
+            0.9296141107743036,
+            -0.0035803348692488245,
+            0.04139286673998229,
+            0.04025656827541242,
+            0.998325207783494,
+            -0.0006264477269724011,
+            0.0002671112597454339,
+            -0.00011382313095964491,
+            -0.011940019205212593,
+            0.008224566467106342,
+            0.02880283258855343
+        ]
+    ],
+    "position_instruction": "",
+    "rotation_instruction": "We need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.",
+    "rotation_instruction_label": "cap_left_bottom_right",
+    "obj_codes": [
+        "a7785ac7ce7f4ba79df661db33637ba9"
+    ],
+    "target_obj_code": "a7785ac7ce7f4ba79df661db33637ba9",
+    "anno_target": {
+        "category": "bottle",
+        "annotation": {
+            " the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "cap_left_bottom_right",
+    "rot_tag_level": 1,
+    "position_tag": "rot_ins",
+    "rotation_tag": "cap_left_bottom_right"
+}

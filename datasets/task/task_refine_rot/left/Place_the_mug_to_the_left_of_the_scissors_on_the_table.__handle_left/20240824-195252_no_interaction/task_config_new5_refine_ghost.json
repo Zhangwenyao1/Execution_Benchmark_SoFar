@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "scissors",
+        "hammer",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/037_scissors_google_16k/037_scissors_google_16k.urdf",
+        "ycb_16k_backup/048_hammer_google_16k/048_hammer_google_16k.urdf",
+        "objaverse_rescale/c609327dd3a74fb597584e1b4a14a615/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug to the left of the scissors on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "init_obj_pos": [
+        [
+            0.373688993454917,
+            0.044881308147102734,
+            0.9001639399357207,
+            -0.0010852971574483103,
+            -0.0013925674086763733,
+            -0.05731164746662547,
+            0.9983547755937039,
+            0.0002655242569744587,
+            0.0031767948530614376,
+            5.307188257575035e-05,
+            -0.601797878742218,
+            -1.0902177095413208,
+            0.6555008292198181
+        ],
+        [
+            0.6556292264965432,
+            0.07402125639987214,
+            0.8977033407952963,
+            0.0012608077041683947,
+            -0.003610036508688586,
+            0.11302743786127666,
+            0.9935845088822861,
+            -0.00530551141127944,
+            -0.0032929484732449055,
+            0.020556021481752396,
+            0.21265237033367157,
+            -0.12166392058134079,
+            0.01928274892270565
+        ],
+        [
+            0.5572031597097031,
+            -0.2121831722393433,
+            0.9360363443430818,
+            -0.0010553544844454608,
+            0.01428200559613524,
+            -0.046447712022928786,
+            0.9988180618065033,
+            -0.0008722544298507273,
+            0.0003821351274382323,
+            -0.00014244233898352832,
+            -0.005722723435610533,
+            -0.01610545627772808,
+            -0.0016371477395296097
+        ]
+    ],
+    "position_instruction": "Place the mug to the left of the scissors on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "rotation_instruction_label": "handle_left",
+    "obj_codes": [
+        "037",
+        "048",
+        "c609327dd3a74fb597584e1b4a14a615"
+    ],
+    "target_obj_code": "c609327dd3a74fb597584e1b4a14a615",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "handle_left"
+}

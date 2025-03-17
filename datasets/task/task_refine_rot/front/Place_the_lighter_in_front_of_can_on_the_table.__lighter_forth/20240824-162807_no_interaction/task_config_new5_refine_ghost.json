@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "can",
+        "cup",
+        "lighter"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/005_tomato_soup_can_google_16k/005_tomato_soup_can_google_16k.urdf",
+        "ycb_16k_backup/065-d_cups_google_16k/065-d_cups_google_16k.urdf",
+        "objaverse_rescale/d9675ab05c39447baf27e19ea07d484e/material_2.urdf"
+    ],
+    "target_obj_name": "lighter",
+    "instruction": "Place the lighter in front of can on the table. We also need to specify the rotation of the object after placement:  the lighter is lying steadily on the table(not standing up), with its grey head pointing forth.",
+    "init_obj_pos": [
+        [
+            0.684229213071151,
+            0.09911118783875608,
+            0.8998912201190004,
+            -0.00023752086840777808,
+            -0.0007935515739728482,
+            -0.061629154745042894,
+            0.9980987732409792,
+            0.0002647373767104,
+            2.764138662314508e-05,
+            -4.254469240549952e-05,
+            -0.00016004817734938115,
+            0.005552557297050953,
+            4.466637983568944e-05
+        ],
+        [
+            0.48964704393131364,
+            0.22938027519017007,
+            0.9006104624064252,
+            0.0007405245182176612,
+            -0.0008527221683359372,
+            -0.08799291582576535,
+            0.9961204602119279,
+            0.007273834198713303,
+            -0.0012352545745670795,
+            -0.0068877325393259525,
+            0.0007927173865027726,
+            0.1936197578907013,
+            -0.01574796624481678
+        ],
+        [
+            0.4814421889394608,
+            -0.04510719744405068,
+            0.9265524599913088,
+            0.006565257761873689,
+            0.9998601886362369,
+            0.003339558450282731,
+            -0.015011592859691671,
+            -0.0004112960887141526,
+            0.005279185250401497,
+            0.029689673334360123,
+            -0.7057446241378784,
+            -0.9424463510513306,
+            0.05648528411984444
+        ]
+    ],
+    "position_instruction": "Place the lighter in front of can on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the lighter is lying steadily on the table(not standing up), with its grey head pointing forth.",
+    "rotation_instruction_label": "lighter_forth",
+    "obj_codes": [
+        "005",
+        "065-d",
+        "d9675ab05c39447baf27e19ea07d484e"
+    ],
+    "target_obj_code": "d9675ab05c39447baf27e19ea07d484e",
+    "anno_target": {
+        "category": "lighter",
+        "annotation": {
+            " the lighter is lying steadily on the table(not standing up), with its grey head pointing forth, oriented towards the viewer.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "lighter_forth",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "lighter_forth"
+}

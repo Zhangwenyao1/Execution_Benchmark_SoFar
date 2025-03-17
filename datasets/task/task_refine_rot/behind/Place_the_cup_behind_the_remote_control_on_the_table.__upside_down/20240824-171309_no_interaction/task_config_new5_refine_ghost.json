@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "remote control",
+        "box",
+        "clipboard",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/89dcd45ac1f04680b76b709357a3dba3/material_2.urdf",
+        "ycb_16k_backup/009_gelatin_box_google_16k/009_gelatin_box_google_16k.urdf",
+        "objaverse_rescale/a37158f20ccf436483029e8295629738/material_2.urdf",
+        "ycb_16k_backup/065-g_cups_google_16k/065-g_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup behind the remote control on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.44789811046529665,
+            0.2570782182704366,
+            0.9092737093640288,
+            -0.701856696769266,
+            0.024988710310438967,
+            -0.025293359875204615,
+            0.7114302407849844,
+            -0.0023563005961477757,
+            0.004402616061270237,
+            -0.010209544561803341,
+            -0.556559681892395,
+            -0.1686314195394516,
+            -0.07399221509695053
+        ],
+        [
+            0.5600646445567126,
+            0.2867466601158544,
+            0.9003096910852842,
+            -0.0007757346638041816,
+            -0.002857145164222807,
+            0.978530154519059,
+            0.2060824389756363,
+            0.01656959392130375,
+            -0.001367214834317565,
+            0.012099445797502995,
+            0.10604599118232727,
+            1.149307370185852,
+            -0.06931432336568832
+        ],
+        [
+            0.4539407282442845,
+            0.0030340313238674892,
+            0.9007005144547863,
+            0.14205421211916328,
+            -0.7101496043252762,
+            0.6761735007531737,
+            -0.1352683894154699,
+            -0.0009738611988723278,
+            -0.0012366967275738716,
+            0.019354980438947678,
+            0.22527869045734406,
+            0.06849612295627594,
+            0.009260770864784718
+        ],
+        [
+            0.33570139264094634,
+            -0.05229700423525738,
+            0.9005650492576984,
+            -0.000341394275139478,
+            -0.0013385835910428065,
+            -0.5086891686427972,
+            0.8609491398157152,
+            0.009492154233157635,
+            -0.0014480419922620058,
+            -0.002967264037579298,
+            0.0492749847471714,
+            0.3263774812221527,
+            -0.006209612358361483
+        ]
+    ],
+    "position_instruction": "Place the cup behind the remote control on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "89dcd45ac1f04680b76b709357a3dba3",
+        "009",
+        "a37158f20ccf436483029e8295629738",
+        "065-g"
+    ],
+    "target_obj_code": "065-g",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "upside_down"
+}

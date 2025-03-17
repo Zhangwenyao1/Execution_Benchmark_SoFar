@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "glue gun",
+        "cup",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/a1da12b81f034db894496c1ffc4be1f5/material_2.urdf",
+        "ycb_16k_backup/065-e_cups_google_16k/065-e_cups_google_16k.urdf",
+        "objaverse_rescale/9bf1b31f641543c9a921042dac3b527f/material_2.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer on top of the glue gun on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.5247373405009048,
+            -0.11351843176257277,
+            0.9145860532578686,
+            0.6583709381312222,
+            0.23507042558162577,
+            0.24074108441656153,
+            0.6733003290620211,
+            -0.007071135565638542,
+            0.007639850489795208,
+            0.015231400728225708,
+            -0.6174678206443787,
+            -0.6291716694831848,
+            0.07072245329618454
+        ],
+        [
+            0.5642365013328556,
+            0.23050107682045645,
+            0.9008449633231965,
+            0.0008145830166828461,
+            -0.0024046769574443175,
+            -0.09125033628813675,
+            0.9958247486935347,
+            0.002923996187746525,
+            0.0039372434839606285,
+            -0.009675595909357071,
+            -0.0440899133682251,
+            0.1665201038122177,
+            0.04216210916638374
+        ],
+        [
+            0.6967075234420301,
+            0.008828868873759416,
+            0.9076396392911916,
+            0.2572232498831525,
+            0.6588510629737686,
+            -0.24277689689388715,
+            0.663935881597357,
+            0.0026080282405018806,
+            0.0012091415701434016,
+            0.031115291640162468,
+            0.18638014793395996,
+            -0.27532318234443665,
+            -0.028368625789880753
+        ]
+    ],
+    "position_instruction": "Place the hammer on top of the glue gun on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "a1da12b81f034db894496c1ffc4be1f5",
+        "065-e",
+        "9bf1b31f641543c9a921042dac3b527f"
+    ],
+    "target_obj_code": "9bf1b31f641543c9a921042dac3b527f",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        -0.7071067690849304,
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "handle_right"
+}

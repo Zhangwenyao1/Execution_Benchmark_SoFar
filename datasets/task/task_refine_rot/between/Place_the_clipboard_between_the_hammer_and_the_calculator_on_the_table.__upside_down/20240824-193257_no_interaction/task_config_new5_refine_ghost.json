@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "hammer",
+        "calculator",
+        "clipboard"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/048_hammer_google_16k/048_hammer_google_16k.urdf",
+        "objaverse_rescale/f0b1f7c17d70489888f5ae922169c0ce/material_2.urdf",
+        "objaverse_rescale/b31c69728a414e639eef2fccd1c3dd75/material_2.urdf"
+    ],
+    "target_obj_name": "clipboard",
+    "instruction": "Place the clipboard between the hammer and the calculator on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6729380029104998,
+            -0.02729789979988217,
+            0.9268356610437394,
+            -0.36315938890816274,
+            0.9316710422853466,
+            0.0009319698953962487,
+            0.010171462377640477,
+            -0.0003978864406235516,
+            0.001385643263347447,
+            0.02428503707051277,
+            -0.05585359036922455,
+            0.22250010073184967,
+            -0.017882438376545906
+        ],
+        [
+            0.6154954677390998,
+            -0.12955610221700364,
+            0.909551509988249,
+            0.2026269527077025,
+            -0.7152804621490843,
+            0.6434877295247678,
+            -0.18231763616074526,
+            -0.0036631973925977945,
+            0.004286015406250954,
+            0.02916572242975235,
+            -0.09607625007629395,
+            -0.29136255383491516,
+            0.04064026102423668
+        ],
+        [
+            0.6632922419738819,
+            0.21114842453923477,
+            0.9014582523490882,
+            -0.7133752066104757,
+            -0.034010547931783486,
+            0.02071261528850903,
+            0.6996499730513485,
+            -0.0013866297667846084,
+            0.0005984965246170759,
+            -0.00683155283331871,
+            -0.0859098732471466,
+            -0.03559700399637222,
+            0.010339222848415375
+        ]
+    ],
+    "position_instruction": "Place the clipboard between the hammer and the calculator on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "048",
+        "f0b1f7c17d70489888f5ae922169c0ce",
+        "b31c69728a414e639eef2fccd1c3dd75"
+    ],
+    "target_obj_code": "b31c69728a414e639eef2fccd1c3dd75",
+    "anno_target": {
+        "category": "clipboard",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

@@ -1,0 +1,79 @@
+{
+    "selected_obj_names": [
+        "toy",
+        "watch"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/073-g_lego_duplo_google_16k/073-g_lego_duplo_google_16k.urdf",
+        "objaverse_rescale/fdb8227a88b2448d8c64fa82ffee3f58/material_2.urdf"
+    ],
+    "target_obj_name": "watch",
+    "instruction": "Place the watch on top of the toy on the table. We also need to specify the rotation of the object after placement:  the watch is placed steadily on the table, and its contact with the table is in the shape of a circle, which means that the bringe of the watch bracelet is in touch with the table and while the plane of the watch dial is perpendicular to the table.",
+    "init_obj_pos": [
+        [
+            0.5147979227866498,
+            0.14231370284680595,
+            0.9002525075771629,
+            0.002133784801245957,
+            -0.0008377959518779819,
+            -0.00840459202917751,
+            0.9999620532266157,
+            -0.0016375038539990783,
+            -0.00026739403256215155,
+            -0.0026362931821495295,
+            0.009817193262279034,
+            -0.01754208467900753,
+            -0.004954021889716387
+        ],
+        [
+            0.3992433149438146,
+            -0.2268027554955214,
+            0.9695486071462033,
+            -0.001781810214239311,
+            0.022820925630924322,
+            0.07906979684524428,
+            0.9966062400630252,
+            0.002526425290852785,
+            0.0007991769816726446,
+            -0.00025730201741680503,
+            -0.00883836392313242,
+            0.04159153625369072,
+            0.04413478448987007
+        ]
+    ],
+    "position_instruction": "Place the watch on top of the toy on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the watch is placed steadily on the table, and its contact with the table is in the shape of a circle, which means that the bringe of the watch bracelet is in touch with the table and while the plane of the watch dial is perpendicular to the table.",
+    "rotation_instruction_label": "watch_upright",
+    "obj_codes": [
+        "073-g",
+        "fdb8227a88b2448d8c64fa82ffee3f58"
+    ],
+    "target_obj_code": "fdb8227a88b2448d8c64fa82ffee3f58",
+    "anno_target": {
+        "category": "watch",
+        "annotation": {
+            " the watch is placed steadily on the table, and its contact with the table is in the shape of a circle, which means that the bringe of the watch bracelet is in touch with the table and while the plane of the watch dial is perpendicular to the table.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        -0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "watch_upright",
+    "rot_tag_level": 2,
+    "position_tag": "top",
+    "rotation_tag": "watch_upright"
+}

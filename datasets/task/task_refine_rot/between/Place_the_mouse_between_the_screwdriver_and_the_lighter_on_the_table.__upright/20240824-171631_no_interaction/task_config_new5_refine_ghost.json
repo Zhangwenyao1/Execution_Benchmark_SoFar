@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "screwdriver",
+        "lighter",
+        "ladle",
+        "mouse"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/043_phillips_screwdriver_google_16k/043_phillips_screwdriver_google_16k.urdf",
+        "objaverse_rescale/b640aa4990b64db9ab3d868c6f49820e/material_2.urdf",
+        "objaverse_rescale/ce27e3369587476c85a436905f1e5c00/material_2.urdf",
+        "objaverse_rescale/e51e63e374ee4c25ae3fb4a9c74bd335/material_2.urdf"
+    ],
+    "target_obj_name": "mouse",
+    "instruction": "Place the mouse between the screwdriver and the lighter on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.613289813426024,
+            0.15702134972129478,
+            0.901457726376461,
+            -0.026045126489537874,
+            -0.011824464939492733,
+            0.019847918389924682,
+            0.999393763013671,
+            -0.00023962435079738498,
+            -0.00018123246263712645,
+            -1.3587597095465753e-05,
+            -0.006120770238339901,
+            -0.01651960425078869,
+            0.020998843014240265
+        ],
+        [
+            0.4853145816486577,
+            -0.006054925643015538,
+            0.9247858684764326,
+            -0.0006055785651929859,
+            0.0048608186049384754,
+            0.07307218383141559,
+            0.997314625214731,
+            -0.006831728387624025,
+            0.015952477231621742,
+            0.020040279254317284,
+            -0.48264238238334656,
+            -1.2412457466125488,
+            0.0076906513422727585
+        ],
+        [
+            0.33424690423097336,
+            -0.05201706303449863,
+            0.9195303323952007,
+            -0.004791801420323728,
+            0.05322551695348015,
+            0.2179318611111462,
+            0.9744997623893074,
+            -0.002704491140320897,
+            -0.005312190856784582,
+            -0.007517088204622269,
+            0.15564334392547607,
+            -0.6892476677894592,
+            0.6300375461578369
+        ],
+        [
+            0.34505345128606674,
+            0.09664944787374913,
+            0.9406924931761721,
+            0.1643974889261644,
+            0.003452179712197858,
+            0.058800475303339726,
+            0.9846339686371325,
+            0.002360190963372588,
+            -0.002289538038894534,
+            -0.0005418097716756165,
+            0.08852028846740723,
+            0.07859800010919571,
+            0.1487136334180832
+        ]
+    ],
+    "position_instruction": "Place the mouse between the screwdriver and the lighter on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "043",
+        "b640aa4990b64db9ab3d868c6f49820e",
+        "ce27e3369587476c85a436905f1e5c00",
+        "e51e63e374ee4c25ae3fb4a9c74bd335"
+    ],
+    "target_obj_code": "e51e63e374ee4c25ae3fb4a9c74bd335",
+    "anno_target": {
+        "category": "mouse",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upright"
+}

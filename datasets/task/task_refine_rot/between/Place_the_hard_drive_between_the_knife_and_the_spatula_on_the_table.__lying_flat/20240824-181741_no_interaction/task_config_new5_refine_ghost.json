@@ -1,0 +1,97 @@
+{
+    "selected_obj_names": [
+        "knife",
+        "spatula",
+        "hard drive"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/0df75457524743ec81468c916fddb930/material_2.urdf",
+        "ycb_16k_backup/033_spatula_google_16k/033_spatula_google_16k.urdf",
+        "objaverse_rescale/f8de4975c0f54c1a97203c6a674f6a39/material_2.urdf"
+    ],
+    "target_obj_name": "hard drive",
+    "instruction": "Place the hard drive between the knife and the spatula on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.5086613331534737,
+            0.03410536437778478,
+            0.9029603027343803,
+            0.5369154724655795,
+            -0.3930358737887758,
+            -0.4410977003094767,
+            0.6022270303829342,
+            0.010312754660844803,
+            0.005993701051920652,
+            -0.010075191035866737,
+            2.4153671264648438,
+            22.744394302368164,
+            0.18585245311260223
+        ],
+        [
+            0.44125714276213507,
+            0.006491447436415227,
+            0.9029374742841706,
+            0.012056354882753383,
+            -0.008547218846313815,
+            -0.10404989097904452,
+            0.9944622715539195,
+            -0.006588323507457972,
+            -0.008432476781308651,
+            0.0005759683554060757,
+            1.7593231201171875,
+            -1.0745562314987183,
+            0.6348124146461487
+        ],
+        [
+            0.4584234565292858,
+            -0.18236420347753915,
+            0.9508357879168416,
+            0.0013658058128922551,
+            -0.00010022392246657217,
+            -0.06621915175491967,
+            0.9978041633860352,
+            -0.0007001149351708591,
+            0.0008819189388304949,
+            -0.0002111915819114074,
+            -0.010228009894490242,
+            -0.008202913217246532,
+            -0.0019780162256211042
+        ]
+    ],
+    "position_instruction": "Place the hard drive between the knife and the spatula on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "0df75457524743ec81468c916fddb930",
+        "033",
+        "f8de4975c0f54c1a97203c6a674f6a39"
+    ],
+    "target_obj_code": "f8de4975c0f54c1a97203c6a674f6a39",
+    "anno_target": {
+        "category": "hard_drive",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "between",
+    "rotation_tag": "lying_flat"
+}

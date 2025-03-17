@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "remote control",
+        "hat",
+        "bottle"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/89dcd45ac1f04680b76b709357a3dba3/material_2.urdf",
+        "objaverse_rescale/dc02f9c1fd01432fadd6e7d15851dc37/material_2.urdf",
+        "objaverse_rescale/794b730ae452424bb3a9ce3c6caaff7a/material_2.urdf"
+    ],
+    "target_obj_name": "bottle",
+    "instruction": "Place the bottle behind the remote control on the table. We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.",
+    "init_obj_pos": [
+        [
+            0.32168443735381225,
+            -0.13746480202692243,
+            0.9092709260755741,
+            -0.7001215667096469,
+            0.055830931115584674,
+            -0.056791330066912796,
+            0.70956849125932,
+            -0.0017812266014516354,
+            9.927085920935497e-05,
+            -0.00013598694931715727,
+            -0.15191486477851868,
+            -0.05305546149611473,
+            -0.029179733246564865
+        ],
+        [
+            0.38624202538325,
+            0.2892283654311044,
+            0.9447225344247732,
+            -0.8688932286346598,
+            0.058016305056013406,
+            -0.19726382893622382,
+            0.4502728588021978,
+            0.000511663849465549,
+            0.0006181063945405185,
+            -0.0002458114759065211,
+            -0.013301168568432331,
+            0.016419846564531326,
+            -0.004402038175612688
+        ],
+        [
+            0.4401319036497106,
+            0.0012279256262003589,
+            0.931678663873929,
+            -0.050788795374038076,
+            0.9926860734447647,
+            -0.002427857486628804,
+            0.10949412477979965,
+            0.005161873064935207,
+            0.0011588026536628604,
+            -0.00029537768568843603,
+            -0.05451453849673271,
+            0.27297306060791016,
+            -0.0009632422006689012
+        ]
+    ],
+    "position_instruction": "Place the bottle behind the remote control on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.",
+    "rotation_instruction_label": "cap_left_bottom_right",
+    "obj_codes": [
+        "89dcd45ac1f04680b76b709357a3dba3",
+        "dc02f9c1fd01432fadd6e7d15851dc37",
+        "794b730ae452424bb3a9ce3c6caaff7a"
+    ],
+    "target_obj_code": "794b730ae452424bb3a9ce3c6caaff7a",
+    "anno_target": {
+        "category": "bottle",
+        "annotation": {
+            " the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.": {
+                "quat": [
+                    [
+                        -1.0,
+                        -4.371138828673793e-08,
+                        -4.371138828673793e-08,
+                        1.910685676922942e-15
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.": {
+                "quat": [
+                    [
+                        -0.0,
+                        1.0,
+                        -0.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "cap_left_bottom_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "cap_left_bottom_right"
+}

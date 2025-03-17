@@ -1,0 +1,67 @@
+{
+    "selected_obj_names": [
+        "scissors"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/2b1120c4b517409184413ed709c57a66/material_2.urdf"
+    ],
+    "target_obj_name": "scissors",
+    "instruction": "We need to specify the rotation of the object after placement:  the blades of the scissors are on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.48589526881942713,
+            -0.21392179163433006,
+            0.9045028865816352,
+            -0.1715287700056682,
+            0.9851434660795068,
+            -0.002210219816458116,
+            0.008083763329054153,
+            0.005378384608775377,
+            0.00392079446464777,
+            0.007779646199196577,
+            -0.7583577632904053,
+            1.1100600957870483,
+            0.12827426195144653
+        ]
+    ],
+    "position_instruction": "",
+    "rotation_instruction": "We need to specify the rotation of the object after placement:  the blades of the scissors are on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blades_right",
+    "obj_codes": [
+        "2b1120c4b517409184413ed709c57a66"
+    ],
+    "target_obj_code": "2b1120c4b517409184413ed709c57a66",
+    "anno_target": {
+        "category": "scissors",
+        "annotation": {
+            " the blades of the scissors are on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blades of the scissors are on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blades_right",
+    "rot_tag_level": 1,
+    "position_tag": "rot_ins",
+    "rotation_tag": "blades_right"
+}

@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "USB",
+        "can",
+        "shoe",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/878049e8c3174fa68a56530e5aef7a5a/material_2.urdf",
+        "ycb_16k_backup/002_master_chef_can_google_16k/002_master_chef_can_google_16k.urdf",
+        "objaverse_rescale/d5a5f0a954f94bcea3168329d1605fe9/material_2.urdf",
+        "objaverse_rescale/6d155e8051294915813e0c156e3cd6de/material_2.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer behind the USB on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.4311678671645361,
+            0.28507538662265963,
+            0.91480744728139,
+            -0.6054936360161931,
+            -0.3651741978961537,
+            0.3653037321358955,
+            0.6054572199770814,
+            -0.014547032304108143,
+            -0.00030850147595629096,
+            -0.0028860399033874273,
+            -0.0872039645910263,
+            -0.27951622009277344,
+            0.058759722858667374
+        ],
+        [
+            0.544084722114516,
+            -0.007281204720973615,
+            0.9000913787330076,
+            -0.0001443856432280339,
+            0.00024550536633044626,
+            -0.10980413547386352,
+            0.9939532034823059,
+            0.000402876699808985,
+            0.0007797921425662935,
+            -0.000721682037692517,
+            -0.016032451763749123,
+            0.005050249397754669,
+            -0.00018544195336289704
+        ],
+        [
+            0.31861685758144365,
+            -0.12039790949762193,
+            0.9324813955292972,
+            -0.20422470212447522,
+            -0.6254133343223612,
+            -0.12296263683647767,
+            0.7429876326266656,
+            0.0010731643997132778,
+            -0.004534030333161354,
+            0.0003659282810986042,
+            0.11695004999637604,
+            0.030587583780288696,
+            0.021183103322982788
+        ],
+        [
+            0.5099631894136393,
+            0.17439735754535007,
+            0.9161542901279633,
+            0.1322953580323129,
+            -0.694624325381259,
+            0.12149861612875919,
+            0.6965867290657558,
+            -0.0009769421303644776,
+            -0.00010474259761394933,
+            0.025116730481386185,
+            -0.19301339983940125,
+            0.24038144946098328,
+            -0.006709418259561062
+        ]
+    ],
+    "position_instruction": "Place the hammer behind the USB on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "878049e8c3174fa68a56530e5aef7a5a",
+        "002",
+        "d5a5f0a954f94bcea3168329d1605fe9",
+        "6d155e8051294915813e0c156e3cd6de"
+    ],
+    "target_obj_code": "6d155e8051294915813e0c156e3cd6de",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "handle_right"
+}

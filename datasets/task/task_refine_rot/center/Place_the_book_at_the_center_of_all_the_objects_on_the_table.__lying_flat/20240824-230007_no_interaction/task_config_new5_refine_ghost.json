@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "pitcher base",
+        "cup",
+        "camera",
+        "book"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/019_pitcher_base_google_16k/019_pitcher_base_google_16k.urdf",
+        "ycb_16k_backup/065-j_cups_google_16k/065-j_cups_google_16k.urdf",
+        "objaverse_rescale/6a63fc4af48b453c91ca2b335a4d464d/material_2.urdf",
+        "objaverse_rescale/2a371c84c5454f7facba7bb2f5312ad6/material_2.urdf"
+    ],
+    "target_obj_name": "book",
+    "instruction": "Place the book at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.4121491397904156,
+            -0.13144341424010558,
+            0.9013183331214173,
+            9.987785629831666e-05,
+            0.000768534725076166,
+            0.06308784610527539,
+            0.9980076768505273,
+            -0.004855640698224306,
+            0.0017859424697235227,
+            -0.00038147950544953346,
+            -0.01496304851025343,
+            -0.04485644772648811,
+            -0.006408659275621176
+        ],
+        [
+            0.679080154772871,
+            0.2661128678580847,
+            0.9232245741059425,
+            -0.2395242153449389,
+            0.6175926179089996,
+            0.5660750535114152,
+            0.49067967388077843,
+            -0.009688030928373337,
+            -0.005488600116223097,
+            0.00123979477211833,
+            0.18880359828472137,
+            -0.19555072486400604,
+            0.14306382834911346
+        ],
+        [
+            0.3075056989586716,
+            0.09043912058837995,
+            0.9565247938025995,
+            0.09432066437556423,
+            -0.012779212901602369,
+            -0.11361030242198757,
+            0.9889555112202734,
+            0.00029006428667344153,
+            -0.0004239249974489212,
+            -0.000640776299405843,
+            0.002867010422050953,
+            0.005697191692888737,
+            -0.0060098241083323956
+        ],
+        [
+            0.6896708404493722,
+            0.13159239192009045,
+            0.9186591611127491,
+            -0.4421903404528423,
+            -0.5480189073811499,
+            0.5523466915261809,
+            0.4461570489447092,
+            -0.0008431674214079976,
+            -0.00022723300207871944,
+            -0.0020783559884876013,
+            0.008269937708973885,
+            -0.032728198915719986,
+            0.0014861474046483636
+        ]
+    ],
+    "position_instruction": "Place the book at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "019",
+        "065-j",
+        "6a63fc4af48b453c91ca2b335a4d464d",
+        "2a371c84c5454f7facba7bb2f5312ad6"
+    ],
+    "target_obj_code": "2a371c84c5454f7facba7bb2f5312ad6",
+    "anno_target": {
+        "category": "book",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "center",
+    "rotation_tag": "lying_flat"
+}

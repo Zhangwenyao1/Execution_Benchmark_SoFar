@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "apple",
+        "fork",
+        "marker"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f53d75bd123b40bca14d12d54286f432/material_2.urdf",
+        "ycb_16k_backup/030_fork_google_16k/030_fork_google_16k.urdf",
+        "ycb_16k_backup/040_large_marker_google_16k/040_large_marker_google_16k.urdf"
+    ],
+    "target_obj_name": "marker",
+    "instruction": "Place the marker between the apple and the fork on the table. We also need to specify the rotation of the object after placement:  the cap of the marker is on the right(oriented towards right), while its body (the area we generally grab it) is on the left.",
+    "init_obj_pos": [
+        [
+            0.34374405570068045,
+            -0.07472369848250122,
+            0.9682452012381315,
+            0.06292698400430524,
+            0.0569515807597649,
+            0.13417233348177598,
+            0.9873168169646156,
+            0.0009179479675367475,
+            -0.0016277155373245478,
+            -0.0004621751431841403,
+            0.04437699168920517,
+            0.020161284133791924,
+            0.06555044651031494
+        ],
+        [
+            0.40741098859836394,
+            0.10909092377398054,
+            0.9027984735395653,
+            0.04931877363894255,
+            0.0004250502615177178,
+            -0.05142516994986301,
+            0.9974582346116823,
+            -0.00042527110781520605,
+            0.0030875203665345907,
+            -0.001956519903615117,
+            2.087336301803589,
+            -0.04661522060632706,
+            0.11467947065830231
+        ],
+        [
+            0.4221697368869033,
+            0.04514831445730236,
+            0.9062169641020241,
+            0.8784862074000009,
+            0.442787423870501,
+            -0.15777300963497826,
+            0.08549244470015012,
+            0.005796147044748068,
+            0.00423333328217268,
+            0.008393569849431515,
+            -1.4735422134399414,
+            -0.012105157598853111,
+            0.41176968812942505
+        ]
+    ],
+    "position_instruction": "Place the marker between the apple and the fork on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the cap of the marker is on the right(oriented towards right), while its body (the area we generally grab it) is on the left.",
+    "rotation_instruction_label": "cap_right",
+    "obj_codes": [
+        "f53d75bd123b40bca14d12d54286f432",
+        "030",
+        "040"
+    ],
+    "target_obj_code": "040",
+    "anno_target": {
+        "category": "marker",
+        "annotation": {
+            " the cap of the marker is on the left(oriented towards left), while its body (the area we generally grab it) is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the cap of the marker is on the right(oriented towards right), while its body (the area we generally grab it) is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "cap_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "cap_right"
+}

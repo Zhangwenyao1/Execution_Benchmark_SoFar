@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "hat",
+        "calculator",
+        "wrench"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/dc02f9c1fd01432fadd6e7d15851dc37/material_2.urdf",
+        "objaverse_rescale/f0b1f7c17d70489888f5ae922169c0ce/material_2.urdf",
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf"
+    ],
+    "target_obj_name": "wrench",
+    "instruction": "Place the wrench between the hat and the calculator on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6821021844168219,
+            0.3252177616723751,
+            0.9447225256679747,
+            -0.8706363402521698,
+            0.018274944641681085,
+            -0.17649616960659964,
+            0.45881095403755406,
+            0.0004997475771233439,
+            0.0006924254703335464,
+            -0.00017689840751700103,
+            -0.017544902861118317,
+            0.013819602318108082,
+            -0.0010434923460707068
+        ],
+        [
+            0.5317506695556342,
+            0.04788006313696723,
+            0.9114534285652613,
+            0.7051478161449569,
+            0.06713899232029669,
+            0.06689977174901994,
+            0.7026971848784813,
+            -0.00010476552415639162,
+            0.00016687781317159534,
+            -0.0018913886742666364,
+            -0.012308688834309578,
+            -3.0187482479959726e-05,
+            -0.00019167474238201976
+        ],
+        [
+            0.3992063168282675,
+            0.12185092036138934,
+            0.9027220326597349,
+            0.01205293342492519,
+            -0.018273882140247978,
+            -0.009191209216811234,
+            0.9997181171212769,
+            0.002157757757231593,
+            -0.004289575852453709,
+            0.03436141088604927,
+            -0.21612296998500824,
+            -0.0654592514038086,
+            0.21989475190639496
+        ]
+    ],
+    "position_instruction": "Place the wrench between the hat and the calculator on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "dc02f9c1fd01432fadd6e7d15851dc37",
+        "f0b1f7c17d70489888f5ae922169c0ce",
+        "042"
+    ],
+    "target_obj_code": "042",
+    "anno_target": {
+        "category": "wrench",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.2856176793575287,
+                        0.9583436250686646
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_right"
+}

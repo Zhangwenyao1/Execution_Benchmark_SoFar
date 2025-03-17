@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "glue gun",
+        "cup",
+        "mouse",
+        "flashlight"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/a1da12b81f034db894496c1ffc4be1f5/material_2.urdf",
+        "ycb_16k_backup/065-d_cups_google_16k/065-d_cups_google_16k.urdf",
+        "objaverse_rescale/f496168739384cdb86ef6d65e2068a3f/material_2.urdf",
+        "objaverse_rescale/123a79642c2646d8b315576828fea84a/material_2.urdf"
+    ],
+    "target_obj_name": "flashlight",
+    "instruction": "Place the flashlight to the right of the glue gun on the table. We also need to specify the rotation of the object after placement:  the flashlight is lying on the table(not standing up), with its bulb side on the right (oriented towards right) and its handle on the left.",
+    "init_obj_pos": [
+        [
+            0.33355881977990515,
+            -0.18314197895052983,
+            0.9725056075664578,
+            -0.005623127761953865,
+            0.21605420205835985,
+            0.021234393196941627,
+            0.9761342442270202,
+            0.012724129483103752,
+            0.0011772897560149431,
+            -0.0049719614908099174,
+            -0.03568160906434059,
+            0.21406155824661255,
+            -0.0010719127021729946
+        ],
+        [
+            0.4168921383200743,
+            0.3466036087407209,
+            0.9009716971008541,
+            0.002670134811431218,
+            -0.0020045316466733446,
+            0.06724604827155885,
+            0.9977308360599189,
+            0.00927868764847517,
+            0.0032521584071218967,
+            -0.006617026869207621,
+            -0.1269928514957428,
+            0.23129038512706757,
+            -0.14086921513080597
+        ],
+        [
+            0.30588716768121393,
+            0.07269048428032487,
+            0.9291106926575501,
+            -0.6190382663494791,
+            0.0015105178360663093,
+            -0.21664614418406625,
+            0.7548866082671458,
+            0.0032439061906188726,
+            3.850730718113482e-05,
+            -0.0011854637414216995,
+            -0.003451271215453744,
+            0.16109392046928406,
+            -0.0472765788435936
+        ],
+        [
+            0.6837460951878978,
+            -0.20098244979286387,
+            0.9989369803018799,
+            7.943403782135572e-06,
+            -5.603814530901361e-07,
+            0.008696072486791743,
+            0.9999621884150884,
+            0.0007268062909133732,
+            -0.000927749730180949,
+            -0.0003381967544555664,
+            0.005479486659169197,
+            0.011367629282176495,
+            -0.007314206566661596
+        ]
+    ],
+    "position_instruction": "Place the flashlight to the right of the glue gun on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the flashlight is lying on the table(not standing up), with its bulb side on the right (oriented towards right) and its handle on the left.",
+    "rotation_instruction_label": "bulb_right_handle_left",
+    "obj_codes": [
+        "a1da12b81f034db894496c1ffc4be1f5",
+        "065-d",
+        "f496168739384cdb86ef6d65e2068a3f",
+        "123a79642c2646d8b315576828fea84a"
+    ],
+    "target_obj_code": "123a79642c2646d8b315576828fea84a",
+    "anno_target": {
+        "category": "flashlight",
+        "annotation": {
+            " the flashlight is lying on the table(not standing up), with its bulb side on the left (oriented towards left) and its handle on the right.": {
+                "quat": [
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the flashlight is lying on the table(not standing up), with its bulb side on the right (oriented towards right) and its handle on the left.": {
+                "quat": [
+                    [
+                        3.090862321641907e-08,
+                        -0.7071068286895752,
+                        0.7071067094802856,
+                        -3.0908616110991716e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "bulb_right_handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "bulb_right_handle_left"
+}

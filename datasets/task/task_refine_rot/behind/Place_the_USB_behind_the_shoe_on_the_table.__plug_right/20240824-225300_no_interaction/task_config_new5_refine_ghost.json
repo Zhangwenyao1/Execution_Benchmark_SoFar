@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "shoe",
+        "USB"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/d5a5f0a954f94bcea3168329d1605fe9/material_2.urdf",
+        "objaverse_rescale/b1098389cc3b460bb1f1ce558d4b0764/material_2.urdf"
+    ],
+    "target_obj_name": "USB",
+    "instruction": "Place the USB behind the shoe on the table. We also need to specify the rotation of the object after placement:  the silver plug end of the USB is oriented towards right, and the larger end is on the left.",
+    "init_obj_pos": [
+        [
+            0.3235097351080817,
+            -0.0853092941103435,
+            0.9324929843877173,
+            0.6158519582572878,
+            0.23122165879795278,
+            0.6571108288166316,
+            -0.36806014272847687,
+            -0.007775474339723587,
+            0.0012335028732195497,
+            0.0007443187641911209,
+            -0.04047698900103569,
+            -0.23366981744766235,
+            0.022336522117257118
+        ],
+        [
+            0.4514566514623804,
+            -0.20134805757905835,
+            0.9143445144684427,
+            0.7059791991255705,
+            0.03656357856301586,
+            0.0365911428449025,
+            0.7063409682228466,
+            0.005811591167002916,
+            -0.011177760548889637,
+            0.014124453999102116,
+            0.8323385715484619,
+            0.4177493453025818,
+            -0.002707177773118019
+        ]
+    ],
+    "position_instruction": "Place the USB behind the shoe on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the silver plug end of the USB is oriented towards right, and the larger end is on the left.",
+    "rotation_instruction_label": "plug_right",
+    "obj_codes": [
+        "d5a5f0a954f94bcea3168329d1605fe9",
+        "b1098389cc3b460bb1f1ce558d4b0764"
+    ],
+    "target_obj_code": "b1098389cc3b460bb1f1ce558d4b0764",
+    "anno_target": {
+        "category": "USB",
+        "annotation": {
+            " the silver plug end of the USB is oriented towards left, and the larger end is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the silver plug end of the USB is oriented towards right, and the larger end is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "plug_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "plug_right"
+}

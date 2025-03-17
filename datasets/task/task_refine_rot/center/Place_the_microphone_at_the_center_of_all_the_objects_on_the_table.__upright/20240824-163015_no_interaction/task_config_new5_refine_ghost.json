@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "toy",
+        "tape measure",
+        "can",
+        "microphone"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/072-b_toy_airplane_google_16k/072-b_toy_airplane_google_16k.urdf",
+        "objaverse_rescale/11307d06bb254318b95021d68c6fa12f/material_2.urdf",
+        "ycb_16k_backup/010_potted_meat_can_google_16k/010_potted_meat_can_google_16k.urdf",
+        "objaverse_rescale/f9d07bb386a04de8b0e1a9a28a936985/material_2.urdf"
+    ],
+    "target_obj_name": "microphone",
+    "instruction": "Place the microphone at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.3526614061397452,
+            -0.2150517101578941,
+            0.9001520456357389,
+            -0.00012641891636518197,
+            -0.000283692088097646,
+            -0.12105544139338136,
+            0.9926456989510968,
+            -0.0003216687182430178,
+            -0.0007557367207482457,
+            -0.0005441980320028961,
+            0.018003545701503754,
+            0.010426471941173077,
+            0.001536545343697071
+        ],
+        [
+            0.6374493209662287,
+            -0.10924555149747163,
+            0.9362313624712384,
+            -0.6749495073450789,
+            0.015943667635499165,
+            -0.04984886812681608,
+            0.7360054703216822,
+            0.0017558458494022489,
+            -0.004599474836140871,
+            -0.0006737837684340775,
+            0.08090222626924515,
+            0.02962351217865944,
+            -0.03711560368537903
+        ],
+        [
+            0.5362954439439348,
+            -0.19502621626924851,
+            0.9030842402525482,
+            -0.0006036610725636471,
+            -0.00028041546355119667,
+            0.10294659104663552,
+            0.9946866623979408,
+            0.0005491633783094585,
+            -0.00439750449731946,
+            -0.0007951414445415139,
+            0.11466595530509949,
+            -0.0008776841568760574,
+            0.032999709248542786
+        ],
+        [
+            0.6520433672616797,
+            -0.23872060291675265,
+            0.9359772149323056,
+            0.27732581931205846,
+            -0.8844111404126258,
+            0.19552337514737023,
+            0.32043397826684505,
+            -0.0004629822797141969,
+            -0.0013323510065674782,
+            0.00016120610234793276,
+            0.021970152854919434,
+            -0.03276985138654709,
+            -0.010981889441609383
+        ]
+    ],
+    "position_instruction": "Place the microphone at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "072-b",
+        "11307d06bb254318b95021d68c6fa12f",
+        "010",
+        "f9d07bb386a04de8b0e1a9a28a936985"
+    ],
+    "target_obj_code": "f9d07bb386a04de8b0e1a9a28a936985",
+    "anno_target": {
+        "category": "microphone",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "center",
+    "rotation_tag": "upright"
+}

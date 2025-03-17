@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "bottle",
+        "calipers",
+        "mobile phone",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6add0a1fa81942acbb24504b130661c1/material_2.urdf",
+        "objaverse_rescale/95c967114b624291bc26bcd705aaa334/material_2.urdf",
+        "objaverse_rescale/45c813a9fac4458ead1f90280826c0a4/material_2.urdf",
+        "ycb_16k_backup/065-f_cups_google_16k/065-f_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup between the bottle and the calipers on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.49066230360229096,
+            -0.10767543412049933,
+            0.9344774069394834,
+            -0.007550883112270601,
+            -0.03119843453182718,
+            -0.12109406666211447,
+            0.9921219022208003,
+            0.001673639053478837,
+            -0.0004403504135552794,
+            -0.0003638280904851854,
+            0.015051811002194881,
+            0.05542910844087601,
+            0.0033906400203704834
+        ],
+        [
+            0.3587145121626311,
+            0.10993724786481014,
+            0.9027624639279095,
+            0.6505062795803123,
+            -0.2689445038793915,
+            -0.26877195914613544,
+            0.6574740055974816,
+            -0.001345049706287682,
+            -0.0003035070840269327,
+            0.03167234733700752,
+            0.35171136260032654,
+            -3.8391988277435303,
+            0.20143753290176392
+        ],
+        [
+            0.5076371922242399,
+            0.0929620421590956,
+            0.9056137465195376,
+            -0.6972928327239941,
+            0.10668358039271618,
+            -0.10719543023873532,
+            0.7006500259346823,
+            0.004152254201471806,
+            -0.004626942798495293,
+            0.023935802280902863,
+            0.3689517378807068,
+            1.3691767454147339,
+            0.10311102122068405
+        ],
+        [
+            0.35897863895989884,
+            -0.0692664994914863,
+            0.9003519990708646,
+            0.0004695671474509671,
+            0.00024334033373142272,
+            0.10254083943473143,
+            0.9947286547296178,
+            0.0022401900496333838,
+            -0.0007766038179397583,
+            -0.004030007403343916,
+            0.01242259331047535,
+            0.08100531995296478,
+            -0.01950104720890522
+        ]
+    ],
+    "position_instruction": "Place the cup between the bottle and the calipers on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "6add0a1fa81942acbb24504b130661c1",
+        "95c967114b624291bc26bcd705aaa334",
+        "45c813a9fac4458ead1f90280826c0a4",
+        "065-f"
+    ],
+    "target_obj_code": "065-f",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

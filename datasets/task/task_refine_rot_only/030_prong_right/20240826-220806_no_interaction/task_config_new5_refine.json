@@ -1,0 +1,67 @@
+{
+    "selected_obj_names": [
+        "fork"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/030_fork_google_16k/030_fork_google_16k.urdf"
+    ],
+    "target_obj_name": "fork",
+    "instruction": "We need to specify the rotation of the object after placement:  the prong of the fork is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.45976282696518617,
+            -0.15201644217481225,
+            0.9028716606051554,
+            0.05716568394334839,
+            0.0024446814313151643,
+            0.03346982455239745,
+            0.9978005206234473,
+            0.0004774961562361568,
+            0.0032746263314038515,
+            -0.0007751626544632018,
+            -0.9782029390335083,
+            -0.15434814989566803,
+            -0.20471099019050598
+        ]
+    ],
+    "position_instruction": "",
+    "rotation_instruction": "We need to specify the rotation of the object after placement:  the prong of the fork is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "prong_right",
+    "obj_codes": [
+        "030"
+    ],
+    "target_obj_code": "030",
+    "anno_target": {
+        "category": "fork",
+        "annotation": {
+            " the prong of the fork is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the prong of the fork is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "prong_right",
+    "rot_tag_level": 1,
+    "position_tag": "rot_ins",
+    "rotation_tag": "prong_right"
+}

@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "spatula",
+        "toy",
+        "USB"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/033_spatula_google_16k/033_spatula_google_16k.urdf",
+        "ycb_16k_backup/072-a_toy_airplane_google_16k/072-a_toy_airplane_google_16k.urdf",
+        "objaverse_rescale/878049e8c3174fa68a56530e5aef7a5a/material_2.urdf"
+    ],
+    "target_obj_name": "USB",
+    "instruction": "Place the USB to the left of the spatula on the table. We also need to specify the rotation of the object after placement:  the silver plug end of the USB is oriented towards right, and the larger end is on the left.",
+    "init_obj_pos": [
+        [
+            0.4437105294347409,
+            -0.22533463957564337,
+            0.9004324899461187,
+            0.0009104330391626989,
+            -0.0015120998062587642,
+            -0.029043395313951306,
+            0.9995765932906261,
+            0.0028455243445932865,
+            -0.006643459666520357,
+            -0.008992726914584637,
+            0.2570924460887909,
+            0.19018907845020294,
+            -0.045614756643772125
+        ],
+        [
+            0.3423454075960394,
+            0.3188683567976401,
+            0.9081829084073683,
+            -0.09431778007736535,
+            -0.017450161477584634,
+            0.11388416112490778,
+            0.9888528940497471,
+            -0.005261284299194813,
+            0.008048542775213718,
+            0.002273104852065444,
+            -0.11641877144575119,
+            -0.046923112124204636,
+            -0.04836026579141617
+        ],
+        [
+            0.3352548354239523,
+            0.025382479520223225,
+            0.9401332625212246,
+            -0.02140384314145654,
+            -0.0007371264153118957,
+            0.03425121576727975,
+            0.9991837600571218,
+            0.0027398746460676193,
+            0.0005727146053686738,
+            -0.0009737114887684584,
+            -0.035131730139255524,
+            0.04597257822751999,
+            0.07965608686208725
+        ]
+    ],
+    "position_instruction": "Place the USB to the left of the spatula on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the silver plug end of the USB is oriented towards right, and the larger end is on the left.",
+    "rotation_instruction_label": "plug_right",
+    "obj_codes": [
+        "033",
+        "072-a",
+        "878049e8c3174fa68a56530e5aef7a5a"
+    ],
+    "target_obj_code": "878049e8c3174fa68a56530e5aef7a5a",
+    "anno_target": {
+        "category": "USB",
+        "annotation": {
+            " the silver plug end of the USB is oriented towards left, and the larger end is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the silver plug end of the USB is oriented towards right, and the larger end is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "plug_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "plug_right"
+}

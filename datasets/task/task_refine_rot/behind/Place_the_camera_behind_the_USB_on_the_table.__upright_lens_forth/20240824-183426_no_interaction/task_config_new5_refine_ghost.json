@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "USB",
+        "camera"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/0a51815f3c0941ae8312fc6917173ed6/material_2.urdf",
+        "objaverse_rescale/f6f8675406b7437faaf96a1f82062028/material_2.urdf"
+    ],
+    "target_obj_name": "camera",
+    "instruction": "Place the camera behind the USB on the table. We also need to specify the rotation of the object after placement:  the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.",
+    "init_obj_pos": [
+        [
+            0.4384596270122033,
+            -0.21691723532229995,
+            0.9111771371414805,
+            -0.2032072006187571,
+            -0.40393251043094003,
+            -0.06628971848576362,
+            0.8894667131808384,
+            0.00011429665755713359,
+            -2.8203010515426286e-05,
+            -5.080153641756624e-05,
+            0.003029551822692156,
+            0.008204186335206032,
+            -0.000349067006027326
+        ],
+        [
+            0.7222839751634965,
+            0.30667631789247235,
+            0.9580850692982223,
+            -0.4805684157596664,
+            0.17982750263985775,
+            0.3529788687332664,
+            0.7823822501158494,
+            2.4784736524452455e-05,
+            -0.0009514669072814286,
+            0.0004217486421111971,
+            0.011280501261353493,
+            -0.0050079068168997765,
+            0.0036761437077075243
+        ]
+    ],
+    "position_instruction": "Place the camera behind the USB on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.",
+    "rotation_instruction_label": "upright_lens_forth",
+    "obj_codes": [
+        "0a51815f3c0941ae8312fc6917173ed6",
+        "f6f8675406b7437faaf96a1f82062028"
+    ],
+    "target_obj_code": "f6f8675406b7437faaf96a1f82062028",
+    "anno_target": {
+        "category": "camera",
+        "annotation": {
+            " the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "upright_lens_forth",
+    "rot_tag_level": 2,
+    "position_tag": "behind",
+    "rotation_tag": "upright_lens_forth"
+}

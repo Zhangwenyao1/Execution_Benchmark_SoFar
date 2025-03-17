@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "knife",
+        "binder",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/0df75457524743ec81468c916fddb930/material_2.urdf",
+        "objaverse_rescale/a0026e7d1b244b9a9223daf4223c9372/material_2.urdf",
+        "objaverse_rescale/b8478cea51454555b90de0fe6ba7ba83/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug between the knife and the binder on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "init_obj_pos": [
+        [
+            0.46960385616423644,
+            -0.16186147484652258,
+            0.9019903822078438,
+            0.33093527167795833,
+            -0.6002701544222315,
+            -0.635690052884866,
+            0.3550432992362779,
+            0.00345590733923018,
+            -0.0032902706880122423,
+            0.03383379802107811,
+            1.995108962059021,
+            8.088645935058594,
+            0.449537992477417
+        ],
+        [
+            0.5343241125915091,
+            0.2269977502314976,
+            0.9272610107642937,
+            0.00039123640078001464,
+            -0.0002786401928322762,
+            0.11572522511202563,
+            0.9932811493059212,
+            0.0005793736199848354,
+            0.00033754220930859447,
+            -0.00043325498700141907,
+            0.0001161032632808201,
+            0.005239306017756462,
+            -0.00041546340798959136
+        ],
+        [
+            0.6439586345560866,
+            -0.04643142567923233,
+            0.9653317403296582,
+            0.020725784925955365,
+            -0.22742829800457573,
+            0.11027683302326816,
+            0.9673085501556903,
+            -8.10902492958121e-05,
+            4.350758172222413e-05,
+            -0.00023878918727859855,
+            -0.0012102019973099232,
+            0.0009062278550118208,
+            0.0008659973391331732
+        ]
+    ],
+    "position_instruction": "Place the mug between the knife and the binder on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "rotation_instruction_label": "handle_left",
+    "obj_codes": [
+        "0df75457524743ec81468c916fddb930",
+        "a0026e7d1b244b9a9223daf4223c9372",
+        "b8478cea51454555b90de0fe6ba7ba83"
+    ],
+    "target_obj_code": "b8478cea51454555b90de0fe6ba7ba83",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_left"
+}

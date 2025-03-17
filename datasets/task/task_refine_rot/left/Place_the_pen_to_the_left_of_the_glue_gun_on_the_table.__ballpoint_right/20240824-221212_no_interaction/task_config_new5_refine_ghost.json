@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "glue gun",
+        "bottle",
+        "book",
+        "pen"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/a1da12b81f034db894496c1ffc4be1f5/material_2.urdf",
+        "objaverse_rescale/a7785ac7ce7f4ba79df661db33637ba9/material_2.urdf",
+        "objaverse_rescale/c61227cac7224b86b43c53ac2a2b6ec7/material_2.urdf",
+        "objaverse_rescale/fbeb7c776372466daffa619106e0b2e0/material_2.urdf"
+    ],
+    "target_obj_name": "pen",
+    "instruction": "Place the pen to the left of the glue gun on the table. We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "init_obj_pos": [
+        [
+            0.4653259466645852,
+            0.08544628691696625,
+            0.9222416473489911,
+            0.6125468417237218,
+            0.17618064191079524,
+            0.21859338257457014,
+            0.7388935520119265,
+            -0.008080494590103626,
+            0.009711630642414093,
+            0.02310187555849552,
+            -0.7861600518226624,
+            -0.6443121433258057,
+            -0.003296470269560814
+        ],
+        [
+            0.4349053059941997,
+            -0.1647680715536813,
+            0.9308704264274628,
+            -0.022745674274840907,
+            -0.03896867468062933,
+            -0.06432972511735002,
+            0.9969081016632098,
+            0.00023096060613170266,
+            0.00010861321788979694,
+            0.00014040624955669045,
+            -0.0038322308100759983,
+            -0.03531413897871971,
+            -0.024402692914009094
+        ],
+        [
+            0.7278760676651723,
+            -0.04718332983296292,
+            0.9141833400848928,
+            -0.00015687854890010492,
+            7.035546995325635e-05,
+            -0.446221710900117,
+            0.8949224296890771,
+            -0.0019376329146325588,
+            0.0011209193617105484,
+            -0.002672445960342884,
+            -0.03161715716123581,
+            -0.023835374042391777,
+            0.023588325828313828
+        ],
+        [
+            0.5136275788093273,
+            0.009134099799246983,
+            0.9094235433296491,
+            -0.14445844291138565,
+            -0.02393720772115782,
+            0.06508061147330911,
+            0.9870781541339025,
+            0.0006848213379271328,
+            0.00045156842679716647,
+            0.03072909265756607,
+            -7.968671798706055,
+            -1.8006579875946045,
+            0.590582549571991
+        ]
+    ],
+    "position_instruction": "Place the pen to the left of the glue gun on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "rotation_instruction_label": "ballpoint_right",
+    "obj_codes": [
+        "a1da12b81f034db894496c1ffc4be1f5",
+        "a7785ac7ce7f4ba79df661db33637ba9",
+        "c61227cac7224b86b43c53ac2a2b6ec7",
+        "fbeb7c776372466daffa619106e0b2e0"
+    ],
+    "target_obj_code": "fbeb7c776372466daffa619106e0b2e0",
+    "anno_target": {
+        "category": "pen",
+        "annotation": {
+            " the ballpoint of the pen is on the left(oriented towards left), while the clicker is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "ballpoint_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "ballpoint_right"
+}

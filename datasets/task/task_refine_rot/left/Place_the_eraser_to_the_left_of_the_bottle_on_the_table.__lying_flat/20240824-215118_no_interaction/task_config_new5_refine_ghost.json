@@ -1,0 +1,97 @@
+{
+    "selected_obj_names": [
+        "bottle",
+        "calculator",
+        "eraser"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/021_bleach_cleanser_google_16k/021_bleach_cleanser_google_16k.urdf",
+        "objaverse_rescale/b4bb8bd7791648fdb36c458fd9a877bf/material_2.urdf",
+        "objaverse_rescale/f0916a69ba514ecc973b44528b9dcc43/material_2.urdf"
+    ],
+    "target_obj_name": "eraser",
+    "instruction": "Place the eraser to the left of the bottle on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.3587661594907318,
+            0.003967085572303623,
+            0.9006977017416473,
+            0.0050414831254412375,
+            0.009940299857793369,
+            0.06739225730566406,
+            0.9976643010260923,
+            -0.0008292575948871672,
+            0.0036672542337328196,
+            0.00045323590165935457,
+            -0.04009242355823517,
+            -0.014925813302397728,
+            -0.0006186784594319761
+        ],
+        [
+            0.35341424443346015,
+            -0.3013111139285593,
+            0.9130105874914284,
+            0.7081218050704448,
+            -0.02784296443659324,
+            -0.02857275136479891,
+            0.7049623226773215,
+            0.0004528165445663035,
+            -0.000521581678185612,
+            -0.0040194387547671795,
+            0.01455527264624834,
+            0.06829815357923508,
+            -0.006537724751979113
+        ],
+        [
+            0.667896330478643,
+            -0.13733730883533998,
+            0.911084921342608,
+            -0.37697366755362693,
+            0.6061915235673014,
+            -0.5860298606219815,
+            0.3833949571730209,
+            -0.00604899600148201,
+            0.0013788724318146706,
+            0.0071923392824828625,
+            0.2308259755373001,
+            -0.5714312195777893,
+            -0.00148711446672678
+        ]
+    ],
+    "position_instruction": "Place the eraser to the left of the bottle on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "021",
+        "b4bb8bd7791648fdb36c458fd9a877bf",
+        "f0916a69ba514ecc973b44528b9dcc43"
+    ],
+    "target_obj_code": "f0916a69ba514ecc973b44528b9dcc43",
+    "anno_target": {
+        "category": "eraser",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        -0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "left",
+    "rotation_tag": "lying_flat"
+}

@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "speaker",
+        "scissors",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/4445f4442a884999960e7e6660459095/material_2.urdf",
+        "ycb_16k_backup/037_scissors_google_16k/037_scissors_google_16k.urdf",
+        "objaverse_rescale/4f24b866dab248b684149ec6bb40101f/material_2.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer to the left of the speaker on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6082262077850242,
+            0.07176451791565744,
+            0.9687476162322478,
+            -0.002853509979331346,
+            0.00011270641228690662,
+            -0.04709759923614045,
+            0.9988862101982666,
+            0.0013328904751688242,
+            -0.0016433654818683863,
+            -0.001039114547893405,
+            0.024725083261728287,
+            0.011195747181773186,
+            0.0007582518737763166
+        ],
+        [
+            0.3095586613609683,
+            0.08251896119038786,
+            0.9001630157051694,
+            -0.0013754416241700592,
+            0.00020857061358339093,
+            0.09952407946860926,
+            0.995034181455373,
+            -0.0013915675226598978,
+            0.008402552455663681,
+            0.00020786281675100327,
+            -0.4107382893562317,
+            -1.3618637323379517,
+            0.4367325007915497
+        ],
+        [
+            0.5306954313084367,
+            -0.1167489222892002,
+            0.9118834748407986,
+            0.01517200345651906,
+            0.0255364427719109,
+            0.1416213489041485,
+            0.9894751608485385,
+            -0.012994145043194294,
+            -0.0007055117748677731,
+            0.014940577559173107,
+            0.6004501581192017,
+            -0.3923735022544861,
+            0.0400715135037899
+        ]
+    ],
+    "position_instruction": "Place the hammer to the left of the speaker on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "4445f4442a884999960e7e6660459095",
+        "037",
+        "4f24b866dab248b684149ec6bb40101f"
+    ],
+    "target_obj_code": "4f24b866dab248b684149ec6bb40101f",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.9628205299377441,
+                        0.27014192938804626
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "handle_right"
+}

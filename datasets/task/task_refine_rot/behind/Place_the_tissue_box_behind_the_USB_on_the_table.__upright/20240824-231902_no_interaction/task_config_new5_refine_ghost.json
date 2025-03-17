@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "USB",
+        "mug",
+        "toy",
+        "tissue box"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/0a51815f3c0941ae8312fc6917173ed6/material_2.urdf",
+        "objaverse_rescale/b8478cea51454555b90de0fe6ba7ba83/material_2.urdf",
+        "ycb_16k_backup/072-a_toy_airplane_google_16k/072-a_toy_airplane_google_16k.urdf",
+        "objaverse_rescale/dc4c91abf45342b4bb8822f50fa162b2/material_2.urdf"
+    ],
+    "target_obj_name": "tissue box",
+    "instruction": "Place the tissue box behind the USB on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.37586309099777127,
+            0.03719369039455753,
+            0.9112063409278339,
+            -0.13025533088121702,
+            -0.4289330609347489,
+            0.08851780156335394,
+            0.889502432161128,
+            -0.000839713029563427,
+            0.0010508839040994644,
+            -0.0002665820356924087,
+            -0.10706281661987305,
+            -0.0862526074051857,
+            -0.0028314378578215837
+        ],
+        [
+            0.3940348540672064,
+            -0.21513065399723608,
+            0.9653324764547992,
+            -0.006709510902848483,
+            -0.22827242537704745,
+            -0.006545001553451642,
+            0.973552178997402,
+            -8.580171561334282e-05,
+            -0.00010596725041978061,
+            -0.00019321488798595965,
+            0.0011260490864515305,
+            0.0004067747213412076,
+            -0.00013187111471779644
+        ],
+        [
+            0.4553469429231801,
+            -0.02776798061469945,
+            0.9030578844263417,
+            0.014409303822313627,
+            0.02548790976025418,
+            -0.008727258832688344,
+            0.9995331777248193,
+            0.0033101863227784634,
+            0.00036339444341138005,
+            -0.0010196162620559335,
+            -0.0049247220158576965,
+            0.043432608246803284,
+            -0.001608308288268745
+        ],
+        [
+            0.6430778953057219,
+            0.012227607774262727,
+            0.9471226856398623,
+            0.7065086318687394,
+            0.028944112721973093,
+            0.02895752873146238,
+            0.7065191101190867,
+            1.526290020592569e-06,
+            -2.4733380996622145e-05,
+            -5.540485290111974e-05,
+            0.0005276959273032844,
+            -0.00014764540537726134,
+            -0.0001520793157396838
+        ]
+    ],
+    "position_instruction": "Place the tissue box behind the USB on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "0a51815f3c0941ae8312fc6917173ed6",
+        "b8478cea51454555b90de0fe6ba7ba83",
+        "072-a",
+        "dc4c91abf45342b4bb8822f50fa162b2"
+    ],
+    "target_obj_code": "dc4c91abf45342b4bb8822f50fa162b2",
+    "anno_target": {
+        "category": "tissue_box",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "upright"
+}

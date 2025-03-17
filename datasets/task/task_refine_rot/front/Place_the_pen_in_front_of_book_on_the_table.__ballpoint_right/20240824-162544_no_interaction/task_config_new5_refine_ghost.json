@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "book",
+        "toy",
+        "pen"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/b2d30398ba3741da9f9aef2319ee2b8b/material_2.urdf",
+        "ycb_16k_backup/073-g_lego_duplo_google_16k/073-g_lego_duplo_google_16k.urdf",
+        "objaverse_rescale/fbeb7c776372466daffa619106e0b2e0/material_2.urdf"
+    ],
+    "target_obj_name": "pen",
+    "instruction": "Place the pen in front of book on the table. We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "init_obj_pos": [
+        [
+            0.5680098032750677,
+            0.17995240605227036,
+            0.9163693534498767,
+            5.394873262967901e-05,
+            -7.026584407897939e-05,
+            -0.05962678117708476,
+            0.998220736670354,
+            -0.00042898417450487614,
+            -0.00032793855643831193,
+            2.7762653189711273e-05,
+            0.0002194404078181833,
+            -0.0008190757362172008,
+            -0.0005709962570108473
+        ],
+        [
+            0.3889162783602109,
+            0.02960190464455976,
+            0.9002529737147109,
+            0.0021297955896538968,
+            -0.0008740596735153652,
+            -0.020713201875252312,
+            0.9997828080430814,
+            -0.0016533700982108712,
+            -0.0002986188919749111,
+            -0.0025751825887709856,
+            0.009799642488360405,
+            -0.01795194484293461,
+            -0.004478959832340479
+        ],
+        [
+            0.577261449596219,
+            -0.18872217773044428,
+            0.9072111487629609,
+            -0.13591956604593694,
+            0.014401797442776369,
+            -0.03656790908912048,
+            0.9899400223352682,
+            -0.0010191244073212147,
+            0.00044668393093161285,
+            0.03132634609937668,
+            -2.335974931716919,
+            -0.5392637252807617,
+            0.5120340585708618
+        ]
+    ],
+    "position_instruction": "Place the pen in front of book on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "rotation_instruction_label": "ballpoint_right",
+    "obj_codes": [
+        "b2d30398ba3741da9f9aef2319ee2b8b",
+        "073-g",
+        "fbeb7c776372466daffa619106e0b2e0"
+    ],
+    "target_obj_code": "fbeb7c776372466daffa619106e0b2e0",
+    "anno_target": {
+        "category": "pen",
+        "annotation": {
+            " the ballpoint of the pen is on the left(oriented towards left), while the clicker is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "ballpoint_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "ballpoint_right"
+}

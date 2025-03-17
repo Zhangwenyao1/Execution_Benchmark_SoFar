@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "highlighter"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/fd058916fb8843c09b4a2e05e3ee894e/material_2.urdf"
+    ],
+    "target_obj_name": "highlighter",
+    "instruction": "We need to specify the rotation of the object after placement:  the marker is placed in a stable pose on the table. Its tip end is pointing towards right and its cap end is pointing towards left.",
+    "init_obj_pos": [
+        [
+            0.588570305177779,
+            -0.1587048901425036,
+            0.9115369501471292,
+            0.7110770334997221,
+            0.011620591301095445,
+            0.013151853122085404,
+            0.7028950441186107,
+            -0.005940359551459551,
+            -0.0005046274745836854,
+            -0.004823715426027775,
+            0.047310397028923035,
+            -0.5551092624664307,
+            -0.022622624412178993
+        ]
+    ],
+    "position_instruction": "",
+    "rotation_instruction": "We need to specify the rotation of the object after placement:  the marker is placed in a stable pose on the table. Its tip end is pointing towards right and its cap end is pointing towards left.",
+    "rotation_instruction_label": "tip_right",
+    "obj_codes": [
+        "fd058916fb8843c09b4a2e05e3ee894e"
+    ],
+    "target_obj_code": "fd058916fb8843c09b4a2e05e3ee894e",
+    "anno_target": {
+        "category": "highlighter",
+        "annotation": {
+            " the marker is placed in a stable pose on the table. Its tip(or cap) end is pointing towards left and its rear end is pointing towards right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        -3.090862321641907e-08,
+                        0.7071068286895752,
+                        0.7071067094802856,
+                        -3.0908616110991716e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the marker is placed in a stable pose on the table. Its tip(or cap) end is pointing towards right and its rear end is pointing towards left.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "tip_right",
+    "rot_tag_level": 1,
+    "position_tag": "rot_ins",
+    "rotation_tag": "tip_right"
+}

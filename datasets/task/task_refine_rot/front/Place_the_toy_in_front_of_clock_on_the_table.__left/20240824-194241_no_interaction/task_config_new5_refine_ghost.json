@@ -1,0 +1,85 @@
+{
+    "selected_obj_names": [
+        "clock",
+        "toy"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/fdf932b04e6c4e0fbd6e274563b94536/material_2.urdf",
+        "ycb_16k_backup/072-b_toy_airplane_google_16k/072-b_toy_airplane_google_16k.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "Place the toy in front of clock on the table. We also need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "init_obj_pos": [
+        [
+            0.4721845314546119,
+            0.2163977367302536,
+            0.934319670336427,
+            -0.015635520845582278,
+            -0.0013595803555583373,
+            0.09483476934674953,
+            0.9953693025968273,
+            -1.0323811693524476e-05,
+            8.218119546654634e-06,
+            -6.930241397640202e-06,
+            -0.00023112239432521164,
+            -3.9246118831215426e-05,
+            9.581714402884245e-05
+        ],
+        [
+            0.40132521822372674,
+            0.08296863181448184,
+            0.9002165282287374,
+            0.00025556052823643636,
+            -0.0007391888579885269,
+            -0.0917070477067638,
+            0.9957857227785287,
+            -0.0005694424035027623,
+            -0.0007481009233742952,
+            -0.0012486230116337538,
+            0.03888610005378723,
+            -0.03175905719399452,
+            -0.00017156332614831626
+        ]
+    ],
+    "position_instruction": "Place the toy in front of clock on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "rotation_instruction_label": "left",
+    "obj_codes": [
+        "fdf932b04e6c4e0fbd6e274563b94536",
+        "072-b"
+    ],
+    "target_obj_code": "072-b",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_left",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "left"
+}

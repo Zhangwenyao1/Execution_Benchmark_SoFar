@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "knife",
+        "scissors",
+        "shoe",
+        "toy"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f93d05bc2db144f7a50374794ef5cf8d/material_2.urdf",
+        "ycb_16k_backup/037_scissors_google_16k/037_scissors_google_16k.urdf",
+        "objaverse_rescale/d5a5f0a954f94bcea3168329d1605fe9/material_2.urdf",
+        "ycb_16k_backup/072-b_toy_airplane_google_16k/072-b_toy_airplane_google_16k.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "Place the toy between the knife and the scissors on the table. We also need to specify the rotation of the object after placement: the toy is facing right, with its head oriented towards left",
+    "init_obj_pos": [
+        [
+            0.3856125425636642,
+            -0.08236205138097448,
+            0.903229145346343,
+            0.5047735109023029,
+            0.5066234867242533,
+            -0.5003639551471837,
+            0.48802895178481936,
+            -0.0018450607312843204,
+            -0.0020909842569381,
+            -0.002131037414073944,
+            0.5656734108924866,
+            -0.10959145426750183,
+            0.047613319009542465
+        ],
+        [
+            0.48256993572570966,
+            -0.394745096214216,
+            0.9291942648264192,
+            -0.5195559709474217,
+            -0.7190620518602315,
+            -0.07811910210242148,
+            0.45487225076294435,
+            0.04419529065489769,
+            0.0183862317353487,
+            0.010952929966151714,
+            0.8786711096763611,
+            6.284721374511719,
+            4.9304070472717285
+        ],
+        [
+            0.5372192226685061,
+            0.22502786408747094,
+            0.9297063273951999,
+            -0.5021577585606062,
+            -0.616260844404278,
+            -0.10802257943867846,
+            0.5969851585281893,
+            -0.07781819254159927,
+            0.02069680020213127,
+            -0.0009180317283608019,
+            -0.3850601017475128,
+            -1.4860821962356567,
+            -1.4436177015304565
+        ],
+        [
+            0.6926679306862583,
+            0.24382221145196192,
+            0.9001518796634577,
+            -4.29798780844284e-05,
+            -0.00030520583117963306,
+            0.1686140704282508,
+            0.9856820989831099,
+            -3.0890176276443526e-05,
+            -0.0008019641391001642,
+            -0.0005588259664364159,
+            0.023853471502661705,
+            0.0029507374856621027,
+            -0.00516470754519105
+        ]
+    ],
+    "position_instruction": "Place the toy between the knife and the scissors on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement: the toy is facing right, with its head oriented towards left",
+    "rotation_instruction_label": "right",
+    "obj_codes": [
+        "f93d05bc2db144f7a50374794ef5cf8d",
+        "037",
+        "d5a5f0a954f94bcea3168329d1605fe9",
+        "072-b"
+    ],
+    "target_obj_code": "072-b",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "right"
+}

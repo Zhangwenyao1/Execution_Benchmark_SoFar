@@ -1,0 +1,127 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "wrench",
+        "watch",
+        "bottle"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-i_cups_google_16k/065-i_cups_google_16k.urdf",
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf",
+        "objaverse_rescale/d6e38c73f8f2402aac890e8ebb115302/material_2.urdf",
+        "ycb_16k_backup/021_bleach_cleanser_google_16k/021_bleach_cleanser_google_16k.urdf"
+    ],
+    "target_obj_name": "bottle",
+    "instruction": "Place the bottle between the cup and the wrench on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.4651849979273355,
+            0.021880138707883367,
+            0.9005135282080181,
+            0.001463665833897778,
+            -0.001608937486361209,
+            -0.0808336605949013,
+            0.9967252321062813,
+            0.0014975938247516751,
+            -0.005820125807076693,
+            -0.003970207646489143,
+            0.1871808022260666,
+            0.09606161713600159,
+            0.033627573400735855
+        ],
+        [
+            0.32754991928004157,
+            -0.06315797864450136,
+            0.9027622229589639,
+            0.010368196322626142,
+            -0.01817850040204818,
+            -0.08326647045888673,
+            0.9963075516754188,
+            0.001654957770369947,
+            -0.003174691228196025,
+            0.03430912271142006,
+            0.1801353543996811,
+            -0.27678996324539185,
+            0.15510912239551544
+        ],
+        [
+            0.4211690714110242,
+            0.17403540814698615,
+            0.9321259439177533,
+            -0.0178689779492246,
+            -0.01238828964621017,
+            0.10843776765063576,
+            0.9938654237137134,
+            -0.003399222856387496,
+            0.0012206604005768895,
+            -0.0007434890721924603,
+            -0.013444657437503338,
+            -0.05363965779542923,
+            -0.027313804253935814
+        ],
+        [
+            0.3934247518709649,
+            0.06813119486868897,
+            0.9003780011272381,
+            -0.000918738607181268,
+            -0.0004889655226883084,
+            -0.022757308634724027,
+            0.999740477191852,
+            -0.001702640438452363,
+            0.0016348728677257895,
+            -0.0008345898240804672,
+            -0.020697573199868202,
+            -0.02029443345963955,
+            0.001301763579249382
+        ]
+    ],
+    "position_instruction": "Place the bottle between the cup and the wrench on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "065-i",
+        "042",
+        "d6e38c73f8f2402aac890e8ebb115302",
+        "021"
+    ],
+    "target_obj_code": "021",
+    "anno_target": {
+        "category": "bottle",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.0,
+                        0.6908057332038879,
+                        -0.0,
+                        0.7230404019355774
+                    ],
+                    [
+                        -0.0,
+                        -0.7413507699966431,
+                        -0.0,
+                        0.6711177229881287
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "sideways"
+}

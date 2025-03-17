@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "apple",
+        "toy",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f53d75bd123b40bca14d12d54286f432/material_2.urdf",
+        "ycb_16k_backup/072-a_toy_airplane_google_16k/072-a_toy_airplane_google_16k.urdf",
+        "ycb_16k_backup/025_mug_google_16k/025_mug_google_16k.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug between the apple and the toy on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "init_obj_pos": [
+        [
+            0.4635301623250135,
+            -0.011808404604732021,
+            0.9682686588716796,
+            0.06263969611129026,
+            0.04606160869375809,
+            0.03760844537026972,
+            0.996263118614988,
+            0.002091382397338748,
+            0.0027148413937538862,
+            -0.0012264593970030546,
+            -0.06081851199269295,
+            0.0402064211666584,
+            -0.06065172702074051
+        ],
+        [
+            0.38534035252740034,
+            0.19987966283544292,
+            0.9001953374514104,
+            -0.001437095677650059,
+            -0.00024601158975938925,
+            0.03528659054724193,
+            0.9993761707994951,
+            0.00414242222905159,
+            0.0007254473166540265,
+            -0.001200915896333754,
+            -0.009686015546321869,
+            0.0544012226164341,
+            -0.0020338452886790037
+        ],
+        [
+            0.5670595399143841,
+            0.06958013931961708,
+            0.9004589583595257,
+            -0.0006994611921182159,
+            -0.001098173212625019,
+            0.02263919171815645,
+            0.9997428528216558,
+            -0.00034714199136942625,
+            -0.0011009789304807782,
+            -0.0008657697471790016,
+            0.03324555605649948,
+            -0.018299246206879616,
+            -0.010070898570120335
+        ]
+    ],
+    "position_instruction": "Place the mug between the apple and the toy on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "rotation_instruction_label": "handle_left",
+    "obj_codes": [
+        "f53d75bd123b40bca14d12d54286f432",
+        "072-a",
+        "025"
+    ],
+    "target_obj_code": "025",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_left"
+}

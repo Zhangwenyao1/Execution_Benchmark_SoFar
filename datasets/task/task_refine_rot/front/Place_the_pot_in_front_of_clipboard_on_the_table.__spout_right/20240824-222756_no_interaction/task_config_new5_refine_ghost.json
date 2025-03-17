@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "clipboard",
+        "multimeter",
+        "cup",
+        "pot"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/b31c69728a414e639eef2fccd1c3dd75/material_2.urdf",
+        "objaverse_rescale/79ac684e66b34554ba869bd2fc3c2653/material_2.urdf",
+        "ycb_16k_backup/065-f_cups_google_16k/065-f_cups_google_16k.urdf",
+        "objaverse_rescale/cba3e4df7c354d22b7913d45a28a8159/material_2.urdf"
+    ],
+    "target_obj_name": "pot",
+    "instruction": "Place the pot in front of clipboard on the table. We also need to specify the rotation of the object after placement:  the pot is upright on the table with its spout pointing towards right.",
+    "init_obj_pos": [
+        [
+            0.6419298203780719,
+            -0.004892852566098377,
+            0.9023450597547308,
+            0.6941766853371111,
+            0.13446112866646087,
+            0.1344891819365347,
+            0.6942273362193142,
+            -5.866961873834953e-05,
+            0.00975428894162178,
+            0.0012318366207182407,
+            0.021365823224186897,
+            -0.012023300863802433,
+            0.0814020186662674
+        ],
+        [
+            0.564240155336477,
+            0.14971910046255077,
+            0.9200962987064619,
+            0.7010424757973895,
+            0.09221139656819367,
+            0.09222301558403274,
+            0.70109301869823,
+            0.001959835644811392,
+            0.009344899095594883,
+            0.04318961873650551,
+            -0.6390146613121033,
+            -0.07575630396604538,
+            0.015886880457401276
+        ],
+        [
+            0.47342626727162207,
+            0.004149506127112979,
+            0.9003520265810504,
+            0.00048236975601853257,
+            0.00019514266922460494,
+            -0.019974982126596753,
+            0.9998003447327868,
+            0.0018840967677533627,
+            -0.001827344880439341,
+            -0.003755645127967,
+            0.047562532126903534,
+            0.0734473243355751,
+            -0.019373973831534386
+        ],
+        [
+            0.45879101750954376,
+            -0.10196988510939338,
+            0.9374278826381218,
+            -0.13585837412591395,
+            -0.005798108610605658,
+            -0.18463198545319084,
+            0.9733549784451797,
+            0.052931688725948334,
+            0.015147165395319462,
+            -0.0017017889767885208,
+            -0.25381460785865784,
+            0.9101020693778992,
+            0.003865289269015193
+        ]
+    ],
+    "position_instruction": "Place the pot in front of clipboard on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the pot is upright on the table with its spout pointing towards right.",
+    "rotation_instruction_label": "spout_right",
+    "obj_codes": [
+        "b31c69728a414e639eef2fccd1c3dd75",
+        "79ac684e66b34554ba869bd2fc3c2653",
+        "065-f",
+        "cba3e4df7c354d22b7913d45a28a8159"
+    ],
+    "target_obj_code": "cba3e4df7c354d22b7913d45a28a8159",
+    "anno_target": {
+        "category": "pot",
+        "annotation": {
+            " the pot is upright on the table with its spout pointing towards left.": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            },
+            " the pot is upright on the table with its spout pointing towards right.": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "spout_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "spout_right"
+}

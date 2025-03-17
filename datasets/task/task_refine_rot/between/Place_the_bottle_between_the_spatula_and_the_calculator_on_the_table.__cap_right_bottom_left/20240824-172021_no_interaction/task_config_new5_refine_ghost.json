@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "spatula",
+        "calculator",
+        "bottle"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/4b27628be0804c0285d0b13dda025a0d/material_2.urdf",
+        "objaverse_rescale/d9ffbc4bbe1044bb902e1dddac52b0de/material_2.urdf",
+        "ycb_16k_backup/022_windex_bottle_google_16k/022_windex_bottle_google_16k.urdf"
+    ],
+    "target_obj_name": "bottle",
+    "instruction": "Place the bottle between the spatula and the calculator on the table. We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.",
+    "init_obj_pos": [
+        [
+            0.3930203757447439,
+            0.12505387074103833,
+            0.9038550296911008,
+            -0.006016117767608052,
+            0.0005067008380059514,
+            0.01380303697838617,
+            0.9998865064353246,
+            -0.0012387024471536279,
+            -2.6955900466418825e-05,
+            -0.010199020616710186,
+            0.07225699722766876,
+            0.11308331787586212,
+            -0.01984599605202675
+        ],
+        [
+            0.719621350401346,
+            0.10264926032718219,
+            0.9051822439028517,
+            -0.7002129937688977,
+            0.07458018967389185,
+            -0.0751907744587673,
+            0.7060353433799854,
+            -0.0008070837357081473,
+            0.001200060942210257,
+            -0.0095341382548213,
+            -0.048134151846170425,
+            -0.1665240079164505,
+            0.018771661445498466
+        ],
+        [
+            0.6124621607577052,
+            0.16058024196320264,
+            0.9293074895365139,
+            -0.16764161323409313,
+            -0.7021541411767328,
+            0.11369003436550229,
+            0.6826056164628346,
+            -0.0008934148936532438,
+            0.002857375657185912,
+            -0.00019246739975642413,
+            -0.10084115713834763,
+            -0.032378003001213074,
+            -0.013016550801694393
+        ]
+    ],
+    "position_instruction": "Place the bottle between the spatula and the calculator on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.",
+    "rotation_instruction_label": "cap_right_bottom_left",
+    "obj_codes": [
+        "4b27628be0804c0285d0b13dda025a0d",
+        "d9ffbc4bbe1044bb902e1dddac52b0de",
+        "022"
+    ],
+    "target_obj_code": "022",
+    "anno_target": {
+        "category": "bottle",
+        "annotation": {
+            " the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            },
+            " the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "cap_right_bottom_left",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "cap_right_bottom_left"
+}

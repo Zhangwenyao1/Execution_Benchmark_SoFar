@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "watch",
+        "cup",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/243b381dcdc34316a7e78a533572d273/material_2.urdf",
+        "ycb_16k_backup/065-f_cups_google_16k/065-f_cups_google_16k.urdf",
+        "objaverse_rescale/a564a11174be455bbce4698f7da92fdf/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug on top of the watch on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.3995285893541,
+            0.24795826406444524,
+            0.9242729033072581,
+            -0.6412308148268917,
+            -0.27256385579264186,
+            -0.4358214040312936,
+            0.5697294888103309,
+            0.01440340094268322,
+            -0.0023905534762889147,
+            0.01246521808207035,
+            -0.15177631378173828,
+            0.46754956245422363,
+            0.2997635304927826
+        ],
+        [
+            0.5785243190874713,
+            0.07208711707912703,
+            0.900349070592463,
+            0.0004608980708144471,
+            0.00028180598666545836,
+            0.08593842673174838,
+            0.9963003036079155,
+            0.0022406144998967648,
+            -0.0007889633998274803,
+            -0.004030126612633467,
+            0.012183241546154022,
+            0.08212380111217499,
+            -0.01942378282546997
+        ],
+        [
+            0.3621879215279659,
+            0.05742944779645099,
+            0.9655221751375543,
+            -0.10658515625617519,
+            0.040839732914371825,
+            0.4666481361294749,
+            0.8770468845667353,
+            -0.003968471195548773,
+            -0.005970030091702938,
+            -0.00026261666789650917,
+            0.029673073440790176,
+            -0.02727765217423439,
+            -0.1147935763001442
+        ]
+    ],
+    "position_instruction": "Place the mug on top of the watch on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "243b381dcdc34316a7e78a533572d273",
+        "065-f",
+        "a564a11174be455bbce4698f7da92fdf"
+    ],
+    "target_obj_code": "a564a11174be455bbce4698f7da92fdf",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.4631405472755432,
+                        0.4735301733016968,
+                        0.5153847336769104,
+                        0.5437357425689697
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "handle_right"
+}

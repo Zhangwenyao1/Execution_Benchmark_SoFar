@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "box",
+        "toilet paper roll",
+        "spatula"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/008_pudding_box_google_16k/008_pudding_box_google_16k.urdf",
+        "objaverse_rescale/6d5284b842434413a17133f7bf259669/material_2.urdf",
+        "objaverse_rescale/81b129ecf5724f63b5b044702a3140c2/material_2.urdf"
+    ],
+    "target_obj_name": "spatula",
+    "instruction": "Place the spatula between the box and the toilet paper roll on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.3415066002751257,
+            0.2503709961669114,
+            0.900342482097429,
+            -0.006337320490958997,
+            0.0020533107015849135,
+            -0.006071507441441991,
+            0.9999593787157286,
+            2.286140988871921e-05,
+            -0.0009759202948771417,
+            -0.0020725089125335217,
+            -0.02134409174323082,
+            -0.024799494072794914,
+            0.010087751783430576
+        ],
+        [
+            0.4875715287875424,
+            -0.17626866083149326,
+            0.934134235693741,
+            -0.02494922734884891,
+            -0.22422426490667824,
+            -0.10771617331683263,
+            0.9682449282530403,
+            -0.03675539791584015,
+            0.010940457694232464,
+            -0.0024194594006985426,
+            -0.14078599214553833,
+            -0.47674790024757385,
+            -0.0068681989796459675
+        ],
+        [
+            0.38249386598394425,
+            0.18329408092208016,
+            0.9124484868463381,
+            0.09059671387234607,
+            -0.0034220143358704323,
+            -0.15549720972237263,
+            0.9836671911891613,
+            0.0049647195264697075,
+            0.002868355717509985,
+            0.0016967442352324724,
+            -0.30518627166748047,
+            0.3909558653831482,
+            0.31814801692962646
+        ]
+    ],
+    "position_instruction": "Place the spatula between the box and the toilet paper roll on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "008",
+        "6d5284b842434413a17133f7bf259669",
+        "81b129ecf5724f63b5b044702a3140c2"
+    ],
+    "target_obj_code": "81b129ecf5724f63b5b044702a3140c2",
+    "anno_target": {
+        "category": "spatula",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.07927235215902328,
+                        0.0,
+                        0.0,
+                        0.9968529939651489
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_right"
+}

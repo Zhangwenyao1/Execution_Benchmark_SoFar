@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "USB",
+        "pot",
+        "pot"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-e_cups_google_16k/065-e_cups_google_16k.urdf",
+        "objaverse_rescale/b1098389cc3b460bb1f1ce558d4b0764/material_2.urdf",
+        "objaverse_rescale/cba3e4df7c354d22b7913d45a28a8159/material_2.urdf",
+        "objaverse_rescale/af249e607bea40cfa2f275e5e23b8283/material_2.urdf"
+    ],
+    "target_obj_name": "pot",
+    "instruction": "Place the pot to the left of the cup on the table. We also need to specify the rotation of the object after placement:  the pot is upright on the table with its spout pointing towards right.",
+    "init_obj_pos": [
+        [
+            0.6442021530891426,
+            -0.04368586936782018,
+            0.9050930441235735,
+            0.0219407737451527,
+            0.003334179390834431,
+            0.4797429944294735,
+            0.8771283514920128,
+            0.0017488450976088643,
+            -0.0056574540212750435,
+            0.0008788934792391956,
+            0.24628174304962158,
+            -0.13068369030952454,
+            -0.15489083528518677
+        ],
+        [
+            0.6311746818500947,
+            -0.19785501216586665,
+            0.9250245570418237,
+            -0.02510489809038531,
+            0.0012573495297464674,
+            -0.04992232056166298,
+            0.9984367406469827,
+            7.410356192849576e-05,
+            -0.0001961185917025432,
+            -0.0026139721740037203,
+            -0.08654958754777908,
+            -0.005053347442299128,
+            0.05299516022205353
+        ],
+        [
+            0.33553983704778634,
+            0.026090163059620492,
+            0.9373247413001952,
+            -0.17237292875934782,
+            0.04264983324693389,
+            0.014437337004447987,
+            0.9840020977900165,
+            -0.015552237629890442,
+            -0.017000650987029076,
+            -0.00315357674844563,
+            0.2914496660232544,
+            -0.2639254033565521,
+            0.00720237335190177
+        ],
+        [
+            0.33553983704778634,
+            0.026090163059620492,
+            0.9373247413001952,
+            -0.17237292875934782,
+            0.04264983324693389,
+            0.014437337004447987,
+            0.9840020977900165,
+            -0.00644369563087821,
+            0.004066030029207468,
+            0.004426556173712015,
+            -0.057490427047014236,
+            -0.08703543990850449,
+            -0.002392209367826581
+        ]
+    ],
+    "position_instruction": "Place the pot to the left of the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the pot is upright on the table with its spout pointing towards right.",
+    "rotation_instruction_label": "spout_right",
+    "obj_codes": [
+        "065-e",
+        "b1098389cc3b460bb1f1ce558d4b0764",
+        "cba3e4df7c354d22b7913d45a28a8159",
+        "af249e607bea40cfa2f275e5e23b8283"
+    ],
+    "target_obj_code": "af249e607bea40cfa2f275e5e23b8283",
+    "anno_target": {
+        "category": "pot",
+        "annotation": {
+            " the pot is upright on the table with its spout pointing towards left.": {
+                "quat": [
+                    [
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            },
+            " the pot is upright on the table with its spout pointing towards right.": {
+                "quat": [
+                    [
+                        0.7071068286895752,
+                        0.0,
+                        0.0,
+                        0.7071067094802856
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "spout_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "spout_right"
+}

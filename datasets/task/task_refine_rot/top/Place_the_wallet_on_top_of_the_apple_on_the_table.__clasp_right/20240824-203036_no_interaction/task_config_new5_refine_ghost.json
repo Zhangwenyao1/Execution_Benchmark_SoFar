@@ -1,0 +1,85 @@
+{
+    "selected_obj_names": [
+        "apple",
+        "wallet"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f53d75bd123b40bca14d12d54286f432/material_2.urdf",
+        "objaverse_rescale/f47fdcf9615d4e94a71e6731242a4c94/material_2.urdf"
+    ],
+    "target_obj_name": "wallet",
+    "instruction": "Place the wallet on top of the apple on the table. We also need to specify the rotation of the object after placement:  the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)",
+    "init_obj_pos": [
+        [
+            0.4681529004906391,
+            -0.20564389302117936,
+            0.9682681244624466,
+            0.0637808691962383,
+            0.04488733978448369,
+            0.017169520215167152,
+            0.9968060669093186,
+            -0.0006125886575318873,
+            0.002898736856877804,
+            -0.0009833633666858077,
+            -0.049163177609443665,
+            -0.011599140241742134,
+            0.02622249722480774
+        ],
+        [
+            0.42456687878633265,
+            0.074985159955337,
+            0.9530485260391521,
+            0.16065351277734996,
+            0.7251120634309213,
+            -0.16546332907613676,
+            0.6488642624080098,
+            0.0007487794500775635,
+            0.0038573096971958876,
+            -0.0005378249334171414,
+            -0.2658080756664276,
+            0.04535630717873573,
+            -0.005008661188185215
+        ]
+    ],
+    "position_instruction": "Place the wallet on top of the apple on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)",
+    "rotation_instruction_label": "clasp_right",
+    "obj_codes": [
+        "f53d75bd123b40bca14d12d54286f432",
+        "f47fdcf9615d4e94a71e6731242a4c94"
+    ],
+    "target_obj_code": "f47fdcf9615d4e94a71e6731242a4c94",
+    "anno_target": {
+        "category": "wallet",
+        "annotation": {
+            " the wallet is lying flat on the table, and the clasp is on the left(if the wallet has a clasp)": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            },
+            " the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "clasp_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "clasp_right"
+}

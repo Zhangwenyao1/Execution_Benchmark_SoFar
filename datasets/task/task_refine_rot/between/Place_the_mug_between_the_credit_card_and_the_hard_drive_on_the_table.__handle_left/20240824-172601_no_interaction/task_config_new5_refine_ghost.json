@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "credit card",
+        "hard drive",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/5de830b2cccf4fe7a2e6b400abf26ca7/material_2.urdf",
+        "objaverse_rescale/f8de4975c0f54c1a97203c6a674f6a39/material_2.urdf",
+        "objaverse_rescale/c609327dd3a74fb597584e1b4a14a615/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug between the credit card and the hard drive on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "init_obj_pos": [
+        [
+            0.6837295972344551,
+            0.07285582807934894,
+            0.901403864314468,
+            0.0012996494382025111,
+            0.007835240240002582,
+            -0.16311569598536912,
+            0.9865749792311413,
+            -0.0004336259444244206,
+            4.576778519549407e-05,
+            0.03519288823008537,
+            0.2897472083568573,
+            -1.1090964078903198,
+            0.08850844204425812
+        ],
+        [
+            0.4582883493632603,
+            0.18708554733240557,
+            0.9508357789226721,
+            0.0012428963683232235,
+            7.113065031803101e-05,
+            0.04144720492500739,
+            0.9991399198075077,
+            -0.001667287782765925,
+            0.00037026265636086464,
+            -0.00012162038910901174,
+            -0.00512038916349411,
+            -0.019067484885454178,
+            0.001481492887251079
+        ],
+        [
+            0.5967980847743583,
+            -0.08406047395412083,
+            0.9360363969715573,
+            -0.0018032461851428916,
+            0.014216474191100604,
+            0.006070392884493486,
+            0.99987888791343,
+            -0.0009275871561840177,
+            0.0002858743828255683,
+            -0.00013723268057219684,
+            -0.004006040282547474,
+            -0.01663852483034134,
+            -0.001462065614759922
+        ]
+    ],
+    "position_instruction": "Place the mug between the credit card and the hard drive on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "rotation_instruction_label": "handle_left",
+    "obj_codes": [
+        "5de830b2cccf4fe7a2e6b400abf26ca7",
+        "f8de4975c0f54c1a97203c6a674f6a39",
+        "c609327dd3a74fb597584e1b4a14a615"
+    ],
+    "target_obj_code": "c609327dd3a74fb597584e1b4a14a615",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_left"
+}

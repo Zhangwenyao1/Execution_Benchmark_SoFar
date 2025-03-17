@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "lighter",
+        "speaker",
+        "flashlight"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/b640aa4990b64db9ab3d868c6f49820e/material_2.urdf",
+        "objaverse_rescale/4445f4442a884999960e7e6660459095/material_2.urdf",
+        "objaverse_rescale/123a79642c2646d8b315576828fea84a/material_2.urdf"
+    ],
+    "target_obj_name": "flashlight",
+    "instruction": "Place the flashlight in front of lighter on the table. We also need to specify the rotation of the object after placement:  the flashlight is lying on the table(not standing up), with its bulb side on the right (oriented towards right) and its handle on the left.",
+    "init_obj_pos": [
+        [
+            0.4637764792462882,
+            -0.054170670602008635,
+            0.9635804693939615,
+            -0.21250685773186145,
+            0.6987861617213128,
+            -0.19844752827677112,
+            -0.653572730554576,
+            0.0003098337328992784,
+            -0.002620730549097061,
+            0.030207566916942596,
+            -1.8420788049697876,
+            2.2892115116119385,
+            -0.33139151334762573
+        ],
+        [
+            0.4392570018674098,
+            -0.20487091479913205,
+            0.9687470092039544,
+            -0.002856318205087454,
+            -0.0001684206648471531,
+            0.0611127189781015,
+            0.9981267698343199,
+            0.002730924403294921,
+            -0.002158858347684145,
+            -0.000560506246984005,
+            0.028014302253723145,
+            0.032996438443660736,
+            0.0005937785608693957
+        ],
+        [
+            0.6190659080357664,
+            -0.00904500882345663,
+            0.9989367205182215,
+            -2.3083394587229085e-06,
+            6.147189697683017e-06,
+            0.11449473644286554,
+            0.9934238547990293,
+            0.0006068537477403879,
+            -0.0010146130807697773,
+            -0.0002452098997309804,
+            0.0069039808586239815,
+            0.011219384148716927,
+            -0.0061353775672614574
+        ]
+    ],
+    "position_instruction": "Place the flashlight in front of lighter on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the flashlight is lying on the table(not standing up), with its bulb side on the right (oriented towards right) and its handle on the left.",
+    "rotation_instruction_label": "bulb_right_handle_left",
+    "obj_codes": [
+        "b640aa4990b64db9ab3d868c6f49820e",
+        "4445f4442a884999960e7e6660459095",
+        "123a79642c2646d8b315576828fea84a"
+    ],
+    "target_obj_code": "123a79642c2646d8b315576828fea84a",
+    "anno_target": {
+        "category": "flashlight",
+        "annotation": {
+            " the flashlight is lying on the table(not standing up), with its bulb side on the left (oriented towards left) and its handle on the right.": {
+                "quat": [
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the flashlight is lying on the table(not standing up), with its bulb side on the right (oriented towards right) and its handle on the left.": {
+                "quat": [
+                    [
+                        3.090862321641907e-08,
+                        -0.7071068286895752,
+                        0.7071067094802856,
+                        -3.0908616110991716e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "bulb_right_handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "bulb_right_handle_left"
+}

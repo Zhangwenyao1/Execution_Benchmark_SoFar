@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "pear",
+        "calculator",
+        "envelope box",
+        "scissors"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f9ac5185507b4d0dbc744941e9055b96/material_2.urdf",
+        "objaverse_rescale/b4bb8bd7791648fdb36c458fd9a877bf/material_2.urdf",
+        "objaverse_rescale/40b28d1cbfbd4e9f9acf653b748324ee/material_2.urdf",
+        "ycb_16k_backup/037_scissors_google_16k/037_scissors_google_16k.urdf"
+    ],
+    "target_obj_name": "scissors",
+    "instruction": "Place the scissors between the pear and the calculator on the table. We also need to specify the rotation of the object after placement:  the blades of the scissors are on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.995150790937381,
+            0.03348330035805702,
+            0.3349640369415283,
+            -0.13192525506019592,
+            0.021400349214673042,
+            -0.004320092033594847,
+            0.9910192489624023,
+            -0.0018283985555171967,
+            -0.0009223250090144575,
+            -0.0006462880410254002,
+            0.04307089000940323,
+            -0.04957586154341698,
+            -0.06304667145013809
+        ],
+        [
+            0.4652346968650818,
+            0.0692584365606308,
+            0.31044018268585205,
+            0.7058850526809692,
+            0.056309353560209274,
+            0.05605849251151085,
+            0.7038558125495911,
+            0.0005100368871353567,
+            -0.0005323842051438987,
+            -0.004199921153485775,
+            -0.012851966544985771,
+            0.056308913975954056,
+            -0.004804271273314953
+        ],
+        [
+            0.2961006760597229,
+            0.07343883067369461,
+            0.32599136233329773,
+            5.185945155972149e-06,
+            -3.4343411243753508e-06,
+            0.0388496108353138,
+            0.9992451071739197,
+            5.244731801212765e-05,
+            -0.0003105622308794409,
+            -6.626839603995904e-05,
+            0.005143843125551939,
+            -0.0008081225678324699,
+            0.00031858906731940806
+        ],
+        [
+            0.5484605431556702,
+            0.23581016063690186,
+            0.3001028597354889,
+            -0.0021536555141210556,
+            -0.003275024238973856,
+            -0.08133326470851898,
+            0.9966791272163391,
+            0.0006775443907827139,
+            0.004268545191735029,
+            7.630931213498116e-05,
+            -0.554722011089325,
+            -1.0530668497085571,
+            0.5783688426017761
+        ]
+    ],
+    "position_instruction": "Place the scissors between the pear and the calculator on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the blades of the scissors are on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blades_right",
+    "obj_codes": [
+        "f9ac5185507b4d0dbc744941e9055b96",
+        "b4bb8bd7791648fdb36c458fd9a877bf",
+        "40b28d1cbfbd4e9f9acf653b748324ee",
+        "037"
+    ],
+    "target_obj_code": "037",
+    "anno_target": {
+        "category": "scissors",
+        "annotation": {
+            " the blades of the scissors are on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.9899005889892578,
+                        0.1417630910873413
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blades of the scissors are on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.13520878553390503,
+                        0.990817129611969
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blades_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "blades_right"
+}

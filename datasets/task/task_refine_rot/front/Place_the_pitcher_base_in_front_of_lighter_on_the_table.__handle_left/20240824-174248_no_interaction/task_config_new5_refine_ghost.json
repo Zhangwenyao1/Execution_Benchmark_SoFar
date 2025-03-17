@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "lighter",
+        "wrench",
+        "box",
+        "pitcher base"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/d9675ab05c39447baf27e19ea07d484e/material_2.urdf",
+        "objaverse_rescale/5bf781c9fd8d4121b735503b13ba2eaf/material_2.urdf",
+        "ycb_16k_backup/009_gelatin_box_google_16k/009_gelatin_box_google_16k.urdf",
+        "ycb_16k_backup/019_pitcher_base_google_16k/019_pitcher_base_google_16k.urdf"
+    ],
+    "target_obj_name": "pitcher base",
+    "instruction": "Place the pitcher base in front of lighter on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "init_obj_pos": [
+        [
+            0.4953613659892694,
+            0.15967854336276777,
+            0.9254468599442977,
+            0.1339017386436729,
+            -0.9909895003373637,
+            -0.0014622233496335618,
+            0.0028278104921589265,
+            -0.009619622491300106,
+            -0.001199447433464229,
+            0.02885420061647892,
+            0.9892357587814331,
+            -2.1677491664886475,
+            0.09792875498533249
+        ],
+        [
+            0.45510777979486716,
+            -0.07394084475384333,
+            0.9055634165084304,
+            0.6750610953343288,
+            -0.13970095507710165,
+            -0.1641238654725322,
+            0.7055774355086161,
+            -0.006357125472277403,
+            0.0005162899033166468,
+            0.031608693301677704,
+            -0.004037531092762947,
+            0.381157249212265,
+            0.09206130355596542
+        ],
+        [
+            0.5631698568764494,
+            0.023419097829562575,
+            0.900321183230641,
+            -0.0024071255496760187,
+            0.0015313465315006584,
+            -0.5724112535112884,
+            0.8199617171417359,
+            -0.008453698828816414,
+            0.006181274075061083,
+            0.026000304147601128,
+            -0.46110233664512634,
+            -0.711362361907959,
+            0.002152923261746764
+        ],
+        [
+            0.4325107790942976,
+            0.022323217755802965,
+            0.9525596772988162,
+            -0.6433193934062852,
+            -0.3660070605990652,
+            -0.5489575144645275,
+            0.38836147719866554,
+            -0.08480876684188843,
+            0.07666118443012238,
+            0.05586947128176689,
+            -1.2353734970092773,
+            -2.0772664546966553,
+            0.1723569631576538
+        ]
+    ],
+    "position_instruction": "Place the pitcher base in front of lighter on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "rotation_instruction_label": "handle_left",
+    "obj_codes": [
+        "d9675ab05c39447baf27e19ea07d484e",
+        "5bf781c9fd8d4121b735503b13ba2eaf",
+        "009",
+        "019"
+    ],
+    "target_obj_code": "019",
+    "anno_target": {
+        "category": "pitcher_base",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.9303439855575562,
+                        0.36668798327445984
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "handle_left"
+}

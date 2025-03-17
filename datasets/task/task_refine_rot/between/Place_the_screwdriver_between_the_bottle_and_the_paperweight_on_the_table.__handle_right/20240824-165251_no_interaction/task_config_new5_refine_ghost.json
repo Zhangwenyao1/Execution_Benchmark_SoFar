@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "bottle",
+        "paperweight",
+        "screwdriver"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/021_bleach_cleanser_google_16k/021_bleach_cleanser_google_16k.urdf",
+        "objaverse_rescale/21c10181c122474a8f72a4ad0331f185/material_2.urdf",
+        "ycb_16k_backup/043_phillips_screwdriver_google_16k/043_phillips_screwdriver_google_16k.urdf"
+    ],
+    "target_obj_name": "screwdriver",
+    "instruction": "Place the screwdriver between the bottle and the paperweight on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.45657971952768595,
+            0.0272526152775185,
+            0.901216708062851,
+            -0.011738901694263186,
+            -0.0004278935475154951,
+            -0.08947965009268616,
+            0.995919377918421,
+            -6.353948265314102e-05,
+            0.005332008004188538,
+            -0.0008893712656572461,
+            -0.06528868526220322,
+            -0.0014646010240539908,
+            0.002199700800701976
+        ],
+        [
+            0.42911720059771274,
+            -0.10141534361565316,
+            0.9385368729630612,
+            -0.14144809060037308,
+            0.16940085133069943,
+            0.04917850115262943,
+            0.9741033129285228,
+            0.002770019695162773,
+            -0.0034597255289554596,
+            -0.0007175099453888834,
+            0.07904461026191711,
+            0.0740249827504158,
+            -0.005965033546090126
+        ],
+        [
+            0.6647352164822659,
+            0.14979962568278749,
+            0.9014568643026595,
+            -0.026045526225137818,
+            -0.011774520173867825,
+            0.01826528578047457,
+            0.999424519698055,
+            -0.000152481603436172,
+            -7.02936013112776e-05,
+            -6.451137323892908e-06,
+            -0.008933277800679207,
+            -0.011368637904524803,
+            0.017523933202028275
+        ]
+    ],
+    "position_instruction": "Place the screwdriver between the bottle and the paperweight on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "021",
+        "21c10181c122474a8f72a4ad0331f185",
+        "043"
+    ],
+    "target_obj_code": "043",
+    "anno_target": {
+        "category": "screwdriver",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.8475578427314758,
+                        0.530703067779541
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_right"
+}

@@ -1,0 +1,67 @@
+{
+    "selected_obj_names": [
+        "spoon"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/e1745c4aa7c046a2b5193d2d23be0192/material_2.urdf"
+    ],
+    "target_obj_name": "spoon",
+    "instruction": "We need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "init_obj_pos": [
+        [
+            0.6810601321822227,
+            -0.13708584462034815,
+            0.9073018305041577,
+            -0.7315169373411972,
+            0.047183972085563644,
+            -0.02274091869853925,
+            0.679808424321095,
+            0.0009489346412010491,
+            0.007743968162685633,
+            0.02143971435725689,
+            -0.9546685814857483,
+            -3.698672294616699,
+            0.3822331130504608
+        ]
+    ],
+    "position_instruction": "",
+    "rotation_instruction": "We need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "rotation_instruction_label": "scoop_right",
+    "obj_codes": [
+        "e1745c4aa7c046a2b5193d2d23be0192"
+    ],
+    "target_obj_code": "e1745c4aa7c046a2b5193d2d23be0192",
+    "anno_target": {
+        "category": "spoon",
+        "annotation": {
+            " the ladle is lying on the table, with its scoop on the left(pointing towards left) and its handle on the right. ": {
+                "quat": [
+                    [
+                        1.1620866047223899e-07,
+                        0.6936773657798767,
+                        0.7202858328819275,
+                        -1.1419894718756041e-07
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ladle is lying on the table, with its scoop on the right(pointing towards right) and its handle on the left.": {
+                "quat": [
+                    [
+                        -0.6936756372451782,
+                        -0.0015665553510189056,
+                        -0.0016268827021121979,
+                        -0.7202840447425842
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "scoop_right",
+    "rot_tag_level": 1,
+    "position_tag": "rot_ins",
+    "rotation_tag": "scoop_right"
+}

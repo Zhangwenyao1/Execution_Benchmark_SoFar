@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "wrench",
+        "headphone",
+        "pot"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-e_cups_google_16k/065-e_cups_google_16k.urdf",
+        "objaverse_rescale/8a6cb4f7b0004f53830e270dc6e1ff1d/material_2.urdf",
+        "objaverse_rescale/ea91786392284f03809c37976da090bf/material_2.urdf",
+        "objaverse_rescale/cba3e4df7c354d22b7913d45a28a8159/material_2.urdf"
+    ],
+    "target_obj_name": "pot",
+    "instruction": "Place the pot between the cup and the wrench on the table. We also need to specify the rotation of the object after placement:  the pot is upright on the table with its spout pointing towards right.",
+    "init_obj_pos": [
+        [
+            0.433067742538748,
+            -0.16528838742404015,
+            0.9007852173845382,
+            0.0008111856995522898,
+            -0.0021035554932959297,
+            0.041640253516791695,
+            0.999130124818136,
+            0.0023738557938486338,
+            0.003952139988541603,
+            -0.009671780280768871,
+            -0.08422037214040756,
+            0.14020003378391266,
+            0.02272430993616581
+        ],
+        [
+            0.661346176656565,
+            0.15358849510701666,
+            0.9018605827022923,
+            0.3052150421448779,
+            -0.6378336956072744,
+            0.3052117937721863,
+            0.6378539924926644,
+            -0.0017204841133207083,
+            -0.0012304172851145267,
+            0.011696350760757923,
+            -0.6387534141540527,
+            0.10591438412666321,
+            -0.07727325707674026
+        ],
+        [
+            0.5666633062681473,
+            -0.08319631576208067,
+            0.911337606176445,
+            -0.6086443315598595,
+            -0.36444780723612935,
+            0.5100691620677509,
+            0.48637364584065484,
+            0.0002831504389178008,
+            0.0005771057913079858,
+            -0.00011777054896811023,
+            -0.014452587813138962,
+            0.008047719486057758,
+            -0.0019099143100902438
+        ],
+        [
+            0.330809919617526,
+            -0.12738814054283526,
+            0.9407564365768014,
+            -0.5073782105781396,
+            0.013148719591000774,
+            -0.022419410536511933,
+            0.8613314301909785,
+            0.001405032235197723,
+            -0.00348356063477695,
+            -0.00115549738984555,
+            0.054791562259197235,
+            0.022499319165945053,
+            -0.0009606258827261627
+        ]
+    ],
+    "position_instruction": "Place the pot between the cup and the wrench on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the pot is upright on the table with its spout pointing towards right.",
+    "rotation_instruction_label": "spout_right",
+    "obj_codes": [
+        "065-e",
+        "8a6cb4f7b0004f53830e270dc6e1ff1d",
+        "ea91786392284f03809c37976da090bf",
+        "cba3e4df7c354d22b7913d45a28a8159"
+    ],
+    "target_obj_code": "cba3e4df7c354d22b7913d45a28a8159",
+    "anno_target": {
+        "category": "pot",
+        "annotation": {
+            " the pot is upright on the table with its spout pointing towards left.": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            },
+            " the pot is upright on the table with its spout pointing towards right.": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "spout_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "spout_right"
+}

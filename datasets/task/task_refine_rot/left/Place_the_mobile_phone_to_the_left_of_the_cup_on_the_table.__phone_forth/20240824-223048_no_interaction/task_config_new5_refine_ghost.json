@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "mobile phone"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-e_cups_google_16k/065-e_cups_google_16k.urdf",
+        "objaverse_rescale/45c813a9fac4458ead1f90280826c0a4/material_2.urdf"
+    ],
+    "target_obj_name": "mobile phone",
+    "instruction": "Place the mobile phone to the left of the cup on the table. We also need to specify the rotation of the object after placement:  the rectangular phone is placed steadily on the table, with the screen facing up, and is oriented in a 'pointing forward' way so that from a viewer's perspective: its two long edges are in a left-right position while the two short edges are in a front-back / near-far position.",
+    "init_obj_pos": [
+        [
+            0.39034968140493664,
+            -0.10397729822991753,
+            0.9006106404715618,
+            -0.00017320880384308078,
+            -8.748625253354249e-06,
+            0.023757471570214427,
+            0.9997177363970097,
+            0.0020224577747285366,
+            0.004332741256803274,
+            -0.01075616106390953,
+            0.007925626821815968,
+            0.19494619965553284,
+            0.061157964169979095
+        ],
+        [
+            0.2895580092635725,
+            -0.1697952336450422,
+            0.9046807357106256,
+            -0.1037411035017995,
+            -0.6994547500537942,
+            -0.6994543962905209,
+            -0.10375154736810749,
+            0.00021738615760114044,
+            0.0022276213858276606,
+            0.026733124628663063,
+            -0.6100194454193115,
+            -0.023166809231042862,
+            -0.007361646741628647
+        ]
+    ],
+    "position_instruction": "Place the mobile phone to the left of the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the rectangular phone is placed steadily on the table, with the screen facing up, and is oriented in a 'pointing forward' way so that from a viewer's perspective: its two long edges are in a left-right position while the two short edges are in a front-back / near-far position.",
+    "rotation_instruction_label": "phone_forth",
+    "obj_codes": [
+        "065-e",
+        "45c813a9fac4458ead1f90280826c0a4"
+    ],
+    "target_obj_code": "45c813a9fac4458ead1f90280826c0a4",
+    "anno_target": {
+        "category": "mobile_phone",
+        "annotation": {
+            " the rectangular phone is placed steadily on the table, with the screen facing up, and is oriented in a 'pointing forward' way so that from a viewer's perspective, its two long edges are in a left-right position while the two short edges are in a front-back / near-far position.": {
+                "quat": [
+                    [
+                        -0.5,
+                        -0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "phone_forth",
+    "rot_tag_level": 2,
+    "position_tag": "left",
+    "rotation_tag": "phone_forth"
+}

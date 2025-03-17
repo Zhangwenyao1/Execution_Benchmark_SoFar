@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "mobile phone",
+        "pitcher base"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/45c813a9fac4458ead1f90280826c0a4/material_2.urdf",
+        "ycb_16k_backup/019_pitcher_base_google_16k/019_pitcher_base_google_16k.urdf"
+    ],
+    "target_obj_name": "pitcher base",
+    "instruction": "Place the pitcher base on top of the mobile phone on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.3112087982776725,
+            -0.10644475668467442,
+            0.9056142178025891,
+            -0.7043746867356055,
+            0.038105771543817196,
+            -0.0383027032391606,
+            0.7077691387632986,
+            -0.0003044611949007958,
+            0.0028150102589279413,
+            0.024595588445663452,
+            -0.49923619627952576,
+            0.1651906967163086,
+            -0.059790533035993576
+        ],
+        [
+            0.44132854065442767,
+            0.15332603366882877,
+            0.9013212226722195,
+            0.00020782416673777277,
+            0.0006570814282454096,
+            -0.10631281853802124,
+            0.9943324945246498,
+            -0.0034070287365466356,
+            0.004076336044818163,
+            -4.1760180465644225e-05,
+            -0.03710139915347099,
+            -0.03045220859348774,
+            -0.004761714022606611
+        ]
+    ],
+    "position_instruction": "Place the pitcher base on top of the mobile phone on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "45c813a9fac4458ead1f90280826c0a4",
+        "019"
+    ],
+    "target_obj_code": "019",
+    "anno_target": {
+        "category": "pitcher_base",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.3877721428871155,
+                        0.9217552542686462
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "handle_right"
+}

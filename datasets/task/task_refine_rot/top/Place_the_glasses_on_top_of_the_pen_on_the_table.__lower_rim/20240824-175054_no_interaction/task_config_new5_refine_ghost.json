@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "pen",
+        "USB",
+        "glasses"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/fbeb7c776372466daffa619106e0b2e0/material_2.urdf",
+        "objaverse_rescale/b1098389cc3b460bb1f1ce558d4b0764/material_2.urdf",
+        "objaverse_rescale/e4f348e98ceb45e3abc77da5b738f1b2/material_2.urdf"
+    ],
+    "target_obj_name": "glasses",
+    "instruction": "Place the glasses on top of the pen on the table. We also need to specify the rotation of the object after placement:  the lens of the glasses in not in contact with the table while the temples(arms) and lower rim of the glasses are in contact with the table, which means that the glasses is in a position consistent with how humans generally wear them. ",
+    "init_obj_pos": [
+        [
+            0.3565695084843072,
+            0.21052777846112708,
+            0.9072058888079084,
+            -0.14147599956666057,
+            0.006921090935117327,
+            0.017219433867543977,
+            0.9897677157516116,
+            -0.005306723061949015,
+            0.00040394507232122123,
+            0.03141850605607033,
+            -5.7371506690979,
+            -0.43896493315696716,
+            0.0655096247792244
+        ],
+        [
+            0.4580909695005741,
+            -0.1575113224851846,
+            0.9250258279071798,
+            -0.02462853741680547,
+            -0.001137760827880033,
+            0.04624794216108864,
+            0.9986256898812845,
+            -0.0026572844944894314,
+            0.0009555459837429225,
+            -0.004738935735076666,
+            -0.06564875692129135,
+            -0.1370634287595749,
+            0.062012504786252975
+        ],
+        [
+            0.6683278538597864,
+            0.026987578475964585,
+            0.9129367154489718,
+            -0.64938016790057,
+            0.14794204920942186,
+            -0.12729086334615267,
+            0.7349935943406137,
+            -0.0023956038057804108,
+            0.00016698100080247968,
+            0.034058406949043274,
+            0.11336669325828552,
+            0.9634968042373657,
+            0.3293707072734833
+        ]
+    ],
+    "position_instruction": "Place the glasses on top of the pen on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the lens of the glasses in not in contact with the table while the temples(arms) and lower rim of the glasses are in contact with the table, which means that the glasses is in a position consistent with how humans generally wear them. ",
+    "rotation_instruction_label": "lower_rim",
+    "obj_codes": [
+        "fbeb7c776372466daffa619106e0b2e0",
+        "b1098389cc3b460bb1f1ce558d4b0764",
+        "e4f348e98ceb45e3abc77da5b738f1b2"
+    ],
+    "target_obj_code": "e4f348e98ceb45e3abc77da5b738f1b2",
+    "anno_target": {
+        "category": "glasses",
+        "annotation": {
+            " the lens of the glasses in not in contact with the table while the temples(arms) and upper rim of the glasses are in contact with the table, which means that the glasses is in an upside down position compared to how humans generally wear them. ": {
+                "quat": [
+                    [
+                        -0.334464967250824,
+                        0.609382152557373,
+                        -0.6155509948730469,
+                        0.371326744556427
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the lens of the glasses in not in contact with the table while the temples(arms) and lower rim of the glasses are in contact with the table, which means that the glasses is in a position consistent with how humans generally wear them. ": {
+                "quat": [
+                    [
+                        0.3672770857810974,
+                        0.6228358745574951,
+                        0.6019344329833984,
+                        0.3389069437980652
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "lower_rim",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "lower_rim"
+}

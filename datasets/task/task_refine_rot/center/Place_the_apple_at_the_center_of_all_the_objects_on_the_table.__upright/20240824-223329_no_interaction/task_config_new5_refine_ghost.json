@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "glasses",
+        "can",
+        "plate",
+        "apple"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/e4f348e98ceb45e3abc77da5b738f1b2/material_2.urdf",
+        "ycb_16k_backup/007_tuna_fish_can_google_16k/007_tuna_fish_can_google_16k.urdf",
+        "objaverse_rescale/8d50c19e138b403e8b2ede9b47d8be3c/material_2.urdf",
+        "objaverse_rescale/fbda0b25f41f40958ea984f460e4770b/material_2.urdf"
+    ],
+    "target_obj_name": "apple",
+    "instruction": "Place the apple at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.6696158313268046,
+            0.19084704230614477,
+            0.9130898079399674,
+            -0.662515567791796,
+            -0.044263037988976114,
+            0.09070234181648297,
+            0.7422176170709683,
+            0.0030529627110809088,
+            5.097064422443509e-05,
+            0.03565073013305664,
+            -1.386597752571106,
+            -2.549760341644287,
+            -0.5219719409942627
+        ],
+        [
+            0.7160927436133877,
+            -0.23264305532971602,
+            0.9031501839105756,
+            0.00042637288530135106,
+            -0.0007620120024874259,
+            -0.0878211253103218,
+            0.9961358780272394,
+            -0.00022460150648839772,
+            -1.734581201162655e-05,
+            -0.006978022400289774,
+            -0.05351284146308899,
+            0.06866882741451263,
+            -0.03573627769947052
+        ],
+        [
+            0.5261335555860115,
+            -0.0802786022457856,
+            0.9147543060002328,
+            0.7070798177026684,
+            -0.005904166917481283,
+            -0.005899762766304039,
+            0.7070844822295808,
+            0.00023021640663500875,
+            0.00045144406612962484,
+            -0.0007255226955749094,
+            -0.052219685167074203,
+            0.017341865226626396,
+            -0.0028712530620396137
+        ],
+        [
+            0.31980248155482177,
+            0.0808106189718774,
+            0.926036199100011,
+            0.11488468724429259,
+            0.04786922732855595,
+            -0.11167087279150244,
+            0.9859207178479061,
+            -0.0022875266149640083,
+            0.0033351541496813297,
+            -0.000778896501287818,
+            -0.06464629620313644,
+            -0.04496046528220177,
+            -0.0023164942394942045
+        ]
+    ],
+    "position_instruction": "Place the apple at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "e4f348e98ceb45e3abc77da5b738f1b2",
+        "007",
+        "8d50c19e138b403e8b2ede9b47d8be3c",
+        "fbda0b25f41f40958ea984f460e4770b"
+    ],
+    "target_obj_code": "fbda0b25f41f40958ea984f460e4770b",
+    "anno_target": {
+        "category": "apple",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "center",
+    "rotation_tag": "upright"
+}

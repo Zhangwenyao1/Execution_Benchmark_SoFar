@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "wallet",
+        "apple",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f47fdcf9615d4e94a71e6731242a4c94/material_2.urdf",
+        "ycb_16k_backup/013_apple_google_16k/013_apple_google_16k.urdf",
+        "objaverse_rescale/9321c45cb9cf459f9f803507d3a11fb3/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug between the wallet and the apple on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.7526213530696716,
+            0.06911269465002842,
+            0.9530487927494647,
+            0.018922500717562536,
+            0.7424194874413403,
+            -0.038305199098616384,
+            0.6685715783339496,
+            6.061975727789104e-05,
+            0.00372530915774405,
+            -0.00010284501331625506,
+            -0.2230796068906784,
+            -0.005280554760247469,
+            -0.015076981857419014
+        ],
+        [
+            0.222793617229872,
+            0.06806082424006892,
+            0.9554863230831012,
+            0.330090850098262,
+            -0.9427322693908465,
+            0.021433563156315626,
+            0.04285441985390056,
+            -0.001542625017464161,
+            -1.2996894838579465e-05,
+            -0.00033831092878244817,
+            -0.002866807160899043,
+            -0.04327256977558136,
+            0.01974578946828842
+        ],
+        [
+            0.422344747754096,
+            0.04496860821477919,
+            0.9636733821063648,
+            0.04609460887815974,
+            -0.2512756990692221,
+            -0.14104741674541474,
+            0.9564734373306388,
+            0.0005830111331306398,
+            0.0005833944887854159,
+            -0.0008986051543615758,
+            -0.012892888858914375,
+            0.012139622122049332,
+            -0.0016740199644118547
+        ]
+    ],
+    "position_instruction": "Place the mug between the wallet and the apple on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "f47fdcf9615d4e94a71e6731242a4c94",
+        "013",
+        "9321c45cb9cf459f9f803507d3a11fb3"
+    ],
+    "target_obj_code": "9321c45cb9cf459f9f803507d3a11fb3",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_right"
+}

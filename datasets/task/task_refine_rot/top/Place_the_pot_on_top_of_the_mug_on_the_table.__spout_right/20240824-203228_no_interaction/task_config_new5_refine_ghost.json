@@ -1,0 +1,85 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "pot"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/7bc2b14a48d1413e9375c32a53e3ee6f/material_2.urdf",
+        "objaverse_rescale/af249e607bea40cfa2f275e5e23b8283/material_2.urdf"
+    ],
+    "target_obj_name": "pot",
+    "instruction": "Place the pot on top of the mug on the table. We also need to specify the rotation of the object after placement:  the pot is upright on the table with its spout pointing towards right.",
+    "init_obj_pos": [
+        [
+            0.3461010604942133,
+            -0.15173538015353943,
+            0.940106660459749,
+            0.022155942510291172,
+            -0.12368223167794169,
+            0.020149369457989685,
+            0.9918698617707319,
+            0.0007046139216981828,
+            0.00016789347864687443,
+            -0.00011234053818043321,
+            0.001107335789129138,
+            0.006071236915886402,
+            0.0013034554431214929
+        ],
+        [
+            0.6665642593871265,
+            -0.301049269062751,
+            0.9813026168514783,
+            0.7061657907485136,
+            0.036542433094494335,
+            0.03654186624849322,
+            0.7061580691113991,
+            -0.0015526043716818094,
+            -0.0010033639846369624,
+            -0.00043751203338615596,
+            0.020408114418387413,
+            -0.0343000553548336,
+            -0.006484211888164282
+        ]
+    ],
+    "position_instruction": "Place the pot on top of the mug on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the pot is upright on the table with its spout pointing towards right.",
+    "rotation_instruction_label": "spout_right",
+    "obj_codes": [
+        "7bc2b14a48d1413e9375c32a53e3ee6f",
+        "af249e607bea40cfa2f275e5e23b8283"
+    ],
+    "target_obj_code": "af249e607bea40cfa2f275e5e23b8283",
+    "anno_target": {
+        "category": "pot",
+        "annotation": {
+            " the pot is upright on the table with its spout pointing towards left.": {
+                "quat": [
+                    [
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            },
+            " the pot is upright on the table with its spout pointing towards right.": {
+                "quat": [
+                    [
+                        0.7071068286895752,
+                        0.0,
+                        0.0,
+                        0.7071067094802856
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "spout_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "spout_right"
+}

@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "box",
+        "mug",
+        "marker"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f81ca566b008446eb704cad4844603b6/material_2.urdf",
+        "objaverse_rescale/c609327dd3a74fb597584e1b4a14a615/material_2.urdf",
+        "ycb_16k_backup/040_large_marker_google_16k/040_large_marker_google_16k.urdf"
+    ],
+    "target_obj_name": "marker",
+    "instruction": "Place the marker in front of box on the table. We also need to specify the rotation of the object after placement:  the cap of the marker is on the right(oriented towards right), while its body (the area we generally grab it) is on the left.",
+    "init_obj_pos": [
+        [
+            0.6700885153823086,
+            -0.024586305812914527,
+            0.921566088747529,
+            5.22972635603243e-07,
+            0.00022568959274444394,
+            -0.0023717228212013055,
+            0.9999971619933697,
+            0.00013986598060000688,
+            0.00021234664018265903,
+            -5.883846097276546e-05,
+            -0.0021226839162409306,
+            0.001477859914302826,
+            0.00012062906171195209
+        ],
+        [
+            0.4479541746970476,
+            0.029999933766385257,
+            0.9360374941388159,
+            -0.000392516805211132,
+            0.014470321515135472,
+            -0.08642061155366905,
+            0.9961535692976742,
+            -0.0008299172623082995,
+            0.00046117784222587943,
+            -0.00015375501243397593,
+            -0.007073584944009781,
+            -0.01570524461567402,
+            -0.0017563030123710632
+        ],
+        [
+            0.5096396457884422,
+            -0.03599796732076574,
+            0.9427307166818032,
+            0.606844738157193,
+            -0.16051558338157657,
+            0.7475031575077424,
+            0.21728608049885403,
+            0.0008004098199307919,
+            0.0007455912418663502,
+            0.03369501233100891,
+            -0.9226327538490295,
+            -3.2084975242614746,
+            -0.3131010830402374
+        ]
+    ],
+    "position_instruction": "Place the marker in front of box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the cap of the marker is on the right(oriented towards right), while its body (the area we generally grab it) is on the left.",
+    "rotation_instruction_label": "cap_right",
+    "obj_codes": [
+        "f81ca566b008446eb704cad4844603b6",
+        "c609327dd3a74fb597584e1b4a14a615",
+        "040"
+    ],
+    "target_obj_code": "040",
+    "anno_target": {
+        "category": "marker",
+        "annotation": {
+            " the cap of the marker is on the left(oriented towards left), while its body (the area we generally grab it) is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the cap of the marker is on the right(oriented towards right), while its body (the area we generally grab it) is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "cap_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "cap_right"
+}

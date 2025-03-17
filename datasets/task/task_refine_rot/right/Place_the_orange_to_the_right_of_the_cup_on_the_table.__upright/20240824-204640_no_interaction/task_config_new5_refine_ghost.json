@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "mug",
+        "orange"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-f_cups_google_16k/065-f_cups_google_16k.urdf",
+        "objaverse_rescale/ca4f9a92cc2f4ee98fe9332db41bf7f7/material_2.urdf",
+        "objaverse_rescale/a4c9a503f63e440e8d6d924d4e5c36b1/material_2.urdf"
+    ],
+    "target_obj_name": "orange",
+    "instruction": "Place the orange to the right of the cup on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.5739259022519327,
+            0.3602364767709975,
+            0.9703692438909602,
+            0.6638134897721067,
+            0.10709244576307642,
+            0.17547574040760974,
+            -0.719090483447987,
+            0.0016852769767865539,
+            -0.00577245419844985,
+            0.014263774268329144,
+            0.04924739524722099,
+            0.16967202723026276,
+            -0.0028048630338162184
+        ],
+        [
+            0.6057935086743051,
+            0.16245867951600823,
+            0.9615786808562854,
+            0.03167735275436028,
+            0.2181272414494489,
+            -0.023901091790041486,
+            0.9751132188988997,
+            -0.0021069126669317484,
+            -0.00603978568688035,
+            -0.0003194896562490612,
+            0.12391172349452972,
+            -0.03568441420793533,
+            0.0028394251130521297
+        ],
+        [
+            0.47266028537472793,
+            0.3724279565506006,
+            0.9442331937275364,
+            -0.7821349898965254,
+            0.13170461439344144,
+            0.567484786672012,
+            0.22108769532214126,
+            0.0016603325493633747,
+            0.0006916651618666947,
+            -0.0009583198698237538,
+            -0.03365372493863106,
+            0.033352773636579514,
+            -0.01647111400961876
+        ]
+    ],
+    "position_instruction": "Place the orange to the right of the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "065-f",
+        "ca4f9a92cc2f4ee98fe9332db41bf7f7",
+        "a4c9a503f63e440e8d6d924d4e5c36b1"
+    ],
+    "target_obj_code": "a4c9a503f63e440e8d6d924d4e5c36b1",
+    "anno_target": {
+        "category": "orange",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upright"
+}

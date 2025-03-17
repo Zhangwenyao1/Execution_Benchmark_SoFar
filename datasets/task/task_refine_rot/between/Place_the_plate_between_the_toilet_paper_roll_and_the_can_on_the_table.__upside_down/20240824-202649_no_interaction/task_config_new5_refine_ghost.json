@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "toilet paper roll",
+        "can",
+        "plate"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6d5284b842434413a17133f7bf259669/material_2.urdf",
+        "ycb_16k_backup/002_master_chef_can_google_16k/002_master_chef_can_google_16k.urdf",
+        "objaverse_rescale/6d5a4e1174dd4f5fa0a9a9076e476b91/material_2.urdf"
+    ],
+    "target_obj_name": "plate",
+    "instruction": "Place the plate between the toilet paper roll and the can on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6382684181760335,
+            -0.043859272204826986,
+            0.9338970836692245,
+            -0.008708470131450471,
+            -0.2649349922439286,
+            -0.0316935612832884,
+            0.963705935753154,
+            -0.04946599528193474,
+            0.0031986387912184,
+            -0.005109739489853382,
+            -0.04046891629695892,
+            -0.639553427696228,
+            -0.008961966261267662
+        ],
+        [
+            0.4262383015177047,
+            -0.08056598451064777,
+            0.900090897916393,
+            -0.00017269018735571788,
+            0.0002244349592255956,
+            0.015580550723945505,
+            0.9998785757511691,
+            0.00024124911578837782,
+            0.0011032347101718187,
+            -0.000616620120126754,
+            -0.019473016262054443,
+            0.003597523784264922,
+            0.0007044904050417244
+        ],
+        [
+            0.5271259736551602,
+            0.15029536815850586,
+            0.9127414185911548,
+            0.7008174545289246,
+            0.09408539354828079,
+            0.09407888487345595,
+            0.7008223723379774,
+            0.00027945474721491337,
+            0.0009419720736332238,
+            -0.00024067010963335633,
+            0.00762969208881259,
+            0.013912348076701164,
+            0.02421918883919716
+        ]
+    ],
+    "position_instruction": "Place the plate between the toilet paper roll and the can on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "6d5284b842434413a17133f7bf259669",
+        "002",
+        "6d5a4e1174dd4f5fa0a9a9076e476b91"
+    ],
+    "target_obj_code": "6d5a4e1174dd4f5fa0a9a9076e476b91",
+    "anno_target": {
+        "category": "plate",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

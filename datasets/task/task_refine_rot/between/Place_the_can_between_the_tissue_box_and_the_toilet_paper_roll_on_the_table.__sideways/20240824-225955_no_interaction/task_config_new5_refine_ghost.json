@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "toilet paper roll",
+        "can"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/213d8df9c37a4d8cba794965676f7a75/material_2.urdf",
+        "objaverse_rescale/ea0cf48616e34708b73c82eb7c7366ca/material_2.urdf",
+        "ycb_16k_backup/002_master_chef_can_google_16k/002_master_chef_can_google_16k.urdf"
+    ],
+    "target_obj_name": "can",
+    "instruction": "Place the can between the tissue box and the toilet paper roll on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.6355664564193186,
+            0.190854800148086,
+            0.9328999179831725,
+            1.9194481411450393e-07,
+            2.8273161525702116e-07,
+            -0.0613093123239385,
+            0.9981188146820237,
+            9.112089173868299e-05,
+            -0.00041754537960514426,
+            -0.0001431186537956819,
+            0.0013996720081195235,
+            -0.0024853169452399015,
+            -0.0022800767328590155
+        ],
+        [
+            0.5641902607012709,
+            -0.10485905141989482,
+            0.9495373873649775,
+            7.69861915255132e-05,
+            -0.0005433049249113849,
+            -0.040843719070520555,
+            0.9991653964711618,
+            0.0006431681686080992,
+            -0.0011425511911511421,
+            0.0002466192527208477,
+            0.014378789812326431,
+            0.008186566643416882,
+            2.6987741875927895e-05
+        ],
+        [
+            0.35502020102667764,
+            -0.15456938163663597,
+            0.900091698342141,
+            -0.0001488843540237327,
+            0.00023197358484212418,
+            -0.05659684269506632,
+            0.9983970760266955,
+            0.0003299141535535455,
+            0.0009344586869701743,
+            -0.0006747824372723699,
+            -0.017807969823479652,
+            0.004535634070634842,
+            0.0003314884379506111
+        ]
+    ],
+    "position_instruction": "Place the can between the tissue box and the toilet paper roll on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "213d8df9c37a4d8cba794965676f7a75",
+        "ea0cf48616e34708b73c82eb7c7366ca",
+        "002"
+    ],
+    "target_obj_code": "002",
+    "anno_target": {
+        "category": "can",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "sideways"
+}

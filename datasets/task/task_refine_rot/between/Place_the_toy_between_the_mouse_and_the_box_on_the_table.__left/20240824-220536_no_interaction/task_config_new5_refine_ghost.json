@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "mouse",
+        "box",
+        "remote control",
+        "toy"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/969b0d9d99a8468898753fdcd219f883/material_2.urdf",
+        "ycb_16k_backup/004_sugar_box_google_16k/004_sugar_box_google_16k.urdf",
+        "objaverse_rescale/89dcd45ac1f04680b76b709357a3dba3/material_2.urdf",
+        "ycb_16k_backup/072-b_toy_airplane_google_16k/072-b_toy_airplane_google_16k.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "Place the toy between the mouse and the box on the table. We also need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "init_obj_pos": [
+        [
+            0.38675770421880035,
+            0.17006844542088595,
+            0.9208126490913762,
+            -0.4737351606429685,
+            -0.42673880995327806,
+            0.40646032404100313,
+            0.654414998781908,
+            0.003264546161517501,
+            0.004939945414662361,
+            -0.00028354497044347227,
+            -0.09285026788711548,
+            0.2393265962600708,
+            -0.04584634676575661
+        ],
+        [
+            0.5844669720441728,
+            0.24502446493919203,
+            0.8998695295649191,
+            -0.0006673167427239116,
+            -0.00012665637290774624,
+            0.050415079707294363,
+            0.9987281203533998,
+            -0.0029417816549539566,
+            -0.002508895006030798,
+            -0.0009019931312650442,
+            0.0316801555454731,
+            -0.037774961441755295,
+            -0.011869700625538826
+        ],
+        [
+            0.6335091960105288,
+            -0.13191244853063647,
+            0.9092709520167482,
+            -0.6951342572367589,
+            0.10040556197774352,
+            -0.10197486471354786,
+            0.7044914580791499,
+            6.183388904901221e-05,
+            -0.00048687541857361794,
+            -0.00041671685175970197,
+            0.025059616193175316,
+            0.038690365850925446,
+            0.004217589274048805
+        ],
+        [
+            0.6858754636408975,
+            0.06306612329084407,
+            0.9001523078262406,
+            -0.0001303316200342572,
+            -0.0002873867430101257,
+            -0.10917635875479793,
+            0.9940223453783983,
+            -0.0011648332001641393,
+            -0.0014919090317562222,
+            -0.0005624525947496295,
+            0.029315590858459473,
+            0.003433214733377099,
+            0.003258455777540803
+        ]
+    ],
+    "position_instruction": "Place the toy between the mouse and the box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "rotation_instruction_label": "left",
+    "obj_codes": [
+        "969b0d9d99a8468898753fdcd219f883",
+        "004",
+        "89dcd45ac1f04680b76b709357a3dba3",
+        "072-b"
+    ],
+    "target_obj_code": "072-b",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_left",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "left"
+}

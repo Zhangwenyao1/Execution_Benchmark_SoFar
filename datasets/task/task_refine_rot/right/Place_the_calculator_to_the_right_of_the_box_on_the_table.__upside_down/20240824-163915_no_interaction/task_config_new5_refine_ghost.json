@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "box",
+        "pen",
+        "calculator"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/003_cracker_box_google_16k/003_cracker_box_google_16k.urdf",
+        "objaverse_rescale/fbeb7c776372466daffa619106e0b2e0/material_2.urdf",
+        "objaverse_rescale/f0b1f7c17d70489888f5ae922169c0ce/material_2.urdf"
+    ],
+    "target_obj_name": "calculator",
+    "instruction": "Place the calculator to the right of the box on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.4916116938306719,
+            -0.24744532513480036,
+            0.9038213615595256,
+            0.0002172228823602891,
+            -0.014612539549840266,
+            0.019618166648072508,
+            0.9997007322391489,
+            -0.0005090084159746766,
+            0.00014212001406122,
+            -9.604540537111461e-05,
+            -7.738868589513004e-05,
+            -0.004908077884465456,
+            -0.0034000740852206945
+        ],
+        [
+            0.6570477429587861,
+            0.06679443695739595,
+            0.9072077373522287,
+            -0.13916238535946324,
+            -0.0092827820823954,
+            0.1322111470410736,
+            0.9813602157495271,
+            -0.0015759178204461932,
+            -1.2105077985324897e-05,
+            0.03093494474887848,
+            2.3658459186553955,
+            -0.7020131945610046,
+            -0.05120503902435303
+        ],
+        [
+            0.6199990899320087,
+            -0.2563608402196113,
+            0.9114371284103312,
+            0.706938240848463,
+            -0.04595900985972292,
+            -0.04578391425870792,
+            0.7042939203443016,
+            -9.616280294721946e-05,
+            0.00011290876136627048,
+            -0.0020584710873663425,
+            -0.010671224445104599,
+            -0.01134962122887373,
+            0.0017336973687633872
+        ]
+    ],
+    "position_instruction": "Place the calculator to the right of the box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "003",
+        "fbeb7c776372466daffa619106e0b2e0",
+        "f0b1f7c17d70489888f5ae922169c0ce"
+    ],
+    "target_obj_code": "f0b1f7c17d70489888f5ae922169c0ce",
+    "anno_target": {
+        "category": "calculator",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5333969593048096,
+                    -0.5333969593048096,
+                    0.4642065465450287,
+                    0.4642064869403839
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upside_down"
+}

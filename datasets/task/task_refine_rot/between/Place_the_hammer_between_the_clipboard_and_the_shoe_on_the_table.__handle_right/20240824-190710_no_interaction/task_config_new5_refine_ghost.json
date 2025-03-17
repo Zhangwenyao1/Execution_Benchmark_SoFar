@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "clipboard",
+        "shoe",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/a37158f20ccf436483029e8295629738/material_2.urdf",
+        "objaverse_rescale/ece4453042144b4a82fb86a4eab1ba7f/material_2.urdf",
+        "ycb_16k_backup/048_hammer_google_16k/048_hammer_google_16k.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer between the clipboard and the shoe on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.49638571041972546,
+            0.13128619905898803,
+            0.9046933248477076,
+            0.6967737424016404,
+            0.07948806934494158,
+            0.08428953482644685,
+            0.7078723564670165,
+            0.0006903090979903936,
+            0.0012702993117272854,
+            0.012799683026969433,
+            -0.15919959545135498,
+            0.2988506257534027,
+            -0.016449790447950363
+        ],
+        [
+            0.2542274714288142,
+            -0.08410426822101101,
+            0.931404938435494,
+            0.04339211817445387,
+            -0.6994721074410025,
+            0.08203682588271209,
+            0.7086083926905374,
+            -0.0005071815103292465,
+            -0.0007551338640041649,
+            -0.00041384357609786093,
+            0.013937258161604404,
+            -0.013004429638385773,
+            0.0014564251760020852
+        ],
+        [
+            0.4233053937576426,
+            0.23244482721015428,
+            0.8974214176497987,
+            0.0004902308092158416,
+            -1.3696982451084679e-05,
+            -0.012611375158430688,
+            0.9999203531795717,
+            -0.007326299790292978,
+            -0.0014550514752045274,
+            0.021955862641334534,
+            0.07322444021701813,
+            -0.1831190437078476,
+            0.020435063168406487
+        ]
+    ],
+    "position_instruction": "Place the hammer between the clipboard and the shoe on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "a37158f20ccf436483029e8295629738",
+        "ece4453042144b4a82fb86a4eab1ba7f",
+        "048"
+    ],
+    "target_obj_code": "048",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        -0.0,
+                        0.0,
+                        -0.9831142425537109,
+                        -0.1829928606748581
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_right"
+}

@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "spatula",
+        "tape measure",
+        "toy",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/4b27628be0804c0285d0b13dda025a0d/material_2.urdf",
+        "objaverse_rescale/7138f5e13b2e4e17975c23ba5584164b/material_2.urdf",
+        "objaverse_rescale/9adc77036b434348ae049776c50df624/material_2.urdf",
+        "ycb_16k_backup/065-h_cups_google_16k/065-h_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup on top of the spatula on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.5375769017727307,
+            0.19620759366819937,
+            0.9039875690422657,
+            -0.0044178246566647155,
+            -7.00761780307066e-05,
+            0.11228647605270124,
+            0.9936660531638881,
+            -0.0024254657328128815,
+            0.0010514208115637302,
+            -0.009748173877596855,
+            0.1331026405096054,
+            -0.19916202127933502,
+            0.01149621233344078
+        ],
+        [
+            0.36383841878980977,
+            0.24444053105984379,
+            0.917324569874274,
+            0.049083941088681075,
+            -0.006026445321159035,
+            0.054751587804426835,
+            0.9972746423713416,
+            0.0025804375763982534,
+            -0.001220904989168048,
+            -0.0004920054925605655,
+            0.057294752448797226,
+            0.09284450858831406,
+            0.004764919634908438
+        ],
+        [
+            0.6438992450032317,
+            0.08467058289290548,
+            0.9406452827115797,
+            -0.07954373721299593,
+            -0.05561291999672517,
+            -0.07614966597874627,
+            0.9923614388774648,
+            -0.003004910424351692,
+            -0.0012972556287422776,
+            -0.00024592477711848915,
+            0.019831161946058273,
+            -0.046325575560331345,
+            -0.005134492181241512
+        ],
+        [
+            0.3399654363427815,
+            0.006247576771293072,
+            0.9004965386715046,
+            -0.0006422993065203268,
+            -0.0008113074068081336,
+            0.03446312681106484,
+            0.999405434306967,
+            0.005470979493111372,
+            -0.0009504118352197111,
+            -0.0048560770228505135,
+            0.020782213658094406,
+            0.19915595650672913,
+            -0.001612478052265942
+        ]
+    ],
+    "position_instruction": "Place the cup on top of the spatula on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "4b27628be0804c0285d0b13dda025a0d",
+        "7138f5e13b2e4e17975c23ba5584164b",
+        "9adc77036b434348ae049776c50df624",
+        "065-h"
+    ],
+    "target_obj_code": "065-h",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "top",
+    "rotation_tag": "upside_down"
+}

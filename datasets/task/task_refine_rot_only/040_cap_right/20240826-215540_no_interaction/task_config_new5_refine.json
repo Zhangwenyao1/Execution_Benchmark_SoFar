@@ -1,0 +1,67 @@
+{
+    "selected_obj_names": [
+        "marker"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/040_large_marker_google_16k/040_large_marker_google_16k.urdf"
+    ],
+    "target_obj_name": "marker",
+    "instruction": "We need to specify the rotation of the object after placement:  the cap of the marker is on the right(oriented towards right), while its body (the area we generally grab it) is on the left.",
+    "init_obj_pos": [
+        [
+            0.5199343318283838,
+            0.326954057717509,
+            0.9038505781315304,
+            -0.9607643996733988,
+            -0.1943794030282304,
+            0.1947610683365378,
+            -0.034878965853533374,
+            0.0014251230750232935,
+            0.0044174520298838615,
+            0.009325583465397358,
+            0.26429760456085205,
+            -1.4131641387939453,
+            -0.11161985248327255
+        ]
+    ],
+    "position_instruction": "",
+    "rotation_instruction": "We need to specify the rotation of the object after placement:  the cap of the marker is on the right(oriented towards right), while its body (the area we generally grab it) is on the left.",
+    "rotation_instruction_label": "cap_right",
+    "obj_codes": [
+        "040"
+    ],
+    "target_obj_code": "040",
+    "anno_target": {
+        "category": "marker",
+        "annotation": {
+            " the cap of the marker is on the left(oriented towards left), while its body (the area we generally grab it) is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the cap of the marker is on the right(oriented towards right), while its body (the area we generally grab it) is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "cap_right",
+    "rot_tag_level": 1,
+    "position_tag": "rot_ins",
+    "rotation_tag": "cap_right"
+}

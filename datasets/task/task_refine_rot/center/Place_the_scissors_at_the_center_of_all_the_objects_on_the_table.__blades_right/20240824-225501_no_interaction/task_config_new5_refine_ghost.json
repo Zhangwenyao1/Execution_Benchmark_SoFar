@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "mouse",
+        "plate",
+        "box",
+        "scissors"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/e51e63e374ee4c25ae3fb4a9c74bd335/material_2.urdf",
+        "ycb_16k_backup/029_plate_google_16k/029_plate_google_16k.urdf",
+        "ycb_16k_backup/004_sugar_box_google_16k/004_sugar_box_google_16k.urdf",
+        "ycb_16k_backup/037_scissors_google_16k/037_scissors_google_16k.urdf"
+    ],
+    "target_obj_name": "scissors",
+    "instruction": "Place the scissors at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the blades of the scissors are on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.5545172059802796,
+            0.1765010630962027,
+            0.9425084265511977,
+            0.25050738411454876,
+            -0.04559949277953367,
+            -0.06211332684273451,
+            0.9650433520784768,
+            -0.004921711981296539,
+            -0.010223491117358208,
+            -0.0010901886271312833,
+            0.40390607714653015,
+            -0.04865320026874542,
+            -0.12014211714267731
+        ],
+        [
+            0.5147075880651041,
+            0.016462081710028546,
+            0.9030819180555195,
+            3.808346190095978e-05,
+            -0.0012639139837464827,
+            0.3184309422565709,
+            0.9479452178710986,
+            -0.004192984662950039,
+            -0.004915932659059763,
+            0.001033609383739531,
+            0.18700508773326874,
+            0.13075153529644012,
+            0.09682582318782806
+        ],
+        [
+            0.4699125993912737,
+            -0.22019816609216136,
+            0.8998709319682869,
+            -0.0006413141111498233,
+            -0.00012347082693249658,
+            0.007164137696931604,
+            0.9999741239663273,
+            -0.003122111316770315,
+            -0.0022038104943931103,
+            -0.0008833984029479325,
+            0.026862530037760735,
+            -0.03926901891827583,
+            -0.015675723552703857
+        ],
+        [
+            0.35003997429851197,
+            -0.23699631271571972,
+            0.9019883058650549,
+            0.011700721032262235,
+            0.007816262561005927,
+            0.19297886168635334,
+            0.981102012080875,
+            -0.0009932639077305794,
+            0.0077078817412257195,
+            0.00018319301307201385,
+            -0.32219836115837097,
+            -1.3643556833267212,
+            0.4090921878814697
+        ]
+    ],
+    "position_instruction": "Place the scissors at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the blades of the scissors are on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blades_right",
+    "obj_codes": [
+        "e51e63e374ee4c25ae3fb4a9c74bd335",
+        "029",
+        "004",
+        "037"
+    ],
+    "target_obj_code": "037",
+    "anno_target": {
+        "category": "scissors",
+        "annotation": {
+            " the blades of the scissors are on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.9899005889892578,
+                        0.1417630910873413
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blades of the scissors are on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.13520878553390503,
+                        0.990817129611969
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blades_right",
+    "rot_tag_level": 1,
+    "position_tag": "center",
+    "rotation_tag": "blades_right"
+}

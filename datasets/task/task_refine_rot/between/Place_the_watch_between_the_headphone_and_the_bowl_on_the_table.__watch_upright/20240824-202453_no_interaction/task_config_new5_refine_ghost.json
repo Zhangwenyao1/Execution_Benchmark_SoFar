@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "headphone",
+        "bowl",
+        "scissors",
+        "watch"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f8891134871e48ce8cb5053c4287272b/material_2.urdf",
+        "objaverse_rescale/bf83213efac34b3cb2ad6ac5ddaf05d9/material_2.urdf",
+        "ycb_16k_backup/037_scissors_google_16k/037_scissors_google_16k.urdf",
+        "objaverse_rescale/fdb8227a88b2448d8c64fa82ffee3f58/material_2.urdf"
+    ],
+    "target_obj_name": "watch",
+    "instruction": "Place the watch between the headphone and the bowl on the table. We also need to specify the rotation of the object after placement:  the watch is placed steadily on the table, and its contact with the table is in the shape of a circle, which means that the bringe of the watch bracelet is in touch with the table and while the plane of the watch dial is perpendicular to the table.",
+    "init_obj_pos": [
+        [
+            0.32866034648434295,
+            -0.14240889479460886,
+            0.9458077048058227,
+            -0.11379236159224096,
+            0.00254244595520334,
+            -0.022196865727795792,
+            0.9932533078543905,
+            0.0003361914132256061,
+            0.0002609743387438357,
+            1.508917375758756e-05,
+            -0.005495574325323105,
+            0.009098527953028679,
+            -0.000642238010186702
+        ],
+        [
+            0.555920945705093,
+            0.12705824080838618,
+            0.9562222284676838,
+            0.43019076776664583,
+            0.29812975999292574,
+            0.06426341049132353,
+            0.8496615582730143,
+            -0.0032191225327551365,
+            -0.0033507284242659807,
+            -0.0011890367604792118,
+            0.08105656504631042,
+            -0.07551156729459763,
+            -0.009958123788237572
+        ],
+        [
+            0.49592717367435596,
+            -0.04864653781081608,
+            0.9008098173212439,
+            -0.008898206614080022,
+            -0.0004054949038164359,
+            -0.07052038599465228,
+            0.9974705673111876,
+            0.00729342270642519,
+            0.011614738032221794,
+            0.007298867218196392,
+            0.2268112450838089,
+            2.218186378479004,
+            -0.08060973882675171
+        ],
+        [
+            0.5959636116593012,
+            -0.1652986260812709,
+            0.9695448435853428,
+            -0.00214598295783465,
+            0.022974751443442274,
+            0.09419611406960712,
+            0.9952862139341839,
+            -0.00012914092803839594,
+            -0.0011016112985089421,
+            -8.949470793595538e-05,
+            0.016326766461133957,
+            -0.002263901988044381,
+            -0.003996246960014105
+        ]
+    ],
+    "position_instruction": "Place the watch between the headphone and the bowl on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the watch is placed steadily on the table, and its contact with the table is in the shape of a circle, which means that the bringe of the watch bracelet is in touch with the table and while the plane of the watch dial is perpendicular to the table.",
+    "rotation_instruction_label": "watch_upright",
+    "obj_codes": [
+        "f8891134871e48ce8cb5053c4287272b",
+        "bf83213efac34b3cb2ad6ac5ddaf05d9",
+        "037",
+        "fdb8227a88b2448d8c64fa82ffee3f58"
+    ],
+    "target_obj_code": "fdb8227a88b2448d8c64fa82ffee3f58",
+    "anno_target": {
+        "category": "watch",
+        "annotation": {
+            " the watch is placed steadily on the table, and its contact with the table is in the shape of a circle, which means that the bringe of the watch bracelet is in touch with the table and while the plane of the watch dial is perpendicular to the table.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        -0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "watch_upright",
+    "rot_tag_level": 2,
+    "position_tag": "between",
+    "rotation_tag": "watch_upright"
+}

@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "shoe",
+        "spoon",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/d5a5f0a954f94bcea3168329d1605fe9/material_2.urdf",
+        "objaverse_rescale/e1745c4aa7c046a2b5193d2d23be0192/material_2.urdf",
+        "ycb_16k_backup/065-j_cups_google_16k/065-j_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup in front of shoe on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.38843421359361335,
+            -0.014306278827037363,
+            0.9324820906763314,
+            -0.12148039923748795,
+            -0.6465990431387574,
+            -0.025688698450744497,
+            0.7526568147469663,
+            0.0020820049103349447,
+            -0.004190649837255478,
+            0.0005328912520781159,
+            0.10518573969602585,
+            0.0589355044066906,
+            0.022629553452134132
+        ],
+        [
+            0.33299801922878564,
+            -0.18478471698535603,
+            0.907251440416205,
+            -0.624876583562162,
+            0.3824845651596456,
+            -0.3453610668425289,
+            0.5864814969286817,
+            0.002294589299708605,
+            0.000393683701986447,
+            0.031688522547483444,
+            3.4410033226013184,
+            2.078794479370117,
+            -0.14604344964027405
+        ],
+        [
+            0.5583297969557287,
+            0.1452132468583647,
+            0.9003769561883473,
+            0.00035518007332987757,
+            -0.00018397322075815162,
+            0.07664927817871499,
+            0.9970580365032178,
+            0.002031606389209628,
+            -0.0034320219419896603,
+            -0.0037408459465950727,
+            -0.07901517301797867,
+            0.2729620635509491,
+            -0.02341386303305626
+        ]
+    ],
+    "position_instruction": "Place the cup in front of shoe on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "d5a5f0a954f94bcea3168329d1605fe9",
+        "e1745c4aa7c046a2b5193d2d23be0192",
+        "065-j"
+    ],
+    "target_obj_code": "065-j",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "front",
+    "rotation_tag": "upside_down"
+}

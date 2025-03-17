@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "tape measure",
+        "fork",
+        "mug",
+        "pitcher base"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/11307d06bb254318b95021d68c6fa12f/material_2.urdf",
+        "objaverse_rescale/e98e7fb33743442383812b68608f7006/material_2.urdf",
+        "objaverse_rescale/c609327dd3a74fb597584e1b4a14a615/material_2.urdf",
+        "ycb_16k_backup/019_pitcher_base_google_16k/019_pitcher_base_google_16k.urdf"
+    ],
+    "target_obj_name": "pitcher base",
+    "instruction": "Place the pitcher base at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "init_obj_pos": [
+        [
+            0.41454878941409945,
+            -0.010043792900464782,
+            0.922691736948394,
+            0.03441202600613531,
+            -0.034437366431673215,
+            0.0424615501163731,
+            0.9979112671080123,
+            0.0012260067742317915,
+            0.0011496610241010785,
+            -0.0004846549709327519,
+            -0.018356164917349815,
+            0.017425410449504852,
+            0.015390394255518913
+        ],
+        [
+            0.4256353469232682,
+            -0.1758125282707624,
+            0.9056453095219607,
+            0.6985185929853062,
+            -0.08534395615812433,
+            -0.07221904894476824,
+            0.7068044944471011,
+            -0.0008620943990536034,
+            0.005575433373451233,
+            0.011531797237694263,
+            -0.4162999391555786,
+            -8.401605606079102,
+            -3.3518216609954834
+        ],
+        [
+            0.5985788299787417,
+            0.2184873012404658,
+            0.9356016252627138,
+            -0.09362227893323162,
+            -0.01155571346895663,
+            0.12170881831768227,
+            0.9880730225632542,
+            0.0037190825678408146,
+            -0.0005273374845273793,
+            -0.0007321385201066732,
+            0.01119342539459467,
+            0.06456224620342255,
+            0.022717727348208427
+        ],
+        [
+            0.4818051542374106,
+            0.14412414101793308,
+            0.9013207536625817,
+            0.00016433815688943657,
+            0.0006794066354795679,
+            -0.03643224462307912,
+            0.9993358809486018,
+            -0.0053942142985761166,
+            0.004045259207487106,
+            3.1006096833152696e-05,
+            -0.040672626346349716,
+            -0.04899416118860245,
+            -0.007705347612500191
+        ]
+    ],
+    "position_instruction": "Place the pitcher base at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "rotation_instruction_label": "handle_left",
+    "obj_codes": [
+        "11307d06bb254318b95021d68c6fa12f",
+        "e98e7fb33743442383812b68608f7006",
+        "c609327dd3a74fb597584e1b4a14a615",
+        "019"
+    ],
+    "target_obj_code": "019",
+    "anno_target": {
+        "category": "pitcher_base",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.9303439855575562,
+                        0.36668798327445984
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "center",
+    "rotation_tag": "handle_left"
+}

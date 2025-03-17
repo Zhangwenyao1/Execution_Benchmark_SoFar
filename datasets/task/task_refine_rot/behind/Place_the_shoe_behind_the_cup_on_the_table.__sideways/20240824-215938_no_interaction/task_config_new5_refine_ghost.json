@@ -1,0 +1,85 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "shoe"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-f_cups_google_16k/065-f_cups_google_16k.urdf",
+        "objaverse_rescale/d6951661c1e445d8a1d00b7d38d86030/material_2.urdf"
+    ],
+    "target_obj_name": "shoe",
+    "instruction": "Place the shoe behind the cup on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.3556608260551983,
+            -0.1961765071152919,
+            0.9715525078429919,
+            -0.41635178118782357,
+            -0.909202988040107,
+            0.000999614154263387,
+            -0.0003487294211174518,
+            0.0037543585058301687,
+            -0.006442834157496691,
+            -0.0064150444231927395,
+            0.2005699872970581,
+            0.053541842848062515,
+            0.05832839757204056
+        ],
+        [
+            0.5247837793059366,
+            -0.25723897861514355,
+            0.9259237276734573,
+            0.9665025466825993,
+            -0.23650423521830236,
+            0.05644462956303944,
+            -0.08217406995730006,
+            -0.0006725352723151445,
+            -0.0024594231508672237,
+            -0.0007131558377295732,
+            0.08761512488126755,
+            -0.022884171456098557,
+            0.0075714499689638615
+        ]
+    ],
+    "position_instruction": "Place the shoe behind the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "065-f",
+        "d6951661c1e445d8a1d00b7d38d86030"
+    ],
+    "target_obj_code": "d6951661c1e445d8a1d00b7d38d86030",
+    "anno_target": {
+        "category": "shoe",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        -0.0,
+                        1.0,
+                        -0.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "sideways"
+}

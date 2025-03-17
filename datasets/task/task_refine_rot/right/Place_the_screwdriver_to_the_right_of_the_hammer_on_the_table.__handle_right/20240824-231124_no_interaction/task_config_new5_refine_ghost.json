@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "hammer",
+        "mug",
+        "screwdriver"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6d155e8051294915813e0c156e3cd6de/material_2.urdf",
+        "objaverse_rescale/c609327dd3a74fb597584e1b4a14a615/material_2.urdf",
+        "ycb_16k_backup/043_phillips_screwdriver_google_16k/043_phillips_screwdriver_google_16k.urdf"
+    ],
+    "target_obj_name": "screwdriver",
+    "instruction": "Place the screwdriver to the right of the hammer on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6447962986521639,
+            -0.11063651311525832,
+            0.9327227171525323,
+            0.08184348744983343,
+            0.008371239606791678,
+            0.1012297201494439,
+            0.9914555510298793,
+            -0.0001043782540364191,
+            0.0009878788841888309,
+            -0.004435746930539608,
+            -0.04862945154309273,
+            0.03636765107512474,
+            0.01254485733807087
+        ],
+        [
+            0.5074982803890219,
+            0.19422609722111803,
+            0.9356016182435111,
+            -0.09419747308978685,
+            -0.005088488541519786,
+            0.053541387956044656,
+            0.9940997249389028,
+            0.003740154206752777,
+            -0.0004774252884089947,
+            -0.0007834251155145466,
+            0.010249258019030094,
+            0.06464796513319016,
+            0.02530309185385704
+        ],
+        [
+            0.6613970089026494,
+            0.09508878454879874,
+            0.9014538337129099,
+            -0.027334133443951882,
+            -0.008130129113181738,
+            -0.1171255118516404,
+            0.9927075906947427,
+            -0.00015374209033325315,
+            0.00026705535128712654,
+            -0.00013719784328714013,
+            -0.025063298642635345,
+            -0.017676930874586105,
+            0.01822725497186184
+        ]
+    ],
+    "position_instruction": "Place the screwdriver to the right of the hammer on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "6d155e8051294915813e0c156e3cd6de",
+        "c609327dd3a74fb597584e1b4a14a615",
+        "043"
+    ],
+    "target_obj_code": "043",
+    "anno_target": {
+        "category": "screwdriver",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.8475578427314758,
+                        0.530703067779541
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "handle_right"
+}

@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "scissors",
+        "cup",
+        "calculator"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/037_scissors_google_16k/037_scissors_google_16k.urdf",
+        "ycb_16k_backup/065-d_cups_google_16k/065-d_cups_google_16k.urdf",
+        "objaverse_rescale/054be0c3f09143f38c4d8038eb2588c6/material_2.urdf"
+    ],
+    "target_obj_name": "calculator",
+    "instruction": "Place the calculator on top of the scissors on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.37945760634506026,
+            0.07284073260415261,
+            0.9001357871071701,
+            -0.001587582810231731,
+            -0.0006489639172706984,
+            0.0391819910264304,
+            0.9992306190293915,
+            0.00445864861831069,
+            0.013126282952725887,
+            0.00769337872043252,
+            -0.28991442918777466,
+            2.215135097503662,
+            -0.07855363190174103
+        ],
+        [
+            0.5080386357688308,
+            -0.20432631809577048,
+            0.9006063364164826,
+            0.0007449018161534619,
+            -0.0009801975234238636,
+            -0.0003332129525805621,
+            0.9999991866512838,
+            0.007599529344588518,
+            -0.0003408833290450275,
+            -0.006879891734570265,
+            -0.02411520667374134,
+            0.21989624202251434,
+            -0.012364739552140236
+        ],
+        [
+            0.5039402125070361,
+            0.0051268247304988536,
+            0.9056036760517965,
+            0.00018895350348438082,
+            -0.00027797019052570627,
+            -0.13022319459277712,
+            0.9914846476971781,
+            0.0007997199427336454,
+            -0.0012359826359897852,
+            -0.009908132255077362,
+            0.04252847656607628,
+            0.16296380758285522,
+            -0.01754872128367424
+        ]
+    ],
+    "position_instruction": "Place the calculator on top of the scissors on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "037",
+        "065-d",
+        "054be0c3f09143f38c4d8038eb2588c6"
+    ],
+    "target_obj_code": "054be0c3f09143f38c4d8038eb2588c6",
+    "anno_target": {
+        "category": "calculator",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "top",
+    "rotation_tag": "upside_down"
+}

@@ -1,0 +1,67 @@
+{
+    "selected_obj_names": [
+        "scissors"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/037_scissors_google_16k/037_scissors_google_16k.urdf"
+    ],
+    "target_obj_name": "scissors",
+    "instruction": "We need to specify the rotation of the object after placement:  the blades of the scissors are on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.6243759328095,
+            0.05734160040204906,
+            0.9002175232442913,
+            -0.0015446366493059524,
+            -0.002635114171864476,
+            -0.01511638747501509,
+            0.9998810754787925,
+            -0.00048340950161218643,
+            0.006039884407073259,
+            0.00011845258995890617,
+            -0.5862134099006653,
+            -0.8473609089851379,
+            0.3075300455093384
+        ]
+    ],
+    "position_instruction": "",
+    "rotation_instruction": "We need to specify the rotation of the object after placement:  the blades of the scissors are on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blades_right",
+    "obj_codes": [
+        "037"
+    ],
+    "target_obj_code": "037",
+    "anno_target": {
+        "category": "scissors",
+        "annotation": {
+            " the blades of the scissors are on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.9899005889892578,
+                        0.1417630910873413
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blades of the scissors are on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.13520878553390503,
+                        0.990817129611969
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blades_right",
+    "rot_tag_level": 1,
+    "position_tag": "rot_ins",
+    "rotation_tag": "blades_right"
+}

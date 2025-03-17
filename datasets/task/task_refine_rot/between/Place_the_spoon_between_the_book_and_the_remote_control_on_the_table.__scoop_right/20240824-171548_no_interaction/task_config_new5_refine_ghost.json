@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "book",
+        "remote control",
+        "keyboard",
+        "spoon"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/b2d30398ba3741da9f9aef2319ee2b8b/material_2.urdf",
+        "objaverse_rescale/d72eebbf82be48f0a53e7e8b712e6a66/material_2.urdf",
+        "objaverse_rescale/0161b6232216457aa8f4f3393960ec85/material_2.urdf",
+        "objaverse_rescale/218768789fdd42bd95eb933046698499/material_2.urdf"
+    ],
+    "target_obj_name": "spoon",
+    "instruction": "Place the spoon between the book and the remote control on the table. We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "init_obj_pos": [
+        [
+            0.32271832322304883,
+            -0.13311163265886938,
+            0.9163997819472817,
+            1.0704404987698675e-05,
+            7.406883963662576e-06,
+            0.056178292848376866,
+            0.9984207526104385,
+            -0.0006435952964238822,
+            -0.00023195335234049708,
+            5.305923332343809e-05,
+            -0.00019819632871076465,
+            0.0002826258714776486,
+            -0.002677295822650194
+        ],
+        [
+            0.6692317314709031,
+            -0.12297069617060644,
+            0.9117805004309811,
+            0.010926316902610245,
+            -0.0009056366620664353,
+            0.08003845156003274,
+            0.9967314792325224,
+            0.0014204666949808598,
+            0.001017208443954587,
+            -6.368159688463493e-07,
+            -0.03369299694895744,
+            0.24800829589366913,
+            0.05496450886130333
+        ],
+        [
+            0.5559239862042973,
+            0.1787590259337817,
+            0.9132995540869413,
+            0.512051232388607,
+            0.21417349471760908,
+            0.1352360061856728,
+            0.8207584737306729,
+            -0.0009991643019020557,
+            -0.0010059368796646595,
+            0.000842910900246352,
+            0.07420478761196136,
+            -0.07718367129564285,
+            0.0016854015411809087
+        ],
+        [
+            0.596910728685457,
+            -0.17006157638190023,
+            0.9072517420887954,
+            0.011791671442062088,
+            -0.044043125746739645,
+            -0.05597262937025647,
+            0.997390707957739,
+            -0.0001135195852839388,
+            0.008223116397857666,
+            0.03408418595790863,
+            0.43564698100090027,
+            3.984187126159668,
+            0.6603042483329773
+        ]
+    ],
+    "position_instruction": "Place the spoon between the book and the remote control on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "rotation_instruction_label": "scoop_right",
+    "obj_codes": [
+        "b2d30398ba3741da9f9aef2319ee2b8b",
+        "d72eebbf82be48f0a53e7e8b712e6a66",
+        "0161b6232216457aa8f4f3393960ec85",
+        "218768789fdd42bd95eb933046698499"
+    ],
+    "target_obj_code": "218768789fdd42bd95eb933046698499",
+    "anno_target": {
+        "category": "spoon",
+        "annotation": {
+            " the ladle is lying on the table, with its scoop on the left(pointing towards left) and its handle on the right. ": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ladle is lying on the table, with its scoop on the right(pointing towards right) and its handle on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "scoop_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "scoop_right"
+}

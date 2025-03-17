@@ -1,0 +1,79 @@
+{
+    "selected_obj_names": [
+        "headphone",
+        "hard drive"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/ea91786392284f03809c37976da090bf/material_2.urdf",
+        "objaverse_rescale/f8de4975c0f54c1a97203c6a674f6a39/material_2.urdf"
+    ],
+    "target_obj_name": "hard drive",
+    "instruction": "Place the hard drive to the left of the headphone on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.5694946995619958,
+            -0.07304332256913082,
+            0.948856410740621,
+            -0.04778728836143897,
+            -0.703619619709623,
+            0.05977104493871092,
+            0.7064440728165822,
+            0.0013487400719895959,
+            -0.0011091247433796525,
+            -0.0008390601724386215,
+            0.02553470991551876,
+            0.03130486235022545,
+            0.0047383117489516735
+        ],
+        [
+            0.676944174721319,
+            -0.1968011503912466,
+            0.9508357653445713,
+            0.0013568394602395002,
+            -4.491964523243564e-05,
+            -0.04751737459740645,
+            0.9988694890125916,
+            -0.0014112564967945218,
+            0.0011845312546938658,
+            -0.00011760235793190077,
+            -0.013166641816496849,
+            -0.01591886766254902,
+            -0.004187115468084812
+        ]
+    ],
+    "position_instruction": "Place the hard drive to the left of the headphone on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "ea91786392284f03809c37976da090bf",
+        "f8de4975c0f54c1a97203c6a674f6a39"
+    ],
+    "target_obj_code": "f8de4975c0f54c1a97203c6a674f6a39",
+    "anno_target": {
+        "category": "hard_drive",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "left",
+    "rotation_tag": "lying_flat"
+}

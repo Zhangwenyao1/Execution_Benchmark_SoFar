@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "plate",
+        "mouse"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/029_plate_google_16k/029_plate_google_16k.urdf",
+        "objaverse_rescale/f496168739384cdb86ef6d65e2068a3f/material_2.urdf"
+    ],
+    "target_obj_name": "mouse",
+    "instruction": "Place the mouse behind the plate on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.61363579902042,
+            0.10666617335051154,
+            0.9030421546361654,
+            -0.00013256714345768043,
+            -0.00018201685416751343,
+            -0.047602179363991304,
+            0.9988663483247479,
+            7.609178283018991e-05,
+            -4.8115995014086366e-05,
+            -0.00034234815393574536,
+            0.003022783435881138,
+            0.008604271337389946,
+            -0.00031560499337501824
+        ],
+        [
+            0.4260225449136501,
+            0.10299852023373167,
+            0.928473322155697,
+            -0.627451365400522,
+            0.029326363752443706,
+            -0.03569787338941197,
+            0.777283995899538,
+            0.004767598584294319,
+            -0.001675867009907961,
+            -0.0011527548776939511,
+            0.07709575444459915,
+            0.24647121131420135,
+            -0.05889390408992767
+        ]
+    ],
+    "position_instruction": "Place the mouse behind the plate on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "029",
+        "f496168739384cdb86ef6d65e2068a3f"
+    ],
+    "target_obj_code": "f496168739384cdb86ef6d65e2068a3f",
+    "anno_target": {
+        "category": "mouse",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "upright"
+}

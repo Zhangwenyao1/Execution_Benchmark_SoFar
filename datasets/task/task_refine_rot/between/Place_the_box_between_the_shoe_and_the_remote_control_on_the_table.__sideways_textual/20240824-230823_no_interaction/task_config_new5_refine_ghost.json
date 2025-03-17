@@ -1,0 +1,151 @@
+{
+    "selected_obj_names": [
+        "shoe",
+        "remote control",
+        "knife",
+        "box"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/aa51af2f1270482193471455b504efc6/material_2.urdf",
+        "objaverse_rescale/f1bbc61a42b94ee9a2976ca744f8962e/material_2.urdf",
+        "ycb_16k_backup/032_knife_google_16k/032_knife_google_16k.urdf",
+        "objaverse_rescale/5e1a1527a0bd49ed8e473079392c31c8/material_2.urdf"
+    ],
+    "target_obj_name": "box",
+    "instruction": "Place the box between the shoe and the remote control on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.",
+    "init_obj_pos": [
+        [
+            0.6057799522177595,
+            0.08549522060776735,
+            0.9320600285852042,
+            0.025189864790614,
+            0.08044861771546034,
+            0.15384912814204973,
+            0.9844917147388466,
+            -0.0002458649396430701,
+            -0.0015279552899301052,
+            5.769396375399083e-05,
+            0.04708923026919365,
+            0.010652235709130764,
+            0.004653057549148798
+        ],
+        [
+            0.3790631548581056,
+            0.2827577336478668,
+            0.9120924052833888,
+            -0.7313855391925678,
+            -0.1547632227398528,
+            0.13532976399962596,
+            0.6502379510017673,
+            -0.0027481666766107082,
+            0.0028155494946986437,
+            0.04500715807080269,
+            -2.4514403343200684,
+            2.4946846961975098,
+            -0.7190747261047363
+        ],
+        [
+            0.3162697291371838,
+            0.20274475932085545,
+            0.9179764056574159,
+            0.26030558651187136,
+            -0.008166052824542427,
+            -0.08948578074851332,
+            0.9613358477950394,
+            0.0013803145848214626,
+            0.009107211604714394,
+            0.040721867233514786,
+            -14.333765029907227,
+            4.461334228515625,
+            1.3338769674301147
+        ],
+        [
+            0.455161649712128,
+            -0.07569627042791516,
+            0.9527400231674835,
+            -0.002639090410852873,
+            0.005766574869778824,
+            -0.11921355246229047,
+            0.9928483825465974,
+            -0.0017379288328811526,
+            0.0003546692314557731,
+            -0.0006294190534390509,
+            -0.007831146009266376,
+            -0.037685733288526535,
+            -0.0014702662592753768
+        ]
+    ],
+    "position_instruction": "Place the box between the shoe and the remote control on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.",
+    "rotation_instruction_label": "sideways_textual",
+    "obj_codes": [
+        "aa51af2f1270482193471455b504efc6",
+        "f1bbc61a42b94ee9a2976ca744f8962e",
+        "032",
+        "5e1a1527a0bd49ed8e473079392c31c8"
+    ],
+    "target_obj_code": "5e1a1527a0bd49ed8e473079392c31c8",
+    "anno_target": {
+        "category": "box",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.": {
+                "quat": [
+                    [
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        0.0,
+                        0.7071067690849304,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.0,
+                        1.0,
+                        0.0,
+                        -4.371138828673793e-08
+                    ],
+                    [
+                        0.0,
+                        0.7071067690849304,
+                        0.0,
+                        -0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.": {
+                "quat": [
+                    [
+                        -0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways_textual",
+    "rot_tag_level": 2,
+    "position_tag": "between",
+    "rotation_tag": "sideways_textual"
+}

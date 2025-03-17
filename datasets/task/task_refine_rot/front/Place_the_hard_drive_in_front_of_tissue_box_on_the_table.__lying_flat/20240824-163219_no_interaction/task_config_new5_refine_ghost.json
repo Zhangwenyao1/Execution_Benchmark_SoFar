@@ -1,0 +1,97 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "mouse",
+        "hard drive"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6e9e9135bb5747f58d388e1e92477f02/material_2.urdf",
+        "objaverse_rescale/969b0d9d99a8468898753fdcd219f883/material_2.urdf",
+        "objaverse_rescale/e32b159011544b8aa7cacd812636353e/material_2.urdf"
+    ],
+    "target_obj_name": "hard drive",
+    "instruction": "Place the hard drive in front of tissue box on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.5540815161512644,
+            0.3303782007970147,
+            0.9272525086108422,
+            -0.2154659718706253,
+            -0.9292055380640866,
+            0.2790891000093136,
+            0.11072830375684595,
+            -0.001177476136945188,
+            -0.0003891089290846139,
+            -0.0002540122077334672,
+            0.006489483639597893,
+            -0.012079511769115925,
+            -0.004136609844863415
+        ],
+        [
+            0.34600074399232267,
+            0.043233651875223836,
+            0.9202784103638975,
+            0.7038471729657257,
+            0.06753864359461782,
+            0.06759032902209637,
+            0.7038957565948526,
+            -0.0003914198896382004,
+            -0.0015153416898101568,
+            0.0005302188219502568,
+            0.10686490684747696,
+            -0.04992055892944336,
+            -0.12126554548740387
+        ],
+        [
+            0.48011838463644585,
+            -0.06799921690902451,
+            0.9151856318267597,
+            0.7041027727645156,
+            0.06384088789496109,
+            0.06387820281428837,
+            0.7043317411726676,
+            2.8955628295079805e-05,
+            2.363901558055659e-06,
+            -2.0506726286839694e-05,
+            -0.00011871450260514393,
+            0.0005092950304970145,
+            -0.00022801707382313907
+        ]
+    ],
+    "position_instruction": "Place the hard drive in front of tissue box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "6e9e9135bb5747f58d388e1e92477f02",
+        "969b0d9d99a8468898753fdcd219f883",
+        "e32b159011544b8aa7cacd812636353e"
+    ],
+    "target_obj_code": "e32b159011544b8aa7cacd812636353e",
+    "anno_target": {
+        "category": "hard_drive",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "front",
+    "rotation_tag": "lying_flat"
+}

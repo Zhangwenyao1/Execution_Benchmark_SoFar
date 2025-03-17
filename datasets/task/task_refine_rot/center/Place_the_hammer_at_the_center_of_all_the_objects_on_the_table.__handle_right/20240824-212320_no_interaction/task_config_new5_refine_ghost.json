@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "toy",
+        "cup",
+        "mobile phone",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/072-b_toy_airplane_google_16k/072-b_toy_airplane_google_16k.urdf",
+        "ycb_16k_backup/065-d_cups_google_16k/065-d_cups_google_16k.urdf",
+        "objaverse_rescale/45c813a9fac4458ead1f90280826c0a4/material_2.urdf",
+        "objaverse_rescale/d499e1bc8a514e4bb5ca995ea6ba23b6/material_2.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.5738767285870127,
+            -0.18669229638694376,
+            0.9001522095542804,
+            -9.971109693613534e-05,
+            -0.0002962896802076141,
+            -0.04449530453790711,
+            0.999009544571122,
+            -0.0010032022837549448,
+            -0.0015222331276163459,
+            -0.000614529475569725,
+            0.026821961626410484,
+            0.0025165844708681107,
+            -0.001182755921036005
+        ],
+        [
+            0.6521868530880368,
+            -0.09929577539308504,
+            0.9006125651595391,
+            0.0008139868604337529,
+            -0.000771447731779601,
+            -0.026196912317201126,
+            0.9996561729308896,
+            0.007113534491509199,
+            -0.0004089567228220403,
+            -0.007084204815328121,
+            -0.024399280548095703,
+            0.19793277978897095,
+            -0.012942385859787464
+        ],
+        [
+            0.47185647632657035,
+            0.004764801849091683,
+            0.9056226694671539,
+            -0.7040006926962948,
+            0.04538219575285062,
+            -0.0461112604241033,
+            0.7072462319828136,
+            0.0036974807735532522,
+            -0.00838026124984026,
+            0.017320098355412483,
+            0.6241230368614197,
+            1.117047905921936,
+            0.17441658675670624
+        ],
+        [
+            0.33413585557797476,
+            0.06908304495667775,
+            0.9224667382396851,
+            -0.00040990196180870956,
+            -0.0023658770070838597,
+            0.10536813737179809,
+            0.9944303848099002,
+            -0.015017593279480934,
+            -0.0069019487127661705,
+            -0.011496984399855137,
+            0.3229561150074005,
+            -0.7081888914108276,
+            -0.002343247877433896
+        ]
+    ],
+    "position_instruction": "Place the hammer at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "072-b",
+        "065-d",
+        "45c813a9fac4458ead1f90280826c0a4",
+        "d499e1bc8a514e4bb5ca995ea6ba23b6"
+    ],
+    "target_obj_code": "d499e1bc8a514e4bb5ca995ea6ba23b6",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.9891719818115234,
+                        -0.1467610001564026
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "center",
+    "rotation_tag": "handle_right"
+}

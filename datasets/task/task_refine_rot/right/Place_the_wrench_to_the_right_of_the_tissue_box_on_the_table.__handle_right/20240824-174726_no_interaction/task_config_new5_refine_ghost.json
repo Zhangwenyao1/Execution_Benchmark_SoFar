@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "apple",
+        "mug",
+        "wrench"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6f8040c86eb84e7bba2cd928c0755029/material_2.urdf",
+        "objaverse_rescale/f53d75bd123b40bca14d12d54286f432/material_2.urdf",
+        "objaverse_rescale/77d41aba53e4455f9f84fa04b175dff4/material_2.urdf",
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf"
+    ],
+    "target_obj_name": "wrench",
+    "instruction": "Place the wrench to the right of the tissue box on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.46507407726153344,
+            0.22219007606549135,
+            0.9273058833120323,
+            0.012656896803083559,
+            0.00026398218674030335,
+            0.0211952958675803,
+            0.999695199903354,
+            -0.00017265653877984732,
+            -0.0011063499841839075,
+            -0.00018649389676284045,
+            0.020056379958987236,
+            -0.0017522636335343122,
+            -0.00015321237151511014
+        ],
+        [
+            0.3527700457141234,
+            0.09835302797622411,
+            0.9682678432433492,
+            0.0677890573336802,
+            0.03874877476660575,
+            -0.07748702963801521,
+            0.9939310521347915,
+            0.007812698371708393,
+            0.002629215130582452,
+            -0.000999643001705408,
+            -0.03738158568739891,
+            0.13865938782691956,
+            0.07088906317949295
+        ],
+        [
+            0.6153683222326948,
+            -0.07872988596767917,
+            0.9623204129459627,
+            -0.010154826179832623,
+            0.22452135403477583,
+            0.04401968010169787,
+            0.9734214446227248,
+            0.00043737186933867633,
+            0.00027222649077884853,
+            -0.00011744115181500092,
+            -0.0029215288814157248,
+            0.0027881779242306948,
+            0.0015830985503271222
+        ],
+        [
+            0.4613074314700661,
+            -0.12889290055504876,
+            0.9027546353517748,
+            0.009740477116286887,
+            -0.01860878622719788,
+            -0.11709613269170396,
+            0.9928984499380304,
+            0.001225471030920744,
+            -0.0027281716465950012,
+            0.034249886870384216,
+            0.23528987169265747,
+            -0.3507351577281952,
+            0.11797584593296051
+        ]
+    ],
+    "position_instruction": "Place the wrench to the right of the tissue box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "6f8040c86eb84e7bba2cd928c0755029",
+        "f53d75bd123b40bca14d12d54286f432",
+        "77d41aba53e4455f9f84fa04b175dff4",
+        "042"
+    ],
+    "target_obj_code": "042",
+    "anno_target": {
+        "category": "wrench",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.2856176793575287,
+                        0.9583436250686646
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "handle_right"
+}

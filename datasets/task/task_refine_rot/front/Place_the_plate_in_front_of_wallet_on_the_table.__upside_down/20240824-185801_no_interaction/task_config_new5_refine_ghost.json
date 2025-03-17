@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "wallet",
+        "spoon",
+        "plate"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/ccfcc4ae6efa44a2ba34c4c479be7daf/material_2.urdf",
+        "ycb_16k_backup/031_spoon_google_16k/031_spoon_google_16k.urdf",
+        "ycb_16k_backup/029_plate_google_16k/029_plate_google_16k.urdf"
+    ],
+    "target_obj_name": "plate",
+    "instruction": "Place the plate in front of wallet on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.5892557811479451,
+            0.26157039307834035,
+            0.9073005779744174,
+            -0.7067372028208488,
+            0.025018917904253233,
+            0.004628822486582764,
+            0.7070184961500299,
+            0.0013681990094482899,
+            -0.0003040927113033831,
+            -0.0009825670858845115,
+            0.07066081464290619,
+            0.2527923583984375,
+            0.007991128601133823
+        ],
+        [
+            0.8233260686746152,
+            -0.13846457002963783,
+            0.9000847567331046,
+            -0.0034534578909893687,
+            0.003000145019242305,
+            -0.641951428160113,
+            0.7667316588231176,
+            -0.00023721270554233342,
+            0.00430913083255291,
+            0.03305875509977341,
+            2.1597330570220947,
+            11.045000076293945,
+            1.1320754289627075
+        ],
+        [
+            0.453918579989027,
+            -0.0811583280937449,
+            0.9030418192322588,
+            -0.00010859322731029246,
+            -0.0001562923798099396,
+            0.009563341431143098,
+            0.9999542520940017,
+            4.297365740058012e-05,
+            2.421313911327161e-05,
+            -0.0002312130236532539,
+            -0.0026332931593060493,
+            0.004233901854604483,
+            -1.7019647202687338e-05
+        ]
+    ],
+    "position_instruction": "Place the plate in front of wallet on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "ccfcc4ae6efa44a2ba34c4c479be7daf",
+        "031",
+        "029"
+    ],
+    "target_obj_code": "029",
+    "anno_target": {
+        "category": "plate",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "front",
+    "rotation_tag": "upside_down"
+}

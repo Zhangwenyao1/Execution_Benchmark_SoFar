@@ -1,0 +1,79 @@
+{
+    "selected_obj_names": [
+        "power drill",
+        "watch"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/035_power_drill_google_16k/035_power_drill_google_16k.urdf",
+        "objaverse_rescale/d6e38c73f8f2402aac890e8ebb115302/material_2.urdf"
+    ],
+    "target_obj_name": "watch",
+    "instruction": "Place the watch behind the power drill on the table. We also need to specify the rotation of the object after placement:  the watch is placed steadily on the table, and its contact with the table is in the shape of a circle, which means that the bringe of the watch bracelet is in touch with the table and while the plane of the watch dial is perpendicular to the table.",
+    "init_obj_pos": [
+        [
+            0.3696219091977607,
+            -0.21274994061167624,
+            0.9030954435899873,
+            -3.947238677290682e-05,
+            0.0003025937255712558,
+            -0.1269549478743929,
+            0.991908437351543,
+            -9.519811283098534e-05,
+            7.760770677123219e-05,
+            -0.0003818015393335372,
+            -0.004738187417387962,
+            -0.00029003454255871475,
+            -0.0002357069606659934
+        ],
+        [
+            0.6971164682912683,
+            -0.057939063471377006,
+            0.9321260774517376,
+            -0.019630650633819028,
+            -0.009354778387720851,
+            -0.053790081683390924,
+            0.9983154575531245,
+            -0.002917943289503455,
+            0.0022862888872623444,
+            -0.0007841104525141418,
+            -0.030614105984568596,
+            -0.05304843187332153,
+            -0.05231805890798569
+        ]
+    ],
+    "position_instruction": "Place the watch behind the power drill on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the watch is placed steadily on the table, and its contact with the table is in the shape of a circle, which means that the bringe of the watch bracelet is in touch with the table and while the plane of the watch dial is perpendicular to the table.",
+    "rotation_instruction_label": "watch_upright",
+    "obj_codes": [
+        "035",
+        "d6e38c73f8f2402aac890e8ebb115302"
+    ],
+    "target_obj_code": "d6e38c73f8f2402aac890e8ebb115302",
+    "anno_target": {
+        "category": "watch",
+        "annotation": {
+            " the watch is placed steadily on the table, and its contact with the table is in the shape of a circle, which means that the bringe of the watch bracelet is in touch with the table and while the plane of the watch dial is perpendicular to the table.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.7071067690849304,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        1.5454309831852697e-08,
+                        -0.7071067690849304,
+                        -4.636293127191493e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "watch_upright",
+    "rot_tag_level": 2,
+    "position_tag": "behind",
+    "rotation_tag": "watch_upright"
+}

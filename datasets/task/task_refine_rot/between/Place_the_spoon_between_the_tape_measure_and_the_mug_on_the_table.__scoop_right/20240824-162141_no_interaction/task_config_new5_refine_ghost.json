@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "tape measure",
+        "mug",
+        "bowl",
+        "spoon"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/d1d1c4b27f5c45a29910830e268f7ee2/material_2.urdf",
+        "ycb_16k_backup/025_mug_google_16k/025_mug_google_16k.urdf",
+        "ycb_16k_backup/024_bowl_google_16k/024_bowl_google_16k.urdf",
+        "objaverse_rescale/218768789fdd42bd95eb933046698499/material_2.urdf"
+    ],
+    "target_obj_name": "spoon",
+    "instruction": "Place the spoon between the tape measure and the mug on the table. We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "init_obj_pos": [
+        [
+            0.5482066936243816,
+            0.04933077541378055,
+            0.9661025144213867,
+            -0.019117622868205144,
+            0.33861636633254616,
+            0.03534708134503886,
+            0.9400659853371992,
+            -0.0012317076325416565,
+            0.0003211131552234292,
+            -0.00018666016694623977,
+            -0.009870576672255993,
+            -0.031794946640729904,
+            0.007557267788797617
+        ],
+        [
+            0.4113765516882375,
+            -0.0654577692457669,
+            0.9004584617618854,
+            -0.0007967630248851465,
+            -0.0010089630543037786,
+            -0.08387051525703385,
+            0.9964758320364614,
+            -0.0006416430696845055,
+            -0.0011880927486345172,
+            -0.0009114687563851476,
+            0.03273467347025871,
+            -0.020897284150123596,
+            -0.005920237861573696
+        ],
+        [
+            0.5974646512205607,
+            -0.24550767792209757,
+            0.900464649704362,
+            0.00019362289961619196,
+            -0.000517780321063895,
+            -0.04732829473177393,
+            0.998879235409113,
+            -0.0003926280187442899,
+            0.00045880922698415816,
+            -0.00021697950433008373,
+            -0.009711246937513351,
+            -0.018908774480223656,
+            0.006613781210035086
+        ],
+        [
+            0.5562292433288725,
+            -0.11491942085962585,
+            0.9070961729256759,
+            0.014912807327944765,
+            -0.018476930894625914,
+            -0.059364228124423365,
+            0.9979539566640869,
+            0.00011121270654257387,
+            0.0022944610100239515,
+            0.03034863993525505,
+            -0.5941900014877319,
+            -0.5396330952644348,
+            0.11739727854728699
+        ]
+    ],
+    "position_instruction": "Place the spoon between the tape measure and the mug on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "rotation_instruction_label": "scoop_right",
+    "obj_codes": [
+        "d1d1c4b27f5c45a29910830e268f7ee2",
+        "025",
+        "024",
+        "218768789fdd42bd95eb933046698499"
+    ],
+    "target_obj_code": "218768789fdd42bd95eb933046698499",
+    "anno_target": {
+        "category": "spoon",
+        "annotation": {
+            " the ladle is lying on the table, with its scoop on the left(pointing towards left) and its handle on the right. ": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ladle is lying on the table, with its scoop on the right(pointing towards right) and its handle on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "scoop_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "scoop_right"
+}

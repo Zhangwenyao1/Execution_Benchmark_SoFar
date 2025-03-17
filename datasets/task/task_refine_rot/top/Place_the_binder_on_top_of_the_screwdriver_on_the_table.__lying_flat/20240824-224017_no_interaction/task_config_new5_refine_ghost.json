@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "screwdriver",
+        "toy",
+        "binder"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/044_flat_screwdriver_google_16k/044_flat_screwdriver_google_16k.urdf",
+        "objaverse_rescale/9adc77036b434348ae049776c50df624/material_2.urdf",
+        "objaverse_rescale/78e016eeb0bf45d5bea47547128383a8/material_2.urdf"
+    ],
+    "target_obj_name": "binder",
+    "instruction": "Place the binder on top of the screwdriver on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.3524491438011073,
+            0.14601680491935015,
+            0.9005570329239753,
+            0.013424098760704831,
+            -0.011590494919891723,
+            -0.07909340692972336,
+            0.9967094295632113,
+            -0.0014952918281778693,
+            0.00031375119579024613,
+            -0.00106537202373147,
+            0.020752040669322014,
+            -0.04350973665714264,
+            -0.025189820677042007
+        ],
+        [
+            0.5883455105337245,
+            -0.040906159734731266,
+            0.9406449825479638,
+            -0.07896728098032656,
+            -0.05651111806104489,
+            -0.06561703177996105,
+            0.9931087892121655,
+            0.000977160525508225,
+            -0.0010475155431777239,
+            -0.0004010703123640269,
+            0.01611502468585968,
+            0.015157303772866726,
+            -0.002178072463721037
+        ],
+        [
+            0.5384620933155786,
+            0.22091187603026496,
+            1.0259584280535778,
+            -0.0001223352696453818,
+            6.527671649332501e-07,
+            0.06959971024111057,
+            0.9975749923529598,
+            -0.0007874194416217506,
+            0.0001838182215578854,
+            -0.0006487914361059666,
+            -0.0018299603834748268,
+            -0.005383908748626709,
+            0.0009570020483806729
+        ]
+    ],
+    "position_instruction": "Place the binder on top of the screwdriver on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "044",
+        "9adc77036b434348ae049776c50df624",
+        "78e016eeb0bf45d5bea47547128383a8"
+    ],
+    "target_obj_code": "78e016eeb0bf45d5bea47547128383a8",
+    "anno_target": {
+        "category": "binder",
+        "annotation": {
+            "the binder is standing upright on the table and oriented in a way so that its smaller side is in contact with the tabletop and the larger face is perpendicular to the tabletop, and the label should be in sight as well.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        0.5,
+                        0.4999999701976776
+                    ],
+                    [
+                        -0.4999997913837433,
+                        0.5000002384185791,
+                        0.4999997615814209,
+                        0.5000002384185791
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "top",
+    "rotation_tag": "lying_flat"
+}

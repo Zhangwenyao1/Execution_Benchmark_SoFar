@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "tape measure",
+        "can",
+        "toilet paper roll",
+        "fork"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/1574b13827734d54b6d9d86be8be71d1/material_2.urdf",
+        "ycb_16k_backup/010_potted_meat_can_google_16k/010_potted_meat_can_google_16k.urdf",
+        "objaverse_rescale/ea0cf48616e34708b73c82eb7c7366ca/material_2.urdf",
+        "objaverse_rescale/e98e7fb33743442383812b68608f7006/material_2.urdf"
+    ],
+    "target_obj_name": "fork",
+    "instruction": "Place the fork behind the tape measure on the table. We also need to specify the rotation of the object after placement:  the prong of the fork is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.37557810335306124,
+            -0.19806408015457203,
+            0.9705875037004598,
+            -0.676773216439713,
+            -0.0187030724041988,
+            0.45052305287292504,
+            -0.5819425980477351,
+            0.00042155978735536337,
+            0.004151622764766216,
+            0.00024907037732191384,
+            -0.11814341694116592,
+            -0.04106467589735985,
+            -0.12955547869205475
+        ],
+        [
+            0.46219872478608065,
+            -0.04278254240871917,
+            0.9017548583608306,
+            0.2811311938244754,
+            0.6331787340772786,
+            -0.6381518192383451,
+            -0.3358752717511506,
+            0.009478484280407429,
+            -0.007033907808363438,
+            0.0019335935357958078,
+            0.25205233693122864,
+            0.41083359718322754,
+            0.015846434980630875
+        ],
+        [
+            0.5050699253001196,
+            -0.2228526805106736,
+            0.9494847509488928,
+            0.006666334146211387,
+            0.024421310850129472,
+            -0.12049031618105997,
+            0.9923916783568887,
+            -0.0013618582161143422,
+            -0.0033346042037010193,
+            -0.0001596736692590639,
+            0.04254080355167389,
+            -0.016489412635564804,
+            0.00088392139878124
+        ],
+        [
+            0.5565413032253177,
+            0.12494921661381754,
+            0.9108408653094985,
+            0.24489759649282253,
+            0.7049262600597874,
+            -0.6288484888770216,
+            -0.21829730448918935,
+            -0.0008560317219235003,
+            -0.0007240192499011755,
+            0.035311464220285416,
+            0.22340194880962372,
+            1.2843669652938843,
+            -0.011525609530508518
+        ]
+    ],
+    "position_instruction": "Place the fork behind the tape measure on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the prong of the fork is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "prong_right",
+    "obj_codes": [
+        "1574b13827734d54b6d9d86be8be71d1",
+        "010",
+        "ea0cf48616e34708b73c82eb7c7366ca",
+        "e98e7fb33743442383812b68608f7006"
+    ],
+    "target_obj_code": "e98e7fb33743442383812b68608f7006",
+    "anno_target": {
+        "category": "fork",
+        "annotation": {
+            " the prong of the fork is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the prong of the fork is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.7071068286895752,
+                        0.0,
+                        0.0,
+                        0.7071067094802856
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "prong_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "prong_right"
+}

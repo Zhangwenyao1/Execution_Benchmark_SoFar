@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "box",
+        "camera",
+        "keyboard",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f81ca566b008446eb704cad4844603b6/material_2.urdf",
+        "objaverse_rescale/f6f8675406b7437faaf96a1f82062028/material_2.urdf",
+        "objaverse_rescale/0161b6232216457aa8f4f3393960ec85/material_2.urdf",
+        "objaverse_rescale/8ed38a92668a425eb16da938622d9ace/material_2.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.5913397167146804,
+            -0.19530634400163185,
+            0.9215662385153821,
+            -1.508648530023991e-05,
+            0.0002316749352216194,
+            0.043034977583544076,
+            0.9990735392369794,
+            0.00015215948224067688,
+            0.00023645733017474413,
+            -9.373610373586416e-05,
+            -0.002558114705607295,
+            0.0013300972059369087,
+            1.4450722574110841e-06
+        ],
+        [
+            0.36945806017046595,
+            -0.13438277710290353,
+            0.9580858158728514,
+            -0.4649676857308858,
+            0.21701008253362808,
+            0.290475046774575,
+            0.8076731532656772,
+            -0.00024164453498087823,
+            -0.0006608034018427134,
+            0.00025236589135602117,
+            0.0124235013499856,
+            -0.003829878754913807,
+            0.004694017581641674
+        ],
+        [
+            0.4623866834229834,
+            -0.04140883224766139,
+            0.9132955793337477,
+            0.5127197894175815,
+            0.21244898793121103,
+            0.1321219948660643,
+            0.82129630678532,
+            -0.0031350308563560247,
+            -0.0023775319568812847,
+            -0.00023150128254201263,
+            0.2786702811717987,
+            -0.27432772517204285,
+            -0.010297182947397232
+        ],
+        [
+            0.4785062686011782,
+            0.08040350412563689,
+            0.9112753370983219,
+            -0.5679289769058488,
+            0.41776818291239487,
+            -0.4209089628122231,
+            0.570755698667207,
+            0.00014409386494662613,
+            0.0024206137750297785,
+            -0.006290954537689686,
+            -0.05646728724241257,
+            0.0281831044703722,
+            0.019450906664133072
+        ]
+    ],
+    "position_instruction": "Place the hammer at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "f81ca566b008446eb704cad4844603b6",
+        "f6f8675406b7437faaf96a1f82062028",
+        "0161b6232216457aa8f4f3393960ec85",
+        "8ed38a92668a425eb16da938622d9ace"
+    ],
+    "target_obj_code": "8ed38a92668a425eb16da938622d9ace",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "center",
+    "rotation_tag": "handle_right"
+}

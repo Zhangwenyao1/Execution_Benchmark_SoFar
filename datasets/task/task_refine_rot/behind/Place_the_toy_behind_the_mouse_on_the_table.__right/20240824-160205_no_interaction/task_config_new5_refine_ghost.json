@@ -1,0 +1,85 @@
+{
+    "selected_obj_names": [
+        "mouse",
+        "toy"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/e51e63e374ee4c25ae3fb4a9c74bd335/material_2.urdf",
+        "ycb_16k_backup/072-a_toy_airplane_google_16k/072-a_toy_airplane_google_16k.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "Place the toy behind the mouse on the table. We also need to specify the rotation of the object after placement: the toy is facing right, with its head oriented towards left",
+    "init_obj_pos": [
+        [
+            0.32125664931043363,
+            0.02740240351849211,
+            0.9275075677776063,
+            0.7066173265387892,
+            0.02645842939975912,
+            0.026458954696639895,
+            0.7066058512814851,
+            0.0009204235975630581,
+            -0.001778510631993413,
+            -0.0004979053628630936,
+            0.06683983653783798,
+            0.025964170694351196,
+            0.004493651911616325
+        ],
+        [
+            0.44567993367326686,
+            -0.08030182182929309,
+            0.9001982968120967,
+            -0.0014247312406237395,
+            -0.0002352256355495302,
+            0.0609047291169731,
+            0.9981425393103842,
+            0.0006267931894399226,
+            0.00015994044952094555,
+            -0.0002550427452661097,
+            -0.0023961185943335295,
+            0.009446586482226849,
+            0.0006134418654255569
+        ]
+    ],
+    "position_instruction": "Place the toy behind the mouse on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement: the toy is facing right, with its head oriented towards left",
+    "rotation_instruction_label": "right",
+    "obj_codes": [
+        "e51e63e374ee4c25ae3fb4a9c74bd335",
+        "072-a"
+    ],
+    "target_obj_code": "072-a",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        -0.0,
+                        0.0,
+                        -0.9992738962173462,
+                        -0.038100600242614746
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        -0.0,
+                        0.0,
+                        -0.042994238436222076,
+                        0.9990752935409546
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "right"
+}

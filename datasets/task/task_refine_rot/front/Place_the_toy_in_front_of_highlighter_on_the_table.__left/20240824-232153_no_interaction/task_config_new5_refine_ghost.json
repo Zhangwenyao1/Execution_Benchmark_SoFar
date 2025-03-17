@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "highlighter",
+        "remote control",
+        "remote control",
+        "toy"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/fd058916fb8843c09b4a2e05e3ee894e/material_2.urdf",
+        "objaverse_rescale/c7ec86e7feb746489b30b4a01c2510af/material_2.urdf",
+        "objaverse_rescale/f1bbc61a42b94ee9a2976ca744f8962e/material_2.urdf",
+        "ycb_16k_backup/073-g_lego_duplo_google_16k/073-g_lego_duplo_google_16k.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "Place the toy in front of highlighter on the table. We also need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "init_obj_pos": [
+        [
+            0.6883058540117996,
+            0.054535480215438976,
+            0.914177832106778,
+            -0.6524942726868238,
+            0.28215860415212574,
+            -0.09860336938341514,
+            0.6963584721679317,
+            0.0036139003932476044,
+            0.0005884931306354702,
+            -0.0012575010769069195,
+            0.02111467905342579,
+            0.03207864239811897,
+            0.015798956155776978
+        ],
+        [
+            0.7104293236252216,
+            -0.2051664507545077,
+            0.9078710972716142,
+            0.6926465474070619,
+            0.14226873497399872,
+            0.13934245099263373,
+            0.6932416957781323,
+            -0.0006276501226238906,
+            0.0002775464381556958,
+            0.029030920937657356,
+            -0.1645141839981079,
+            -0.9336007833480835,
+            -0.02120080776512623
+        ],
+        [
+            0.4561440282499173,
+            -0.11307551176928567,
+            0.30361026525497437,
+            -0.5985876321792603,
+            0.374292254447937,
+            -0.37723347544670105,
+            0.5994105339050293,
+            0.0009719329536892474,
+            -0.00032182392897084355,
+            0.032003339380025864,
+            -0.33054685592651367,
+            0.5279272198677063,
+            -0.01871293969452381
+        ],
+        [
+            0.6327022910118103,
+            -0.13342386484146118,
+            0.30095088481903076,
+            0.001920237555168569,
+            -8.887347939889878e-05,
+            -0.12607118487358093,
+            0.9920192956924438,
+            -0.00048295388114638627,
+            0.00011449752491898835,
+            -0.003415240440517664,
+            -0.008263405412435532,
+            -0.03350723162293434,
+            -0.0023862451780587435
+        ]
+    ],
+    "position_instruction": "Place the toy in front of highlighter on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "rotation_instruction_label": "left",
+    "obj_codes": [
+        "fd058916fb8843c09b4a2e05e3ee894e",
+        "c7ec86e7feb746489b30b4a01c2510af",
+        "f1bbc61a42b94ee9a2976ca744f8962e",
+        "073-g"
+    ],
+    "target_obj_code": "073-g",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_left",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "left"
+}

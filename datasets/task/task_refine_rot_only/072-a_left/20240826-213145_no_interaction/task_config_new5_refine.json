@@ -1,0 +1,67 @@
+{
+    "selected_obj_names": [
+        "toy"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/072-a_toy_airplane_google_16k/072-a_toy_airplane_google_16k.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "We need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "init_obj_pos": [
+        [
+            0.4790037974507727,
+            0.13319104576320084,
+            0.9007585874809009,
+            -0.003032543051948378,
+            -0.00015893461432056822,
+            0.04810269395791103,
+            0.9988377792496732,
+            0.0009628630941733718,
+            0.00015824715956114233,
+            -0.0004178239614702761,
+            -0.0023959071841090918,
+            0.013879849575459957,
+            0.0004271967918612063
+        ]
+    ],
+    "position_instruction": "",
+    "rotation_instruction": "We need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "rotation_instruction_label": "left",
+    "obj_codes": [
+        "072-a"
+    ],
+    "target_obj_code": "072-a",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        -0.0,
+                        0.0,
+                        -0.9992738962173462,
+                        -0.038100600242614746
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        -0.0,
+                        0.0,
+                        -0.042994238436222076,
+                        0.9990752935409546
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_left",
+    "rot_tag_level": 1,
+    "position_tag": "rot_ins",
+    "rotation_tag": "left"
+}

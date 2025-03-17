@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "wrench",
+        "wineglass",
+        "hat"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/8a6cb4f7b0004f53830e270dc6e1ff1d/material_2.urdf",
+        "objaverse_rescale/afca0b1933b84b1dbebd1244f25e72fc/material_2.urdf",
+        "objaverse_rescale/dc02f9c1fd01432fadd6e7d15851dc37/material_2.urdf"
+    ],
+    "target_obj_name": "hat",
+    "instruction": "Place the hat to the right of the wrench on the table. We also need to specify the rotation of the object after placement:  the hat is placed in a tilted manner(not upright), with the sphere part in contact with the table.",
+    "init_obj_pos": [
+        [
+            0.662810577025322,
+            0.07757381298415522,
+            0.9018567637708943,
+            0.39541070146697005,
+            -0.5862161210948886,
+            0.39550171596268513,
+            0.5861564886652999,
+            -0.0013157089706510305,
+            -0.002073851879686117,
+            0.01298545952886343,
+            0.599853515625,
+            0.049729879945516586,
+            0.06687574833631516
+        ],
+        [
+            0.3347103264997405,
+            -0.07333830707005659,
+            0.9407036152849608,
+            0.003391295628301876,
+            0.02394302821644307,
+            0.02526384432329473,
+            0.9993882972517716,
+            0.0009994310094043612,
+            0.005466555245220661,
+            -0.00035379777546040714,
+            -0.14607547223567963,
+            0.029961692169308662,
+            -0.014317608438432217
+        ],
+        [
+            0.38966196459917957,
+            0.3205220725612818,
+            0.9447224855827664,
+            -0.8705648209827017,
+            0.02145653362813908,
+            -0.17816990827307158,
+            0.4581615363798942,
+            0.0004900789353996515,
+            0.0007127019925974309,
+            -0.00010953470336971804,
+            -0.016931934282183647,
+            0.01570320315659046,
+            -0.003888532053679228
+        ]
+    ],
+    "position_instruction": "Place the hat to the right of the wrench on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the hat is placed in a tilted manner(not upright), with the sphere part in contact with the table.",
+    "rotation_instruction_label": "hat_sideways",
+    "obj_codes": [
+        "8a6cb4f7b0004f53830e270dc6e1ff1d",
+        "afca0b1933b84b1dbebd1244f25e72fc",
+        "dc02f9c1fd01432fadd6e7d15851dc37"
+    ],
+    "target_obj_code": "dc02f9c1fd01432fadd6e7d15851dc37",
+    "anno_target": {
+        "category": "hat",
+        "annotation": {
+            " the hat is placed in a tilted manner(not upright), with the sphere part in contact with the table.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.19006666541099548,
+                        0.354581743478775,
+                        -0.8068916201591492,
+                        -0.4325186014175415
+                    ],
+                    [
+                        -0.017941374331712723,
+                        -0.6261371970176697,
+                        0.6202858686447144,
+                        0.4720971882343292
+                    ],
+                    [
+                        -0.38241448998451233,
+                        -0.7841233015060425,
+                        0.48870813846588135,
+                        0.008612249046564102
+                    ],
+                    [
+                        -0.3121756315231323,
+                        -0.4250824451446533,
+                        0.8460759520530701,
+                        0.077504001557827
+                    ],
+                    [
+                        0.10660324990749359,
+                        -0.5132120251655579,
+                        0.7850396633148193,
+                        0.3300940990447998
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "hat_sideways",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "hat_sideways"
+}

@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "spoon",
+        "hammer",
+        "bottle",
+        "marker"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/218768789fdd42bd95eb933046698499/material_2.urdf",
+        "objaverse_rescale/6d155e8051294915813e0c156e3cd6de/material_2.urdf",
+        "ycb_16k_backup/006_mustard_bottle_google_16k/006_mustard_bottle_google_16k.urdf",
+        "ycb_16k_backup/040_large_marker_google_16k/040_large_marker_google_16k.urdf"
+    ],
+    "target_obj_name": "marker",
+    "instruction": "Place the marker to the right of the spoon on the table. We also need to specify the rotation of the object after placement:  the cap of the marker is on the right(oriented towards right), while its body (the area we generally grab it) is on the left.",
+    "init_obj_pos": [
+        [
+            0.7017664816633002,
+            -0.053096831741959435,
+            0.9071859563811117,
+            0.014524908367049134,
+            0.02393814284380688,
+            0.008624337755048606,
+            0.9995707144331546,
+            -0.00022998650092631578,
+            0.004688017535954714,
+            0.03252137824892998,
+            -0.4296886622905731,
+            -2.7894341945648193,
+            0.04566321521997452
+        ],
+        [
+            0.5052108525833499,
+            -0.19330734545484576,
+            0.916151521461404,
+            -0.03480313513544708,
+            -0.706252394340983,
+            -0.04580829149277751,
+            0.7056188048109863,
+            0.005900923162698746,
+            -0.0015609351685270667,
+            0.024402311071753502,
+            0.0040145739912986755,
+            0.6902867555618286,
+            0.021369824185967445
+        ],
+        [
+            0.6533908966697874,
+            -0.068078273570649,
+            0.9030930467987948,
+            0.000301832951505049,
+            4.149121364049839e-05,
+            -0.05802351389214911,
+            0.9983151701797159,
+            -0.0009122019982896745,
+            -0.00039152769022621214,
+            -0.0002979213313665241,
+            0.007002729922533035,
+            -0.013316684402525425,
+            0.0044526937417685986
+        ],
+        [
+            0.6815776825539425,
+            0.26178823532072976,
+            0.9315834901865434,
+            -0.36832426007755104,
+            -0.2191379581542964,
+            -0.7867312880874635,
+            0.4442630696766619,
+            -0.0019447176018729806,
+            -0.0004000414628535509,
+            0.033709701150655746,
+            1.4117993116378784,
+            0.709388792514801,
+            -0.12051878869533539
+        ]
+    ],
+    "position_instruction": "Place the marker to the right of the spoon on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the cap of the marker is on the right(oriented towards right), while its body (the area we generally grab it) is on the left.",
+    "rotation_instruction_label": "cap_right",
+    "obj_codes": [
+        "218768789fdd42bd95eb933046698499",
+        "6d155e8051294915813e0c156e3cd6de",
+        "006",
+        "040"
+    ],
+    "target_obj_code": "040",
+    "anno_target": {
+        "category": "marker",
+        "annotation": {
+            " the cap of the marker is on the left(oriented towards left), while its body (the area we generally grab it) is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the cap of the marker is on the right(oriented towards right), while its body (the area we generally grab it) is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "cap_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "cap_right"
+}

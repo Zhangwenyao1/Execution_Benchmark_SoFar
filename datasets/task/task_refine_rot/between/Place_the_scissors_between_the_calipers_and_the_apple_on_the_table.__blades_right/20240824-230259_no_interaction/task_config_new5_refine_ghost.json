@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "calipers",
+        "apple",
+        "knife",
+        "scissors"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/95c967114b624291bc26bcd705aaa334/material_2.urdf",
+        "objaverse_rescale/f53d75bd123b40bca14d12d54286f432/material_2.urdf",
+        "ycb_16k_backup/032_knife_google_16k/032_knife_google_16k.urdf",
+        "ycb_16k_backup/037_scissors_google_16k/037_scissors_google_16k.urdf"
+    ],
+    "target_obj_name": "scissors",
+    "instruction": "Place the scissors between the calipers and the apple on the table. We also need to specify the rotation of the object after placement:  the blades of the scissors are on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.6484674766995757,
+            0.1888357840889054,
+            0.902638748218405,
+            -0.7060124491139216,
+            -0.06288908599341964,
+            0.0627997708417348,
+            0.7026005788079751,
+            -0.008808928541839123,
+            -0.0027635081205517054,
+            0.03264347463846207,
+            -10.025784492492676,
+            -1.8610388040542603,
+            -0.6880095601081848
+        ],
+        [
+            0.5859325326555916,
+            -0.07918991111474996,
+            0.968268185134549,
+            0.0680724376352749,
+            0.037908348895614286,
+            -0.08925655258808284,
+            0.9929563777621299,
+            0.004341532941907644,
+            0.0016662050038576126,
+            -0.0006856879335828125,
+            -0.02793191745877266,
+            0.0802542045712471,
+            -0.006554998457431793
+        ],
+        [
+            0.31707280034299645,
+            -0.14603254166848045,
+            0.9164354967549628,
+            0.23472676869016734,
+            0.0140780268220046,
+            -0.013974507504916016,
+            0.9718589745230874,
+            0.0044744121842086315,
+            0.00035436611506156623,
+            0.03321635350584984,
+            -7.451456069946289,
+            1.6627823114395142,
+            0.7433506846427917
+        ],
+        [
+            0.3300056894216868,
+            -0.01981001820134528,
+            0.9001621112841401,
+            -0.000934476685011969,
+            -0.0014718835840112055,
+            0.07675679585693314,
+            0.9970483210967344,
+            -0.0017260771710425615,
+            0.007138641085475683,
+            0.00042621465399861336,
+            -0.6111694574356079,
+            -1.5633331537246704,
+            0.14118967950344086
+        ]
+    ],
+    "position_instruction": "Place the scissors between the calipers and the apple on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the blades of the scissors are on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blades_right",
+    "obj_codes": [
+        "95c967114b624291bc26bcd705aaa334",
+        "f53d75bd123b40bca14d12d54286f432",
+        "032",
+        "037"
+    ],
+    "target_obj_code": "037",
+    "anno_target": {
+        "category": "scissors",
+        "annotation": {
+            " the blades of the scissors are on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.9899005889892578,
+                        0.1417630910873413
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blades of the scissors are on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.13520878553390503,
+                        0.990817129611969
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blades_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "blades_right"
+}

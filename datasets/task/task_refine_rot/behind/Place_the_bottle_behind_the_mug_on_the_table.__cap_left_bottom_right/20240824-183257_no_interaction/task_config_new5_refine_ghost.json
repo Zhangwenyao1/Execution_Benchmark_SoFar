@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "mug",
+        "bottle"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/025_mug_google_16k/025_mug_google_16k.urdf",
+        "objaverse_rescale/9321c45cb9cf459f9f803507d3a11fb3/material_2.urdf",
+        "objaverse_rescale/8c0f8088a5d546c886d1b07e3f4eafae/material_2.urdf"
+    ],
+    "target_obj_name": "bottle",
+    "instruction": "Place the bottle behind the mug on the table. We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.",
+    "init_obj_pos": [
+        [
+            0.6952668851564373,
+            0.22115488934035515,
+            0.9004577451864577,
+            0.0002628538230069307,
+            -0.0013805929474018824,
+            0.6632167959349538,
+            0.7484260193638084,
+            0.0008968498441390693,
+            -3.1940347980707884e-05,
+            -0.0004559701483231038,
+            0.0033201705664396286,
+            0.02686062455177307,
+            0.008103113621473312
+        ],
+        [
+            0.5232045132038061,
+            0.12290727804000687,
+            0.3536544144153595,
+            0.8743738532066345,
+            0.474976509809494,
+            0.09519597887992859,
+            0.028376489877700806,
+            -0.0009543579653836787,
+            0.0020665531046688557,
+            1.1988012374786194e-05,
+            -0.0329657681286335,
+            -0.015058189630508423,
+            -0.024875985458493233
+        ],
+        [
+            0.5151993632316589,
+            -0.09441779553890228,
+            0.32312288880348206,
+            -0.04121841862797737,
+            0.5493113398551941,
+            0.05834055691957474,
+            0.8325589895248413,
+            -0.0023854768369346857,
+            0.0010416769655421376,
+            -0.0013582935789600015,
+            -0.04240115359425545,
+            -0.08684642612934113,
+            -0.009667770937085152
+        ]
+    ],
+    "position_instruction": "Place the bottle behind the mug on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.",
+    "rotation_instruction_label": "cap_left_bottom_right",
+    "obj_codes": [
+        "025",
+        "9321c45cb9cf459f9f803507d3a11fb3",
+        "8c0f8088a5d546c886d1b07e3f4eafae"
+    ],
+    "target_obj_code": "8c0f8088a5d546c886d1b07e3f4eafae",
+    "anno_target": {
+        "category": "bottle",
+        "annotation": {
+            " the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "cap_left_bottom_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "cap_left_bottom_right"
+}

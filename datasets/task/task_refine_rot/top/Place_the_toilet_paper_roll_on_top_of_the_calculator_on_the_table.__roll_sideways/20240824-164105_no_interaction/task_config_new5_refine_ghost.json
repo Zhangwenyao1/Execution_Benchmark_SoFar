@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "calculator",
+        "toilet paper roll"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/69511a7fad2f42ee8c4b0579bbc8fec6/material_2.urdf",
+        "objaverse_rescale/ea0cf48616e34708b73c82eb7c7366ca/material_2.urdf"
+    ],
+    "target_obj_name": "toilet paper roll",
+    "instruction": "Place the toilet paper roll on top of the calculator on the table. We also need to specify the rotation of the object after placement:  the paper roll is lying sideways on the table, with its lateral surface in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.5112758801994128,
+            0.2140153948475014,
+            0.9102589608506977,
+            -0.00018067378955771872,
+            9.737795305976025e-05,
+            0.00831722458823716,
+            0.9999653902259147,
+            0.0011818568455055356,
+            0.0010443569626659155,
+            -0.008321748115122318,
+            -0.1145051047205925,
+            0.018002692610025406,
+            -0.019150976091623306
+        ],
+        [
+            0.4276245280317059,
+            0.04246889898183471,
+            0.9495373659904393,
+            6.259363084660228e-05,
+            -0.0006053651058491328,
+            -0.060211686086612114,
+            0.9981854449318189,
+            -0.00021772847685497254,
+            -0.001156238722614944,
+            -2.9977341910125688e-05,
+            0.014749467372894287,
+            -0.0027818784583359957,
+            1.1362858458596747e-05
+        ]
+    ],
+    "position_instruction": "Place the toilet paper roll on top of the calculator on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the paper roll is lying sideways on the table, with its lateral surface in contact with the tabletop.",
+    "rotation_instruction_label": "roll_sideways",
+    "obj_codes": [
+        "69511a7fad2f42ee8c4b0579bbc8fec6",
+        "ea0cf48616e34708b73c82eb7c7366ca"
+    ],
+    "target_obj_code": "ea0cf48616e34708b73c82eb7c7366ca",
+    "anno_target": {
+        "category": "toilet_paper_roll",
+        "annotation": {
+            " the paper roll is standing upright on the table, in the shape of a cylinder, and the axis(height) of the cylinder is perpendicular to the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the paper roll is lying sideways on the table, with its lateral surface in contact with the tabletop.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            }
+        }
+    },
+    "rot_tag_detail": "roll_sideways",
+    "rot_tag_level": 0,
+    "position_tag": "top",
+    "rotation_tag": "roll_sideways"
+}

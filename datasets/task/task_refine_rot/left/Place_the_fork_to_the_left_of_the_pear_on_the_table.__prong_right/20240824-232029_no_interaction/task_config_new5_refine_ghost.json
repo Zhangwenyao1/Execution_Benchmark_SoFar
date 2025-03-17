@@ -1,0 +1,85 @@
+{
+    "selected_obj_names": [
+        "pear",
+        "fork"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f3dd3064db4f4e8880344425970cecad/material_2.urdf",
+        "objaverse_rescale/e98e7fb33743442383812b68608f7006/material_2.urdf"
+    ],
+    "target_obj_name": "fork",
+    "instruction": "Place the fork to the left of the pear on the table. We also need to specify the rotation of the object after placement:  the prong of the fork is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.3369099804100552,
+            -0.010208292756809824,
+            0.9343877746216989,
+            -0.17347717450006858,
+            0.0015597283307018951,
+            -0.0013822391933402927,
+            0.9848356850712809,
+            -0.001766961649991572,
+            0.0018066148040816188,
+            -0.0002530285273678601,
+            -0.04343018680810928,
+            -0.051277581602334976,
+            -0.05396655946969986
+        ],
+        [
+            0.39080035255027895,
+            -0.09430988999478414,
+            0.9060975442206545,
+            0.6514148482326017,
+            -0.272974263511657,
+            -0.2092575049857491,
+            0.6762802995574431,
+            -0.007600861135870218,
+            0.011421187780797482,
+            0.0015563848428428173,
+            0.04329794645309448,
+            -0.1395765244960785,
+            1.0448551177978516
+        ]
+    ],
+    "position_instruction": "Place the fork to the left of the pear on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the prong of the fork is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "prong_right",
+    "obj_codes": [
+        "f3dd3064db4f4e8880344425970cecad",
+        "e98e7fb33743442383812b68608f7006"
+    ],
+    "target_obj_code": "e98e7fb33743442383812b68608f7006",
+    "anno_target": {
+        "category": "fork",
+        "annotation": {
+            " the prong of the fork is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the prong of the fork is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.7071068286895752,
+                        0.0,
+                        0.0,
+                        0.7071067094802856
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "prong_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "prong_right"
+}

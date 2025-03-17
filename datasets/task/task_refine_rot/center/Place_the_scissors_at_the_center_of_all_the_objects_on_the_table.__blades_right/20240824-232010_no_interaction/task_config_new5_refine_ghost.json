@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "tape measure",
+        "ladle",
+        "hammer",
+        "scissors"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/7138f5e13b2e4e17975c23ba5584164b/material_2.urdf",
+        "objaverse_rescale/ce27e3369587476c85a436905f1e5c00/material_2.urdf",
+        "objaverse_rescale/9bf1b31f641543c9a921042dac3b527f/material_2.urdf",
+        "objaverse_rescale/2b1120c4b517409184413ed709c57a66/material_2.urdf"
+    ],
+    "target_obj_name": "scissors",
+    "instruction": "Place the scissors at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the blades of the scissors are on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.49449289590002415,
+            0.21272177353728225,
+            0.9173253443214416,
+            0.048974058931937244,
+            -0.006857861265644257,
+            0.03822753546770928,
+            0.9980446717570596,
+            0.002569410018622875,
+            -0.0013051178539171815,
+            -0.00037002965109422803,
+            0.06376097351312637,
+            0.09167326241731644,
+            0.005591992288827896
+        ],
+        [
+            0.6438923639103669,
+            0.09150625130695868,
+            0.9194577120301173,
+            0.005741832842089211,
+            -0.021940807163347106,
+            -0.15573534705407321,
+            0.9875384215384135,
+            0.0023897169157862663,
+            -0.0005392700550146401,
+            -0.009412170387804508,
+            0.19310714304447174,
+            1.1955622434616089,
+            0.27417948842048645
+        ],
+        [
+            0.4676854970921633,
+            0.10362071360261207,
+            0.9075528473902474,
+            0.19725644107946552,
+            0.6787429279573086,
+            0.21300119839490259,
+            -0.6745579468681253,
+            -0.00023618829436600208,
+            0.0019113807938992977,
+            0.031039530411362648,
+            -0.7296048998832703,
+            -0.07792424410581589,
+            0.07775744795799255
+        ],
+        [
+            0.3647854203710588,
+            -0.13732859255064614,
+            0.9045097803160197,
+            -0.06892564832814779,
+            0.9975870841702105,
+            -0.003323526806457297,
+            0.007630115915735304,
+            0.004359537269920111,
+            0.004349433351308107,
+            0.002434600843116641,
+            -0.6547221541404724,
+            0.9009250402450562,
+            -0.28858473896980286
+        ]
+    ],
+    "position_instruction": "Place the scissors at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the blades of the scissors are on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blades_right",
+    "obj_codes": [
+        "7138f5e13b2e4e17975c23ba5584164b",
+        "ce27e3369587476c85a436905f1e5c00",
+        "9bf1b31f641543c9a921042dac3b527f",
+        "2b1120c4b517409184413ed709c57a66"
+    ],
+    "target_obj_code": "2b1120c4b517409184413ed709c57a66",
+    "anno_target": {
+        "category": "scissors",
+        "annotation": {
+            " the blades of the scissors are on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blades of the scissors are on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blades_right",
+    "rot_tag_level": 1,
+    "position_tag": "center",
+    "rotation_tag": "blades_right"
+}

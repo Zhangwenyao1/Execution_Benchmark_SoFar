@@ -1,0 +1,97 @@
+{
+    "selected_obj_names": [
+        "spoon",
+        "fork",
+        "watch"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/e1745c4aa7c046a2b5193d2d23be0192/material_2.urdf",
+        "ycb_16k_backup/030_fork_google_16k/030_fork_google_16k.urdf",
+        "objaverse_rescale/243b381dcdc34316a7e78a533572d273/material_2.urdf"
+    ],
+    "target_obj_name": "watch",
+    "instruction": "Place the watch in front of spoon on the table. We also need to specify the rotation of the object after placement:  the watch is placed steadily on the table, and its contact with the table is in the shape of a circle, which means that the bringe of the watch bracelet is in touch with the table and while the plane of the watch dial is perpendicular to the table.",
+    "init_obj_pos": [
+        [
+            0.5532758469763138,
+            0.11466031960425305,
+            0.9072567360048899,
+            -0.5278239889849344,
+            0.5062206725007038,
+            -0.36150160029972317,
+            0.5783243556739648,
+            0.006682715378701687,
+            0.00027346049319021404,
+            0.03221994265913963,
+            -9.77259349822998,
+            -3.674295425415039,
+            -1.3581583499908447
+        ],
+        [
+            0.5914178599217681,
+            0.28441235845170865,
+            0.9021964934220073,
+            0.043407549889394645,
+            0.0055270556418055864,
+            0.13540691593236426,
+            0.9898233192778487,
+            -0.0001459454942960292,
+            0.0019588095601648092,
+            -0.0020331440027803183,
+            -0.09627401828765869,
+            -0.051574792712926865,
+            0.03750905767083168
+        ],
+        [
+            0.513870054669295,
+            0.13064780877460103,
+            0.9405312120219026,
+            0.09829412454282964,
+            0.009120081878677739,
+            0.09579035167760154,
+            0.9904944713184247,
+            -0.0009479697910137475,
+            0.002356730168685317,
+            -0.0011121244169771671,
+            -0.04506159573793411,
+            -0.029565881937742233,
+            -0.043987859040498734
+        ]
+    ],
+    "position_instruction": "Place the watch in front of spoon on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the watch is placed steadily on the table, and its contact with the table is in the shape of a circle, which means that the bringe of the watch bracelet is in touch with the table and while the plane of the watch dial is perpendicular to the table.",
+    "rotation_instruction_label": "watch_upright",
+    "obj_codes": [
+        "e1745c4aa7c046a2b5193d2d23be0192",
+        "030",
+        "243b381dcdc34316a7e78a533572d273"
+    ],
+    "target_obj_code": "243b381dcdc34316a7e78a533572d273",
+    "anno_target": {
+        "category": "watch",
+        "annotation": {
+            " the watch is placed steadily on the table, and its contact with the table is in the shape of a circle, which means that the bringe of the watch bracelet is in touch with the table and while the plane of the watch dial is perpendicular to the table.": {
+                "quat": [
+                    [
+                        -0.09765274077653885,
+                        -0.7010872960090637,
+                        0.10222410410642624,
+                        -0.6989211440086365
+                    ],
+                    [
+                        0.6981616020202637,
+                        0.09691125154495239,
+                        0.7018415331840515,
+                        -0.10294347256422043
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "watch_upright",
+    "rot_tag_level": 2,
+    "position_tag": "front",
+    "rotation_tag": "watch_upright"
+}

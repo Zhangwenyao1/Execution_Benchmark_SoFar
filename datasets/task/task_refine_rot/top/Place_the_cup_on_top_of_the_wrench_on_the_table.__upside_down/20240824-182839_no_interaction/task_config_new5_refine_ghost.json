@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "wrench",
+        "screwdriver",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf",
+        "ycb_16k_backup/043_phillips_screwdriver_google_16k/043_phillips_screwdriver_google_16k.urdf",
+        "ycb_16k_backup/065-f_cups_google_16k/065-f_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup on top of the wrench on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.36322860710190613,
+            -0.1413409118684656,
+            0.9027814940551917,
+            0.012908374078295903,
+            -0.015340102250898682,
+            0.09373241272824909,
+            0.9953955444674893,
+            0.0035694576799869537,
+            -0.0036736871115863323,
+            0.03476058691740036,
+            -0.4107063114643097,
+            0.4104236364364624,
+            0.11085981130599976
+        ],
+        [
+            0.3457620958482267,
+            0.0737128469990775,
+            0.901456758360272,
+            -0.024906346919937077,
+            -0.014009042757827207,
+            0.10608609280758122,
+            0.993946256855436,
+            -0.00040861309389583766,
+            -0.0002375852782279253,
+            -6.814786320319399e-05,
+            -0.008071006275713444,
+            -0.016600480303168297,
+            0.023118939250707626
+        ],
+        [
+            0.30357503717682616,
+            -0.15218165385778293,
+            0.9003519412696143,
+            0.0004847394381787587,
+            0.00021162268296887992,
+            0.0362802471653492,
+            0.9993415151534216,
+            -0.00023961903934832662,
+            -0.0014363640220835805,
+            -0.0024674348533153534,
+            0.032562609761953354,
+            0.008846229873597622,
+            -0.003298216499388218
+        ]
+    ],
+    "position_instruction": "Place the cup on top of the wrench on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "042",
+        "043",
+        "065-f"
+    ],
+    "target_obj_code": "065-f",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "top",
+    "rotation_tag": "upside_down"
+}

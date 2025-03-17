@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "box",
+        "stapler"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/c609327dd3a74fb597584e1b4a14a615/material_2.urdf",
+        "ycb_16k_backup/004_sugar_box_google_16k/004_sugar_box_google_16k.urdf",
+        "objaverse_rescale/d2c345be5c084b4e8c92b48f7be69315/material_2.urdf"
+    ],
+    "target_obj_name": "stapler",
+    "instruction": "Place the stapler behind the mug on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.38692626800844565,
+            0.17064032833309709,
+            0.9356015166773214,
+            -0.09368944533776273,
+            0.010976220483464038,
+            -0.1155967489307151,
+            0.9888069589423656,
+            0.0031023677438497543,
+            -0.002155203837901354,
+            -0.0008009561570361257,
+            0.03839634358882904,
+            0.053321473300457,
+            0.02493598870933056
+        ],
+        [
+            0.5475043659562686,
+            -0.008597789128836653,
+            0.8998706707962147,
+            -0.0006447290534307684,
+            -0.00011863027305341947,
+            0.016148161847099357,
+            0.9998693950313037,
+            -0.0031149571295827627,
+            -0.0022851715330034494,
+            -0.000893944117706269,
+            0.028053734451532364,
+            -0.03924807161092758,
+            -0.015028901398181915
+        ],
+        [
+            0.5338592971113435,
+            -0.20616108140117292,
+            0.9213146237173944,
+            -0.08055932043957992,
+            0.37005949142877187,
+            0.08817895606109008,
+            0.9212983449468302,
+            0.0006780450348742306,
+            0.00742302555590868,
+            -0.003356205765157938,
+            -0.40504878759384155,
+            0.04090099036693573,
+            0.006766739301383495
+        ]
+    ],
+    "position_instruction": "Place the stapler behind the mug on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "c609327dd3a74fb597584e1b4a14a615",
+        "004",
+        "d2c345be5c084b4e8c92b48f7be69315"
+    ],
+    "target_obj_code": "d2c345be5c084b4e8c92b48f7be69315",
+    "anno_target": {
+        "category": "stapler",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "upright"
+}

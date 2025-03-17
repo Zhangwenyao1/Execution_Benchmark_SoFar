@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "calculator",
+        "wrench",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/054be0c3f09143f38c4d8038eb2588c6/material_2.urdf",
+        "objaverse_rescale/5bf781c9fd8d4121b735503b13ba2eaf/material_2.urdf",
+        "ycb_16k_backup/065-g_cups_google_16k/065-g_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup behind the calculator on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6286256091321584,
+            -0.11662008034786774,
+            0.9056167512686262,
+            0.00012005759072343397,
+            -0.00011622596051603511,
+            -0.10690248951073716,
+            0.9942694955665231,
+            -0.008237499743700027,
+            -0.005106515716761351,
+            0.0053866212256252766,
+            0.0056383428163826466,
+            -0.1392120122909546,
+            0.03411737456917763
+        ],
+        [
+            0.5010157673298287,
+            -0.12153552248943379,
+            0.9107729385800443,
+            0.7093534157070119,
+            0.014804644778950927,
+            0.07766098723173527,
+            0.700405115044114,
+            -0.007523349951952696,
+            -0.00016823734040372074,
+            0.03194376081228256,
+            -1.0596225261688232,
+            -1.200824499130249,
+            -0.3443284034729004
+        ],
+        [
+            0.47704506807030805,
+            -0.03847296765843644,
+            0.9005639093755534,
+            0.0005445034689850322,
+            -0.0013035485084434357,
+            0.11333298172618798,
+            0.9935560575681223,
+            0.0014789164997637272,
+            0.01099378801882267,
+            -0.00373626034706831,
+            -0.3706537187099457,
+            0.069484643638134,
+            0.0019095405004918575
+        ]
+    ],
+    "position_instruction": "Place the cup behind the calculator on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "054be0c3f09143f38c4d8038eb2588c6",
+        "5bf781c9fd8d4121b735503b13ba2eaf",
+        "065-g"
+    ],
+    "target_obj_code": "065-g",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "upside_down"
+}

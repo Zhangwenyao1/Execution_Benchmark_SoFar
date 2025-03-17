@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "watch",
+        "wrench",
+        "skillet"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/243b381dcdc34316a7e78a533572d273/material_2.urdf",
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf",
+        "ycb_16k_backup/027_skillet_google_16k/027_skillet_google_16k.urdf"
+    ],
+    "target_obj_name": "skillet",
+    "instruction": "Place the skillet between the watch and the wrench on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.522134989173367,
+            -0.16424156580624308,
+            0.9248360177409397,
+            0.10180381845741483,
+            -0.0067852959486336545,
+            -0.06596491694857816,
+            0.9925918456436901,
+            0.0003609700361266732,
+            0.0009496606653556228,
+            -0.0004088750865776092,
+            -0.010333884507417679,
+            -0.0024901232682168484,
+            -0.07048273086547852
+        ],
+        [
+            0.6615774966597711,
+            0.07559039349960371,
+            0.9027450806409096,
+            0.011192534790856284,
+            -0.01823265219910028,
+            -0.04713627185748661,
+            0.9986593360271159,
+            0.0018335101194679737,
+            -0.003520324593409896,
+            0.034414514899253845,
+            0.09436330944299698,
+            -0.4478171765804291,
+            0.21572327613830566
+        ],
+        [
+            0.3296517266542673,
+            0.2556334125060882,
+            0.9032230690355677,
+            0.014527944949468694,
+            0.006577786989104219,
+            -0.0626573510473118,
+            0.9979076750349236,
+            0.00033909911871887743,
+            7.111984450602904e-05,
+            -5.795052493340336e-05,
+            0.0007775079575367272,
+            0.0033031105995178223,
+            0.0018459137063473463
+        ]
+    ],
+    "position_instruction": "Place the skillet between the watch and the wrench on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "243b381dcdc34316a7e78a533572d273",
+        "042",
+        "027"
+    ],
+    "target_obj_code": "027",
+    "anno_target": {
+        "category": "skillet",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upright"
+}

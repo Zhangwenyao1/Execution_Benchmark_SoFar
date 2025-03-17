@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "marker",
+        "cup",
+        "eraser",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/040_large_marker_google_16k/040_large_marker_google_16k.urdf",
+        "ycb_16k_backup/065-e_cups_google_16k/065-e_cups_google_16k.urdf",
+        "objaverse_rescale/f0916a69ba514ecc973b44528b9dcc43/material_2.urdf",
+        "objaverse_rescale/9321c45cb9cf459f9f803507d3a11fb3/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug behind the marker on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "init_obj_pos": [
+        [
+            0.33656925792642717,
+            0.04253633261288612,
+            0.8813184080062786,
+            0.42382915450615033,
+            -0.2062674742573112,
+            -0.7115959959345174,
+            -0.5210122027592765,
+            0.050237007439136505,
+            0.13601627945899963,
+            -0.09492917358875275,
+            87.15747833251953,
+            16.31081771850586,
+            5.023782730102539
+        ],
+        [
+            0.27156157452037694,
+            0.11781374768298965,
+            0.9684346615776256,
+            0.6000970039202038,
+            -0.3136116820683787,
+            0.5685822621978048,
+            0.4671675394012983,
+            -0.08100597560405731,
+            0.17059655487537384,
+            -0.026156757026910782,
+            -7.478810787200928,
+            0.24153411388397217,
+            3.864649534225464
+        ],
+        [
+            0.4453030911990101,
+            -0.06155874537446881,
+            0.9106665360794746,
+            0.6897139363088756,
+            0.11470007210821301,
+            0.14083567514194065,
+            0.700930732759666,
+            -0.01262927521020174,
+            0.00353088672272861,
+            0.024281807243824005,
+            0.8689508438110352,
+            -1.131367802619934,
+            0.07113365083932877
+        ],
+        [
+            0.6349701413030998,
+            -0.10005068811978206,
+            0.9637037319444965,
+            0.07023558815301369,
+            -0.24295695295736652,
+            -0.045633939293025366,
+            0.9664142097212104,
+            -0.0010186232393607497,
+            0.0014404484536498785,
+            -0.0008945689187385142,
+            -0.027450906112790108,
+            -0.017227722331881523,
+            0.008386226370930672
+        ]
+    ],
+    "position_instruction": "Place the mug behind the marker on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "rotation_instruction_label": "handle_left",
+    "obj_codes": [
+        "040",
+        "065-e",
+        "f0916a69ba514ecc973b44528b9dcc43",
+        "9321c45cb9cf459f9f803507d3a11fb3"
+    ],
+    "target_obj_code": "9321c45cb9cf459f9f803507d3a11fb3",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "handle_left"
+}

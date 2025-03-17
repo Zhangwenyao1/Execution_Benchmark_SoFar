@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "plate",
+        "tissue box",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/029_plate_google_16k/029_plate_google_16k.urdf",
+        "objaverse_rescale/2bd98e8ea09f49bd85453a927011d31d/material_2.urdf",
+        "ycb_16k_backup/065-f_cups_google_16k/065-f_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup between the plate and the tissue box on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.4148940564806597,
+            -0.10942567042386114,
+            0.9030422882503002,
+            -0.00013878014241993543,
+            -0.00017328817635614717,
+            -0.11879712518951037,
+            0.9929185232223166,
+            5.673831037711352e-05,
+            -4.664933294407092e-05,
+            -0.0002784636162687093,
+            0.0032750980462878942,
+            0.006591082084923983,
+            -0.0002658891899045557
+        ],
+        [
+            0.3135712503146595,
+            0.20906547376038376,
+            0.9149068189395277,
+            -0.0009809009058126684,
+            1.5256411613305336e-05,
+            -0.01605284132224063,
+            0.999870663579114,
+            0.00020520936232060194,
+            0.0003750848991330713,
+            -0.00013945029058959335,
+            -0.004075226373970509,
+            0.0023048040457069874,
+            -0.0002151743246940896
+        ],
+        [
+            0.6904628169226095,
+            0.23461901293265586,
+            0.9003510936323827,
+            0.0004618453282054184,
+            0.000247367042322948,
+            0.056082639242775185,
+            0.9984259927926569,
+            0.002076525939628482,
+            -0.00043343257857486606,
+            -0.004110765177756548,
+            -0.0018640778725966811,
+            0.07678171247243881,
+            -0.019577709957957268
+        ]
+    ],
+    "position_instruction": "Place the cup between the plate and the tissue box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "029",
+        "2bd98e8ea09f49bd85453a927011d31d",
+        "065-f"
+    ],
+    "target_obj_code": "065-f",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

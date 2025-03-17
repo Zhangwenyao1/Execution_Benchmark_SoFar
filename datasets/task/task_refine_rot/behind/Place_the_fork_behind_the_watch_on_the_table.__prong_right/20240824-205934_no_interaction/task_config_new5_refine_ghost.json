@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "watch",
+        "remote control",
+        "fork"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/243b381dcdc34316a7e78a533572d273/material_2.urdf",
+        "objaverse_rescale/d72eebbf82be48f0a53e7e8b712e6a66/material_2.urdf",
+        "ycb_16k_backup/030_fork_google_16k/030_fork_google_16k.urdf"
+    ],
+    "target_obj_name": "fork",
+    "instruction": "Place the fork behind the watch on the table. We also need to specify the rotation of the object after placement:  the prong of the fork is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.548462670625122,
+            0.1690607251903315,
+            0.9249351636223383,
+            0.0995785633700731,
+            -0.007528940167428167,
+            -0.025714446913496447,
+            0.9946688856081914,
+            0.00014608187484554946,
+            0.00083818135317415,
+            -0.0004728812782559544,
+            -0.00868686381727457,
+            -0.0037520076148211956,
+            -0.052612241357564926
+        ],
+        [
+            0.6164168566454751,
+            -0.012095766227092082,
+            0.9124788156271092,
+            -0.02818047046725496,
+            -0.021055535947555677,
+            0.07130674558354778,
+            0.9968339247459865,
+            0.0012260926887392998,
+            0.0006569346878677607,
+            -5.51057601114735e-05,
+            -0.0029726573266088963,
+            0.17967857420444489,
+            -0.008906630799174309
+        ],
+        [
+            0.58465922380272,
+            -0.1914096306545806,
+            0.9029001791812014,
+            0.05573284998518987,
+            0.006308221943108804,
+            0.09048334293269435,
+            0.9943172634628089,
+            0.0005635088309645653,
+            0.0033342728856951,
+            -0.0008116514072753489,
+            -0.8311260342597961,
+            -0.2258700728416443,
+            -0.16716696321964264
+        ]
+    ],
+    "position_instruction": "Place the fork behind the watch on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the prong of the fork is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "prong_right",
+    "obj_codes": [
+        "243b381dcdc34316a7e78a533572d273",
+        "d72eebbf82be48f0a53e7e8b712e6a66",
+        "030"
+    ],
+    "target_obj_code": "030",
+    "anno_target": {
+        "category": "fork",
+        "annotation": {
+            " the prong of the fork is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the prong of the fork is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "prong_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "prong_right"
+}

@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "box",
+        "knife",
+        "clipboard"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/009_gelatin_box_google_16k/009_gelatin_box_google_16k.urdf",
+        "objaverse_rescale/85db1d392a89459dbde5cdd951c4f6fb/material_2.urdf",
+        "objaverse_rescale/a37158f20ccf436483029e8295629738/material_2.urdf"
+    ],
+    "target_obj_name": "clipboard",
+    "instruction": "Place the clipboard to the left of the box on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.4844736138655447,
+            0.027465528949369922,
+            0.919589015138902,
+            -0.09456162136527343,
+            -0.11853334842973608,
+            -0.4841240693186836,
+            0.8617608894473706,
+            -0.012180740013718605,
+            0.010187976993620396,
+            0.008695335127413273,
+            -1.3987683057785034,
+            -0.8379078507423401,
+            0.2561790645122528
+        ],
+        [
+            0.3583017874337328,
+            -0.05484916933129865,
+            0.9213248320418665,
+            -0.019114120671292114,
+            -0.010796016141957392,
+            -0.036128707207488925,
+            0.9991060068591033,
+            0.002174941124394536,
+            -0.002828767290338874,
+            -0.004108630586415529,
+            0.1816624253988266,
+            0.4129980802536011,
+            -0.003007825929671526
+        ],
+        [
+            0.39553190456426957,
+            0.2517098557505729,
+            0.9123651571672954,
+            0.6766805515021519,
+            -0.15350634470285743,
+            -0.03561244424183919,
+            0.7192155359625055,
+            0.007487996481359005,
+            -0.002570690354332328,
+            0.03973774611949921,
+            0.0318852961063385,
+            -0.6101742386817932,
+            0.06982250511646271
+        ]
+    ],
+    "position_instruction": "Place the clipboard to the left of the box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "009",
+        "85db1d392a89459dbde5cdd951c4f6fb",
+        "a37158f20ccf436483029e8295629738"
+    ],
+    "target_obj_code": "a37158f20ccf436483029e8295629738",
+    "anno_target": {
+        "category": "clipboard",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "upside_down"
+}

@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "box",
+        "box",
+        "remote control"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/003_cracker_box_google_16k/003_cracker_box_google_16k.urdf",
+        "objaverse_rescale/f81ca566b008446eb704cad4844603b6/material_2.urdf",
+        "objaverse_rescale/d72eebbf82be48f0a53e7e8b712e6a66/material_2.urdf"
+    ],
+    "target_obj_name": "remote control",
+    "instruction": "Place the remote control in front of box on the table. We also need to specify the rotation of the object after placement:  the remote control is lying flat on the tablel, and its buttons are all facing up, which means that the particular side of the remote-control that has all the buttons on it is parallel to the table plane.",
+    "init_obj_pos": [
+        [
+            0.6013961450836821,
+            0.21820359177401064,
+            0.9036106593978612,
+            -0.001266010783397321,
+            -0.011526275337962598,
+            -0.04536294094500832,
+            0.9989032714844555,
+            0.002042899141088128,
+            -0.0007385365315712988,
+            -0.0007730161305516958,
+            0.0068197185173630714,
+            0.024332838132977486,
+            -0.00048325321404263377
+        ],
+        [
+            0.6846671104431152,
+            0.04957174996506811,
+            0.3431273102760315,
+            5.038566450821236e-05,
+            0.0007671181228943169,
+            -0.06293705105781555,
+            0.9980172514915466,
+            0.00015380415425170213,
+            0.00025639418163336813,
+            -9.96245289570652e-05,
+            -0.002495997818186879,
+            0.001895603141747415,
+            0.00013181453687138855
+        ],
+        [
+            0.3161761164665222,
+            -0.06231321394443512,
+            0.3092147409915924,
+            0.011009876616299152,
+            -0.0005068077007308602,
+            -0.046236440539360046,
+            0.9988697171211243,
+            0.0009929287480190396,
+            0.0010168544249609113,
+            0.00013540325744543225,
+            0.002985874190926552,
+            -0.023570368066430092,
+            0.018122252076864243
+        ]
+    ],
+    "position_instruction": "Place the remote control in front of box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the remote control is lying flat on the tablel, and its buttons are all facing up, which means that the particular side of the remote-control that has all the buttons on it is parallel to the table plane.",
+    "rotation_instruction_label": "remote_control_forth",
+    "obj_codes": [
+        "003",
+        "f81ca566b008446eb704cad4844603b6",
+        "d72eebbf82be48f0a53e7e8b712e6a66"
+    ],
+    "target_obj_code": "d72eebbf82be48f0a53e7e8b712e6a66",
+    "anno_target": {
+        "category": "remote_control",
+        "annotation": {
+            " the remote control is lying flat on the tablel, and its buttons are all facing up, which means that the particular side of the remote-control that has all the buttons on it is parallel to the table plane.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "remote_control_forth",
+    "rot_tag_level": 2,
+    "position_tag": "front",
+    "rotation_tag": "remote_control_forth"
+}

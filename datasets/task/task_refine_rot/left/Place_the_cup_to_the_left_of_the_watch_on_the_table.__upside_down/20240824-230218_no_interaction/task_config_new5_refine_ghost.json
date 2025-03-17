@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "watch",
+        "pot",
+        "spoon",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/243b381dcdc34316a7e78a533572d273/material_2.urdf",
+        "objaverse_rescale/cba3e4df7c354d22b7913d45a28a8159/material_2.urdf",
+        "objaverse_rescale/e1745c4aa7c046a2b5193d2d23be0192/material_2.urdf",
+        "ycb_16k_backup/065-e_cups_google_16k/065-e_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup to the left of the watch on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6289288590849966,
+            -0.0682637496184748,
+            0.9248367792929678,
+            0.10155103245517613,
+            -0.00916130836189087,
+            -0.08946477662254317,
+            0.9907570398338161,
+            0.00040147514664568007,
+            0.000684664468280971,
+            -0.00012196439638501033,
+            -0.005714214872568846,
+            0.0032601007260382175,
+            -0.01634308323264122
+        ],
+        [
+            0.6467360167139069,
+            0.16850727502268434,
+            0.9373614138865309,
+            -0.1177237582806156,
+            -0.021493649595655015,
+            0.09211526766434522,
+            0.9885311918328492,
+            -0.018102677538990974,
+            0.04607301205396652,
+            -0.0012332769110798836,
+            -0.7785264253616333,
+            -0.30620935559272766,
+            -0.007775682024657726
+        ],
+        [
+            0.6108456829861632,
+            -0.19210197117411798,
+            0.9072689683862437,
+            0.0031112533589603766,
+            0.7325376321569554,
+            -0.6804491480450963,
+            0.019180576141502908,
+            0.0010778822470456362,
+            -0.011244183406233788,
+            0.02837183140218258,
+            0.9333202242851257,
+            0.7938331365585327,
+            0.009184073656797409
+        ],
+        [
+            0.4099682770461811,
+            -0.03897382521164641,
+            0.9008530881437145,
+            0.0011125355483566253,
+            -0.0022786595415688555,
+            0.01736764097083731,
+            0.9998459556463957,
+            0.002485823817551136,
+            0.003933601081371307,
+            -0.009635566733777523,
+            -0.07670561969280243,
+            0.14648912847042084,
+            0.02382235787808895
+        ]
+    ],
+    "position_instruction": "Place the cup to the left of the watch on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "243b381dcdc34316a7e78a533572d273",
+        "cba3e4df7c354d22b7913d45a28a8159",
+        "e1745c4aa7c046a2b5193d2d23be0192",
+        "065-e"
+    ],
+    "target_obj_code": "065-e",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "upside_down"
+}

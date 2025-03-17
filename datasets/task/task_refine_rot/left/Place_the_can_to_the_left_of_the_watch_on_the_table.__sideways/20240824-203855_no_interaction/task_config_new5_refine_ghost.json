@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "watch",
+        "wrench",
+        "ladle",
+        "can"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/fdb8227a88b2448d8c64fa82ffee3f58/material_2.urdf",
+        "objaverse_rescale/5bf781c9fd8d4121b735503b13ba2eaf/material_2.urdf",
+        "objaverse_rescale/ce27e3369587476c85a436905f1e5c00/material_2.urdf",
+        "ycb_16k_backup/005_tomato_soup_can_google_16k/005_tomato_soup_can_google_16k.urdf"
+    ],
+    "target_obj_name": "can",
+    "instruction": "Place the can to the left of the watch on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.20950126515851175,
+            -0.13169137023218397,
+            0.9433462800459221,
+            -0.13892816562968763,
+            -0.6034032367921984,
+            -0.6898846032101024,
+            -0.37505030712840304,
+            0.005880203563719988,
+            -0.0018257779302075505,
+            -0.003193678567185998,
+            -0.013997768051922321,
+            0.13923683762550354,
+            -0.039564065635204315
+        ],
+        [
+            0.5685612397225073,
+            -0.31923837100862124,
+            0.905732274617914,
+            -0.7068592564541224,
+            0.03869955110631486,
+            -0.029253667337334463,
+            0.7056887127173094,
+            0.00021160852338653058,
+            0.0006749440217390656,
+            0.029481317847967148,
+            5.300955772399902,
+            -0.8124381899833679,
+            -0.20573124289512634
+        ],
+        [
+            0.4945657452419797,
+            -0.04835992140788917,
+            0.9195723744728932,
+            0.015481446001352421,
+            0.041285928909814175,
+            -0.20072276822471136,
+            0.9786552851847117,
+            0.00019020491163246334,
+            0.0006949329399503767,
+            -0.009925690479576588,
+            0.2691759169101715,
+            0.3414499759674072,
+            -0.16027970612049103
+        ],
+        [
+            0.6508677187331615,
+            -0.21748002793001583,
+            0.8998924624456305,
+            -0.00012983088163680387,
+            -0.0007842656734838582,
+            0.0793755549079052,
+            0.9968444659797028,
+            -0.0018227507825940847,
+            -0.001110071549192071,
+            -0.00018311571329832077,
+            0.01672210730612278,
+            -0.03687853366136551,
+            -0.0026236099656671286
+        ]
+    ],
+    "position_instruction": "Place the can to the left of the watch on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "fdb8227a88b2448d8c64fa82ffee3f58",
+        "5bf781c9fd8d4121b735503b13ba2eaf",
+        "ce27e3369587476c85a436905f1e5c00",
+        "005"
+    ],
+    "target_obj_code": "005",
+    "anno_target": {
+        "category": "can",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "sideways"
+}

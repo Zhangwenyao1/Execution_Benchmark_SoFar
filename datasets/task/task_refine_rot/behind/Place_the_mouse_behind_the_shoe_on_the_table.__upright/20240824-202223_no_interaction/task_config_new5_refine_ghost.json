@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "shoe",
+        "fork",
+        "mouse"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/ece4453042144b4a82fb86a4eab1ba7f/material_2.urdf",
+        "ycb_16k_backup/030_fork_google_16k/030_fork_google_16k.urdf",
+        "objaverse_rescale/969b0d9d99a8468898753fdcd219f883/material_2.urdf"
+    ],
+    "target_obj_name": "mouse",
+    "instruction": "Place the mouse behind the shoe on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.3086566180621154,
+            0.003476068016378001,
+            0.9369497565545275,
+            -0.014792017386736843,
+            -0.6904921945324769,
+            -0.1977789862830354,
+            0.6956185722766535,
+            0.00092546601081267,
+            -0.013651907444000244,
+            0.001627079676836729,
+            0.4191036820411682,
+            -0.05314148962497711,
+            -0.00819423608481884
+        ],
+        [
+            0.32666037199866116,
+            0.10302503236810182,
+            0.9055062699683971,
+            0.06721487986415674,
+            0.028298566817220618,
+            0.1255387764084974,
+            0.9894045515656353,
+            -0.0021981876343488693,
+            0.005311657674610615,
+            -0.0026858514174818993,
+            -0.5403884649276733,
+            -0.5083215832710266,
+            -0.026001915335655212
+        ],
+        [
+            0.3134808398090597,
+            -0.2072340130948968,
+            0.9208129177087827,
+            -0.4693180450857785,
+            -0.4315634037681242,
+            0.41319138747059303,
+            0.6502049510770124,
+            0.003372584469616413,
+            0.00522061949595809,
+            -0.0002569958451204002,
+            -0.10850568115711212,
+            0.24969467520713806,
+            -0.0453198216855526
+        ]
+    ],
+    "position_instruction": "Place the mouse behind the shoe on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "ece4453042144b4a82fb86a4eab1ba7f",
+        "030",
+        "969b0d9d99a8468898753fdcd219f883"
+    ],
+    "target_obj_code": "969b0d9d99a8468898753fdcd219f883",
+    "anno_target": {
+        "category": "mouse",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "upright"
+}

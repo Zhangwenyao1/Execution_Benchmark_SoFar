@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "clipboard",
+        "toy"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/e5e87ddbf3f6470384bef58431351e2a/material_2.urdf",
+        "objaverse_rescale/b31c69728a414e639eef2fccd1c3dd75/material_2.urdf",
+        "ycb_16k_backup/073-g_lego_duplo_google_16k/073-g_lego_duplo_google_16k.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "Place the toy to the left of the mug on the table. We also need to specify the rotation of the object after placement: the toy is facing right, with its head oriented towards left",
+    "init_obj_pos": [
+        [
+            0.5261065335805301,
+            -0.10488569618808175,
+            0.9343096512140637,
+            0.0013624494061889492,
+            0.10709819893176487,
+            -0.044604676677324685,
+            0.9932464660574939,
+            -0.0019917460158467293,
+            -0.00024005514569580555,
+            9.136935545939195e-07,
+            0.004420764744281769,
+            -0.035304125398397446,
+            -0.00035840555210597813
+        ],
+        [
+            0.5801944029450331,
+            0.1757894055419495,
+            0.9014589398529707,
+            -0.7097153968083777,
+            0.07975480793758791,
+            -0.09069149898996945,
+            0.6940592756781788,
+            -0.0008225206984207034,
+            0.00033323868410661817,
+            -0.007014324422925711,
+            0.074989452958107,
+            -0.021583808586001396,
+            -0.014005899429321289
+        ],
+        [
+            0.6707664800827273,
+            -0.09142853180965595,
+            0.9002528795130883,
+            0.002219720251260823,
+            -0.0005786141269546355,
+            0.11029100162236066,
+            0.9938966913159709,
+            -0.002120944671332836,
+            -0.0005244468338787556,
+            -0.002094326773658395,
+            0.0194943118840456,
+            -0.03786637634038925,
+            -0.006188179366290569
+        ]
+    ],
+    "position_instruction": "Place the toy to the left of the mug on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement: the toy is facing right, with its head oriented towards left",
+    "rotation_instruction_label": "right",
+    "obj_codes": [
+        "e5e87ddbf3f6470384bef58431351e2a",
+        "b31c69728a414e639eef2fccd1c3dd75",
+        "073-g"
+    ],
+    "target_obj_code": "073-g",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "right"
+}

@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "book",
+        "headphone",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/de79a920c48745ff95c0df7a7c300091/material_2.urdf",
+        "objaverse_rescale/ea91786392284f03809c37976da090bf/material_2.urdf",
+        "ycb_16k_backup/065-i_cups_google_16k/065-i_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup on top of the book on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.30719068397019755,
+            -0.22833443792184097,
+            0.9151425594470591,
+            0.0071869910248414095,
+            -0.0011222754261819494,
+            0.042899456562452934,
+            0.9990529136559895,
+            0.002281123772263527,
+            -0.0018246304243803024,
+            -0.0008460801909677684,
+            0.08859933912754059,
+            0.1125151515007019,
+            0.0011421146336942911
+        ],
+        [
+            0.29512112151229,
+            -0.009770198883248224,
+            0.9488562233186595,
+            -0.018079000108701965,
+            -0.7050136248918407,
+            0.08950119217239563,
+            0.7032911737478702,
+            0.002771366387605667,
+            -0.0036498813424259424,
+            -0.0010372422402724624,
+            0.08045703917741776,
+            0.0627971887588501,
+            0.0023421284276992083
+        ],
+        [
+            0.5139851985846157,
+            -0.0759919536775452,
+            0.9005139008364101,
+            0.0014611132907422885,
+            -0.0016275552795915853,
+            -0.08459557717663006,
+            0.9964129688707966,
+            0.0014332220889627934,
+            -0.005876070819795132,
+            -0.00394557835534215,
+            0.19384470582008362,
+            0.0953744500875473,
+            0.03921838477253914
+        ]
+    ],
+    "position_instruction": "Place the cup on top of the book on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "de79a920c48745ff95c0df7a7c300091",
+        "ea91786392284f03809c37976da090bf",
+        "065-i"
+    ],
+    "target_obj_code": "065-i",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "top",
+    "rotation_tag": "upside_down"
+}

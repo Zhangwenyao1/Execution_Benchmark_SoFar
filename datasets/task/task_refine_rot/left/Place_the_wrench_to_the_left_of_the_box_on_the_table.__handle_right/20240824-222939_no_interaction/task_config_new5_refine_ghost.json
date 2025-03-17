@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "box",
+        "pen",
+        "wrench"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/003_cracker_box_google_16k/003_cracker_box_google_16k.urdf",
+        "objaverse_rescale/f126e15c0f904fccbd76f9348baea12c/material_2.urdf",
+        "objaverse_rescale/19c1913ba85042938f0a87d94397c946/material_2.urdf"
+    ],
+    "target_obj_name": "wrench",
+    "instruction": "Place the wrench to the left of the box on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6514548919344282,
+            0.2036280497070054,
+            0.9038260566120999,
+            -0.0018573513719154866,
+            -0.014586862985018373,
+            -0.12123107130582395,
+            0.9925153908248382,
+            0.0018638884648680687,
+            -0.0009584037470631301,
+            -0.0007935255998745561,
+            0.00944363884627819,
+            0.023750245571136475,
+            -0.0010499621275812387
+        ],
+        [
+            0.29435086255427073,
+            0.14707450402195918,
+            0.9070427869041219,
+            -0.5442753850925091,
+            -0.45398166863300077,
+            -0.3789475260365654,
+            0.595032538806377,
+            -0.0020275830756872892,
+            0.0007335094851441681,
+            0.0319381020963192,
+            -0.18724606931209564,
+            1.2769831418991089,
+            -0.24247676134109497
+        ],
+        [
+            0.5653348276372774,
+            -0.05087751270563757,
+            0.9075189136652093,
+            0.01006295732047012,
+            0.001191362707006694,
+            0.004694951116439862,
+            0.9999376355447774,
+            -0.000533986312802881,
+            0.00657420139759779,
+            0.028326157480478287,
+            0.3964861333370209,
+            5.594611167907715,
+            -0.3205409646034241
+        ]
+    ],
+    "position_instruction": "Place the wrench to the left of the box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "003",
+        "f126e15c0f904fccbd76f9348baea12c",
+        "19c1913ba85042938f0a87d94397c946"
+    ],
+    "target_obj_code": "19c1913ba85042938f0a87d94397c946",
+    "anno_target": {
+        "category": "wrench",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "handle_right"
+}

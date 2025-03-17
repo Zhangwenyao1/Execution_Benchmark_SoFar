@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "mixer",
+        "pot",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/990d0cb9499540fda49b1ff36be9ba26/material_2.urdf",
+        "objaverse_rescale/cba3e4df7c354d22b7913d45a28a8159/material_2.urdf",
+        "ycb_16k_backup/065-d_cups_google_16k/065-d_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup on top of the mixer on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.7907407451048502,
+            0.32153052101044743,
+            0.9302286797558915,
+            0.8166630464416569,
+            -0.5721345985823735,
+            0.06286982314969379,
+            0.042081528236809246,
+            0.004137852229177952,
+            0.005205439403653145,
+            -0.002135512651875615,
+            -7.85870361328125,
+            -3.0549075603485107,
+            -0.6263013482093811
+        ],
+        [
+            0.6451997424155311,
+            0.03349037657994653,
+            0.9372237168677753,
+            -0.15050055555521297,
+            0.02517198434655776,
+            -0.037029019846769165,
+            0.9875954666111098,
+            0.012573765590786934,
+            0.028484268113970757,
+            -0.003943913616240025,
+            -0.4867272973060608,
+            0.21276912093162537,
+            -0.013602973893284798
+        ],
+        [
+            0.5092136805200886,
+            0.02422603805155203,
+            0.9006121447848267,
+            0.0007865823458945158,
+            -0.0008086610818426609,
+            -0.05155047500369288,
+            0.998669753162856,
+            0.007134313695132732,
+            -0.0006471797823905945,
+            -0.006907901726663113,
+            -0.011629119515419006,
+            0.19154688715934753,
+            -0.022634582594037056
+        ]
+    ],
+    "position_instruction": "Place the cup on top of the mixer on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "990d0cb9499540fda49b1ff36be9ba26",
+        "cba3e4df7c354d22b7913d45a28a8159",
+        "065-d"
+    ],
+    "target_obj_code": "065-d",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "top",
+    "rotation_tag": "upside_down"
+}

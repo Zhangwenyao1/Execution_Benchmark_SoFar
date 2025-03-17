@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "can",
+        "mug",
+        "power drill",
+        "fork"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/010_potted_meat_can_google_16k/010_potted_meat_can_google_16k.urdf",
+        "objaverse_rescale/9321c45cb9cf459f9f803507d3a11fb3/material_2.urdf",
+        "ycb_16k_backup/035_power_drill_google_16k/035_power_drill_google_16k.urdf",
+        "objaverse_rescale/e98e7fb33743442383812b68608f7006/material_2.urdf"
+    ],
+    "target_obj_name": "fork",
+    "instruction": "Place the fork behind the can on the table. We also need to specify the rotation of the object after placement:  the prong of the fork is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.6249970946855166,
+            -0.12332684013111521,
+            0.9030835983889381,
+            -0.0006007427904903346,
+            -0.00023729672771891647,
+            0.07652798058919355,
+            0.9970672249077809,
+            0.0011061560362577438,
+            -0.0028584767132997513,
+            -0.00047782392357476056,
+            0.07335139811038971,
+            0.012259624898433685,
+            0.029997186735272408
+        ],
+        [
+            0.47598303007342446,
+            0.2258857298021301,
+            0.9636428806909177,
+            -0.9426958704675211,
+            0.21119943167132887,
+            -0.2222182613239424,
+            -0.13167513128663444,
+            -0.0016775227850303054,
+            -0.0020321221090853214,
+            -0.0009187704417854548,
+            0.043433573096990585,
+            -0.027899468317627907,
+            -0.0009348973981104791
+        ],
+        [
+            0.7203151295989204,
+            0.292871125666185,
+            0.9497459132517272,
+            -0.6130683806884657,
+            -0.7890506369548547,
+            0.038263862766791834,
+            -0.009062545300449453,
+            0.00028795868274755776,
+            0.0035815276205539703,
+            0.0005581197328865528,
+            -0.14827962219715118,
+            0.015700826421380043,
+            -0.006075146142393351
+        ],
+        [
+            0.427332722057854,
+            0.014647900770043673,
+            0.911699066965602,
+            0.6852274729761867,
+            0.29085193942765114,
+            -0.24124930869013606,
+            -0.622629288313981,
+            -0.030763160437345505,
+            -0.010842081159353256,
+            0.10084180533885956,
+            -0.21228563785552979,
+            1.2592307329177856,
+            7.641383647918701
+        ]
+    ],
+    "position_instruction": "Place the fork behind the can on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the prong of the fork is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "prong_right",
+    "obj_codes": [
+        "010",
+        "9321c45cb9cf459f9f803507d3a11fb3",
+        "035",
+        "e98e7fb33743442383812b68608f7006"
+    ],
+    "target_obj_code": "e98e7fb33743442383812b68608f7006",
+    "anno_target": {
+        "category": "fork",
+        "annotation": {
+            " the prong of the fork is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the prong of the fork is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.7071068286895752,
+                        0.0,
+                        0.0,
+                        0.7071067094802856
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "prong_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "prong_right"
+}

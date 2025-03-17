@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "keyboard",
+        "credit card",
+        "spoon"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f5080a3df6d847b693c5cca415886c61/material_2.urdf",
+        "objaverse_rescale/5de830b2cccf4fe7a2e6b400abf26ca7/material_2.urdf",
+        "objaverse_rescale/218768789fdd42bd95eb933046698499/material_2.urdf"
+    ],
+    "target_obj_name": "spoon",
+    "instruction": "Place the spoon to the right of the keyboard on the table. We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "init_obj_pos": [
+        [
+            0.6185928577451983,
+            -0.05155996634143625,
+            0.9138546932608265,
+            0.7022116028013075,
+            0.07950308239841124,
+            0.07707110516586356,
+            0.703305175246766,
+            0.0004898626357316971,
+            0.004782282747328281,
+            -0.002525281859561801,
+            -0.07843537628650665,
+            0.0014667563373222947,
+            0.023458829149603844
+        ],
+        [
+            0.6941959756996894,
+            0.24296489251145892,
+            0.9017920158655899,
+            0.021010886185405236,
+            -0.004299062069015942,
+            -0.2002889736053716,
+            0.9795021121871751,
+            1.8867225662688725e-05,
+            1.8588558305054903e-05,
+            0.035193558782339096,
+            -1.2021666765213013,
+            0.4889838695526123,
+            0.00562179135158658
+        ],
+        [
+            0.43024513437703765,
+            0.22387837331653668,
+            0.9071006495030262,
+            0.015384625722857084,
+            -0.005496060696191753,
+            -0.13654574898005936,
+            0.990499048481958,
+            0.0001201383929583244,
+            0.002952856244519353,
+            0.030397929251194,
+            2.1040661334991455,
+            5.827621936798096,
+            0.5044917464256287
+        ]
+    ],
+    "position_instruction": "Place the spoon to the right of the keyboard on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "rotation_instruction_label": "scoop_right",
+    "obj_codes": [
+        "f5080a3df6d847b693c5cca415886c61",
+        "5de830b2cccf4fe7a2e6b400abf26ca7",
+        "218768789fdd42bd95eb933046698499"
+    ],
+    "target_obj_code": "218768789fdd42bd95eb933046698499",
+    "anno_target": {
+        "category": "spoon",
+        "annotation": {
+            " the ladle is lying on the table, with its scoop on the left(pointing towards left) and its handle on the right. ": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ladle is lying on the table, with its scoop on the right(pointing towards right) and its handle on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "scoop_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "scoop_right"
+}

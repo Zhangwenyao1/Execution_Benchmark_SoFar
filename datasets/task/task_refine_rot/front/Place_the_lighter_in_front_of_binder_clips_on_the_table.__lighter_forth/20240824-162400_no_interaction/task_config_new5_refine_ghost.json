@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "binder clips",
+        "wrench",
+        "lighter"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/5e55c38b24dc4c239448efa1c6b7f49f/material_2.urdf",
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf",
+        "objaverse_rescale/b640aa4990b64db9ab3d868c6f49820e/material_2.urdf"
+    ],
+    "target_obj_name": "lighter",
+    "instruction": "Place the lighter in front of binder clips on the table. We also need to specify the rotation of the object after placement:  the lighter is lying steadily on the table(not standing up), with its grey head pointing forth.",
+    "init_obj_pos": [
+        [
+            0.40700129601892376,
+            0.19092070785662216,
+            0.9100080665815383,
+            1.4619845613366019e-05,
+            1.9833911406243256e-05,
+            -0.11817153693011324,
+            0.9929931959749015,
+            0.0008653521072119474,
+            -0.0006660071667283773,
+            -0.00029576217639259994,
+            0.008622923865914345,
+            0.011088874191045761,
+            0.0009175899904221296
+        ],
+        [
+            0.4386301838441292,
+            -0.2483281960801824,
+            0.902739168816237,
+            0.013548970425576057,
+            -0.01664511863548858,
+            0.08693534212644155,
+            0.9959827366552978,
+            0.003926030360162258,
+            -0.004559454508125782,
+            0.034586772322654724,
+            -0.6591925621032715,
+            0.10595308244228363,
+            0.16233234107494354
+        ],
+        [
+            0.49859098198710045,
+            0.07919274484715853,
+            0.9251352420017447,
+            -0.0005492420659350824,
+            0.0009644031420890689,
+            -0.17201551099094783,
+            0.985093615976804,
+            0.0015335221542045474,
+            0.002678729360923171,
+            0.02556874230504036,
+            -0.1995774805545807,
+            -1.0504919290542603,
+            0.17888042330741882
+        ]
+    ],
+    "position_instruction": "Place the lighter in front of binder clips on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the lighter is lying steadily on the table(not standing up), with its grey head pointing forth.",
+    "rotation_instruction_label": "lighter_forth",
+    "obj_codes": [
+        "5e55c38b24dc4c239448efa1c6b7f49f",
+        "042",
+        "b640aa4990b64db9ab3d868c6f49820e"
+    ],
+    "target_obj_code": "b640aa4990b64db9ab3d868c6f49820e",
+    "anno_target": {
+        "category": "lighter",
+        "annotation": {
+            " the lighter is lying steadily on the table(not standing up), with its grey head pointing forth, oriented towards the viewer.": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "lighter_forth",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "lighter_forth"
+}

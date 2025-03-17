@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "paperweight",
+        "cup",
+        "screwdriver"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/8eda72f64e6e4443af4fdbeed07cad29/material_2.urdf",
+        "objaverse_rescale/21c10181c122474a8f72a4ad0331f185/material_2.urdf",
+        "ycb_16k_backup/065-e_cups_google_16k/065-e_cups_google_16k.urdf",
+        "ycb_16k_backup/044_flat_screwdriver_google_16k/044_flat_screwdriver_google_16k.urdf"
+    ],
+    "target_obj_name": "screwdriver",
+    "instruction": "Place the screwdriver between the tissue box and the paperweight on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6108245019953031,
+            -0.10527731307261795,
+            0.9296253918861143,
+            4.384716736020133e-06,
+            2.833366298369213e-06,
+            0.037397801253819765,
+            0.9993004575372335,
+            -0.0006669588037766516,
+            0.0033384435810148716,
+            -0.007387649267911911,
+            -0.038065917789936066,
+            -0.017522281035780907,
+            -0.00256624654866755
+        ],
+        [
+            0.48219458581257,
+            0.029084797393014502,
+            0.9411929862438384,
+            -0.07911555095705022,
+            0.45563770317844954,
+            0.10449854273655415,
+            0.8804629848011587,
+            0.001470161252655089,
+            -0.0001577522634761408,
+            -0.00039952746010385454,
+            0.0028880112804472446,
+            0.04167577996850014,
+            0.017541412264108658
+        ],
+        [
+            0.6876845773384122,
+            0.14993740082540488,
+            0.9008603593804256,
+            0.00110503124576525,
+            -0.002344178944730019,
+            -0.0022366048234165542,
+            0.9999941406477768,
+            0.002602000953629613,
+            0.003912350162863731,
+            -0.009649082086980343,
+            -0.06898757070302963,
+            0.15189960598945618,
+            0.027255630120635033
+        ],
+        [
+            0.3639888793416098,
+            0.04819025694581852,
+            0.9005630600814812,
+            0.016336756689424723,
+            -0.008641689150319605,
+            0.15115566742134606,
+            0.9883371872978914,
+            -0.001089693745598197,
+            0.0009563339408487082,
+            -0.00011635984992608428,
+            0.07064951956272125,
+            -0.0464896485209465,
+            -0.0216351505368948
+        ]
+    ],
+    "position_instruction": "Place the screwdriver between the tissue box and the paperweight on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "8eda72f64e6e4443af4fdbeed07cad29",
+        "21c10181c122474a8f72a4ad0331f185",
+        "065-e",
+        "044"
+    ],
+    "target_obj_code": "044",
+    "anno_target": {
+        "category": "screwdriver",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.011427843011915684,
+                        0.021855341270565987,
+                        -0.40244925022125244,
+                        0.9151100516319275
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_right"
+}

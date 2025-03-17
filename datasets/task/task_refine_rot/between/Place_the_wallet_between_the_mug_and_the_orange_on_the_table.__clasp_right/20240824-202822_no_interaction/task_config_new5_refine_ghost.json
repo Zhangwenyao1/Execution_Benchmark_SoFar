@@ -1,0 +1,127 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "orange",
+        "wallet"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/7bc2b14a48d1413e9375c32a53e3ee6f/material_2.urdf",
+        "objaverse_rescale/a4c9a503f63e440e8d6d924d4e5c36b1/material_2.urdf",
+        "objaverse_rescale/ccfcc4ae6efa44a2ba34c4c479be7daf/material_2.urdf"
+    ],
+    "target_obj_name": "wallet",
+    "instruction": "Place the wallet between the mug and the orange on the table. We also need to specify the rotation of the object after placement:  the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)",
+    "init_obj_pos": [
+        [
+            0.33648840492778553,
+            -0.15995606882055727,
+            0.9401066584366341,
+            0.013650163043882507,
+            -0.12490723566565828,
+            -0.0476945224352116,
+            0.9909273878831469,
+            0.0006093442789278924,
+            4.86755816382356e-05,
+            -0.00013470825797412544,
+            0.0017251368844881654,
+            0.005407851189374924,
+            0.0014468170702457428
+        ],
+        [
+            0.47579068638065714,
+            0.20379515432494535,
+            0.9373091032214554,
+            0.2738574373892936,
+            0.6119641981952262,
+            -0.6386338681201267,
+            0.3776886371123276,
+            -0.0014461458195000887,
+            -0.0023189017083495855,
+            -0.000290069030597806,
+            0.06103210151195526,
+            -0.02028900943696499,
+            0.013196856714785099
+        ],
+        [
+            0.5086396174235682,
+            -0.045045215650185655,
+            0.9073017713405106,
+            -0.705879125320502,
+            0.042267050367349,
+            -0.012785915511536626,
+            0.7069545086174491,
+            0.0013714473461732268,
+            -0.0004219725960865617,
+            -0.0010445533553138375,
+            0.09245603531599045,
+            0.25021883845329285,
+            0.0075166006572544575
+        ]
+    ],
+    "position_instruction": "Place the wallet between the mug and the orange on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)",
+    "rotation_instruction_label": "clasp_right",
+    "obj_codes": [
+        "7bc2b14a48d1413e9375c32a53e3ee6f",
+        "a4c9a503f63e440e8d6d924d4e5c36b1",
+        "ccfcc4ae6efa44a2ba34c4c479be7daf"
+    ],
+    "target_obj_code": "ccfcc4ae6efa44a2ba34c4c479be7daf",
+    "anno_target": {
+        "category": "wallet",
+        "annotation": {
+            " the wallet is lying flat on the table, and the clasp is on the left(if the wallet has a clasp)": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ],
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ],
+                    [
+                        0.4999999701976776,
+                        0.5,
+                        -0.4999999701976776,
+                        -0.5000000596046448
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)": {
+                "quat": [
+                    [
+                        -0.5,
+                        0.4999999701976776,
+                        -0.5000000596046448,
+                        0.4999999701976776
+                    ],
+                    [
+                        -0.5,
+                        0.4999999701976776,
+                        -0.5000000596046448,
+                        0.4999999701976776
+                    ],
+                    [
+                        -0.5,
+                        0.5,
+                        0.4999999403953552,
+                        -0.5
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "clasp_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "clasp_right"
+}

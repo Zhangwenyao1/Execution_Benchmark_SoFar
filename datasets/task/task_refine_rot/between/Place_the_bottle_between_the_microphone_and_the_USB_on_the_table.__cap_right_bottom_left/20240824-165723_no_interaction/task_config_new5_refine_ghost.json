@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "microphone",
+        "USB",
+        "cup",
+        "bottle"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/fac08019fef5474189f965bb495771eb/material_2.urdf",
+        "objaverse_rescale/0a51815f3c0941ae8312fc6917173ed6/material_2.urdf",
+        "ycb_16k_backup/065-j_cups_google_16k/065-j_cups_google_16k.urdf",
+        "objaverse_rescale/d17b8f44d1544364b8ad9fe2554ddfdf/material_2.urdf"
+    ],
+    "target_obj_name": "bottle",
+    "instruction": "Place the bottle between the microphone and the USB on the table. We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.",
+    "init_obj_pos": [
+        [
+            0.4085712740410724,
+            0.17743398046930076,
+            0.9407692472188743,
+            0.010163821271807458,
+            -0.025393542135878897,
+            -0.03255139426689304,
+            0.9990957268881838,
+            -0.002580211963504553,
+            0.00024553886032663286,
+            -0.0004817033186554909,
+            -0.005552714224904776,
+            -0.07508035004138947,
+            0.0048668598756194115
+        ],
+        [
+            0.32813715086625733,
+            0.10842742457420008,
+            0.9111770460509394,
+            -0.18122958228446495,
+            -0.4142771259087004,
+            -0.018438683586324785,
+            0.8917344427582847,
+            2.8364349418552592e-05,
+            -1.8812095731846057e-05,
+            -1.3040104931860697e-05,
+            0.0013796834973618388,
+            0.0028059573378413916,
+            -0.00020352010324131697
+        ],
+        [
+            0.5125698543374835,
+            -0.09267569830820543,
+            0.9003776569453618,
+            0.0002628546473825066,
+            -0.0002836291711149038,
+            0.11625644339226719,
+            0.9932191549863043,
+            0.0028683010023087263,
+            -0.0014695081626996398,
+            -0.0027132045943289995,
+            0.034630756825208664,
+            0.11191804707050323,
+            -0.00280968751758337
+        ],
+        [
+            0.5971068787717713,
+            -0.2427049875515376,
+            0.9346936153276614,
+            0.003896770237272912,
+            0.0930766958231193,
+            -0.015620080621917238,
+            0.995528782586286,
+            0.00044483121018856764,
+            -0.0003279623342677951,
+            -0.000287094822851941,
+            0.009083936922252178,
+            0.01619984209537506,
+            -0.00780224334448576
+        ]
+    ],
+    "position_instruction": "Place the bottle between the microphone and the USB on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.",
+    "rotation_instruction_label": "cap_right_bottom_left",
+    "obj_codes": [
+        "fac08019fef5474189f965bb495771eb",
+        "0a51815f3c0941ae8312fc6917173ed6",
+        "065-j",
+        "d17b8f44d1544364b8ad9fe2554ddfdf"
+    ],
+    "target_obj_code": "d17b8f44d1544364b8ad9fe2554ddfdf",
+    "anno_target": {
+        "category": "bottle",
+        "annotation": {
+            " the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "cap_right_bottom_left",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "cap_right_bottom_left"
+}

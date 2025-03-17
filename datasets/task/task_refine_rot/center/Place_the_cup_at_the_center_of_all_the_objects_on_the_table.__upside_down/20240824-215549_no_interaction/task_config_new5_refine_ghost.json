@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "bottle",
+        "shoe",
+        "mug",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/a7785ac7ce7f4ba79df661db33637ba9/material_2.urdf",
+        "objaverse_rescale/d5a5f0a954f94bcea3168329d1605fe9/material_2.urdf",
+        "objaverse_rescale/c609327dd3a74fb597584e1b4a14a615/material_2.urdf",
+        "ycb_16k_backup/065-e_cups_google_16k/065-e_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.5384221094417856,
+            0.011944058828585184,
+            0.9294400837652252,
+            -0.0005373206883924405,
+            0.041522687317466445,
+            -0.06917636091960418,
+            0.9967397899222916,
+            -0.00016091317229438573,
+            -9.738747758092359e-05,
+            -5.025977225159295e-05,
+            0.003202013671398163,
+            -0.0004603015840984881,
+            0.002886079717427492
+        ],
+        [
+            0.6199707868988634,
+            0.23853172412338458,
+            0.9893979287159026,
+            -0.09449818814529304,
+            -0.08246551593001061,
+            -0.010371081298432682,
+            0.9920493797147173,
+            0.00022069941041991115,
+            -0.0016308032209053636,
+            -0.0004614098579622805,
+            0.013292384333908558,
+            0.01141490787267685,
+            -0.011629730463027954
+        ],
+        [
+            0.5086956212291844,
+            0.19789593967097155,
+            0.936101202147926,
+            0.002738275588649459,
+            0.028261412706641717,
+            -0.10211293228022557,
+            0.9943675092538768,
+            -0.0001928687997860834,
+            4.60579467471689e-05,
+            -0.00017088468302972615,
+            -0.0013967688428238034,
+            -0.0047643450088799,
+            -0.00473246444016695
+        ],
+        [
+            0.5232054004243303,
+            -0.18969380220181933,
+            0.9008613259689071,
+            0.0012739900406208936,
+            -0.002234787028746952,
+            0.06959201910569407,
+            0.9975722197180048,
+            0.002205849392339587,
+            0.003930671606212854,
+            -0.009665214456617832,
+            -0.09194723516702652,
+            0.13155698776245117,
+            0.021014507859945297
+        ]
+    ],
+    "position_instruction": "Place the cup at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "a7785ac7ce7f4ba79df661db33637ba9",
+        "d5a5f0a954f94bcea3168329d1605fe9",
+        "c609327dd3a74fb597584e1b4a14a615",
+        "065-e"
+    ],
+    "target_obj_code": "065-e",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "center",
+    "rotation_tag": "upside_down"
+}

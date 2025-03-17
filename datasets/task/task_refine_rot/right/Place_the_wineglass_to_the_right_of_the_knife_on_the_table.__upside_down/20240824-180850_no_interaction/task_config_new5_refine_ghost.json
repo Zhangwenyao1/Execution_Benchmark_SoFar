@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "knife",
+        "apple",
+        "wineglass"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/85db1d392a89459dbde5cdd951c4f6fb/material_2.urdf",
+        "ycb_16k_backup/013_apple_google_16k/013_apple_google_16k.urdf",
+        "objaverse_rescale/afca0b1933b84b1dbebd1244f25e72fc/material_2.urdf"
+    ],
+    "target_obj_name": "wineglass",
+    "instruction": "Place the wineglass to the right of the knife on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6351822056855966,
+            -0.052488581767666596,
+            0.9213171026011138,
+            -0.01976010234280323,
+            -0.010004181717079149,
+            -0.08343301907720357,
+            0.996267226215556,
+            0.0031208524014800787,
+            -0.00434296578168869,
+            -0.004658366087824106,
+            0.3670556843280792,
+            1.260623812675476,
+            -0.1281907707452774
+        ],
+        [
+            0.4809024044861734,
+            -0.03048509837169696,
+            0.9009957179715157,
+            -0.03515776176380288,
+            0.03702507055994723,
+            -0.08482742012622677,
+            0.995086621723214,
+            0.001485439483076334,
+            -0.0006017042906023562,
+            -0.0001175089055323042,
+            0.003620718838647008,
+            0.06100532039999962,
+            0.08775953948497772
+        ],
+        [
+            0.47875153049363794,
+            0.20450172490018928,
+            0.9407022735360557,
+            0.004544844320158608,
+            0.024161949573739464,
+            -0.022705481642661614,
+            0.9994398459568623,
+            -0.0004911572323180735,
+            0.006298980675637722,
+            -4.5905715523986146e-05,
+            -0.17261233925819397,
+            -0.026763375848531723,
+            0.010208810679614544
+        ]
+    ],
+    "position_instruction": "Place the wineglass to the right of the knife on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "85db1d392a89459dbde5cdd951c4f6fb",
+        "013",
+        "afca0b1933b84b1dbebd1244f25e72fc"
+    ],
+    "target_obj_code": "afca0b1933b84b1dbebd1244f25e72fc",
+    "anno_target": {
+        "category": "wineglass",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upside_down"
+}

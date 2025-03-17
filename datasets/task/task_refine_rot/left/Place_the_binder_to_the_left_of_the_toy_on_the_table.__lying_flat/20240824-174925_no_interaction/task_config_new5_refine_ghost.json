@@ -1,0 +1,127 @@
+{
+    "selected_obj_names": [
+        "toy",
+        "scissors",
+        "cup",
+        "binder"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/073-g_lego_duplo_google_16k/073-g_lego_duplo_google_16k.urdf",
+        "ycb_16k_backup/037_scissors_google_16k/037_scissors_google_16k.urdf",
+        "ycb_16k_backup/065-f_cups_google_16k/065-f_cups_google_16k.urdf",
+        "objaverse_rescale/78e016eeb0bf45d5bea47547128383a8/material_2.urdf"
+    ],
+    "target_obj_name": "binder",
+    "instruction": "Place the binder to the left of the toy on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.6099159034031576,
+            -0.7559510757062324,
+            0.0010570295036179422,
+            0.006443699191908046,
+            0.004450389100536494,
+            0.06809881946417569,
+            0.9976478454671095,
+            0.016995474696159363,
+            -0.04786466062068939,
+            0.033180493861436844,
+            1.0805885791778564,
+            2.038567304611206,
+            -0.7656385898590088
+        ],
+        [
+            0.4311128174433508,
+            0.013268154647232803,
+            0.900160301691532,
+            -0.000901751732794096,
+            -0.0014540818578252688,
+            0.10795240000249134,
+            0.9941545915115346,
+            -0.005610247608274221,
+            0.0089908167719841,
+            0.0010365424677729607,
+            -0.351338267326355,
+            -1.47544264793396,
+            0.11043518036603928
+        ],
+        [
+            0.5163081919876195,
+            -0.1399481577892288,
+            0.9003502745530035,
+            0.0005125863448081066,
+            0.00016577578832442785,
+            -0.1105184331932652,
+            0.9938739284728891,
+            -0.0027098709251731634,
+            -0.0018835464725270867,
+            -0.0025175309274345636,
+            0.046877115964889526,
+            -0.08877972513437271,
+            -0.005770466756075621
+        ],
+        [
+            0.5962991695672627,
+            0.12357630584435304,
+            1.0259598550929445,
+            -8.644625496238258e-05,
+            -3.087667380956423e-06,
+            -0.060035992840029806,
+            0.9981962092100051,
+            -0.007101003546267748,
+            0.032285746186971664,
+            -0.00018882795120589435,
+            -0.240722194314003,
+            -0.117442786693573,
+            0.1614924669265747
+        ]
+    ],
+    "position_instruction": "Place the binder to the left of the toy on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "073-g",
+        "037",
+        "065-f",
+        "78e016eeb0bf45d5bea47547128383a8"
+    ],
+    "target_obj_code": "78e016eeb0bf45d5bea47547128383a8",
+    "anno_target": {
+        "category": "binder",
+        "annotation": {
+            "the binder is standing upright on the table and oriented in a way so that its smaller side is in contact with the tabletop and the larger face is perpendicular to the tabletop, and the label should be in sight as well.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        0.5,
+                        0.4999999701976776
+                    ],
+                    [
+                        -0.4999997913837433,
+                        0.5000002384185791,
+                        0.4999997615814209,
+                        0.5000002384185791
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "left",
+    "rotation_tag": "lying_flat"
+}

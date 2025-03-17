@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "USB",
+        "bottle",
+        "apple",
+        "pen"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/b1098389cc3b460bb1f1ce558d4b0764/material_2.urdf",
+        "objaverse_rescale/a7785ac7ce7f4ba79df661db33637ba9/material_2.urdf",
+        "objaverse_rescale/fbda0b25f41f40958ea984f460e4770b/material_2.urdf",
+        "objaverse_rescale/fbeb7c776372466daffa619106e0b2e0/material_2.urdf"
+    ],
+    "target_obj_name": "pen",
+    "instruction": "Place the pen at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "init_obj_pos": [
+        [
+            0.43262275576290005,
+            0.16047350359716245,
+            0.9160042240008963,
+            -0.7002631156444268,
+            0.07693667690565925,
+            -0.11557541841647086,
+            0.7002532679484836,
+            0.00711458595469594,
+            -0.0017797504551708698,
+            -0.008008054457604885,
+            -0.25802335143089294,
+            0.22607937455177307,
+            -0.04247990995645523
+        ],
+        [
+            0.3498675256575364,
+            -0.0598801328485149,
+            0.9313662022076109,
+            0.015866152507226672,
+            0.32481341118995855,
+            -0.007428825679816931,
+            0.9456158446561577,
+            -0.0030112622771412134,
+            7.993540930328891e-05,
+            -0.0013304771855473518,
+            -0.0005032852641306818,
+            -0.12923435866832733,
+            -0.0025413718540221453
+        ],
+        [
+            0.6219873925390415,
+            -0.09529570646376216,
+            0.9260357142184051,
+            0.11255934060975548,
+            0.05287303041077591,
+            -0.06707580709665625,
+            0.9899675113856059,
+            -0.0009662443189881742,
+            0.003376033389940858,
+            -0.001227963832207024,
+            -0.06697570532560349,
+            -0.023103492334485054,
+            0.006545799784362316
+        ],
+        [
+            0.3195497508160275,
+            0.2157770577703868,
+            0.9074603850294304,
+            0.06641346499920109,
+            0.022304145555450586,
+            0.19031074129823222,
+            0.9792209140456292,
+            0.0021315847989171743,
+            -0.0013716960093006492,
+            0.03222912922501564,
+            -3.1533279418945312,
+            -3.3026576042175293,
+            -0.8386008143424988
+        ]
+    ],
+    "position_instruction": "Place the pen at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "rotation_instruction_label": "ballpoint_right",
+    "obj_codes": [
+        "b1098389cc3b460bb1f1ce558d4b0764",
+        "a7785ac7ce7f4ba79df661db33637ba9",
+        "fbda0b25f41f40958ea984f460e4770b",
+        "fbeb7c776372466daffa619106e0b2e0"
+    ],
+    "target_obj_code": "fbeb7c776372466daffa619106e0b2e0",
+    "anno_target": {
+        "category": "pen",
+        "annotation": {
+            " the ballpoint of the pen is on the left(oriented towards left), while the clicker is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "ballpoint_right",
+    "rot_tag_level": 1,
+    "position_tag": "center",
+    "rotation_tag": "ballpoint_right"
+}

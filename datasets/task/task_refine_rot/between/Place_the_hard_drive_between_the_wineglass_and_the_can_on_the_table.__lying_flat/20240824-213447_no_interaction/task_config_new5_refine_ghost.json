@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "wineglass",
+        "can",
+        "tissue box",
+        "hard drive"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/dc707f81a94e48078069c6a463f59fcf/material_2.urdf",
+        "ycb_16k_backup/002_master_chef_can_google_16k/002_master_chef_can_google_16k.urdf",
+        "objaverse_rescale/213d8df9c37a4d8cba794965676f7a75/material_2.urdf",
+        "objaverse_rescale/f8de4975c0f54c1a97203c6a674f6a39/material_2.urdf"
+    ],
+    "target_obj_name": "hard drive",
+    "instruction": "Place the hard drive between the wineglass and the can on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.6676062351965967,
+            -0.15468832666343735,
+            0.9245586955827167,
+            0.041885855000267334,
+            0.03879585910369897,
+            0.13313210528901767,
+            0.9894525248886967,
+            -0.0004991266177967191,
+            0.004090907052159309,
+            -0.0065210615284740925,
+            -0.08240661770105362,
+            0.08375660330057144,
+            0.025565145537257195
+        ],
+        [
+            0.45815352725660036,
+            0.09735313477156728,
+            0.9000912688045369,
+            -0.00017005223083192214,
+            0.00022886350133153964,
+            -0.001864272530222249,
+            0.9999982215942538,
+            0.0002607970091048628,
+            0.0010677776299417019,
+            -0.0006274209590628743,
+            -0.019154993817210197,
+            0.0038325893692672253,
+            0.0006410368368960917
+        ],
+        [
+            0.6686448405666492,
+            0.18869061103034293,
+            0.9329001012102893,
+            -2.214928456102146e-07,
+            1.855387957030485e-06,
+            0.12417776516183214,
+            0.9922599874205962,
+            -0.00011571730283321813,
+            -0.0005952295614406466,
+            -0.00028722878778353333,
+            0.0021182051859796047,
+            -0.0018735622288659215,
+            -0.0031657887157052755
+        ],
+        [
+            0.35728828605185964,
+            -0.1456065899744562,
+            0.95083571733717,
+            0.0004272519146286503,
+            1.5126125780240851e-05,
+            -0.010349657508538907,
+            0.9999463494690387,
+            0.0007060110219754279,
+            -0.0007468422409147024,
+            -5.692837294191122e-05,
+            0.008996464312076569,
+            0.007994617335498333,
+            0.0021916606929153204
+        ]
+    ],
+    "position_instruction": "Place the hard drive between the wineglass and the can on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "dc707f81a94e48078069c6a463f59fcf",
+        "002",
+        "213d8df9c37a4d8cba794965676f7a75",
+        "f8de4975c0f54c1a97203c6a674f6a39"
+    ],
+    "target_obj_code": "f8de4975c0f54c1a97203c6a674f6a39",
+    "anno_target": {
+        "category": "hard_drive",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "between",
+    "rotation_tag": "lying_flat"
+}

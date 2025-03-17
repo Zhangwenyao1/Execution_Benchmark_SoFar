@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "pen",
+        "pot",
+        "bottle",
+        "eraser"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f126e15c0f904fccbd76f9348baea12c/material_2.urdf",
+        "objaverse_rescale/af249e607bea40cfa2f275e5e23b8283/material_2.urdf",
+        "objaverse_rescale/d17b8f44d1544364b8ad9fe2554ddfdf/material_2.urdf",
+        "objaverse_rescale/f0916a69ba514ecc973b44528b9dcc43/material_2.urdf"
+    ],
+    "target_obj_name": "eraser",
+    "instruction": "Place the eraser at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.4816965075512524,
+            -0.029224935966304755,
+            0.9070452811124093,
+            0.3437372852683711,
+            0.6199506369818006,
+            0.14821821175011624,
+            -0.6895920882143203,
+            -0.003821207443252206,
+            -0.003898116061463952,
+            0.022507548332214355,
+            -7.941465854644775,
+            6.335912227630615,
+            -1.5828800201416016
+        ],
+        [
+            0.28470273493765375,
+            -0.15245376994345694,
+            0.9813025062195622,
+            0.7066852245298825,
+            -0.02440519611479015,
+            -0.024398786978976794,
+            0.7066859833247751,
+            -0.0022941664792597294,
+            -0.001485631801187992,
+            -0.0005048474995419383,
+            0.020386580377817154,
+            -0.031022530049085617,
+            -0.012405134737491608
+        ],
+        [
+            0.2751967623028533,
+            0.2780120021058721,
+            0.9347942342944507,
+            0.13144431933966852,
+            0.46447289001788067,
+            0.24331016028606595,
+            -0.84130107051717,
+            -0.0017448046710342169,
+            0.0011160990688949823,
+            -0.00033575331326574087,
+            -0.048851724714040756,
+            -0.05710745230317116,
+            -0.00042400273378007114
+        ],
+        [
+            0.678136237998582,
+            0.16310442288342752,
+            0.9106583302147435,
+            0.6699768123685832,
+            0.200113222766362,
+            0.2281378302102111,
+            0.6775240950619165,
+            -0.0015245326794683933,
+            0.003248742315918207,
+            0.02026982046663761,
+            0.43932974338531494,
+            -0.6656553745269775,
+            -0.04683316498994827
+        ]
+    ],
+    "position_instruction": "Place the eraser at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "f126e15c0f904fccbd76f9348baea12c",
+        "af249e607bea40cfa2f275e5e23b8283",
+        "d17b8f44d1544364b8ad9fe2554ddfdf",
+        "f0916a69ba514ecc973b44528b9dcc43"
+    ],
+    "target_obj_code": "f0916a69ba514ecc973b44528b9dcc43",
+    "anno_target": {
+        "category": "eraser",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        -0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "center",
+    "rotation_tag": "lying_flat"
+}

@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "shoe",
+        "cup",
+        "highlighter"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/d6951661c1e445d8a1d00b7d38d86030/material_2.urdf",
+        "ycb_16k_backup/065-i_cups_google_16k/065-i_cups_google_16k.urdf",
+        "objaverse_rescale/fd058916fb8843c09b4a2e05e3ee894e/material_2.urdf"
+    ],
+    "target_obj_name": "highlighter",
+    "instruction": "Place the highlighter in front of shoe on the table. We also need to specify the rotation of the object after placement:  the marker is placed in a stable pose on the table. Its tip end is pointing towards right and its cap end is pointing towards left.",
+    "init_obj_pos": [
+        [
+            0.5574284150259562,
+            0.07842313224912029,
+            0.9277110321290952,
+            -0.07510634855500245,
+            -0.06402532961223348,
+            -0.018976480166912446,
+            0.994937026537486,
+            -0.009116903878748417,
+            0.004796305205672979,
+            -0.012482223100960255,
+            -0.08894039690494537,
+            -0.31836146116256714,
+            -0.022920913994312286
+        ],
+        [
+            0.42007552318814273,
+            0.051815078419874594,
+            0.9005138035149881,
+            0.0014340010867797167,
+            -0.0016333198120996664,
+            -0.09516369438567715,
+            0.9954592644494018,
+            0.0012982940534129739,
+            -0.005984698422253132,
+            -0.0038387433160096407,
+            0.20083723962306976,
+            0.09026435017585754,
+            0.04163731262087822
+        ],
+        [
+            0.39100981637239157,
+            -0.11962724359759369,
+            0.9115052724625791,
+            0.7057107944138076,
+            0.08787468547884329,
+            0.0863784062075156,
+            0.6977027198176001,
+            -0.015961598604917526,
+            5.1572071242844686e-05,
+            -0.005105160642415285,
+            0.2712872624397278,
+            -1.8575608730316162,
+            0.016255173832178116
+        ]
+    ],
+    "position_instruction": "Place the highlighter in front of shoe on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the marker is placed in a stable pose on the table. Its tip end is pointing towards right and its cap end is pointing towards left.",
+    "rotation_instruction_label": "tip_right",
+    "obj_codes": [
+        "d6951661c1e445d8a1d00b7d38d86030",
+        "065-i",
+        "fd058916fb8843c09b4a2e05e3ee894e"
+    ],
+    "target_obj_code": "fd058916fb8843c09b4a2e05e3ee894e",
+    "anno_target": {
+        "category": "highlighter",
+        "annotation": {
+            " the marker is placed in a stable pose on the table. Its tip(or cap) end is pointing towards left and its rear end is pointing towards right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        -3.090862321641907e-08,
+                        0.7071068286895752,
+                        0.7071067094802856,
+                        -3.0908616110991716e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the marker is placed in a stable pose on the table. Its tip(or cap) end is pointing towards right and its rear end is pointing towards left.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "tip_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "tip_right"
+}

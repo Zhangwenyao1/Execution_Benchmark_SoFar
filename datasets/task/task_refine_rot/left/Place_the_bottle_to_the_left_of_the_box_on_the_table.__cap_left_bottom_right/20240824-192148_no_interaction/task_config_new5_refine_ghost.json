@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "box",
+        "spoon",
+        "watch",
+        "bottle"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/004_sugar_box_google_16k/004_sugar_box_google_16k.urdf",
+        "ycb_16k_backup/031_spoon_google_16k/031_spoon_google_16k.urdf",
+        "objaverse_rescale/fdb8227a88b2448d8c64fa82ffee3f58/material_2.urdf",
+        "ycb_16k_backup/021_bleach_cleanser_google_16k/021_bleach_cleanser_google_16k.urdf"
+    ],
+    "target_obj_name": "bottle",
+    "instruction": "Place the bottle to the left of the box on the table. We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.",
+    "init_obj_pos": [
+        [
+            0.6318125970857236,
+            -0.06278017992718711,
+            0.8998654914051145,
+            -0.0008347859818878808,
+            -0.00029280375350343766,
+            -0.06359753173349476,
+            0.9979752358429204,
+            -0.003350780112668872,
+            -0.001744666718877852,
+            -0.000852587865665555,
+            0.020320028066635132,
+            -0.04148375615477562,
+            -0.015659017488360405
+        ],
+        [
+            0.39438489920207087,
+            -0.3530241242239583,
+            0.927094070893092,
+            0.5936009230443511,
+            -0.8039826096657242,
+            -0.03304827157080674,
+            0.012558632973784284,
+            -0.0025807050988078117,
+            -4.036903555970639e-05,
+            0.022759201005101204,
+            0.23981018364429474,
+            -0.2625599503517151,
+            -0.3794851303100586
+        ],
+        [
+            0.636759054135454,
+            0.1933448251882993,
+            0.9695474195760834,
+            0.0014534013818294615,
+            0.02287601218221465,
+            -0.06461987228639234,
+            0.9976466547815177,
+            0.00292098056524992,
+            -0.0001232325885212049,
+            -0.000180581962922588,
+            0.004877319559454918,
+            0.04634907469153404,
+            0.041059378534555435
+        ],
+        [
+            0.37178506670464034,
+            0.1127954998163806,
+            0.9227777436688805,
+            -0.040147504179423574,
+            0.7196443178192476,
+            0.691929920043856,
+            -0.041631952713462206,
+            0.00045556604163721204,
+            -0.0002760367060545832,
+            0.0002423981059109792,
+            0.012563054449856281,
+            0.023747628554701805,
+            0.0006139526376500726
+        ]
+    ],
+    "position_instruction": "Place the bottle to the left of the box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.",
+    "rotation_instruction_label": "cap_left_bottom_right",
+    "obj_codes": [
+        "004",
+        "031",
+        "fdb8227a88b2448d8c64fa82ffee3f58",
+        "021"
+    ],
+    "target_obj_code": "021",
+    "anno_target": {
+        "category": "bottle",
+        "annotation": {
+            " the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.": {
+                "quat": [
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "cap_left_bottom_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "cap_left_bottom_right"
+}

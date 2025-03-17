@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "screwdriver",
+        "flashlight",
+        "hammer",
+        "apple"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/043_phillips_screwdriver_google_16k/043_phillips_screwdriver_google_16k.urdf",
+        "objaverse_rescale/123a79642c2646d8b315576828fea84a/material_2.urdf",
+        "objaverse_rescale/35a76a67ea1c45edabbd5013de70d68d/material_2.urdf",
+        "objaverse_rescale/fbda0b25f41f40958ea984f460e4770b/material_2.urdf"
+    ],
+    "target_obj_name": "apple",
+    "instruction": "Place the apple on top of the screwdriver on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.6251827449639581,
+            0.24692439288236276,
+            0.901631983120353,
+            -0.029562647938137315,
+            -0.006500359385212149,
+            -0.05715815737749377,
+            0.9979061780648312,
+            -0.00012230165884830058,
+            3.4780379792209715e-05,
+            -6.859533459646627e-05,
+            -0.012840185314416885,
+            -0.01404233556240797,
+            0.020995154976844788
+        ],
+        [
+            0.45971930696116264,
+            -0.11985835685449894,
+            0.9989367739030538,
+            6.383167109087906e-06,
+            2.690914572539727e-06,
+            -0.05322038866647803,
+            0.9985827908502141,
+            0.0005205203779041767,
+            -0.0009172228164970875,
+            -0.00033771502785384655,
+            0.005051671527326107,
+            0.006870758719742298,
+            -0.007832898758351803
+        ],
+        [
+            0.30688624080232024,
+            0.21771903287828012,
+            0.9318273198745569,
+            2.734355421465736e-05,
+            -8.650384032372992e-06,
+            -0.07266355528632004,
+            0.99735650943414,
+            0.00205744756385684,
+            -0.0018185734516009688,
+            -0.0015865563182160258,
+            0.07098089903593063,
+            0.06635451316833496,
+            -0.010419012978672981
+        ],
+        [
+            0.5369347922898521,
+            0.10528316025992801,
+            0.9260359943996539,
+            0.11029046787044676,
+            0.05753185437651182,
+            -0.026271106888605053,
+            0.9918850373766939,
+            -0.0015469127101823688,
+            0.002134432550519705,
+            -0.0007771043456159532,
+            -0.04243207350373268,
+            -0.033124860376119614,
+            -0.0048352391459047794
+        ]
+    ],
+    "position_instruction": "Place the apple on top of the screwdriver on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "043",
+        "123a79642c2646d8b315576828fea84a",
+        "35a76a67ea1c45edabbd5013de70d68d",
+        "fbda0b25f41f40958ea984f460e4770b"
+    ],
+    "target_obj_code": "fbda0b25f41f40958ea984f460e4770b",
+    "anno_target": {
+        "category": "apple",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "top",
+    "rotation_tag": "upright"
+}

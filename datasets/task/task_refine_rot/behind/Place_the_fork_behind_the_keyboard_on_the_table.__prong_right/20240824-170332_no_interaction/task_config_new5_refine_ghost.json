@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "keyboard",
+        "scissors",
+        "fork"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f5080a3df6d847b693c5cca415886c61/material_2.urdf",
+        "objaverse_rescale/2b1120c4b517409184413ed709c57a66/material_2.urdf",
+        "objaverse_rescale/e98e7fb33743442383812b68608f7006/material_2.urdf"
+    ],
+    "target_obj_name": "fork",
+    "instruction": "Place the fork behind the keyboard on the table. We also need to specify the rotation of the object after placement:  the prong of the fork is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.44795706732407037,
+            -0.06219691409469289,
+            0.9138493708893332,
+            0.700888082910821,
+            0.08408343683751382,
+            0.08099625698511893,
+            0.7036515311129412,
+            0.0058097802102565765,
+            0.024900756776332855,
+            0.020182635635137558,
+            -0.6499354243278503,
+            -0.04240267723798752,
+            0.004913294222205877
+        ],
+        [
+            0.5781690799739374,
+            -0.17857746240196418,
+            0.9045114927577054,
+            -0.23163165694621912,
+            0.9727820535580434,
+            -0.0023929316700291242,
+            0.006010462026006384,
+            -0.0004912092117592692,
+            0.002470981562510133,
+            0.006128218490630388,
+            -0.33751270174980164,
+            -0.06859787553548813,
+            -0.055854540318250656
+        ],
+        [
+            0.33205216159906964,
+            -0.24900368840927442,
+            0.9060429468575173,
+            0.6585994542880915,
+            -0.23776228438578717,
+            -0.25248215736547625,
+            0.6678088163143368,
+            -0.00045327990665100515,
+            -0.0004118917277082801,
+            0.03472883999347687,
+            -3.432856321334839,
+            -2.017888069152832,
+            0.5567646026611328
+        ]
+    ],
+    "position_instruction": "Place the fork behind the keyboard on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the prong of the fork is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "prong_right",
+    "obj_codes": [
+        "f5080a3df6d847b693c5cca415886c61",
+        "2b1120c4b517409184413ed709c57a66",
+        "e98e7fb33743442383812b68608f7006"
+    ],
+    "target_obj_code": "e98e7fb33743442383812b68608f7006",
+    "anno_target": {
+        "category": "fork",
+        "annotation": {
+            " the prong of the fork is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the prong of the fork is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.7071068286895752,
+                        0.0,
+                        0.0,
+                        0.7071067094802856
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "prong_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "prong_right"
+}

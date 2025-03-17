@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "scissors",
+        "watch",
+        "mouse"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/037_scissors_google_16k/037_scissors_google_16k.urdf",
+        "objaverse_rescale/fdb8227a88b2448d8c64fa82ffee3f58/material_2.urdf",
+        "objaverse_rescale/f496168739384cdb86ef6d65e2068a3f/material_2.urdf"
+    ],
+    "target_obj_name": "mouse",
+    "instruction": "Place the mouse to the left of the scissors on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.44491981091595284,
+            0.3014454604295363,
+            0.9410681180293602,
+            0.5125748869687118,
+            0.7890512587643558,
+            0.33655902081829003,
+            0.03732454684564666,
+            0.016988864168524742,
+            -0.16774486005306244,
+            0.11268329620361328,
+            13.887575149536133,
+            10.387950897216797,
+            11.778362274169922
+        ],
+        [
+            0.32751575831575575,
+            0.03831917669994021,
+            0.9582536532052078,
+            0.3213455867610598,
+            -0.8383695273364518,
+            0.16227317141245934,
+            0.40931768510850564,
+            -0.001977355685085058,
+            -0.0006133352289907634,
+            -0.0015037225093692541,
+            0.009835893288254738,
+            -0.06683438271284103,
+            -8.987379260361195e-06
+        ],
+        [
+            0.45943338770038417,
+            0.14768055042981781,
+            0.9345677162513496,
+            0.34527313112131786,
+            0.7010359291988212,
+            0.5982779085007534,
+            0.17719660013101463,
+            0.11188367754220963,
+            -0.07785692811012268,
+            0.11919976770877838,
+            10.681251525878906,
+            -1.455310583114624,
+            3.3631815910339355
+        ]
+    ],
+    "position_instruction": "Place the mouse to the left of the scissors on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "037",
+        "fdb8227a88b2448d8c64fa82ffee3f58",
+        "f496168739384cdb86ef6d65e2068a3f"
+    ],
+    "target_obj_code": "f496168739384cdb86ef6d65e2068a3f",
+    "anno_target": {
+        "category": "mouse",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "upright"
+}

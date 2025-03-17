@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "plate",
+        "toy",
+        "organizer"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/029_plate_google_16k/029_plate_google_16k.urdf",
+        "ycb_16k_backup/072-a_toy_airplane_google_16k/072-a_toy_airplane_google_16k.urdf",
+        "objaverse_rescale/4f52ebe6c8cf432986e47d8de83386ce/material_2.urdf"
+    ],
+    "target_obj_name": "organizer",
+    "instruction": "Place the organizer to the left of the plate on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.5208214933380378,
+            0.1582069140500027,
+            0.9030457865414867,
+            -3.4642970374668614e-06,
+            0.000284030399480873,
+            -0.009253787610902401,
+            0.999957142446406,
+            7.064230157993734e-05,
+            -3.635441680671647e-05,
+            -0.0003315107896924019,
+            0.002068005735054612,
+            0.008090876042842865,
+            -0.000254363170824945
+        ],
+        [
+            0.6718695760018769,
+            -0.13711464343246638,
+            0.9001960151931159,
+            -0.0014624657741867165,
+            -1.8978675024781707e-05,
+            -0.11688835498952238,
+            0.9931439841742552,
+            0.003877496812492609,
+            -0.0004652004281524569,
+            -0.001050522900186479,
+            0.006314403843134642,
+            0.05067216604948044,
+            -0.0017233302351087332
+        ],
+        [
+            0.44102381234625915,
+            -0.06659903138405139,
+            1.0210482190118046,
+            5.781479392175396e-05,
+            -1.230466451197898e-05,
+            -0.06821352590580815,
+            0.9976707429756287,
+            -0.0013817611616104841,
+            0.002151106484234333,
+            -0.004132875241339207,
+            -0.021826734766364098,
+            -0.01690726727247238,
+            -0.004673221614211798
+        ]
+    ],
+    "position_instruction": "Place the organizer to the left of the plate on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "029",
+        "072-a",
+        "4f52ebe6c8cf432986e47d8de83386ce"
+    ],
+    "target_obj_code": "4f52ebe6c8cf432986e47d8de83386ce",
+    "anno_target": {
+        "category": "organizer",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "upright"
+}

@@ -1,0 +1,111 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "toy",
+        "glue gun",
+        "shoe"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/2bd98e8ea09f49bd85453a927011d31d/material_2.urdf",
+        "ycb_16k_backup/072-b_toy_airplane_google_16k/072-b_toy_airplane_google_16k.urdf",
+        "objaverse_rescale/a1da12b81f034db894496c1ffc4be1f5/material_2.urdf",
+        "objaverse_rescale/ae7142127dd84ebbbe7762368ace452c/material_2.urdf"
+    ],
+    "target_obj_name": "shoe",
+    "instruction": "Place the shoe to the left of the tissue box on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.40798269191328745,
+            -0.205350712548966,
+            0.9149077168670381,
+            -0.0010195658651343152,
+            1.1462859031553056e-05,
+            -0.01183507869015068,
+            0.9999294431440889,
+            -0.00046267799916677177,
+            -0.001058355439454317,
+            -0.0009606383391655982,
+            0.005318727809935808,
+            0.002059471094980836,
+            0.006773640401661396
+        ],
+        [
+            0.4593643341618006,
+            -0.031076222409968438,
+            0.899248908109196,
+            -0.11009629119836438,
+            0.10496745503200772,
+            0.07741720201290138,
+            0.9853259444878946,
+            -0.0008461843244731426,
+            -0.007477528881281614,
+            -0.009571168571710587,
+            0.24348117411136627,
+            -0.06936760246753693,
+            0.005883658304810524
+        ],
+        [
+            0.4559613786112552,
+            0.12083581530250366,
+            0.9144945546648354,
+            0.6993132031544288,
+            0.030285280560967555,
+            0.031188418842871178,
+            0.7134922061279422,
+            -0.0007238879916258156,
+            0.0063833435997366905,
+            0.020751945674419403,
+            -0.614651083946228,
+            -0.019410474225878716,
+            -0.0026331476401537657
+        ],
+        [
+            0.6923756419559889,
+            0.19338474992683594,
+            0.9310893546949441,
+            -0.01059436575471852,
+            0.22403070527768731,
+            0.04279763355922703,
+            0.9735842876036819,
+            -8.484134013997391e-05,
+            0.0004733466194011271,
+            8.39414497022517e-05,
+            -0.011358575895428658,
+            -0.003950311802327633,
+            0.0019247978925704956
+        ]
+    ],
+    "position_instruction": "Place the shoe to the left of the tissue box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "2bd98e8ea09f49bd85453a927011d31d",
+        "072-b",
+        "a1da12b81f034db894496c1ffc4be1f5",
+        "ae7142127dd84ebbbe7762368ace452c"
+    ],
+    "target_obj_code": "ae7142127dd84ebbbe7762368ace452c",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        [
+                            -1,
+                            -1,
+                            -1,
+                            -1
+                        ]
+                    ]
+                ],
+                "stage": 2,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "sideways"
+}

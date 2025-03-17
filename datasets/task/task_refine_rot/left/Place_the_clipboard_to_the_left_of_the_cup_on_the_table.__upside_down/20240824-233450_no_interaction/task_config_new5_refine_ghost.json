@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "flashlight",
+        "clipboard"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-a_cups_google_16k/065-a_cups_google_16k.urdf",
+        "objaverse_rescale/123a79642c2646d8b315576828fea84a/material_2.urdf",
+        "objaverse_rescale/b31c69728a414e639eef2fccd1c3dd75/material_2.urdf"
+    ],
+    "target_obj_name": "clipboard",
+    "instruction": "Place the clipboard to the left of the cup on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.33639958750024057,
+            0.044184034649295524,
+            0.9011210717788853,
+            0.002141183050087879,
+            -0.005189590302396906,
+            0.015774960937515965,
+            0.9998598072205221,
+            -0.003019698429852724,
+            -0.0037732822820544243,
+            0.01254308968782425,
+            -0.3129136860370636,
+            -0.871697187423706,
+            1.4069578647613525
+        ],
+        [
+            0.6601516151553721,
+            0.242817494675588,
+            0.9989368562098856,
+            -7.0334513106059744e-06,
+            -6.666523748556314e-07,
+            0.07769008915413711,
+            0.9969775574190758,
+            0.001049472950398922,
+            -0.0025263254065066576,
+            -0.0004461944045033306,
+            0.024377446621656418,
+            0.019382251426577568,
+            -0.01303342916071415
+        ],
+        [
+            0.552743246645173,
+            0.2718171844205787,
+            0.9014587395901218,
+            -0.7121435471887205,
+            0.05401215348388694,
+            -0.06551880560148148,
+            0.6968798616591357,
+            -0.0012291775783523917,
+            0.0005170613876543939,
+            -0.007038678973913193,
+            0.07807497680187225,
+            -0.015045573003590107,
+            -0.01844790019094944
+        ]
+    ],
+    "position_instruction": "Place the clipboard to the left of the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "065-a",
+        "123a79642c2646d8b315576828fea84a",
+        "b31c69728a414e639eef2fccd1c3dd75"
+    ],
+    "target_obj_code": "b31c69728a414e639eef2fccd1c3dd75",
+    "anno_target": {
+        "category": "clipboard",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "upside_down"
+}

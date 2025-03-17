@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "wineglass",
+        "shoe",
+        "marker"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/afca0b1933b84b1dbebd1244f25e72fc/material_2.urdf",
+        "objaverse_rescale/d6951661c1e445d8a1d00b7d38d86030/material_2.urdf",
+        "ycb_16k_backup/040_large_marker_google_16k/040_large_marker_google_16k.urdf"
+    ],
+    "target_obj_name": "marker",
+    "instruction": "Place the marker to the left of the wineglass on the table. We also need to specify the rotation of the object after placement:  the cap of the marker is on the right(oriented towards right), while its body (the area we generally grab it) is on the left.",
+    "init_obj_pos": [
+        [
+            0.5603059216782174,
+            -0.2881866979936116,
+            0.9407452645196749,
+            0.24886270421682435,
+            -0.9570176023254774,
+            -0.04138594681894272,
+            -0.14307993113984455,
+            -0.018926184624433517,
+            0.005107547156512737,
+            0.002251481171697378,
+            0.051123183220624924,
+            -0.6687004566192627,
+            0.5307749509811401
+        ],
+        [
+            0.4660119653895395,
+            -0.05678619012896435,
+            0.942036963903152,
+            0.20940312842387282,
+            -0.9574630925437613,
+            0.07109536163840456,
+            -0.18536506082953705,
+            0.0032616346143186092,
+            -0.009747467935085297,
+            0.025222172960639,
+            0.3025427758693695,
+            0.014628431759774685,
+            1.3015286922454834
+        ],
+        [
+            0.21013865323695385,
+            -0.11843945684105672,
+            0.9051228396681312,
+            -0.008289983470118098,
+            -0.983669850952377,
+            0.004772984769168773,
+            -0.17972790300280297,
+            -0.009675106033682823,
+            -0.002837159438058734,
+            -0.005814261734485626,
+            0.09655427932739258,
+            0.6806908845901489,
+            -0.36060628294944763
+        ]
+    ],
+    "position_instruction": "Place the marker to the left of the wineglass on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the cap of the marker is on the right(oriented towards right), while its body (the area we generally grab it) is on the left.",
+    "rotation_instruction_label": "cap_right",
+    "obj_codes": [
+        "afca0b1933b84b1dbebd1244f25e72fc",
+        "d6951661c1e445d8a1d00b7d38d86030",
+        "040"
+    ],
+    "target_obj_code": "040",
+    "anno_target": {
+        "category": "marker",
+        "annotation": {
+            " the cap of the marker is on the left(oriented towards left), while its body (the area we generally grab it) is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the cap of the marker is on the right(oriented towards right), while its body (the area we generally grab it) is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "cap_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "cap_right"
+}

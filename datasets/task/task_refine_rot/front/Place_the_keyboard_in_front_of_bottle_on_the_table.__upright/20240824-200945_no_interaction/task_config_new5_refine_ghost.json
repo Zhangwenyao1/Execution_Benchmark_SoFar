@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "bottle",
+        "bowl",
+        "book",
+        "keyboard"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/022_windex_bottle_google_16k/022_windex_bottle_google_16k.urdf",
+        "ycb_16k_backup/024_bowl_google_16k/024_bowl_google_16k.urdf",
+        "objaverse_rescale/2a371c84c5454f7facba7bb2f5312ad6/material_2.urdf",
+        "objaverse_rescale/f5080a3df6d847b693c5cca415886c61/material_2.urdf"
+    ],
+    "target_obj_name": "keyboard",
+    "instruction": "Place the keyboard in front of bottle on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.6777058080238457,
+            -0.27141687735486714,
+            0.9351143917914675,
+            0.4246392191548764,
+            -0.609334845608089,
+            0.31655873294946124,
+            0.5900704602644802,
+            -0.0005252218106761575,
+            0.004254458472132683,
+            -0.00031603386742062867,
+            -0.1473381370306015,
+            -0.01950044557452202,
+            -0.0019781047012656927
+        ],
+        [
+            0.47110227685583295,
+            0.20434628694265722,
+            0.9004640657714068,
+            0.0002637492039340182,
+            -0.0004898322033949211,
+            0.10759653896775201,
+            0.9941944856530495,
+            -0.00047056120820343494,
+            0.0005215339479036629,
+            -0.00023406922991853207,
+            -0.01662621647119522,
+            -0.017179513350129128,
+            0.006404944695532322
+        ],
+        [
+            0.644321124890264,
+            -0.06441527184156723,
+            0.9770744446622255,
+            9.836782593354336e-06,
+            0.00013891234097461078,
+            -0.01821006386929893,
+            0.9998341733409978,
+            6.982819468248636e-05,
+            -0.002980333287268877,
+            -0.0007040607160888612,
+            0.043166715651750565,
+            -0.0003275905328337103,
+            0.00032606013701297343
+        ],
+        [
+            0.38454323180109473,
+            -0.10516818406537339,
+            0.9138658245245518,
+            0.686760731542726,
+            0.15804307260737033,
+            0.15690306153135095,
+            0.6919273907671317,
+            -0.001083310111425817,
+            0.006715051829814911,
+            -0.0049905902706086636,
+            -0.34441453218460083,
+            -0.15585793554782867,
+            0.006032133009284735
+        ]
+    ],
+    "position_instruction": "Place the keyboard in front of bottle on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "022",
+        "024",
+        "2a371c84c5454f7facba7bb2f5312ad6",
+        "f5080a3df6d847b693c5cca415886c61"
+    ],
+    "target_obj_code": "f5080a3df6d847b693c5cca415886c61",
+    "anno_target": {
+        "category": "keyboard",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "front",
+    "rotation_tag": "upright"
+}

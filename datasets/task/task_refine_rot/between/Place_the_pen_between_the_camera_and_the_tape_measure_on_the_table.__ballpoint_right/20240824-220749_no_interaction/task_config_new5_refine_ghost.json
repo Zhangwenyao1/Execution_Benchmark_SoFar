@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "camera",
+        "tape measure",
+        "pen"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f6f8675406b7437faaf96a1f82062028/material_2.urdf",
+        "objaverse_rescale/11307d06bb254318b95021d68c6fa12f/material_2.urdf",
+        "objaverse_rescale/fbeb7c776372466daffa619106e0b2e0/material_2.urdf"
+    ],
+    "target_obj_name": "pen",
+    "instruction": "Place the pen between the camera and the tape measure on the table. We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "init_obj_pos": [
+        [
+            0.48727533319674105,
+            0.04674901423415234,
+            0.9688230710729537,
+            -0.3834339055123444,
+            -0.2998697620716112,
+            0.049751490824921515,
+            0.8721131549629122,
+            0.1327762007713318,
+            0.035609275102615356,
+            -0.0331619456410408,
+            -0.38137286901474,
+            0.4524783790111542,
+            -2.4883272647857666
+        ],
+        [
+            0.5817624699318706,
+            0.14457948002541068,
+            0.9398330388317686,
+            -0.5347994700000309,
+            -0.3524512242202512,
+            -0.0536258691977587,
+            0.7660887204404695,
+            -0.09115348011255264,
+            -0.02256953716278076,
+            -0.02666104957461357,
+            0.8353179693222046,
+            -0.4140990674495697,
+            4.206997394561768
+        ],
+        [
+            0.34457955326626133,
+            -0.1166377284455774,
+            0.907209275488454,
+            -0.13989806278572173,
+            -0.022910222246281132,
+            0.22409623161724823,
+            0.9642015000612564,
+            -0.002114407019689679,
+            0.00016708046314306557,
+            0.030525142326951027,
+            -2.839725971221924,
+            -1.0470906496047974,
+            0.4322793185710907
+        ]
+    ],
+    "position_instruction": "Place the pen between the camera and the tape measure on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "rotation_instruction_label": "ballpoint_right",
+    "obj_codes": [
+        "f6f8675406b7437faaf96a1f82062028",
+        "11307d06bb254318b95021d68c6fa12f",
+        "fbeb7c776372466daffa619106e0b2e0"
+    ],
+    "target_obj_code": "fbeb7c776372466daffa619106e0b2e0",
+    "anno_target": {
+        "category": "pen",
+        "annotation": {
+            " the ballpoint of the pen is on the left(oriented towards left), while the clicker is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "ballpoint_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "ballpoint_right"
+}

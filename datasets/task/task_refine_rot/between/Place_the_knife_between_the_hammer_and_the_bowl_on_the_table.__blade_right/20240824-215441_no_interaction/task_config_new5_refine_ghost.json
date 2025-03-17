@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "hammer",
+        "bowl",
+        "bottle",
+        "knife"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/4f24b866dab248b684149ec6bb40101f/material_2.urdf",
+        "objaverse_rescale/bdd36c94f3f74f22b02b8a069c8d97b7/material_2.urdf",
+        "objaverse_rescale/794b730ae452424bb3a9ce3c6caaff7a/material_2.urdf",
+        "objaverse_rescale/0df75457524743ec81468c916fddb930/material_2.urdf"
+    ],
+    "target_obj_name": "knife",
+    "instruction": "Place the knife between the hammer and the bowl on the table. We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.6026018980191983,
+            -0.10665357024003756,
+            0.9118837852769641,
+            0.015870972264640498,
+            0.02511040161582216,
+            0.11393579472411822,
+            0.9930439137574185,
+            -0.013580391183495522,
+            -0.0008963369764387608,
+            0.014388831332325935,
+            0.6001256108283997,
+            -0.45046496391296387,
+            0.038537848740816116
+        ],
+        [
+            0.36824617116633335,
+            0.003227185992698696,
+            0.9642157674810099,
+            0.4176142280140147,
+            0.1848478371437401,
+            0.6625002003069116,
+            0.5937365731171046,
+            0.002352543408051133,
+            0.0010815270943567157,
+            -0.0007757309940643609,
+            -0.013086703605949879,
+            0.044701382517814636,
+            0.015071406029164791
+        ],
+        [
+            0.4947083049130336,
+            -0.21795327543334986,
+            0.9316768041703198,
+            0.11286575521046806,
+            0.9875034580258845,
+            -0.02042318188442535,
+            0.10807930111453246,
+            0.0007506459369324148,
+            -0.00044099101796746254,
+            -0.00021967203065287322,
+            0.022223912179470062,
+            0.0391368642449379,
+            -0.001838212483562529
+        ],
+        [
+            0.5309370858748398,
+            0.10039125767220668,
+            0.9017156010485147,
+            0.6392106365357476,
+            0.26944718605413037,
+            0.28204676406508,
+            0.6627651159705784,
+            -0.00720598828047514,
+            0.004058008082211018,
+            0.034161049872636795,
+            1.838735580444336,
+            1.3366432189941406,
+            0.25911733508110046
+        ]
+    ],
+    "position_instruction": "Place the knife between the hammer and the bowl on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blade_right",
+    "obj_codes": [
+        "4f24b866dab248b684149ec6bb40101f",
+        "bdd36c94f3f74f22b02b8a069c8d97b7",
+        "794b730ae452424bb3a9ce3c6caaff7a",
+        "0df75457524743ec81468c916fddb930"
+    ],
+    "target_obj_code": "0df75457524743ec81468c916fddb930",
+    "anno_target": {
+        "category": "knife",
+        "annotation": {
+            " the blade of the knife is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blade of the knife is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.5
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blade_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "blade_right"
+}

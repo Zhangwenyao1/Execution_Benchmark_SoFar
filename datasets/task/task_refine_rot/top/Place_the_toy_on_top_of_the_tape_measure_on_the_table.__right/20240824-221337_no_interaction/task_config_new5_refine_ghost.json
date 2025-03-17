@@ -1,0 +1,85 @@
+{
+    "selected_obj_names": [
+        "tape measure",
+        "toy"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/11307d06bb254318b95021d68c6fa12f/material_2.urdf",
+        "ycb_16k_backup/073-g_lego_duplo_google_16k/073-g_lego_duplo_google_16k.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "Place the toy on top of the tape measure on the table. We also need to specify the rotation of the object after placement: the toy is facing right, with its head oriented towards left",
+    "init_obj_pos": [
+        [
+            0.6711309940589246,
+            -0.22089450791401158,
+            0.9226918415159108,
+            0.030950138912647453,
+            -0.037589895619527754,
+            -0.0537857730023921,
+            0.9973646170138264,
+            0.001465982524678111,
+            0.0006553123239427805,
+            -0.00019932264694944024,
+            -0.007506396621465683,
+            0.017867963761091232,
+            0.018540728837251663
+        ],
+        [
+            0.5990245446224252,
+            -0.08707373179621752,
+            0.9002528243529405,
+            0.002033503322061956,
+            -0.001080104304611672,
+            -0.11877542272480257,
+            0.9929184745967182,
+            -0.001671955338679254,
+            2.0190371287753806e-05,
+            -0.0025233172345906496,
+            0.0007313138921745121,
+            -0.035735782235860825,
+            -0.002229647245258093
+        ]
+    ],
+    "position_instruction": "Place the toy on top of the tape measure on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement: the toy is facing right, with its head oriented towards left",
+    "rotation_instruction_label": "right",
+    "obj_codes": [
+        "11307d06bb254318b95021d68c6fa12f",
+        "073-g"
+    ],
+    "target_obj_code": "073-g",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "right"
+}

@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "hot glue gun",
+        "pen",
+        "bottle"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/5ceec13e87774982afe825e7e74a0ce1/material_2.urdf",
+        "objaverse_rescale/fbeb7c776372466daffa619106e0b2e0/material_2.urdf",
+        "ycb_16k_backup/006_mustard_bottle_google_16k/006_mustard_bottle_google_16k.urdf"
+    ],
+    "target_obj_name": "bottle",
+    "instruction": "Place the bottle behind the hot glue gun on the table. We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.",
+    "init_obj_pos": [
+        [
+            0.6732830220020427,
+            0.19086451704938673,
+            0.9177718057369929,
+            0.00015473877984144884,
+            0.03023126029993051,
+            -0.04911093597196876,
+            0.9983356965092187,
+            -0.0020843246020376682,
+            -0.004158960655331612,
+            -0.0028876960277557373,
+            0.05514167621731758,
+            -0.117702916264534,
+            -0.06077490374445915
+        ],
+        [
+            0.5476940936473214,
+            -0.026155558319714334,
+            0.9071981708744182,
+            -0.14683090308978003,
+            -0.023961857144140335,
+            0.22057969568911426,
+            0.9639559705452017,
+            -0.000611712341196835,
+            -1.0313679013052024e-06,
+            0.030692508444190025,
+            -0.3538973331451416,
+            0.4708588123321533,
+            -0.14341317117214203
+        ],
+        [
+            0.31625949764967404,
+            0.05736966021142434,
+            0.9030924851176997,
+            0.00027909398481877206,
+            7.960094863749435e-05,
+            0.08078414040835244,
+            0.9967315779229227,
+            0.0005358830676414073,
+            -0.000448356760898605,
+            -0.00019891584815923125,
+            0.006880293134599924,
+            0.006667479407042265,
+            0.002622047672048211
+        ]
+    ],
+    "position_instruction": "Place the bottle behind the hot glue gun on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.",
+    "rotation_instruction_label": "cap_left_bottom_right",
+    "obj_codes": [
+        "5ceec13e87774982afe825e7e74a0ce1",
+        "fbeb7c776372466daffa619106e0b2e0",
+        "006"
+    ],
+    "target_obj_code": "006",
+    "anno_target": {
+        "category": "bottle",
+        "annotation": {
+            " the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.": {
+                "quat": [
+                    [
+                        0.6940461993217468,
+                        -0.13927604258060455,
+                        0.13960807025432587,
+                        0.6923955678939819
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.": {
+                "quat": [
+                    [
+                        0.6968799233436584,
+                        -0.14050795137882233,
+                        -0.138368159532547,
+                        -0.6895434260368347
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "cap_left_bottom_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "cap_left_bottom_right"
+}

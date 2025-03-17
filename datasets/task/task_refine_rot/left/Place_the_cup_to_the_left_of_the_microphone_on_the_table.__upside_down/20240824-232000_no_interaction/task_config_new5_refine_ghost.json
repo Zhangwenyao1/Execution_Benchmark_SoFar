@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "microphone",
+        "hard drive",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f9d07bb386a04de8b0e1a9a28a936985/material_2.urdf",
+        "objaverse_rescale/f8de4975c0f54c1a97203c6a674f6a39/material_2.urdf",
+        "ycb_16k_backup/065-d_cups_google_16k/065-d_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup to the left of the microphone on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6369116418924566,
+            0.1666470300620797,
+            0.9436970074486597,
+            -0.04535894150763257,
+            -0.029350644802213655,
+            -0.02859061602399512,
+            0.998130093099277,
+            0.0008118542027659714,
+            -0.0007237069075927138,
+            -0.0030636845622211695,
+            0.025609899312257767,
+            0.04237828776240349,
+            -0.013518230058252811
+        ],
+        [
+            0.4082085075629636,
+            0.0032078839881042975,
+            0.9508357779970009,
+            0.001373446658850022,
+            8.616292950616924e-05,
+            0.04841568390888325,
+            0.9988263251295801,
+            -0.00091119873104617,
+            0.0006843669107183814,
+            -0.00017241446767002344,
+            -0.00891797710210085,
+            -0.010834760963916779,
+            0.0025274204090237617
+        ],
+        [
+            0.6711778093168743,
+            -0.24162323882096298,
+            0.9006126005280722,
+            0.00080580478185026,
+            -0.0007777243757701045,
+            -0.03862775311244048,
+            0.9992530422835506,
+            0.00714084692299366,
+            -0.0005791826406493783,
+            -0.007050412241369486,
+            -0.01904020830988884,
+            0.19677136838436127,
+            -0.01379780936986208
+        ]
+    ],
+    "position_instruction": "Place the cup to the left of the microphone on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "f9d07bb386a04de8b0e1a9a28a936985",
+        "f8de4975c0f54c1a97203c6a674f6a39",
+        "065-d"
+    ],
+    "target_obj_code": "065-d",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "upside_down"
+}

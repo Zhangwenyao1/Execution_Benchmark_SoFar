@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "skillet",
+        "toy",
+        "fork"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/027_skillet_google_16k/027_skillet_google_16k.urdf",
+        "ycb_16k_backup/073-g_lego_duplo_google_16k/073-g_lego_duplo_google_16k.urdf",
+        "objaverse_rescale/e98e7fb33743442383812b68608f7006/material_2.urdf"
+    ],
+    "target_obj_name": "fork",
+    "instruction": "Place the fork on top of the skillet on the table. We also need to specify the rotation of the object after placement:  the prong of the fork is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.5771206533238263,
+            0.24557554366356635,
+            1.0019334838202363,
+            -0.4493322788741047,
+            -0.012876558237180605,
+            -0.11772528439603858,
+            0.8854803525904122,
+            0.005742257926613092,
+            0.0012677188497036695,
+            0.000549073563888669,
+            -0.01983247697353363,
+            0.11164035648107529,
+            0.008511309511959553
+        ],
+        [
+            0.6154839372310291,
+            0.15692573613151142,
+            0.9400507714916142,
+            0.16137356444134224,
+            0.029701628740696012,
+            -0.07021814280158298,
+            0.9839440016439663,
+            0.007324686273932457,
+            -0.002318925689905882,
+            0.0032213390804827213,
+            0.05417412891983986,
+            0.14673873782157898,
+            -0.012230140157043934
+        ],
+        [
+            0.6489948707897494,
+            0.11942542613492255,
+            0.9057775382399642,
+            -0.47193318807785706,
+            -0.5193311226109486,
+            -0.5030552915806518,
+            -0.5044894693559296,
+            -0.0019557548221200705,
+            0.0032611708156764507,
+            0.10347390174865723,
+            -11.771947860717773,
+            -0.7517753839492798,
+            0.27698463201522827
+        ]
+    ],
+    "position_instruction": "Place the fork on top of the skillet on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the prong of the fork is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "prong_right",
+    "obj_codes": [
+        "027",
+        "073-g",
+        "e98e7fb33743442383812b68608f7006"
+    ],
+    "target_obj_code": "e98e7fb33743442383812b68608f7006",
+    "anno_target": {
+        "category": "fork",
+        "annotation": {
+            " the prong of the fork is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the prong of the fork is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.7071068286895752,
+                        0.0,
+                        0.0,
+                        0.7071067094802856
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "prong_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "prong_right"
+}

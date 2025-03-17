@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "remote control",
+        "camera",
+        "apple"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f1bbc61a42b94ee9a2976ca744f8962e/material_2.urdf",
+        "objaverse_rescale/f6f8675406b7437faaf96a1f82062028/material_2.urdf",
+        "ycb_16k_backup/013_apple_google_16k/013_apple_google_16k.urdf"
+    ],
+    "target_obj_name": "apple",
+    "instruction": "Place the apple behind the remote control on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.3742976037880879,
+            0.03968995934881731,
+            0.9058690097648078,
+            -0.4468904399989615,
+            0.548073403342363,
+            -0.553337625960511,
+            0.44013855873195223,
+            -0.002262597205117345,
+            -0.0021420656703412533,
+            0.03181606903672218,
+            4.188741207122803,
+            -0.24874013662338257,
+            0.5003620386123657
+        ],
+        [
+            0.46589828719866366,
+            0.19066726052710653,
+            0.9580125870500583,
+            -0.44203652656132,
+            0.3138592025723797,
+            0.18960855782896077,
+            0.8186236650282317,
+            0.00206770864315331,
+            -0.0019306782633066177,
+            -0.0007768220384605229,
+            0.024271197617053986,
+            0.01933474838733673,
+            -0.0002476044755894691
+        ],
+        [
+            0.34343787634311496,
+            -0.18866003768368014,
+            0.9006174926281091,
+            0.008845057184486705,
+            -0.018446385575562132,
+            0.1015899394432396,
+            0.9946159962651514,
+            -0.001979822525754571,
+            0.0006440383149310946,
+            -0.00040794414235278964,
+            -0.004461790435016155,
+            -0.07823383063077927,
+            0.0923265665769577
+        ]
+    ],
+    "position_instruction": "Place the apple behind the remote control on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "f1bbc61a42b94ee9a2976ca744f8962e",
+        "f6f8675406b7437faaf96a1f82062028",
+        "013"
+    ],
+    "target_obj_code": "013",
+    "anno_target": {
+        "category": "apple",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        -0.018678417429327965,
+                        -0.0,
+                        0.0,
+                        0.9998255372047424
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "upright"
+}

@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "scissors",
+        "microphone"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/037_scissors_google_16k/037_scissors_google_16k.urdf",
+        "objaverse_rescale/5172dbe9281a45f48cee8c15bdfa1831/material_2.urdf"
+    ],
+    "target_obj_name": "microphone",
+    "instruction": "Place the microphone behind the scissors on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.5066447442054286,
+            -0.05792647631296947,
+            0.9013721160172645,
+            0.00633041790648935,
+            -0.022139666347886243,
+            -0.35721476156368903,
+            0.9337383868643995,
+            0.015360383316874504,
+            -0.0031183832325041294,
+            0.004577177111059427,
+            -2.375469446182251,
+            -0.24535980820655823,
+            0.2739536166191101
+        ],
+        [
+            0.41644143213764395,
+            0.02512825223772241,
+            0.9433789466425636,
+            -0.12144753864514188,
+            0.06732873687213026,
+            0.19025478734863738,
+            0.9718644208114446,
+            -0.004397109150886536,
+            -0.00013314216630533338,
+            -0.001170016243122518,
+            0.032327767461538315,
+            -0.10555293411016464,
+            0.0055039008148014545
+        ]
+    ],
+    "position_instruction": "Place the microphone behind the scissors on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "037",
+        "5172dbe9281a45f48cee8c15bdfa1831"
+    ],
+    "target_obj_code": "5172dbe9281a45f48cee8c15bdfa1831",
+    "anno_target": {
+        "category": "microphone",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "upright"
+}

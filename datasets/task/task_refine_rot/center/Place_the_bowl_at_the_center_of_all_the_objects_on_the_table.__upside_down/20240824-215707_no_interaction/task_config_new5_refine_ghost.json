@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "keyboard",
+        "screwdriver",
+        "USB",
+        "bowl"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/0161b6232216457aa8f4f3393960ec85/material_2.urdf",
+        "ycb_16k_backup/043_phillips_screwdriver_google_16k/043_phillips_screwdriver_google_16k.urdf",
+        "objaverse_rescale/b1098389cc3b460bb1f1ce558d4b0764/material_2.urdf",
+        "objaverse_rescale/bf83213efac34b3cb2ad6ac5ddaf05d9/material_2.urdf"
+    ],
+    "target_obj_name": "bowl",
+    "instruction": "Place the bowl at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.4115895570717972,
+            -0.027824818148016902,
+            0.9342692917962598,
+            0.19748232220149267,
+            0.39992786859732476,
+            0.02387371895268453,
+            0.8947002167656364,
+            0.0018744468688964844,
+            0.004636047407984734,
+            0.0010627721203491092,
+            -0.1443377584218979,
+            0.06578930467367172,
+            -0.004298034124076366
+        ],
+        [
+            0.5450071541892823,
+            0.2713524278216826,
+            0.9015056212356721,
+            -0.027815886246133244,
+            -0.007983542966710387,
+            -0.08473507133893605,
+            0.9959831862030732,
+            -0.00019536659237928689,
+            7.12678229319863e-05,
+            -9.544441127218306e-05,
+            -0.014938024803996086,
+            -0.020120225846767426,
+            0.02075418084859848
+        ],
+        [
+            0.6963290671352648,
+            -0.11323954009770776,
+            0.9250264327296501,
+            -0.02427845470041376,
+            0.0026443408713157685,
+            -0.10804560616844926,
+            0.993845919187883,
+            -0.0020667591597884893,
+            0.0017137425020337105,
+            -0.0027125824708491564,
+            0.008780056610703468,
+            -0.05237630009651184,
+            0.0058626146055758
+        ],
+        [
+            0.4618090208899495,
+            -0.2419678623998232,
+            0.9562210417653646,
+            0.5410802057793408,
+            0.24938797413892264,
+            -0.16335875577942496,
+            0.7863534613511075,
+            -0.001221861457452178,
+            0.0036738289054483175,
+            5.773795783170499e-05,
+            -0.08392844349145889,
+            -0.024963220581412315,
+            -0.020789125934243202
+        ]
+    ],
+    "position_instruction": "Place the bowl at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "0161b6232216457aa8f4f3393960ec85",
+        "043",
+        "b1098389cc3b460bb1f1ce558d4b0764",
+        "bf83213efac34b3cb2ad6ac5ddaf05d9"
+    ],
+    "target_obj_code": "bf83213efac34b3cb2ad6ac5ddaf05d9",
+    "anno_target": {
+        "category": "bowl",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "center",
+    "rotation_tag": "upside_down"
+}

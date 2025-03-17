@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "wallet",
+        "pear",
+        "knife"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/dbb07d13a33546f09ac8ca98b1ddef20/material_2.urdf",
+        "objaverse_rescale/f3dd3064db4f4e8880344425970cecad/material_2.urdf",
+        "objaverse_rescale/0df75457524743ec81468c916fddb930/material_2.urdf"
+    ],
+    "target_obj_name": "knife",
+    "instruction": "Place the knife to the left of the wallet on the table. We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.5260530066228017,
+            0.2287935695260952,
+            0.9317447810443475,
+            0.03736270732353975,
+            -0.04236765548022252,
+            0.06582569283019758,
+            0.9962308909253857,
+            0.00018523256585467607,
+            -0.002272459212690592,
+            -0.0017343064537271857,
+            0.03341450169682503,
+            0.006357490550726652,
+            0.009957028552889824
+        ],
+        [
+            0.5426765689954746,
+            0.021874024691077125,
+            0.9343877196471341,
+            -0.1727473683334061,
+            0.01605443379335771,
+            -0.08371691693827073,
+            0.981270645493794,
+            -0.0013748467899858952,
+            0.002030404284596443,
+            -0.00025123704108409584,
+            -0.04960130900144577,
+            -0.04216209053993225,
+            -0.057359542697668076
+        ],
+        [
+            0.5194483401946174,
+            -0.1751310958300683,
+            0.9020118545401388,
+            0.6777023618336154,
+            0.09313002682845371,
+            0.10412767264168384,
+            0.7219444124434342,
+            -0.004702740348875523,
+            0.005913532339036465,
+            0.03407425805926323,
+            -7.882562637329102,
+            -4.927955150604248,
+            -0.15346135199069977
+        ]
+    ],
+    "position_instruction": "Place the knife to the left of the wallet on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blade_right",
+    "obj_codes": [
+        "dbb07d13a33546f09ac8ca98b1ddef20",
+        "f3dd3064db4f4e8880344425970cecad",
+        "0df75457524743ec81468c916fddb930"
+    ],
+    "target_obj_code": "0df75457524743ec81468c916fddb930",
+    "anno_target": {
+        "category": "knife",
+        "annotation": {
+            " the blade of the knife is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blade of the knife is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.5
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blade_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "blade_right"
+}

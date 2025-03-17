@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "lighter",
+        "spatula",
+        "tissue box",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/b640aa4990b64db9ab3d868c6f49820e/material_2.urdf",
+        "objaverse_rescale/81b129ecf5724f63b5b044702a3140c2/material_2.urdf",
+        "objaverse_rescale/213d8df9c37a4d8cba794965676f7a75/material_2.urdf",
+        "objaverse_rescale/77d41aba53e4455f9f84fa04b175dff4/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug to the right of the lighter on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "init_obj_pos": [
+        [
+            0.48547459628800466,
+            1.6627667749928154,
+            0.09841973786451302,
+            0.038533855715671514,
+            -0.7547512731979046,
+            0.019657046841659826,
+            0.6545832705464537,
+            0.0028429843951016665,
+            0.0013461339985951781,
+            0.029817139729857445,
+            -0.10638061910867691,
+            -3.742575168609619,
+            0.44928815960884094
+        ],
+        [
+            0.5311765680458961,
+            0.13227790289787394,
+            0.9134120809193815,
+            0.07662650470578236,
+            0.06939257209182761,
+            -0.09663465500712058,
+            0.9899367622059043,
+            0.0029651157092303038,
+            0.0006235087057575583,
+            0.031198890879750252,
+            -0.21134091913700104,
+            0.8207277655601501,
+            0.026034485548734665
+        ],
+        [
+            0.697580348930692,
+            -0.06020408547045917,
+            0.9329000511484827,
+            -1.9053681517795905e-07,
+            2.063173137456177e-06,
+            0.11406719894834252,
+            0.9934730364331913,
+            -0.00010335114347981289,
+            -0.0005785304820165038,
+            -0.0002831825113389641,
+            0.0018665592651814222,
+            -0.001972116529941559,
+            -0.0031416714191436768
+        ],
+        [
+            0.3747855423133196,
+            0.16962086501328383,
+            0.96232076519048,
+            0.015750700443846494,
+            0.22419800179184257,
+            -0.06827324168481866,
+            0.9720215717245779,
+            0.0005458987434394658,
+            0.00017211581871379167,
+            -0.0001268999621970579,
+            -0.002467578975483775,
+            0.005141067318618298,
+            0.0010454468429088593
+        ]
+    ],
+    "position_instruction": "Place the mug to the right of the lighter on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "rotation_instruction_label": "handle_left",
+    "obj_codes": [
+        "b640aa4990b64db9ab3d868c6f49820e",
+        "81b129ecf5724f63b5b044702a3140c2",
+        "213d8df9c37a4d8cba794965676f7a75",
+        "77d41aba53e4455f9f84fa04b175dff4"
+    ],
+    "target_obj_code": "77d41aba53e4455f9f84fa04b175dff4",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "handle_left"
+}

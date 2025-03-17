@@ -1,0 +1,79 @@
+{
+    "selected_obj_names": [
+        "toilet paper roll",
+        "book"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/ea0cf48616e34708b73c82eb7c7366ca/material_2.urdf",
+        "objaverse_rescale/2a371c84c5454f7facba7bb2f5312ad6/material_2.urdf"
+    ],
+    "target_obj_name": "book",
+    "instruction": "Place the book behind the toilet paper roll on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.615040176979172,
+            -0.009425250306338886,
+            0.949537394171221,
+            0.00013064196188916565,
+            -0.0005128333957425385,
+            0.062226154333189815,
+            0.998061934777341,
+            0.0005300719640217721,
+            -0.0012641017092391849,
+            -2.366212720517069e-05,
+            0.01608620025217533,
+            0.006737434770911932,
+            9.327914085588418e-06
+        ],
+        [
+            0.3867785638575053,
+            0.16721702368089456,
+            0.9770633258406484,
+            -1.2596608600559142e-08,
+            4.9588677883067185e-05,
+            -0.09374601983390825,
+            0.9955961436778779,
+            -0.00022239673126023263,
+            -0.0030309543944895267,
+            -0.0007323334575630724,
+            0.04291273280978203,
+            -0.007309104781597853,
+            -1.3343495993467513e-05
+        ]
+    ],
+    "position_instruction": "Place the book behind the toilet paper roll on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "ea0cf48616e34708b73c82eb7c7366ca",
+        "2a371c84c5454f7facba7bb2f5312ad6"
+    ],
+    "target_obj_code": "2a371c84c5454f7facba7bb2f5312ad6",
+    "anno_target": {
+        "category": "book",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "behind",
+    "rotation_tag": "lying_flat"
+}

@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "screwdriver",
+        "mug",
+        "wrench",
+        "mouse"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/044_flat_screwdriver_google_16k/044_flat_screwdriver_google_16k.urdf",
+        "objaverse_rescale/c25119c5ac6e4654be3b75d78e34a912/material_2.urdf",
+        "objaverse_rescale/8a6cb4f7b0004f53830e270dc6e1ff1d/material_2.urdf",
+        "objaverse_rescale/969b0d9d99a8468898753fdcd219f883/material_2.urdf"
+    ],
+    "target_obj_name": "mouse",
+    "instruction": "Place the mouse behind the screwdriver on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.4365926282324451,
+            -0.10474287794365646,
+            0.9007887940061248,
+            0.01640147063835533,
+            -0.008990395594093498,
+            -0.032666177465573695,
+            0.9992912915650505,
+            -0.0019084542291238904,
+            1.0718381417973433e-05,
+            -0.001443223562091589,
+            0.06050149351358414,
+            -0.07174446433782578,
+            -0.060313981026411057
+        ],
+        [
+            0.4506895604916153,
+            0.12651664552191044,
+            0.9304252474257095,
+            0.006158329650535378,
+            0.29457282968013143,
+            0.0060896280474992195,
+            0.9555897861637074,
+            -0.0008002878748811781,
+            0.0015980193857103586,
+            -0.000271334225544706,
+            -0.027659572660923004,
+            -0.012667414732277393,
+            -0.0005441618850454688
+        ],
+        [
+            0.3992635597636152,
+            -0.02472004142938523,
+            0.901984342525668,
+            0.3044193036409976,
+            -0.6370977584654928,
+            0.30528583032701795,
+            0.6389334046131246,
+            0.0016698059625923634,
+            0.0021265768446028233,
+            0.016167664900422096,
+            -0.3244510889053345,
+            0.8865192532539368,
+            -0.083343505859375
+        ],
+        [
+            0.5933479695184664,
+            -0.14371377443239514,
+            0.9208175866280011,
+            -0.5982511997696712,
+            -0.2205526240892918,
+            0.1344862139798848,
+            0.7585285098338975,
+            0.006686090957373381,
+            0.002142350422218442,
+            -0.0007559712394140661,
+            0.07648283243179321,
+            0.1956624686717987,
+            -0.022370677441358566
+        ]
+    ],
+    "position_instruction": "Place the mouse behind the screwdriver on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "044",
+        "c25119c5ac6e4654be3b75d78e34a912",
+        "8a6cb4f7b0004f53830e270dc6e1ff1d",
+        "969b0d9d99a8468898753fdcd219f883"
+    ],
+    "target_obj_code": "969b0d9d99a8468898753fdcd219f883",
+    "anno_target": {
+        "category": "mouse",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "upright"
+}

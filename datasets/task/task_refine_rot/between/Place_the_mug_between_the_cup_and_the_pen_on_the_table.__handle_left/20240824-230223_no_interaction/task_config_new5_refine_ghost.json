@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "pen",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-a_cups_google_16k/065-a_cups_google_16k.urdf",
+        "objaverse_rescale/f126e15c0f904fccbd76f9348baea12c/material_2.urdf",
+        "objaverse_rescale/ca4f9a92cc2f4ee98fe9332db41bf7f7/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug between the cup and the pen on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "init_obj_pos": [
+        [
+            0.32280611452794017,
+            -0.08280235611796752,
+            0.9011944677537262,
+            0.0025906769036167345,
+            -0.005364123098423285,
+            -0.00814238156716637,
+            0.9999491068044317,
+            -0.003567673033103347,
+            -0.00407848646864295,
+            0.011237455531954765,
+            -0.45392048358917236,
+            -0.8204384446144104,
+            1.7201586961746216
+        ],
+        [
+            0.2904474589999807,
+            0.30953846553886494,
+            0.9070422673443918,
+            -0.5180577747323076,
+            -0.48367924946165336,
+            -0.34446706380804704,
+            0.6156402907795138,
+            -0.001308317412622273,
+            -0.0056992885656654835,
+            0.03137407824397087,
+            0.5939556956291199,
+            -6.519445419311523,
+            0.2818368673324585
+        ],
+        [
+            0.4724285516177338,
+            -0.2338373046797374,
+            0.9610147074284616,
+            0.018992299293751527,
+            0.23224926317924324,
+            0.05827812909939708,
+            0.9707230459759927,
+            0.0007723091985099018,
+            -0.0011457791551947594,
+            -0.0005674618296325207,
+            0.023107213899493217,
+            0.013572308234870434,
+            0.002810959005728364
+        ]
+    ],
+    "position_instruction": "Place the mug between the cup and the pen on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "rotation_instruction_label": "handle_left",
+    "obj_codes": [
+        "065-a",
+        "f126e15c0f904fccbd76f9348baea12c",
+        "ca4f9a92cc2f4ee98fe9332db41bf7f7"
+    ],
+    "target_obj_code": "ca4f9a92cc2f4ee98fe9332db41bf7f7",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_left"
+}

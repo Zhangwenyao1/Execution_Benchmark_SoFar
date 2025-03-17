@@ -1,0 +1,97 @@
+{
+    "selected_obj_names": [
+        "wrench",
+        "microphone",
+        "book"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/19c1913ba85042938f0a87d94397c946/material_2.urdf",
+        "objaverse_rescale/f9d07bb386a04de8b0e1a9a28a936985/material_2.urdf",
+        "objaverse_rescale/b2d30398ba3741da9f9aef2319ee2b8b/material_2.urdf"
+    ],
+    "target_obj_name": "book",
+    "instruction": "Place the book on top of the wrench on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.5221182711883499,
+            0.044701825171352454,
+            0.9083061788922392,
+            0.00041308381065928077,
+            -0.0016275777675895933,
+            -0.9681867055452845,
+            -0.2502232674188077,
+            -0.0012543589109554887,
+            -0.004623237997293472,
+            0.029238639399409294,
+            -2.1787571907043457,
+            -2.722752571105957,
+            0.2869721055030823
+        ],
+        [
+            0.6654716450632886,
+            0.26751401644096656,
+            0.9359819441991319,
+            -0.2920916412367734,
+            0.8795957710793373,
+            -0.2008864348724837,
+            -0.31723554798158654,
+            -0.0015442746225744486,
+            -0.0027088536880910397,
+            0.000701670884154737,
+            0.10084336251020432,
+            -0.09452845901250839,
+            -0.014758296310901642
+        ],
+        [
+            0.6551395254519332,
+            0.048277514435828665,
+            0.9163891629565977,
+            0.00017924939368680866,
+            9.42225229850561e-05,
+            -0.22210231466284158,
+            0.9750233437273075,
+            0.002769042272120714,
+            -0.0005507883033715189,
+            -0.003696376457810402,
+            0.029314998537302017,
+            0.048388104885816574,
+            -0.009159172885119915
+        ]
+    ],
+    "position_instruction": "Place the book on top of the wrench on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "19c1913ba85042938f0a87d94397c946",
+        "f9d07bb386a04de8b0e1a9a28a936985",
+        "b2d30398ba3741da9f9aef2319ee2b8b"
+    ],
+    "target_obj_code": "b2d30398ba3741da9f9aef2319ee2b8b",
+    "anno_target": {
+        "category": "book",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        1.0,
+                        0.0,
+                        0.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "top",
+    "rotation_tag": "lying_flat"
+}

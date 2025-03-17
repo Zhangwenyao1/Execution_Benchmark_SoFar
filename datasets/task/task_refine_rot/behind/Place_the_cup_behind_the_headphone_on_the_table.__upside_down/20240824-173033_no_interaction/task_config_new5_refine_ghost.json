@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "headphone",
+        "mouse",
+        "book",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f8891134871e48ce8cb5053c4287272b/material_2.urdf",
+        "objaverse_rescale/e51e63e374ee4c25ae3fb4a9c74bd335/material_2.urdf",
+        "objaverse_rescale/b2d30398ba3741da9f9aef2319ee2b8b/material_2.urdf",
+        "ycb_16k_backup/065-a_cups_google_16k/065-a_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup behind the headphone on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.44336941509400124,
+            0.04980232444616174,
+            0.9458072313189666,
+            -0.11378764755891534,
+            -0.002749001046952495,
+            0.02399862515894405,
+            0.9932113975618343,
+            0.0003000758879352361,
+            0.0002684567298274487,
+            2.3728720407234505e-05,
+            -0.0061690546572208405,
+            0.008623741567134857,
+            -0.00043251682654954493
+        ],
+        [
+            0.7059506825380771,
+            0.24333920768189107,
+            0.9416722555412623,
+            0.11987171141000405,
+            -0.050487299793287095,
+            -0.1227032253423277,
+            0.9838829828052782,
+            0.005962231196463108,
+            -0.002126702107489109,
+            -0.004716531839221716,
+            0.21260251104831696,
+            0.19516566395759583,
+            -0.25821453332901
+        ],
+        [
+            0.6656167535801125,
+            0.14319586787007146,
+            0.9958080527481898,
+            0.34704164554325845,
+            -0.19995894799360214,
+            0.10099867444379344,
+            0.9107018080230854,
+            -0.0038776982109993696,
+            0.006438665557652712,
+            -0.008855791762471199,
+            -0.13934029638767242,
+            -0.1087372675538063,
+            -0.055237703025341034
+        ],
+        [
+            0.6046542788781124,
+            0.10332793821832739,
+            0.9013500327491,
+            0.0027441190732579424,
+            -0.006353112701540692,
+            -0.12367830805417894,
+            0.992298233338329,
+            -0.009104861877858639,
+            -0.006518459878861904,
+            0.014477242715656757,
+            0.8182812333106995,
+            -1.114389181137085,
+            1.741127610206604
+        ]
+    ],
+    "position_instruction": "Place the cup behind the headphone on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "f8891134871e48ce8cb5053c4287272b",
+        "e51e63e374ee4c25ae3fb4a9c74bd335",
+        "b2d30398ba3741da9f9aef2319ee2b8b",
+        "065-a"
+    ],
+    "target_obj_code": "065-a",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "upside_down"
+}

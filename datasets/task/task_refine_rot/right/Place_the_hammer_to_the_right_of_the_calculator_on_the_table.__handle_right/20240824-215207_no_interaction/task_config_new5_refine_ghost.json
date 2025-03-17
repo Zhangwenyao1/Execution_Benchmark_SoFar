@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "calculator",
+        "hard drive",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/d9ffbc4bbe1044bb902e1dddac52b0de/material_2.urdf",
+        "objaverse_rescale/f8de4975c0f54c1a97203c6a674f6a39/material_2.urdf",
+        "ycb_16k_backup/048_hammer_google_16k/048_hammer_google_16k.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer to the right of the calculator on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.5969283194228618,
+            0.22854490563047836,
+            0.9055590002177083,
+            -0.7016961946077225,
+            0.015861701157124788,
+            -0.019425975384033546,
+            0.7120347522346233,
+            0.004066066350787878,
+            -0.004041317384690046,
+            -0.024668721482157707,
+            0.20765213668346405,
+            -0.7179411053657532,
+            0.06301805377006531
+        ],
+        [
+            0.3979445500302006,
+            -0.10437542655415939,
+            0.9337464940275996,
+            -0.706232440646589,
+            0.12395352911148347,
+            -0.1377720353068677,
+            0.6832935889400499,
+            0.005864238366484642,
+            0.0006239155773073435,
+            0.025072133168578148,
+            -0.03119911067187786,
+            0.29372650384902954,
+            -0.025503426790237427
+        ],
+        [
+            0.3406213885045339,
+            -0.029215300651358314,
+            0.897360426862554,
+            0.0010471953453912947,
+            -0.00192862980862386,
+            0.16254482822257388,
+            0.9866987192588543,
+            0.001517141587100923,
+            0.0029170506168156862,
+            0.027637243270874023,
+            0.1531873196363449,
+            0.10859153419733047,
+            -0.02374781295657158
+        ]
+    ],
+    "position_instruction": "Place the hammer to the right of the calculator on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "d9ffbc4bbe1044bb902e1dddac52b0de",
+        "f8de4975c0f54c1a97203c6a674f6a39",
+        "048"
+    ],
+    "target_obj_code": "048",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        -0.0,
+                        0.0,
+                        -0.9831142425537109,
+                        -0.1829928606748581
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "handle_right"
+}

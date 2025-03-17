@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "camera",
+        "envelope box",
+        "scissors"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6a63fc4af48b453c91ca2b335a4d464d/material_2.urdf",
+        "objaverse_rescale/40b28d1cbfbd4e9f9acf653b748324ee/material_2.urdf",
+        "ycb_16k_backup/037_scissors_google_16k/037_scissors_google_16k.urdf"
+    ],
+    "target_obj_name": "scissors",
+    "instruction": "Place the scissors in front of camera on the table. We also need to specify the rotation of the object after placement:  the blades of the scissors are on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.41916299871479756,
+            0.19981383098463207,
+            0.9469772331655334,
+            0.005482817052710024,
+            -0.8208798205476016,
+            0.1650852128638749,
+            0.5466929041322864,
+            -0.0008585065952502191,
+            -0.0005199803854338825,
+            -0.0004346191417425871,
+            0.004791663959622383,
+            -0.012538463808596134,
+            0.01101322378963232
+        ],
+        [
+            0.4025343347036383,
+            -0.26261093387013534,
+            0.9316803613297263,
+            0.3401010314952195,
+            -0.9403888733970989,
+            0.00023282460203294224,
+            -3.0976222742579646e-05,
+            -2.7480848530103685e-07,
+            -2.49283448283677e-06,
+            -5.183663233765401e-06,
+            0.0001643388532102108,
+            -2.140879223588854e-05,
+            -3.1309442420024425e-05
+        ],
+        [
+            0.6085796078474568,
+            0.12953618996319025,
+            0.90016182842736,
+            -0.001707023050220183,
+            2.335751766282124e-05,
+            -0.8342248714156492,
+            0.5514217527793739,
+            0.005192763637751341,
+            -0.007610666565597057,
+            0.001023240853101015,
+            -1.0409060716629028,
+            1.1066381931304932,
+            0.42182034254074097
+        ]
+    ],
+    "position_instruction": "Place the scissors in front of camera on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the blades of the scissors are on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blades_right",
+    "obj_codes": [
+        "6a63fc4af48b453c91ca2b335a4d464d",
+        "40b28d1cbfbd4e9f9acf653b748324ee",
+        "037"
+    ],
+    "target_obj_code": "037",
+    "anno_target": {
+        "category": "scissors",
+        "annotation": {
+            " the blades of the scissors are on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.9899005889892578,
+                        0.1417630910873413
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blades of the scissors are on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.13520878553390503,
+                        0.990817129611969
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blades_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "blades_right"
+}

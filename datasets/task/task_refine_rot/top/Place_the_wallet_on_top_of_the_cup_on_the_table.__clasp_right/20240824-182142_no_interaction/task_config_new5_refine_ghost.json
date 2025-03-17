@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "watch",
+        "spoon",
+        "wallet"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-g_cups_google_16k/065-g_cups_google_16k.urdf",
+        "objaverse_rescale/243b381dcdc34316a7e78a533572d273/material_2.urdf",
+        "objaverse_rescale/2613c5f24bb3407da2664c410c34d523/material_2.urdf",
+        "objaverse_rescale/dbb07d13a33546f09ac8ca98b1ddef20/material_2.urdf"
+    ],
+    "target_obj_name": "wallet",
+    "instruction": "Place the wallet on top of the cup on the table. We also need to specify the rotation of the object after placement:  the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)",
+    "init_obj_pos": [
+        [
+            0.495255885413176,
+            -0.22864094359149317,
+            0.900569487150314,
+            0.0003935496869615772,
+            -0.001249178368667316,
+            0.04613639590297626,
+            0.9989342909546804,
+            0.003878179006278515,
+            0.010416575707495213,
+            -0.0036251621786504984,
+            -0.3522111475467682,
+            0.14335809648036957,
+            -0.004886587616056204
+        ],
+        [
+            0.4362673035630658,
+            -0.0016159265039885381,
+            0.9248365586000132,
+            0.10169197037973757,
+            0.007707152556829368,
+            0.07517872159565485,
+            0.991941279904711,
+            -6.8127919803373516e-06,
+            0.001117877895012498,
+            -0.0005365399410948157,
+            -0.01105655636638403,
+            -0.003428082913160324,
+            -0.044145356863737106
+        ],
+        [
+            0.5839305356155117,
+            0.10728213394414908,
+            0.9063324311731127,
+            0.1613785626315123,
+            -0.18105004698488406,
+            -0.083061065011293,
+            0.9665809327153875,
+            0.0044081686064600945,
+            -0.0029903289396315813,
+            0.026075368747115135,
+            2.064995765686035,
+            -1.7470051050186157,
+            -0.3573041260242462
+        ],
+        [
+            0.6183664510898624,
+            -0.12526429074503967,
+            0.9317449117599739,
+            0.03470419805608648,
+            -0.04456656915490251,
+            0.00442753202464992,
+            0.998393628040171,
+            0.000583356770221144,
+            -0.003761120606213808,
+            -0.00023452792083844543,
+            0.0588480569422245,
+            0.03574397787451744,
+            -0.07659472525119781
+        ]
+    ],
+    "position_instruction": "Place the wallet on top of the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)",
+    "rotation_instruction_label": "clasp_right",
+    "obj_codes": [
+        "065-g",
+        "243b381dcdc34316a7e78a533572d273",
+        "2613c5f24bb3407da2664c410c34d523",
+        "dbb07d13a33546f09ac8ca98b1ddef20"
+    ],
+    "target_obj_code": "dbb07d13a33546f09ac8ca98b1ddef20",
+    "anno_target": {
+        "category": "wallet",
+        "annotation": {
+            " the wallet is lying flat on the table, and the clasp is on the left(if the wallet has a clasp)": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            },
+            " the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "clasp_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "clasp_right"
+}

@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "bottle",
+        "toilet paper roll",
+        "orange",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/021_bleach_cleanser_google_16k/021_bleach_cleanser_google_16k.urdf",
+        "objaverse_rescale/7ca7ebcfad964498b49af73be442acf9/material_2.urdf",
+        "objaverse_rescale/a4c9a503f63e440e8d6d924d4e5c36b1/material_2.urdf",
+        "ycb_16k_backup/065-e_cups_google_16k/065-e_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup between the bottle and the toilet paper roll on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6769358747858315,
+            0.19526989158421987,
+            0.9003793645321596,
+            -0.0009495817393329065,
+            -0.0004764495499152177,
+            -0.08014842895898822,
+            0.9967823737535448,
+            -0.0011350491549819708,
+            0.0035860317293554544,
+            -0.0007913667941465974,
+            -0.04181373491883278,
+            -0.013942860998213291,
+            -0.001443052664399147
+        ],
+        [
+            0.5400694676324149,
+            -0.2027522709637348,
+            0.9457630404074266,
+            -0.009081651014032667,
+            -0.4712846028657679,
+            -0.01699227830556536,
+            0.8817707237113865,
+            -0.00011686691868817434,
+            0.0005579927237704396,
+            -0.00044562722905538976,
+            -0.00671409023925662,
+            -0.0012627312680706382,
+            0.0018790828762575984
+        ],
+        [
+            0.2500821159040923,
+            -0.14678425816530963,
+            0.939937438112746,
+            -0.30226947186626163,
+            0.6784898188723114,
+            -0.0908801236708866,
+            0.6633442056623958,
+            -0.016130508854985237,
+            -0.0028224512934684753,
+            -0.0028172757010906935,
+            0.6039574146270752,
+            -0.4845394790172577,
+            -2.2134571075439453
+        ],
+        [
+            0.32607628446879827,
+            -0.2777295601989995,
+            0.9042632708700556,
+            -0.19341882781842562,
+            0.6459554079269543,
+            0.15399526428445445,
+            0.7222300371718349,
+            0.0033703588414937258,
+            0.004090897738933563,
+            0.0015441831201314926,
+            0.5760138034820557,
+            -0.015959864482283592,
+            -0.47863683104515076
+        ]
+    ],
+    "position_instruction": "Place the cup between the bottle and the toilet paper roll on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "021",
+        "7ca7ebcfad964498b49af73be442acf9",
+        "a4c9a503f63e440e8d6d924d4e5c36b1",
+        "065-e"
+    ],
+    "target_obj_code": "065-e",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

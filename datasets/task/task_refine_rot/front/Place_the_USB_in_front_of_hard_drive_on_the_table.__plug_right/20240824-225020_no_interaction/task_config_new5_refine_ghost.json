@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "hard drive",
+        "headphone",
+        "USB"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f8de4975c0f54c1a97203c6a674f6a39/material_2.urdf",
+        "objaverse_rescale/f8891134871e48ce8cb5053c4287272b/material_2.urdf",
+        "objaverse_rescale/878049e8c3174fa68a56530e5aef7a5a/material_2.urdf"
+    ],
+    "target_obj_name": "USB",
+    "instruction": "Place the USB in front of hard drive on the table. We also need to specify the rotation of the object after placement:  the silver plug end of the USB is oriented towards right, and the larger end is on the left.",
+    "init_obj_pos": [
+        [
+            0.314191400496794,
+            0.307232645611656,
+            0.9059885824259785,
+            -0.6952771616416752,
+            -0.12880181575762772,
+            0.12878709898432059,
+            0.6952795437032768,
+            -0.0006280686357058585,
+            -4.671686838264577e-05,
+            -0.0005312541034072638,
+            -4.906228423351422e-05,
+            0.012980818748474121,
+            -0.003928495571017265
+        ],
+        [
+            0.3760055692109923,
+            0.14523172046654645,
+            0.9470710028152618,
+            -0.07972849233180307,
+            0.020479177593323013,
+            -0.2017091054035123,
+            0.9759802290993975,
+            0.00041684237658046186,
+            0.00020357819448690861,
+            -1.4916396139597055e-05,
+            -0.0033125788904726505,
+            0.009357858449220657,
+            -0.00034749836777336895
+        ],
+        [
+            0.33197326225983775,
+            0.03571796072531756,
+            0.9401181599346077,
+            -0.0432293640853069,
+            0.001997152123436113,
+            -0.04542092399800336,
+            0.9980301464020729,
+            0.00013264903100207448,
+            0.0014688941882923245,
+            -0.0003297374350950122,
+            -0.03085358254611492,
+            0.0074836090207099915,
+            0.0001868011022452265
+        ]
+    ],
+    "position_instruction": "Place the USB in front of hard drive on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the silver plug end of the USB is oriented towards right, and the larger end is on the left.",
+    "rotation_instruction_label": "plug_right",
+    "obj_codes": [
+        "f8de4975c0f54c1a97203c6a674f6a39",
+        "f8891134871e48ce8cb5053c4287272b",
+        "878049e8c3174fa68a56530e5aef7a5a"
+    ],
+    "target_obj_code": "878049e8c3174fa68a56530e5aef7a5a",
+    "anno_target": {
+        "category": "USB",
+        "annotation": {
+            " the silver plug end of the USB is oriented towards left, and the larger end is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the silver plug end of the USB is oriented towards right, and the larger end is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "plug_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "plug_right"
+}

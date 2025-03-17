@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "calipers",
+        "toilet paper roll",
+        "pen"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/95c967114b624291bc26bcd705aaa334/material_2.urdf",
+        "objaverse_rescale/7ca7ebcfad964498b49af73be442acf9/material_2.urdf",
+        "objaverse_rescale/f126e15c0f904fccbd76f9348baea12c/material_2.urdf"
+    ],
+    "target_obj_name": "pen",
+    "instruction": "Place the pen between the calipers and the toilet paper roll on the table. We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "init_obj_pos": [
+        [
+            0.520654422094667,
+            0.008273912220023353,
+            0.9024796317998864,
+            0.6551062986021947,
+            -0.2520653301692762,
+            -0.2589767210880535,
+            0.6634982025543606,
+            -0.0037367469631135464,
+            0.0002765342651400715,
+            0.032018642872571945,
+            4.719370365142822,
+            -3.7469379901885986,
+            -0.41310328245162964
+        ],
+        [
+            0.3403742234537616,
+            0.24122753959726928,
+            0.9457633425411653,
+            0.00963994161863472,
+            -0.4712979430064668,
+            0.018047547593052885,
+            0.8817366990600649,
+            0.0015519397566094995,
+            -0.0002089596091536805,
+            -5.78654944547452e-05,
+            0.002811357146129012,
+            0.021168505772948265,
+            -0.00044902152149006724
+        ],
+        [
+            0.27098719128221976,
+            -0.1645946308406264,
+            0.9070417996671263,
+            -0.4461045773808359,
+            -0.5507777241482006,
+            -0.25687784985906,
+            0.6569995242568908,
+            -0.001704574329778552,
+            -0.00021840691624674946,
+            0.03183373436331749,
+            0.5508814454078674,
+            -2.6150081157684326,
+            0.17240887880325317
+        ]
+    ],
+    "position_instruction": "Place the pen between the calipers and the toilet paper roll on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "rotation_instruction_label": "ballpoint_right",
+    "obj_codes": [
+        "95c967114b624291bc26bcd705aaa334",
+        "7ca7ebcfad964498b49af73be442acf9",
+        "f126e15c0f904fccbd76f9348baea12c"
+    ],
+    "target_obj_code": "f126e15c0f904fccbd76f9348baea12c",
+    "anno_target": {
+        "category": "pen",
+        "annotation": {
+            " the ballpoint of the pen is on the left(oriented towards left), while the clicker is on the right.": {
+                "quat": [
+                    [
+                        -0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.": {
+                "quat": [
+                    [
+                        -0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "ballpoint_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "ballpoint_right"
+}

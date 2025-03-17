@@ -1,0 +1,127 @@
+{
+    "selected_obj_names": [
+        "shoe",
+        "wallet",
+        "box",
+        "USB"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/ae7142127dd84ebbbe7762368ace452c/material_2.urdf",
+        "objaverse_rescale/ccfcc4ae6efa44a2ba34c4c479be7daf/material_2.urdf",
+        "ycb_16k_backup/009_gelatin_box_google_16k/009_gelatin_box_google_16k.urdf",
+        "objaverse_rescale/b1098389cc3b460bb1f1ce558d4b0764/material_2.urdf"
+    ],
+    "target_obj_name": "USB",
+    "instruction": "Place the USB on top of the shoe on the table. We also need to specify the rotation of the object after placement:  the silver plug end of the USB is oriented towards right, and the larger end is on the left.",
+    "init_obj_pos": [
+        [
+            0.34474770337522637,
+            -0.04562449511322012,
+            0.9311024196668183,
+            0.012740938042009492,
+            0.22408956669104146,
+            -0.05783498470974771,
+            0.9727675206037957,
+            -0.0012165881926193833,
+            0.0002586314803920686,
+            -0.0007335268892347813,
+            -0.015781531110405922,
+            -0.024220092222094536,
+            0.005452990531921387
+        ],
+        [
+            0.31971285007914235,
+            0.2292859608407618,
+            0.9696419979206488,
+            0.002858418774964454,
+            0.006289659515535941,
+            0.11214549275284166,
+            0.9936677805385996,
+            0.007673768326640129,
+            -0.001785665052011609,
+            -0.011751256883144379,
+            0.18600472807884216,
+            0.08196456730365753,
+            -0.06905045360326767
+        ],
+        [
+            0.46726470095215383,
+            -0.14860258944040727,
+            0.9003369392269683,
+            -0.002565706114783636,
+            0.001760111590532732,
+            -0.04402557486432911,
+            0.9990255591911485,
+            0.0011181641602888703,
+            -0.010998032987117767,
+            0.026548130437731743,
+            0.8327162265777588,
+            -0.08225119113922119,
+            0.13457642495632172
+        ],
+        [
+            0.30390261381533684,
+            0.07911025603169437,
+            0.9250241029796225,
+            -0.025095359782065552,
+            0.0022353295743816155,
+            -0.08868984121736588,
+            0.9957405978887975,
+            0.001112498459406197,
+            -0.001854844857007265,
+            -0.0007946158293634653,
+            0.06528002768754959,
+            0.02337358519434929,
+            -0.018120886757969856
+        ]
+    ],
+    "position_instruction": "Place the USB on top of the shoe on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the silver plug end of the USB is oriented towards right, and the larger end is on the left.",
+    "rotation_instruction_label": "plug_right",
+    "obj_codes": [
+        "ae7142127dd84ebbbe7762368ace452c",
+        "ccfcc4ae6efa44a2ba34c4c479be7daf",
+        "009",
+        "b1098389cc3b460bb1f1ce558d4b0764"
+    ],
+    "target_obj_code": "b1098389cc3b460bb1f1ce558d4b0764",
+    "anno_target": {
+        "category": "USB",
+        "annotation": {
+            " the silver plug end of the USB is oriented towards left, and the larger end is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the silver plug end of the USB is oriented towards right, and the larger end is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "plug_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "plug_right"
+}

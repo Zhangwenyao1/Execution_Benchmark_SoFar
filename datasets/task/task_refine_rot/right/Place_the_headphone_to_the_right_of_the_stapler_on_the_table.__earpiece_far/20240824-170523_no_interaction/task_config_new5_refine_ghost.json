@@ -1,0 +1,97 @@
+{
+    "selected_obj_names": [
+        "stapler",
+        "headphone"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/d2c345be5c084b4e8c92b48f7be69315/material_2.urdf",
+        "objaverse_rescale/efb1727dee214d49b88c58792e4bdffc/material_2.urdf"
+    ],
+    "target_obj_name": "headphone",
+    "instruction": "Place the headphone to the right of the stapler on the table. We also need to specify the rotation of the object after placement:  the headphone is lying on the table, and the two earpieces are farther away from the nearer bringe of the table while the headband is nearer to the viewer(Imagine yourself as a viewer in front of the screen, judge 'far' and 'near' by the distance the item is from you).",
+    "init_obj_pos": [
+        [
+            0.7102650513914693,
+            -0.19925411431366138,
+            0.9226560909637401,
+            -0.09939330892931879,
+            0.37166804689763433,
+            0.15195594191496817,
+            0.9104357334661868,
+            0.0004235949309077114,
+            0.007647383492439985,
+            -0.003565519116818905,
+            -0.42593884468078613,
+            0.022605884820222855,
+            0.005289286375045776
+        ],
+        [
+            0.5201146695851094,
+            -0.04207034102576797,
+            0.9324173420380674,
+            -0.0031062473113172315,
+            -0.00032904045749376803,
+            0.10733960835058814,
+            0.9942175071075541,
+            0.0006316559156402946,
+            0.0017016725614666939,
+            -0.002330481307581067,
+            -0.04257059097290039,
+            0.02958114817738533,
+            0.009415664710104465
+        ]
+    ],
+    "position_instruction": "Place the headphone to the right of the stapler on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the headphone is lying on the table, and the two earpieces are farther away from the nearer bringe of the table while the headband is nearer to the viewer(Imagine yourself as a viewer in front of the screen, judge 'far' and 'near' by the distance the item is from you).",
+    "rotation_instruction_label": "earpiece_far",
+    "obj_codes": [
+        "d2c345be5c084b4e8c92b48f7be69315",
+        "efb1727dee214d49b88c58792e4bdffc"
+    ],
+    "target_obj_code": "efb1727dee214d49b88c58792e4bdffc",
+    "anno_target": {
+        "category": "headphone",
+        "annotation": {
+            " the headphone is lying on the table, and the two earpieces are closer to the nearer bringe of the table while the headband is farther from the viewer(Imagine yourself as a viewer in front of the screen, judge 'far' and 'near' by the distance the item is from you).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7063237428665161,
+                        0.7078889608383179
+                    ],
+                    [
+                        0.7078866362571716,
+                        -0.7063213586807251,
+                        0.00185405183583498,
+                        0.0018581598997116089
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the headphone is lying on the table, and the two earpieces are farther away from the nearer bringe of the table while the headband is nearer to the viewer(Imagine yourself as a viewer in front of the screen, judge 'far' and 'near' by the distance the item is from you).": {
+                "quat": [
+                    [
+                        0.707915186882019,
+                        0.7062927484512329,
+                        0.001862334436737001,
+                        -0.0018498585559427738
+                    ],
+                    [
+                        0.0061828745529055595,
+                        0.006151989568024874,
+                        0.7062684297561646,
+                        -0.7078906297683716
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "earpiece_far",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "earpiece_far"
+}

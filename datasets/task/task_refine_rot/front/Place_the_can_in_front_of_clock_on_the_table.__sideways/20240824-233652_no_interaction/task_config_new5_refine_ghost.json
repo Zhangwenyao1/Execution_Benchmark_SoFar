@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "clock",
+        "spatula",
+        "can"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/fdf932b04e6c4e0fbd6e274563b94536/material_2.urdf",
+        "ycb_16k_backup/033_spatula_google_16k/033_spatula_google_16k.urdf",
+        "ycb_16k_backup/010_potted_meat_can_google_16k/010_potted_meat_can_google_16k.urdf"
+    ],
+    "target_obj_name": "can",
+    "instruction": "Place the can in front of clock on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.517623905770023,
+            -0.20121949288764643,
+            0.9343200339249659,
+            -0.015496734722266571,
+            -5.715793559607443e-05,
+            0.0022850756008238196,
+            0.9998773056607582,
+            -0.00010848243982763961,
+            -1.7403017409378663e-05,
+            -1.334797252638964e-05,
+            0.00043030010419897735,
+            -0.0036074246745556593,
+            2.094049887091387e-05
+        ],
+        [
+            0.6434860413277934,
+            0.036821448674056095,
+            0.9004308600291153,
+            0.0010467673517427368,
+            -0.001454746522211803,
+            0.12511351293653802,
+            0.9921408150415679,
+            0.0020595474634319544,
+            -0.006269591860473156,
+            -0.009364173747599125,
+            0.402159184217453,
+            0.21017929911613464,
+            -0.02823050320148468
+        ],
+        [
+            0.5714434850414204,
+            0.2332546448596183,
+            0.9030855092273524,
+            -0.0005710850156880453,
+            -0.0001375006398611121,
+            -0.032893507088208325,
+            0.9994586895649642,
+            0.0008751050336286426,
+            0.00017124319856520742,
+            -0.0003444476460572332,
+            0.0026487542781978846,
+            0.022133423015475273,
+            -0.00066812225850299
+        ]
+    ],
+    "position_instruction": "Place the can in front of clock on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "fdf932b04e6c4e0fbd6e274563b94536",
+        "033",
+        "010"
+    ],
+    "target_obj_code": "010",
+    "anno_target": {
+        "category": "can",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.0,
+                        0.7071067690849304,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.0,
+                        -0.7071067690849304,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "front",
+    "rotation_tag": "sideways"
+}

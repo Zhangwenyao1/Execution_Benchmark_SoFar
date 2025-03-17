@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "screwdriver",
+        "box",
+        "cup",
+        "plate"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/044_flat_screwdriver_google_16k/044_flat_screwdriver_google_16k.urdf",
+        "objaverse_rescale/5e1a1527a0bd49ed8e473079392c31c8/material_2.urdf",
+        "ycb_16k_backup/065-j_cups_google_16k/065-j_cups_google_16k.urdf",
+        "objaverse_rescale/8d50c19e138b403e8b2ede9b47d8be3c/material_2.urdf"
+    ],
+    "target_obj_name": "plate",
+    "instruction": "Place the plate to the right of the screwdriver on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.7430256120551718,
+            0.06348895150241483,
+            0.9003753415179205,
+            0.009527984948469747,
+            -0.028649560499936215,
+            -0.40814528964746777,
+            0.9124175813324551,
+            0.0031634371262043715,
+            0.00426721153780818,
+            -0.0025969843845814466,
+            -0.23206806182861328,
+            0.2370852679014206,
+            -0.0024506584741175175
+        ],
+        [
+            0.5955516267973223,
+            0.09898456027781419,
+            0.9528245944899768,
+            -0.007986198450983934,
+            -0.00017494049796367344,
+            -0.05588155058635775,
+            0.9984054498720383,
+            -0.0018503397004678845,
+            0.0003381947462912649,
+            -0.0006550148827955127,
+            -0.005062779877334833,
+            -0.040329743176698685,
+            -0.0026978871319442987
+        ],
+        [
+            0.613541798973051,
+            -0.2723390653862791,
+            0.90036145990664,
+            -0.0003190765916306889,
+            -0.0010444485838228196,
+            0.0749711414000436,
+            0.9971851058226147,
+            0.0029119225218892097,
+            0.012047596275806427,
+            0.00907954853028059,
+            -0.43365293741226196,
+            0.12120986729860306,
+            0.01355569064617157
+        ],
+        [
+            0.5675202290825062,
+            -0.21048461502488483,
+            0.9482254598256945,
+            0.4753613826653928,
+            -0.020263921504586346,
+            0.08665820140618034,
+            0.8752778333105139,
+            -0.002591837663203478,
+            0.0065020350739359856,
+            0.013051964342594147,
+            -0.13165265321731567,
+            -0.10079565644264221,
+            0.043198663741350174
+        ]
+    ],
+    "position_instruction": "Place the plate to the right of the screwdriver on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "044",
+        "5e1a1527a0bd49ed8e473079392c31c8",
+        "065-j",
+        "8d50c19e138b403e8b2ede9b47d8be3c"
+    ],
+    "target_obj_code": "8d50c19e138b403e8b2ede9b47d8be3c",
+    "anno_target": {
+        "category": "plate",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upside_down"
+}

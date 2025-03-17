@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "box",
+        "wrench",
+        "bowl"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/008_pudding_box_google_16k/008_pudding_box_google_16k.urdf",
+        "objaverse_rescale/5bf781c9fd8d4121b735503b13ba2eaf/material_2.urdf",
+        "objaverse_rescale/bf83213efac34b3cb2ad6ac5ddaf05d9/material_2.urdf"
+    ],
+    "target_obj_name": "bowl",
+    "instruction": "Place the bowl behind the box on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6557366325785507,
+            0.029879562865057434,
+            0.900342965562064,
+            0.004981820079467265,
+            0.004422929329398205,
+            -0.8615134407857196,
+            -0.5076910581351546,
+            0.000996252871118486,
+            -0.0005434975610114634,
+            -0.001964305993169546,
+            0.02291979268193245,
+            0.044370293617248535,
+            0.011632492765784264
+        ],
+        [
+            0.3542509365406348,
+            -0.1157840377922156,
+            0.905303474769074,
+            -0.24881365953851786,
+            -0.6633709827404529,
+            0.6666781506313874,
+            0.2314539815076203,
+            0.0014184818137437105,
+            -0.0012991327093914151,
+            0.029261652380228043,
+            -4.141261577606201,
+            3.013270139694214,
+            -0.19426067173480988
+        ],
+        [
+            0.4708621188534788,
+            0.016987821047673952,
+            0.9505402602560499,
+            0.4755271198015605,
+            0.5234812711917208,
+            0.5236072840011307,
+            0.47505444865372076,
+            -0.003854514332488179,
+            0.001858162460848689,
+            -0.0009492718963883817,
+            -0.04369255527853966,
+            -0.1092577874660492,
+            -0.015398098155856133
+        ]
+    ],
+    "position_instruction": "Place the bowl behind the box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "008",
+        "5bf781c9fd8d4121b735503b13ba2eaf",
+        "bf83213efac34b3cb2ad6ac5ddaf05d9"
+    ],
+    "target_obj_code": "bf83213efac34b3cb2ad6ac5ddaf05d9",
+    "anno_target": {
+        "category": "bowl",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "upside_down"
+}

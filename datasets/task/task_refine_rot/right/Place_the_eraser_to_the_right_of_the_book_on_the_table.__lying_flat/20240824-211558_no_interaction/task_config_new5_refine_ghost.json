@@ -1,0 +1,97 @@
+{
+    "selected_obj_names": [
+        "book",
+        "apple",
+        "eraser"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/2a371c84c5454f7facba7bb2f5312ad6/material_2.urdf",
+        "ycb_16k_backup/013_apple_google_16k/013_apple_google_16k.urdf",
+        "objaverse_rescale/f0916a69ba514ecc973b44528b9dcc43/material_2.urdf"
+    ],
+    "target_obj_name": "eraser",
+    "instruction": "Place the eraser to the right of the book on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.5144269200326533,
+            0.0911809858511926,
+            0.9770851191924302,
+            7.518469710125124e-06,
+            1.1116480005673674e-06,
+            -0.010942017923398814,
+            0.9999401343010497,
+            9.500660962658003e-05,
+            -0.0029866290278732777,
+            -0.0007031876593828201,
+            0.04330749437212944,
+            0.00028350591310299933,
+            0.00038210046477615833
+        ],
+        [
+            0.5453874419115199,
+            -0.14213600149393618,
+            0.9009955351071721,
+            -0.042000028237036885,
+            0.029016810561669396,
+            0.12092324384106012,
+            0.9913483703682946,
+            0.0019029969116672873,
+            1.8516580894356593e-05,
+            -3.077317524002865e-05,
+            -0.023668816313147545,
+            0.07908724993467331,
+            0.09910564869642258
+        ],
+        [
+            0.7029305794515099,
+            -0.004301042377982187,
+            0.9106683371728148,
+            0.35972714506840237,
+            0.5997833093925423,
+            0.6257643252509619,
+            0.34536266752252526,
+            -0.007229937240481377,
+            0.0029225004836916924,
+            0.026631560176610947,
+            -0.14281927049160004,
+            -0.7828814387321472,
+            0.07084275037050247
+        ]
+    ],
+    "position_instruction": "Place the eraser to the right of the book on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "2a371c84c5454f7facba7bb2f5312ad6",
+        "013",
+        "f0916a69ba514ecc973b44528b9dcc43"
+    ],
+    "target_obj_code": "f0916a69ba514ecc973b44528b9dcc43",
+    "anno_target": {
+        "category": "eraser",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        -0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "right",
+    "rotation_tag": "lying_flat"
+}

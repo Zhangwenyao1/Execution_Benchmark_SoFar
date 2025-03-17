@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "book",
+        "mug",
+        "ladle"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/de79a920c48745ff95c0df7a7c300091/material_2.urdf",
+        "objaverse_rescale/db9345f568e8499a9eac2577302b5f51/material_2.urdf",
+        "objaverse_rescale/ce27e3369587476c85a436905f1e5c00/material_2.urdf"
+    ],
+    "target_obj_name": "ladle",
+    "instruction": "Place the ladle to the right of the book on the table. We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "init_obj_pos": [
+        [
+            0.30727662261782746,
+            0.14216940632915312,
+            0.9151319409732208,
+            0.007084957599991033,
+            -0.001568465843269976,
+            -0.059345012739928794,
+            0.9982111563960807,
+            0.00041614624205976725,
+            -5.681017864844762e-05,
+            -0.0001082405069610104,
+            -0.0029083862900733948,
+            0.002287694253027439,
+            0.002316777128726244
+        ],
+        [
+            0.6996513591206985,
+            -0.12773048805455853,
+            0.9642129070322248,
+            -0.03215671976186188,
+            0.24902505673352066,
+            0.12398003188111115,
+            0.9599903219240195,
+            0.00041920211515389383,
+            0.0011486959410831332,
+            0.0001048649792210199,
+            -0.014486872591078281,
+            -0.002061999635770917,
+            0.0015202367212623358
+        ],
+        [
+            0.33499725828241,
+            -0.17360614016584686,
+            0.9194577860413357,
+            0.0057527063694621135,
+            -0.021932706554912477,
+            -0.155481202473644,
+            0.9875785834200494,
+            0.0028821860905736685,
+            -0.0016881903866305947,
+            -0.009346514008939266,
+            -0.2933543920516968,
+            -0.06647171080112457,
+            -0.38447993993759155
+        ]
+    ],
+    "position_instruction": "Place the ladle to the right of the book on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "rotation_instruction_label": "scoop_right",
+    "obj_codes": [
+        "de79a920c48745ff95c0df7a7c300091",
+        "db9345f568e8499a9eac2577302b5f51",
+        "ce27e3369587476c85a436905f1e5c00"
+    ],
+    "target_obj_code": "ce27e3369587476c85a436905f1e5c00",
+    "anno_target": {
+        "category": "ladle",
+        "annotation": {
+            " the ladle is lying on the table, with its scoop on the left(pointing towards left) and its handle on the right. ": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ladle is lying on the table, with its scoop on the right(pointing towards right) and its handle on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "scoop_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "scoop_right"
+}

@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "knife",
+        "mug",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/032_knife_google_16k/032_knife_google_16k.urdf",
+        "objaverse_rescale/7bc2b14a48d1413e9375c32a53e3ee6f/material_2.urdf",
+        "objaverse_rescale/8ed38a92668a425eb16da938622d9ace/material_2.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer behind the knife on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.4617891106984598,
+            0.22459919198777542,
+            0.90269114118866,
+            -0.003599091575990301,
+            0.023448295207526126,
+            0.02832556900670307,
+            0.9993172099649521,
+            0.006670490838587284,
+            -0.00021697008924093097,
+            0.03349916264414787,
+            -5.866389751434326,
+            -0.20931202173233032,
+            -0.7850357294082642
+        ],
+        [
+            0.2973634707084206,
+            -0.23666312565140674,
+            0.9442227802421594,
+            0.09953597429366745,
+            -0.7415680243210252,
+            0.06177994889102129,
+            0.6605699758852538,
+            0.0012256718473508954,
+            0.0005840883823111653,
+            -0.0006845396128483117,
+            -0.005544113460928202,
+            0.016517257317900658,
+            0.003424660302698612
+        ],
+        [
+            0.29410660410689726,
+            0.09910889033017471,
+            0.9154027143565899,
+            -0.017228375238100387,
+            0.5583854664817656,
+            0.044592224585739845,
+            0.828203107585989,
+            0.010250120423734188,
+            -0.0011939436662942171,
+            0.012975908815860748,
+            0.4376658797264099,
+            0.1321278214454651,
+            -0.08478972315788269
+        ]
+    ],
+    "position_instruction": "Place the hammer behind the knife on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "032",
+        "7bc2b14a48d1413e9375c32a53e3ee6f",
+        "8ed38a92668a425eb16da938622d9ace"
+    ],
+    "target_obj_code": "8ed38a92668a425eb16da938622d9ace",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "handle_right"
+}

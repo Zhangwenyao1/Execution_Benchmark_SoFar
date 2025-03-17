@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "bottle"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/e5e87ddbf3f6470384bef58431351e2a/material_2.urdf",
+        "objaverse_rescale/d17b8f44d1544364b8ad9fe2554ddfdf/material_2.urdf"
+    ],
+    "target_obj_name": "bottle",
+    "instruction": "Place the bottle behind the mug on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.3617362124762047,
+            0.24647892070927738,
+            0.9327738152700524,
+            0.011222672844819693,
+            0.22989391618939278,
+            -0.04748326584344432,
+            0.9719918612715656,
+            -0.0011126419994980097,
+            0.00012283612159080803,
+            -0.00010261969873681664,
+            -0.005193870980292559,
+            -0.020177559927105904,
+            0.0037675057537853718
+        ],
+        [
+            0.4894803344652932,
+            0.03418673663477435,
+            0.9346926462626898,
+            0.003645574712444552,
+            0.09310795022839898,
+            -0.012933511375436036,
+            0.9955653387260853,
+            0.0003881514130625874,
+            -0.00014797414769418538,
+            -0.00014228942745830864,
+            0.004929435905069113,
+            0.010336749255657196,
+            -0.0015171784907579422
+        ]
+    ],
+    "position_instruction": "Place the bottle behind the mug on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "e5e87ddbf3f6470384bef58431351e2a",
+        "d17b8f44d1544364b8ad9fe2554ddfdf"
+    ],
+    "target_obj_code": "d17b8f44d1544364b8ad9fe2554ddfdf",
+    "anno_target": {
+        "category": "bottle",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "sideways"
+}

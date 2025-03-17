@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "toilet paper roll",
+        "bottle",
+        "pen"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-j_cups_google_16k/065-j_cups_google_16k.urdf",
+        "objaverse_rescale/ea0cf48616e34708b73c82eb7c7366ca/material_2.urdf",
+        "objaverse_rescale/a7785ac7ce7f4ba79df661db33637ba9/material_2.urdf",
+        "objaverse_rescale/f126e15c0f904fccbd76f9348baea12c/material_2.urdf"
+    ],
+    "target_obj_name": "pen",
+    "instruction": "Place the pen between the cup and the toilet paper roll on the table. We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "init_obj_pos": [
+        [
+            0.6373134543309471,
+            0.20776579705502385,
+            0.9004204085890823,
+            -0.0004921293239669997,
+            0.0030476198190135945,
+            -0.004374850233977678,
+            0.9999856651510541,
+            0.0016606934368610382,
+            -0.0022095954045653343,
+            -0.002527716103941202,
+            -0.09702747315168381,
+            0.2718219757080078,
+            -0.010602317750453949
+        ],
+        [
+            0.5710117032012954,
+            -0.11070093079575978,
+            0.9495373848633157,
+            8.43948788492408e-05,
+            -0.0005494303593678673,
+            -0.02768014754317702,
+            0.999616676749529,
+            0.0007124351104721427,
+            -0.0011178696295246482,
+            0.000246263574808836,
+            0.014040784910321236,
+            0.009074647910892963,
+            -2.210298043792136e-05
+        ],
+        [
+            0.3602445156682545,
+            0.22524302406499283,
+            0.9294713191415855,
+            -0.0032022503555037725,
+            0.05389354915005207,
+            -0.002509429556615619,
+            0.9985383987188338,
+            0.0037299052346497774,
+            0.00024696713080629706,
+            -0.00010103882232215255,
+            -0.010084614157676697,
+            0.17480060458183289,
+            0.00755729665979743
+        ],
+        [
+            0.6728756554725642,
+            0.2008792161122619,
+            0.9070418107871617,
+            0.5011113931187602,
+            0.5014302387752679,
+            0.3310173280766689,
+            -0.6228022285134621,
+            -0.0034766194876283407,
+            -0.007989264093339443,
+            0.02582501620054245,
+            -1.437282919883728,
+            3.0868189334869385,
+            -0.9808012247085571
+        ]
+    ],
+    "position_instruction": "Place the pen between the cup and the toilet paper roll on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "rotation_instruction_label": "ballpoint_right",
+    "obj_codes": [
+        "065-j",
+        "ea0cf48616e34708b73c82eb7c7366ca",
+        "a7785ac7ce7f4ba79df661db33637ba9",
+        "f126e15c0f904fccbd76f9348baea12c"
+    ],
+    "target_obj_code": "f126e15c0f904fccbd76f9348baea12c",
+    "anno_target": {
+        "category": "pen",
+        "annotation": {
+            " the ballpoint of the pen is on the left(oriented towards left), while the clicker is on the right.": {
+                "quat": [
+                    [
+                        -0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.": {
+                "quat": [
+                    [
+                        -0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "ballpoint_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "ballpoint_right"
+}

@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "shoe",
+        "remote control",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/ae7142127dd84ebbbe7762368ace452c/material_2.urdf",
+        "objaverse_rescale/d72eebbf82be48f0a53e7e8b712e6a66/material_2.urdf",
+        "objaverse_rescale/d499e1bc8a514e4bb5ca995ea6ba23b6/material_2.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer on top of the shoe on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.43605924954280423,
+            0.13914644548072422,
+            0.9310937244442633,
+            -0.019751539706414068,
+            0.22346232209745268,
+            0.08281409576441069,
+            0.9709872773753342,
+            0.00018987285147886723,
+            0.00010768194624688476,
+            -0.0001297947601415217,
+            -0.0021944097243249416,
+            0.0011495886137709022,
+            0.0012359521351754665
+        ],
+        [
+            0.5507174218470434,
+            0.1020337371453766,
+            0.9117720440732069,
+            0.011282748307528024,
+            0.00023315426047414606,
+            0.04923008449392119,
+            0.9987237075440044,
+            0.0018680858192965388,
+            0.0004242517170496285,
+            -0.0007142648100852966,
+            0.01230328157544136,
+            0.13537435233592987,
+            0.021028898656368256
+        ],
+        [
+            0.5479678097413585,
+            -0.1358016200383778,
+            0.9224602813891557,
+            -0.0006426580984018983,
+            -0.002266981545985936,
+            -0.008072158857249191,
+            0.9999646433932654,
+            -0.010524983517825603,
+            -0.0028805246111005545,
+            -0.009174739941954613,
+            0.20140673220157623,
+            -0.2507903575897217,
+            0.060440052300691605
+        ]
+    ],
+    "position_instruction": "Place the hammer on top of the shoe on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "ae7142127dd84ebbbe7762368ace452c",
+        "d72eebbf82be48f0a53e7e8b712e6a66",
+        "d499e1bc8a514e4bb5ca995ea6ba23b6"
+    ],
+    "target_obj_code": "d499e1bc8a514e4bb5ca995ea6ba23b6",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.9891719818115234,
+                        -0.1467610001564026
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "handle_right"
+}

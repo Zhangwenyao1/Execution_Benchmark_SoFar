@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "bottle",
+        "wrench",
+        "remote control"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/794b730ae452424bb3a9ce3c6caaff7a/material_2.urdf",
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf",
+        "objaverse_rescale/d28b249d997b46c1b42771d8ce869902/material_2.urdf"
+    ],
+    "target_obj_name": "remote control",
+    "instruction": "Place the remote control to the right of the bottle on the table. We also need to specify the rotation of the object after placement:  the remote control is lying flat on the tablel, and its buttons are all facing up, which means that the particular side of the remote-control that has all the buttons on it is parallel to the table plane.",
+    "init_obj_pos": [
+        [
+            0.5673375469216997,
+            -0.23488498182119497,
+            0.9316758372489402,
+            0.15342706933406863,
+            0.982005019775737,
+            -0.024874266753408616,
+            0.10727323237553019,
+            -0.0030325609259307384,
+            -0.002637852681800723,
+            -0.0006598959444090724,
+            0.05488119646906853,
+            0.1237671747803688,
+            0.010637729428708553
+        ],
+        [
+            0.5732430824027147,
+            0.031009972480680728,
+            0.90276210345156,
+            0.011171017734140892,
+            -0.017693656794166145,
+            -0.038500120239269166,
+            0.9990394805079506,
+            0.001893448643386364,
+            -0.003561983350664377,
+            0.034401535987854004,
+            0.2490420788526535,
+            -0.45047345757484436,
+            0.2586311101913452
+        ],
+        [
+            0.4394417946220995,
+            0.19298827383614442,
+            0.909024734347709,
+            -0.0024320161933206364,
+            0.0017193759564406552,
+            -0.32204378629298364,
+            -0.9467200899704381,
+            0.001829151762649417,
+            0.0007386470679193735,
+            0.030613292008638382,
+            0.495208740234375,
+            2.061467409133911,
+            0.3585135340690613
+        ]
+    ],
+    "position_instruction": "Place the remote control to the right of the bottle on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the remote control is lying flat on the tablel, and its buttons are all facing up, which means that the particular side of the remote-control that has all the buttons on it is parallel to the table plane.",
+    "rotation_instruction_label": "remote_control_forth",
+    "obj_codes": [
+        "794b730ae452424bb3a9ce3c6caaff7a",
+        "042",
+        "d28b249d997b46c1b42771d8ce869902"
+    ],
+    "target_obj_code": "d28b249d997b46c1b42771d8ce869902",
+    "anno_target": {
+        "category": "remote_control",
+        "annotation": {
+            " the remote control is lying flat on the tablel, and its buttons are all facing up, which means that the particular side of the remote-control that has all the buttons on it is parallel to the table plane.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "remote_control_forth",
+    "rot_tag_level": 2,
+    "position_tag": "right",
+    "rotation_tag": "remote_control_forth"
+}

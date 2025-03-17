@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "wrench",
+        "mug",
+        "fork"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-a_cups_google_16k/065-a_cups_google_16k.urdf",
+        "objaverse_rescale/8a6cb4f7b0004f53830e270dc6e1ff1d/material_2.urdf",
+        "objaverse_rescale/db9345f568e8499a9eac2577302b5f51/material_2.urdf",
+        "objaverse_rescale/e98e7fb33743442383812b68608f7006/material_2.urdf"
+    ],
+    "target_obj_name": "fork",
+    "instruction": "Place the fork between the cup and the wrench on the table. We also need to specify the rotation of the object after placement:  the prong of the fork is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.47769963858934056,
+            -0.3221887482126839,
+            0.9160233435011758,
+            -0.6025538405656037,
+            -0.2932243659278792,
+            -0.28111317183512535,
+            0.6869670480209572,
+            0.0006068741204217076,
+            -0.0032986532896757126,
+            0.03067782148718834,
+            -0.2297498732805252,
+            -0.050255149602890015,
+            0.02409251220524311
+        ],
+        [
+            0.43321527037472624,
+            0.11537197171096009,
+            0.901842322660916,
+            0.49961423323174503,
+            -0.5003701247584629,
+            0.4996029859450557,
+            0.500412042856924,
+            -0.000556540209800005,
+            0.0003166029928252101,
+            0.023881597444415092,
+            -0.1298592984676361,
+            -0.6823859214782715,
+            -0.0010219636606052518
+        ],
+        [
+            0.4348556346240121,
+            -0.17314538623103967,
+            0.9654768960966966,
+            -0.9951808557119358,
+            -0.0019702958814559806,
+            0.09803644559799365,
+            -0.0001941471333134981,
+            0.0026183060836046934,
+            0.000722593511454761,
+            -0.0009501967579126358,
+            -0.012011202983558178,
+            0.04848777875304222,
+            0.001728694187477231
+        ],
+        [
+            0.6833576196958879,
+            0.15069236750047837,
+            0.9109649255758809,
+            0.5447848196846212,
+            0.5096718350639267,
+            -0.45781042072130607,
+            -0.48358426304290003,
+            -0.02269037254154682,
+            0.0007349556544795632,
+            0.03680624067783356,
+            -25.03952407836914,
+            3.5391039848327637,
+            1.3630869388580322
+        ]
+    ],
+    "position_instruction": "Place the fork between the cup and the wrench on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the prong of the fork is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "prong_right",
+    "obj_codes": [
+        "065-a",
+        "8a6cb4f7b0004f53830e270dc6e1ff1d",
+        "db9345f568e8499a9eac2577302b5f51",
+        "e98e7fb33743442383812b68608f7006"
+    ],
+    "target_obj_code": "e98e7fb33743442383812b68608f7006",
+    "anno_target": {
+        "category": "fork",
+        "annotation": {
+            " the prong of the fork is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the prong of the fork is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.7071068286895752,
+                        0.0,
+                        0.0,
+                        0.7071067094802856
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "prong_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "prong_right"
+}

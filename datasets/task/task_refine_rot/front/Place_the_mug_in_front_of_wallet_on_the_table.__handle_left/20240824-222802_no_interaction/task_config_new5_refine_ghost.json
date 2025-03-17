@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "wallet",
+        "toy",
+        "spoon",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/dbb07d13a33546f09ac8ca98b1ddef20/material_2.urdf",
+        "ycb_16k_backup/073-g_lego_duplo_google_16k/073-g_lego_duplo_google_16k.urdf",
+        "objaverse_rescale/2613c5f24bb3407da2664c410c34d523/material_2.urdf",
+        "objaverse_rescale/2c88306f3d724a839054f3c2913fb1d5/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug in front of wallet on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "init_obj_pos": [
+        [
+            0.44631197970384934,
+            -0.14878416714817294,
+            0.9317447608713963,
+            0.0361285284422746,
+            -0.043420520698836125,
+            0.03769270014995467,
+            0.9976916598680384,
+            -2.686683728825301e-05,
+            -0.0017706246580928564,
+            -0.0016955892788246274,
+            0.02818693034350872,
+            0.003834525588899851,
+            -0.00028253780328668654
+        ],
+        [
+            0.3545097736637051,
+            -0.08226359868725736,
+            0.9002527733635172,
+            0.0020912177705723787,
+            -0.000961712822746563,
+            -0.062270363974201166,
+            0.9980566635653526,
+            -0.001723447348922491,
+            -0.0002105479798046872,
+            -0.0026162234134972095,
+            0.006278148386627436,
+            -0.02549942582845688,
+            -0.003459096420556307
+        ],
+        [
+            0.6633943452360512,
+            -0.15424357532575883,
+            0.9063185589566177,
+            0.18421258122002115,
+            -0.15910336480799042,
+            0.043023749039533446,
+            0.9689689371933528,
+            0.004216126166284084,
+            -0.0012111468240618706,
+            0.02596592716872692,
+            3.222959041595459,
+            -1.4731528759002686,
+            -0.384299635887146
+        ],
+        [
+            0.7034738748842501,
+            0.043766264639627725,
+            0.9382257342662924,
+            -0.11670394609471246,
+            0.3154445853430731,
+            0.14094692436915005,
+            0.9311331092032634,
+            -9.84510697890073e-05,
+            0.000426900340244174,
+            -0.0003754748613573611,
+            0.00040122983045876026,
+            -0.002662219572812319,
+            -0.0036842208355665207
+        ]
+    ],
+    "position_instruction": "Place the mug in front of wallet on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "rotation_instruction_label": "handle_left",
+    "obj_codes": [
+        "dbb07d13a33546f09ac8ca98b1ddef20",
+        "073-g",
+        "2613c5f24bb3407da2664c410c34d523",
+        "2c88306f3d724a839054f3c2913fb1d5"
+    ],
+    "target_obj_code": "2c88306f3d724a839054f3c2913fb1d5",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "handle_left"
+}

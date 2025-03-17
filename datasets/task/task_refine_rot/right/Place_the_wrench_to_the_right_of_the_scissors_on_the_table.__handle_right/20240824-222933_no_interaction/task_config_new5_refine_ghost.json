@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "scissors",
+        "hard drive",
+        "mug",
+        "wrench"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/2b1120c4b517409184413ed709c57a66/material_2.urdf",
+        "objaverse_rescale/f8de4975c0f54c1a97203c6a674f6a39/material_2.urdf",
+        "objaverse_rescale/c25119c5ac6e4654be3b75d78e34a912/material_2.urdf",
+        "objaverse_rescale/8a6cb4f7b0004f53830e270dc6e1ff1d/material_2.urdf"
+    ],
+    "target_obj_name": "wrench",
+    "instruction": "Place the wrench to the right of the scissors on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.42235317663913163,
+            0.1454245024152116,
+            0.9044600878640422,
+            0.47917546111997433,
+            -0.8777071668473784,
+            0.0005409922252939204,
+            -0.0045512693417592695,
+            -0.001917002140544355,
+            0.006510984152555466,
+            0.008870530873537064,
+            -0.7572453022003174,
+            0.29130062460899353,
+            -0.15502211451530457
+        ],
+        [
+            0.45254543854813456,
+            0.2999933501118506,
+            0.9059884480829473,
+            -0.7033017861799598,
+            0.0732926224038493,
+            -0.07329126424604566,
+            0.7032945184220197,
+            -0.0011668734950944781,
+            7.992306927917525e-05,
+            -0.0019034923752769828,
+            0.018023895099759102,
+            0.008590840734541416,
+            0.006406891159713268
+        ],
+        [
+            0.38376867362712264,
+            -0.06546756707179117,
+            0.9304250759750797,
+            0.021050152467804305,
+            0.29388776052519106,
+            -0.04220786690726571,
+            0.9546755319299375,
+            -0.0005260170437395573,
+            0.0016183946281671524,
+            -0.00018255345639772713,
+            -0.025610094889998436,
+            -0.007984425872564316,
+            -0.0019251235062256455
+        ],
+        [
+            0.4199343583735697,
+            0.034689046107754015,
+            0.9018544174282326,
+            -0.20437641411122268,
+            0.6769264224958115,
+            0.20440086581773553,
+            0.6769203689763066,
+            0.0017931568436324596,
+            0.0016050268895924091,
+            0.018922317773103714,
+            0.12638579308986664,
+            0.7920734882354736,
+            -0.02047121338546276
+        ]
+    ],
+    "position_instruction": "Place the wrench to the right of the scissors on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "2b1120c4b517409184413ed709c57a66",
+        "f8de4975c0f54c1a97203c6a674f6a39",
+        "c25119c5ac6e4654be3b75d78e34a912",
+        "8a6cb4f7b0004f53830e270dc6e1ff1d"
+    ],
+    "target_obj_code": "8a6cb4f7b0004f53830e270dc6e1ff1d",
+    "anno_target": {
+        "category": "wrench",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "handle_right"
+}

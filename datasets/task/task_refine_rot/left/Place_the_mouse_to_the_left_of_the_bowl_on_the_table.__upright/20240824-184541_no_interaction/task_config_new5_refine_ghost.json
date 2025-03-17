@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "bowl",
+        "mug",
+        "hammer",
+        "mouse"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/024_bowl_google_16k/024_bowl_google_16k.urdf",
+        "objaverse_rescale/9321c45cb9cf459f9f803507d3a11fb3/material_2.urdf",
+        "objaverse_rescale/6d155e8051294915813e0c156e3cd6de/material_2.urdf",
+        "objaverse_rescale/f017c73a85484b6da3a66ec1cda70c71/material_2.urdf"
+    ],
+    "target_obj_name": "mouse",
+    "instruction": "Place the mouse to the left of the bowl on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.33913892446456284,
+            0.11079944436134664,
+            0.9004642631711447,
+            0.0002735685359176354,
+            -0.0004831193001654002,
+            0.1251730682320139,
+            0.992134766423081,
+            -0.0004971082089468837,
+            8.838751091388986e-05,
+            -0.00023727530788164586,
+            0.0006484530167654157,
+            -0.016902534291148186,
+            0.007146978750824928
+        ],
+        [
+            0.6226687157391635,
+            0.21346855948228377,
+            0.9636734354820958,
+            0.06742249628882052,
+            -0.24640962692556595,
+            -0.058713243638730477,
+            0.9650332936090891,
+            0.00047491517034359276,
+            0.0006783090066164732,
+            -0.0008335559396073222,
+            -0.015321468934416771,
+            0.009149099700152874,
+            -0.0020888210274279118
+        ],
+        [
+            0.6747308469807034,
+            -0.2497315939656018,
+            0.9327228120719466,
+            0.0819626052980286,
+            0.007124651021213959,
+            0.08607833943562572,
+            0.9928856380070126,
+            -0.0004036874743178487,
+            0.001318755792453885,
+            -0.00513011310249567,
+            -0.05922511965036392,
+            0.04194141924381256,
+            0.015301186591386795
+        ],
+        [
+            0.4882272449625566,
+            -0.18093997623750804,
+            0.9160631775737378,
+            -0.648609953127032,
+            -0.12657079275588717,
+            0.25076267174282957,
+            0.7073917200434943,
+            0.0005313604488037527,
+            0.00025421904865652323,
+            -7.709558121860027e-05,
+            -0.027480129152536392,
+            0.03969631344079971,
+            0.009978728368878365
+        ]
+    ],
+    "position_instruction": "Place the mouse to the left of the bowl on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "024",
+        "9321c45cb9cf459f9f803507d3a11fb3",
+        "6d155e8051294915813e0c156e3cd6de",
+        "f017c73a85484b6da3a66ec1cda70c71"
+    ],
+    "target_obj_code": "f017c73a85484b6da3a66ec1cda70c71",
+    "anno_target": {
+        "category": "mouse",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "upright"
+}

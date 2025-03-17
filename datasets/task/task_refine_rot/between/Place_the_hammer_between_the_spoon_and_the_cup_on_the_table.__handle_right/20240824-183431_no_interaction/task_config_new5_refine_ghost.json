@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "spoon",
+        "cup",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/2613c5f24bb3407da2664c410c34d523/material_2.urdf",
+        "ycb_16k_backup/065-i_cups_google_16k/065-i_cups_google_16k.urdf",
+        "objaverse_rescale/8ed38a92668a425eb16da938622d9ace/material_2.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer between the spoon and the cup on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6221676984552351,
+            0.24003820172347456,
+            0.9058801275321423,
+            0.16715650885429215,
+            -0.17779582719278686,
+            -0.04116497984200226,
+            0.9688925584475728,
+            0.0032489835284650326,
+            -0.003857641713693738,
+            0.024752983823418617,
+            3.263561964035034,
+            -2.3048105239868164,
+            -0.3718738555908203
+        ],
+        [
+            0.30947461710620405,
+            0.09834995229310704,
+            0.9005135024138855,
+            0.001690466702227499,
+            -0.0013809490200180513,
+            0.08306020523819116,
+            0.9965421404074808,
+            0.0031994041055440903,
+            -0.004492815118283033,
+            -0.004758420865982771,
+            0.13254152238368988,
+            0.16697032749652863,
+            0.03298197686672211
+        ],
+        [
+            0.33509163312462786,
+            0.23843159374897846,
+            0.9113050026783052,
+            -0.6031009078727418,
+            0.36545922046294943,
+            -0.36815080061564176,
+            0.6059487116148928,
+            -0.004000330343842506,
+            0.0006664970424026251,
+            -0.015216026455163956,
+            0.05857166275382042,
+            -0.4414188265800476,
+            -0.021879324689507484
+        ]
+    ],
+    "position_instruction": "Place the hammer between the spoon and the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "2613c5f24bb3407da2664c410c34d523",
+        "065-i",
+        "8ed38a92668a425eb16da938622d9ace"
+    ],
+    "target_obj_code": "8ed38a92668a425eb16da938622d9ace",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_right"
+}

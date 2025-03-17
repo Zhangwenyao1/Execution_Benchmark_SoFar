@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "tape measure",
+        "tape measure",
+        "box"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/7138f5e13b2e4e17975c23ba5584164b/material_2.urdf",
+        "objaverse_rescale/d1d1c4b27f5c45a29910830e268f7ee2/material_2.urdf",
+        "objaverse_rescale/9660e0c0326b4f7386014e27717231ae/material_2.urdf"
+    ],
+    "target_obj_name": "box",
+    "instruction": "Place the box to the left of the tape measure on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.",
+    "init_obj_pos": [
+        [
+            0.32781639943470764,
+            -0.18137072045728617,
+            0.9173059616428434,
+            0.04929941992092274,
+            -0.004308604566990629,
+            0.07962986827769672,
+            0.995595343098903,
+            0.002725635888054967,
+            -0.0018244313541799784,
+            -0.0007703147130087018,
+            0.06730921566486359,
+            0.10029877722263336,
+            0.0008876569918356836
+        ],
+        [
+            0.4402327239513397,
+            -0.07797900087365502,
+            0.35380858182907104,
+            -0.0014735227450728416,
+            0.030389100313186646,
+            0.05770116299390793,
+            0.997870147228241,
+            -0.0008985417080111802,
+            0.0017062047263607383,
+            -0.0005968369077891111,
+            -0.03743636980652809,
+            -0.028886407613754272,
+            0.016936251893639565
+        ],
+        [
+            0.36011865735054016,
+            0.09678351879119873,
+            0.31565144658088684,
+            -1.8179293874709401e-06,
+            -2.712366040213965e-06,
+            -0.15437667071819305,
+            0.9880119562149048,
+            9.049272193806246e-05,
+            -2.0535408111754805e-05,
+            -0.00027610594406723976,
+            0.0013358991127461195,
+            -0.0003110682009719312,
+            0.0005633822875097394
+        ]
+    ],
+    "position_instruction": "Place the box to the left of the tape measure on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.",
+    "rotation_instruction_label": "sideways_textual",
+    "obj_codes": [
+        "7138f5e13b2e4e17975c23ba5584164b",
+        "d1d1c4b27f5c45a29910830e268f7ee2",
+        "9660e0c0326b4f7386014e27717231ae"
+    ],
+    "target_obj_code": "9660e0c0326b4f7386014e27717231ae",
+    "anno_target": {
+        "category": "box",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            },
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            },
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways_textual",
+    "rot_tag_level": 2,
+    "position_tag": "left",
+    "rotation_tag": "sideways_textual"
+}

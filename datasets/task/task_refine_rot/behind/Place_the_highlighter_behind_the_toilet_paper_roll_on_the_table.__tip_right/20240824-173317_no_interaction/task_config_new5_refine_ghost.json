@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "toilet paper roll",
+        "tissue box",
+        "highlighter"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/ea0cf48616e34708b73c82eb7c7366ca/material_2.urdf",
+        "objaverse_rescale/6e9e9135bb5747f58d388e1e92477f02/material_2.urdf",
+        "objaverse_rescale/25481a65cad54e2a956394ff2b2765cd/material_2.urdf"
+    ],
+    "target_obj_name": "highlighter",
+    "instruction": "Place the highlighter behind the toilet paper roll on the table. We also need to specify the rotation of the object after placement:  the marker is placed in a stable pose on the table. Its tip end is pointing towards right and its cap end is pointing towards left.",
+    "init_obj_pos": [
+        [
+            0.3309654490590603,
+            0.025203071041208107,
+            0.9495373951999735,
+            8.362884076898627e-05,
+            -0.0005194843237032055,
+            -0.026905603826133474,
+            0.9996378402326545,
+            0.0002950409834738821,
+            -0.001326685887761414,
+            1.37043780341628e-05,
+            0.016879035159945488,
+            0.0037386110052466393,
+            5.02297880302649e-05
+        ],
+        [
+            0.5678043366419911,
+            -0.19497064678060888,
+            0.9317407764684786,
+            0.004066418978498762,
+            0.05389560335023136,
+            0.10129997352749817,
+            0.9933866535944261,
+            -0.0001059363639797084,
+            -0.003316075075417757,
+            -0.0005045277648605406,
+            0.07292290031909943,
+            3.7281031836755574e-05,
+            0.00042863807175308466
+        ],
+        [
+            0.35846105724060084,
+            -0.29521384513813237,
+            0.9114559404496078,
+            0.6210072769259876,
+            0.32745233121731443,
+            0.31963958663735265,
+            0.6363611140222332,
+            0.0014681851025670767,
+            0.0006963613559491932,
+            0.0056649199686944485,
+            -0.11401613056659698,
+            -0.07326927036046982,
+            0.02993719093501568
+        ]
+    ],
+    "position_instruction": "Place the highlighter behind the toilet paper roll on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the marker is placed in a stable pose on the table. Its tip end is pointing towards right and its cap end is pointing towards left.",
+    "rotation_instruction_label": "tip_right",
+    "obj_codes": [
+        "ea0cf48616e34708b73c82eb7c7366ca",
+        "6e9e9135bb5747f58d388e1e92477f02",
+        "25481a65cad54e2a956394ff2b2765cd"
+    ],
+    "target_obj_code": "25481a65cad54e2a956394ff2b2765cd",
+    "anno_target": {
+        "category": "highlighter",
+        "annotation": {
+            " the marker is placed in a stable pose on the table. Its tip(or cap) end is pointing towards left and its rear end is pointing towards right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the marker is placed in a stable pose on the table. Its tip(or cap) end is pointing towards right and its rear end is pointing towards left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "tip_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "tip_right"
+}

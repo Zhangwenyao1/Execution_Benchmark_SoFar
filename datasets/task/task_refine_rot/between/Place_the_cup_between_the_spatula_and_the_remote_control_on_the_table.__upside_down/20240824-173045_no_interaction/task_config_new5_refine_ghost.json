@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "spatula",
+        "remote control",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/4b27628be0804c0285d0b13dda025a0d/material_2.urdf",
+        "objaverse_rescale/d28b249d997b46c1b42771d8ce869902/material_2.urdf",
+        "ycb_16k_backup/065-b_cups_google_16k/065-b_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup between the spatula and the remote control on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6510584804794155,
+            -0.24107045037879182,
+            0.9039875483700692,
+            -0.00425168821315608,
+            0.0016017360200195174,
+            -0.09594811650530678,
+            0.9953759674254472,
+            -0.0010756567353382707,
+            0.0003929970262106508,
+            -0.010412882082164288,
+            0.05265882983803749,
+            -0.26979729533195496,
+            -0.0383341945707798
+        ],
+        [
+            0.49295525710263277,
+            0.11290511910211244,
+            0.9075222157423966,
+            0.5668247861015584,
+            0.8234527079820235,
+            -0.025097598801899195,
+            0.002325964826249485,
+            -0.003923775162547827,
+            -0.0011169657809659839,
+            0.023961100727319717,
+            0.71852707862854,
+            -0.7154300212860107,
+            -0.1396065056324005
+        ],
+        [
+            0.3455242828968668,
+            0.13398136151017762,
+            0.9006772672212157,
+            0.0006912055835461326,
+            -0.0013385339050786314,
+            0.09692140144076726,
+            0.9952908984335102,
+            0.001333706546574831,
+            0.0026649225037544966,
+            -0.007485400419682264,
+            -0.14310535788536072,
+            0.1810479462146759,
+            0.09310448169708252
+        ]
+    ],
+    "position_instruction": "Place the cup between the spatula and the remote control on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "4b27628be0804c0285d0b13dda025a0d",
+        "d28b249d997b46c1b42771d8ce869902",
+        "065-b"
+    ],
+    "target_obj_code": "065-b",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

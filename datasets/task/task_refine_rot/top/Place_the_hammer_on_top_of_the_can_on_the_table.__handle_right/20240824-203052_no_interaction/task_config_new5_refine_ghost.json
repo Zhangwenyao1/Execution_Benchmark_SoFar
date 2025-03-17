@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "can",
+        "glue gun",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/002_master_chef_can_google_16k/002_master_chef_can_google_16k.urdf",
+        "objaverse_rescale/a1da12b81f034db894496c1ffc4be1f5/material_2.urdf",
+        "objaverse_rescale/8ed38a92668a425eb16da938622d9ace/material_2.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer on top of the can on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.5920756466133315,
+            0.028379206821861153,
+            0.9103048549485205,
+            0.0793603764600205,
+            0.09571684959970289,
+            -0.07105775833293941,
+            0.9896923816679243,
+            -0.0004152501351200044,
+            0.0011551770148798823,
+            -0.0002790649305097759,
+            -0.01734595000743866,
+            -0.006414249539375305,
+            0.00015327769506257027
+        ],
+        [
+            0.7500180236412609,
+            -0.16648065872715034,
+            0.9155049872861339,
+            0.6700623606950654,
+            0.16490563007894377,
+            0.17362418943713223,
+            0.702621666895009,
+            -0.0032089906744658947,
+            0.006944254506379366,
+            0.02391083538532257,
+            -0.3247026801109314,
+            0.3069984018802643,
+            0.032772984355688095
+        ],
+        [
+            0.554545820818254,
+            0.1756312409455471,
+            0.9154024096078262,
+            -0.00802352474756727,
+            0.5585925562374427,
+            0.031423355619760035,
+            0.8288079101265496,
+            0.011880334466695786,
+            -0.0008384924731217325,
+            0.02229328453540802,
+            0.33388254046440125,
+            0.1772991418838501,
+            -0.09432172030210495
+        ]
+    ],
+    "position_instruction": "Place the hammer on top of the can on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "002",
+        "a1da12b81f034db894496c1ffc4be1f5",
+        "8ed38a92668a425eb16da938622d9ace"
+    ],
+    "target_obj_code": "8ed38a92668a425eb16da938622d9ace",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "handle_right"
+}

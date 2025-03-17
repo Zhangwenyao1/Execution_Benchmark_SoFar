@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "scissors",
+        "speaker",
+        "plate"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/2b1120c4b517409184413ed709c57a66/material_2.urdf",
+        "objaverse_rescale/4445f4442a884999960e7e6660459095/material_2.urdf",
+        "ycb_16k_backup/029_plate_google_16k/029_plate_google_16k.urdf"
+    ],
+    "target_obj_name": "plate",
+    "instruction": "Place the plate to the left of the scissors on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.25645584492401097,
+            -0.01605245953630886,
+            0.9075500688232339,
+            -0.02431031510197771,
+            0.017456727555718265,
+            -0.0382044557360017,
+            0.998821651149295,
+            0.018219370394945145,
+            -0.007997257634997368,
+            0.02392525225877762,
+            0.697218656539917,
+            2.469813585281372,
+            0.712157130241394
+        ],
+        [
+            0.48665306151310733,
+            -0.22337764700998583,
+            0.9682524442905084,
+            -0.0015606600760415788,
+            0.007233441955652676,
+            -0.9773458152247461,
+            0.2115192641824304,
+            -0.0013111254666000605,
+            0.0018128938972949982,
+            -0.002523203147575259,
+            0.01622176542878151,
+            -0.07753490656614304,
+            0.059368304908275604
+        ],
+        [
+            0.35791533909536977,
+            0.08721622775426457,
+            0.9064410276893353,
+            -0.017188040550907325,
+            -0.012996323301476835,
+            -0.9880741322091389,
+            0.15246368781391909,
+            -0.02089289203286171,
+            0.023168012499809265,
+            0.03572899475693703,
+            -0.4035012722015381,
+            0.11633322387933731,
+            0.40770456194877625
+        ]
+    ],
+    "position_instruction": "Place the plate to the left of the scissors on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "2b1120c4b517409184413ed709c57a66",
+        "4445f4442a884999960e7e6660459095",
+        "029"
+    ],
+    "target_obj_code": "029",
+    "anno_target": {
+        "category": "plate",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "upside_down"
+}

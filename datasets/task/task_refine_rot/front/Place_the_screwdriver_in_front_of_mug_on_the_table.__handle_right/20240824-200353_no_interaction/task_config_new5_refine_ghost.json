@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "hammer",
+        "clipboard",
+        "screwdriver"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/9321c45cb9cf459f9f803507d3a11fb3/material_2.urdf",
+        "objaverse_rescale/d499e1bc8a514e4bb5ca995ea6ba23b6/material_2.urdf",
+        "objaverse_rescale/a37158f20ccf436483029e8295629738/material_2.urdf",
+        "ycb_16k_backup/044_flat_screwdriver_google_16k/044_flat_screwdriver_google_16k.urdf"
+    ],
+    "target_obj_name": "screwdriver",
+    "instruction": "Place the screwdriver in front of mug on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6018893470067272,
+            -0.1203698852408245,
+            0.9657253568927581,
+            0.08432629548527279,
+            -0.10041570359092429,
+            0.019160329252695642,
+            0.9911804296620255,
+            0.0016065466916188598,
+            -0.0036719385534524918,
+            -0.0007430899422615767,
+            0.07299908250570297,
+            0.02516779862344265,
+            -0.030496375635266304
+        ],
+        [
+            0.3831589450994256,
+            0.2033189724819479,
+            0.9222958363222515,
+            -0.0002250313310803992,
+            -0.0005656758570659444,
+            -0.11615174789685803,
+            0.9932312927169724,
+            -0.010852362029254436,
+            -0.0005447404691949487,
+            -0.009150593541562557,
+            0.14127996563911438,
+            -0.28608837723731995,
+            0.06025015935301781
+        ],
+        [
+            0.6182368213976376,
+            -0.3096928699500892,
+            0.9036465117061695,
+            0.7070952711592084,
+            -0.004566531098315394,
+            -0.0045659913006149385,
+            0.7070888034903793,
+            0.000606416433583945,
+            0.00016074968152679503,
+            0.0024642059579491615,
+            -0.027927367016673088,
+            0.001331118866801262,
+            0.004638906102627516
+        ],
+        [
+            0.4537351827115739,
+            -0.16460009091405528,
+            0.900501086615067,
+            0.014166816342604025,
+            -0.013391496994179564,
+            -0.06180365620541936,
+            0.9978979292505876,
+            0.0015420080162584782,
+            0.000656682881526649,
+            -0.0022828609216958284,
+            0.00916080828756094,
+            0.044329795986413956,
+            0.02002537064254284
+        ]
+    ],
+    "position_instruction": "Place the screwdriver in front of mug on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "9321c45cb9cf459f9f803507d3a11fb3",
+        "d499e1bc8a514e4bb5ca995ea6ba23b6",
+        "a37158f20ccf436483029e8295629738",
+        "044"
+    ],
+    "target_obj_code": "044",
+    "anno_target": {
+        "category": "screwdriver",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.011427843011915684,
+                        0.021855341270565987,
+                        -0.40244925022125244,
+                        0.9151100516319275
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "handle_right"
+}

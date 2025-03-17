@@ -1,0 +1,85 @@
+{
+    "selected_obj_names": [
+        "knife",
+        "knife"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/0df75457524743ec81468c916fddb930/material_2.urdf",
+        "objaverse_rescale/85db1d392a89459dbde5cdd951c4f6fb/material_2.urdf"
+    ],
+    "target_obj_name": "knife",
+    "instruction": "Place the knife behind the knife on the table. We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.5914887144303519,
+            -0.061288940913710184,
+            0.9026791366887054,
+            -0.6718030684066149,
+            -0.002641932956453235,
+            0.0022675626491108283,
+            0.7407216181733485,
+            -0.0008221035241149366,
+            -0.0035651037469506264,
+            0.01381140947341919,
+            -5.54714822769165,
+            -1.3894509077072144,
+            0.4469945430755615
+        ],
+        [
+            0.47249165442511354,
+            0.02897282568713703,
+            0.31681379675865173,
+            -0.0197620689868927,
+            -0.011101532727479935,
+            -0.036479607224464417,
+            0.999077320098877,
+            0.0033281927462667227,
+            -0.002364531857892871,
+            -0.0038295856211334467,
+            0.052149683237075806,
+            0.8542987108230591,
+            0.02405737154185772
+        ]
+    ],
+    "position_instruction": "Place the knife behind the knife on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blade_right",
+    "obj_codes": [
+        "0df75457524743ec81468c916fddb930",
+        "85db1d392a89459dbde5cdd951c4f6fb"
+    ],
+    "target_obj_code": "85db1d392a89459dbde5cdd951c4f6fb",
+    "anno_target": {
+        "category": "knife",
+        "annotation": {
+            " the blade of the knife is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        -0.7071067690849304,
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blade of the knife is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        -8.429369557916289e-08,
+                        0.7071068286895752,
+                        8.429369557916289e-08,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blade_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "blade_right"
+}

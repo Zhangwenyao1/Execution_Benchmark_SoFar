@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "pitcher base",
+        "toilet paper roll",
+        "spatula"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/019_pitcher_base_google_16k/019_pitcher_base_google_16k.urdf",
+        "objaverse_rescale/6d5284b842434413a17133f7bf259669/material_2.urdf",
+        "objaverse_rescale/4b27628be0804c0285d0b13dda025a0d/material_2.urdf"
+    ],
+    "target_obj_name": "spatula",
+    "instruction": "Place the spatula behind the pitcher base on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6682908823844128,
+            -0.17494230175463674,
+            0.9013203597247879,
+            0.00018044205694558676,
+            0.0006704564464318294,
+            -0.04104195282764721,
+            0.999157182848079,
+            -0.004958940204232931,
+            0.004121527075767517,
+            -1.7426727936253883e-05,
+            -0.04214409738779068,
+            -0.04495256394147873,
+            -0.009836168959736824
+        ],
+        [
+            0.31450502106912687,
+            -0.22320831761905946,
+            0.9337673986094517,
+            0.020775080365362655,
+            -0.3857578442566482,
+            0.04961381300715781,
+            0.9210308090336435,
+            0.028498120605945587,
+            0.002855580998584628,
+            -0.003838752396404743,
+            -0.03675016388297081,
+            0.36999237537384033,
+            0.004394518211483955
+        ],
+        [
+            0.48168265734358484,
+            0.1465486054663179,
+            0.903986869354079,
+            -0.004320557799977872,
+            0.0013722342548918433,
+            -0.06013832136434795,
+            0.9981797593905244,
+            -0.0011281849583610892,
+            0.00019167672144249082,
+            -0.010362913832068443,
+            0.0761684775352478,
+            -0.18453991413116455,
+            -0.02822554111480713
+        ]
+    ],
+    "position_instruction": "Place the spatula behind the pitcher base on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "019",
+        "6d5284b842434413a17133f7bf259669",
+        "4b27628be0804c0285d0b13dda025a0d"
+    ],
+    "target_obj_code": "4b27628be0804c0285d0b13dda025a0d",
+    "anno_target": {
+        "category": "spatula",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "handle_right"
+}

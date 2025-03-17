@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "spatula",
+        "apple",
+        "bowl"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/4b27628be0804c0285d0b13dda025a0d/material_2.urdf",
+        "ycb_16k_backup/013_apple_google_16k/013_apple_google_16k.urdf",
+        "ycb_16k_backup/024_bowl_google_16k/024_bowl_google_16k.urdf"
+    ],
+    "target_obj_name": "bowl",
+    "instruction": "Place the bowl between the spatula and the apple on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.38559196786546496,
+            -0.0038684500053140056,
+            0.9039626870110562,
+            -0.004757903210016139,
+            0.0014449650173554462,
+            0.04956535323487244,
+            0.9987585044403099,
+            -0.001643999363295734,
+            9.616919123800471e-05,
+            -0.010104792192578316,
+            0.0742204561829567,
+            0.043947771191596985,
+            -0.017717964947223663
+        ],
+        [
+            0.3540978609209419,
+            -0.16483399386222508,
+            0.9009982788900195,
+            -0.035685445714852,
+            0.03669399058227766,
+            -0.07050201406366627,
+            0.9961975537172559,
+            -0.0013226784067228436,
+            0.0007963660755194724,
+            -0.000316983787342906,
+            -0.025037074461579323,
+            -0.03380267322063446,
+            -0.012067318893969059
+        ],
+        [
+            0.46154797973703726,
+            0.1885559715791867,
+            0.9004085060502759,
+            -0.0037923192773090465,
+            -0.0008030122443931608,
+            -0.12073756009438162,
+            0.9926768935904023,
+            -0.00030307649285532534,
+            0.0005008478765375912,
+            -0.0002173052344005555,
+            -0.012004426680505276,
+            -0.016732992604374886,
+            0.0064472598023712635
+        ]
+    ],
+    "position_instruction": "Place the bowl between the spatula and the apple on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "4b27628be0804c0285d0b13dda025a0d",
+        "013",
+        "024"
+    ],
+    "target_obj_code": "024",
+    "anno_target": {
+        "category": "bowl",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

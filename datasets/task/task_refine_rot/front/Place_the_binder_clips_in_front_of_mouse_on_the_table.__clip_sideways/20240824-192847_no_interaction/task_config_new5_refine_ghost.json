@@ -1,0 +1,97 @@
+{
+    "selected_obj_names": [
+        "mouse",
+        "lighter",
+        "binder clips"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f496168739384cdb86ef6d65e2068a3f/material_2.urdf",
+        "objaverse_rescale/b640aa4990b64db9ab3d868c6f49820e/material_2.urdf",
+        "objaverse_rescale/5e55c38b24dc4c239448efa1c6b7f49f/material_2.urdf"
+    ],
+    "target_obj_name": "binder clips",
+    "instruction": "Place the binder clips in front of mouse on the table. We also need to specify the rotation of the object after placement:  the binder clip is lying sideways on the table, which means that one side face of the black triangular prism is facing the table.",
+    "init_obj_pos": [
+        [
+            0.6101850447328158,
+            0.07097065497835717,
+            0.9284733335517107,
+            -0.6258351750042326,
+            0.053757399654005236,
+            -0.06596053606620209,
+            0.7752997377735394,
+            0.004699841141700745,
+            -0.0022182147949934006,
+            -0.0007047657272778451,
+            0.10927757620811462,
+            0.257761687040329,
+            -0.07056183367967606
+        ],
+        [
+            0.37745413011407797,
+            0.26532078455212316,
+            0.9248281665630653,
+            -6.196414739130147e-05,
+            0.004371148128997801,
+            -0.15092547880385995,
+            0.9885354768910948,
+            0.0017849382711574435,
+            0.01869228109717369,
+            0.022149527445435524,
+            -1.2598313093185425,
+            -0.8422853350639343,
+            0.027942171320319176
+        ],
+        [
+            0.45740286004456954,
+            0.0697098749320515,
+            0.9100080363569064,
+            3.668697912219389e-05,
+            1.1353059935729318e-06,
+            0.037162695907916536,
+            0.9993092277596728,
+            0.0012212191941216588,
+            -0.00033488773624412715,
+            -0.0003656681801658124,
+            0.0049362932331860065,
+            0.016063053160905838,
+            0.0019246544688940048
+        ]
+    ],
+    "position_instruction": "Place the binder clips in front of mouse on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the binder clip is lying sideways on the table, which means that one side face of the black triangular prism is facing the table.",
+    "rotation_instruction_label": "clip_sideways",
+    "obj_codes": [
+        "f496168739384cdb86ef6d65e2068a3f",
+        "b640aa4990b64db9ab3d868c6f49820e",
+        "5e55c38b24dc4c239448efa1c6b7f49f"
+    ],
+    "target_obj_code": "5e55c38b24dc4c239448efa1c6b7f49f",
+    "anno_target": {
+        "category": "binder_clips",
+        "annotation": {
+            " the binder clip is lying sideways on the table, which means that one side face of the black triangular prism is facing the table.": {
+                "quat": [
+                    [
+                        -0.13100828230381012,
+                        0.6948646306991577,
+                        -0.13100828230381012,
+                        0.6948646306991577
+                    ],
+                    [
+                        -0.6943783164024353,
+                        0.13356173038482666,
+                        -0.6943783164024353,
+                        0.13356173038482666
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "clip_sideways",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "clip_sideways"
+}

@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "screwdriver",
+        "scissors",
+        "cup",
+        "tissue box"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/043_phillips_screwdriver_google_16k/043_phillips_screwdriver_google_16k.urdf",
+        "ycb_16k_backup/037_scissors_google_16k/037_scissors_google_16k.urdf",
+        "ycb_16k_backup/065-e_cups_google_16k/065-e_cups_google_16k.urdf",
+        "objaverse_rescale/8eda72f64e6e4443af4fdbeed07cad29/material_2.urdf"
+    ],
+    "target_obj_name": "tissue box",
+    "instruction": "Place the tissue box to the right of the screwdriver on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.677153582235382,
+            -0.061204593762908675,
+            0.9014624979856634,
+            -0.025220990579928333,
+            -0.01373696132259078,
+            0.09198353428203603,
+            0.9953462849424688,
+            0.00021402104175649583,
+            -0.00028598529752343893,
+            -0.00018846223247237504,
+            0.008982627652585506,
+            0.012435692362487316,
+            0.010393663309514523
+        ],
+        [
+            0.37302166938904285,
+            0.13982096171349243,
+            0.9186296251150892,
+            -0.3979593388428623,
+            -0.1683704064756408,
+            -0.5281722081793865,
+            0.7309677758683276,
+            -0.003616285976022482,
+            0.0010712500661611557,
+            0.03329765051603317,
+            -0.9436910152435303,
+            -0.03024871274828911,
+            0.25264447927474976
+        ],
+        [
+            0.3257078035161106,
+            -0.04551911153325419,
+            0.9008608755173351,
+            0.001103884743456448,
+            -0.002351795619162947,
+            -0.003845545292540793,
+            0.9999892310806363,
+            0.002619373146444559,
+            0.003907512873411179,
+            -0.009652389213442802,
+            -0.06834080070257187,
+            0.15268130600452423,
+            0.02750038541853428
+        ],
+        [
+            0.3293851500141521,
+            0.03641522109032225,
+            0.9296259775488267,
+            4.348675770939569e-07,
+            -4.371606636844914e-06,
+            0.062434649605066575,
+            0.9980490541598609,
+            -0.0003359478432685137,
+            0.004811269696801901,
+            -0.005056428257375956,
+            0.03243212401866913,
+            -0.012541959062218666,
+            0.00597017677500844
+        ]
+    ],
+    "position_instruction": "Place the tissue box to the right of the screwdriver on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "043",
+        "037",
+        "065-e",
+        "8eda72f64e6e4443af4fdbeed07cad29"
+    ],
+    "target_obj_code": "8eda72f64e6e4443af4fdbeed07cad29",
+    "anno_target": {
+        "category": "tissue_box",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upright"
+}

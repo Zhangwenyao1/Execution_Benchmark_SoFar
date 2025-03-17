@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "scissors",
+        "toy"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-d_cups_google_16k/065-d_cups_google_16k.urdf",
+        "ycb_16k_backup/037_scissors_google_16k/037_scissors_google_16k.urdf",
+        "ycb_16k_backup/073-g_lego_duplo_google_16k/073-g_lego_duplo_google_16k.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "Place the toy between the cup and the scissors on the table. We also need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "init_obj_pos": [
+        [
+            0.5708220253714714,
+            0.09781439776257216,
+            0.8986374312268248,
+            -0.022300698928883596,
+            -0.004243827046883233,
+            0.46804248415340394,
+            0.8834143432086613,
+            0.005456643179059029,
+            0.005118298344314098,
+            -0.006196142639964819,
+            -0.2370867282152176,
+            0.18467314541339874,
+            -0.06048435717821121
+        ],
+        [
+            0.44340177921480256,
+            -0.03253595085601093,
+            0.9003996845492314,
+            0.003283943691727389,
+            -0.004828894841363024,
+            0.2118639114001815,
+            0.9772817303800669,
+            -0.0009764815913513303,
+            0.0070108575746417046,
+            0.004496756009757519,
+            -0.9583999514579773,
+            2.047084093093872,
+            0.09197177737951279
+        ],
+        [
+            0.324559675142247,
+            -0.14982612434664191,
+            0.9002528104844283,
+            0.002146467056123213,
+            -0.0008335891849041267,
+            -0.0012876444900362899,
+            0.999996519883902,
+            -0.0016346708871424198,
+            -0.00027318260981701314,
+            -0.0026508718729019165,
+            0.010444248095154762,
+            -0.017198065295815468,
+            -0.005225983913987875
+        ]
+    ],
+    "position_instruction": "Place the toy between the cup and the scissors on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "rotation_instruction_label": "left",
+    "obj_codes": [
+        "065-d",
+        "037",
+        "073-g"
+    ],
+    "target_obj_code": "073-g",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_left",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "left"
+}

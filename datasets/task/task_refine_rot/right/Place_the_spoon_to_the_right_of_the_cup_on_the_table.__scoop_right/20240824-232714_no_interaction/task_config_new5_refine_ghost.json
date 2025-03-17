@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "toilet paper roll",
+        "book",
+        "spoon"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-i_cups_google_16k/065-i_cups_google_16k.urdf",
+        "objaverse_rescale/7ca7ebcfad964498b49af73be442acf9/material_2.urdf",
+        "objaverse_rescale/c61227cac7224b86b43c53ac2a2b6ec7/material_2.urdf",
+        "objaverse_rescale/e1745c4aa7c046a2b5193d2d23be0192/material_2.urdf"
+    ],
+    "target_obj_name": "spoon",
+    "instruction": "Place the spoon to the right of the cup on the table. We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "init_obj_pos": [
+        [
+            0.305671947347418,
+            0.25625138943299625,
+            0.9011935200049779,
+            0.010456249886670098,
+            -0.004474260100811505,
+            0.08448016022026084,
+            0.9963602512966963,
+            0.0029899405781179667,
+            -0.004646102897822857,
+            -0.0047179232351481915,
+            0.13560928404331207,
+            0.15634864568710327,
+            0.029314137995243073
+        ],
+        [
+            0.5232668257501243,
+            -0.07137076434483226,
+            0.9441922557309981,
+            -6.027473660003079e-05,
+            -0.2216903542646689,
+            -0.013049841631035761,
+            0.9750297866354476,
+            0.002618327969685197,
+            -0.0004342314205132425,
+            -0.0004811878898181021,
+            0.006795872002840042,
+            0.0366380549967289,
+            0.001120310160331428
+        ],
+        [
+            0.3983778442423451,
+            -0.02419856938303274,
+            0.9141624417500406,
+            -0.00014249145140553222,
+            0.00023339007748319235,
+            -0.03661581664327393,
+            0.9993293787319596,
+            0.0002840887464117259,
+            -0.000563639507163316,
+            -0.003538464428856969,
+            -0.04882768541574478,
+            -0.000644439016468823,
+            -0.011340899392962456
+        ],
+        [
+            0.49592557902516476,
+            0.13259401590731232,
+            0.9050569233483945,
+            0.6767823599741976,
+            0.18438198333717953,
+            0.1652480795006427,
+            0.6932979111967336,
+            -0.0025276136584579945,
+            0.01602143980562687,
+            0.03471538424491882,
+            2.9171690940856934,
+            -4.115201473236084,
+            -0.5494788885116577
+        ]
+    ],
+    "position_instruction": "Place the spoon to the right of the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "rotation_instruction_label": "scoop_right",
+    "obj_codes": [
+        "065-i",
+        "7ca7ebcfad964498b49af73be442acf9",
+        "c61227cac7224b86b43c53ac2a2b6ec7",
+        "e1745c4aa7c046a2b5193d2d23be0192"
+    ],
+    "target_obj_code": "e1745c4aa7c046a2b5193d2d23be0192",
+    "anno_target": {
+        "category": "spoon",
+        "annotation": {
+            " the ladle is lying on the table, with its scoop on the left(pointing towards left) and its handle on the right. ": {
+                "quat": [
+                    [
+                        1.1620866047223899e-07,
+                        0.6936773657798767,
+                        0.7202858328819275,
+                        -1.1419894718756041e-07
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ladle is lying on the table, with its scoop on the right(pointing towards right) and its handle on the left.": {
+                "quat": [
+                    [
+                        -0.6936756372451782,
+                        -0.0015665553510189056,
+                        -0.0016268827021121979,
+                        -0.7202840447425842
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "scoop_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "scoop_right"
+}

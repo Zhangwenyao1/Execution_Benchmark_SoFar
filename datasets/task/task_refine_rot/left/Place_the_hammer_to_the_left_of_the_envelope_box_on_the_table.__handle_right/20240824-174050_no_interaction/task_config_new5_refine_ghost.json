@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "envelope box",
+        "screwdriver",
+        "plate",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/40b28d1cbfbd4e9f9acf653b748324ee/material_2.urdf",
+        "ycb_16k_backup/043_phillips_screwdriver_google_16k/043_phillips_screwdriver_google_16k.urdf",
+        "ycb_16k_backup/029_plate_google_16k/029_plate_google_16k.urdf",
+        "objaverse_rescale/d499e1bc8a514e4bb5ca995ea6ba23b6/material_2.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer to the left of the envelope box on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.41836395132768156,
+            0.20473100960088783,
+            0.9317149659375954,
+            -0.0001612358711623482,
+            5.8230212225159094e-05,
+            0.05063632733617472,
+            0.9987171436228277,
+            3.187976290064398e-06,
+            4.346325567894382e-06,
+            -9.757396583154332e-06,
+            9.924713958753273e-05,
+            -3.737440056283958e-05,
+            -4.4522457756102085e-06
+        ],
+        [
+            0.603462823545842,
+            -0.04812604039328821,
+            0.8985657932549572,
+            -0.05765867253748057,
+            -0.024644036439177716,
+            0.2652428060740347,
+            -0.9621405317182989,
+            -0.022171448916196823,
+            0.005798383615911007,
+            0.03822736814618111,
+            -1.4281795024871826,
+            -1.1603084802627563,
+            -0.2341282069683075
+        ],
+        [
+            0.4761512008134052,
+            -0.05984121379729689,
+            0.9371647874661655,
+            -0.007270092852270133,
+            -0.1934141755280144,
+            -0.1344077532212984,
+            0.971839831622855,
+            -0.010294229723513126,
+            -0.001639668014831841,
+            0.03727084398269653,
+            0.005297885742038488,
+            -0.6189028024673462,
+            -0.029000554233789444
+        ],
+        [
+            0.3070798840749705,
+            -0.2423140026192221,
+            0.9224734772371739,
+            -0.00039607878877276207,
+            -0.0024645470131456123,
+            0.10890333886381331,
+            0.994049210006188,
+            0.004919395316392183,
+            -0.0016630409518256783,
+            -0.006996330805122852,
+            -0.051083020865917206,
+            0.17681773006916046,
+            0.019441571086645126
+        ]
+    ],
+    "position_instruction": "Place the hammer to the left of the envelope box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "40b28d1cbfbd4e9f9acf653b748324ee",
+        "043",
+        "029",
+        "d499e1bc8a514e4bb5ca995ea6ba23b6"
+    ],
+    "target_obj_code": "d499e1bc8a514e4bb5ca995ea6ba23b6",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.9891719818115234,
+                        -0.1467610001564026
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "handle_right"
+}

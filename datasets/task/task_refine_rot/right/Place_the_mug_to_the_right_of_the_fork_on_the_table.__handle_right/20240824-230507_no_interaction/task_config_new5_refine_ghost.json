@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "fork",
+        "hammer",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/030_fork_google_16k/030_fork_google_16k.urdf",
+        "ycb_16k_backup/048_hammer_google_16k/048_hammer_google_16k.urdf",
+        "objaverse_rescale/77d41aba53e4455f9f84fa04b175dff4/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug to the right of the fork on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6549021431965899,
+            0.24487887150704746,
+            0.9027256618268582,
+            0.05438328968528527,
+            -0.0035435341312264183,
+            -0.06957265636824826,
+            0.9960871180046118,
+            -0.000730115978512913,
+            0.0032269172370433807,
+            -0.00027648237301036716,
+            0.28677383065223694,
+            0.09043078869581223,
+            -0.03813778981566429
+        ],
+        [
+            0.41315126236663013,
+            1.1930669595420218,
+            0.00046673434450137996,
+            0.0006934767073886953,
+            -0.002275027008201975,
+            -0.1471388301367761,
+            0.9891129905163258,
+            -0.003415484447032213,
+            -0.0015017156256362796,
+            -0.003511082148179412,
+            0.03406384587287903,
+            -0.07248172163963318,
+            -0.021062713116407394
+        ],
+        [
+            0.3961597653851049,
+            -0.028277034078570455,
+            0.96500916828332,
+            0.005518668992835113,
+            0.056006071536783976,
+            -0.09785083689369432,
+            0.9936086140743585,
+            -0.0009748345473781228,
+            5.119548586662859e-05,
+            -0.0009127202210947871,
+            0.0007030360284261405,
+            -0.018451925367116928,
+            -0.006120622158050537
+        ]
+    ],
+    "position_instruction": "Place the mug to the right of the fork on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "030",
+        "048",
+        "77d41aba53e4455f9f84fa04b175dff4"
+    ],
+    "target_obj_code": "77d41aba53e4455f9f84fa04b175dff4",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "handle_right"
+}

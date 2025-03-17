@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "bottle",
+        "pen",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/8c0f8088a5d546c886d1b07e3f4eafae/material_2.urdf",
+        "objaverse_rescale/f126e15c0f904fccbd76f9348baea12c/material_2.urdf",
+        "objaverse_rescale/d499e1bc8a514e4bb5ca995ea6ba23b6/material_2.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer on top of the bottle on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.43984200532487727,
+            0.16095400841255728,
+            0.9293155719448296,
+            0.0023134212520392193,
+            0.006484911872072816,
+            -0.26963156409771977,
+            0.9629389459578114,
+            -0.003845629747956991,
+            -5.0354483391856775e-05,
+            -0.00011516330414451659,
+            -0.040404219180345535,
+            -0.08284731209278107,
+            -0.004057542886584997
+        ],
+        [
+            0.645700856403978,
+            0.16133759719305962,
+            0.907041406318014,
+            -0.4505315142735754,
+            -0.5471619809842726,
+            -0.2617905153533399,
+            0.6550578961303785,
+            -0.0010679297847673297,
+            -0.0018454911187291145,
+            0.03190295770764351,
+            0.6447471380233765,
+            -2.971503257751465,
+            0.18982550501823425
+        ],
+        [
+            0.29616842452441444,
+            0.22958051389695638,
+            0.922704188138013,
+            -0.0013586858440532475,
+            -0.004719781808662017,
+            -0.0033192147168646796,
+            0.9999824300687078,
+            -0.009096681140363216,
+            -0.002369546564295888,
+            -0.01036002580076456,
+            0.05639484524726868,
+            -0.14626677334308624,
+            0.06692282110452652
+        ]
+    ],
+    "position_instruction": "Place the hammer on top of the bottle on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "8c0f8088a5d546c886d1b07e3f4eafae",
+        "f126e15c0f904fccbd76f9348baea12c",
+        "d499e1bc8a514e4bb5ca995ea6ba23b6"
+    ],
+    "target_obj_code": "d499e1bc8a514e4bb5ca995ea6ba23b6",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.9891719818115234,
+                        -0.1467610001564026
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "handle_right"
+}

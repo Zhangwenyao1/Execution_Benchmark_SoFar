@@ -1,0 +1,67 @@
+{
+    "selected_obj_names": [
+        "fork"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/030_fork_google_16k/030_fork_google_16k.urdf"
+    ],
+    "target_obj_name": "fork",
+    "instruction": "We need to specify the rotation of the object after placement:  the prong of the fork is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.47692563231776275,
+            -0.19814232350607838,
+            0.9028631086004106,
+            0.05677102539685895,
+            0.005233364568782743,
+            0.08242072864442129,
+            0.9949655702889428,
+            0.00019264429283794016,
+            0.003236440010368824,
+            -0.00048010077443905175,
+            -1.288883090019226,
+            -0.34002137184143066,
+            -0.2341097742319107
+        ]
+    ],
+    "position_instruction": "",
+    "rotation_instruction": "We need to specify the rotation of the object after placement:  the prong of the fork is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "prong_right",
+    "obj_codes": [
+        "030"
+    ],
+    "target_obj_code": "030",
+    "anno_target": {
+        "category": "fork",
+        "annotation": {
+            " the prong of the fork is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the prong of the fork is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "prong_right",
+    "rot_tag_level": 1,
+    "position_tag": "rot_ins",
+    "rotation_tag": "prong_right"
+}

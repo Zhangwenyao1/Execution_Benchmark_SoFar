@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "pear",
+        "calculator",
+        "wrench"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f9ac5185507b4d0dbc744941e9055b96/material_2.urdf",
+        "objaverse_rescale/b4bb8bd7791648fdb36c458fd9a877bf/material_2.urdf",
+        "objaverse_rescale/5bf781c9fd8d4121b735503b13ba2eaf/material_2.urdf"
+    ],
+    "target_obj_name": "wrench",
+    "instruction": "Place the wrench to the left of the pear on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.3068352533652557,
+            0.02149014946909289,
+            0.9343137114366677,
+            -0.13057214054685473,
+            0.01364640834490807,
+            0.010927576031491323,
+            0.9912846613028845,
+            0.005219398066401482,
+            0.00046909612137824297,
+            -0.0004940429353155196,
+            -0.015540290623903275,
+            0.14320778846740723,
+            -0.0011353843146935105
+        ],
+        [
+            0.6366458968745681,
+            -0.10374794643301441,
+            0.9130113726735177,
+            0.7040913481477794,
+            -0.08041887762495083,
+            -0.0809131656036625,
+            0.7008860372535475,
+            0.00020239240257069468,
+            -0.00048098634579218924,
+            -0.0041144308634102345,
+            0.029154114425182343,
+            0.06588160246610641,
+            -0.009623990394175053
+        ],
+        [
+            0.3389409798359591,
+            0.21213569583191072,
+            0.9063055811711953,
+            -0.43466192618693256,
+            0.5515096446751749,
+            -0.5595473385288257,
+            0.440241862728927,
+            0.000680311000905931,
+            0.0014168001944199204,
+            0.030163651332259178,
+            -0.9054383039474487,
+            -0.1993192583322525,
+            0.09895644336938858
+        ]
+    ],
+    "position_instruction": "Place the wrench to the left of the pear on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "f9ac5185507b4d0dbc744941e9055b96",
+        "b4bb8bd7791648fdb36c458fd9a877bf",
+        "5bf781c9fd8d4121b735503b13ba2eaf"
+    ],
+    "target_obj_code": "5bf781c9fd8d4121b735503b13ba2eaf",
+    "anno_target": {
+        "category": "wrench",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "handle_right"
+}

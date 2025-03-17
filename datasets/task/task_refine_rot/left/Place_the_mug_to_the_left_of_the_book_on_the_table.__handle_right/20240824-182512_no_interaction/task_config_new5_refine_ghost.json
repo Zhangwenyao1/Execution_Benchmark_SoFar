@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "book",
+        "hammer",
+        "toilet paper roll",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/c61227cac7224b86b43c53ac2a2b6ec7/material_2.urdf",
+        "objaverse_rescale/9bf1b31f641543c9a921042dac3b527f/material_2.urdf",
+        "objaverse_rescale/ea0cf48616e34708b73c82eb7c7366ca/material_2.urdf",
+        "objaverse_rescale/c25119c5ac6e4654be3b75d78e34a912/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug to the left of the book on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.3553318413524888,
+            -0.24799577879302642,
+            0.9141671558670891,
+            -0.00024047479425836078,
+            8.013992820005368e-05,
+            -0.1255392279848016,
+            0.9920886240585793,
+            5.087681711302139e-05,
+            0.0016363876638934016,
+            -0.0025509276892989874,
+            -0.03516857698559761,
+            0.011977454647421837,
+            0.007953641004860401
+        ],
+        [
+            0.7556447042790551,
+            -0.05848698638986641,
+            0.9075759322707456,
+            -0.1712927672900701,
+            -0.6856917749944358,
+            -0.1869425207080886,
+            0.6823035039704803,
+            0.0006907765637151897,
+            0.0038032010197639465,
+            0.030642330646514893,
+            -0.33820000290870667,
+            -1.1951850652694702,
+            -0.048778094351291656
+        ],
+        [
+            0.6365375888739735,
+            -0.01224457335280143,
+            0.949644659529741,
+            -0.035196307070311156,
+            0.18601208162848581,
+            0.11156787837491723,
+            0.9755579603343778,
+            -0.035810504108667374,
+            0.02999839372932911,
+            -0.0014669173397123814,
+            -0.3784012496471405,
+            -0.4515576660633087,
+            0.0007709389319643378
+        ],
+        [
+            0.6315396080594274,
+            -0.18751420218741077,
+            0.9304252052810698,
+            -0.07221858478818084,
+            0.28564880901240586,
+            0.2594322099623013,
+            0.9197196107265864,
+            -0.0013980008661746979,
+            0.0009912146488204598,
+            -0.00019012120901606977,
+            -0.017287859693169594,
+            -0.02136733941733837,
+            -0.001171303098089993
+        ]
+    ],
+    "position_instruction": "Place the mug to the left of the book on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "c61227cac7224b86b43c53ac2a2b6ec7",
+        "9bf1b31f641543c9a921042dac3b527f",
+        "ea0cf48616e34708b73c82eb7c7366ca",
+        "c25119c5ac6e4654be3b75d78e34a912"
+    ],
+    "target_obj_code": "c25119c5ac6e4654be3b75d78e34a912",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "handle_right"
+}

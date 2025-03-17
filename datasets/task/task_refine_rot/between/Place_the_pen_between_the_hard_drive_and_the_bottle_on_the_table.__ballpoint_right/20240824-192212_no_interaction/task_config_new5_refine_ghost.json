@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "hard drive",
+        "bottle",
+        "binder clips",
+        "pen"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f8de4975c0f54c1a97203c6a674f6a39/material_2.urdf",
+        "objaverse_rescale/a7785ac7ce7f4ba79df661db33637ba9/material_2.urdf",
+        "objaverse_rescale/5e55c38b24dc4c239448efa1c6b7f49f/material_2.urdf",
+        "objaverse_rescale/f126e15c0f904fccbd76f9348baea12c/material_2.urdf"
+    ],
+    "target_obj_name": "pen",
+    "instruction": "Place the pen between the hard drive and the bottle on the table. We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "init_obj_pos": [
+        [
+            0.35538370162867333,
+            -0.1103894074948199,
+            0.905988367492506,
+            -0.7016386941180383,
+            0.08778348896972214,
+            -0.08779059917417342,
+            0.7016338166574322,
+            -0.0008342844666913152,
+            -0.0006530913524329662,
+            -0.0004772662359755486,
+            -0.006795533467084169,
+            -0.005954073742032051,
+            -0.0007171314209699631
+        ],
+        [
+            0.5952129571424978,
+            0.042233763527830676,
+            0.9294399907341736,
+            0.00015623250076542779,
+            0.04155308170689993,
+            -0.08575903503676871,
+            0.9954489966349999,
+            -0.00018938889843411744,
+            -9.875558316707611e-05,
+            -1.8602337149786763e-05,
+            0.002185112563893199,
+            -0.006383081432431936,
+            -0.0016873633721843362
+        ],
+        [
+            0.6980675694578213,
+            0.09835214595001772,
+            0.9100084296230999,
+            3.839119883661099e-05,
+            4.104575994623206e-06,
+            0.10921438285518868,
+            0.9940182176835745,
+            0.0013334130635485053,
+            -0.00017681228928267956,
+            -0.0003880737640429288,
+            0.0030893704388290644,
+            0.018126532435417175,
+            0.002811627695336938
+        ],
+        [
+            0.5485037080057993,
+            -0.15361354601005026,
+            0.9070425162117487,
+            -0.5116134652899209,
+            -0.4905190593767712,
+            -0.3375133501803112,
+            0.6194573859211224,
+            -0.0017866239650174975,
+            -0.00408845953643322,
+            0.031693506985902786,
+            -0.9628129601478577,
+            0.26005303859710693,
+            0.22891174256801605
+        ]
+    ],
+    "position_instruction": "Place the pen between the hard drive and the bottle on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "rotation_instruction_label": "ballpoint_right",
+    "obj_codes": [
+        "f8de4975c0f54c1a97203c6a674f6a39",
+        "a7785ac7ce7f4ba79df661db33637ba9",
+        "5e55c38b24dc4c239448efa1c6b7f49f",
+        "f126e15c0f904fccbd76f9348baea12c"
+    ],
+    "target_obj_code": "f126e15c0f904fccbd76f9348baea12c",
+    "anno_target": {
+        "category": "pen",
+        "annotation": {
+            " the ballpoint of the pen is on the left(oriented towards left), while the clicker is on the right.": {
+                "quat": [
+                    [
+                        -0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.": {
+                "quat": [
+                    [
+                        -0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "ballpoint_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "ballpoint_right"
+}

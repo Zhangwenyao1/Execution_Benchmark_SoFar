@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "lighter",
+        "hard drive",
+        "knife"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/b640aa4990b64db9ab3d868c6f49820e/material_2.urdf",
+        "objaverse_rescale/e32b159011544b8aa7cacd812636353e/material_2.urdf",
+        "ycb_16k_backup/032_knife_google_16k/032_knife_google_16k.urdf"
+    ],
+    "target_obj_name": "knife",
+    "instruction": "Place the knife on top of the lighter on the table. We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.392680112846082,
+            0.20836193886598403,
+            0.9248586435204962,
+            -0.0012970769338732603,
+            0.0037404352634108923,
+            0.2040405994614136,
+            0.978954422078421,
+            -0.003765588626265526,
+            0.003954257816076279,
+            0.02310309372842312,
+            -0.3669339418411255,
+            -0.4545636773109436,
+            0.035113830119371414
+        ],
+        [
+            0.5869712289883495,
+            -0.29275133381883167,
+            0.9151779929483169,
+            0.7068564504717035,
+            0.015456073113962594,
+            0.015181522084030848,
+            0.7070251690128518,
+            -1.063189029082423e-05,
+            4.3456864659674466e-05,
+            -0.0001449811679776758,
+            0.0010678268736228347,
+            -0.002659730613231659,
+            -0.000994401634670794
+        ],
+        [
+            0.3031147929210663,
+            -0.0383306170714432,
+            0.9164859676861064,
+            0.23544714890684515,
+            0.01654339346941243,
+            -0.0036125742693030117,
+            0.9717396284557418,
+            0.005173780955374241,
+            0.00046378932893276215,
+            0.033249080181121826,
+            -7.850209712982178,
+            1.5082924365997314,
+            0.7508546113967896
+        ]
+    ],
+    "position_instruction": "Place the knife on top of the lighter on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blade_right",
+    "obj_codes": [
+        "b640aa4990b64db9ab3d868c6f49820e",
+        "e32b159011544b8aa7cacd812636353e",
+        "032"
+    ],
+    "target_obj_code": "032",
+    "anno_target": {
+        "category": "knife",
+        "annotation": {
+            " the blade of the knife is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        -0.010130898095667362,
+                        0.010130898095667362,
+                        0.707034170627594,
+                        0.707034170627594
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blade of the knife is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        -0.010140104219317436,
+                        -0.010121682658791542,
+                        0.7076767086982727,
+                        -0.7063910365104675
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blade_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "blade_right"
+}

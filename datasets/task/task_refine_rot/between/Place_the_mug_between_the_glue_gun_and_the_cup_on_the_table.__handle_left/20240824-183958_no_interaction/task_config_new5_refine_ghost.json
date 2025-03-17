@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "glue gun",
+        "cup",
+        "highlighter",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/a1da12b81f034db894496c1ffc4be1f5/material_2.urdf",
+        "ycb_16k_backup/065-g_cups_google_16k/065-g_cups_google_16k.urdf",
+        "objaverse_rescale/25481a65cad54e2a956394ff2b2765cd/material_2.urdf",
+        "objaverse_rescale/2c88306f3d724a839054f3c2913fb1d5/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug between the glue gun and the cup on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "init_obj_pos": [
+        [
+            0.5364588725269237,
+            0.21210859040779975,
+            0.9418352202707834,
+            0.468597814559095,
+            0.32331968522917975,
+            0.30801695399870244,
+            0.7622375124481252,
+            -0.013118758797645569,
+            0.012352189049124718,
+            0.022745968773961067,
+            -0.8483057618141174,
+            -0.9808638095855713,
+            0.021539678797125816
+        ],
+        [
+            0.4941896208270234,
+            -0.2164406473176217,
+            0.9005667156591577,
+            0.00041541663246527676,
+            -0.0012895099054598476,
+            0.036673361470713046,
+            0.9993263876990657,
+            0.00565097201615572,
+            0.008345992304384708,
+            -0.003859877120703459,
+            -0.2957049012184143,
+            0.19320306181907654,
+            -0.004803817253559828
+        ],
+        [
+            0.44945522806541766,
+            0.04932040686873318,
+            0.9114408332988734,
+            0.7006687307507303,
+            0.05076282369146883,
+            0.03738968914764298,
+            0.7106957693869229,
+            0.000552164507098496,
+            0.006868063006550074,
+            0.010375590063631535,
+            -1.0580068826675415,
+            -0.16602984070777893,
+            -0.0984402745962143
+        ],
+        [
+            0.7111561446817027,
+            -0.02798549185184282,
+            0.9382257575382623,
+            -0.11433503076398056,
+            0.3163109373151305,
+            0.13395995088667487,
+            0.9321639465423782,
+            0.0008075611549429595,
+            -0.0010878648608922958,
+            -0.001245745923370123,
+            0.022855546325445175,
+            0.004107442684471607,
+            0.0020993470679968596
+        ]
+    ],
+    "position_instruction": "Place the mug between the glue gun and the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "rotation_instruction_label": "handle_left",
+    "obj_codes": [
+        "a1da12b81f034db894496c1ffc4be1f5",
+        "065-g",
+        "25481a65cad54e2a956394ff2b2765cd",
+        "2c88306f3d724a839054f3c2913fb1d5"
+    ],
+    "target_obj_code": "2c88306f3d724a839054f3c2913fb1d5",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_left"
+}

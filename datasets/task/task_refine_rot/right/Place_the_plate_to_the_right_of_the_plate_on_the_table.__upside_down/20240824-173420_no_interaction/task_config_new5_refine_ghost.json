@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "plate",
+        "hammer",
+        "plate"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6d5a4e1174dd4f5fa0a9a9076e476b91/material_2.urdf",
+        "objaverse_rescale/8ed38a92668a425eb16da938622d9ace/material_2.urdf",
+        "ycb_16k_backup/029_plate_google_16k/029_plate_google_16k.urdf"
+    ],
+    "target_obj_name": "plate",
+    "instruction": "Place the plate to the right of the plate on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.46006345932072723,
+            -0.23729059548854084,
+            0.9204896508667596,
+            0.4534795486528479,
+            -0.4917578447888217,
+            -0.4659516485569782,
+            0.5791541955725577,
+            0.0049804141744971275,
+            0.0053156097419559956,
+            0.019664820283651352,
+            -0.44853851199150085,
+            0.36578378081321716,
+            0.017127230763435364
+        ],
+        [
+            0.5725501045862168,
+            0.011187654451187126,
+            0.9143696688921691,
+            -0.5104480435461779,
+            0.5036753351065772,
+            -0.4880571794299562,
+            0.4975481295834911,
+            0.0016289947088807821,
+            0.0020368853583931923,
+            -0.00022743080626241863,
+            -0.12259259074926376,
+            0.07696305215358734,
+            -0.03570812940597534
+        ],
+        [
+            0.46006345932072723,
+            -0.23729059548854084,
+            0.9204896508667596,
+            0.4534795486528479,
+            -0.4917578447888217,
+            -0.4659516485569782,
+            0.5791541955725577,
+            0.0037118077743798494,
+            -0.0032333231065422297,
+            0.02980351820588112,
+            -0.36179912090301514,
+            -0.015467687509953976,
+            0.08820750564336777
+        ]
+    ],
+    "position_instruction": "Place the plate to the right of the plate on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "6d5a4e1174dd4f5fa0a9a9076e476b91",
+        "8ed38a92668a425eb16da938622d9ace",
+        "029"
+    ],
+    "target_obj_code": "029",
+    "anno_target": {
+        "category": "plate",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upside_down"
+}

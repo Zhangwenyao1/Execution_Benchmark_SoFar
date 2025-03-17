@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "pitcher base",
+        "wineglass",
+        "speaker"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/019_pitcher_base_google_16k/019_pitcher_base_google_16k.urdf",
+        "objaverse_rescale/afca0b1933b84b1dbebd1244f25e72fc/material_2.urdf",
+        "objaverse_rescale/4445f4442a884999960e7e6660459095/material_2.urdf"
+    ],
+    "target_obj_name": "speaker",
+    "instruction": "Place the speaker to the right of the pitcher base on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.",
+    "init_obj_pos": [
+        [
+            0.5446823776253351,
+            -0.0987997162338571,
+            0.9016976506763649,
+            -0.0029374644115188545,
+            0.0076263482022646935,
+            -0.18158729951026303,
+            0.983340868047545,
+            -0.003907834645360708,
+            -0.0004691994108725339,
+            -0.0012000157730653882,
+            0.0043839649297297,
+            -0.03948306292295456,
+            -0.012103965505957603
+        ],
+        [
+            0.6666624592301604,
+            -0.07189852440089371,
+            0.9407933857101634,
+            0.002323063808650148,
+            0.03267218153519837,
+            -0.017990236558187267,
+            0.9993014977056986,
+            0.001000403892248869,
+            0.004848556127399206,
+            0.0004613481869455427,
+            -0.14666828513145447,
+            0.03208737075328827,
+            0.009933183901011944
+        ],
+        [
+            0.5964787541070228,
+            0.13232161274460016,
+            0.9687482862095357,
+            -0.0028493247884218177,
+            -2.672046782985087e-05,
+            0.010018596298391908,
+            0.9999457527098532,
+            0.0024263891391456127,
+            -0.0017975049559026957,
+            -0.0009483685716986656,
+            0.026989910751581192,
+            0.03294861316680908,
+            0.0005655374843627214
+        ]
+    ],
+    "position_instruction": "Place the speaker to the right of the pitcher base on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.",
+    "rotation_instruction_label": "upright_textual",
+    "obj_codes": [
+        "019",
+        "afca0b1933b84b1dbebd1244f25e72fc",
+        "4445f4442a884999960e7e6660459095"
+    ],
+    "target_obj_code": "4445f4442a884999960e7e6660459095",
+    "anno_target": {
+        "category": "speaker",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.": {
+                "quat": [
+                    [
+                        -0.4999999701976776,
+                        -0.5000000596046448,
+                        -0.4999999701976776,
+                        -0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright_textual",
+    "rot_tag_level": 2,
+    "position_tag": "right",
+    "rotation_tag": "upright_textual"
+}

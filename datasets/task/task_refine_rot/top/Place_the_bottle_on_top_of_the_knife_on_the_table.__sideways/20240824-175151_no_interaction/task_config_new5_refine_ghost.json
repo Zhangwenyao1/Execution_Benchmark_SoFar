@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "knife",
+        "binder",
+        "toy",
+        "bottle"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f93d05bc2db144f7a50374794ef5cf8d/material_2.urdf",
+        "objaverse_rescale/a0026e7d1b244b9a9223daf4223c9372/material_2.urdf",
+        "ycb_16k_backup/072-b_toy_airplane_google_16k/072-b_toy_airplane_google_16k.urdf",
+        "objaverse_rescale/8c0f8088a5d546c886d1b07e3f4eafae/material_2.urdf"
+    ],
+    "target_obj_name": "bottle",
+    "instruction": "Place the bottle on top of the knife on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.3089508371313008,
+            0.06596711382774177,
+            0.9032673148092033,
+            0.4021738440521689,
+            0.5912669292586591,
+            -0.4044739478061025,
+            0.5701407221655744,
+            -0.0016516412142664194,
+            0.0005318665062077343,
+            0.00018092020764015615,
+            0.4327174425125122,
+            -0.5827909111976624,
+            0.13599203526973724
+        ],
+        [
+            0.6444996783152215,
+            0.11572564919065256,
+            0.9272610856046305,
+            0.00045885492560013866,
+            -0.00017114812075029362,
+            0.4242980315644353,
+            0.9055224682861406,
+            0.00034017162397503853,
+            6.1914993239042815e-06,
+            -0.0011245404602959752,
+            -0.004869696218520403,
+            0.010483160614967346,
+            0.0004808121011592448
+        ],
+        [
+            0.4167736981896197,
+            0.389037365592134,
+            0.9421816968335224,
+            0.9662388575054226,
+            -0.05696342265549265,
+            0.22178547364156417,
+            0.11810521752900686,
+            0.0005515560042113066,
+            -0.000257722131209448,
+            -0.0006339181563816965,
+            0.014436026103794575,
+            0.03139977529644966,
+            0.003389455145224929
+        ],
+        [
+            0.4484651338266296,
+            -0.147025047385585,
+            0.9292855987809046,
+            0.010180536962301862,
+            0.7034049050237845,
+            -0.009597122927183304,
+            0.7106516667729418,
+            -0.0010886247036978602,
+            -0.000282009452348575,
+            -6.1750056374876294e-06,
+            0.01054549589753151,
+            -0.027092233300209045,
+            -0.022922685369849205
+        ]
+    ],
+    "position_instruction": "Place the bottle on top of the knife on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "f93d05bc2db144f7a50374794ef5cf8d",
+        "a0026e7d1b244b9a9223daf4223c9372",
+        "072-b",
+        "8c0f8088a5d546c886d1b07e3f4eafae"
+    ],
+    "target_obj_code": "8c0f8088a5d546c886d1b07e3f4eafae",
+    "anno_target": {
+        "category": "bottle",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "top",
+    "rotation_tag": "sideways"
+}

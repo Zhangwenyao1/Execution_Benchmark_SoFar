@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "wallet",
+        "wrench",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/dbb07d13a33546f09ac8ca98b1ddef20/material_2.urdf",
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf",
+        "objaverse_rescale/8ed38a92668a425eb16da938622d9ace/material_2.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer to the left of the wallet on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.5643720678380084,
+            -0.019606581509411695,
+            0.931744807632008,
+            0.03593266478873312,
+            -0.04359054641692193,
+            0.03214023402862368,
+            0.9978856213118013,
+            0.00042400992242619395,
+            -0.002377869561314583,
+            -0.0016797921853139997,
+            0.03369808942079544,
+            0.01925584301352501,
+            -0.02515830658376217
+        ],
+        [
+            0.414842299684795,
+            -0.07256959436663805,
+            0.9027269819672263,
+            0.012399177476968328,
+            -0.01765596627352416,
+            0.019381667089435253,
+            0.9995793506438982,
+            0.002574216341599822,
+            -0.004130605608224869,
+            0.03444904834032059,
+            -0.4820934534072876,
+            0.2860235869884491,
+            0.23242034018039703
+        ],
+        [
+            0.6036945380526234,
+            0.07079432438528557,
+            0.9154038766185726,
+            -0.03409197301225573,
+            0.5576088193839073,
+            0.07072541149309586,
+            0.8263825131805178,
+            0.018044302240014076,
+            0.0006565289222635329,
+            0.017780769616365433,
+            0.7498109936714172,
+            0.2350115329027176,
+            -0.13162767887115479
+        ]
+    ],
+    "position_instruction": "Place the hammer to the left of the wallet on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "dbb07d13a33546f09ac8ca98b1ddef20",
+        "042",
+        "8ed38a92668a425eb16da938622d9ace"
+    ],
+    "target_obj_code": "8ed38a92668a425eb16da938622d9ace",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "handle_right"
+}

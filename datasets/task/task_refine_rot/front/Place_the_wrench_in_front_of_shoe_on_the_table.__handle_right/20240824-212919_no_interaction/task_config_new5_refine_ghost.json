@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "shoe",
+        "mug",
+        "multimeter",
+        "wrench"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/ece4453042144b4a82fb86a4eab1ba7f/material_2.urdf",
+        "objaverse_rescale/7bc2b14a48d1413e9375c32a53e3ee6f/material_2.urdf",
+        "objaverse_rescale/79ac684e66b34554ba869bd2fc3c2653/material_2.urdf",
+        "objaverse_rescale/5bf781c9fd8d4121b735503b13ba2eaf/material_2.urdf"
+    ],
+    "target_obj_name": "wrench",
+    "instruction": "Place the wrench in front of shoe on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.5506971323728376,
+            -0.1967857594486836,
+            0.9314048393383646,
+            -0.0860293738496448,
+            -0.6955179154332641,
+            -0.04973463421691878,
+            0.711603992615073,
+            -0.0008703907951712608,
+            0.00011550298222573474,
+            -0.0012920405715703964,
+            -0.0049142115749418736,
+            -0.03401244059205055,
+            -0.0013655165676027536
+        ],
+        [
+            0.5576723816616486,
+            0.187234772623886,
+            0.9401065992466425,
+            0.027978063779128492,
+            -0.12249683439766389,
+            0.06700936211606921,
+            0.9898088193679222,
+            0.0006075943820178509,
+            0.00027112997486256063,
+            -0.0001770501839928329,
+            0.000599231047090143,
+            0.00512064341455698,
+            0.0003284175181761384
+        ],
+        [
+            0.6974581860141917,
+            -0.1663452073037254,
+            0.9203785874196798,
+            0.7010708411557663,
+            0.09176626650890764,
+            0.09796214405053084,
+            0.7003442341771552,
+            0.0020045116543769836,
+            0.0005609604413621128,
+            -0.0045849536545574665,
+            -0.05902829021215439,
+            0.11778491735458374,
+            0.0005512229399755597
+        ],
+        [
+            0.3704161686962789,
+            -0.08502402728269028,
+            0.905289331541901,
+            -0.04285413874700732,
+            -0.7061831562358005,
+            0.7062733746835486,
+            0.025432122487262614,
+            0.004667236935347319,
+            -9.45247447816655e-05,
+            0.028946135193109512,
+            -3.6185269355773926,
+            0.22067812085151672,
+            0.07183384895324707
+        ]
+    ],
+    "position_instruction": "Place the wrench in front of shoe on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "ece4453042144b4a82fb86a4eab1ba7f",
+        "7bc2b14a48d1413e9375c32a53e3ee6f",
+        "79ac684e66b34554ba869bd2fc3c2653",
+        "5bf781c9fd8d4121b735503b13ba2eaf"
+    ],
+    "target_obj_code": "5bf781c9fd8d4121b735503b13ba2eaf",
+    "anno_target": {
+        "category": "wrench",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "handle_right"
+}

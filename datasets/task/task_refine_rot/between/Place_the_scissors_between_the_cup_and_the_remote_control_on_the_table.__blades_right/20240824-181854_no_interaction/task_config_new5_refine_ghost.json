@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "remote control",
+        "scissors"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-g_cups_google_16k/065-g_cups_google_16k.urdf",
+        "objaverse_rescale/c7ec86e7feb746489b30b4a01c2510af/material_2.urdf",
+        "ycb_16k_backup/037_scissors_google_16k/037_scissors_google_16k.urdf"
+    ],
+    "target_obj_name": "scissors",
+    "instruction": "Place the scissors between the cup and the remote control on the table. We also need to specify the rotation of the object after placement:  the blades of the scissors are on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.5606711981683784,
+            -0.19689287962813914,
+            0.9005623531917056,
+            0.00029858714990665583,
+            -0.0013923526361220085,
+            -0.08622126808604663,
+            0.9962749947326215,
+            0.006427696906030178,
+            0.008304979652166367,
+            -0.003954727202653885,
+            -0.28583335876464844,
+            0.2241710126399994,
+            -0.005026011727750301
+        ],
+        [
+            0.41909563969249186,
+            -0.15921521426963625,
+            0.9078763731267936,
+            0.694309705096939,
+            0.13393139526334494,
+            0.1303404231388413,
+            0.6949876177796284,
+            -0.0006165137165226042,
+            0.00031934460275806487,
+            0.029032766819000244,
+            -0.1983814537525177,
+            -0.8718176484107971,
+            -0.02449868433177471
+        ],
+        [
+            0.3754287714309079,
+            0.14923785515554036,
+            0.9001643119109151,
+            -0.0008638193415107534,
+            -0.0015638752932431363,
+            0.11732994853994654,
+            0.9930913811356062,
+            -0.0015610986156389117,
+            0.007752344477921724,
+            0.0009676041081547737,
+            -0.3468785285949707,
+            -1.5742478370666504,
+            0.8164333701133728
+        ]
+    ],
+    "position_instruction": "Place the scissors between the cup and the remote control on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the blades of the scissors are on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blades_right",
+    "obj_codes": [
+        "065-g",
+        "c7ec86e7feb746489b30b4a01c2510af",
+        "037"
+    ],
+    "target_obj_code": "037",
+    "anno_target": {
+        "category": "scissors",
+        "annotation": {
+            " the blades of the scissors are on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.9899005889892578,
+                        0.1417630910873413
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blades of the scissors are on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.13520878553390503,
+                        0.990817129611969
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blades_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "blades_right"
+}

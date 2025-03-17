@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "bottle",
+        "bowl",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/d17b8f44d1544364b8ad9fe2554ddfdf/material_2.urdf",
+        "objaverse_rescale/bdd36c94f3f74f22b02b8a069c8d97b7/material_2.urdf",
+        "objaverse_rescale/3ea2fd4e065147048064f4c97a89fe6f/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug to the left of the bottle on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.5906078373634249,
+            -0.2010560001416677,
+            0.934691391484832,
+            0.003387749405945057,
+            0.09325724637986706,
+            -0.010167505426270469,
+            0.9955843665832724,
+            -0.000703997618984431,
+            -0.00028698082314804196,
+            -6.589551048818976e-05,
+            0.0061405557207763195,
+            -0.018944546580314636,
+            -0.01589898206293583
+        ],
+        [
+            0.3228669978817687,
+            -0.0161759720555748,
+            0.9560787351479897,
+            0.7055553924914165,
+            0.04682097158776559,
+            0.04683279198713461,
+            0.7055537359695219,
+            -0.00025102123618125916,
+            0.0014581537107005715,
+            -0.0008811691077426076,
+            -0.02647455222904682,
+            -0.01147086825221777,
+            -0.01423642784357071
+        ],
+        [
+            0.4911602163982311,
+            0.10114455447913967,
+            0.9544239200849918,
+            0.5251692463250854,
+            0.4734920852755972,
+            0.473490562396684,
+            0.5251753947177837,
+            -0.0013764227041974664,
+            0.0008947545429691672,
+            -0.001070846919901669,
+            -0.015490937046706676,
+            -0.04230216518044472,
+            -0.013199093751609325
+        ]
+    ],
+    "position_instruction": "Place the mug to the left of the bottle on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "d17b8f44d1544364b8ad9fe2554ddfdf",
+        "bdd36c94f3f74f22b02b8a069c8d97b7",
+        "3ea2fd4e065147048064f4c97a89fe6f"
+    ],
+    "target_obj_code": "3ea2fd4e065147048064f4c97a89fe6f",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.7039927244186401,
+                        -0.0662892758846283,
+                        -0.0662892758846283,
+                        0.7039926648139954
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "handle_right"
+}

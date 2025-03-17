@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "box",
+        "keyboard"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/008_pudding_box_google_16k/008_pudding_box_google_16k.urdf",
+        "objaverse_rescale/44bb12d306864e2cb4256a61d4168942/material_2.urdf"
+    ],
+    "target_obj_name": "keyboard",
+    "instruction": "Place the keyboard in front of box on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.5513668191982654,
+            -0.004131421137252098,
+            0.9003422532041626,
+            -0.006558872067714861,
+            0.0011563407154886838,
+            0.13046344057710432,
+            0.9914307513619564,
+            0.0006605702801607549,
+            -0.0012511498061940074,
+            -0.0018279856303706765,
+            -0.01241776067763567,
+            -0.0016654725186526775,
+            -0.005120171699672937
+        ],
+        [
+            0.33615685911317267,
+            -0.09631036129735752,
+            0.9085976480727742,
+            -0.706956308779772,
+            -0.013819347588351205,
+            0.013941681336354724,
+            0.7069847470987115,
+            -3.168373950757086e-05,
+            8.633137622382492e-05,
+            -0.00031664001289755106,
+            -0.01094562653452158,
+            -0.0039316327311098576,
+            -0.0009396136156283319
+        ]
+    ],
+    "position_instruction": "Place the keyboard in front of box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "008",
+        "44bb12d306864e2cb4256a61d4168942"
+    ],
+    "target_obj_code": "44bb12d306864e2cb4256a61d4168942",
+    "anno_target": {
+        "category": "keyboard",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "front",
+    "rotation_tag": "upright"
+}

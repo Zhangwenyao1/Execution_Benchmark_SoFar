@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "fork",
+        "scissors",
+        "microphone"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/e98e7fb33743442383812b68608f7006/material_2.urdf",
+        "ycb_16k_backup/037_scissors_google_16k/037_scissors_google_16k.urdf",
+        "objaverse_rescale/5172dbe9281a45f48cee8c15bdfa1831/material_2.urdf"
+    ],
+    "target_obj_name": "microphone",
+    "instruction": "Place the microphone to the right of the fork on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.7039589303496464,
+            0.15918411371901567,
+            0.9051755410387234,
+            0.6564905938474208,
+            -0.26055429424291754,
+            -0.26442056561155275,
+            0.6566683519274416,
+            0.0002812009770423174,
+            0.0005777620244771242,
+            0.03428046777844429,
+            -2.908146381378174,
+            -1.7010456323623657,
+            0.06034131720662117
+        ],
+        [
+            0.587864804178074,
+            0.05504192563878378,
+            0.9001609187520626,
+            -0.0009072382316031288,
+            -0.0014515858001260527,
+            0.08285108485077212,
+            0.9965604685900936,
+            -0.005630013067275286,
+            0.009366648271679878,
+            0.0003470298834145069,
+            -0.370303213596344,
+            -1.434035301208496,
+            -0.0022422270849347115
+        ],
+        [
+            0.4481101939153468,
+            -0.012543850118128412,
+            0.941152442989657,
+            -0.09306694997550682,
+            0.17579609855103867,
+            -0.0917279476630793,
+            0.9757152546588628,
+            -0.0032413527369499207,
+            0.0010710620554164052,
+            -0.0009011390502564609,
+            -0.021673724055290222,
+            -0.09703564643859863,
+            -0.002754655433818698
+        ]
+    ],
+    "position_instruction": "Place the microphone to the right of the fork on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "e98e7fb33743442383812b68608f7006",
+        "037",
+        "5172dbe9281a45f48cee8c15bdfa1831"
+    ],
+    "target_obj_code": "5172dbe9281a45f48cee8c15bdfa1831",
+    "anno_target": {
+        "category": "microphone",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upright"
+}

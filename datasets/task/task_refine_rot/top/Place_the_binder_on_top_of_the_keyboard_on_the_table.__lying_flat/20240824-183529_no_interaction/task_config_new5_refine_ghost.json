@@ -1,0 +1,127 @@
+{
+    "selected_obj_names": [
+        "keyboard",
+        "wrench",
+        "shoe",
+        "binder"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f5080a3df6d847b693c5cca415886c61/material_2.urdf",
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf",
+        "objaverse_rescale/ece4453042144b4a82fb86a4eab1ba7f/material_2.urdf",
+        "objaverse_rescale/78e016eeb0bf45d5bea47547128383a8/material_2.urdf"
+    ],
+    "target_obj_name": "binder",
+    "instruction": "Place the binder on top of the keyboard on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.6962611864411368,
+            0.05399112223927686,
+            0.9138583032427051,
+            0.6954119442039087,
+            0.11385853395679048,
+            0.11343554782783044,
+            0.7004076231686437,
+            -0.00479040527716279,
+            -0.00428386777639389,
+            -0.0036468440666794777,
+            0.027728766202926636,
+            -0.00046854879474267364,
+            -0.16194012761116028
+        ],
+        [
+            0.70966006899908,
+            -0.21896143643529725,
+            0.9039494871212567,
+            0.009602618252367804,
+            -0.0028900128107333177,
+            -0.07544188892514796,
+            0.9970997738160706,
+            0.007043385412544012,
+            -0.014593332074582577,
+            0.03300079330801964,
+            -0.15584446489810944,
+            -0.39077866077423096,
+            -0.05463147535920143
+        ],
+        [
+            0.5815572792936917,
+            0.12632224663615724,
+            0.9341309602201864,
+            0.2701313431272774,
+            -0.6262832736188866,
+            0.16344201222384086,
+            0.7128008328317849,
+            -0.0022122461814433336,
+            0.0024056429974734783,
+            -0.00066694914130494,
+            -0.10045406222343445,
+            -0.07851614058017731,
+            -0.002175448229536414
+        ],
+        [
+            0.49979970600169155,
+            -0.24569864916148676,
+            1.0261809518548977,
+            -7.757143217164926e-05,
+            0.0037780661168344393,
+            0.03779624285271542,
+            0.9992783217028711,
+            -0.0007350060623139143,
+            0.00017480419774074107,
+            -0.0007109668804332614,
+            -0.0020210137590765953,
+            -0.0045324363745749,
+            0.0013600696111097932
+        ]
+    ],
+    "position_instruction": "Place the binder on top of the keyboard on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "f5080a3df6d847b693c5cca415886c61",
+        "042",
+        "ece4453042144b4a82fb86a4eab1ba7f",
+        "78e016eeb0bf45d5bea47547128383a8"
+    ],
+    "target_obj_code": "78e016eeb0bf45d5bea47547128383a8",
+    "anno_target": {
+        "category": "binder",
+        "annotation": {
+            "the binder is standing upright on the table and oriented in a way so that its smaller side is in contact with the tabletop and the larger face is perpendicular to the tabletop, and the label should be in sight as well.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        0.5,
+                        0.4999999701976776
+                    ],
+                    [
+                        -0.4999997913837433,
+                        0.5000002384185791,
+                        0.4999997615814209,
+                        0.5000002384185791
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "top",
+    "rotation_tag": "lying_flat"
+}

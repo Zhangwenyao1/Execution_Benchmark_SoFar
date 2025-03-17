@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "ladle",
+        "can",
+        "can"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/ce27e3369587476c85a436905f1e5c00/material_2.urdf",
+        "ycb_16k_backup/007_tuna_fish_can_google_16k/007_tuna_fish_can_google_16k.urdf",
+        "ycb_16k_backup/005_tomato_soup_can_google_16k/005_tomato_soup_can_google_16k.urdf"
+    ],
+    "target_obj_name": "can",
+    "instruction": "Place the can in front of ladle on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.3078305233945643,
+            -0.005689057276199401,
+            0.919532064736457,
+            0.006057327655221831,
+            0.04409885491350317,
+            0.02980075815635205,
+            0.9985642265724827,
+            -0.0006252959719859064,
+            0.00367346010170877,
+            -0.006534351501613855,
+            0.03988217934966087,
+            -2.401211738586426,
+            1.089034914970398
+        ],
+        [
+            0.5789780775319917,
+            0.06845408474042984,
+            0.9031499581520023,
+            0.00044084660268063614,
+            -0.0007492844359655664,
+            -0.05073597483667671,
+            0.9987117227130554,
+            0.00012852098734583706,
+            -5.7199613365810364e-05,
+            -0.008523869328200817,
+            -0.06270425021648407,
+            0.09723443537950516,
+            -0.0293248500674963
+        ],
+        [
+            0.5789780775319917,
+            0.06845408474042984,
+            0.9031499581520023,
+            0.00044084660268063614,
+            -0.0007492844359655664,
+            -0.05073597483667671,
+            0.9987117227130554,
+            -0.0021324981935322285,
+            -0.0006584314978681505,
+            -0.0001652133942116052,
+            0.010836035013198853,
+            -0.04626796394586563,
+            -6.80057200952433e-05
+        ]
+    ],
+    "position_instruction": "Place the can in front of ladle on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "ce27e3369587476c85a436905f1e5c00",
+        "007",
+        "005"
+    ],
+    "target_obj_code": "005",
+    "anno_target": {
+        "category": "can",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "front",
+    "rotation_tag": "sideways"
+}

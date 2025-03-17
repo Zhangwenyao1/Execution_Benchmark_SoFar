@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "toilet paper roll",
+        "can"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/ea0cf48616e34708b73c82eb7c7366ca/material_2.urdf",
+        "ycb_16k_backup/007_tuna_fish_can_google_16k/007_tuna_fish_can_google_16k.urdf"
+    ],
+    "target_obj_name": "can",
+    "instruction": "Place the can behind the toilet paper roll on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.4278559847962723,
+            -0.08148011724019708,
+            0.9495373961732345,
+            0.0001055710507130577,
+            -0.0005128089421486158,
+            0.011338224919831089,
+            0.9999355831939428,
+            0.0003226932603865862,
+            -0.0013172590406611562,
+            -0.00015666177205275744,
+            0.01677810586988926,
+            0.004099355079233646,
+            1.7103613572544418e-05
+        ],
+        [
+            0.6285654157759477,
+            -0.13748188180362578,
+            0.9031502899812127,
+            0.00041592785165958695,
+            -0.0007679585761991973,
+            -0.10111030310767359,
+            0.9948748382832487,
+            0.0011755356099456549,
+            -0.0003497627913020551,
+            -0.008568374440073967,
+            -0.06669390946626663,
+            0.16655871272087097,
+            -0.05377618223428726
+        ]
+    ],
+    "position_instruction": "Place the can behind the toilet paper roll on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "ea0cf48616e34708b73c82eb7c7366ca",
+        "007"
+    ],
+    "target_obj_code": "007",
+    "anno_target": {
+        "category": "can",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "sideways"
+}

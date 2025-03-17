@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "box",
+        "watch",
+        "lighter"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/008_pudding_box_google_16k/008_pudding_box_google_16k.urdf",
+        "objaverse_rescale/fdb8227a88b2448d8c64fa82ffee3f58/material_2.urdf",
+        "objaverse_rescale/b640aa4990b64db9ab3d868c6f49820e/material_2.urdf"
+    ],
+    "target_obj_name": "lighter",
+    "instruction": "Place the lighter in front of box on the table. We also need to specify the rotation of the object after placement:  the lighter is lying steadily on the table(not standing up), with its grey head pointing forth.",
+    "init_obj_pos": [
+        [
+            0.5580317998276663,
+            0.034819073070406874,
+            0.9003288370435095,
+            -0.006307558696626477,
+            0.0013314435931362286,
+            0.021559131209236533,
+            0.9997467908539388,
+            0.0001565755228511989,
+            -0.0010722536826506257,
+            -0.0020460623782128096,
+            -0.025368893519043922,
+            -0.01862976886332035,
+            0.012715677730739117
+        ],
+        [
+            0.3679864104793584,
+            0.1947655606608536,
+            0.9320589639295657,
+            -0.05606089214733899,
+            -0.6329939825268821,
+            0.7595924195821806,
+            -0.13854656462609105,
+            -0.0008476729271933436,
+            -0.005787072237581015,
+            -0.007337062153965235,
+            0.14451240003108978,
+            0.009923139587044716,
+            -0.031739722937345505
+        ],
+        [
+            0.5606833628798491,
+            2.1669090686345536,
+            0.09840886913292923,
+            -0.44446346016600025,
+            -0.6117428937378938,
+            -0.3948173244725984,
+            0.5218641057159921,
+            -0.004101881757378578,
+            -0.00013933380250819027,
+            0.03068193793296814,
+            2.611433982849121,
+            1.008341670036316,
+            -0.439484179019928
+        ]
+    ],
+    "position_instruction": "Place the lighter in front of box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the lighter is lying steadily on the table(not standing up), with its grey head pointing forth.",
+    "rotation_instruction_label": "lighter_forth",
+    "obj_codes": [
+        "008",
+        "fdb8227a88b2448d8c64fa82ffee3f58",
+        "b640aa4990b64db9ab3d868c6f49820e"
+    ],
+    "target_obj_code": "b640aa4990b64db9ab3d868c6f49820e",
+    "anno_target": {
+        "category": "lighter",
+        "annotation": {
+            " the lighter is lying steadily on the table(not standing up), with its grey head pointing forth, oriented towards the viewer.": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "lighter_forth",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "lighter_forth"
+}

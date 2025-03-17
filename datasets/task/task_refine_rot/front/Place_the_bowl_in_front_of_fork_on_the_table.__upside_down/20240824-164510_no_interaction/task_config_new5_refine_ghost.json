@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "fork",
+        "calculator",
+        "bowl"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/030_fork_google_16k/030_fork_google_16k.urdf",
+        "objaverse_rescale/b4bb8bd7791648fdb36c458fd9a877bf/material_2.urdf",
+        "ycb_16k_backup/024_bowl_google_16k/024_bowl_google_16k.urdf"
+    ],
+    "target_obj_name": "bowl",
+    "instruction": "Place the bowl in front of fork on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.34623575892482955,
+            0.15924623130575322,
+            0.9023936313938855,
+            0.0473391885293402,
+            -0.00265464766467895,
+            -0.055240190480483856,
+            0.9973467177621019,
+            0.000846470647957176,
+            0.0020795471500605345,
+            9.742912516230717e-05,
+            1.0581971406936646,
+            0.059259891510009766,
+            0.09323712438344955
+        ],
+        [
+            0.6461462577728235,
+            0.03888576869337594,
+            0.9130257013577318,
+            0.706473880960843,
+            -0.05490467127723794,
+            -0.05542325012716078,
+            0.7034261837161059,
+            0.0003317325608804822,
+            -0.0004981601377949119,
+            -0.0040730079635977745,
+            0.022294113412499428,
+            0.06741165369749069,
+            -0.00813005119562149
+        ],
+        [
+            0.50337109144839,
+            0.22433850447817533,
+            0.9018420733908448,
+            -0.007535937642400386,
+            0.03249802010787977,
+            0.08778536777857433,
+            0.9955806434121237,
+            0.00015369321045000106,
+            0.0008885207353159785,
+            -0.00022790409275330603,
+            -0.0340365432202816,
+            0.006540712434798479,
+            0.00033375798375345767
+        ]
+    ],
+    "position_instruction": "Place the bowl in front of fork on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "030",
+        "b4bb8bd7791648fdb36c458fd9a877bf",
+        "024"
+    ],
+    "target_obj_code": "024",
+    "anno_target": {
+        "category": "bowl",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "front",
+    "rotation_tag": "upside_down"
+}

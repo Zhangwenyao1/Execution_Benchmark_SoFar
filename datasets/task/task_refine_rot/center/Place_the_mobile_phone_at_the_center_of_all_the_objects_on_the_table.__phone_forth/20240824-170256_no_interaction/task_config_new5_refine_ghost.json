@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "wrench",
+        "book",
+        "wrench",
+        "mobile phone"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf",
+        "objaverse_rescale/2a371c84c5454f7facba7bb2f5312ad6/material_2.urdf",
+        "objaverse_rescale/8a6cb4f7b0004f53830e270dc6e1ff1d/material_2.urdf",
+        "objaverse_rescale/45c813a9fac4458ead1f90280826c0a4/material_2.urdf"
+    ],
+    "target_obj_name": "mobile phone",
+    "instruction": "Place the mobile phone at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the rectangular phone is placed steadily on the table, with the screen facing up, and is oriented in a 'pointing forward' way so that from a viewer's perspective: its two long edges are in a left-right position while the two short edges are in a front-back / near-far position.",
+    "init_obj_pos": [
+        [
+            0.3992726288551552,
+            -0.1045011083436867,
+            0.9023003333604591,
+            0.008048798928057212,
+            -0.020687655001776172,
+            -0.10079578068417416,
+            0.9946594635163382,
+            0.001511551789008081,
+            -0.003208606503903866,
+            0.034286126494407654,
+            0.27792295813560486,
+            -0.451469361782074,
+            0.1323108673095703
+        ],
+        [
+            0.5291147204284562,
+            0.21040540401446128,
+            0.9770660723360459,
+            -6.2784710748288455e-06,
+            5.2863878087018256e-05,
+            0.02531123530495051,
+            0.9996796179443337,
+            0.00022476217418443412,
+            -0.0029553421773016453,
+            -0.0006851707585155964,
+            0.042813438922166824,
+            0.0033835438080132008,
+            0.0005736103048548102
+        ],
+        [
+            0.3992726288551552,
+            -0.1045011083436867,
+            0.9023003333604591,
+            0.008048798928057212,
+            -0.020687655001776172,
+            -0.10079578068417416,
+            0.9946594635163382,
+            0.002183804288506508,
+            0.004396806936711073,
+            0.01979875937104225,
+            0.5027080774307251,
+            -0.07517816126346588,
+            -0.22124359011650085
+        ],
+        [
+            0.6076249363459021,
+            -0.07928871737010945,
+            0.9056149208646793,
+            -0.6930077007104737,
+            -0.1316779188600676,
+            0.13227597081991127,
+            0.6963507162230208,
+            0.0020668848883360624,
+            0.0024956725537776947,
+            0.024654388427734375,
+            -0.44956496357917786,
+            0.9705263376235962,
+            -0.028252586722373962
+        ]
+    ],
+    "position_instruction": "Place the mobile phone at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the rectangular phone is placed steadily on the table, with the screen facing up, and is oriented in a 'pointing forward' way so that from a viewer's perspective: its two long edges are in a left-right position while the two short edges are in a front-back / near-far position.",
+    "rotation_instruction_label": "phone_forth",
+    "obj_codes": [
+        "042",
+        "2a371c84c5454f7facba7bb2f5312ad6",
+        "8a6cb4f7b0004f53830e270dc6e1ff1d",
+        "45c813a9fac4458ead1f90280826c0a4"
+    ],
+    "target_obj_code": "45c813a9fac4458ead1f90280826c0a4",
+    "anno_target": {
+        "category": "mobile_phone",
+        "annotation": {
+            " the rectangular phone is placed steadily on the table, with the screen facing up, and is oriented in a 'pointing forward' way so that from a viewer's perspective, its two long edges are in a left-right position while the two short edges are in a front-back / near-far position.": {
+                "quat": [
+                    [
+                        -0.5,
+                        -0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "phone_forth",
+    "rot_tag_level": 2,
+    "position_tag": "center",
+    "rotation_tag": "phone_forth"
+}

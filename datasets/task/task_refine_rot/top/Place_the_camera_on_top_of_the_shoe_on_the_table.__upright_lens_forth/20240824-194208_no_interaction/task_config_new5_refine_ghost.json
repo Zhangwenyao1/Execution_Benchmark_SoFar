@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "shoe",
+        "spoon",
+        "wrench",
+        "camera"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/ae7142127dd84ebbbe7762368ace452c/material_2.urdf",
+        "objaverse_rescale/e1745c4aa7c046a2b5193d2d23be0192/material_2.urdf",
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf",
+        "objaverse_rescale/6a63fc4af48b453c91ca2b335a4d464d/material_2.urdf"
+    ],
+    "target_obj_name": "camera",
+    "instruction": "Place the camera on top of the shoe on the table. We also need to specify the rotation of the object after placement:  the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.",
+    "init_obj_pos": [
+        [
+            0.6999138310450707,
+            -0.2022371979801145,
+            0.9329940791671727,
+            0.009009669601754528,
+            0.021061203726187017,
+            -0.11470195487811141,
+            0.993135797914067,
+            0.003279132070019841,
+            -0.019351603463292122,
+            0.004952757619321346,
+            0.05974284186959267,
+            -0.2807212173938751,
+            0.5921536087989807
+        ],
+        [
+            0.4444921019264512,
+            0.19418767431932216,
+            0.9049376218323544,
+            0.6833209862128723,
+            -0.15892307071654593,
+            -0.1764636270083737,
+            0.6904176096668891,
+            0.003352096304297447,
+            0.0009081522584892809,
+            0.033101800829172134,
+            -2.9134814739227295,
+            -6.971176624298096,
+            -0.30776557326316833
+        ],
+        [
+            0.32853511800351326,
+            0.15642397541509906,
+            0.9027406269258522,
+            0.010895550021255543,
+            -0.018232201085678204,
+            -0.05730927868863038,
+            0.9981305127133898,
+            0.0015066087944433093,
+            -0.00339721143245697,
+            0.03435003012418747,
+            0.16706815361976624,
+            -0.6902326941490173,
+            0.19561710953712463
+        ],
+        [
+            0.5899992491971996,
+            -0.19525407735431982,
+            0.9666425890996629,
+            -0.03097959720227017,
+            0.08671836686061417,
+            -0.03187147509529055,
+            0.9952408746034617,
+            -0.04070001095533371,
+            0.0450747013092041,
+            0.0323767364025116,
+            -0.6066662669181824,
+            1.1128830909729004,
+            -4.58674430847168
+        ]
+    ],
+    "position_instruction": "Place the camera on top of the shoe on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.",
+    "rotation_instruction_label": "upright_lens_forth",
+    "obj_codes": [
+        "ae7142127dd84ebbbe7762368ace452c",
+        "e1745c4aa7c046a2b5193d2d23be0192",
+        "042",
+        "6a63fc4af48b453c91ca2b335a4d464d"
+    ],
+    "target_obj_code": "6a63fc4af48b453c91ca2b335a4d464d",
+    "anno_target": {
+        "category": "camera",
+        "annotation": {
+            " the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "upright_lens_forth",
+    "rot_tag_level": 2,
+    "position_tag": "top",
+    "rotation_tag": "upright_lens_forth"
+}

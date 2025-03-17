@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "tape measure",
+        "can",
+        "pot"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/7138f5e13b2e4e17975c23ba5584164b/material_2.urdf",
+        "ycb_16k_backup/007_tuna_fish_can_google_16k/007_tuna_fish_can_google_16k.urdf",
+        "objaverse_rescale/af249e607bea40cfa2f275e5e23b8283/material_2.urdf"
+    ],
+    "target_obj_name": "pot",
+    "instruction": "Place the pot between the tape measure and the can on the table. We also need to specify the rotation of the object after placement:  the pot is upright on the table with its spout pointing towards right.",
+    "init_obj_pos": [
+        [
+            0.6231207050751746,
+            -0.10425016434273972,
+            0.9173366422842771,
+            0.047509144690537575,
+            -0.013335444742059381,
+            -0.09118653458223357,
+            0.9946105081865911,
+            0.0013379432493820786,
+            0.00023741420591250062,
+            -0.0013337896671146154,
+            0.028679553419351578,
+            0.04569173976778984,
+            0.013082906603813171
+        ],
+        [
+            0.5682144836941403,
+            -0.15920242477420857,
+            0.9031503634415656,
+            0.0005488554440790131,
+            -0.0006794434292052682,
+            0.08206172807271267,
+            0.9966268659333084,
+            -0.0006181173957884312,
+            0.0018700782675296068,
+            -0.008287460543215275,
+            -0.12080433964729309,
+            0.06636466830968857,
+            0.06492572277784348
+        ],
+        [
+            0.5545717294588451,
+            0.013418112537776071,
+            1.0017277153067967,
+            0.5467247056938165,
+            -0.06445856763665427,
+            0.15315479894773668,
+            0.8206587578290496,
+            -0.0007273434894159436,
+            -0.00019908431568183005,
+            0.00041241117287427187,
+            -0.0049012829549610615,
+            -0.010692708194255829,
+            -0.011773933656513691
+        ]
+    ],
+    "position_instruction": "Place the pot between the tape measure and the can on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the pot is upright on the table with its spout pointing towards right.",
+    "rotation_instruction_label": "spout_right",
+    "obj_codes": [
+        "7138f5e13b2e4e17975c23ba5584164b",
+        "007",
+        "af249e607bea40cfa2f275e5e23b8283"
+    ],
+    "target_obj_code": "af249e607bea40cfa2f275e5e23b8283",
+    "anno_target": {
+        "category": "pot",
+        "annotation": {
+            " the pot is upright on the table with its spout pointing towards left.": {
+                "quat": [
+                    [
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            },
+            " the pot is upright on the table with its spout pointing towards right.": {
+                "quat": [
+                    [
+                        0.7071068286895752,
+                        0.0,
+                        0.0,
+                        0.7071067094802856
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "spout_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "spout_right"
+}

@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "hard drive",
+        "bottle",
+        "remote control",
+        "glue gun"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/e32b159011544b8aa7cacd812636353e/material_2.urdf",
+        "ycb_16k_backup/022_windex_bottle_google_16k/022_windex_bottle_google_16k.urdf",
+        "objaverse_rescale/89dcd45ac1f04680b76b709357a3dba3/material_2.urdf",
+        "objaverse_rescale/a1da12b81f034db894496c1ffc4be1f5/material_2.urdf"
+    ],
+    "target_obj_name": "glue gun",
+    "instruction": "Place the glue gun to the right of the hard drive on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.6063110600445116,
+            0.09160810391297104,
+            0.9757338423891586,
+            0.412080126474499,
+            -0.09927745366736872,
+            0.246049614374212,
+            0.8716613699277868,
+            -0.0014553371584042907,
+            0.006035365629941225,
+            0.026761213317513466,
+            -0.2944573760032654,
+            -0.1502658724784851,
+            0.011484929360449314
+        ],
+        [
+            0.2819498287003092,
+            0.16173518133175926,
+            0.9588636928396167,
+            -0.49685741050434057,
+            -0.4909662711796083,
+            0.7135265091455074,
+            -0.05444956324470365,
+            -0.0030528567731380463,
+            0.0008675730205141008,
+            -0.0014514512149617076,
+            -0.023505665361881256,
+            -0.09690981358289719,
+            -0.02198662981390953
+        ],
+        [
+            0.5204626494598567,
+            -0.018484769943074898,
+            0.909270800555893,
+            -0.7020599942852297,
+            0.020206271661614015,
+            -0.02068263003440355,
+            0.7115305333045236,
+            -0.0027979856822639704,
+            0.0012576751178130507,
+            -0.001667930861003697,
+            -0.28233978152275085,
+            -0.0501222237944603,
+            -0.06882499158382416
+        ],
+        [
+            0.6907772097502461,
+            -0.0551990334928622,
+            0.9143094752429061,
+            0.6915391428288952,
+            0.11929557924769905,
+            0.12132157448300367,
+            0.7020137137352792,
+            -0.005280658137053251,
+            0.017116965726017952,
+            0.017677318304777145,
+            0.4866551458835602,
+            0.9882844090461731,
+            0.009656578302383423
+        ]
+    ],
+    "position_instruction": "Place the glue gun to the right of the hard drive on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "e32b159011544b8aa7cacd812636353e",
+        "022",
+        "89dcd45ac1f04680b76b709357a3dba3",
+        "a1da12b81f034db894496c1ffc4be1f5"
+    ],
+    "target_obj_code": "a1da12b81f034db894496c1ffc4be1f5",
+    "anno_target": {
+        "category": "glue_gun",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.4999999701976776,
+                        0.5
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "sideways"
+}

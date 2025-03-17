@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "watch",
+        "cup",
+        "speaker"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/fdb8227a88b2448d8c64fa82ffee3f58/material_2.urdf",
+        "ycb_16k_backup/065-b_cups_google_16k/065-b_cups_google_16k.urdf",
+        "objaverse_rescale/4445f4442a884999960e7e6660459095/material_2.urdf"
+    ],
+    "target_obj_name": "speaker",
+    "instruction": "Place the speaker to the left of the watch on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.",
+    "init_obj_pos": [
+        [
+            0.3311158435274497,
+            0.054800439825780964,
+            0.9695484738265842,
+            -0.002508592029369533,
+            0.022752131211558446,
+            0.110191309195871,
+            0.9936467797306358,
+            0.0023739298339933157,
+            0.0009651156142354012,
+            -0.00021769758313894272,
+            -0.011066297069191933,
+            0.03952514007687569,
+            0.04490932822227478
+        ],
+        [
+            0.5023548124402372,
+            -0.022977387918242633,
+            0.9006647774541812,
+            0.00031939549094836425,
+            -0.0014680534174136197,
+            -0.09944977805825518,
+            0.9950414486089749,
+            0.0027408208698034286,
+            0.001398457563482225,
+            -0.007305800449103117,
+            -0.05416029319167137,
+            0.1694665551185608,
+            0.05859764292836189
+        ],
+        [
+            0.4735957888185393,
+            -0.205943576201113,
+            0.9687476979481668,
+            -0.00285486860590785,
+            -1.2448408868915308e-05,
+            0.004557002913395905,
+            0.9999855415428394,
+            0.002589948708191514,
+            -0.0022088324185460806,
+            -0.0008118972182273865,
+            0.032019324600696564,
+            0.03298993781208992,
+            0.0005710446857847273
+        ]
+    ],
+    "position_instruction": "Place the speaker to the left of the watch on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.",
+    "rotation_instruction_label": "upright_textual",
+    "obj_codes": [
+        "fdb8227a88b2448d8c64fa82ffee3f58",
+        "065-b",
+        "4445f4442a884999960e7e6660459095"
+    ],
+    "target_obj_code": "4445f4442a884999960e7e6660459095",
+    "anno_target": {
+        "category": "speaker",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.": {
+                "quat": [
+                    [
+                        -0.4999999701976776,
+                        -0.5000000596046448,
+                        -0.4999999701976776,
+                        -0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright_textual",
+    "rot_tag_level": 2,
+    "position_tag": "left",
+    "rotation_tag": "upright_textual"
+}

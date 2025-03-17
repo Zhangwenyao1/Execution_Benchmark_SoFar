@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "can",
+        "SD card",
+        "box",
+        "plate"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/002_master_chef_can_google_16k/002_master_chef_can_google_16k.urdf",
+        "objaverse_rescale/02f7f045679d402da9b9f280030821d4/material_2.urdf",
+        "ycb_16k_backup/003_cracker_box_google_16k/003_cracker_box_google_16k.urdf",
+        "ycb_16k_backup/029_plate_google_16k/029_plate_google_16k.urdf"
+    ],
+    "target_obj_name": "plate",
+    "instruction": "Place the plate to the right of the can on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6602818735060925,
+            0.17574025304406177,
+            0.9000912842538253,
+            -0.00014375513575116535,
+            0.0002378615425472825,
+            -0.08710603080270124,
+            0.9961990073043365,
+            0.00036636320874094963,
+            0.000846083858050406,
+            -0.0007020860794000328,
+            -0.01679890602827072,
+            0.0047739543952047825,
+            5.173538374947384e-05
+        ],
+        [
+            0.4823617389821322,
+            -0.09154935521915214,
+            0.8982499117797371,
+            0.6882207904506635,
+            0.15907467793011607,
+            0.16092565395596894,
+            0.6893114857100071,
+            -4.699837973021204e-06,
+            0.0013930198037996888,
+            0.030797811225056648,
+            -1.4118260145187378,
+            0.8058713674545288,
+            0.025976158678531647
+        ],
+        [
+            0.36967508791647224,
+            0.08132745354506786,
+            0.9038258622141452,
+            0.0009180299929553284,
+            -0.014667011469274035,
+            0.0672292959876496,
+            0.9976293188136057,
+            0.00216059572994709,
+            -0.00028457658481784165,
+            -0.000799542642198503,
+            0.0008542420691810548,
+            0.025279173627495766,
+            -0.004683402366936207
+        ],
+        [
+            0.7069197710350419,
+            -0.1736001390886165,
+            0.9047755898272752,
+            0.007189935366454701,
+            0.0180490484165044,
+            -0.0356527496331841,
+            0.9991753690540407,
+            -5.893170236959122e-05,
+            -0.0002856621576938778,
+            -0.0023224770557135344,
+            0.03325577452778816,
+            -0.020237553864717484,
+            0.0016957796178758144
+        ]
+    ],
+    "position_instruction": "Place the plate to the right of the can on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "002",
+        "02f7f045679d402da9b9f280030821d4",
+        "003",
+        "029"
+    ],
+    "target_obj_code": "029",
+    "anno_target": {
+        "category": "plate",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upside_down"
+}

@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "flashlight",
+        "watch",
+        "box",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/123a79642c2646d8b315576828fea84a/material_2.urdf",
+        "objaverse_rescale/d6e38c73f8f2402aac890e8ebb115302/material_2.urdf",
+        "objaverse_rescale/5e1a1527a0bd49ed8e473079392c31c8/material_2.urdf",
+        "ycb_16k_backup/065-e_cups_google_16k/065-e_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup on top of the flashlight on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6698009904955597,
+            0.1340645984543082,
+            0.9989369570736121,
+            5.891813833162677e-06,
+            2.1028094766298127e-06,
+            -0.09343395579100706,
+            0.9956254797192104,
+            0.0003750521573238075,
+            -0.0009094530250877142,
+            -0.0003309441381134093,
+            0.005087860394269228,
+            0.0035965137649327517,
+            -0.007288254331797361
+        ],
+        [
+            0.41846688892458134,
+            0.06318876614434966,
+            0.9321261541590201,
+            -0.017918121071183596,
+            -0.012313030310481785,
+            0.10317624540980681,
+            0.9944254585462834,
+            -0.0033773949835449457,
+            0.0012502381578087807,
+            -0.0007143763941712677,
+            -0.01415782980620861,
+            -0.052513401955366135,
+            -0.026387110352516174
+        ],
+        [
+            0.4108727803657162,
+            -0.2153425258388592,
+            0.9527396235224118,
+            -0.0027881725119210383,
+            0.005719181937150548,
+            -0.09402662143022346,
+            0.9955493516217222,
+            -0.0013430985854938626,
+            0.0003863008751068264,
+            -0.0003834819362964481,
+            -0.006596858147531748,
+            -0.03388407453894615,
+            -0.004587437957525253
+        ],
+        [
+            0.6037559262826713,
+            0.17444948080504902,
+            0.9008697448906812,
+            0.0009758143618745493,
+            -0.0024512701661888914,
+            -0.07578018617971463,
+            0.9971210570655249,
+            0.002894401317462325,
+            0.003847652580589056,
+            -0.009680630639195442,
+            -0.04489051178097725,
+            0.1651832014322281,
+            0.03929492086172104
+        ]
+    ],
+    "position_instruction": "Place the cup on top of the flashlight on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "123a79642c2646d8b315576828fea84a",
+        "d6e38c73f8f2402aac890e8ebb115302",
+        "5e1a1527a0bd49ed8e473079392c31c8",
+        "065-e"
+    ],
+    "target_obj_code": "065-e",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "top",
+    "rotation_tag": "upside_down"
+}

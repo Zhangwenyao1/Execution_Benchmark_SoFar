@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "scissors",
+        "bottle",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/2b1120c4b517409184413ed709c57a66/material_2.urdf",
+        "objaverse_rescale/a7785ac7ce7f4ba79df661db33637ba9/material_2.urdf",
+        "objaverse_rescale/d499e1bc8a514e4bb5ca995ea6ba23b6/material_2.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer to the left of the scissors on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.49346499671056404,
+            -0.19637523421515488,
+            0.9044758462914153,
+            -0.15675626062911047,
+            0.9876229904877164,
+            -0.0023093433557951383,
+            0.004792738981576479,
+            0.00685693696141243,
+            0.005404973868280649,
+            0.01633482798933983,
+            -0.76319819688797,
+            0.6099079847335815,
+            0.1766076385974884
+        ],
+        [
+            0.35677233185747914,
+            -0.19394579107397472,
+            0.9294953723819079,
+            -0.006239705326268712,
+            0.027325063913949045,
+            0.10211490304364017,
+            0.9943776714789639,
+            3.778401151066646e-05,
+            -0.00011128425103379413,
+            -1.8212635040981695e-05,
+            0.0038193920627236366,
+            -0.004720225930213928,
+            -0.0009617534815333784
+        ],
+        [
+            0.6484684530390727,
+            -0.014418933907832023,
+            0.9224610318989921,
+            -0.0007395074140405262,
+            -0.002237324272262655,
+            -0.04806487999797545,
+            0.9988414362748805,
+            -0.010699046775698662,
+            -0.0020239586010575294,
+            -0.009178299456834793,
+            0.17993378639221191,
+            -0.26498913764953613,
+            0.06035751849412918
+        ]
+    ],
+    "position_instruction": "Place the hammer to the left of the scissors on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "2b1120c4b517409184413ed709c57a66",
+        "a7785ac7ce7f4ba79df661db33637ba9",
+        "d499e1bc8a514e4bb5ca995ea6ba23b6"
+    ],
+    "target_obj_code": "d499e1bc8a514e4bb5ca995ea6ba23b6",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.9891719818115234,
+                        -0.1467610001564026
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "handle_right"
+}

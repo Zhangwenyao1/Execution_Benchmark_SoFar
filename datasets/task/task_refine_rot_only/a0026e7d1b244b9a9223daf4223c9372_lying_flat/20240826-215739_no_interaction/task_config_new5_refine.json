@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "binder"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/a0026e7d1b244b9a9223daf4223c9372/material_2.urdf"
+    ],
+    "target_obj_name": "binder",
+    "instruction": "We need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.340989712909312,
+            -0.14838194122013498,
+            0.9277915796832901,
+            -4.9020881938596285e-05,
+            8.170044842257452e-05,
+            0.08872869246469872,
+            0.9960558267765394,
+            0.00034409385989420116,
+            0.00016264415171463042,
+            -0.00040930951945483685,
+            0.0006290568271651864,
+            0.0034086082596331835,
+            -0.0005569828790612519
+        ]
+    ],
+    "position_instruction": "",
+    "rotation_instruction": "We need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "a0026e7d1b244b9a9223daf4223c9372"
+    ],
+    "target_obj_code": "a0026e7d1b244b9a9223daf4223c9372",
+    "anno_target": {
+        "category": "binder",
+        "annotation": {
+            "the binder is standing upright on the table and oriented in a way so that its smaller side is in contact with the tabletop and the larger face is perpendicular to the tabletop, and the label should be in sight as well.": {
+                "quat": [
+                    [
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        -7.549783020976975e-08,
+                        -3.3001151131603493e-15,
+                        1.0,
+                        -4.371138828673793e-08
+                    ],
+                    [
+                        -0.0,
+                        1.0,
+                        -0.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "rot_ins",
+    "rotation_tag": "lying_flat"
+}

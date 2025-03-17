@@ -1,0 +1,85 @@
+{
+    "selected_obj_names": [
+        "book",
+        "flashlight"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/de79a920c48745ff95c0df7a7c300091/material_2.urdf",
+        "objaverse_rescale/123a79642c2646d8b315576828fea84a/material_2.urdf"
+    ],
+    "target_obj_name": "flashlight",
+    "instruction": "Place the flashlight on top of the book on the table. We also need to specify the rotation of the object after placement:  the flashlight is lying on the table(not standing up), with its bulb side on the right (oriented towards right) and its handle on the left.",
+    "init_obj_pos": [
+        [
+            0.3304904029537428,
+            0.3106583505980049,
+            0.9151449335676072,
+            0.007172592264924842,
+            -0.00021459037241856096,
+            0.17968296567306566,
+            0.9836983987575174,
+            0.002263914793729782,
+            -0.001848292420618236,
+            -0.008698703721165657,
+            0.074360191822052,
+            0.0627470389008522,
+            -0.006082792766392231
+        ],
+        [
+            0.38644436719131986,
+            0.03910240696828443,
+            1.005656204210939,
+            0.1162417510274075,
+            0.05754920466824349,
+            0.01746913720698928,
+            0.9913983929810345,
+            0.004453698173165321,
+            0.0030312237795442343,
+            -0.004715196322649717,
+            -0.14511922001838684,
+            -0.026144467294216156,
+            0.10565144568681717
+        ]
+    ],
+    "position_instruction": "Place the flashlight on top of the book on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the flashlight is lying on the table(not standing up), with its bulb side on the right (oriented towards right) and its handle on the left.",
+    "rotation_instruction_label": "bulb_right_handle_left",
+    "obj_codes": [
+        "de79a920c48745ff95c0df7a7c300091",
+        "123a79642c2646d8b315576828fea84a"
+    ],
+    "target_obj_code": "123a79642c2646d8b315576828fea84a",
+    "anno_target": {
+        "category": "flashlight",
+        "annotation": {
+            " the flashlight is lying on the table(not standing up), with its bulb side on the left (oriented towards left) and its handle on the right.": {
+                "quat": [
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the flashlight is lying on the table(not standing up), with its bulb side on the right (oriented towards right) and its handle on the left.": {
+                "quat": [
+                    [
+                        3.090862321641907e-08,
+                        -0.7071068286895752,
+                        0.7071067094802856,
+                        -3.0908616110991716e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "bulb_right_handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "bulb_right_handle_left"
+}

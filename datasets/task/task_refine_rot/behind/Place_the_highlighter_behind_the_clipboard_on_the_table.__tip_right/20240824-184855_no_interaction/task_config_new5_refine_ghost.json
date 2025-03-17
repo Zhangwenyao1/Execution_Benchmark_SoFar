@@ -1,0 +1,97 @@
+{
+    "selected_obj_names": [
+        "clipboard",
+        "highlighter"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/a37158f20ccf436483029e8295629738/material_2.urdf",
+        "objaverse_rescale/25481a65cad54e2a956394ff2b2765cd/material_2.urdf"
+    ],
+    "target_obj_name": "highlighter",
+    "instruction": "Place the highlighter behind the clipboard on the table. We also need to specify the rotation of the object after placement:  the marker is placed in a stable pose on the table. Its tip end is pointing towards right and its cap end is pointing towards left.",
+    "init_obj_pos": [
+        [
+            0.33684837200712714,
+            0.16425657175742187,
+            0.9233531381276612,
+            0.7520473812487202,
+            0.006264757235080146,
+            -0.02147407352696268,
+            0.6587293475623252,
+            0.0077720214612782,
+            0.002612404990941286,
+            0.038490720093250275,
+            0.21872147917747498,
+            0.2795725464820862,
+            -0.06717297434806824
+        ],
+        [
+            0.33099595107870144,
+            0.19719687904526606,
+            0.9109108589791247,
+            -0.7067569311910649,
+            0.011508958232369608,
+            0.001691456004320216,
+            0.7073608153342819,
+            0.001577924471348524,
+            5.4871961765456945e-06,
+            0.016366057097911835,
+            -0.48995542526245117,
+            0.22368085384368896,
+            -0.06527363508939743
+        ]
+    ],
+    "position_instruction": "Place the highlighter behind the clipboard on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the marker is placed in a stable pose on the table. Its tip end is pointing towards right and its cap end is pointing towards left.",
+    "rotation_instruction_label": "tip_right",
+    "obj_codes": [
+        "a37158f20ccf436483029e8295629738",
+        "25481a65cad54e2a956394ff2b2765cd"
+    ],
+    "target_obj_code": "25481a65cad54e2a956394ff2b2765cd",
+    "anno_target": {
+        "category": "highlighter",
+        "annotation": {
+            " the marker is placed in a stable pose on the table. Its tip(or cap) end is pointing towards left and its rear end is pointing towards right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the marker is placed in a stable pose on the table. Its tip(or cap) end is pointing towards right and its rear end is pointing towards left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "tip_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "tip_right"
+}

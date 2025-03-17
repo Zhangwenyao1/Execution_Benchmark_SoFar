@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "mouse",
+        "bottle",
+        "plate"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/969b0d9d99a8468898753fdcd219f883/material_2.urdf",
+        "objaverse_rescale/d17b8f44d1544364b8ad9fe2554ddfdf/material_2.urdf",
+        "objaverse_rescale/6d5a4e1174dd4f5fa0a9a9076e476b91/material_2.urdf"
+    ],
+    "target_obj_name": "plate",
+    "instruction": "Place the plate between the mouse and the bottle on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.36227935365076236,
+            -0.14481649479820807,
+            0.9264646750800403,
+            -0.20032067770966147,
+            -0.7364711318109769,
+            0.3271136068947408,
+            0.5572060536958604,
+            -0.017853688448667526,
+            -0.0005973541410639882,
+            -0.007547864690423012,
+            -1.0621198415756226,
+            -0.9986345171928406,
+            -1.1656471490859985
+        ],
+        [
+            0.567613240026824,
+            0.2104723683709002,
+            0.9346912237305754,
+            0.004987368894185872,
+            0.09322337059659232,
+            -0.027234019982236523,
+            0.9952601858216429,
+            -0.00015844778681639582,
+            5.867355866939761e-05,
+            -2.236558975710068e-05,
+            -0.001386523013934493,
+            -0.004781761206686497,
+            0.0009310742025263608
+        ],
+        [
+            0.2997918325585976,
+            -0.05041130981825699,
+            0.9764145159215502,
+            0.4010983461096916,
+            -0.34332208114463697,
+            0.161668181590313,
+            0.8337346486789827,
+            -0.002654755488038063,
+            0.005650549661368132,
+            0.029042964801192284,
+            -0.055192772299051285,
+            -0.33442527055740356,
+            0.1883358508348465
+        ]
+    ],
+    "position_instruction": "Place the plate between the mouse and the bottle on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "969b0d9d99a8468898753fdcd219f883",
+        "d17b8f44d1544364b8ad9fe2554ddfdf",
+        "6d5a4e1174dd4f5fa0a9a9076e476b91"
+    ],
+    "target_obj_code": "6d5a4e1174dd4f5fa0a9a9076e476b91",
+    "anno_target": {
+        "category": "plate",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

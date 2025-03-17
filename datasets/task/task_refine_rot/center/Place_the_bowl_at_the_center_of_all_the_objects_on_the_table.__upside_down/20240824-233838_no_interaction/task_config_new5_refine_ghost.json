@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "paperweight",
+        "fork",
+        "headphone",
+        "bowl"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/21c10181c122474a8f72a4ad0331f185/material_2.urdf",
+        "ycb_16k_backup/030_fork_google_16k/030_fork_google_16k.urdf",
+        "objaverse_rescale/ea91786392284f03809c37976da090bf/material_2.urdf",
+        "objaverse_rescale/bdd36c94f3f74f22b02b8a069c8d97b7/material_2.urdf"
+    ],
+    "target_obj_name": "bowl",
+    "instruction": "Place the bowl at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6924245505900078,
+            -0.020586243268501978,
+            0.937951105320739,
+            -0.13286002225004107,
+            0.19095472785706238,
+            -0.09278187343077011,
+            0.968130172218297,
+            0.0016396716237068176,
+            -0.004164983052760363,
+            -0.0005844528786838055,
+            0.0859328955411911,
+            0.05838334932923317,
+            0.024481574073433876
+        ],
+        [
+            0.40150877883719566,
+            0.14990338279300142,
+            0.9027874391648777,
+            0.05497863663356482,
+            0.0046685016189911,
+            0.07398985799815468,
+            0.9957314173611078,
+            0.00013591849710792303,
+            0.0031948783434927464,
+            -0.0004444836522452533,
+            -1.0281301736831665,
+            -0.2606697976589203,
+            -0.174188032746315
+        ],
+        [
+            0.2910809882845027,
+            -0.33325044458855596,
+            0.9451516774626714,
+            -0.03557160299587694,
+            -0.2435502416565093,
+            -0.1867371071762895,
+            0.951076860013317,
+            -0.002285687020048499,
+            0.0015590377151966095,
+            -0.0004056133620906621,
+            -0.01994139701128006,
+            -0.0383446179330349,
+            0.05471746623516083
+        ],
+        [
+            0.3407680840765069,
+            -0.20290255861402678,
+            0.9610734723040365,
+            0.6646712847637797,
+            0.1358063163122933,
+            0.03061820133773726,
+            0.7340512607488621,
+            -0.0011797695187851787,
+            -0.0010459700133651495,
+            -0.0012192883295938373,
+            0.03800291568040848,
+            -0.0016321162693202496,
+            -0.07011912018060684
+        ]
+    ],
+    "position_instruction": "Place the bowl at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "21c10181c122474a8f72a4ad0331f185",
+        "030",
+        "ea91786392284f03809c37976da090bf",
+        "bdd36c94f3f74f22b02b8a069c8d97b7"
+    ],
+    "target_obj_code": "bdd36c94f3f74f22b02b8a069c8d97b7",
+    "anno_target": {
+        "category": "bowl",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "center",
+    "rotation_tag": "upside_down"
+}

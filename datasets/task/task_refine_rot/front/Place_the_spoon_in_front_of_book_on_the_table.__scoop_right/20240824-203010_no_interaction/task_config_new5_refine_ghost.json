@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "book",
+        "bottle",
+        "spoon"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/c61227cac7224b86b43c53ac2a2b6ec7/material_2.urdf",
+        "ycb_16k_backup/006_mustard_bottle_google_16k/006_mustard_bottle_google_16k.urdf",
+        "objaverse_rescale/218768789fdd42bd95eb933046698499/material_2.urdf"
+    ],
+    "target_obj_name": "spoon",
+    "instruction": "Place the spoon in front of book on the table. We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "init_obj_pos": [
+        [
+            0.715690675560586,
+            0.2472769437887147,
+            0.9141641846733634,
+            -0.00010551542500536941,
+            1.617348802026894e-05,
+            0.50459252329805,
+            0.8633576165394149,
+            -0.0016379457665607333,
+            -0.002222066279500723,
+            -0.008062843233346939,
+            0.1665286272764206,
+            -0.09808224439620972,
+            -0.013145334087312222
+        ],
+        [
+            0.628189469755852,
+            -0.01318990078509017,
+            0.9030936769261386,
+            0.0003057791288293686,
+            1.720475245771516e-05,
+            -0.09298787641306662,
+            0.9956671939173799,
+            0.0025065315421670675,
+            -0.0017549609765410423,
+            -0.0007390054524876177,
+            0.022458570078015327,
+            0.03106638602912426,
+            0.003760825376957655
+        ],
+        [
+            0.6136490779022427,
+            0.05970395283506917,
+            0.9075958394744567,
+            -0.06186885134666493,
+            -0.05155323269937164,
+            -0.8679311225928305,
+            0.49011230944145573,
+            0.00310448813252151,
+            -0.0005615693517029285,
+            0.03455521911382675,
+            11.488335609436035,
+            -7.868855953216553,
+            0.9782111048698425
+        ]
+    ],
+    "position_instruction": "Place the spoon in front of book on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "rotation_instruction_label": "scoop_right",
+    "obj_codes": [
+        "c61227cac7224b86b43c53ac2a2b6ec7",
+        "006",
+        "218768789fdd42bd95eb933046698499"
+    ],
+    "target_obj_code": "218768789fdd42bd95eb933046698499",
+    "anno_target": {
+        "category": "spoon",
+        "annotation": {
+            " the ladle is lying on the table, with its scoop on the left(pointing towards left) and its handle on the right. ": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ladle is lying on the table, with its scoop on the right(pointing towards right) and its handle on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "scoop_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "scoop_right"
+}

@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "glasses",
+        "keyboard",
+        "watch",
+        "camera"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/e4f348e98ceb45e3abc77da5b738f1b2/material_2.urdf",
+        "objaverse_rescale/44bb12d306864e2cb4256a61d4168942/material_2.urdf",
+        "objaverse_rescale/243b381dcdc34316a7e78a533572d273/material_2.urdf",
+        "objaverse_rescale/f6f8675406b7437faaf96a1f82062028/material_2.urdf"
+    ],
+    "target_obj_name": "camera",
+    "instruction": "Place the camera at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.",
+    "init_obj_pos": [
+        [
+            0.5008093120040574,
+            0.03986865999645006,
+            0.9278496319158868,
+            -0.6644828082836907,
+            0.11705387678683098,
+            0.04210983653468397,
+            0.7368770244020473,
+            -0.0046416157856583595,
+            0.0010445148218423128,
+            0.03953559324145317,
+            0.2545437514781952,
+            0.038350604474544525,
+            0.031164858490228653
+        ],
+        [
+            0.5548154130807794,
+            0.18940563318696133,
+            0.9085844256019403,
+            -0.7065196146680897,
+            -0.026852720876238405,
+            0.027229797066731273,
+            0.7066593971797883,
+            0.0001243489095941186,
+            0.00017409128486178815,
+            -0.000198498455574736,
+            -0.0021838529501110315,
+            -0.001618607435375452,
+            0.0034453661646693945
+        ],
+        [
+            0.3561603280485373,
+            0.10485991265406722,
+            0.9248367229048668,
+            0.10196339624990006,
+            0.001836635217279468,
+            0.01835359189833923,
+            0.9946171314936679,
+            -0.0016459616599604487,
+            0.0020160279236733913,
+            -0.00027462374418973923,
+            -0.033754702657461166,
+            -0.03402876481413841,
+            -0.06518806517124176
+        ],
+        [
+            0.3623560363996475,
+            -0.0013681029055702127,
+            0.9575286498979854,
+            -0.5365123495580295,
+            0.14716551374626122,
+            0.47843154562448686,
+            0.6794115589882802,
+            0.005608436185866594,
+            0.002771487459540367,
+            0.0011874244082719088,
+            -0.11501773446798325,
+            0.09934153407812119,
+            0.0008918409585021436
+        ]
+    ],
+    "position_instruction": "Place the camera at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.",
+    "rotation_instruction_label": "upright_lens_forth",
+    "obj_codes": [
+        "e4f348e98ceb45e3abc77da5b738f1b2",
+        "44bb12d306864e2cb4256a61d4168942",
+        "243b381dcdc34316a7e78a533572d273",
+        "f6f8675406b7437faaf96a1f82062028"
+    ],
+    "target_obj_code": "f6f8675406b7437faaf96a1f82062028",
+    "anno_target": {
+        "category": "camera",
+        "annotation": {
+            " the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "upright_lens_forth",
+    "rot_tag_level": 2,
+    "position_tag": "center",
+    "rotation_tag": "upright_lens_forth"
+}

@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "mouse",
+        "bottle",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f496168739384cdb86ef6d65e2068a3f/material_2.urdf",
+        "objaverse_rescale/d17b8f44d1544364b8ad9fe2554ddfdf/material_2.urdf",
+        "objaverse_rescale/4f24b866dab248b684149ec6bb40101f/material_2.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer in front of mouse on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.470216349881955,
+            -0.1142972506810906,
+            0.9288812799870267,
+            -0.6179434680081327,
+            -0.09136396132671766,
+            -0.09827627420269042,
+            0.7746872083916253,
+            0.003002327401190996,
+            0.0012307112338021398,
+            -0.0012655372265726328,
+            -0.07718098908662796,
+            0.13634619116783142,
+            -0.04005105420947075
+        ],
+        [
+            0.6687413237768222,
+            0.08510463447922066,
+            0.9346913143353345,
+            0.0001998758962233913,
+            0.09335665060363338,
+            0.023801707492782168,
+            0.9953481675062889,
+            -0.0006805045995861292,
+            7.921160431578755e-05,
+            -0.00012501399032771587,
+            -0.00221461383625865,
+            -0.02243913896381855,
+            0.00024449359625577927
+        ],
+        [
+            0.7004627660191123,
+            -0.10038365837402279,
+            0.9118842248853514,
+            0.020149048155824887,
+            0.02182491842934434,
+            -0.06751347933066562,
+            0.9972760996347171,
+            -0.012657239101827145,
+            0.004247528500854969,
+            0.01445516012609005,
+            0.3972693085670471,
+            -0.6276932954788208,
+            0.03793935477733612
+        ]
+    ],
+    "position_instruction": "Place the hammer in front of mouse on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "f496168739384cdb86ef6d65e2068a3f",
+        "d17b8f44d1544364b8ad9fe2554ddfdf",
+        "4f24b866dab248b684149ec6bb40101f"
+    ],
+    "target_obj_code": "4f24b866dab248b684149ec6bb40101f",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.9628205299377441,
+                        0.27014192938804626
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "handle_right"
+}

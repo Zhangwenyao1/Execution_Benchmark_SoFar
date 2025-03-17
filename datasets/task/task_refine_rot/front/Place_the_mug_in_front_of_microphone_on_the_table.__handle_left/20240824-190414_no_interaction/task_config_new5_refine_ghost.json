@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "microphone",
+        "cup",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f9d07bb386a04de8b0e1a9a28a936985/material_2.urdf",
+        "ycb_16k_backup/065-h_cups_google_16k/065-h_cups_google_16k.urdf",
+        "objaverse_rescale/922cd7d18c6748d49fe651ded8a04cf4/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug in front of microphone on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "init_obj_pos": [
+        [
+            0.6761887401530738,
+            -0.005145979651664958,
+            0.9359759463908737,
+            -0.15649358090341772,
+            0.9135784783815352,
+            -0.02789846254328927,
+            0.3743070915195487,
+            0.0009601135971024632,
+            0.0003493003314360976,
+            -0.0005422048270702362,
+            -0.012313594110310078,
+            0.031859152019023895,
+            0.000127190665807575
+        ],
+        [
+            0.4191558988737812,
+            0.04403224354123742,
+            0.9244102873908897,
+            0.40337076260513466,
+            0.5351711873771569,
+            0.7411696312113331,
+            0.039387889594787194,
+            -0.008564591407775879,
+            -0.01211822684854269,
+            -0.0006665564142167568,
+            0.2634754478931427,
+            -0.1507771611213684,
+            -0.017855530604720116
+        ],
+        [
+            0.5649694875121926,
+            0.16988842853540154,
+            0.9803848015440174,
+            0.03150199290860445,
+            0.3454890781102619,
+            -0.10011154787919889,
+            0.9325355753699358,
+            -0.002458524191752076,
+            0.00019589331350289285,
+            -0.0014266755897551775,
+            -0.0016927995020523667,
+            -0.036016251891851425,
+            -0.006083045154809952
+        ]
+    ],
+    "position_instruction": "Place the mug in front of microphone on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "rotation_instruction_label": "handle_left",
+    "obj_codes": [
+        "f9d07bb386a04de8b0e1a9a28a936985",
+        "065-h",
+        "922cd7d18c6748d49fe651ded8a04cf4"
+    ],
+    "target_obj_code": "922cd7d18c6748d49fe651ded8a04cf4",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "handle_left"
+}

@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "remote control",
+        "cup",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/a564a11174be455bbce4698f7da92fdf/material_2.urdf",
+        "objaverse_rescale/d72eebbf82be48f0a53e7e8b712e6a66/material_2.urdf",
+        "ycb_16k_backup/065-b_cups_google_16k/065-b_cups_google_16k.urdf",
+        "objaverse_rescale/9bf1b31f641543c9a921042dac3b527f/material_2.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer behind the mug on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.3443510776377321,
+            -0.09477705615711896,
+            0.9580188815184068,
+            -0.11638646078845266,
+            0.23680346438032968,
+            0.19068031546553982,
+            0.9455259532644116,
+            -0.00021289958385750651,
+            1.990596138057299e-05,
+            -0.00035650344216264784,
+            0.0019174558110535145,
+            -0.00456738518550992,
+            -0.00022824463667348027
+        ],
+        [
+            0.4689797909443557,
+            0.18685926841728537,
+            0.9119036339170716,
+            0.005453957974401625,
+            -0.01031016988737485,
+            0.14195590071160297,
+            0.9898042619591324,
+            -0.0004756179987452924,
+            0.0014689717208966613,
+            -0.002859615720808506,
+            0.4005119502544403,
+            -0.5799171328544617,
+            0.0023995579686015844
+        ],
+        [
+            0.6495809530895862,
+            0.110862340842554,
+            0.9006627975393021,
+            0.00047671108728148537,
+            -0.0014276120825067456,
+            0.019815889017366767,
+            0.999802513105829,
+            0.002271431963890791,
+            0.00227837054990232,
+            -0.007851539179682732,
+            -0.10719133913516998,
+            0.18958766758441925,
+            0.07993204891681671
+        ],
+        [
+            0.3148718885656849,
+            0.1549337476341872,
+            0.9183218692887933,
+            -0.016552339961781695,
+            0.5987224495529173,
+            0.06350860027525757,
+            0.798263180996231,
+            0.0017036660574376583,
+            0.0005273103015497327,
+            0.03699856996536255,
+            -0.022465812042355537,
+            -1.6079399585723877,
+            -0.14764036238193512
+        ]
+    ],
+    "position_instruction": "Place the hammer behind the mug on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "a564a11174be455bbce4698f7da92fdf",
+        "d72eebbf82be48f0a53e7e8b712e6a66",
+        "065-b",
+        "9bf1b31f641543c9a921042dac3b527f"
+    ],
+    "target_obj_code": "9bf1b31f641543c9a921042dac3b527f",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        -0.7071067690849304,
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "handle_right"
+}

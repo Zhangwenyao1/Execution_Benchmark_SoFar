@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "bottle",
+        "cup",
+        "headphone",
+        "shoe"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/006_mustard_bottle_google_16k/006_mustard_bottle_google_16k.urdf",
+        "ycb_16k_backup/065-g_cups_google_16k/065-g_cups_google_16k.urdf",
+        "objaverse_rescale/ea91786392284f03809c37976da090bf/material_2.urdf",
+        "objaverse_rescale/aa51af2f1270482193471455b504efc6/material_2.urdf"
+    ],
+    "target_obj_name": "shoe",
+    "instruction": "Place the shoe to the left of the bottle on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.48516281847083176,
+            0.07782619502614069,
+            0.9030889126641223,
+            0.00025551623914344556,
+            0.00012543504885796164,
+            -0.005224406113406113,
+            0.999986312185453,
+            -0.0009467345662415028,
+            -0.006407334469258785,
+            -0.001503998413681984,
+            0.09021283686161041,
+            -0.024318234995007515,
+            0.002715185983106494
+        ],
+        [
+            0.4834290162404827,
+            0.23885205025379522,
+            0.9005565857558309,
+            0.0006575875482995302,
+            -0.0013857829272542884,
+            0.125452897415271,
+            0.9920983911459627,
+            0.0034458860754966736,
+            0.009067883715033531,
+            -0.004135794937610626,
+            -0.5502248406410217,
+            -0.08917473256587982,
+            -0.014402355998754501
+        ],
+        [
+            0.509596227416587,
+            -0.10490238386315637,
+            0.9113375982045062,
+            -0.5130159334573575,
+            -0.4899741005351329,
+            0.6049708467009212,
+            0.36159411978852196,
+            -0.00022621535754296929,
+            0.000687091494910419,
+            -3.1094914447749034e-05,
+            -0.014975757338106632,
+            -0.002125348662957549,
+            0.00225442904047668
+        ],
+        [
+            0.3286085265057808,
+            0.14241803660935964,
+            0.9320596076732369,
+            0.039327671102785615,
+            0.07457681808583251,
+            -0.026614788602443266,
+            0.9960839751333578,
+            -0.00022901232296135277,
+            -0.0011274040443822742,
+            0.0003666624834295362,
+            0.037656672298908234,
+            -0.0069990623742341995,
+            -0.000597533187828958
+        ]
+    ],
+    "position_instruction": "Place the shoe to the left of the bottle on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "006",
+        "065-g",
+        "ea91786392284f03809c37976da090bf",
+        "aa51af2f1270482193471455b504efc6"
+    ],
+    "target_obj_code": "aa51af2f1270482193471455b504efc6",
+    "anno_target": {
+        "category": "shoe",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        -0.7069138288497925,
+                        0.7069138884544373,
+                        -0.016516132280230522,
+                        -0.016516130417585373
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "sideways"
+}

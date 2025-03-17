@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "SD card",
+        "cup",
+        "mug",
+        "marker"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/02f7f045679d402da9b9f280030821d4/material_2.urdf",
+        "ycb_16k_backup/065-g_cups_google_16k/065-g_cups_google_16k.urdf",
+        "objaverse_rescale/7bc2b14a48d1413e9375c32a53e3ee6f/material_2.urdf",
+        "ycb_16k_backup/040_large_marker_google_16k/040_large_marker_google_16k.urdf"
+    ],
+    "target_obj_name": "marker",
+    "instruction": "Place the marker behind the SD card on the table. We also need to specify the rotation of the object after placement:  the cap of the marker is on the right(oriented towards right), while its body (the area we generally grab it) is on the left.",
+    "init_obj_pos": [
+        [
+            0.20463201346018647,
+            0.6473141630161897,
+            0.3741788864135742,
+            -0.03871213272213936,
+            -0.4740608334541321,
+            -0.27910614013671875,
+            0.8341866731643677,
+            -0.016841353848576546,
+            0.051613811403512955,
+            -0.010869842022657394,
+            -1.1645147800445557,
+            0.9214181900024414,
+            -1.5668056011199951
+        ],
+        [
+            0.5562484860420227,
+            0.07583525031805038,
+            0.3006981313228607,
+            0.0007800912135280669,
+            -0.0016471667913720012,
+            0.04767714440822601,
+            0.9988611340522766,
+            0.00530695216730237,
+            0.008643469773232937,
+            -0.004470562096685171,
+            -0.3052136301994324,
+            0.1730305254459381,
+            -0.014203089289367199
+        ],
+        [
+            0.2706057131290436,
+            -0.02618556283414364,
+            0.36671116948127747,
+            0.07046186923980713,
+            -0.34649112820625305,
+            0.1465013176202774,
+            0.9238594174385071,
+            -0.03016110695898533,
+            -0.0007479843916371465,
+            -0.005129174329340458,
+            0.025192296132445335,
+            -0.45930564403533936,
+            0.01181414257735014
+        ],
+        [
+            0.24826638400554657,
+            -0.039639949798583984,
+            0.3312526047229767,
+            0.3759452998638153,
+            0.13372769951820374,
+            0.8676280379295349,
+            -0.29665401577949524,
+            -0.00040284974966198206,
+            -0.01051933504641056,
+            0.03032248094677925,
+            0.7118120789527893,
+            -2.2068488597869873,
+            0.5085992217063904
+        ]
+    ],
+    "position_instruction": "Place the marker behind the SD card on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the cap of the marker is on the right(oriented towards right), while its body (the area we generally grab it) is on the left.",
+    "rotation_instruction_label": "cap_right",
+    "obj_codes": [
+        "02f7f045679d402da9b9f280030821d4",
+        "065-g",
+        "7bc2b14a48d1413e9375c32a53e3ee6f",
+        "040"
+    ],
+    "target_obj_code": "040",
+    "anno_target": {
+        "category": "marker",
+        "annotation": {
+            " the cap of the marker is on the left(oriented towards left), while its body (the area we generally grab it) is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the cap of the marker is on the right(oriented towards right), while its body (the area we generally grab it) is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "cap_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "cap_right"
+}

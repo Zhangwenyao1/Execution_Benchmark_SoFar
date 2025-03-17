@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "can",
+        "mug",
+        "microphone",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/007_tuna_fish_can_google_16k/007_tuna_fish_can_google_16k.urdf",
+        "objaverse_rescale/9321c45cb9cf459f9f803507d3a11fb3/material_2.urdf",
+        "objaverse_rescale/5172dbe9281a45f48cee8c15bdfa1831/material_2.urdf",
+        "ycb_16k_backup/065-j_cups_google_16k/065-j_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup on top of the can on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.522021814137801,
+            0.11235326536053343,
+            0.9031509602122839,
+            0.0006130387561261797,
+            -0.0006395580179670823,
+            0.16477580161397037,
+            0.9863306496056468,
+            -0.00015271600568667054,
+            -0.010087873786687851,
+            -0.0002478602691553533,
+            -0.6756964325904846,
+            0.14447036385536194,
+            0.09656035155057907
+        ],
+        [
+            0.5912611023969158,
+            0.2032140820077138,
+            0.9636873477208888,
+            0.06132969074835731,
+            -0.24677988362899214,
+            -0.08164487733432486,
+            0.9636765391322101,
+            -0.0009105406934395432,
+            0.001446083071641624,
+            -0.001008864725008607,
+            -0.026743534952402115,
+            -0.012879347428679466,
+            0.011594594456255436
+        ],
+        [
+            0.3609710117003892,
+            0.19345944380448418,
+            0.9411673328738759,
+            -0.1108916141390598,
+            0.164332161317098,
+            0.010451029092684205,
+            0.9800963047891712,
+            -0.00343125662766397,
+            0.000422886194428429,
+            -0.0008106723544187844,
+            -0.0035838030744343996,
+            -0.09168479591608047,
+            0.0013944604434072971
+        ],
+        [
+            0.647010305959056,
+            -0.0999038915515424,
+            0.9003770987380645,
+            0.0003238991655496164,
+            -0.00022514154803662651,
+            0.035718202113237695,
+            0.9993618235846373,
+            0.0013914654264226556,
+            -0.0034425342455506325,
+            -0.0030085493344813585,
+            0.044205356389284134,
+            0.16673977673053741,
+            0.03339814767241478
+        ]
+    ],
+    "position_instruction": "Place the cup on top of the can on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "007",
+        "9321c45cb9cf459f9f803507d3a11fb3",
+        "5172dbe9281a45f48cee8c15bdfa1831",
+        "065-j"
+    ],
+    "target_obj_code": "065-j",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "top",
+    "rotation_tag": "upside_down"
+}

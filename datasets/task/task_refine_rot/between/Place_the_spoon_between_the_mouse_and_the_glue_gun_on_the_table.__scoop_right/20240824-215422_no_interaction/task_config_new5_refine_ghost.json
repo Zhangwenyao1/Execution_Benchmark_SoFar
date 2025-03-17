@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "mouse",
+        "glue gun",
+        "spoon"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f017c73a85484b6da3a66ec1cda70c71/material_2.urdf",
+        "objaverse_rescale/a1da12b81f034db894496c1ffc4be1f5/material_2.urdf",
+        "objaverse_rescale/2613c5f24bb3407da2664c410c34d523/material_2.urdf"
+    ],
+    "target_obj_name": "spoon",
+    "instruction": "Place the spoon between the mouse and the glue gun on the table. We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "init_obj_pos": [
+        [
+            0.5974008543412375,
+            -0.19314991244363236,
+            0.9155499910538346,
+            -0.556818250720217,
+            -0.3452822905428036,
+            0.33035835129091845,
+            0.679409254598978,
+            -0.0019409155938774347,
+            -0.0011909452732652426,
+            -0.0002601125161163509,
+            0.1139894649386406,
+            -0.13110162317752838,
+            0.07996832579374313
+        ],
+        [
+            0.385891510645328,
+            0.17736855717489744,
+            0.9145325575951399,
+            0.682498960461479,
+            0.15374916803243174,
+            0.15733258822530038,
+            0.6969955659691555,
+            -0.0034197652712464333,
+            0.01337138470262289,
+            0.02155764400959015,
+            -0.35112109780311584,
+            0.3712981343269348,
+            -0.08473097532987595
+        ],
+        [
+            0.3170704281680485,
+            0.03879048061700967,
+            0.9065735133281196,
+            0.6215406188574404,
+            -0.7431585673320686,
+            0.0259009957866355,
+            -0.24643810851513423,
+            -0.0006487944629043341,
+            -0.0012261270312592387,
+            0.03137773275375366,
+            0.4932782053947449,
+            -0.1927303820848465,
+            -0.01163757499307394
+        ]
+    ],
+    "position_instruction": "Place the spoon between the mouse and the glue gun on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "rotation_instruction_label": "scoop_right",
+    "obj_codes": [
+        "f017c73a85484b6da3a66ec1cda70c71",
+        "a1da12b81f034db894496c1ffc4be1f5",
+        "2613c5f24bb3407da2664c410c34d523"
+    ],
+    "target_obj_code": "2613c5f24bb3407da2664c410c34d523",
+    "anno_target": {
+        "category": "spoon",
+        "annotation": {
+            " the ladle is lying on the table, with its scoop on the left(pointing towards left) and its handle on the right. ": {
+                "quat": [
+                    [
+                        0.0774809792637825,
+                        -0.22816672921180725,
+                        -0.43640369176864624,
+                        0.8668843507766724
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ladle is lying on the table, with its scoop on the right(pointing towards right) and its handle on the left.": {
+                "quat": [
+                    [
+                        0.2281040996313095,
+                        0.07766517251729965,
+                        0.8672364950180054,
+                        0.43570366501808167
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "scoop_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "scoop_right"
+}

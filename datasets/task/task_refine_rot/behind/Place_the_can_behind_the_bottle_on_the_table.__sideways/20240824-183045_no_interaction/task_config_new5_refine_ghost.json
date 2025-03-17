@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "bottle",
+        "wineglass",
+        "can"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/a7785ac7ce7f4ba79df661db33637ba9/material_2.urdf",
+        "objaverse_rescale/dc707f81a94e48078069c6a463f59fcf/material_2.urdf",
+        "ycb_16k_backup/010_potted_meat_can_google_16k/010_potted_meat_can_google_16k.urdf"
+    ],
+    "target_obj_name": "can",
+    "instruction": "Place the can behind the bottle on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.3731389499609636,
+            -0.0074353075640052205,
+            0.9294412107635924,
+            -0.006013563051521236,
+            0.04085448249718882,
+            0.063363607254942,
+            0.9971357989737175,
+            0.0005683739436790347,
+            0.0001195918011944741,
+            -0.0001519472716609016,
+            -0.004759304225444794,
+            0.023588623851537704,
+            -0.0005133160739205778
+        ],
+        [
+            0.585788814177272,
+            0.0016290290799171761,
+            0.9244612641021623,
+            0.04565789231786198,
+            0.00779623536759335,
+            0.026530813782597903,
+            0.9985743294833965,
+            6.388457404682413e-05,
+            0.004839092027395964,
+            -0.0018615867011249065,
+            -0.11263678222894669,
+            -0.03684961795806885,
+            -0.03413980081677437
+        ],
+        [
+            0.6869052950985454,
+            0.06842129896589115,
+            0.9030873211513479,
+            -0.0004834860337589018,
+            -0.00014714113078849998,
+            0.10738850833034204,
+            0.9942170049186086,
+            0.0017006945563480258,
+            0.0005286084488034248,
+            -0.0015930002555251122,
+            -0.0038350122049450874,
+            0.05556464567780495,
+            -0.00836566649377346
+        ]
+    ],
+    "position_instruction": "Place the can behind the bottle on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "a7785ac7ce7f4ba79df661db33637ba9",
+        "dc707f81a94e48078069c6a463f59fcf",
+        "010"
+    ],
+    "target_obj_code": "010",
+    "anno_target": {
+        "category": "can",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.0,
+                        0.7071067690849304,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.0,
+                        -0.7071067690849304,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "sideways"
+}

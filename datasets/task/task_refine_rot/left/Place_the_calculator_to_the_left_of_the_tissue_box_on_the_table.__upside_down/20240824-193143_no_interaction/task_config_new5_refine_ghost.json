@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "box",
+        "fork",
+        "calculator"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6e9e9135bb5747f58d388e1e92477f02/material_2.urdf",
+        "ycb_16k_backup/003_cracker_box_google_16k/003_cracker_box_google_16k.urdf",
+        "ycb_16k_backup/030_fork_google_16k/030_fork_google_16k.urdf",
+        "objaverse_rescale/b4bb8bd7791648fdb36c458fd9a877bf/material_2.urdf"
+    ],
+    "target_obj_name": "calculator",
+    "instruction": "Place the calculator to the left of the tissue box on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.4131795460574586,
+            0.1688206587996975,
+            0.931740688074677,
+            0.01573753007975319,
+            0.051704086914519796,
+            -0.11799728880117208,
+            0.9915420603176129,
+            -0.0017916697543114424,
+            -0.003237032564356923,
+            -0.00043879979057237506,
+            0.0765112042427063,
+            -0.03788817673921585,
+            0.00033583029289729893
+        ],
+        [
+            0.3939816399643784,
+            -0.26344020336096863,
+            0.9491310815278747,
+            -0.00617401749154266,
+            -0.7098103061144047,
+            -0.0031310775514995282,
+            0.7043588625091302,
+            -0.00022222797269932926,
+            -0.0007557626231573522,
+            -0.0011074321810156107,
+            0.01432264968752861,
+            0.007273050025105476,
+            -0.009893595241010189
+        ],
+        [
+            0.4342012482305915,
+            -0.13982673982751506,
+            0.9163410611123461,
+            -0.9987647633558454,
+            0.001086129458462433,
+            -0.005477634883457506,
+            -0.04937371079455542,
+            0.002550483448430896,
+            -0.006894174497574568,
+            -0.00011622436431935057,
+            -1.5082063674926758,
+            0.21392229199409485,
+            0.0701942890882492
+        ],
+        [
+            0.4078465319161347,
+            -0.13273615007549788,
+            0.9459470789221948,
+            0.38524321809256706,
+            -0.5604455681440886,
+            -0.3600808746360255,
+            0.6386158405353626,
+            -0.0007818472804501653,
+            -0.0023832640144973993,
+            -0.01370472926646471,
+            -0.18022365868091583,
+            -0.3757084906101227,
+            0.22983194887638092
+        ]
+    ],
+    "position_instruction": "Place the calculator to the left of the tissue box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "6e9e9135bb5747f58d388e1e92477f02",
+        "003",
+        "030",
+        "b4bb8bd7791648fdb36c458fd9a877bf"
+    ],
+    "target_obj_code": "b4bb8bd7791648fdb36c458fd9a877bf",
+    "anno_target": {
+        "category": "calculator",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5214096307754517,
+                    -0.5214095711708069,
+                    0.47763165831565857,
+                    0.47763171792030334
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "upside_down"
+}

@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "power drill"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-d_cups_google_16k/065-d_cups_google_16k.urdf",
+        "ycb_16k_backup/035_power_drill_google_16k/035_power_drill_google_16k.urdf"
+    ],
+    "target_obj_name": "power drill",
+    "instruction": "Place the power drill to the right of the cup on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.4622886048549715,
+            -0.009939124782746727,
+            0.9006076608087822,
+            0.000822220285236747,
+            -0.0008819733520764375,
+            0.06504283894882205,
+            0.997881744085082,
+            0.007116737309843302,
+            0.0005136967520229518,
+            -0.007850375026464462,
+            -0.17027699947357178,
+            0.26665833592414856,
+            -0.09506813436746597
+        ],
+        [
+            0.3725415087615015,
+            0.1448325453251337,
+            0.9030941196039739,
+            -6.928902611205367e-05,
+            0.00025514865318719483,
+            0.07245929325615219,
+            0.9973713355210366,
+            -0.00013631468755193055,
+            0.0002067257883027196,
+            -0.00046998035395517945,
+            -0.006676930468529463,
+            -0.00029692045063711703,
+            0.0003393643128219992
+        ]
+    ],
+    "position_instruction": "Place the power drill to the right of the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "065-d",
+        "035"
+    ],
+    "target_obj_code": "035",
+    "anno_target": {
+        "category": "power_drill",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upright"
+}

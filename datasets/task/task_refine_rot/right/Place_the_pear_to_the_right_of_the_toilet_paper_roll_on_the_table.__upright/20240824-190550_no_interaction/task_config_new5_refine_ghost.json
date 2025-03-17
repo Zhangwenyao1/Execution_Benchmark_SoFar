@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "toilet paper roll",
+        "can",
+        "pear"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/7ca7ebcfad964498b49af73be442acf9/material_2.urdf",
+        "ycb_16k_backup/005_tomato_soup_can_google_16k/005_tomato_soup_can_google_16k.urdf",
+        "objaverse_rescale/f3dd3064db4f4e8880344425970cecad/material_2.urdf"
+    ],
+    "target_obj_name": "pear",
+    "instruction": "Place the pear to the right of the toilet paper roll on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.32258572217567094,
+            0.16436528183368057,
+            0.945763409233094,
+            0.06022642713093214,
+            -0.46753340417202877,
+            0.1126697356371497,
+            0.8746947033850218,
+            0.0015524355694651604,
+            0.0003017506969626993,
+            -0.00043270684545859694,
+            -0.0038078792858868837,
+            0.02145840786397457,
+            0.00013741264410782605
+        ],
+        [
+            0.5646145202629584,
+            0.11113042164823128,
+            0.8998947157375975,
+            -0.0002770933989271747,
+            -0.0007764972453660815,
+            -0.08788664629968565,
+            0.9961301409321326,
+            -0.002186285564675927,
+            -0.0005372784798964858,
+            -0.00017380704230163246,
+            0.009933391585946083,
+            -0.04778324067592621,
+            0.001894715940579772
+        ],
+        [
+            0.3729525008458991,
+            -0.21711364742496056,
+            0.9343877532985546,
+            -0.1727141199176459,
+            -0.016347103983728007,
+            0.1002441617817237,
+            0.9797212424976293,
+            -0.0020827781409025192,
+            0.001385489827953279,
+            -0.00023941605468280613,
+            -0.03151491656899452,
+            -0.05830904841423035,
+            -0.054520659148693085
+        ]
+    ],
+    "position_instruction": "Place the pear to the right of the toilet paper roll on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "7ca7ebcfad964498b49af73be442acf9",
+        "005",
+        "f3dd3064db4f4e8880344425970cecad"
+    ],
+    "target_obj_code": "f3dd3064db4f4e8880344425970cecad",
+    "anno_target": {
+        "category": "pear",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7223767042160034,
+                        -0.006980384234338999,
+                        0.007292850874364376,
+                        0.6914260387420654
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upright"
+}

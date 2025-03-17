@@ -1,0 +1,85 @@
+{
+    "selected_obj_names": [
+        "toilet paper roll",
+        "wallet"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6d5284b842434413a17133f7bf259669/material_2.urdf",
+        "objaverse_rescale/f47fdcf9615d4e94a71e6731242a4c94/material_2.urdf"
+    ],
+    "target_obj_name": "wallet",
+    "instruction": "Place the wallet in front of toilet paper roll on the table. We also need to specify the rotation of the object after placement:  the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)",
+    "init_obj_pos": [
+        [
+            0.5723943425201825,
+            0.16307024232911055,
+            0.9341458831993422,
+            -0.00978873192981445,
+            -0.2213095582505483,
+            -0.043051579931764374,
+            0.9742036858991721,
+            -0.01019662618637085,
+            0.0011151526123285294,
+            -0.00034823338501155376,
+            -0.014326591044664383,
+            -0.13167287409305573,
+            -0.0009869378991425037
+        ],
+        [
+            0.6266175967135791,
+            -0.17600787815385283,
+            0.9530484781285845,
+            0.13244061404235724,
+            0.7307903097508872,
+            -0.1402118923592654,
+            0.6547867073844121,
+            0.0005767575930804014,
+            0.0038182083517313004,
+            -0.0005958955734968185,
+            -0.2591891288757324,
+            0.027432091534137726,
+            -0.008596585132181644
+        ]
+    ],
+    "position_instruction": "Place the wallet in front of toilet paper roll on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)",
+    "rotation_instruction_label": "clasp_right",
+    "obj_codes": [
+        "6d5284b842434413a17133f7bf259669",
+        "f47fdcf9615d4e94a71e6731242a4c94"
+    ],
+    "target_obj_code": "f47fdcf9615d4e94a71e6731242a4c94",
+    "anno_target": {
+        "category": "wallet",
+        "annotation": {
+            " the wallet is lying flat on the table, and the clasp is on the left(if the wallet has a clasp)": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            },
+            " the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "clasp_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "clasp_right"
+}

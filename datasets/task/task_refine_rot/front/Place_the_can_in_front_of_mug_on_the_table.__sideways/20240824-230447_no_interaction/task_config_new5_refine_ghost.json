@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "cup",
+        "can"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/a564a11174be455bbce4698f7da92fdf/material_2.urdf",
+        "ycb_16k_backup/065-c_cups_google_16k/065-c_cups_google_16k.urdf",
+        "ycb_16k_backup/007_tuna_fish_can_google_16k/007_tuna_fish_can_google_16k.urdf"
+    ],
+    "target_obj_name": "can",
+    "instruction": "Place the can in front of mug on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.3937710089073356,
+            -0.11372980921439602,
+            0.9573893951979721,
+            -0.06521403099463936,
+            0.25200276598804655,
+            -0.03863231964655146,
+            0.9647534814524029,
+            -0.0004070450668223202,
+            -2.8738162654917687e-05,
+            -0.0004880469641648233,
+            0.00026639128918759525,
+            -0.007009073626250029,
+            -0.0001539600343676284
+        ],
+        [
+            0.49942890377118915,
+            -0.16548464333063426,
+            0.900568386159909,
+            0.0006465357579914059,
+            -0.0007911409516447445,
+            -0.011097466597559374,
+            0.99993789923306,
+            -0.002291541313752532,
+            -0.005003589671105146,
+            -0.0014510781038552523,
+            0.03470437228679657,
+            0.23083430528640747,
+            -0.5096149444580078
+        ],
+        [
+            0.5310791750105517,
+            0.020852920272881877,
+            0.903154110626483,
+            0.00028294782445224077,
+            -0.0008759011753479634,
+            -0.313858281758011,
+            0.9494693948251145,
+            -0.0019889636896550655,
+            -0.0011599569115787745,
+            -0.006135326810181141,
+            0.03361055254936218,
+            -0.04115995764732361,
+            -0.05608563497662544
+        ]
+    ],
+    "position_instruction": "Place the can in front of mug on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "a564a11174be455bbce4698f7da92fdf",
+        "065-c",
+        "007"
+    ],
+    "target_obj_code": "007",
+    "anno_target": {
+        "category": "can",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "front",
+    "rotation_tag": "sideways"
+}

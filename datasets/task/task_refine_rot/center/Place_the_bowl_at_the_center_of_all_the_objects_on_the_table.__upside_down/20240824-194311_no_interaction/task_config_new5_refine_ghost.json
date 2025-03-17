@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "bottle",
+        "calculator",
+        "mug",
+        "bowl"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/794b730ae452424bb3a9ce3c6caaff7a/material_2.urdf",
+        "objaverse_rescale/b4bb8bd7791648fdb36c458fd9a877bf/material_2.urdf",
+        "objaverse_rescale/c25119c5ac6e4654be3b75d78e34a912/material_2.urdf",
+        "ycb_16k_backup/024_bowl_google_16k/024_bowl_google_16k.urdf"
+    ],
+    "target_obj_name": "bowl",
+    "instruction": "Place the bowl at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.3176044640366491,
+            0.21565509050248333,
+            0.9270910319547914,
+            0.01587911918409175,
+            0.6225635812938574,
+            -0.03273991657451517,
+            0.7817228016907267,
+            0.00015458365669474006,
+            0.017804356291890144,
+            0.02190437540411949,
+            -0.3710690140724182,
+            -0.24511687457561493,
+            0.1723991483449936
+        ],
+        [
+            0.4680726442041308,
+            0.18200828691203588,
+            0.9060326247863102,
+            -0.6367900066646692,
+            0.3604460197297557,
+            -0.3357443820452987,
+            0.5931718673352676,
+            -0.003707642899826169,
+            0.0023845264222472906,
+            -0.0013523832894861698,
+            -0.34107980132102966,
+            -0.30657124519348145,
+            0.010140703059732914
+        ],
+        [
+            0.5412811347400497,
+            -0.20890206482796228,
+            0.9304251840041213,
+            -0.007525962695234587,
+            0.29454832013682913,
+            0.05044799457753671,
+            0.954274408560341,
+            -0.0008763759396970272,
+            0.0014365481911227107,
+            -0.0002779418136924505,
+            -0.026005951687693596,
+            -0.014154673554003239,
+            0.00016226188745349646
+        ],
+        [
+            0.5298858707645259,
+            0.011596740298061604,
+            0.9020300835706869,
+            -0.03130921619607389,
+            -0.00528116030364629,
+            0.9921990303259735,
+            -0.12055258830581732,
+            0.0003298312658444047,
+            -2.1630849005305208e-05,
+            -4.378424637252465e-05,
+            0.0010864633368328214,
+            0.016291746869683266,
+            0.00021722774545196444
+        ]
+    ],
+    "position_instruction": "Place the bowl at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "794b730ae452424bb3a9ce3c6caaff7a",
+        "b4bb8bd7791648fdb36c458fd9a877bf",
+        "c25119c5ac6e4654be3b75d78e34a912",
+        "024"
+    ],
+    "target_obj_code": "024",
+    "anno_target": {
+        "category": "bowl",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "center",
+    "rotation_tag": "upside_down"
+}

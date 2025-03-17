@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "marker",
+        "box",
+        "cup",
+        "camera"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/040_large_marker_google_16k/040_large_marker_google_16k.urdf",
+        "objaverse_rescale/5e1a1527a0bd49ed8e473079392c31c8/material_2.urdf",
+        "ycb_16k_backup/065-i_cups_google_16k/065-i_cups_google_16k.urdf",
+        "objaverse_rescale/6a63fc4af48b453c91ca2b335a4d464d/material_2.urdf"
+    ],
+    "target_obj_name": "camera",
+    "instruction": "Place the camera in front of marker on the table. We also need to specify the rotation of the object after placement:  the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.",
+    "init_obj_pos": [
+        [
+            0.7506547566493652,
+            0.046486346832764654,
+            0.90446420113264,
+            -0.7902628079906343,
+            0.5830280830225416,
+            0.14969859057709456,
+            0.11468775302118932,
+            0.001774876844137907,
+            -0.003935678396373987,
+            0.014699121005833149,
+            -4.903580665588379,
+            -0.7060835361480713,
+            -0.31317099928855896
+        ],
+        [
+            0.3114195442173227,
+            0.12604033129629083,
+            0.9527398605322651,
+            -0.0038695441147594996,
+            0.005034498372002739,
+            0.10699578849339084,
+            0.9942391974264362,
+            -0.001798124285414815,
+            -9.191795834340155e-05,
+            -0.0006306961877271533,
+            0.007381975185126066,
+            -0.037423234432935715,
+            -0.0006856883992440999
+        ],
+        [
+            0.5017271345817348,
+            -0.20372510474916541,
+            0.9005134485825135,
+            0.0016865513961845857,
+            -0.0014114382405158868,
+            0.07210978962623954,
+            0.9973942759142647,
+            0.0031207038555294275,
+            -0.004546931479126215,
+            -0.004743627738207579,
+            0.1354784220457077,
+            0.16427524387836456,
+            0.03411471098661423
+        ],
+        [
+            0.667946505475138,
+            -0.210288524747758,
+            0.9565249982686255,
+            0.09484271394721835,
+            -0.008032263892509304,
+            -0.06357839590645266,
+            0.9934274658584032,
+            0.0005249175592325628,
+            -0.0005078961839899421,
+            -0.0007174146012403071,
+            0.0038165368605405092,
+            0.010903648100793362,
+            -0.00736613292247057
+        ]
+    ],
+    "position_instruction": "Place the camera in front of marker on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.",
+    "rotation_instruction_label": "upright_lens_forth",
+    "obj_codes": [
+        "040",
+        "5e1a1527a0bd49ed8e473079392c31c8",
+        "065-i",
+        "6a63fc4af48b453c91ca2b335a4d464d"
+    ],
+    "target_obj_code": "6a63fc4af48b453c91ca2b335a4d464d",
+    "anno_target": {
+        "category": "camera",
+        "annotation": {
+            " the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "upright_lens_forth",
+    "rot_tag_level": 2,
+    "position_tag": "front",
+    "rotation_tag": "upright_lens_forth"
+}

@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "toilet paper roll",
+        "cup",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/ea0cf48616e34708b73c82eb7c7366ca/material_2.urdf",
+        "ycb_16k_backup/065-c_cups_google_16k/065-c_cups_google_16k.urdf",
+        "objaverse_rescale/922cd7d18c6748d49fe651ded8a04cf4/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug to the right of the toilet paper roll on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "init_obj_pos": [
+        [
+            0.34934721683168235,
+            0.23969456373769477,
+            0.9495373993314267,
+            0.0001493002118618215,
+            -0.0004922012589080508,
+            0.10109944303911786,
+            0.9948761923297534,
+            0.00045110308565199375,
+            -0.001176417339593172,
+            -0.0004904368543066084,
+            0.015064257197082043,
+            0.005748187191784382,
+            0.00011185005132574588
+        ],
+        [
+            0.31235608717897395,
+            -0.11162688851852877,
+            0.9005684206992788,
+            0.0006877068723542809,
+            -0.0007556916357418886,
+            0.041444092196279377,
+            0.9991403020654477,
+            -0.001677479944191873,
+            -0.0051376912742853165,
+            -0.0010904507944360375,
+            0.11678606271743774,
+            0.034319840371608734,
+            -0.18828518688678741
+        ],
+        [
+            0.3487558342774868,
+            -0.02495247383499802,
+            0.9803848121643329,
+            0.016098247642293444,
+            0.34655182514172067,
+            -0.05851757590992841,
+            0.9360653674949295,
+            -0.0024781227111816406,
+            -3.462636232143268e-05,
+            -0.0014521250268444419,
+            0.0017398615600541234,
+            -0.03593836724758148,
+            -0.006568273063749075
+        ]
+    ],
+    "position_instruction": "Place the mug to the right of the toilet paper roll on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "rotation_instruction_label": "handle_left",
+    "obj_codes": [
+        "ea0cf48616e34708b73c82eb7c7366ca",
+        "065-c",
+        "922cd7d18c6748d49fe651ded8a04cf4"
+    ],
+    "target_obj_code": "922cd7d18c6748d49fe651ded8a04cf4",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "handle_left"
+}

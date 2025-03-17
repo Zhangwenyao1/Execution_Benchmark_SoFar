@@ -1,0 +1,79 @@
+{
+    "selected_obj_names": [
+        "mobile phone",
+        "binder clips"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/45c813a9fac4458ead1f90280826c0a4/material_2.urdf",
+        "objaverse_rescale/5e55c38b24dc4c239448efa1c6b7f49f/material_2.urdf"
+    ],
+    "target_obj_name": "binder clips",
+    "instruction": "Place the binder clips behind the mobile phone on the table. We also need to specify the rotation of the object after placement:  the binder clip is lying sideways on the table, which means that one side face of the black triangular prism is facing the table.",
+    "init_obj_pos": [
+        [
+            0.6737313293470427,
+            -0.04283687788367708,
+            0.9056136857727992,
+            -0.7053569961421488,
+            0.008553132622378133,
+            -0.008581156523816934,
+            0.7087486971193546,
+            0.0010432651033625007,
+            0.0032293531112372875,
+            0.02430843748152256,
+            -0.5234504342079163,
+            0.15879413485527039,
+            0.05711500719189644
+        ],
+        [
+            0.37350004594438874,
+            -0.024712385387227715,
+            0.9100082313720046,
+            1.588323004183352e-05,
+            3.959046884217222e-05,
+            0.08262833243658278,
+            0.9965804317058753,
+            0.0011947128223255277,
+            -0.0002317438047612086,
+            -0.00035019844654016197,
+            0.003639563685283065,
+            0.016018634662032127,
+            0.002218829933553934
+        ]
+    ],
+    "position_instruction": "Place the binder clips behind the mobile phone on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the binder clip is lying sideways on the table, which means that one side face of the black triangular prism is facing the table.",
+    "rotation_instruction_label": "clip_sideways",
+    "obj_codes": [
+        "45c813a9fac4458ead1f90280826c0a4",
+        "5e55c38b24dc4c239448efa1c6b7f49f"
+    ],
+    "target_obj_code": "5e55c38b24dc4c239448efa1c6b7f49f",
+    "anno_target": {
+        "category": "binder_clips",
+        "annotation": {
+            " the binder clip is lying sideways on the table, which means that one side face of the black triangular prism is facing the table.": {
+                "quat": [
+                    [
+                        -0.13100828230381012,
+                        0.6948646306991577,
+                        -0.13100828230381012,
+                        0.6948646306991577
+                    ],
+                    [
+                        -0.6943783164024353,
+                        0.13356173038482666,
+                        -0.6943783164024353,
+                        0.13356173038482666
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "clip_sideways",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "clip_sideways"
+}

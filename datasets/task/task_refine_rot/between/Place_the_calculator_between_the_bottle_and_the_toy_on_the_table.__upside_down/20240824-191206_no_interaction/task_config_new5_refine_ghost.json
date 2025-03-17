@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "bottle",
+        "toy",
+        "mug",
+        "calculator"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/022_windex_bottle_google_16k/022_windex_bottle_google_16k.urdf",
+        "ycb_16k_backup/072-b_toy_airplane_google_16k/072-b_toy_airplane_google_16k.urdf",
+        "objaverse_rescale/77d41aba53e4455f9f84fa04b175dff4/material_2.urdf",
+        "objaverse_rescale/d9ffbc4bbe1044bb902e1dddac52b0de/material_2.urdf"
+    ],
+    "target_obj_name": "calculator",
+    "instruction": "Place the calculator between the bottle and the toy on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.5684607990654369,
+            0.10691859286783763,
+            0.9307079778770755,
+            -0.11375968403447491,
+            -0.7208355900813431,
+            0.10648255826853406,
+            0.6753637917041804,
+            -0.001254421309567988,
+            0.0027468602638691664,
+            -0.0002526232274249196,
+            -0.09571831673383713,
+            -0.04447615519165993,
+            -0.0149994483217597
+        ],
+        [
+            0.39638964179788105,
+            -0.2183943894989245,
+            0.9001528278079562,
+            -0.00010328813648481651,
+            -0.0003085594868969517,
+            -0.007437188262624345,
+            0.9999722907927759,
+            -0.00011669821833493188,
+            -0.0007422909839078784,
+            -0.0006902856403030455,
+            0.014384900219738483,
+            0.014177882112562656,
+            -0.0016824401682242751
+        ],
+        [
+            0.4107851893380026,
+            -0.05415517559919678,
+            0.9623832267692114,
+            0.02363079957581565,
+            0.2208895343642029,
+            -0.10356749978622504,
+            0.9694963496103545,
+            0.0006960583268664777,
+            -0.00010759728320408612,
+            -0.00012093558325432241,
+            0.0014612356899306178,
+            0.007144128438085318,
+            0.0012657612096518278
+        ],
+        [
+            0.516268439186941,
+            0.32182145421037983,
+            0.9051908128474909,
+            -0.703994164654622,
+            -0.019557129166865875,
+            0.01972628418477372,
+            0.7096623200813563,
+            0.007845031097531319,
+            0.004586918745189905,
+            -0.02015019953250885,
+            -0.2808014750480652,
+            -0.323076993227005,
+            0.06944039463996887
+        ]
+    ],
+    "position_instruction": "Place the calculator between the bottle and the toy on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "022",
+        "072-b",
+        "77d41aba53e4455f9f84fa04b175dff4",
+        "d9ffbc4bbe1044bb902e1dddac52b0de"
+    ],
+    "target_obj_code": "d9ffbc4bbe1044bb902e1dddac52b0de",
+    "anno_target": {
+        "category": "calculator",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

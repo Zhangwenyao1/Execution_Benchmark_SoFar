@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "book",
+        "headphone",
+        "highlighter"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/de79a920c48745ff95c0df7a7c300091/material_2.urdf",
+        "objaverse_rescale/f8891134871e48ce8cb5053c4287272b/material_2.urdf",
+        "objaverse_rescale/fd058916fb8843c09b4a2e05e3ee894e/material_2.urdf"
+    ],
+    "target_obj_name": "highlighter",
+    "instruction": "Place the highlighter between the book and the headphone on the table. We also need to specify the rotation of the object after placement:  the marker is placed in a stable pose on the table. Its tip end is pointing towards right and its cap end is pointing towards left.",
+    "init_obj_pos": [
+        [
+            0.6810690881143617,
+            -0.22484049297479952,
+            0.9151564506801446,
+            0.007273752494122505,
+            -0.000979575491676136,
+            0.06334266192152914,
+            0.9979648491491088,
+            0.000660003162920475,
+            -0.00040840829024091363,
+            -0.00013811254757456481,
+            -0.002160815754905343,
+            0.00121390912681818,
+            0.0020842927042394876
+        ],
+        [
+            0.32692442371866337,
+            -0.2298498523935363,
+            0.9472880688331436,
+            -0.1030339183545489,
+            -0.020591864952402474,
+            0.04487492441229015,
+            0.9934516736738034,
+            0.00037721291300840676,
+            0.00018489579088054597,
+            -0.00021526798082049936,
+            -0.0038150735199451447,
+            0.009783042594790459,
+            -9.612505527911708e-05
+        ],
+        [
+            0.5101365639074797,
+            -0.2688149970259662,
+            0.9144055244811502,
+            0.1952502060584595,
+            0.6811674739359225,
+            -0.6816831447725757,
+            -0.18219857194515307,
+            -0.007449970580637455,
+            0.001770741306245327,
+            -0.0008408387075178325,
+            -0.27391210198402405,
+            -0.5322856903076172,
+            0.024366799741983414
+        ]
+    ],
+    "position_instruction": "Place the highlighter between the book and the headphone on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the marker is placed in a stable pose on the table. Its tip end is pointing towards right and its cap end is pointing towards left.",
+    "rotation_instruction_label": "tip_right",
+    "obj_codes": [
+        "de79a920c48745ff95c0df7a7c300091",
+        "f8891134871e48ce8cb5053c4287272b",
+        "fd058916fb8843c09b4a2e05e3ee894e"
+    ],
+    "target_obj_code": "fd058916fb8843c09b4a2e05e3ee894e",
+    "anno_target": {
+        "category": "highlighter",
+        "annotation": {
+            " the marker is placed in a stable pose on the table. Its tip(or cap) end is pointing towards left and its rear end is pointing towards right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        -3.090862321641907e-08,
+                        0.7071068286895752,
+                        0.7071067094802856,
+                        -3.0908616110991716e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the marker is placed in a stable pose on the table. Its tip(or cap) end is pointing towards right and its rear end is pointing towards left.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "tip_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "tip_right"
+}

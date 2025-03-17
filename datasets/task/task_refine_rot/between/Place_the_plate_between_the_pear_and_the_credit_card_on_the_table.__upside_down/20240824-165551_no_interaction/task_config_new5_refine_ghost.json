@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "pear",
+        "credit card",
+        "cup",
+        "plate"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f9ac5185507b4d0dbc744941e9055b96/material_2.urdf",
+        "objaverse_rescale/5de830b2cccf4fe7a2e6b400abf26ca7/material_2.urdf",
+        "ycb_16k_backup/065-j_cups_google_16k/065-j_cups_google_16k.urdf",
+        "objaverse_rescale/8d50c19e138b403e8b2ede9b47d8be3c/material_2.urdf"
+    ],
+    "target_obj_name": "plate",
+    "instruction": "Place the plate between the pear and the credit card on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6740766749885059,
+            0.06569921959580895,
+            0.9343409603496061,
+            -0.12698323307293988,
+            0.042489946153236924,
+            -0.16861723286369698,
+            0.9765439528129953,
+            0.0026264754123985767,
+            -0.00032261860906146467,
+            -0.0005043493001721799,
+            -0.004403823520988226,
+            0.0736861452460289,
+            0.05434242635965347
+        ],
+        [
+            0.4845885795811622,
+            0.27919847685667637,
+            0.9004532222416916,
+            -0.0023019768294848626,
+            1.9443853981656955e-05,
+            -0.010118381625256485,
+            0.9999461579894674,
+            -4.856855230173096e-05,
+            1.1554309821804054e-05,
+            0.03518758714199066,
+            0.6720927357673645,
+            -0.9964353442192078,
+            0.0061627901159226894
+        ],
+        [
+            0.5903307663772525,
+            0.06375050019562079,
+            0.9095874053845626,
+            -0.5366308737583041,
+            0.2369480904871405,
+            0.22360580236755198,
+            0.7783850929273127,
+            -9.463391506869812e-06,
+            -0.003362275194376707,
+            0.0010265361052006483,
+            0.08655285090208054,
+            0.007957356050610542,
+            0.04938151687383652
+        ],
+        [
+            0.601314420761171,
+            0.2310640042144685,
+            0.9462939790505911,
+            0.48343182931331596,
+            -0.0048419610993340285,
+            -0.07083700337178145,
+            0.872497759752309,
+            -0.0011041847756132483,
+            0.01480142306536436,
+            0.008404199965298176,
+            -0.3163212537765503,
+            0.3138597905635834,
+            -0.23064856231212616
+        ]
+    ],
+    "position_instruction": "Place the plate between the pear and the credit card on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "f9ac5185507b4d0dbc744941e9055b96",
+        "5de830b2cccf4fe7a2e6b400abf26ca7",
+        "065-j",
+        "8d50c19e138b403e8b2ede9b47d8be3c"
+    ],
+    "target_obj_code": "8d50c19e138b403e8b2ede9b47d8be3c",
+    "anno_target": {
+        "category": "plate",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "toy",
+        "tissue box",
+        "wrench",
+        "shoe"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/073-g_lego_duplo_google_16k/073-g_lego_duplo_google_16k.urdf",
+        "objaverse_rescale/dc4c91abf45342b4bb8822f50fa162b2/material_2.urdf",
+        "objaverse_rescale/19c1913ba85042938f0a87d94397c946/material_2.urdf",
+        "objaverse_rescale/ece4453042144b4a82fb86a4eab1ba7f/material_2.urdf"
+    ],
+    "target_obj_name": "shoe",
+    "instruction": "Place the shoe on top of the toy on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.5407114995422823,
+            0.019743061788964292,
+            0.903985890705032,
+            0.025026397944193125,
+            -0.011496062571339803,
+            -0.35498448347486966,
+            0.9344664447926293,
+            -0.001121152308769524,
+            0.002282002940773964,
+            -0.003702032146975398,
+            -0.04423760622739792,
+            0.002396584488451481,
+            0.03169321268796921
+        ],
+        [
+            0.35561086704915273,
+            0.11480952152017553,
+            0.9471224954873592,
+            0.7055359347714604,
+            -0.04710648485200786,
+            -0.04709249394322397,
+            0.7055369025396594,
+            -0.00031638299697078764,
+            0.0024597563315182924,
+            -0.0028013091068714857,
+            -0.046289145946502686,
+            -0.002684331499040127,
+            0.004750154912471771
+        ],
+        [
+            0.33886359463559906,
+            -0.0998382353343899,
+            0.9078096066701817,
+            0.006005259104424127,
+            -0.005709483141093447,
+            -0.9697106318048252,
+            0.24411601592283672,
+            0.002375256735831499,
+            -0.005567610263824463,
+            0.02730066515505314,
+            -2.2826156616210938,
+            2.9161787033081055,
+            -0.3070514500141144
+        ],
+        [
+            0.5459007219003168,
+            0.22345842440283145,
+            0.9314046563703606,
+            -0.05860762223934716,
+            -0.698356794318439,
+            -0.0217061393308993,
+            0.7130159731451119,
+            -0.001054063905030489,
+            3.9726692193653435e-05,
+            -0.0011316639138385653,
+            -0.00994773767888546,
+            -0.03888082504272461,
+            0.0016675263177603483
+        ]
+    ],
+    "position_instruction": "Place the shoe on top of the toy on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "073-g",
+        "dc4c91abf45342b4bb8822f50fa162b2",
+        "19c1913ba85042938f0a87d94397c946",
+        "ece4453042144b4a82fb86a4eab1ba7f"
+    ],
+    "target_obj_code": "ece4453042144b4a82fb86a4eab1ba7f",
+    "anno_target": {
+        "category": "shoe",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        -0.5,
+                        0.5,
+                        0.4999999701976776,
+                        0.5
+                    ],
+                    [
+                        -0.499998539686203,
+                        0.5000014305114746,
+                        -0.499998539686203,
+                        -0.5000014305114746
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "top",
+    "rotation_tag": "sideways"
+}

@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "calculator",
+        "tape measure",
+        "glasses",
+        "bowl"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f0b1f7c17d70489888f5ae922169c0ce/material_2.urdf",
+        "objaverse_rescale/d1d1c4b27f5c45a29910830e268f7ee2/material_2.urdf",
+        "objaverse_rescale/e4f348e98ceb45e3abc77da5b738f1b2/material_2.urdf",
+        "ycb_16k_backup/024_bowl_google_16k/024_bowl_google_16k.urdf"
+    ],
+    "target_obj_name": "bowl",
+    "instruction": "Place the bowl to the right of the calculator on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.4219849864105752,
+            -0.4670158350923974,
+            1.000830191182644,
+            0.5896588123907137,
+            0.03593967641114956,
+            -0.7716200305057158,
+            -0.23582483573998908,
+            0.010854941792786121,
+            0.006422262638807297,
+            0.02371801994740963,
+            0.11776138097047806,
+            0.23346950113773346,
+            -0.19321869313716888
+        ],
+        [
+            0.596952872935112,
+            0.01654501077024956,
+            0.9246534287924135,
+            -0.7081718323802347,
+            0.03391483507819573,
+            -0.03938411733123519,
+            0.7041245139084976,
+            0.0007278691628016531,
+            0.0010924673406407237,
+            -0.0007261526770889759,
+            -0.06451848894357681,
+            0.032417356967926025,
+            -0.00011832457676064223
+        ],
+        [
+            0.6482091710686483,
+            0.13040323530361023,
+            0.9129651643988823,
+            -0.2574715732144456,
+            -0.6154124405476397,
+            0.7014167458878963,
+            0.25097901424961583,
+            0.00612450297921896,
+            -0.004213446285575628,
+            0.03271195665001869,
+            0.4109918177127838,
+            -0.7932364344596863,
+            0.1071711927652359
+        ],
+        [
+            0.38424393941333046,
+            -0.15733570320903856,
+            0.9054653060220231,
+            0.12133492593694387,
+            0.0016905643024756286,
+            -0.9777946288067856,
+            -0.17085854270950795,
+            -0.015718473121523857,
+            -0.013273308984935284,
+            0.0035419336054474115,
+            0.8583590388298035,
+            -0.9810506701469421,
+            0.7045760154724121
+        ]
+    ],
+    "position_instruction": "Place the bowl to the right of the calculator on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "f0b1f7c17d70489888f5ae922169c0ce",
+        "d1d1c4b27f5c45a29910830e268f7ee2",
+        "e4f348e98ceb45e3abc77da5b738f1b2",
+        "024"
+    ],
+    "target_obj_code": "024",
+    "anno_target": {
+        "category": "bowl",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upside_down"
+}

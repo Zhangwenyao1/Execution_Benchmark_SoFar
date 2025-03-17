@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "knife",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/85db1d392a89459dbde5cdd951c4f6fb/material_2.urdf",
+        "objaverse_rescale/a564a11174be455bbce4698f7da92fdf/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug to the left of the knife on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "init_obj_pos": [
+        [
+            0.6387759085238173,
+            -0.03125891984059822,
+            0.9213153825222171,
+            -0.018089135617732472,
+            -0.012641804742986939,
+            0.06447867699750959,
+            0.9976750313394116,
+            0.0014006372075527906,
+            -0.0004917127662338316,
+            -0.0031377167906612158,
+            0.09246281534433365,
+            -0.24599392712116241,
+            0.06746479868888855
+        ],
+        [
+            0.6473272364192365,
+            0.1879393438624461,
+            0.9571938876439465,
+            -0.0542030014072616,
+            0.2587090131003231,
+            -0.07773103561890862,
+            0.9612957751289218,
+            -0.0003854430979117751,
+            0.0001964684051927179,
+            -0.00038232680526562035,
+            -0.003521543927490711,
+            -0.00665878364816308,
+            -0.00013818916340824217
+        ]
+    ],
+    "position_instruction": "Place the mug to the left of the knife on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "rotation_instruction_label": "handle_left",
+    "obj_codes": [
+        "85db1d392a89459dbde5cdd951c4f6fb",
+        "a564a11174be455bbce4698f7da92fdf"
+    ],
+    "target_obj_code": "a564a11174be455bbce4698f7da92fdf",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).": {
+                "quat": [
+                    [
+                        0.47213223576545715,
+                        -0.45122507214546204,
+                        -0.5337954163551331,
+                        0.5371680855751038
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "handle_left"
+}

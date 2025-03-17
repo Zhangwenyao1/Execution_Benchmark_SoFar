@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "knife",
+        "paperweight",
+        "can"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/0df75457524743ec81468c916fddb930/material_2.urdf",
+        "objaverse_rescale/21c10181c122474a8f72a4ad0331f185/material_2.urdf",
+        "ycb_16k_backup/010_potted_meat_can_google_16k/010_potted_meat_can_google_16k.urdf"
+    ],
+    "target_obj_name": "can",
+    "instruction": "Place the can behind the knife on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.4853591386281301,
+            -0.1965101191481864,
+            0.9011451067312566,
+            -0.7095473679472217,
+            -0.005092331907106358,
+            0.0022982914137328393,
+            0.7046355928077263,
+            0.004096487071365118,
+            0.000940232421271503,
+            0.03438793495297432,
+            -1.1512190103530884,
+            0.03394974023103714,
+            -0.1628457009792328
+        ],
+        [
+            0.3451381586987955,
+            0.0029164960562638154,
+            0.9380076520574715,
+            -0.14248726492539862,
+            0.03638263304165433,
+            -0.1525340907652093,
+            0.9772957763653053,
+            -0.0038271246012300253,
+            -0.004252352751791477,
+            -0.0005460900720208883,
+            0.03981500864028931,
+            -0.09195749461650848,
+            0.01747133769094944
+        ],
+        [
+            0.32014721481953795,
+            -0.05086387805738253,
+            0.9030530405812182,
+            -0.0023517935937888636,
+            -0.0007190688594721745,
+            -0.1183948758441301,
+            0.992963546853922,
+            0.0017064637504518032,
+            -0.002002440858632326,
+            -0.0016864684876054525,
+            0.049384135752916336,
+            0.03561018034815788,
+            -0.0036416540388017893
+        ]
+    ],
+    "position_instruction": "Place the can behind the knife on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "0df75457524743ec81468c916fddb930",
+        "21c10181c122474a8f72a4ad0331f185",
+        "010"
+    ],
+    "target_obj_code": "010",
+    "anno_target": {
+        "category": "can",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.0,
+                        0.7071067690849304,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.0,
+                        -0.7071067690849304,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "sideways"
+}

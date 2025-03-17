@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "plate",
+        "spatula",
+        "can",
+        "speaker"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6d5a4e1174dd4f5fa0a9a9076e476b91/material_2.urdf",
+        "ycb_16k_backup/033_spatula_google_16k/033_spatula_google_16k.urdf",
+        "ycb_16k_backup/002_master_chef_can_google_16k/002_master_chef_can_google_16k.urdf",
+        "objaverse_rescale/4445f4442a884999960e7e6660459095/material_2.urdf"
+    ],
+    "target_obj_name": "speaker",
+    "instruction": "Place the speaker at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.",
+    "init_obj_pos": [
+        [
+            0.6113948504059004,
+            -0.09194553762396171,
+            0.9127412121852373,
+            0.706621092294964,
+            0.026193174562984995,
+            0.026201576543885944,
+            0.706621558485728,
+            5.908128514420241e-05,
+            0.00033062667353078723,
+            -0.0008279057801701128,
+            -0.02725290134549141,
+            -0.0016915574669837952,
+            -0.0020490980241447687
+        ],
+        [
+            0.6526703134392972,
+            -0.17220645126956172,
+            0.9004364115233389,
+            0.0011094649527337518,
+            -0.001385422756188483,
+            0.09657586558815934,
+            0.9953240436547306,
+            0.002159599680453539,
+            -0.006519048474729061,
+            -0.009409701451659203,
+            0.4320451617240906,
+            0.19591684639453888,
+            -0.030140379443764687
+        ],
+        [
+            0.3746474979081697,
+            0.1703038910506847,
+            0.9703640784141188,
+            0.47746318696864787,
+            0.5189923913416868,
+            0.6543974024297164,
+            -0.27283665903323795,
+            0.025531873106956482,
+            -0.022976603358983994,
+            0.03328270465135574,
+            0.9763346314430237,
+            4.007795810699463,
+            -0.9441210627555847
+        ],
+        [
+            0.3928759239381904,
+            0.025987975416188552,
+            0.9687562890348614,
+            0.0015910552986829493,
+            -0.0022745274254467257,
+            0.8293577537104423,
+            -0.558711026764639,
+            -0.044377196580171585,
+            0.04075280949473381,
+            -0.01354977861046791,
+            -0.7455677390098572,
+            -0.45389631390571594,
+            0.04515093192458153
+        ]
+    ],
+    "position_instruction": "Place the speaker at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.",
+    "rotation_instruction_label": "upright_textual",
+    "obj_codes": [
+        "6d5a4e1174dd4f5fa0a9a9076e476b91",
+        "033",
+        "002",
+        "4445f4442a884999960e7e6660459095"
+    ],
+    "target_obj_code": "4445f4442a884999960e7e6660459095",
+    "anno_target": {
+        "category": "speaker",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.": {
+                "quat": [
+                    [
+                        -0.4999999701976776,
+                        -0.5000000596046448,
+                        -0.4999999701976776,
+                        -0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright_textual",
+    "rot_tag_level": 2,
+    "position_tag": "center",
+    "rotation_tag": "upright_textual"
+}

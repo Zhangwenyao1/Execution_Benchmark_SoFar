@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "bottle",
+        "cup",
+        "camera"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/c609327dd3a74fb597584e1b4a14a615/material_2.urdf",
+        "ycb_16k_backup/006_mustard_bottle_google_16k/006_mustard_bottle_google_16k.urdf",
+        "ycb_16k_backup/065-g_cups_google_16k/065-g_cups_google_16k.urdf",
+        "objaverse_rescale/f6f8675406b7437faaf96a1f82062028/material_2.urdf"
+    ],
+    "target_obj_name": "camera",
+    "instruction": "Place the camera to the right of the mug on the table. We also need to specify the rotation of the object after placement:  the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.",
+    "init_obj_pos": [
+        [
+            0.4066242077379857,
+            0.03753681908627582,
+            0.9360335543070553,
+            -0.0019247242571561844,
+            0.013855068691656413,
+            -0.001290032385045186,
+            0.9999013292943101,
+            -0.0009173675207421184,
+            0.0002987204061355442,
+            -0.00013852008851245046,
+            -0.004238252993673086,
+            -0.016550984233617783,
+            -0.0015379224205389619
+        ],
+        [
+            0.3426126851745367,
+            -0.10197556662075147,
+            0.9030883793744726,
+            0.00026403058492460317,
+            0.0001529867258131331,
+            -0.0056319202026421065,
+            0.9999840940523717,
+            -8.301004527311306e-06,
+            -0.0031006932258605957,
+            -0.000577345141209662,
+            0.04222312569618225,
+            -0.0025082200299948454,
+            -0.0011443524854257703
+        ],
+        [
+            0.7745583745768966,
+            0.23436970340043914,
+            0.938993484652777,
+            -0.6781777358917833,
+            0.11066971088438958,
+            -0.693047689405146,
+            0.21797264471407174,
+            -0.014174684882164001,
+            -5.63519170100335e-05,
+            -0.00303457910194993,
+            -0.08216769248247147,
+            -0.24811924993991852,
+            -0.08003699779510498
+        ],
+        [
+            0.6530470472988674,
+            0.030119278426101462,
+            0.9635038023720683,
+            -0.44515299969195854,
+            0.11941631612936641,
+            0.15467632931494735,
+            0.8738728645844285,
+            0.0035341514740139246,
+            -0.0010618912056088448,
+            -0.0011053915368393064,
+            0.0048500471748411655,
+            0.07266401499509811,
+            0.010223068296909332
+        ]
+    ],
+    "position_instruction": "Place the camera to the right of the mug on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.",
+    "rotation_instruction_label": "upright_lens_forth",
+    "obj_codes": [
+        "c609327dd3a74fb597584e1b4a14a615",
+        "006",
+        "065-g",
+        "f6f8675406b7437faaf96a1f82062028"
+    ],
+    "target_obj_code": "f6f8675406b7437faaf96a1f82062028",
+    "anno_target": {
+        "category": "camera",
+        "annotation": {
+            " the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "upright_lens_forth",
+    "rot_tag_level": 2,
+    "position_tag": "right",
+    "rotation_tag": "upright_lens_forth"
+}

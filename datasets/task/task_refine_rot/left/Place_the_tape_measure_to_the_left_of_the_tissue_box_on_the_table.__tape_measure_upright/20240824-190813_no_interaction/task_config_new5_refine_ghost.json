@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "can",
+        "tape measure"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6e9e9135bb5747f58d388e1e92477f02/material_2.urdf",
+        "ycb_16k_backup/010_potted_meat_can_google_16k/010_potted_meat_can_google_16k.urdf",
+        "objaverse_rescale/d1d1c4b27f5c45a29910830e268f7ee2/material_2.urdf"
+    ],
+    "target_obj_name": "tape measure",
+    "instruction": "Place the tape measure to the left of the tissue box on the table. We also need to specify the rotation of the object after placement:  the tape measure is placed upright on the table.",
+    "init_obj_pos": [
+        [
+            0.3470824617150024,
+            0.19951910168633452,
+            0.9317406642420084,
+            0.008385313603213495,
+            0.05339497161084962,
+            0.021035773227712856,
+            0.9983166630719751,
+            -0.0006299735978245735,
+            -0.0034159012138843536,
+            -0.0005634729168377817,
+            0.07723173499107361,
+            -0.011622272431850433,
+            0.00036892833304591477
+        ],
+        [
+            0.6421125251683415,
+            -0.22850303969804386,
+            0.9030840273735736,
+            -0.0005949236125245964,
+            -0.00020880825517371158,
+            0.04910034223512418,
+            0.9987936517906997,
+            0.0007875282317399979,
+            -0.0012990848626941442,
+            -0.00027526114718057215,
+            0.03666149079799652,
+            0.005102208815515041,
+            0.024576006457209587
+        ],
+        [
+            0.40130497858136777,
+            0.05222054059279612,
+            0.9674622349404375,
+            0.0026345241382763696,
+            0.030223017554949893,
+            -0.08882225263138879,
+            0.9955853735014015,
+            -0.0004829125537071377,
+            0.0009886141633614898,
+            -0.00032098745577968657,
+            -0.020151730626821518,
+            -0.013264273293316364,
+            0.0051800766959786415
+        ]
+    ],
+    "position_instruction": "Place the tape measure to the left of the tissue box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the tape measure is placed upright on the table.",
+    "rotation_instruction_label": "tape_measure_upright",
+    "obj_codes": [
+        "6e9e9135bb5747f58d388e1e92477f02",
+        "010",
+        "d1d1c4b27f5c45a29910830e268f7ee2"
+    ],
+    "target_obj_code": "d1d1c4b27f5c45a29910830e268f7ee2",
+    "anno_target": {
+        "category": "tape_measure",
+        "annotation": {
+            " the tape measure is placed upright on the table.": {
+                "quat": [
+                    [
+                        -0.0,
+                        -0.7437477111816406,
+                        -0.0,
+                        0.6684604287147522
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "tape_measure_upright",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "tape_measure_upright"
+}

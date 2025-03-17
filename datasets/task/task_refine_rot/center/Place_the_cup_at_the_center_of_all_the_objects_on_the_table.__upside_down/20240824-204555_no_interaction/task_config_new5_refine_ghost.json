@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "envelope box",
+        "glasses",
+        "apple",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/40b28d1cbfbd4e9f9acf653b748324ee/material_2.urdf",
+        "objaverse_rescale/e4f348e98ceb45e3abc77da5b738f1b2/material_2.urdf",
+        "objaverse_rescale/f53d75bd123b40bca14d12d54286f432/material_2.urdf",
+        "ycb_16k_backup/065-e_cups_google_16k/065-e_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.7051015085236501,
+            0.07262141211984441,
+            0.9317209807704181,
+            -1.032359512596005e-05,
+            0.00017316870543931625,
+            0.07357431058597047,
+            0.9972897225620159,
+            0.0005146238836459816,
+            5.948996476945467e-05,
+            -0.00029262679163366556,
+            -0.021431604400277138,
+            0.014752794057130814,
+            0.002478285226970911
+        ],
+        [
+            0.5929566440210398,
+            0.22505948802520484,
+            0.92481088721443,
+            0.7028032567036204,
+            -0.18241502248116157,
+            -0.13993656044117028,
+            0.6732088093540344,
+            -0.005881848279386759,
+            -0.00196147826500237,
+            0.03180320933461189,
+            -0.46457135677337646,
+            -0.21631105244159698,
+            0.029581818729639053
+        ],
+        [
+            0.5634659317869447,
+            -0.20165167887939395,
+            0.9682643419213077,
+            0.07290053872625715,
+            0.03180828962322168,
+            -0.18071290486448732,
+            0.9803145363505058,
+            0.0062333266250789165,
+            -0.028208985924720764,
+            -0.00463895732536912,
+            0.543018102645874,
+            0.11249958723783493,
+            0.03587697446346283
+        ],
+        [
+            0.607433337155372,
+            -0.05788170225924408,
+            0.8565648031127816,
+            -0.6099205913167379,
+            -0.2900266100804399,
+            0.23803261670284762,
+            0.6980128301963253,
+            0.009471588768064976,
+            -0.009641253389418125,
+            -0.002394097624346614,
+            0.29065871238708496,
+            0.24912944436073303,
+            -0.032643187791109085
+        ]
+    ],
+    "position_instruction": "Place the cup at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "40b28d1cbfbd4e9f9acf653b748324ee",
+        "e4f348e98ceb45e3abc77da5b738f1b2",
+        "f53d75bd123b40bca14d12d54286f432",
+        "065-e"
+    ],
+    "target_obj_code": "065-e",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "center",
+    "rotation_tag": "upside_down"
+}

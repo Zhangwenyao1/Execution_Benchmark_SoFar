@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "keyboard",
+        "tape measure",
+        "bottle"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f5080a3df6d847b693c5cca415886c61/material_2.urdf",
+        "objaverse_rescale/d1d1c4b27f5c45a29910830e268f7ee2/material_2.urdf",
+        "ycb_16k_backup/021_bleach_cleanser_google_16k/021_bleach_cleanser_google_16k.urdf"
+    ],
+    "target_obj_name": "bottle",
+    "instruction": "Place the bottle between the keyboard and the tape measure on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.27339794576329207,
+            -0.02774435195521973,
+            0.9138594881290106,
+            0.7048758514189174,
+            -0.008284561269171957,
+            -0.01121225356831524,
+            0.7091936868733064,
+            0.0014267328660935163,
+            0.006797116249799728,
+            -0.004577467683702707,
+            -0.2546287477016449,
+            -0.011593868024647236,
+            0.00455476064234972
+        ],
+        [
+            0.3501667306812383,
+            0.11529260750574456,
+            0.967464099471847,
+            0.001983204599776205,
+            0.030582010192427275,
+            -0.06831675894934089,
+            0.9971928740212512,
+            0.0015042590675875545,
+            -0.002090190537273884,
+            -0.0005569248460233212,
+            0.045659370720386505,
+            0.03765491396188736,
+            0.005663630086928606
+        ],
+        [
+            0.5721082992127603,
+            -0.05449939874314002,
+            0.9003779374341307,
+            -0.0008298822395968609,
+            -0.0006162538958849747,
+            0.11563679593744934,
+            0.993291026311989,
+            -0.0013630748726427555,
+            0.0006073315162211657,
+            -0.0005120114074088633,
+            -0.006546664051711559,
+            -0.01767818070948124,
+            0.00044972976320423186
+        ]
+    ],
+    "position_instruction": "Place the bottle between the keyboard and the tape measure on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "f5080a3df6d847b693c5cca415886c61",
+        "d1d1c4b27f5c45a29910830e268f7ee2",
+        "021"
+    ],
+    "target_obj_code": "021",
+    "anno_target": {
+        "category": "bottle",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.0,
+                        0.6908057332038879,
+                        -0.0,
+                        0.7230404019355774
+                    ],
+                    [
+                        -0.0,
+                        -0.7413507699966431,
+                        -0.0,
+                        0.6711177229881287
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "sideways"
+}

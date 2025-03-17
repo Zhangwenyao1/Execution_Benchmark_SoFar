@@ -1,0 +1,67 @@
+{
+    "selected_obj_names": [
+        "spoon"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/031_spoon_google_16k/031_spoon_google_16k.urdf"
+    ],
+    "target_obj_name": "spoon",
+    "instruction": "We need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "init_obj_pos": [
+        [
+            0.6251109657663748,
+            0.0076501520245999665,
+            0.9177700644174326,
+            0.9997504308510432,
+            -0.009574644521965131,
+            -0.012866654819966693,
+            0.0155515719197452,
+            0.0007621311233378947,
+            -0.005550878122448921,
+            0.024096321314573288,
+            0.7219240665435791,
+            -0.09264863282442093,
+            0.041679948568344116
+        ]
+    ],
+    "position_instruction": "",
+    "rotation_instruction": "We need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "rotation_instruction_label": "scoop_right",
+    "obj_codes": [
+        "031"
+    ],
+    "target_obj_code": "031",
+    "anno_target": {
+        "category": "spoon",
+        "annotation": {
+            " the ladle is lying on the table, with its scoop on the left(pointing towards left) and its handle on the right. ": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.8228724002838135,
+                        0.5682262182235718
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ladle is lying on the table, with its scoop on the right(pointing towards right) and its handle on the left.": {
+                "quat": [
+                    [
+                        -0.5680640339851379,
+                        0.8226374983787537,
+                        0.01965927705168724,
+                        0.013575514778494835
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "scoop_right",
+    "rot_tag_level": 1,
+    "position_tag": "rot_ins",
+    "rotation_tag": "scoop_right"
+}

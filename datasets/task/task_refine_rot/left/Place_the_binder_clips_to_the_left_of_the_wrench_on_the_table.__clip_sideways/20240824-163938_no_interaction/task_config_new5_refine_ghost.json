@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "wrench",
+        "fork",
+        "hammer",
+        "binder clips"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf",
+        "objaverse_rescale/e98e7fb33743442383812b68608f7006/material_2.urdf",
+        "objaverse_rescale/9bf1b31f641543c9a921042dac3b527f/material_2.urdf",
+        "objaverse_rescale/5e55c38b24dc4c239448efa1c6b7f49f/material_2.urdf"
+    ],
+    "target_obj_name": "binder clips",
+    "instruction": "Place the binder clips to the left of the wrench on the table. We also need to specify the rotation of the object after placement:  the binder clip is lying sideways on the table, which means that one side face of the black triangular prism is facing the table.",
+    "init_obj_pos": [
+        [
+            0.5643719021907195,
+            0.15979903946427262,
+            0.9027462530153643,
+            0.012214859195727098,
+            -0.016861629658370215,
+            0.03030709472846905,
+            0.9993237526793863,
+            0.002556211082264781,
+            -0.00453144870698452,
+            0.034798018634319305,
+            -0.3961266875267029,
+            0.08073059469461441,
+            0.17041197419166565
+        ],
+        [
+            0.3269632184947741,
+            -0.03879741000841659,
+            0.9055337114334879,
+            0.6513774791905634,
+            -0.26848760562691637,
+            -0.25787568568267255,
+            0.6611519613233893,
+            0.005938975140452385,
+            -0.0005395469488576055,
+            0.05221029371023178,
+            21.330392837524414,
+            22.019969940185547,
+            -0.9821698069572449
+        ],
+        [
+            0.6480206715822632,
+            -0.1331889737120172,
+            0.9075630450717581,
+            0.01638647150543583,
+            0.70665516291754,
+            -0.00025925603877850826,
+            0.7073682895492927,
+            0.0008459615637548268,
+            0.0012135228607803583,
+            0.030996980145573616,
+            -0.23219771683216095,
+            0.5578738451004028,
+            -0.016588885337114334
+        ],
+        [
+            0.41790095909659714,
+            -0.15519362591471222,
+            0.9100083283141758,
+            3.817972760332072e-05,
+            4.3188904931128625e-06,
+            0.03348924194542601,
+            0.9994390772816406,
+            0.0011717680608853698,
+            -0.0003472152748145163,
+            -0.0003598452894948423,
+            0.00529705872759223,
+            0.015834933146834373,
+            0.0025034185964614153
+        ]
+    ],
+    "position_instruction": "Place the binder clips to the left of the wrench on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the binder clip is lying sideways on the table, which means that one side face of the black triangular prism is facing the table.",
+    "rotation_instruction_label": "clip_sideways",
+    "obj_codes": [
+        "042",
+        "e98e7fb33743442383812b68608f7006",
+        "9bf1b31f641543c9a921042dac3b527f",
+        "5e55c38b24dc4c239448efa1c6b7f49f"
+    ],
+    "target_obj_code": "5e55c38b24dc4c239448efa1c6b7f49f",
+    "anno_target": {
+        "category": "binder_clips",
+        "annotation": {
+            " the binder clip is lying sideways on the table, which means that one side face of the black triangular prism is facing the table.": {
+                "quat": [
+                    [
+                        -0.13100828230381012,
+                        0.6948646306991577,
+                        -0.13100828230381012,
+                        0.6948646306991577
+                    ],
+                    [
+                        -0.6943783164024353,
+                        0.13356173038482666,
+                        -0.6943783164024353,
+                        0.13356173038482666
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "clip_sideways",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "clip_sideways"
+}

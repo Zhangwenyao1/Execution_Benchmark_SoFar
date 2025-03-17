@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "apple",
+        "wrench"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/7bc2b14a48d1413e9375c32a53e3ee6f/material_2.urdf",
+        "objaverse_rescale/f53d75bd123b40bca14d12d54286f432/material_2.urdf",
+        "objaverse_rescale/19c1913ba85042938f0a87d94397c946/material_2.urdf"
+    ],
+    "target_obj_name": "wrench",
+    "instruction": "Place the wrench on top of the mug on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.5952722570223565,
+            0.09998764568707766,
+            0.9401056703418681,
+            0.010126565037766311,
+            -0.12523426790936476,
+            -0.07569064139205234,
+            0.9891838846379383,
+            0.00044552923645824194,
+            8.94819459063001e-05,
+            -0.0002591421944089234,
+            0.0011584012536332011,
+            0.004053138662129641,
+            0.0006658999482169747
+        ],
+        [
+            0.5249429143759524,
+            -0.03584466011906895,
+            0.96826819839056,
+            0.05900730446657098,
+            0.05082057003140541,
+            0.11151657128823579,
+            0.9907065468691465,
+            -0.0031060022301971912,
+            0.004571121651679277,
+            -0.0012363262940198183,
+            -0.09337427467107773,
+            -0.05487826466560364,
+            -0.04490919038653374
+        ],
+        [
+            0.44527042434720754,
+            0.10611536792454639,
+            0.907512282173672,
+            0.010184406464928325,
+            0.000810619658364193,
+            -0.020111742582064676,
+            0.9997455369097876,
+            -0.00018776397337205708,
+            0.006398912984877825,
+            0.028667906299233437,
+            0.6816637516021729,
+            5.310710430145264,
+            -0.3444860875606537
+        ]
+    ],
+    "position_instruction": "Place the wrench on top of the mug on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "7bc2b14a48d1413e9375c32a53e3ee6f",
+        "f53d75bd123b40bca14d12d54286f432",
+        "19c1913ba85042938f0a87d94397c946"
+    ],
+    "target_obj_code": "19c1913ba85042938f0a87d94397c946",
+    "anno_target": {
+        "category": "wrench",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "handle_right"
+}

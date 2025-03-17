@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "hammer",
+        "microphone",
+        "can"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/8ed38a92668a425eb16da938622d9ace/material_2.urdf",
+        "objaverse_rescale/fac08019fef5474189f965bb495771eb/material_2.urdf",
+        "ycb_16k_backup/002_master_chef_can_google_16k/002_master_chef_can_google_16k.urdf"
+    ],
+    "target_obj_name": "can",
+    "instruction": "Place the can between the hammer and the microphone on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.36011981728500103,
+            0.13142748309000615,
+            0.9178268393625951,
+            -0.08277854390941719,
+            0.564839351121978,
+            0.11179215205672412,
+            0.8133921162827107,
+            0.019188279286026955,
+            0.0005998057895340025,
+            0.0156807079911232,
+            0.8371353149414062,
+            0.2198331207036972,
+            -0.12722231447696686
+        ],
+        [
+            0.47402217390510754,
+            0.2535711150020515,
+            0.9435688895753691,
+            -0.018200729606389323,
+            -0.046452553126772725,
+            0.03191058733306055,
+            0.9982447636556163,
+            -0.0036667482927441597,
+            0.00033322611125186086,
+            -0.0003216629847884178,
+            -0.0020589432679116726,
+            -0.10609487444162369,
+            0.035109370946884155
+        ],
+        [
+            0.6335332546693851,
+            0.13799460939067493,
+            0.9165650536253801,
+            -0.003652571798493317,
+            -0.12202029064542903,
+            -0.24533311577580147,
+            0.9617220854767766,
+            0.00025643501430749893,
+            0.0010733986273407936,
+            -0.0006259724614210427,
+            -0.019205549731850624,
+            0.003789669368416071,
+            0.0006554065039381385
+        ]
+    ],
+    "position_instruction": "Place the can between the hammer and the microphone on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "8ed38a92668a425eb16da938622d9ace",
+        "fac08019fef5474189f965bb495771eb",
+        "002"
+    ],
+    "target_obj_code": "002",
+    "anno_target": {
+        "category": "can",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "sideways"
+}

@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "shoe",
+        "hard drive",
+        "screwdriver",
+        "screwdriver"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/d6951661c1e445d8a1d00b7d38d86030/material_2.urdf",
+        "objaverse_rescale/e32b159011544b8aa7cacd812636353e/material_2.urdf",
+        "ycb_16k_backup/044_flat_screwdriver_google_16k/044_flat_screwdriver_google_16k.urdf",
+        "ycb_16k_backup/043_phillips_screwdriver_google_16k/043_phillips_screwdriver_google_16k.urdf"
+    ],
+    "target_obj_name": "screwdriver",
+    "instruction": "Place the screwdriver on top of the shoe on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.4837217465397768,
+            -0.21727129159934722,
+            0.9277096904575507,
+            -0.0767534044828456,
+            -0.06209659760465359,
+            -0.04166474062592475,
+            0.9942419106308046,
+            -0.009546494111418724,
+            0.003679113695397973,
+            -0.011205683462321758,
+            0.1435186117887497,
+            -0.35806819796562195,
+            -0.04875117167830467
+        ],
+        [
+            0.3309084223515354,
+            -0.18804787738284062,
+            0.9151815854618539,
+            0.7063034620712586,
+            -0.0343872094973812,
+            -0.0344576979641062,
+            0.7062333936738993,
+            0.0005873343907296658,
+            -0.0009804419241845608,
+            -9.306716674473137e-05,
+            0.08897613734006882,
+            0.04459783434867859,
+            -0.0007873276481404901
+        ],
+        [
+            0.3724900770718014,
+            -0.009856644225387312,
+            0.9005814697968625,
+            -0.0038300349531180914,
+            -0.010769818939380255,
+            -0.12678196035715444,
+            0.9918647470095237,
+            -0.001479968661442399,
+            0.00018349199672229588,
+            -0.0010899343760684133,
+            0.015145394019782543,
+            -0.039875272661447525,
+            0.01907643862068653
+        ],
+        [
+            0.4630493987946835,
+            0.08348132122729288,
+            0.3012388050556183,
+            -0.02582256868481636,
+            -0.011212057434022427,
+            0.006917909719049931,
+            0.9995796084403992,
+            -0.00018568184168543667,
+            -0.00023572526697535068,
+            -2.1651881070283707e-06,
+            -0.003214913187548518,
+            -0.01192013081163168,
+            0.01987963728606701
+        ]
+    ],
+    "position_instruction": "Place the screwdriver on top of the shoe on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "d6951661c1e445d8a1d00b7d38d86030",
+        "e32b159011544b8aa7cacd812636353e",
+        "044",
+        "043"
+    ],
+    "target_obj_code": "043",
+    "anno_target": {
+        "category": "screwdriver",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.8475578427314758,
+                        0.530703067779541
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "handle_right"
+}

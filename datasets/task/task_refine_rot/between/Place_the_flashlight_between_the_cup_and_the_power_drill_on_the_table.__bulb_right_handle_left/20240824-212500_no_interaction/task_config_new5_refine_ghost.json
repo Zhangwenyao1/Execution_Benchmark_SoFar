@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "power drill",
+        "clipboard",
+        "flashlight"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-d_cups_google_16k/065-d_cups_google_16k.urdf",
+        "ycb_16k_backup/035_power_drill_google_16k/035_power_drill_google_16k.urdf",
+        "objaverse_rescale/a37158f20ccf436483029e8295629738/material_2.urdf",
+        "objaverse_rescale/123a79642c2646d8b315576828fea84a/material_2.urdf"
+    ],
+    "target_obj_name": "flashlight",
+    "instruction": "Place the flashlight between the cup and the power drill on the table. We also need to specify the rotation of the object after placement:  the flashlight is lying on the table(not standing up), with its bulb side on the right (oriented towards right) and its handle on the left.",
+    "init_obj_pos": [
+        [
+            0.6596983020278425,
+            -0.19243020813326384,
+            0.9006002883075777,
+            0.0007634778170032234,
+            -0.0010698775106401273,
+            0.08444721385442329,
+            0.9964270874158127,
+            0.006495929788798094,
+            0.0011583729647099972,
+            -0.006840566638857126,
+            -0.03704635426402092,
+            0.1811913549900055,
+            -0.04586758092045784
+        ],
+        [
+            0.425761531511903,
+            0.03449585487361885,
+            0.9068505673002718,
+            0.00895457949807304,
+            -0.04527758931118432,
+            -0.008469847070526556,
+            0.9988984017920854,
+            -5.4758278565714136e-05,
+            0.00023075021454133093,
+            -0.00042914407094940543,
+            -0.007599552161991596,
+            0.002997882664203644,
+            0.00021509730140678585
+        ],
+        [
+            0.36539523918716066,
+            -0.29988420849552844,
+            0.9036466940694943,
+            0.7053337535870554,
+            -0.05001851983886997,
+            -0.050014165402510684,
+            0.7053375269918738,
+            0.0017954413779079914,
+            0.0014369582058861852,
+            0.016551479697227478,
+            -0.04224206507205963,
+            0.4178384840488434,
+            0.003638981143012643
+        ],
+        [
+            0.5506461552484837,
+            0.023531873958672466,
+            0.9989367878651387,
+            5.1899449717197525e-06,
+            -8.945156137458127e-07,
+            0.0477804241764262,
+            0.9988578632807498,
+            0.0008407175773754716,
+            -0.0009350692271254957,
+            -0.0003182584187015891,
+            0.0059929112903773785,
+            0.01385777723044157,
+            -0.006121534388512373
+        ]
+    ],
+    "position_instruction": "Place the flashlight between the cup and the power drill on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the flashlight is lying on the table(not standing up), with its bulb side on the right (oriented towards right) and its handle on the left.",
+    "rotation_instruction_label": "bulb_right_handle_left",
+    "obj_codes": [
+        "065-d",
+        "035",
+        "a37158f20ccf436483029e8295629738",
+        "123a79642c2646d8b315576828fea84a"
+    ],
+    "target_obj_code": "123a79642c2646d8b315576828fea84a",
+    "anno_target": {
+        "category": "flashlight",
+        "annotation": {
+            " the flashlight is lying on the table(not standing up), with its bulb side on the left (oriented towards left) and its handle on the right.": {
+                "quat": [
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the flashlight is lying on the table(not standing up), with its bulb side on the right (oriented towards right) and its handle on the left.": {
+                "quat": [
+                    [
+                        3.090862321641907e-08,
+                        -0.7071068286895752,
+                        0.7071067094802856,
+                        -3.0908616110991716e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "bulb_right_handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "bulb_right_handle_left"
+}

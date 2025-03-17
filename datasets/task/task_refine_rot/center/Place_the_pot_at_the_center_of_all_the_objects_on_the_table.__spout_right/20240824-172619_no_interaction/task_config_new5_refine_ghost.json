@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "wineglass",
+        "scissors",
+        "headphone",
+        "pot"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/afca0b1933b84b1dbebd1244f25e72fc/material_2.urdf",
+        "ycb_16k_backup/037_scissors_google_16k/037_scissors_google_16k.urdf",
+        "objaverse_rescale/f8891134871e48ce8cb5053c4287272b/material_2.urdf",
+        "objaverse_rescale/cba3e4df7c354d22b7913d45a28a8159/material_2.urdf"
+    ],
+    "target_obj_name": "pot",
+    "instruction": "Place the pot at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the pot is upright on the table with its spout pointing towards right.",
+    "init_obj_pos": [
+        [
+            0.38817175307636775,
+            -0.20982478872877633,
+            0.9407053621684891,
+            0.0019034404824921128,
+            0.02377403991997909,
+            0.08845320489006986,
+            0.9957947592174234,
+            -0.0004331998061388731,
+            0.005507310852408409,
+            -0.0004884154186584055,
+            -0.11272483319044113,
+            -0.0035735899582505226,
+            -0.030025383457541466
+        ],
+        [
+            0.50380341729541,
+            -0.2207148196608895,
+            0.9001710365680153,
+            -0.001109783640147676,
+            -0.0016142366597629734,
+            0.018242135808934665,
+            0.999831679384788,
+            -2.091392525471747e-05,
+            0.007202407345175743,
+            0.001108379103243351,
+            -1.012822151184082,
+            -1.5687270164489746,
+            0.4489404857158661
+        ],
+        [
+            0.6284950395966701,
+            0.05821426585444506,
+            0.9458072799568098,
+            -0.11380616664767355,
+            0.0017985775653290282,
+            -0.015699483345951944,
+            0.9933772937682711,
+            0.000328464520862326,
+            0.00026238098507747054,
+            1.5100173186510801e-05,
+            -0.005608165170997381,
+            0.008969899266958237,
+            -0.0006197658367455006
+        ],
+        [
+            0.41894365558577457,
+            0.10155854115312062,
+            0.9373439548696739,
+            -0.17015930351785108,
+            -0.02059540805182693,
+            0.04569494785058167,
+            0.9841410530683244,
+            -0.0018629560945555568,
+            0.00040694689960218966,
+            -2.453480010444764e-05,
+            -0.0069841803051531315,
+            -0.03201034665107727,
+            -0.00012232825974933803
+        ]
+    ],
+    "position_instruction": "Place the pot at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the pot is upright on the table with its spout pointing towards right.",
+    "rotation_instruction_label": "spout_right",
+    "obj_codes": [
+        "afca0b1933b84b1dbebd1244f25e72fc",
+        "037",
+        "f8891134871e48ce8cb5053c4287272b",
+        "cba3e4df7c354d22b7913d45a28a8159"
+    ],
+    "target_obj_code": "cba3e4df7c354d22b7913d45a28a8159",
+    "anno_target": {
+        "category": "pot",
+        "annotation": {
+            " the pot is upright on the table with its spout pointing towards left.": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            },
+            " the pot is upright on the table with its spout pointing towards right.": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "spout_right",
+    "rot_tag_level": 1,
+    "position_tag": "center",
+    "rotation_tag": "spout_right"
+}

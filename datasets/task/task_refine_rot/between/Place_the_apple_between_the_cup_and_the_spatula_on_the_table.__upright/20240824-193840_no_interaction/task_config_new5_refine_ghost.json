@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "spatula",
+        "apple"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-b_cups_google_16k/065-b_cups_google_16k.urdf",
+        "objaverse_rescale/4b27628be0804c0285d0b13dda025a0d/material_2.urdf",
+        "objaverse_rescale/fbda0b25f41f40958ea984f460e4770b/material_2.urdf"
+    ],
+    "target_obj_name": "apple",
+    "instruction": "Place the apple between the cup and the spatula on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.6661458679612027,
+            -0.023888284625958437,
+            0.9006600536988789,
+            0.00042233966332791325,
+            -0.001393454942284833,
+            -0.010388967945910463,
+            0.9999449731147974,
+            0.0022653143387287855,
+            0.0021897631231695414,
+            -0.007514772936701775,
+            -0.10010376572608948,
+            0.18275411427021027,
+            0.07550105452537537
+        ],
+        [
+            0.3792844840401022,
+            -0.048419276499513386,
+            0.903984783503662,
+            -0.00425654756484125,
+            0.0016765550535467108,
+            -0.11363325594356875,
+            0.9935122314846685,
+            -0.0021838205866515636,
+            9.934813715517521e-05,
+            -0.010889355093240738,
+            0.43354737758636475,
+            1.7095301151275635,
+            -0.3248690068721771
+        ],
+        [
+            0.5996118982257631,
+            0.037647493209137135,
+            0.9260353517304156,
+            0.1123242898152262,
+            0.0532717479131657,
+            -0.06277019865021492,
+            0.9902551574989105,
+            -0.00031324109295383096,
+            0.0044728596694767475,
+            -0.0018400383414700627,
+            -0.08927180618047714,
+            -0.012101654894649982,
+            0.013895067386329174
+        ]
+    ],
+    "position_instruction": "Place the apple between the cup and the spatula on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "065-b",
+        "4b27628be0804c0285d0b13dda025a0d",
+        "fbda0b25f41f40958ea984f460e4770b"
+    ],
+    "target_obj_code": "fbda0b25f41f40958ea984f460e4770b",
+    "anno_target": {
+        "category": "apple",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upright"
+}

@@ -1,0 +1,79 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "watch"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-i_cups_google_16k/065-i_cups_google_16k.urdf",
+        "objaverse_rescale/fdb8227a88b2448d8c64fa82ffee3f58/material_2.urdf"
+    ],
+    "target_obj_name": "watch",
+    "instruction": "Place the watch to the left of the cup on the table. We also need to specify the rotation of the object after placement:  the watch is placed steadily on the table, and its contact with the table is in the shape of a circle, which means that the bringe of the watch bracelet is in touch with the table and while the plane of the watch dial is perpendicular to the table.",
+    "init_obj_pos": [
+        [
+            0.5719621405551858,
+            0.16859353874331498,
+            0.9005132642797434,
+            0.0015518908640404022,
+            -0.0015299473029267993,
+            -0.015856341106046192,
+            0.999871905467258,
+            0.0022743286099284887,
+            -0.005204204469919205,
+            -0.004386828280985355,
+            0.15615461766719818,
+            0.12550510466098785,
+            0.027165744453668594
+        ],
+        [
+            0.3320546374735667,
+            0.052589645855650576,
+            0.9695485463137158,
+            -0.001349325083437823,
+            0.02284682417321431,
+            0.05956824057723697,
+            0.9979618362750896,
+            0.002565605565905571,
+            0.0007015530718490481,
+            -0.0002581690496299416,
+            -0.007457769941538572,
+            0.04202685505151749,
+            0.04372037947177887
+        ]
+    ],
+    "position_instruction": "Place the watch to the left of the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the watch is placed steadily on the table, and its contact with the table is in the shape of a circle, which means that the bringe of the watch bracelet is in touch with the table and while the plane of the watch dial is perpendicular to the table.",
+    "rotation_instruction_label": "watch_upright",
+    "obj_codes": [
+        "065-i",
+        "fdb8227a88b2448d8c64fa82ffee3f58"
+    ],
+    "target_obj_code": "fdb8227a88b2448d8c64fa82ffee3f58",
+    "anno_target": {
+        "category": "watch",
+        "annotation": {
+            " the watch is placed steadily on the table, and its contact with the table is in the shape of a circle, which means that the bringe of the watch bracelet is in touch with the table and while the plane of the watch dial is perpendicular to the table.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        -0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "watch_upright",
+    "rot_tag_level": 2,
+    "position_tag": "left",
+    "rotation_tag": "watch_upright"
+}

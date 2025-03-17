@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "box",
+        "keyboard",
+        "cup",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/003_cracker_box_google_16k/003_cracker_box_google_16k.urdf",
+        "objaverse_rescale/f5080a3df6d847b693c5cca415886c61/material_2.urdf",
+        "ycb_16k_backup/065-d_cups_google_16k/065-d_cups_google_16k.urdf",
+        "ycb_16k_backup/065-i_cups_google_16k/065-i_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup in front of box on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.42096051295278886,
+            -0.22985454111175405,
+            0.9233289289008265,
+            -0.4992170364978717,
+            -0.5085352052726136,
+            0.4863256879948084,
+            -0.5056299246138418,
+            0.0006146653322502971,
+            0.00015969743253663182,
+            -0.00027514726389199495,
+            -0.005164027214050293,
+            0.019703209400177002,
+            -0.00031365445465780795
+        ],
+        [
+            0.5518873532401741,
+            0.09827393399218286,
+            0.9138401264236132,
+            0.706515556815372,
+            -0.04473828089758285,
+            -0.04863591584607293,
+            0.7046054228360775,
+            -0.001051063765771687,
+            0.004242330323904753,
+            -0.0040439702570438385,
+            -0.11371350288391113,
+            -0.07732054591178894,
+            -0.017456673085689545
+        ],
+        [
+            0.34666419171738816,
+            -0.12379562971448163,
+            0.8640978584912431,
+            0.6568087570611749,
+            0.14779462641842364,
+            -0.2925042654995435,
+            -0.6791172650685336,
+            0.007128817029297352,
+            -0.01359409000724554,
+            0.007921517826616764,
+            0.5734655857086182,
+            0.2508065104484558,
+            -0.0608956478536129
+        ],
+        [
+            0.6746974338394995,
+            -0.02570916338029689,
+            0.32401078939437866,
+            -0.07880701869726181,
+            -0.6949222087860107,
+            0.07090450823307037,
+            -0.7112278342247009,
+            -0.0045100911520421505,
+            -0.0165181215852499,
+            0.00028823543107137084,
+            0.49658724665641785,
+            -0.14593932032585144,
+            -0.008179569616913795
+        ]
+    ],
+    "position_instruction": "Place the cup in front of box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "003",
+        "f5080a3df6d847b693c5cca415886c61",
+        "065-d",
+        "065-i"
+    ],
+    "target_obj_code": "065-i",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "front",
+    "rotation_tag": "upside_down"
+}

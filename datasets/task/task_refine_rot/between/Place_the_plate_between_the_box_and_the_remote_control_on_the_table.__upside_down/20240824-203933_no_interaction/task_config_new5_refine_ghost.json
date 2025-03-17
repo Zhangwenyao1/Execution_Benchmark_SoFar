@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "box",
+        "remote control",
+        "plate"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/004_sugar_box_google_16k/004_sugar_box_google_16k.urdf",
+        "objaverse_rescale/d72eebbf82be48f0a53e7e8b712e6a66/material_2.urdf",
+        "ycb_16k_backup/029_plate_google_16k/029_plate_google_16k.urdf"
+    ],
+    "target_obj_name": "plate",
+    "instruction": "Place the plate between the box and the remote control on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.36568773704652063,
+            0.23483288273101782,
+            0.8998695130267226,
+            -0.0006725137768413316,
+            -0.00010324632262842728,
+            0.01319578027261514,
+            0.9999127004135983,
+            -0.0030873394571244717,
+            -0.002258948516100645,
+            -0.0006279776571318507,
+            0.0276214387267828,
+            -0.039191532880067825,
+            -0.015782678499817848
+        ],
+        [
+            0.47342695412634644,
+            0.21300679364416245,
+            0.9117728826039587,
+            0.011220771924134175,
+            0.0006512162493994455,
+            0.08608702548426668,
+            0.9962242188574296,
+            0.0018629772821441293,
+            0.0008707831730134785,
+            0.00011436390923336148,
+            -0.03060113452374935,
+            0.2954593598842621,
+            0.055254120379686356
+        ],
+        [
+            0.394181949872238,
+            -0.012873626241153527,
+            0.9030426971453459,
+            -9.558646396845639e-05,
+            -0.0002071099444094317,
+            0.11986644036427103,
+            0.9927900001727943,
+            6.60217774566263e-05,
+            6.4366327023890335e-06,
+            -0.0002734779263846576,
+            -0.0004899371997453272,
+            0.0069938232190907,
+            5.640473682433367e-05
+        ]
+    ],
+    "position_instruction": "Place the plate between the box and the remote control on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "004",
+        "d72eebbf82be48f0a53e7e8b712e6a66",
+        "029"
+    ],
+    "target_obj_code": "029",
+    "anno_target": {
+        "category": "plate",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

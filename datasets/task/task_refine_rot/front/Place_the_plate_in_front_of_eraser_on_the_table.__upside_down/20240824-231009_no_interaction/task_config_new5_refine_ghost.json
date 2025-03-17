@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "eraser",
+        "apple",
+        "USB",
+        "plate"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f0916a69ba514ecc973b44528b9dcc43/material_2.urdf",
+        "ycb_16k_backup/013_apple_google_16k/013_apple_google_16k.urdf",
+        "objaverse_rescale/b1098389cc3b460bb1f1ce558d4b0764/material_2.urdf",
+        "objaverse_rescale/6d5a4e1174dd4f5fa0a9a9076e476b91/material_2.urdf"
+    ],
+    "target_obj_name": "plate",
+    "instruction": "Place the plate in front of eraser on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.5049413864131911,
+            -0.006651054666653726,
+            0.910674748811492,
+            0.6822350029752585,
+            0.15287619682400144,
+            0.17895870793735716,
+            0.6922124312762458,
+            -0.005134986713528633,
+            -0.030868947505950928,
+            -0.0005645042983815074,
+            2.359731435775757,
+            -1.4032340049743652,
+            0.3779965937137604
+        ],
+        [
+            0.5264303243655184,
+            0.23270131545841005,
+            0.9006195575973297,
+            0.008397260220028697,
+            -0.018841315640544063,
+            0.07024006937862808,
+            0.9973168120007885,
+            -0.002259291475638747,
+            0.0009119316819123924,
+            -0.0004855465958826244,
+            -0.013590844348073006,
+            -0.08082957565784454,
+            0.0808839201927185
+        ],
+        [
+            0.44769104229750784,
+            -0.2283042403356736,
+            0.9250258766921149,
+            -0.024530582023336012,
+            -0.00017848369297530174,
+            0.0072862361870142,
+            0.999672511101208,
+            -0.00229971413500607,
+            0.0010931171709671617,
+            -0.004649989772588015,
+            -0.02828352339565754,
+            -0.11619708687067032,
+            0.004865636117756367
+        ],
+        [
+            0.6277642351969849,
+            0.1340631221384447,
+            0.9127413995731979,
+            0.705978583186011,
+            -0.03999524138591542,
+            -0.03999734595271269,
+            0.7059708443454968,
+            1.9561479348340072e-05,
+            -9.107875666813925e-05,
+            -0.00021000351989641786,
+            -0.004846761003136635,
+            -0.0034873448312282562,
+            -0.002438683295622468
+        ]
+    ],
+    "position_instruction": "Place the plate in front of eraser on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "f0916a69ba514ecc973b44528b9dcc43",
+        "013",
+        "b1098389cc3b460bb1f1ce558d4b0764",
+        "6d5a4e1174dd4f5fa0a9a9076e476b91"
+    ],
+    "target_obj_code": "6d5a4e1174dd4f5fa0a9a9076e476b91",
+    "anno_target": {
+        "category": "plate",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "front",
+    "rotation_tag": "upside_down"
+}

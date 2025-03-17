@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "plate",
+        "cup",
+        "SD card",
+        "calculator"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/029_plate_google_16k/029_plate_google_16k.urdf",
+        "ycb_16k_backup/065-d_cups_google_16k/065-d_cups_google_16k.urdf",
+        "objaverse_rescale/02f7f045679d402da9b9f280030821d4/material_2.urdf",
+        "objaverse_rescale/d9ffbc4bbe1044bb902e1dddac52b0de/material_2.urdf"
+    ],
+    "target_obj_name": "calculator",
+    "instruction": "Place the calculator to the left of the plate on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.3820432563180407,
+            0.007125031719952593,
+            0.9030415267682628,
+            -0.00011278935060553646,
+            -0.00012920096591718174,
+            -0.02555955961635227,
+            0.9996732863780496,
+            7.8632052463945e-05,
+            -4.860325498157181e-05,
+            -0.00035004428355023265,
+            0.0031593020539730787,
+            0.008992645889520645,
+            -0.0002989908680319786
+        ],
+        [
+            0.644694987040036,
+            0.065579584552756,
+            0.9006101192153535,
+            0.0008445644599267927,
+            -0.0007956753628468012,
+            0.056707862803193766,
+            0.9983901401295404,
+            0.006806106306612492,
+            0.001263318583369255,
+            -0.0069197784177958965,
+            -0.06889865547418594,
+            0.1968058943748474,
+            -0.020068570971488953
+        ],
+        [
+            0.37467792129273075,
+            -0.1725401236229012,
+            0.8981911967855722,
+            0.697934155168709,
+            0.11431628210525811,
+            0.1137676200797903,
+            0.6977654558058537,
+            0.0002745014207903296,
+            -0.00025619432562962174,
+            0.03065159171819687,
+            -0.07075969874858856,
+            0.7493359446525574,
+            0.00019303297449368984
+        ],
+        [
+            0.577325872324251,
+            0.20569221684682595,
+            0.9051822202751384,
+            -0.7041678552059161,
+            -0.002624934906041814,
+            0.0026409111525484952,
+            0.7100237791790652,
+            -0.005013112910091877,
+            -0.0005799956852570176,
+            -0.01003885269165039,
+            0.0021519020665436983,
+            0.1986299604177475,
+            -0.08253908157348633
+        ]
+    ],
+    "position_instruction": "Place the calculator to the left of the plate on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "029",
+        "065-d",
+        "02f7f045679d402da9b9f280030821d4",
+        "d9ffbc4bbe1044bb902e1dddac52b0de"
+    ],
+    "target_obj_code": "d9ffbc4bbe1044bb902e1dddac52b0de",
+    "anno_target": {
+        "category": "calculator",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "upside_down"
+}

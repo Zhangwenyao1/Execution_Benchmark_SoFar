@@ -1,0 +1,71 @@
+{
+    "selected_obj_names": [
+        "bottle",
+        "plate"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/794b730ae452424bb3a9ce3c6caaff7a/material_2.urdf",
+        "objaverse_rescale/8d50c19e138b403e8b2ede9b47d8be3c/material_2.urdf"
+    ],
+    "target_obj_name": "plate",
+    "instruction": "Place the plate to the left of the bottle on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6346797177121102,
+            0.16745585725205742,
+            0.9316698322532211,
+            0.04133152253638144,
+            0.9928382608740505,
+            -0.012663642033921094,
+            0.11137111456680779,
+            -0.006480795796960592,
+            -5.270976180327125e-05,
+            -0.0005200994201004505,
+            -0.005970458034425974,
+            -0.3376528024673462,
+            0.002853631740435958
+        ],
+        [
+            0.42618014894513273,
+            0.20394792674153917,
+            0.9147544234245784,
+            0.7070733276091088,
+            -0.006564548031073191,
+            -0.006570026679723822,
+            0.7070792394366823,
+            0.00011601259029703215,
+            0.00047249847557395697,
+            -0.0008910262258723378,
+            -0.04310023784637451,
+            0.019084502011537552,
+            0.0022496534511446953
+        ]
+    ],
+    "position_instruction": "Place the plate to the left of the bottle on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "794b730ae452424bb3a9ce3c6caaff7a",
+        "8d50c19e138b403e8b2ede9b47d8be3c"
+    ],
+    "target_obj_code": "8d50c19e138b403e8b2ede9b47d8be3c",
+    "anno_target": {
+        "category": "plate",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "upside_down"
+}

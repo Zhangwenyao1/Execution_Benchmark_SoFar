@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "pear",
+        "glue gun",
+        "tissue box",
+        "spatula"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f3dd3064db4f4e8880344425970cecad/material_2.urdf",
+        "objaverse_rescale/a1da12b81f034db894496c1ffc4be1f5/material_2.urdf",
+        "objaverse_rescale/6f8040c86eb84e7bba2cd928c0755029/material_2.urdf",
+        "ycb_16k_backup/033_spatula_google_16k/033_spatula_google_16k.urdf"
+    ],
+    "target_obj_name": "spatula",
+    "instruction": "Place the spatula to the right of the pear on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.48487920556229624,
+            -0.38751767094449385,
+            0.9342878194513812,
+            -0.18967967512665135,
+            0.012699473134857616,
+            0.08425061445481441,
+            0.9781422075495627,
+            -0.002442800672724843,
+            -0.0031246414873749018,
+            -0.00060335046146065,
+            0.09200763702392578,
+            -0.06892933696508408,
+            -0.030411969870328903
+        ],
+        [
+            0.616436727249548,
+            0.012152151178545323,
+            0.9205361944387632,
+            0.5896780174985758,
+            0.27061184495992735,
+            0.3091625701615701,
+            0.6953183229697207,
+            -0.014063604176044464,
+            0.014944029971957207,
+            0.015255901962518692,
+            -0.05419241264462471,
+            0.2847646474838257,
+            -0.36791709065437317
+        ],
+        [
+            0.6723564674288246,
+            0.1426583570977492,
+            0.9271005654301556,
+            0.009138350453520433,
+            -0.0005987230006575305,
+            -0.06560580906869817,
+            0.9978035928469077,
+            -0.0002378791250521317,
+            -0.0009284839034080505,
+            -0.0003015030815731734,
+            0.01873999647796154,
+            -0.005296375136822462,
+            -0.00023435910406988114
+        ],
+        [
+            0.4690023543807576,
+            -0.10351731586488788,
+            0.9004369362839547,
+            0.0012846248620412234,
+            -0.0012380121605895563,
+            0.22301642106735192,
+            0.9748130554107091,
+            5.314912414178252e-05,
+            -0.0021563393529504538,
+            0.002135186456143856,
+            -0.1809845268726349,
+            0.0008618917781859636,
+            0.1381792426109314
+        ]
+    ],
+    "position_instruction": "Place the spatula to the right of the pear on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "f3dd3064db4f4e8880344425970cecad",
+        "a1da12b81f034db894496c1ffc4be1f5",
+        "6f8040c86eb84e7bba2cd928c0755029",
+        "033"
+    ],
+    "target_obj_code": "033",
+    "anno_target": {
+        "category": "spatula",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.621095597743988,
+                        0.7837347984313965
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "handle_right"
+}

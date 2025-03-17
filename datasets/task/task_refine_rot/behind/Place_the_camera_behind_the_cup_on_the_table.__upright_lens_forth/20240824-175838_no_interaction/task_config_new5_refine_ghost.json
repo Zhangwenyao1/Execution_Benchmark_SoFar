@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "highlighter",
+        "camera"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-g_cups_google_16k/065-g_cups_google_16k.urdf",
+        "objaverse_rescale/fd058916fb8843c09b4a2e05e3ee894e/material_2.urdf",
+        "objaverse_rescale/f6f8675406b7437faaf96a1f82062028/material_2.urdf"
+    ],
+    "target_obj_name": "camera",
+    "instruction": "Place the camera behind the cup on the table. We also need to specify the rotation of the object after placement:  the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.",
+    "init_obj_pos": [
+        [
+            0.3771388826213734,
+            -0.13291543918993312,
+            0.900557185836863,
+            0.0006317746135136097,
+            -0.0013850893466073625,
+            0.11352726309177909,
+            0.9935337150410286,
+            0.00294310855679214,
+            0.009118670597672462,
+            -0.004145605023950338,
+            -0.32767799496650696,
+            0.10475464910268784,
+            0.0044167363084852695
+        ],
+        [
+            0.4935008417405501,
+            -0.21764743487703875,
+            0.9115303585382635,
+            0.7110540009529871,
+            0.012553167377945854,
+            0.013648402183388874,
+            0.7028928416447077,
+            -0.007876558229327202,
+            0.003418025793507695,
+            -0.008299475535750389,
+            0.015857238322496414,
+            -0.9418169260025024,
+            0.4236139953136444
+        ],
+        [
+            0.6332010126898581,
+            0.3419966009509298,
+            0.95801334024004,
+            -0.5011167187133836,
+            0.20688952458279455,
+            0.3681414206951335,
+            0.7553480344929788,
+            0.002477099420502782,
+            -0.0008888564771041274,
+            -0.0006991195841692388,
+            0.0026083230040967464,
+            0.027969928458333015,
+            -0.006940379738807678
+        ]
+    ],
+    "position_instruction": "Place the camera behind the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.",
+    "rotation_instruction_label": "upright_lens_forth",
+    "obj_codes": [
+        "065-g",
+        "fd058916fb8843c09b4a2e05e3ee894e",
+        "f6f8675406b7437faaf96a1f82062028"
+    ],
+    "target_obj_code": "f6f8675406b7437faaf96a1f82062028",
+    "anno_target": {
+        "category": "camera",
+        "annotation": {
+            " the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "upright_lens_forth",
+    "rot_tag_level": 2,
+    "position_tag": "behind",
+    "rotation_tag": "upright_lens_forth"
+}

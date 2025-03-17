@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "remote control",
+        "clock",
+        "speaker"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/89dcd45ac1f04680b76b709357a3dba3/material_2.urdf",
+        "objaverse_rescale/fdf932b04e6c4e0fbd6e274563b94536/material_2.urdf",
+        "objaverse_rescale/4445f4442a884999960e7e6660459095/material_2.urdf"
+    ],
+    "target_obj_name": "speaker",
+    "instruction": "Place the speaker between the remote control and the clock on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.",
+    "init_obj_pos": [
+        [
+            0.41515403350137103,
+            -0.0518453203977603,
+            0.9142833593220773,
+            -0.7460440235584449,
+            -0.028038281646790286,
+            0.02219207838221964,
+            0.6649358475312475,
+            0.006854115519672632,
+            0.009963074699044228,
+            0.02637682482600212,
+            -1.0404495000839233,
+            0.7506000995635986,
+            0.019492244347929955
+        ],
+        [
+            0.412069834131924,
+            0.06581425849982077,
+            0.9642634300201897,
+            0.1497704846293894,
+            0.12354540369686517,
+            0.5830843191846046,
+            -0.7888713531877558,
+            -0.005202814005315304,
+            0.009548068977892399,
+            0.018802309408783913,
+            -0.27852576971054077,
+            -0.12121912091970444,
+            -0.009390871971845627
+        ],
+        [
+            0.6860178912776751,
+            0.17019773500778856,
+            0.9676960080456682,
+            -0.34722486680196135,
+            -0.9362147590407605,
+            0.051121967981188746,
+            -0.017982247310613923,
+            -0.0014923345297574997,
+            0.001787606393918395,
+            -0.00019854947458952665,
+            -0.03190991282463074,
+            -0.023087434470653534,
+            -0.009728667326271534
+        ]
+    ],
+    "position_instruction": "Place the speaker between the remote control and the clock on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.",
+    "rotation_instruction_label": "upright_textual",
+    "obj_codes": [
+        "89dcd45ac1f04680b76b709357a3dba3",
+        "fdf932b04e6c4e0fbd6e274563b94536",
+        "4445f4442a884999960e7e6660459095"
+    ],
+    "target_obj_code": "4445f4442a884999960e7e6660459095",
+    "anno_target": {
+        "category": "speaker",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.": {
+                "quat": [
+                    [
+                        -0.4999999701976776,
+                        -0.5000000596046448,
+                        -0.4999999701976776,
+                        -0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright_textual",
+    "rot_tag_level": 2,
+    "position_tag": "between",
+    "rotation_tag": "upright_textual"
+}

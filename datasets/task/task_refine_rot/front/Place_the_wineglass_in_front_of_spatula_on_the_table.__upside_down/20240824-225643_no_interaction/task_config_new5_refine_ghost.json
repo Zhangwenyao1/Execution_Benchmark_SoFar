@@ -1,0 +1,71 @@
+{
+    "selected_obj_names": [
+        "spatula",
+        "wineglass"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/4b27628be0804c0285d0b13dda025a0d/material_2.urdf",
+        "objaverse_rescale/afca0b1933b84b1dbebd1244f25e72fc/material_2.urdf"
+    ],
+    "target_obj_name": "wineglass",
+    "instruction": "Place the wineglass in front of spatula on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.3496640901286964,
+            -0.19601384142792438,
+            0.9039870347590897,
+            -0.004305908419634495,
+            0.001429289205330371,
+            -0.06775405735709981,
+            0.997691737961531,
+            -0.001122314017266035,
+            0.00022524326050188392,
+            -0.010398566722869873,
+            0.07141779363155365,
+            -0.2103971540927887,
+            -0.030685191974043846
+        ],
+        [
+            0.3899160615196482,
+            0.21169323022316733,
+            0.940703854756286,
+            0.003611576384955689,
+            0.023677750496977533,
+            0.01619505152687682,
+            0.9995819330867576,
+            0.00012124660861445591,
+            0.005248492583632469,
+            0.00013002859486732632,
+            -0.14584393799304962,
+            0.004443093668669462,
+            -0.004339717794209719
+        ]
+    ],
+    "position_instruction": "Place the wineglass in front of spatula on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "4b27628be0804c0285d0b13dda025a0d",
+        "afca0b1933b84b1dbebd1244f25e72fc"
+    ],
+    "target_obj_code": "afca0b1933b84b1dbebd1244f25e72fc",
+    "anno_target": {
+        "category": "wineglass",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "front",
+    "rotation_tag": "upside_down"
+}

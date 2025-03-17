@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "toy",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/2c88306f3d724a839054f3c2913fb1d5/material_2.urdf",
+        "ycb_16k_backup/072-a_toy_airplane_google_16k/072-a_toy_airplane_google_16k.urdf",
+        "objaverse_rescale/ca4f9a92cc2f4ee98fe9332db41bf7f7/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug in front of mug on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.4641052127704977,
+            0.18772192442343977,
+            0.9390847583849888,
+            -0.06541115151409173,
+            0.041427621688522494,
+            0.022734160560049444,
+            0.9967388280600213,
+            0.0007054960005916655,
+            -6.027768176863901e-05,
+            -0.00019344702013768256,
+            0.0013944738311693072,
+            0.011270333081483841,
+            0.0029921280220150948
+        ],
+        [
+            0.3127368312534193,
+            0.014916111137338432,
+            0.9001694715994237,
+            -0.001633558738662883,
+            -0.0005678800191819378,
+            -0.05698582716082449,
+            0.9983734894822309,
+            0.0032359976321458817,
+            -0.00010179610399063677,
+            -0.0010108634596690536,
+            0.0013054290320724249,
+            0.04244439676403999,
+            -0.0014786465326324105
+        ],
+        [
+            0.6644660234451294,
+            0.09613786582211307,
+            0.34962233901023865,
+            0.052627574652433395,
+            0.23749037086963654,
+            -0.07996726036071777,
+            0.9666611552238464,
+            0.0005058745155110955,
+            -0.0011486344737932086,
+            -0.0004910980351269245,
+            0.022731630131602287,
+            0.00910521112382412,
+            0.0008154372917488217
+        ]
+    ],
+    "position_instruction": "Place the mug in front of mug on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "2c88306f3d724a839054f3c2913fb1d5",
+        "072-a",
+        "ca4f9a92cc2f4ee98fe9332db41bf7f7"
+    ],
+    "target_obj_code": "ca4f9a92cc2f4ee98fe9332db41bf7f7",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "handle_right"
+}

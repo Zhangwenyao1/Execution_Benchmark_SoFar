@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "mixer"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-c_cups_google_16k/065-c_cups_google_16k.urdf",
+        "objaverse_rescale/990d0cb9499540fda49b1ff36be9ba26/material_2.urdf"
+    ],
+    "target_obj_name": "mixer",
+    "instruction": "Place the mixer on top of the cup on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.3396853326429457,
+            -0.11138264438322493,
+            0.90056854909991,
+            0.0005759834162415206,
+            -0.0008441848921764151,
+            -0.09781486456692577,
+            0.9952041036213247,
+            -0.0030513466335833073,
+            -0.004067894071340561,
+            -0.00020948637393303216,
+            0.0632638931274414,
+            0.11795244365930557,
+            -0.40087950229644775
+        ],
+        [
+            0.6300222804870741,
+            -0.11613345926163379,
+            0.9193343284848773,
+            -0.03849163750469898,
+            -0.30511071290836667,
+            0.06542342910460731,
+            0.9492869016450985,
+            -0.0015061786398291588,
+            0.006848345976322889,
+            0.034221846610307693,
+            0.3788369596004486,
+            -1.7586326599121094,
+            -0.3930954933166504
+        ]
+    ],
+    "position_instruction": "Place the mixer on top of the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "065-c",
+        "990d0cb9499540fda49b1ff36be9ba26"
+    ],
+    "target_obj_code": "990d0cb9499540fda49b1ff36be9ba26",
+    "anno_target": {
+        "category": "mixer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "handle_right"
+}

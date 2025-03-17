@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "apple",
+        "can",
+        "remote control"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/013_apple_google_16k/013_apple_google_16k.urdf",
+        "ycb_16k_backup/005_tomato_soup_can_google_16k/005_tomato_soup_can_google_16k.urdf",
+        "objaverse_rescale/d28b249d997b46c1b42771d8ce869902/material_2.urdf"
+    ],
+    "target_obj_name": "remote control",
+    "instruction": "Place the remote control behind the apple on the table. We also need to specify the rotation of the object after placement:  the remote control is lying flat on the tablel, and its buttons are all facing up, which means that the particular side of the remote-control that has all the buttons on it is parallel to the table plane.",
+    "init_obj_pos": [
+        [
+            0.4418302825957361,
+            0.1916571634120852,
+            0.9006205396211225,
+            0.004428742482868817,
+            -0.020041357293783982,
+            -0.12028468790394352,
+            0.992527240983185,
+            -0.002751620952039957,
+            -0.0020550123881548643,
+            -0.00039971829392015934,
+            0.06152449920773506,
+            -0.12263897061347961,
+            0.1826000064611435
+        ],
+        [
+            0.3075203063681964,
+            0.040568845059774705,
+            0.899997492111332,
+            -0.0006740759172560364,
+            -0.001520270496923802,
+            0.030895175318745638,
+            0.9995212466682725,
+            -0.0019636524375528097,
+            -0.0009377822279930115,
+            -0.0001669381745159626,
+            0.01396811380982399,
+            -0.041221532970666885,
+            -0.002385475905612111
+        ],
+        [
+            0.6023590880711697,
+            -0.16030960508329714,
+            0.9088982249537868,
+            0.003157883768112209,
+            -0.002592945599666264,
+            -0.9998667601012947,
+            -0.015804001004944748,
+            0.00018361287948209792,
+            0.0046265143901109695,
+            0.027920730412006378,
+            -0.6640381217002869,
+            1.1293030977249146,
+            0.19494466483592987
+        ]
+    ],
+    "position_instruction": "Place the remote control behind the apple on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the remote control is lying flat on the tablel, and its buttons are all facing up, which means that the particular side of the remote-control that has all the buttons on it is parallel to the table plane.",
+    "rotation_instruction_label": "remote_control_forth",
+    "obj_codes": [
+        "013",
+        "005",
+        "d28b249d997b46c1b42771d8ce869902"
+    ],
+    "target_obj_code": "d28b249d997b46c1b42771d8ce869902",
+    "anno_target": {
+        "category": "remote_control",
+        "annotation": {
+            " the remote control is lying flat on the tablel, and its buttons are all facing up, which means that the particular side of the remote-control that has all the buttons on it is parallel to the table plane.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "remote_control_forth",
+    "rot_tag_level": 2,
+    "position_tag": "behind",
+    "rotation_tag": "remote_control_forth"
+}

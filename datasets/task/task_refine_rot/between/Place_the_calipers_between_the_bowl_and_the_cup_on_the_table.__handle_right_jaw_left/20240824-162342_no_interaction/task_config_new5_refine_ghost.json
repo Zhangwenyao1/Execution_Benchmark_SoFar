@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "bowl",
+        "cup",
+        "toy",
+        "calipers"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/bdd36c94f3f74f22b02b8a069c8d97b7/material_2.urdf",
+        "ycb_16k_backup/065-e_cups_google_16k/065-e_cups_google_16k.urdf",
+        "ycb_16k_backup/072-a_toy_airplane_google_16k/072-a_toy_airplane_google_16k.urdf",
+        "objaverse_rescale/95c967114b624291bc26bcd705aaa334/material_2.urdf"
+    ],
+    "target_obj_name": "calipers",
+    "instruction": "Place the calipers between the bowl and the cup on the table. We also need to specify the rotation of the object after placement:  the caliper is lying on the table and oriented in a way so that the longest stick(bar) part is horizontal, with the curved jaw part on the left side and the handle part on the right side.",
+    "init_obj_pos": [
+        [
+            0.3096077920956795,
+            0.030694957353859097,
+            0.9560787133345983,
+            0.7065830979322786,
+            -0.027063734071376203,
+            -0.027061315749895867,
+            0.7065943427486691,
+            0.00011604563042055815,
+            0.0005376773769967258,
+            -0.0002429292508168146,
+            -0.011425924487411976,
+            0.0018600411713123322,
+            -0.0018475119723007083
+        ],
+        [
+            0.5861143289192159,
+            0.2166760892953445,
+            0.9008543590844222,
+            0.0011337566972458974,
+            -0.002277617811013649,
+            0.02374724773782822,
+            0.9997147569570715,
+            0.0024558831937611103,
+            0.003917296417057514,
+            -0.009632394649088383,
+            -0.07824324071407318,
+            0.14493602514266968,
+            0.023072462528944016
+        ],
+        [
+            0.6322373997994442,
+            -0.08772940248030643,
+            0.9001980494297065,
+            -0.0014353982713224615,
+            -0.00017094905514982795,
+            0.012872366761191105,
+            0.9999161027717224,
+            0.0009604869410395622,
+            0.00031294941436499357,
+            -0.0004391889087855816,
+            -0.004385286010801792,
+            0.01373687107115984,
+            0.0003384888987056911
+        ],
+        [
+            0.5617762138314095,
+            -0.15370085770446382,
+            0.9026047256364569,
+            -0.7018036956715211,
+            0.08855997975513903,
+            -0.08806566144683269,
+            0.7013366823441484,
+            -0.007935106754302979,
+            0.0003367376630194485,
+            0.03289638087153435,
+            -4.98882532119751,
+            1.1827499866485596,
+            0.05272609367966652
+        ]
+    ],
+    "position_instruction": "Place the calipers between the bowl and the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the caliper is lying on the table and oriented in a way so that the longest stick(bar) part is horizontal, with the curved jaw part on the left side and the handle part on the right side.",
+    "rotation_instruction_label": "handle_right_jaw_left",
+    "obj_codes": [
+        "bdd36c94f3f74f22b02b8a069c8d97b7",
+        "065-e",
+        "072-a",
+        "95c967114b624291bc26bcd705aaa334"
+    ],
+    "target_obj_code": "95c967114b624291bc26bcd705aaa334",
+    "anno_target": {
+        "category": "calipers",
+        "annotation": {
+            " the caliper is lying on the table and oriented in a way so that the longest stick(bar) part is horizontal, with the curved jaw part on the right side and the handle part on the left side.": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the caliper is lying on the table and oriented in a way so that the longest stick(bar) part is horizontal, with the curved jaw part on the left side and the handle part on the right side.": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right_jaw_left",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_right_jaw_left"
+}

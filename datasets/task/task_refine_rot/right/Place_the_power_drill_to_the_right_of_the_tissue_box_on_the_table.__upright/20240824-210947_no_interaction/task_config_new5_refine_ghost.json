@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "box",
+        "power drill"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/213d8df9c37a4d8cba794965676f7a75/material_2.urdf",
+        "ycb_16k_backup/009_gelatin_box_google_16k/009_gelatin_box_google_16k.urdf",
+        "ycb_16k_backup/035_power_drill_google_16k/035_power_drill_google_16k.urdf"
+    ],
+    "target_obj_name": "power drill",
+    "instruction": "Place the power drill to the right of the tissue box on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.6056733499984578,
+            -0.07365418226776149,
+            0.932900127164582,
+            -1.844042065012137e-07,
+            3.1524107145905054e-07,
+            -0.0851253115385174,
+            0.9963702531365218,
+            9.534381388220936e-05,
+            -0.00041135778883472085,
+            -0.00011931340850424021,
+            0.0018479563295841217,
+            -0.0026571888010948896,
+            -0.0022009292151778936
+        ],
+        [
+            0.2181068953595048,
+            -0.20399443937481532,
+            0.9294868389718933,
+            0.4352326984997814,
+            -0.9002021024817525,
+            0.008415384951128861,
+            0.011741130275824477,
+            0.005005421116948128,
+            0.006194449029862881,
+            -0.006028223317116499,
+            -0.15079143643379211,
+            0.051925890147686005,
+            0.09164197742938995
+        ],
+        [
+            0.4268940399955239,
+            -0.1810876020536309,
+            0.9031053627722555,
+            -1.1721486970331557e-05,
+            9.20365874891369e-05,
+            0.13153334232931965,
+            0.9913117427164635,
+            0.00023216704721562564,
+            5.990280624246225e-05,
+            -0.0002034348581219092,
+            -0.002421013778075576,
+            0.0011882403632625937,
+            0.0037723295390605927
+        ]
+    ],
+    "position_instruction": "Place the power drill to the right of the tissue box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "213d8df9c37a4d8cba794965676f7a75",
+        "009",
+        "035"
+    ],
+    "target_obj_code": "035",
+    "anno_target": {
+        "category": "power_drill",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upright"
+}

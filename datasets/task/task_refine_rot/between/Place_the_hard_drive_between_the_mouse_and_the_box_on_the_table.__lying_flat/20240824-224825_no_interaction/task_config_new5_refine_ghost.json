@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "mouse",
+        "box",
+        "spatula",
+        "hard drive"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/e51e63e374ee4c25ae3fb4a9c74bd335/material_2.urdf",
+        "ycb_16k_backup/003_cracker_box_google_16k/003_cracker_box_google_16k.urdf",
+        "ycb_16k_backup/033_spatula_google_16k/033_spatula_google_16k.urdf",
+        "objaverse_rescale/e32b159011544b8aa7cacd812636353e/material_2.urdf"
+    ],
+    "target_obj_name": "hard drive",
+    "instruction": "Place the hard drive between the mouse and the box on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.42123862859946876,
+            -0.16704693670542922,
+            0.9275076311987799,
+            0.7070255139126654,
+            -0.010316363457628852,
+            -0.010314655404380153,
+            0.7070375543105394,
+            3.266376370447688e-05,
+            -0.0032833770383149385,
+            -0.0012534077977761626,
+            0.12260182201862335,
+            0.0018014268716797233,
+            0.006838630884885788
+        ],
+        [
+            0.5821624861858252,
+            0.13744992641121787,
+            0.9037526262856278,
+            -0.0010267998882787293,
+            -0.014156265148967387,
+            -0.017258918317070503,
+            0.9997503066153801,
+            0.001975513296201825,
+            0.001355361775495112,
+            -0.0007205423898994923,
+            -0.01425846479833126,
+            0.0247989259660244,
+            0.00521899713203311
+        ],
+        [
+            0.4319473640982868,
+            -0.20031432277375683,
+            0.9002866398056242,
+            0.0011067716831974176,
+            -0.0015290163162533239,
+            0.00971987497624971,
+            0.9999509793964859,
+            0.00995600875467062,
+            -0.008912614546716213,
+            -0.0048089176416397095,
+            1.1474260091781616,
+            -0.06569942086935043,
+            0.11197183281183243
+        ],
+        [
+            0.5977047373524907,
+            -0.3212771742190776,
+            0.9187578098183825,
+            0.6994657933916,
+            -0.1036593636231767,
+            -0.1501985049097613,
+            0.690972321682402,
+            0.005129043944180012,
+            0.0008642304455861449,
+            0.03231731429696083,
+            0.22166645526885986,
+            0.5899600982666016,
+            -0.048515837639570236
+        ]
+    ],
+    "position_instruction": "Place the hard drive between the mouse and the box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "e51e63e374ee4c25ae3fb4a9c74bd335",
+        "003",
+        "033",
+        "e32b159011544b8aa7cacd812636353e"
+    ],
+    "target_obj_code": "e32b159011544b8aa7cacd812636353e",
+    "anno_target": {
+        "category": "hard_drive",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "between",
+    "rotation_tag": "lying_flat"
+}

@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "bowl",
+        "toy",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/922cd7d18c6748d49fe651ded8a04cf4/material_2.urdf",
+        "objaverse_rescale/bdd36c94f3f74f22b02b8a069c8d97b7/material_2.urdf",
+        "ycb_16k_backup/073-g_lego_duplo_google_16k/073-g_lego_duplo_google_16k.urdf",
+        "objaverse_rescale/db9345f568e8499a9eac2577302b5f51/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "init_obj_pos": [
+        [
+            0.7754931926411778,
+            -0.20694661704034498,
+            0.9458909405793311,
+            -0.07648620368187556,
+            -0.6851724831089295,
+            -0.7162706749788694,
+            -0.10791130247566054,
+            0.002530606696382165,
+            0.0015635978197678924,
+            -0.00010220034164376557,
+            -0.047891873866319656,
+            0.0771246999502182,
+            0.0012099515879526734
+        ],
+        [
+            0.3286573914269389,
+            0.007397867756241807,
+            0.9561752411068535,
+            0.7058718094035289,
+            -0.015469090556718822,
+            -0.015603034057685336,
+            0.7079987579473086,
+            0.0013177399523556232,
+            0.0002364775718888268,
+            -0.0008566962787881494,
+            -0.0003251060552429408,
+            0.02926669642329216,
+            0.007442438509315252
+        ],
+        [
+            0.40489378232294393,
+            -0.19937842446097953,
+            0.9002526652733248,
+            0.0022350089128305513,
+            -0.0005525642462723075,
+            0.12606216357934905,
+            0.9920196723460711,
+            -0.0015879921847954392,
+            -0.0005032505723647773,
+            -0.0027908175252377987,
+            0.015956252813339233,
+            -0.01816694624722004,
+            -0.0071816397830843925
+        ],
+        [
+            0.5883540118341379,
+            -0.11642226724037597,
+            0.35217559337615967,
+            0.02484494261443615,
+            0.24961940944194794,
+            -0.095866858959198,
+            0.9632664918899536,
+            0.0006955799763090909,
+            0.0005439041997306049,
+            0.0001244668528670445,
+            -0.009829597547650337,
+            0.005893280729651451,
+            0.0039144461043179035
+        ]
+    ],
+    "position_instruction": "Place the mug at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "rotation_instruction_label": "handle_left",
+    "obj_codes": [
+        "922cd7d18c6748d49fe651ded8a04cf4",
+        "bdd36c94f3f74f22b02b8a069c8d97b7",
+        "073-g",
+        "db9345f568e8499a9eac2577302b5f51"
+    ],
+    "target_obj_code": "db9345f568e8499a9eac2577302b5f51",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "center",
+    "rotation_tag": "handle_left"
+}

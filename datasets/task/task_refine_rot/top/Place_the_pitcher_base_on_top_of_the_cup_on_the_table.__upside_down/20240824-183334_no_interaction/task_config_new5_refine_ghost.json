@@ -1,0 +1,71 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "pitcher base"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-d_cups_google_16k/065-d_cups_google_16k.urdf",
+        "ycb_16k_backup/019_pitcher_base_google_16k/019_pitcher_base_google_16k.urdf"
+    ],
+    "target_obj_name": "pitcher base",
+    "instruction": "Place the pitcher base on top of the cup on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.4758307440710776,
+            -0.0036579596709518077,
+            0.9006058806775014,
+            0.0008368229504043874,
+            -0.0008873501056014378,
+            0.10043798723880558,
+            0.99494257274305,
+            0.007582762278616428,
+            0.001600256422534585,
+            -0.006605670787394047,
+            -0.09149743616580963,
+            0.23575742542743683,
+            0.0003681420930661261
+        ],
+        [
+            0.4512544778477831,
+            0.04674729033256285,
+            0.9013204102240611,
+            0.00016572193587700116,
+            0.0006676399329217318,
+            -0.025715948990314392,
+            0.999669053617589,
+            -0.004289176315069199,
+            0.0031766558531671762,
+            -0.00020656351989600807,
+            -0.028415778651833534,
+            -0.03917607665061951,
+            -0.006147800479084253
+        ]
+    ],
+    "position_instruction": "Place the pitcher base on top of the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "065-d",
+        "019"
+    ],
+    "target_obj_code": "019",
+    "anno_target": {
+        "category": "pitcher_base",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "top",
+    "rotation_tag": "upside_down"
+}

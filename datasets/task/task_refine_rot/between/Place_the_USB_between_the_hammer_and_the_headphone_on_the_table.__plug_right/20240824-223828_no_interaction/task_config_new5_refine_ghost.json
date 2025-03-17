@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "hammer",
+        "headphone",
+        "USB"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/048_hammer_google_16k/048_hammer_google_16k.urdf",
+        "objaverse_rescale/f8891134871e48ce8cb5053c4287272b/material_2.urdf",
+        "objaverse_rescale/878049e8c3174fa68a56530e5aef7a5a/material_2.urdf"
+    ],
+    "target_obj_name": "USB",
+    "instruction": "Place the USB between the hammer and the headphone on the table. We also need to specify the rotation of the object after placement:  the silver plug end of the USB is oriented towards right, and the larger end is on the left.",
+    "init_obj_pos": [
+        [
+            0.6667645116651962,
+            0.011225982478607665,
+            0.8975065574175548,
+            0.0009492794198184965,
+            -0.0018090186624121266,
+            0.0742626603007138,
+            0.9972366236782139,
+            -0.007782251574099064,
+            -0.0026444513350725174,
+            0.021838070824742317,
+            0.307806134223938,
+            -0.45253682136535645,
+            -0.0038242810405790806
+        ],
+        [
+            0.4023322241343581,
+            -0.13804579307483705,
+            0.9463841612602402,
+            -0.11437741274879763,
+            0.00772745232343628,
+            0.0011890423130375633,
+            0.993406603618004,
+            0.00038386901724152267,
+            0.00017938256496563554,
+            -0.00016009171667974442,
+            -0.002837653271853924,
+            0.010131306014955044,
+            -0.0008015470812097192
+        ],
+        [
+            0.7747603761194951,
+            0.124033441281652,
+            0.9431115216092498,
+            0.025001998164893624,
+            0.024652089252194486,
+            -0.03541201729743152,
+            0.9987558077999804,
+            -0.0016883835196495056,
+            0.0007616141228936613,
+            -0.002472961787134409,
+            0.0375630222260952,
+            -0.033263128250837326,
+            0.0007384940981864929
+        ]
+    ],
+    "position_instruction": "Place the USB between the hammer and the headphone on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the silver plug end of the USB is oriented towards right, and the larger end is on the left.",
+    "rotation_instruction_label": "plug_right",
+    "obj_codes": [
+        "048",
+        "f8891134871e48ce8cb5053c4287272b",
+        "878049e8c3174fa68a56530e5aef7a5a"
+    ],
+    "target_obj_code": "878049e8c3174fa68a56530e5aef7a5a",
+    "anno_target": {
+        "category": "USB",
+        "annotation": {
+            " the silver plug end of the USB is oriented towards left, and the larger end is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the silver plug end of the USB is oriented towards right, and the larger end is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "plug_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "plug_right"
+}

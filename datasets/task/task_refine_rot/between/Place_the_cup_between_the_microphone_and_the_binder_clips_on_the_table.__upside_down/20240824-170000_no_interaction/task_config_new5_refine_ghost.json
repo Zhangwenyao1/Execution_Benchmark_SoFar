@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "microphone",
+        "binder clips",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/fac08019fef5474189f965bb495771eb/material_2.urdf",
+        "objaverse_rescale/5e55c38b24dc4c239448efa1c6b7f49f/material_2.urdf",
+        "ycb_16k_backup/065-a_cups_google_16k/065-a_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup between the microphone and the binder clips on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6860703012969704,
+            0.11726858813133834,
+            0.9282151365389998,
+            0.10776579871638414,
+            -0.7570797319181964,
+            0.07572511730310828,
+            0.6399082111952634,
+            0.0011594216339290142,
+            0.0016377923311665654,
+            0.00026882364181801677,
+            -0.08486191928386688,
+            0.04530266299843788,
+            -0.005520691629499197
+        ],
+        [
+            0.5184234191145767,
+            0.11703659445884795,
+            0.9100080711929405,
+            3.061708993635291e-05,
+            -7.219389145110698e-06,
+            0.0270681520513859,
+            0.9996335899493368,
+            -0.0025958772748708725,
+            3.241629747208208e-05,
+            -0.00044319481821730733,
+            -0.000849314674269408,
+            -0.02734476327896118,
+            0.0038575557991862297
+        ],
+        [
+            0.6951969760882011,
+            -0.06813647644818202,
+            0.901180792914088,
+            0.002602913130528216,
+            -0.005278270688065906,
+            0.012854619374827802,
+            0.9999000567369257,
+            -0.004707437939941883,
+            -0.004849100019782782,
+            0.004397538490593433,
+            0.6109074354171753,
+            0.5068701505661011,
+            -1.6137441396713257
+        ]
+    ],
+    "position_instruction": "Place the cup between the microphone and the binder clips on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "fac08019fef5474189f965bb495771eb",
+        "5e55c38b24dc4c239448efa1c6b7f49f",
+        "065-a"
+    ],
+    "target_obj_code": "065-a",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

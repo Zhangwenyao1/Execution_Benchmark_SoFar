@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "spoon",
+        "shoe",
+        "box",
+        "pot"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/218768789fdd42bd95eb933046698499/material_2.urdf",
+        "objaverse_rescale/d6951661c1e445d8a1d00b7d38d86030/material_2.urdf",
+        "ycb_16k_backup/008_pudding_box_google_16k/008_pudding_box_google_16k.urdf",
+        "objaverse_rescale/af249e607bea40cfa2f275e5e23b8283/material_2.urdf"
+    ],
+    "target_obj_name": "pot",
+    "instruction": "Place the pot between the spoon and the shoe on the table. We also need to specify the rotation of the object after placement:  the pot is upright on the table with its spout pointing towards right.",
+    "init_obj_pos": [
+        [
+            0.3366413219595596,
+            -0.19733919009336456,
+            0.9070965946818383,
+            0.013301496514408344,
+            -0.018243415590649747,
+            -0.15609007549417603,
+            0.9874847524444548,
+            0.0013594141928479075,
+            0.006274163722991943,
+            0.03207532316446304,
+            -0.36429640650749207,
+            2.449927806854248,
+            -0.2771688401699066
+        ],
+        [
+            0.44870702774659643,
+            -0.23808776914423557,
+            0.9277158560802707,
+            -0.06379357207234118,
+            -0.07518700925547557,
+            0.13322763687392286,
+            0.9861681857444289,
+            -0.006405436899513006,
+            -0.002850485732778907,
+            0.0015229688724502921,
+            0.11993234604597092,
+            -0.281899631023407,
+            0.005753477104008198
+        ],
+        [
+            0.6845418937201458,
+            0.1588464329378557,
+            0.9003421045727792,
+            -0.006415614959456251,
+            0.0017656255938142764,
+            0.036907403673991784,
+            0.9992965355713992,
+            0.00025085840024985373,
+            -0.0010794991394504905,
+            -0.001926954253576696,
+            -0.026887955144047737,
+            -0.01341009046882391,
+            0.012677169404923916
+        ],
+        [
+            0.4331517886817401,
+            -0.004465353866525785,
+            0.9813022137081288,
+            0.7011213921638711,
+            0.09179094404755761,
+            0.09179145265586072,
+            0.7011259125580656,
+            0.00014967983588576317,
+            -0.0004140745149925351,
+            -0.00031812748056836426,
+            0.006272798404097557,
+            0.0010978897335007787,
+            -0.0004879340121988207
+        ]
+    ],
+    "position_instruction": "Place the pot between the spoon and the shoe on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the pot is upright on the table with its spout pointing towards right.",
+    "rotation_instruction_label": "spout_right",
+    "obj_codes": [
+        "218768789fdd42bd95eb933046698499",
+        "d6951661c1e445d8a1d00b7d38d86030",
+        "008",
+        "af249e607bea40cfa2f275e5e23b8283"
+    ],
+    "target_obj_code": "af249e607bea40cfa2f275e5e23b8283",
+    "anno_target": {
+        "category": "pot",
+        "annotation": {
+            " the pot is upright on the table with its spout pointing towards left.": {
+                "quat": [
+                    [
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            },
+            " the pot is upright on the table with its spout pointing towards right.": {
+                "quat": [
+                    [
+                        0.7071068286895752,
+                        0.0,
+                        0.0,
+                        0.7071067094802856
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "spout_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "spout_right"
+}

@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "can",
+        "binder"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/007_tuna_fish_can_google_16k/007_tuna_fish_can_google_16k.urdf",
+        "objaverse_rescale/a0026e7d1b244b9a9223daf4223c9372/material_2.urdf"
+    ],
+    "target_obj_name": "binder",
+    "instruction": "Place the binder behind the can on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.3003967817642702,
+            -0.1247850645298442,
+            0.9031512738135934,
+            0.0005043192355397553,
+            -0.000733647440302749,
+            -0.0022640501007061783,
+            0.9999970407459636,
+            0.0012912837555631995,
+            0.0034338212572038174,
+            -0.010162215679883957,
+            -0.23738476634025574,
+            0.1653943508863449,
+            0.025545040145516396
+        ],
+        [
+            0.39589798617277855,
+            0.18114539723339823,
+            0.927260978402235,
+            -0.00023444934326238034,
+            -6.783120864634773e-05,
+            -0.12229145469239695,
+            0.9924942017672701,
+            -1.4411405118153198e-06,
+            -0.00019579505897127092,
+            -0.0007833738345652819,
+            0.0023711896501481533,
+            0.00554842920973897,
+            0.0007131747552193701
+        ]
+    ],
+    "position_instruction": "Place the binder behind the can on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "007",
+        "a0026e7d1b244b9a9223daf4223c9372"
+    ],
+    "target_obj_code": "a0026e7d1b244b9a9223daf4223c9372",
+    "anno_target": {
+        "category": "binder",
+        "annotation": {
+            "the binder is standing upright on the table and oriented in a way so that its smaller side is in contact with the tabletop and the larger face is perpendicular to the tabletop, and the label should be in sight as well.": {
+                "quat": [
+                    [
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        -7.549783020976975e-08,
+                        -3.3001151131603493e-15,
+                        1.0,
+                        -4.371138828673793e-08
+                    ],
+                    [
+                        -0.0,
+                        1.0,
+                        -0.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "behind",
+    "rotation_tag": "lying_flat"
+}

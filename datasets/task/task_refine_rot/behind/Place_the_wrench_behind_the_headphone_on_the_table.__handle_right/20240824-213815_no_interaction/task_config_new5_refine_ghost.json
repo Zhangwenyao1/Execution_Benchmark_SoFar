@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "headphone",
+        "tissue box",
+        "wrench"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/ea91786392284f03809c37976da090bf/material_2.urdf",
+        "objaverse_rescale/213d8df9c37a4d8cba794965676f7a75/material_2.urdf",
+        "objaverse_rescale/19c1913ba85042938f0a87d94397c946/material_2.urdf"
+    ],
+    "target_obj_name": "wrench",
+    "instruction": "Place the wrench behind the headphone on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.4181162621192191,
+            0.027712048689693895,
+            0.9113375641151631,
+            -0.5867733942555705,
+            -0.39870556376947675,
+            0.5370887231273437,
+            0.4563623129734753,
+            0.00015428975166287273,
+            0.0005111420177854598,
+            -0.0001085504045477137,
+            -0.014796383678913116,
+            0.00529430340975523,
+            -0.0006332052289508283
+        ],
+        [
+            0.5770753751882877,
+            0.21762478095299684,
+            0.9374686324934522,
+            -0.13250752439547012,
+            0.0012191649702278436,
+            -0.01787523116323383,
+            0.9910200531403078,
+            -0.0002911762858275324,
+            0.006797421723604202,
+            0.00549689307808876,
+            -0.14700672030448914,
+            0.004431027919054031,
+            -0.00876745767891407
+        ],
+        [
+            0.5803908528154088,
+            0.06360623906271717,
+            0.9211397851443939,
+            0.7056884511968173,
+            -0.05759308457538463,
+            -0.7061339697766648,
+            0.007852590908510038,
+            0.00022200297098606825,
+            0.0003660410293377936,
+            0.030345581471920013,
+            0.18558242917060852,
+            -0.012595041655004025,
+            0.181721031665802
+        ]
+    ],
+    "position_instruction": "Place the wrench behind the headphone on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "ea91786392284f03809c37976da090bf",
+        "213d8df9c37a4d8cba794965676f7a75",
+        "19c1913ba85042938f0a87d94397c946"
+    ],
+    "target_obj_code": "19c1913ba85042938f0a87d94397c946",
+    "anno_target": {
+        "category": "wrench",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "handle_right"
+}

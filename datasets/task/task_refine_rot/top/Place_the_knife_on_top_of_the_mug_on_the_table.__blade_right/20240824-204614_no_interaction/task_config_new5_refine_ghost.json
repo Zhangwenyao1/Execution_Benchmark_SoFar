@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "plate",
+        "knife"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/e5e87ddbf3f6470384bef58431351e2a/material_2.urdf",
+        "objaverse_rescale/6d5a4e1174dd4f5fa0a9a9076e476b91/material_2.urdf",
+        "objaverse_rescale/f93d05bc2db144f7a50374794ef5cf8d/material_2.urdf"
+    ],
+    "target_obj_name": "knife",
+    "instruction": "Place the knife on top of the mug on the table. We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.7012374000552943,
+            0.10239995246786222,
+            0.9335895190137147,
+            -0.0022504151477802476,
+            0.1751433844458063,
+            0.012606708681043997,
+            0.984459649458911,
+            0.0008010627352632582,
+            -0.0035435734316706657,
+            -0.0021334525663405657,
+            0.006164259277284145,
+            0.01021596696227789,
+            0.04560338333249092
+        ],
+        [
+            0.5977669376328001,
+            0.12941762680388352,
+            0.9285685156785981,
+            0.6105941083699532,
+            0.11223824280602963,
+            0.3666379922242373,
+            0.6929314499526608,
+            -0.007961154915392399,
+            -0.0021228520199656487,
+            0.02206556499004364,
+            0.1353476196527481,
+            -0.20484736561775208,
+            0.06806432455778122
+        ],
+        [
+            0.5733787106915668,
+            0.19437247307666958,
+            0.9394193612783651,
+            0.5227619585797316,
+            -0.24790684162828142,
+            0.800415632496842,
+            0.15683414102309945,
+            0.010181327350437641,
+            0.009354243986308575,
+            0.02689014934003353,
+            4.978488922119141,
+            -4.569181442260742,
+            3.173126220703125
+        ]
+    ],
+    "position_instruction": "Place the knife on top of the mug on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blade_right",
+    "obj_codes": [
+        "e5e87ddbf3f6470384bef58431351e2a",
+        "6d5a4e1174dd4f5fa0a9a9076e476b91",
+        "f93d05bc2db144f7a50374794ef5cf8d"
+    ],
+    "target_obj_code": "f93d05bc2db144f7a50374794ef5cf8d",
+    "anno_target": {
+        "category": "knife",
+        "annotation": {
+            " the blade of the knife is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blade of the knife is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        -0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blade_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "blade_right"
+}

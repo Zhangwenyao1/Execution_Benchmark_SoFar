@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "scissors",
+        "pitcher base",
+        "mouse",
+        "ladle"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/2b1120c4b517409184413ed709c57a66/material_2.urdf",
+        "ycb_16k_backup/019_pitcher_base_google_16k/019_pitcher_base_google_16k.urdf",
+        "objaverse_rescale/f017c73a85484b6da3a66ec1cda70c71/material_2.urdf",
+        "objaverse_rescale/ce27e3369587476c85a436905f1e5c00/material_2.urdf"
+    ],
+    "target_obj_name": "ladle",
+    "instruction": "Place the ladle at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "init_obj_pos": [
+        [
+            0.5448493234223832,
+            0.1266390068771882,
+            0.9044697187444756,
+            -0.35335254803304794,
+            0.9354550637372276,
+            -0.0003096162683952496,
+            0.008105841393488102,
+            0.0008187390631064773,
+            0.006478880066424608,
+            0.008620848879218102,
+            -0.44741129875183105,
+            0.017665410414338112,
+            0.14661665260791779
+        ],
+        [
+            0.6125027884759064,
+            0.11694659071709754,
+            0.9013206717030438,
+            0.00017740873938238317,
+            0.0006680915995284521,
+            -0.044076048789139906,
+            0.9990279396007351,
+            -0.004201377276331186,
+            0.003326618578284979,
+            -0.00021448988991323858,
+            -0.029819276183843613,
+            -0.03835105895996094,
+            -0.006115719676017761
+        ],
+        [
+            0.4592678949600384,
+            0.08248827307427492,
+            0.9270297896705362,
+            -0.666800386999156,
+            0.2381512123072304,
+            0.639252132081186,
+            0.30002992451425575,
+            0.0003736520593520254,
+            -0.0033547610510140657,
+            -0.0009560318430885673,
+            0.17858435213565826,
+            -0.10956376045942307,
+            0.06787807494401932
+        ],
+        [
+            0.5603963457027882,
+            -0.09487502341672972,
+            0.9194586377239786,
+            0.01050763811821414,
+            -0.01955000582226362,
+            0.07093473415258174,
+            0.9972339997734876,
+            0.0013630669564008713,
+            0.007850212045013905,
+            -0.0038201003335416317,
+            -0.1471044272184372,
+            1.604142189025879,
+            -0.03888748586177826
+        ]
+    ],
+    "position_instruction": "Place the ladle at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "rotation_instruction_label": "scoop_right",
+    "obj_codes": [
+        "2b1120c4b517409184413ed709c57a66",
+        "019",
+        "f017c73a85484b6da3a66ec1cda70c71",
+        "ce27e3369587476c85a436905f1e5c00"
+    ],
+    "target_obj_code": "ce27e3369587476c85a436905f1e5c00",
+    "anno_target": {
+        "category": "ladle",
+        "annotation": {
+            " the ladle is lying on the table, with its scoop on the left(pointing towards left) and its handle on the right. ": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ladle is lying on the table, with its scoop on the right(pointing towards right) and its handle on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "scoop_right",
+    "rot_tag_level": 1,
+    "position_tag": "center",
+    "rotation_tag": "scoop_right"
+}

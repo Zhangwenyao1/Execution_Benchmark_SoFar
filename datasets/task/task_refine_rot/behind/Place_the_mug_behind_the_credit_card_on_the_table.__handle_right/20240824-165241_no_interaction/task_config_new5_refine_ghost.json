@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "credit card",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/5de830b2cccf4fe7a2e6b400abf26ca7/material_2.urdf",
+        "objaverse_rescale/b8478cea51454555b90de0fe6ba7ba83/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug behind the credit card on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.5876245682901915,
+            0.20456258303024968,
+            0.9017948451719657,
+            -0.021476167860568496,
+            0.00047648885215050626,
+            -0.021979003498812103,
+            0.999527623719123,
+            4.835073195863515e-05,
+            -0.00020151819626335055,
+            0.035199787467718124,
+            1.5279533863067627,
+            0.07852349430322647,
+            0.007643422577530146
+        ],
+        [
+            0.43523604113774766,
+            0.13493812301941718,
+            0.9653316806283134,
+            0.019636517533713618,
+            -0.2275252574375238,
+            0.10564139831127359,
+            0.9678256864590733,
+            -9.351946209790185e-05,
+            5.282749771140516e-05,
+            -0.0002328020491404459,
+            -0.0013757599517703056,
+            0.0007043243967927992,
+            0.0008596377447247505
+        ]
+    ],
+    "position_instruction": "Place the mug behind the credit card on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "5de830b2cccf4fe7a2e6b400abf26ca7",
+        "b8478cea51454555b90de0fe6ba7ba83"
+    ],
+    "target_obj_code": "b8478cea51454555b90de0fe6ba7ba83",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "handle_right"
+}

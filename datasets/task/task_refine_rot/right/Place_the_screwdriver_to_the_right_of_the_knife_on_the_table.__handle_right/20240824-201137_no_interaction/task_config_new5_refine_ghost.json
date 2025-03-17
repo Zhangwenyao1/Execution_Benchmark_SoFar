@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "knife",
+        "mug",
+        "shoe",
+        "screwdriver"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/032_knife_google_16k/032_knife_google_16k.urdf",
+        "objaverse_rescale/a564a11174be455bbce4698f7da92fdf/material_2.urdf",
+        "objaverse_rescale/ece4453042144b4a82fb86a4eab1ba7f/material_2.urdf",
+        "ycb_16k_backup/044_flat_screwdriver_google_16k/044_flat_screwdriver_google_16k.urdf"
+    ],
+    "target_obj_name": "screwdriver",
+    "instruction": "Place the screwdriver to the right of the knife on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.5791237239260122,
+            -0.052731005044861105,
+            0.9099627139641147,
+            -0.270261765438846,
+            -0.9617740888387433,
+            0.027257599476806175,
+            0.03473043983376435,
+            -0.00390954315662384,
+            -0.0021372376941144466,
+            -0.01023342739790678,
+            3.5566229820251465,
+            -2.3086698055267334,
+            0.24019931256771088
+        ],
+        [
+            0.47034396298674386,
+            0.003263637260925074,
+            0.9625443373973563,
+            0.013575070521468191,
+            0.1976138237174472,
+            -0.3529083430127437,
+            0.9144507616969358,
+            0.0017565779853612185,
+            0.0016973316669464111,
+            -0.0006392552168108523,
+            -0.013839985243976116,
+            0.02677805908024311,
+            -0.00811077281832695
+        ],
+        [
+            0.5645287445867931,
+            0.3844674024487307,
+            0.937888178460603,
+            -0.4231335566649222,
+            0.6410682119202141,
+            0.14961122495784465,
+            0.6225801332006408,
+            -0.0014384473906829953,
+            0.0007551268208771944,
+            -0.001210039365105331,
+            -0.09627152234315872,
+            -0.07776552438735962,
+            0.05890011787414551
+        ],
+        [
+            0.5594958150633041,
+            0.1806932256883533,
+            0.9003124263687543,
+            -0.010215198133903444,
+            0.0091827330911872,
+            -0.06554539607174939,
+            0.9977550441836199,
+            0.00538612762466073,
+            0.008802423253655434,
+            -0.010128211230039597,
+            -0.18022070825099945,
+            0.6463362574577332,
+            0.40654677152633667
+        ]
+    ],
+    "position_instruction": "Place the screwdriver to the right of the knife on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "032",
+        "a564a11174be455bbce4698f7da92fdf",
+        "ece4453042144b4a82fb86a4eab1ba7f",
+        "044"
+    ],
+    "target_obj_code": "044",
+    "anno_target": {
+        "category": "screwdriver",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.011427843011915684,
+                        0.021855341270565987,
+                        -0.40244925022125244,
+                        0.9151100516319275
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "handle_right"
+}

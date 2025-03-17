@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "toy",
+        "tissue box",
+        "cup",
+        "mouse"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/072-b_toy_airplane_google_16k/072-b_toy_airplane_google_16k.urdf",
+        "objaverse_rescale/6f8040c86eb84e7bba2cd928c0755029/material_2.urdf",
+        "ycb_16k_backup/065-j_cups_google_16k/065-j_cups_google_16k.urdf",
+        "objaverse_rescale/e51e63e374ee4c25ae3fb4a9c74bd335/material_2.urdf"
+    ],
+    "target_obj_name": "mouse",
+    "instruction": "Place the mouse to the right of the toy on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.31521075648765035,
+            0.24990479843102614,
+            0.9001530541974051,
+            -9.342687797558497e-05,
+            -0.0003168157082880492,
+            0.041323684275181,
+            0.9991457571431455,
+            -0.0007904403610154986,
+            -0.0015558254672214389,
+            -0.000711115135345608,
+            0.030048612505197525,
+            0.0014003977412357926,
+            -0.005221071187406778
+        ],
+        [
+            0.5772671779544264,
+            0.10213797402182742,
+            0.9273032905286969,
+            0.01250777328049677,
+            -0.0016551254426998934,
+            -0.1315244350688492,
+            0.9912326362399255,
+            0.0002979268319904804,
+            0.0011803301749750972,
+            -0.0007791129755787551,
+            -0.02806786447763443,
+            0.006907809991389513,
+            0.0004173165943939239
+        ],
+        [
+            0.3371879680563413,
+            0.2081407407518126,
+            0.9106190570826926,
+            -0.4123960915211866,
+            0.5168466832449758,
+            0.03154668399551734,
+            0.7495357072518991,
+            -0.00369767053052783,
+            -0.003742493223398924,
+            -0.0018284765537828207,
+            0.09129346162080765,
+            -0.08176030218601227,
+            -0.011078118346631527
+        ],
+        [
+            0.4499599666975739,
+            0.00698229180442117,
+            0.927506845410628,
+            0.7032115669771611,
+            -0.07411443963522404,
+            -0.07411850382406468,
+            0.7032119092407106,
+            -0.003793813055381179,
+            -0.0022365611512213945,
+            -0.010293770581483841,
+            0.18204914033412933,
+            -0.14672932028770447,
+            0.015107139945030212
+        ]
+    ],
+    "position_instruction": "Place the mouse to the right of the toy on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "072-b",
+        "6f8040c86eb84e7bba2cd928c0755029",
+        "065-j",
+        "e51e63e374ee4c25ae3fb4a9c74bd335"
+    ],
+    "target_obj_code": "e51e63e374ee4c25ae3fb4a9c74bd335",
+    "anno_target": {
+        "category": "mouse",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upright"
+}

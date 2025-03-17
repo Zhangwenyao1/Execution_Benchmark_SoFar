@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "skillet",
+        "can",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/027_skillet_google_16k/027_skillet_google_16k.urdf",
+        "ycb_16k_backup/007_tuna_fish_can_google_16k/007_tuna_fish_can_google_16k.urdf",
+        "ycb_16k_backup/065-c_cups_google_16k/065-c_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup to the right of the skillet on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6084959090009063,
+            0.0890274222772579,
+            0.9263981546634175,
+            -0.1019765496952948,
+            -0.010698089245043502,
+            -0.2793388493046113,
+            0.9547021218515869,
+            0.00033364479895681143,
+            4.7892823204165325e-05,
+            -5.993200829834677e-05,
+            0.0011990753700956702,
+            0.003000324359163642,
+            0.0016466672532260418
+        ],
+        [
+            0.6829995319737918,
+            -0.026260805392770176,
+            0.9031498330719334,
+            0.00043292834728515263,
+            -0.0007538902887386529,
+            -0.06123716733261309,
+            0.998122864961802,
+            0.0007621500990353525,
+            -5.0391090553603135e-06,
+            -0.008746483363211155,
+            -0.07116087526082993,
+            0.13643884658813477,
+            -0.03516805171966553
+        ],
+        [
+            0.6871934916830571,
+            -0.22464059520226404,
+            0.9005691785990013,
+            0.0006848940405904333,
+            -0.0007561086924090069,
+            0.0296759097706272,
+            0.9995590525822301,
+            -0.00204657344147563,
+            -0.005114659667015076,
+            -0.0012453999370336533,
+            -0.052880920469760895,
+            0.2964637875556946,
+            -0.6751425862312317
+        ]
+    ],
+    "position_instruction": "Place the cup to the right of the skillet on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "027",
+        "007",
+        "065-c"
+    ],
+    "target_obj_code": "065-c",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upside_down"
+}

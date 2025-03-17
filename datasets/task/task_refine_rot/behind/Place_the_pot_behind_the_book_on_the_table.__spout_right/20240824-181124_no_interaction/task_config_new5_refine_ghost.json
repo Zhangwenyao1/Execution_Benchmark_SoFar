@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "book",
+        "skillet",
+        "book",
+        "pot"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/b2d30398ba3741da9f9aef2319ee2b8b/material_2.urdf",
+        "ycb_16k_backup/027_skillet_google_16k/027_skillet_google_16k.urdf",
+        "objaverse_rescale/2a371c84c5454f7facba7bb2f5312ad6/material_2.urdf",
+        "objaverse_rescale/cba3e4df7c354d22b7913d45a28a8159/material_2.urdf"
+    ],
+    "target_obj_name": "pot",
+    "instruction": "Place the pot behind the book on the table. We also need to specify the rotation of the object after placement:  the pot is upright on the table with its spout pointing towards right.",
+    "init_obj_pos": [
+        [
+            0.39565571044401554,
+            0.14940587127347918,
+            0.9163740056200198,
+            8.483499018443626e-06,
+            -4.915707327868938e-05,
+            -0.21375707379745792,
+            0.9768868465247957,
+            0.0006427816697396338,
+            -0.0003003023739438504,
+            -0.0018726574489846826,
+            0.016827566549181938,
+            0.037827104330062866,
+            0.0019185073906555772
+        ],
+        [
+            0.33472261084117927,
+            -0.10180864128073326,
+            0.9020730578678015,
+            0.018116198173208562,
+            0.011849422742375399,
+            0.046595068261064736,
+            0.9986792749217188,
+            0.00019312865333631635,
+            0.00021927028137724847,
+            -2.4929948267526925e-05,
+            -0.0010775141417980194,
+            0.0020312012638896704,
+            0.0018364423885941505
+        ],
+        [
+            0.5590857267379761,
+            0.018542151667205027,
+            0.3610144853591919,
+            -0.0020702967885881662,
+            -0.000190987455425784,
+            0.09290912002325058,
+            0.9956724047660828,
+            0.00048491632333025336,
+            -0.002930496819317341,
+            -0.0006400613347068429,
+            0.041244033724069595,
+            0.009568970650434494,
+            0.0001479468628531322
+        ],
+        [
+            0.3059217929840088,
+            0.3051586449146271,
+            0.35954195261001587,
+            0.10783691704273224,
+            -0.1486157476902008,
+            0.9086573719978333,
+            -0.3750018775463104,
+            0.032954394817352295,
+            0.015847787261009216,
+            0.002829182893037796,
+            -0.2739444077014923,
+            0.5680621862411499,
+            0.03246655315160751
+        ]
+    ],
+    "position_instruction": "Place the pot behind the book on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the pot is upright on the table with its spout pointing towards right.",
+    "rotation_instruction_label": "spout_right",
+    "obj_codes": [
+        "b2d30398ba3741da9f9aef2319ee2b8b",
+        "027",
+        "2a371c84c5454f7facba7bb2f5312ad6",
+        "cba3e4df7c354d22b7913d45a28a8159"
+    ],
+    "target_obj_code": "cba3e4df7c354d22b7913d45a28a8159",
+    "anno_target": {
+        "category": "pot",
+        "annotation": {
+            " the pot is upright on the table with its spout pointing towards left.": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            },
+            " the pot is upright on the table with its spout pointing towards right.": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "spout_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "spout_right"
+}

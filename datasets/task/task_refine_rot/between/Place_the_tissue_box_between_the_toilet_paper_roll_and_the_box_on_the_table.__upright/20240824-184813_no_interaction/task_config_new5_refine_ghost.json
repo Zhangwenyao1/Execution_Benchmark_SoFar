@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "toilet paper roll",
+        "box",
+        "tissue box"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6d5284b842434413a17133f7bf259669/material_2.urdf",
+        "ycb_16k_backup/009_gelatin_box_google_16k/009_gelatin_box_google_16k.urdf",
+        "objaverse_rescale/6f8040c86eb84e7bba2cd928c0755029/material_2.urdf"
+    ],
+    "target_obj_name": "tissue box",
+    "instruction": "Place the tissue box between the toilet paper roll and the box on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.4917800542708129,
+            -0.1826286353353136,
+            0.9340014154088889,
+            0.01788997442476928,
+            -0.25131843826927036,
+            0.06868096211115177,
+            0.9652988743619578,
+            -0.04089340567588806,
+            -0.004771478474140167,
+            -0.003107942407950759,
+            0.061957601457834244,
+            -0.5271879434585571,
+            -0.011387587524950504
+        ],
+        [
+            0.2849198961553078,
+            0.14566292058403993,
+            0.900327652219713,
+            -0.0021182630651142304,
+            0.0023109342156892453,
+            -0.3488694779528399,
+            0.9371660791436874,
+            -0.005487082060426474,
+            -0.007616449147462845,
+            0.025560831651091576,
+            0.5281988382339478,
+            -0.4511299133300781,
+            0.08221179246902466
+        ],
+        [
+            0.6394420456606781,
+            0.21917181787594148,
+            0.9273056861356612,
+            0.01263758436920991,
+            0.0007778177417611665,
+            0.06106747522360594,
+            0.9980533302036952,
+            -6.088447116781026e-05,
+            -0.001079837209545076,
+            -0.00014719368482474238,
+            0.020972590893507004,
+            0.0004843833448830992,
+            -0.00012815454101655632
+        ]
+    ],
+    "position_instruction": "Place the tissue box between the toilet paper roll and the box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "6d5284b842434413a17133f7bf259669",
+        "009",
+        "6f8040c86eb84e7bba2cd928c0755029"
+    ],
+    "target_obj_code": "6f8040c86eb84e7bba2cd928c0755029",
+    "anno_target": {
+        "category": "tissue_box",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upright"
+}

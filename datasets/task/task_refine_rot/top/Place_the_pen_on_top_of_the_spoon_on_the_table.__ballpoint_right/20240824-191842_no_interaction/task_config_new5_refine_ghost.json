@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "spoon",
+        "calculator",
+        "pen"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/e1745c4aa7c046a2b5193d2d23be0192/material_2.urdf",
+        "objaverse_rescale/f0b1f7c17d70489888f5ae922169c0ce/material_2.urdf",
+        "objaverse_rescale/fbeb7c776372466daffa619106e0b2e0/material_2.urdf"
+    ],
+    "target_obj_name": "pen",
+    "instruction": "Place the pen on top of the spoon on the table. We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "init_obj_pos": [
+        [
+            0.706210656859467,
+            0.05476162489982652,
+            0.9050229027863591,
+            0.6837253033002969,
+            0.1567674058792723,
+            0.13909048119614462,
+            0.698997516534518,
+            -0.004364079795777798,
+            0.031223753467202187,
+            0.030133089050650597,
+            3.958482265472412,
+            -7.263988494873047,
+            -1.1057937145233154
+        ],
+        [
+            0.5838332890751577,
+            0.12471750359283754,
+            0.9114423009195692,
+            0.7031518685799338,
+            0.08610444219355748,
+            0.08578330194841947,
+            0.700574549818868,
+            0.00033819006057456136,
+            -0.00017630215734243393,
+            -0.0018940846202895045,
+            -0.012254452332854271,
+            -0.002010619267821312,
+            -0.00031481432961300015
+        ],
+        [
+            0.563285568115532,
+            -0.013725114689620592,
+            0.9072086553039709,
+            -0.13927356585764192,
+            -0.004777779265484866,
+            0.1004627695037317,
+            0.9851331273600679,
+            -0.0020664664916694164,
+            -0.000140701697091572,
+            0.030984940007328987,
+            1.7641253471374512,
+            -0.9575796127319336,
+            -0.2707080543041229
+        ]
+    ],
+    "position_instruction": "Place the pen on top of the spoon on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "rotation_instruction_label": "ballpoint_right",
+    "obj_codes": [
+        "e1745c4aa7c046a2b5193d2d23be0192",
+        "f0b1f7c17d70489888f5ae922169c0ce",
+        "fbeb7c776372466daffa619106e0b2e0"
+    ],
+    "target_obj_code": "fbeb7c776372466daffa619106e0b2e0",
+    "anno_target": {
+        "category": "pen",
+        "annotation": {
+            " the ballpoint of the pen is on the left(oriented towards left), while the clicker is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "ballpoint_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "ballpoint_right"
+}

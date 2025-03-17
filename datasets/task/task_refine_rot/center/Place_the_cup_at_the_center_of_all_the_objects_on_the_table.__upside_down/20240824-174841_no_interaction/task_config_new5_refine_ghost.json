@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "hot glue gun",
+        "speaker",
+        "book",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/5ceec13e87774982afe825e7e74a0ce1/material_2.urdf",
+        "objaverse_rescale/4445f4442a884999960e7e6660459095/material_2.urdf",
+        "objaverse_rescale/de79a920c48745ff95c0df7a7c300091/material_2.urdf",
+        "ycb_16k_backup/065-f_cups_google_16k/065-f_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.4133200364578987,
+            0.03820140702614914,
+            0.9177704915025259,
+            -0.002142249227223991,
+            0.0301500016379121,
+            0.025849539616961167,
+            0.9992087817223553,
+            -0.0010977620258927345,
+            -0.004516872577369213,
+            -0.002936378587037325,
+            0.1265978068113327,
+            -0.07199868559837341,
+            -0.06874001771211624
+        ],
+        [
+            0.5802529016469569,
+            -0.0776490970690719,
+            0.968747526941163,
+            -0.0028484976108310044,
+            0.00021389092245796527,
+            -0.08003066003063133,
+            0.9967883094053097,
+            0.0012077178107574582,
+            -0.001848926767706871,
+            -0.0010663740104064345,
+            0.027514096349477768,
+            0.009652061387896538,
+            0.0009601706406101584
+        ],
+        [
+            0.5784469018484764,
+            0.1841801075234231,
+            0.9151490626022785,
+            0.0069338448334582215,
+            -0.0020024753350063704,
+            -0.07606172596671334,
+            0.9970769908744882,
+            0.002251284196972847,
+            -0.0017913177143782377,
+            -0.0008206720231100917,
+            0.11897256970405579,
+            0.11200334131717682,
+            0.004979267716407776
+        ],
+        [
+            0.486036490178414,
+            -0.18774303218663058,
+            0.9003502876901922,
+            0.0005108938983802255,
+            0.00017082765201442628,
+            -0.09844190059362709,
+            0.995142654101839,
+            -0.002848285948857665,
+            -0.0016097959596663713,
+            -0.0021542187314480543,
+            0.030269699171185493,
+            -0.07944203913211823,
+            -0.006089339032769203
+        ]
+    ],
+    "position_instruction": "Place the cup at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "5ceec13e87774982afe825e7e74a0ce1",
+        "4445f4442a884999960e7e6660459095",
+        "de79a920c48745ff95c0df7a7c300091",
+        "065-f"
+    ],
+    "target_obj_code": "065-f",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "center",
+    "rotation_tag": "upside_down"
+}

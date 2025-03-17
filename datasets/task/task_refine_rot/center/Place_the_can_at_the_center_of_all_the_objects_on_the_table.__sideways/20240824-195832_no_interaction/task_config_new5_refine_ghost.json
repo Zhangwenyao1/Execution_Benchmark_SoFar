@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "watch",
+        "book",
+        "tissue box",
+        "can"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/243b381dcdc34316a7e78a533572d273/material_2.urdf",
+        "objaverse_rescale/c61227cac7224b86b43c53ac2a2b6ec7/material_2.urdf",
+        "objaverse_rescale/dc4c91abf45342b4bb8822f50fa162b2/material_2.urdf",
+        "ycb_16k_backup/005_tomato_soup_can_google_16k/005_tomato_soup_can_google_16k.urdf"
+    ],
+    "target_obj_name": "can",
+    "instruction": "Place the can at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.33342915961524394,
+            -0.179083808007464,
+            0.9248376414467093,
+            0.10166225749630238,
+            0.006862514356318079,
+            0.06680467236423251,
+            0.9925496597388838,
+            -3.1464089261135086e-05,
+            -0.00039408396696671844,
+            -9.40811078180559e-05,
+            0.004473792389035225,
+            -0.0016618008958175778,
+            -0.006766151171177626
+        ],
+        [
+            0.6141874368082075,
+            -0.18188887163600856,
+            0.9141631790465626,
+            3.969027189902419e-05,
+            -0.00017810530066678852,
+            -0.06524046980326281,
+            0.9978695545025078,
+            0.00028753443621098995,
+            -0.0005578445270657539,
+            -0.0035392388235777617,
+            -0.04883023351430893,
+            -0.000590199138969183,
+            -0.011322617530822754
+        ],
+        [
+            0.5708072337617237,
+            0.02464254543477122,
+            0.9471225203401129,
+            0.7059807413417472,
+            0.03988943900271451,
+            0.03987615771509076,
+            0.7059815277728506,
+            1.2142967534600757e-05,
+            -2.347633744648192e-05,
+            -6.184796075103804e-05,
+            0.0004990282468497753,
+            -5.005313141737133e-05,
+            -0.0002753182779997587
+        ],
+        [
+            0.46045604279242686,
+            0.08341324072103165,
+            0.8998941949917214,
+            -0.0002491434628021635,
+            -0.0007789583492638256,
+            -0.05713525670878586,
+            0.998366112001127,
+            -0.002136418828740716,
+            -0.0006333199562504888,
+            -0.00016197431250475347,
+            0.010542577132582664,
+            -0.04642455279827118,
+            0.0002028732851613313
+        ]
+    ],
+    "position_instruction": "Place the can at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "243b381dcdc34316a7e78a533572d273",
+        "c61227cac7224b86b43c53ac2a2b6ec7",
+        "dc4c91abf45342b4bb8822f50fa162b2",
+        "005"
+    ],
+    "target_obj_code": "005",
+    "anno_target": {
+        "category": "can",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "center",
+    "rotation_tag": "sideways"
+}

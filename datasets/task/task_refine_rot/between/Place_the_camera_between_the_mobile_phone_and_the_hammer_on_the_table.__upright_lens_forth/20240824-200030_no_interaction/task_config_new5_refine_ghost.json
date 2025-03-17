@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "mobile phone",
+        "hammer",
+        "camera"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/bad5e04d290841779dad272897f384e1/material_2.urdf",
+        "objaverse_rescale/35a76a67ea1c45edabbd5013de70d68d/material_2.urdf",
+        "objaverse_rescale/6a63fc4af48b453c91ca2b335a4d464d/material_2.urdf"
+    ],
+    "target_obj_name": "camera",
+    "instruction": "Place the camera between the mobile phone and the hammer on the table. We also need to specify the rotation of the object after placement:  the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.",
+    "init_obj_pos": [
+        [
+            0.36797657922847266,
+            -0.04564205200954595,
+            0.9063291116900867,
+            0.7053502884835371,
+            -0.05455886961472005,
+            0.7046509749669169,
+            0.05450966667233701,
+            0.000570877396967262,
+            0.005518429446965456,
+            0.028230292722582817,
+            -0.5472812652587891,
+            0.42851534485816956,
+            0.08521445840597153
+        ],
+        [
+            0.5149537699375288,
+            -0.1102479553109109,
+            0.9318263222866132,
+            2.425661983677319e-05,
+            -9.444363191046107e-07,
+            -0.055588235591693284,
+            0.9984537783365469,
+            0.002101418562233448,
+            -0.0018044135067611933,
+            -0.0015381226548925042,
+            0.06984608620405197,
+            0.0693529024720192,
+            -0.010429811663925648
+        ],
+        [
+            0.4811984347652412,
+            0.17409565678536437,
+            0.9565252335950898,
+            0.09507277646300581,
+            0.004396639205461287,
+            0.0663328586315863,
+            0.993248100227267,
+            0.0007860476616770029,
+            -0.00020601203141268343,
+            -0.0008271425031125546,
+            -0.0041455538012087345,
+            0.007112646009773016,
+            -0.010964293032884598
+        ]
+    ],
+    "position_instruction": "Place the camera between the mobile phone and the hammer on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.",
+    "rotation_instruction_label": "upright_lens_forth",
+    "obj_codes": [
+        "bad5e04d290841779dad272897f384e1",
+        "35a76a67ea1c45edabbd5013de70d68d",
+        "6a63fc4af48b453c91ca2b335a4d464d"
+    ],
+    "target_obj_code": "6a63fc4af48b453c91ca2b335a4d464d",
+    "anno_target": {
+        "category": "camera",
+        "annotation": {
+            " the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "upright_lens_forth",
+    "rot_tag_level": 2,
+    "position_tag": "between",
+    "rotation_tag": "upright_lens_forth"
+}

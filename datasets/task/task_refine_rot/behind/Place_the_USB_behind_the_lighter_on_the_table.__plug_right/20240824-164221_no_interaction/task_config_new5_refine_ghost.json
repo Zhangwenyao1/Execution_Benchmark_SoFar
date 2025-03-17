@@ -1,0 +1,127 @@
+{
+    "selected_obj_names": [
+        "lighter",
+        "cup",
+        "shoe",
+        "USB"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/b640aa4990b64db9ab3d868c6f49820e/material_2.urdf",
+        "ycb_16k_backup/065-b_cups_google_16k/065-b_cups_google_16k.urdf",
+        "objaverse_rescale/aa51af2f1270482193471455b504efc6/material_2.urdf",
+        "objaverse_rescale/878049e8c3174fa68a56530e5aef7a5a/material_2.urdf"
+    ],
+    "target_obj_name": "USB",
+    "instruction": "Place the USB behind the lighter on the table. We also need to specify the rotation of the object after placement:  the silver plug end of the USB is oriented towards right, and the larger end is on the left.",
+    "init_obj_pos": [
+        [
+            0.629748737568037,
+            0.01742135831444,
+            0.9267610128402399,
+            -0.008500169628826788,
+            0.04260287273790401,
+            0.29287744286281014,
+            0.9551625755927109,
+            -0.0037242549005895853,
+            0.0032863812521100044,
+            0.023215381428599358,
+            -0.3746483027935028,
+            -0.3690445125102997,
+            0.032567478716373444
+        ],
+        [
+            0.5048564844443181,
+            0.05939275540764307,
+            0.9075373090891785,
+            0.04757121442036316,
+            0.00410862878818968,
+            0.0015831241600328223,
+            0.9988581443057605,
+            0.002576463622972369,
+            0.0018170000985264778,
+            -0.007851867936551571,
+            -0.08980325609445572,
+            0.20536208152770996,
+            0.07629182934761047
+        ],
+        [
+            0.33159798498396537,
+            0.1468429669356439,
+            0.932059854388546,
+            0.023790898263202517,
+            0.08087702020334941,
+            0.17096841194913012,
+            0.9816632329258601,
+            -0.00023582168796565384,
+            -0.0015645198291167617,
+            5.362705996958539e-05,
+            0.04983639344573021,
+            0.013945294544100761,
+            0.005884459242224693
+        ],
+        [
+            0.40789791339351295,
+            -0.15227938106035863,
+            0.9397614103773023,
+            -0.13826980097113628,
+            0.031177021163021415,
+            -0.2177241063333023,
+            0.9656633310901725,
+            0.0008203944889828563,
+            -0.00014728825772181153,
+            -0.001646015327423811,
+            -0.006989579647779465,
+            0.02774222195148468,
+            -0.0018414915539324284
+        ]
+    ],
+    "position_instruction": "Place the USB behind the lighter on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the silver plug end of the USB is oriented towards right, and the larger end is on the left.",
+    "rotation_instruction_label": "plug_right",
+    "obj_codes": [
+        "b640aa4990b64db9ab3d868c6f49820e",
+        "065-b",
+        "aa51af2f1270482193471455b504efc6",
+        "878049e8c3174fa68a56530e5aef7a5a"
+    ],
+    "target_obj_code": "878049e8c3174fa68a56530e5aef7a5a",
+    "anno_target": {
+        "category": "USB",
+        "annotation": {
+            " the silver plug end of the USB is oriented towards left, and the larger end is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the silver plug end of the USB is oriented towards right, and the larger end is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "plug_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "plug_right"
+}

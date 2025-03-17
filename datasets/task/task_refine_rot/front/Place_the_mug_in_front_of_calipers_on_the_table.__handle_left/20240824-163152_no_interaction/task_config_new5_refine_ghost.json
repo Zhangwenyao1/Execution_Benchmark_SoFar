@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "calipers",
+        "bottle",
+        "hat",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/95c967114b624291bc26bcd705aaa334/material_2.urdf",
+        "ycb_16k_backup/021_bleach_cleanser_google_16k/021_bleach_cleanser_google_16k.urdf",
+        "objaverse_rescale/dc02f9c1fd01432fadd6e7d15851dc37/material_2.urdf",
+        "objaverse_rescale/c609327dd3a74fb597584e1b4a14a615/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug in front of calipers on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "init_obj_pos": [
+        [
+            0.667344168299148,
+            0.12042805234850204,
+            0.9037564451697769,
+            -0.6611260621911931,
+            0.25249134994434047,
+            -0.2678617061229364,
+            0.6537664372600981,
+            -0.004150923807173967,
+            0.00034195187618024647,
+            0.03359071910381317,
+            1.9603877067565918,
+            -2.8927738666534424,
+            0.34666964411735535
+        ],
+        [
+            0.4308019762554994,
+            -0.01719518403919423,
+            0.9464346280408031,
+            -0.6999321357310913,
+            0.17669476150455493,
+            -0.1775460101074091,
+            0.6688433156746821,
+            0.0009425351745449007,
+            -0.0007600059034302831,
+            -0.0005264597130008042,
+            0.03130936622619629,
+            0.03910202905535698,
+            9.629801206756383e-05
+        ],
+        [
+            0.5142359004456789,
+            -0.22414418137654082,
+            0.9546749902148988,
+            -0.18054021118770736,
+            -0.5414516061165429,
+            0.6278079843928255,
+            0.5292376830033286,
+            -0.0004542361421044916,
+            0.0020816761534661055,
+            -0.0008256270084530115,
+            -0.06432437151670456,
+            -0.030246978625655174,
+            0.08384495228528976
+        ],
+        [
+            0.4009766301259756,
+            -0.24509998053389004,
+            0.9322078855877047,
+            0.8217805141160537,
+            -0.00593463121680866,
+            -0.18148000241822468,
+            0.5400986719977716,
+            0.0020912536419928074,
+            0.0004362936015240848,
+            3.5701166780199856e-05,
+            -0.005699393805116415,
+            0.035189490765333176,
+            -0.017568862065672874
+        ]
+    ],
+    "position_instruction": "Place the mug in front of calipers on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "rotation_instruction_label": "handle_left",
+    "obj_codes": [
+        "95c967114b624291bc26bcd705aaa334",
+        "021",
+        "dc02f9c1fd01432fadd6e7d15851dc37",
+        "c609327dd3a74fb597584e1b4a14a615"
+    ],
+    "target_obj_code": "c609327dd3a74fb597584e1b4a14a615",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).": {
+                "quat": [
+                    [
+                        0.5067986845970154,
+                        -0.4931075870990753,
+                        -0.4931075870990753,
+                        0.5067986845970154
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "handle_left"
+}

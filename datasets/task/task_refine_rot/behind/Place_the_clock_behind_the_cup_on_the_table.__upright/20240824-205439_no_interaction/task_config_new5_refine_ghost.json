@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "hammer",
+        "clock"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-d_cups_google_16k/065-d_cups_google_16k.urdf",
+        "objaverse_rescale/6d155e8051294915813e0c156e3cd6de/material_2.urdf",
+        "objaverse_rescale/fdf932b04e6c4e0fbd6e274563b94536/material_2.urdf"
+    ],
+    "target_obj_name": "clock",
+    "instruction": "Place the clock behind the cup on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.4296382291159359,
+            -0.024279126728906433,
+            0.9006104056675449,
+            0.000815425923536765,
+            -0.0007471650464740923,
+            -0.00552171512649494,
+            0.9999841436177966,
+            0.0070780362002551556,
+            -9.59011958912015e-05,
+            -0.0071801068261265755,
+            -0.03198367357254028,
+            0.19837968051433563,
+            -0.015092762187123299
+        ],
+        [
+            0.5968377557926179,
+            -0.14917068141762546,
+            0.91622152872041,
+            -0.1410400944609837,
+            0.6929009296166563,
+            0.15046484090304071,
+            0.6909097807549354,
+            -0.005303863435983658,
+            -0.0054457178339362144,
+            0.02308950386941433,
+            0.46379977464675903,
+            -0.556765079498291,
+            -0.010697085410356522
+        ],
+        [
+            0.6147676727279159,
+            0.05956335935377855,
+            0.934319742946587,
+            -0.015373570856787845,
+            0.003953651684558084,
+            -0.2584543130031127,
+            0.9658930531107252,
+            -7.67030578572303e-05,
+            -3.864877362502739e-05,
+            -7.406083750538528e-05,
+            0.001185560948215425,
+            -0.00082875118823722,
+            -0.0004125006962567568
+        ]
+    ],
+    "position_instruction": "Place the clock behind the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "065-d",
+        "6d155e8051294915813e0c156e3cd6de",
+        "fdf932b04e6c4e0fbd6e274563b94536"
+    ],
+    "target_obj_code": "fdf932b04e6c4e0fbd6e274563b94536",
+    "anno_target": {
+        "category": "clock",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "upright"
+}

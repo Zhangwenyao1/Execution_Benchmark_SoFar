@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "tape measure",
+        "pot"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/213d8df9c37a4d8cba794965676f7a75/material_2.urdf",
+        "objaverse_rescale/7138f5e13b2e4e17975c23ba5584164b/material_2.urdf",
+        "objaverse_rescale/cba3e4df7c354d22b7913d45a28a8159/material_2.urdf"
+    ],
+    "target_obj_name": "pot",
+    "instruction": "Place the pot to the right of the tissue box on the table. We also need to specify the rotation of the object after placement:  the pot is upright on the table with its spout pointing towards right.",
+    "init_obj_pos": [
+        [
+            0.43764907662248664,
+            0.009127576505291361,
+            0.9329001094619893,
+            -1.5655293690058903e-07,
+            8.446157296646098e-07,
+            0.02248992482656435,
+            0.9997470696533994,
+            1.9299021005281247e-05,
+            -0.000462724274257198,
+            -0.00021991762332618237,
+            0.0007653083303011954,
+            -0.0023178209085017443,
+            -0.00282233115285635
+        ],
+        [
+            0.513281355877073,
+            0.22487611112455835,
+            0.917312942540551,
+            0.04752408105957935,
+            -0.013703661331171386,
+            -0.10969835947854202,
+            0.992733570155295,
+            0.0018336441135033965,
+            -0.0027097708079963923,
+            -0.0006979263853281736,
+            0.0982651486992836,
+            0.06824786216020584,
+            0.0008581232978031039
+        ],
+        [
+            0.33981369269107786,
+            -0.16478577182310072,
+            0.9372004660679272,
+            -0.16114050434161914,
+            0.01225068956490255,
+            0.06879377907233755,
+            0.9844547091799913,
+            0.026922283694148064,
+            0.004106449894607067,
+            0.0016880918992683291,
+            -0.0708223283290863,
+            0.4606795608997345,
+            0.03573508560657501
+        ]
+    ],
+    "position_instruction": "Place the pot to the right of the tissue box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the pot is upright on the table with its spout pointing towards right.",
+    "rotation_instruction_label": "spout_right",
+    "obj_codes": [
+        "213d8df9c37a4d8cba794965676f7a75",
+        "7138f5e13b2e4e17975c23ba5584164b",
+        "cba3e4df7c354d22b7913d45a28a8159"
+    ],
+    "target_obj_code": "cba3e4df7c354d22b7913d45a28a8159",
+    "anno_target": {
+        "category": "pot",
+        "annotation": {
+            " the pot is upright on the table with its spout pointing towards left.": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            },
+            " the pot is upright on the table with its spout pointing towards right.": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "spout_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "spout_right"
+}

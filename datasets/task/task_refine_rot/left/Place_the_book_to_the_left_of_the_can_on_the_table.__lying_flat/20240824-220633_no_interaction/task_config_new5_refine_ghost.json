@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "can",
+        "spatula",
+        "calculator",
+        "book"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/007_tuna_fish_can_google_16k/007_tuna_fish_can_google_16k.urdf",
+        "objaverse_rescale/4b27628be0804c0285d0b13dda025a0d/material_2.urdf",
+        "objaverse_rescale/b4bb8bd7791648fdb36c458fd9a877bf/material_2.urdf",
+        "objaverse_rescale/de79a920c48745ff95c0df7a7c300091/material_2.urdf"
+    ],
+    "target_obj_name": "book",
+    "instruction": "Place the book to the left of the can on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.32880872222186225,
+            -0.1730723100053126,
+            0.9031511925501587,
+            0.0004925437768881067,
+            -0.0007415749772997761,
+            -0.01816324369688513,
+            0.9998346383505563,
+            0.001378423417918384,
+            0.0032859526108950377,
+            -0.010120661929249763,
+            -0.23028086125850677,
+            0.16912411153316498,
+            0.018344007432460785
+        ],
+        [
+            0.46775488772737894,
+            -0.1660227773419044,
+            0.9036015829825558,
+            -0.8627686393911767,
+            0.5055114806612082,
+            -0.009370981074244845,
+            -0.0007762193744367791,
+            0.004887092392891645,
+            -0.00203588861040771,
+            0.006288291420787573,
+            0.9717451930046082,
+            1.0475260019302368,
+            0.0002295879676239565
+        ],
+        [
+            0.4861215952980415,
+            -0.04971593960177296,
+            0.9167977533064815,
+            0.6554785479076339,
+            -0.1718652049941151,
+            -0.18141614321635255,
+            0.7126699148453888,
+            0.0015634681330993772,
+            1.4348773220262956e-05,
+            -0.0013624117709696293,
+            0.00709127401933074,
+            0.04385345056653023,
+            0.009017661213874817
+        ],
+        [
+            0.678171776674366,
+            0.23598413944358612,
+            0.9151405662178597,
+            0.007441322605123401,
+            -0.0010905755047130147,
+            0.00444356172960864,
+            0.9999618453331661,
+            0.002326258225366473,
+            -0.00185205671004951,
+            -0.0008887478616088629,
+            0.09022297710180283,
+            0.09205453097820282,
+            0.003416072577238083
+        ]
+    ],
+    "position_instruction": "Place the book to the left of the can on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "007",
+        "4b27628be0804c0285d0b13dda025a0d",
+        "b4bb8bd7791648fdb36c458fd9a877bf",
+        "de79a920c48745ff95c0df7a7c300091"
+    ],
+    "target_obj_code": "de79a920c48745ff95c0df7a7c300091",
+    "anno_target": {
+        "category": "book",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        1.0,
+                        0.0,
+                        0.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "left",
+    "rotation_tag": "lying_flat"
+}

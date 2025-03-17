@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "box",
+        "shoe",
+        "bowl"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/213d8df9c37a4d8cba794965676f7a75/material_2.urdf",
+        "ycb_16k_backup/003_cracker_box_google_16k/003_cracker_box_google_16k.urdf",
+        "objaverse_rescale/d6951661c1e445d8a1d00b7d38d86030/material_2.urdf",
+        "ycb_16k_backup/024_bowl_google_16k/024_bowl_google_16k.urdf"
+    ],
+    "target_obj_name": "bowl",
+    "instruction": "Place the bowl on top of the tissue box on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.5489975067330094,
+            -0.06651271691963022,
+            0.9301904133321324,
+            0.7020468733866783,
+            -0.08441658369221919,
+            -0.0844153064813627,
+            0.702052764396936,
+            -7.40630057407543e-05,
+            -0.00013994444452691823,
+            -6.333481724141166e-05,
+            0.0019970880821347237,
+            -0.0012691394658759236,
+            -0.00014660092710983008
+        ],
+        [
+            0.3185336442825361,
+            -0.21646552951483963,
+            0.9038245461495868,
+            -0.0007413811553277421,
+            -0.014638195720167932,
+            -0.046717661535275734,
+            0.9988005975572476,
+            -0.0006941182073205709,
+            -4.9719899834599346e-05,
+            -0.0007995782652869821,
+            0.002651105634868145,
+            -0.009673873893916607,
+            0.00016342867456842214
+        ],
+        [
+            0.3578167676376581,
+            0.11821418715406717,
+            0.9310401860836649,
+            -0.7035583854082451,
+            -0.11842985408247951,
+            -0.11135801356444495,
+            -0.6917943052661879,
+            0.010742763988673687,
+            0.0014258506707847118,
+            -0.007320710923522711,
+            -0.06132970005273819,
+            0.18319185078144073,
+            -0.030900726094841957
+        ],
+        [
+            0.4911282363014044,
+            0.03884829133229546,
+            0.9532979927018673,
+            -0.88671952653979,
+            0.46228097227054316,
+            -0.0014869766519588837,
+            0.00475108725320876,
+            0.003837964730337262,
+            -0.011830991134047508,
+            0.016203882172703743,
+            0.3840746283531189,
+            0.04561419412493706,
+            -0.09972120076417923
+        ]
+    ],
+    "position_instruction": "Place the bowl on top of the tissue box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "213d8df9c37a4d8cba794965676f7a75",
+        "003",
+        "d6951661c1e445d8a1d00b7d38d86030",
+        "024"
+    ],
+    "target_obj_code": "024",
+    "anno_target": {
+        "category": "bowl",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "top",
+    "rotation_tag": "upside_down"
+}

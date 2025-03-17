@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "clipboard",
+        "screwdriver"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/c609327dd3a74fb597584e1b4a14a615/material_2.urdf",
+        "objaverse_rescale/a37158f20ccf436483029e8295629738/material_2.urdf",
+        "ycb_16k_backup/043_phillips_screwdriver_google_16k/043_phillips_screwdriver_google_16k.urdf"
+    ],
+    "target_obj_name": "screwdriver",
+    "instruction": "Place the screwdriver between the mug and the clipboard on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.5241806031741889,
+            -0.02983773153135931,
+            0.9360364289220068,
+            -0.001762362065131269,
+            0.01422700762744671,
+            0.0032552124150742926,
+            0.9998919391244507,
+            -0.0009350019972771406,
+            0.0002943806757684797,
+            -0.00013834108540322632,
+            -0.004147171508520842,
+            -0.01679103448987007,
+            -0.0014814188471063972
+        ],
+        [
+            0.39820846417587,
+            -0.19800558540240562,
+            0.9036464508549479,
+            0.7013129526616143,
+            -0.09031968750081053,
+            -0.09031575179503883,
+            0.7013170192263278,
+            0.0015251395525410771,
+            0.001651995349675417,
+            0.016795070841908455,
+            0.01489118579775095,
+            0.413858562707901,
+            -0.0008497042581439018
+        ],
+        [
+            0.6607949714741093,
+            -0.1297919287993271,
+            0.9014569899659598,
+            -0.025213498361672502,
+            -0.01346581422076737,
+            0.0842110111951114,
+            0.9960378792702781,
+            -0.0002159801369998604,
+            -9.038815187523142e-05,
+            -5.0829250540118665e-05,
+            -0.006475837901234627,
+            -0.013198889791965485,
+            0.018708832561969757
+        ]
+    ],
+    "position_instruction": "Place the screwdriver between the mug and the clipboard on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "c609327dd3a74fb597584e1b4a14a615",
+        "a37158f20ccf436483029e8295629738",
+        "043"
+    ],
+    "target_obj_code": "043",
+    "anno_target": {
+        "category": "screwdriver",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.8475578427314758,
+                        0.530703067779541
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_right"
+}

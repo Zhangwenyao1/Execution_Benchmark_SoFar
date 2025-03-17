@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "toy",
+        "cap",
+        "pitcher base",
+        "plate"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/072-b_toy_airplane_google_16k/072-b_toy_airplane_google_16k.urdf",
+        "objaverse_rescale/87e82aa304ce4571b69bdd5182549c72/material_2.urdf",
+        "ycb_16k_backup/019_pitcher_base_google_16k/019_pitcher_base_google_16k.urdf",
+        "objaverse_rescale/8d50c19e138b403e8b2ede9b47d8be3c/material_2.urdf"
+    ],
+    "target_obj_name": "plate",
+    "instruction": "Place the plate on top of the toy on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.579132498493204,
+            0.1698923233299936,
+            0.9001519638562221,
+            -0.0001277360225256787,
+            -0.0002804807588301933,
+            -0.11713307549991031,
+            0.9931161803323846,
+            -0.0012128945672884583,
+            -0.0014810464344918728,
+            -0.0005555676762014627,
+            0.029530217871069908,
+            0.001816004398278892,
+            0.003817172022536397
+        ],
+        [
+            0.6170857234085881,
+            -0.16313103989864916,
+            0.9314115589338516,
+            0.5431622226064422,
+            -0.08061243707608404,
+            -0.16125690251007563,
+            0.8200442953369896,
+            0.0027593898121267557,
+            0.000426340673584491,
+            0.03224749490618706,
+            0.25578629970550537,
+            0.3269141614437103,
+            -0.02270847000181675
+        ],
+        [
+            0.7252481276086978,
+            -0.22632492430080356,
+            0.901320260769341,
+            9.425245728325275e-06,
+            0.0006972526102134272,
+            0.2074701466976205,
+            0.9782411011500334,
+            0.00016356573905795813,
+            0.0037487251684069633,
+            -0.0006902769673615694,
+            -0.03377516567707062,
+            0.0014478565426543355,
+            0.007867653854191303
+        ],
+        [
+            0.3214566899892447,
+            -0.209585538478102,
+            0.9147543809134764,
+            0.7057282226801151,
+            -0.04416155151850097,
+            -0.04415332022600972,
+            0.7057251004415691,
+            0.00023780029732733965,
+            0.00041964827687479556,
+            -0.0008067188318818808,
+            -0.04860944300889969,
+            0.021368978545069695,
+            -0.001963029382750392
+        ]
+    ],
+    "position_instruction": "Place the plate on top of the toy on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "072-b",
+        "87e82aa304ce4571b69bdd5182549c72",
+        "019",
+        "8d50c19e138b403e8b2ede9b47d8be3c"
+    ],
+    "target_obj_code": "8d50c19e138b403e8b2ede9b47d8be3c",
+    "anno_target": {
+        "category": "plate",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "top",
+    "rotation_tag": "upside_down"
+}

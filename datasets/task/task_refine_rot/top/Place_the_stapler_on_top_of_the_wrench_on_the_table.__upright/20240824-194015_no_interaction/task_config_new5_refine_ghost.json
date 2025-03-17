@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "wrench",
+        "stapler"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf",
+        "objaverse_rescale/d2c345be5c084b4e8c92b48f7be69315/material_2.urdf"
+    ],
+    "target_obj_name": "stapler",
+    "instruction": "Place the stapler on top of the wrench on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.48788401390233127,
+            0.14180790357376122,
+            0.9027391983311133,
+            0.01288744913902017,
+            -0.01675647708793558,
+            0.06024952621770755,
+            0.9979594825045913,
+            0.0031470998656004667,
+            -0.004287495743483305,
+            0.03452188894152641,
+            -0.7372084856033325,
+            0.33671361207962036,
+            0.2222808301448822
+        ],
+        [
+            0.521008406505918,
+            -0.13684565975353075,
+            0.9213142869467269,
+            -0.046741562679006386,
+            0.3758277873239535,
+            0.004475389166928085,
+            0.925499147209391,
+            0.001358462031930685,
+            0.007025280501693487,
+            -0.0014589338097721338,
+            -0.3273357152938843,
+            0.07751131057739258,
+            -0.01612963154911995
+        ]
+    ],
+    "position_instruction": "Place the stapler on top of the wrench on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "042",
+        "d2c345be5c084b4e8c92b48f7be69315"
+    ],
+    "target_obj_code": "d2c345be5c084b4e8c92b48f7be69315",
+    "anno_target": {
+        "category": "stapler",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "top",
+    "rotation_tag": "upright"
+}

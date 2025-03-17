@@ -1,0 +1,85 @@
+{
+    "selected_obj_names": [
+        "plate",
+        "glasses"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6d5a4e1174dd4f5fa0a9a9076e476b91/material_2.urdf",
+        "objaverse_rescale/e4f348e98ceb45e3abc77da5b738f1b2/material_2.urdf"
+    ],
+    "target_obj_name": "glasses",
+    "instruction": "Place the glasses to the left of the plate on the table. We also need to specify the rotation of the object after placement:  the lens of the glasses in not in contact with the table while the temples(arms) and lower rim of the glasses are in contact with the table, which means that the glasses is in a position consistent with how humans generally wear them. ",
+    "init_obj_pos": [
+        [
+            0.3450180752686612,
+            -0.16814929756884944,
+            0.9127414060261986,
+            0.7040038543942437,
+            0.06615009053230082,
+            0.06615950354901515,
+            0.704006859775361,
+            -5.709404649678618e-05,
+            -3.18360653182026e-05,
+            -0.0005781252402812243,
+            -0.007319164462387562,
+            -0.008074109442532063,
+            0.0011457112850621343
+        ],
+        [
+            0.5361873433578981,
+            0.31106565526008395,
+            0.9130565498737667,
+            -0.6416223799835291,
+            -0.19441913927674265,
+            0.25245483594409174,
+            0.6977022829227398,
+            -0.002336440607905388,
+            0.0013990146107971668,
+            0.03434383124113083,
+            0.19777841866016388,
+            -0.5258395671844482,
+            -0.04058665409684181
+        ]
+    ],
+    "position_instruction": "Place the glasses to the left of the plate on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the lens of the glasses in not in contact with the table while the temples(arms) and lower rim of the glasses are in contact with the table, which means that the glasses is in a position consistent with how humans generally wear them. ",
+    "rotation_instruction_label": "lower_rim",
+    "obj_codes": [
+        "6d5a4e1174dd4f5fa0a9a9076e476b91",
+        "e4f348e98ceb45e3abc77da5b738f1b2"
+    ],
+    "target_obj_code": "e4f348e98ceb45e3abc77da5b738f1b2",
+    "anno_target": {
+        "category": "glasses",
+        "annotation": {
+            " the lens of the glasses in not in contact with the table while the temples(arms) and upper rim of the glasses are in contact with the table, which means that the glasses is in an upside down position compared to how humans generally wear them. ": {
+                "quat": [
+                    [
+                        -0.334464967250824,
+                        0.609382152557373,
+                        -0.6155509948730469,
+                        0.371326744556427
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the lens of the glasses in not in contact with the table while the temples(arms) and lower rim of the glasses are in contact with the table, which means that the glasses is in a position consistent with how humans generally wear them. ": {
+                "quat": [
+                    [
+                        0.3672770857810974,
+                        0.6228358745574951,
+                        0.6019344329833984,
+                        0.3389069437980652
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "lower_rim",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "lower_rim"
+}

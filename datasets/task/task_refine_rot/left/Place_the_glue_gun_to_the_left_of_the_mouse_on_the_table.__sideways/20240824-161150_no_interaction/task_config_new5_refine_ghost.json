@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "mouse",
+        "pitcher base",
+        "cap",
+        "glue gun"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/969b0d9d99a8468898753fdcd219f883/material_2.urdf",
+        "ycb_16k_backup/019_pitcher_base_google_16k/019_pitcher_base_google_16k.urdf",
+        "objaverse_rescale/87e82aa304ce4571b69bdd5182549c72/material_2.urdf",
+        "objaverse_rescale/a1da12b81f034db894496c1ffc4be1f5/material_2.urdf"
+    ],
+    "target_obj_name": "glue gun",
+    "instruction": "Place the glue gun to the left of the mouse on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.45205999868924096,
+            0.27274768502707447,
+            0.920816548856198,
+            -0.5978957880614546,
+            -0.22152124517972052,
+            0.13574352121754021,
+            0.7583024864787548,
+            0.006784324999898672,
+            0.00253316736780107,
+            -0.00042698445031419396,
+            0.0758742243051529,
+            0.2303990125656128,
+            0.04649130627512932
+        ],
+        [
+            0.34714721016942485,
+            0.10095292092598715,
+            0.9013205561242937,
+            0.0001741002030426797,
+            0.0006641265968337184,
+            -0.03730151817937054,
+            0.9993038203501963,
+            -0.004030283074826002,
+            0.0034334277734160423,
+            -0.00010792088141897693,
+            -0.030924376100301743,
+            -0.036567412316799164,
+            -0.005726764444261789
+        ],
+        [
+            0.7036193155351982,
+            0.14468416634677858,
+            0.9389526315964598,
+            -0.6764544151464889,
+            0.6027967047580232,
+            -0.285644291309711,
+            0.3121744637279957,
+            -0.002507870551198721,
+            -0.0032049810979515314,
+            -0.0009479564032517374,
+            0.09833280742168427,
+            -0.06858738511800766,
+            -0.0284225232899189
+        ],
+        [
+            0.5391602710432339,
+            0.03941159340050977,
+            0.9725058850203032,
+            -0.006144127744688929,
+            0.21604864110188868,
+            0.02355651872415475,
+            0.9760790566331617,
+            0.01274344976991415,
+            0.00123440264724195,
+            -0.004982880316674709,
+            -0.03696957603096962,
+            0.21409139037132263,
+            -0.0006618174375034869
+        ]
+    ],
+    "position_instruction": "Place the glue gun to the left of the mouse on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "969b0d9d99a8468898753fdcd219f883",
+        "019",
+        "87e82aa304ce4571b69bdd5182549c72",
+        "a1da12b81f034db894496c1ffc4be1f5"
+    ],
+    "target_obj_code": "a1da12b81f034db894496c1ffc4be1f5",
+    "anno_target": {
+        "category": "glue_gun",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.4999999701976776,
+                        0.5
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "sideways"
+}

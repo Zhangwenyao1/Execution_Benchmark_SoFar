@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "pear",
+        "bottle",
+        "calipers",
+        "screwdriver"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f3dd3064db4f4e8880344425970cecad/material_2.urdf",
+        "objaverse_rescale/a7785ac7ce7f4ba79df661db33637ba9/material_2.urdf",
+        "objaverse_rescale/95c967114b624291bc26bcd705aaa334/material_2.urdf",
+        "ycb_16k_backup/043_phillips_screwdriver_google_16k/043_phillips_screwdriver_google_16k.urdf"
+    ],
+    "target_obj_name": "screwdriver",
+    "instruction": "Place the screwdriver behind the pear on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.35037808080101024,
+            0.01775806415484031,
+            0.9349882773700837,
+            -0.11162596971102093,
+            -0.0241032531074355,
+            0.050193679636513854,
+            0.992189130458634,
+            0.003359096357598901,
+            -0.003918307367712259,
+            -0.00041881841025315225,
+            0.087956003844738,
+            0.07969691604375839,
+            -0.014604049734771252
+        ],
+        [
+            0.5800982768524765,
+            -0.20958084846388975,
+            0.9294689002285978,
+            -0.00047790054198505337,
+            0.05334156260901943,
+            -0.053444068065900546,
+            0.9971450149793,
+            0.003834785195067525,
+            -0.00021548249060288072,
+            -8.433334005530924e-05,
+            0.012825301848351955,
+            0.16895152628421783,
+            0.0069773136638104916
+        ],
+        [
+            0.5277603233345405,
+            0.21200256718662785,
+            0.9036068795950712,
+            -0.6893964820194506,
+            0.15547571911014227,
+            -0.17003908651044752,
+            0.6867652440281765,
+            -0.0032020111102610826,
+            -0.0007840105681680143,
+            0.0333729088306427,
+            1.553405523300171,
+            -1.786234736442566,
+            -0.028019031509757042
+        ],
+        [
+            0.377570764066825,
+            0.18059383391798348,
+            0.8966499336049593,
+            0.09633947803343232,
+            0.05795932036255097,
+            0.06261821198458133,
+            0.9916846180531442,
+            0.0010433951392769814,
+            0.0014186641201376915,
+            -0.00017588421178516,
+            0.06658634543418884,
+            -0.0844980999827385,
+            -0.02081485465168953
+        ]
+    ],
+    "position_instruction": "Place the screwdriver behind the pear on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "f3dd3064db4f4e8880344425970cecad",
+        "a7785ac7ce7f4ba79df661db33637ba9",
+        "95c967114b624291bc26bcd705aaa334",
+        "043"
+    ],
+    "target_obj_code": "043",
+    "anno_target": {
+        "category": "screwdriver",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.8475578427314758,
+                        0.530703067779541
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "handle_right"
+}

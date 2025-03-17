@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "pitcher base",
+        "shoe",
+        "remote control",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/019_pitcher_base_google_16k/019_pitcher_base_google_16k.urdf",
+        "objaverse_rescale/ae7142127dd84ebbbe7762368ace452c/material_2.urdf",
+        "objaverse_rescale/d72eebbf82be48f0a53e7e8b712e6a66/material_2.urdf",
+        "ycb_16k_backup/065-i_cups_google_16k/065-i_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup to the right of the pitcher base on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6954447557719933,
+            0.173727461235736,
+            0.9013220866152327,
+            9.079361233735828e-05,
+            0.0006514886626350631,
+            0.08189389219042364,
+            0.9966408368820456,
+            -0.001262177829630673,
+            0.002593036275357008,
+            -0.0001894019078463316,
+            -0.02497953549027443,
+            -0.01093594916164875,
+            0.003132064361125231
+        ],
+        [
+            0.3993595934616942,
+            -0.10662062692206754,
+            0.9310949507013474,
+            0.026200579126471703,
+            0.22281053109855015,
+            -0.11669020120563192,
+            0.9674980071439983,
+            0.00013147083518560976,
+            -7.239219848997891e-05,
+            -0.0002179041039198637,
+            -0.0006631112773902714,
+            0.0015621165512129664,
+            0.001667050994001329
+        ],
+        [
+            0.46521934534015125,
+            0.09845562559353387,
+            0.9117733099743565,
+            0.011191680437862592,
+            -0.0006938865123697636,
+            -0.048400790889637564,
+            0.9987650515770677,
+            0.0016215216601267457,
+            -5.602601959253661e-05,
+            -0.0002429500309517607,
+            0.02862553484737873,
+            0.09582898765802383,
+            -0.0031345896422863007
+        ],
+        [
+            0.5560473039922074,
+            -0.10307656177285239,
+            0.9005138643768383,
+            0.0014594846262249758,
+            -0.0016237481886335104,
+            -0.0837682845636998,
+            0.9964828688179754,
+            0.0014472916955128312,
+            -0.005858594551682472,
+            -0.00395330972969532,
+            0.19214268028736115,
+            0.09540145844221115,
+            0.037911251187324524
+        ]
+    ],
+    "position_instruction": "Place the cup to the right of the pitcher base on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "019",
+        "ae7142127dd84ebbbe7762368ace452c",
+        "d72eebbf82be48f0a53e7e8b712e6a66",
+        "065-i"
+    ],
+    "target_obj_code": "065-i",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upside_down"
+}

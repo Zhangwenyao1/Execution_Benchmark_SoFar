@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "book",
+        "bottle",
+        "eraser",
+        "clipboard"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/b2d30398ba3741da9f9aef2319ee2b8b/material_2.urdf",
+        "ycb_16k_backup/006_mustard_bottle_google_16k/006_mustard_bottle_google_16k.urdf",
+        "objaverse_rescale/f0916a69ba514ecc973b44528b9dcc43/material_2.urdf",
+        "objaverse_rescale/a37158f20ccf436483029e8295629738/material_2.urdf"
+    ],
+    "target_obj_name": "clipboard",
+    "instruction": "Place the clipboard between the book and the bottle on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.3267748280557921,
+            0.0709309999440587,
+            0.9164407998720375,
+            -2.2543194731375285e-06,
+            1.7898284106450234e-06,
+            -0.030965833777136197,
+            0.9995204435779191,
+            -0.0005010372842662036,
+            -0.00031678061350248754,
+            3.489265509415418e-05,
+            0.00012244733807165176,
+            -0.0007000450859777629,
+            -0.0011955511290580034
+        ],
+        [
+            0.6466115321527787,
+            0.18588374602347768,
+            0.9030891751882562,
+            0.0002726243034827703,
+            0.00011586704932610476,
+            -0.061351357410771336,
+            0.9981161872220446,
+            0.000909570837393403,
+            -0.004384618252515793,
+            -0.0014523421414196491,
+            0.05910864472389221,
+            0.004341405816376209,
+            0.004864678718149662
+        ],
+        [
+            0.487774522302225,
+            0.007395635610051468,
+            0.9107223673924955,
+            0.6485303760562773,
+            0.26062869259441096,
+            0.2842562520516944,
+            0.6562617001611127,
+            0.001921335468068719,
+            0.013158530928194523,
+            0.018764784559607506,
+            -1.6934537887573242,
+            0.45291489362716675,
+            -0.050270240753889084
+        ],
+        [
+            0.49584979517402933,
+            0.05951689456455562,
+            0.9207342145633389,
+            0.6557986327487189,
+            0.11518444361174857,
+            0.06198065381922475,
+            0.7435180534371072,
+            0.0001592725166119635,
+            -0.001839138101786375,
+            0.037637755274772644,
+            -0.3618350625038147,
+            -0.310247540473938,
+            0.11412382870912552
+        ]
+    ],
+    "position_instruction": "Place the clipboard between the book and the bottle on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "b2d30398ba3741da9f9aef2319ee2b8b",
+        "006",
+        "f0916a69ba514ecc973b44528b9dcc43",
+        "a37158f20ccf436483029e8295629738"
+    ],
+    "target_obj_code": "a37158f20ccf436483029e8295629738",
+    "anno_target": {
+        "category": "clipboard",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

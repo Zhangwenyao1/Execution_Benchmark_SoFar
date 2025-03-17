@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "binder",
+        "microphone",
+        "watch",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/78e016eeb0bf45d5bea47547128383a8/material_2.urdf",
+        "objaverse_rescale/fac08019fef5474189f965bb495771eb/material_2.urdf",
+        "objaverse_rescale/d6e38c73f8f2402aac890e8ebb115302/material_2.urdf",
+        "ycb_16k_backup/065-f_cups_google_16k/065-f_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup behind the binder on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.638462076759616,
+            0.004754160289879946,
+            1.0259476500540283,
+            -5.8711832800530334e-05,
+            4.649344619104166e-06,
+            -0.12024986927246487,
+            0.9927436554676435,
+            -0.0005070855841040611,
+            0.0006109648966230452,
+            -0.0005371744045987725,
+            -0.005607031751424074,
+            -0.003375992877408862,
+            -0.0003209381247870624
+        ],
+        [
+            0.3112049042707731,
+            -0.03780912544008148,
+            0.9407693608844349,
+            0.009344347501694772,
+            -0.025722558933764596,
+            -0.06424151780465522,
+            0.9975590511452547,
+            -0.00241253525018692,
+            0.00010217946692137048,
+            -0.0005625949706882238,
+            -0.010017937049269676,
+            -0.08347858488559723,
+            0.01717415638267994
+        ],
+        [
+            0.46124027034868875,
+            0.009333063097422867,
+            0.9321256385832292,
+            -0.018526322609534466,
+            -0.01134867651621133,
+            0.05517239504939297,
+            0.9982404468545699,
+            -0.0032214787788689137,
+            0.001545699778944254,
+            -0.00112287572119385,
+            -0.01843165047466755,
+            -0.04871368780732155,
+            -0.028166085481643677
+        ],
+        [
+            0.4937148673003688,
+            -0.11669308654920652,
+            0.9003498409529741,
+            0.0004863830939553175,
+            0.0002233662253870026,
+            -0.013337275689796481,
+            0.9999109113397004,
+            0.0016860389150679111,
+            -0.00013897787721361965,
+            -0.0037419318687170744,
+            -0.014472543261945248,
+            0.06622631102800369,
+            -0.017276572063565254
+        ]
+    ],
+    "position_instruction": "Place the cup behind the binder on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "78e016eeb0bf45d5bea47547128383a8",
+        "fac08019fef5474189f965bb495771eb",
+        "d6e38c73f8f2402aac890e8ebb115302",
+        "065-f"
+    ],
+    "target_obj_code": "065-f",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "upside_down"
+}

@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "camera",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/8eda72f64e6e4443af4fdbeed07cad29/material_2.urdf",
+        "objaverse_rescale/6a63fc4af48b453c91ca2b335a4d464d/material_2.urdf",
+        "ycb_16k_backup/025_mug_google_16k/025_mug_google_16k.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug to the right of the tissue box on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.5303293390933387,
+            0.06693797682302975,
+            0.9296263481571024,
+            -8.939380025015446e-06,
+            -3.012085730546463e-07,
+            0.02973684347317836,
+            0.9995577622430072,
+            0.0019001829205080867,
+            0.002642568666487932,
+            -0.005266102030873299,
+            -0.08320789784193039,
+            0.01065035443753004,
+            0.017047960311174393
+        ],
+        [
+            0.6861430617979281,
+            0.0792038176656999,
+            0.9565058904137121,
+            0.09507343297219766,
+            -0.008934806646544573,
+            -0.08083874741199605,
+            0.9921422823818817,
+            0.004329591058194637,
+            0.0015343496343120933,
+            -0.00125716847833246,
+            -0.04577670618891716,
+            0.07561955600976944,
+            -0.01960121840238571
+        ],
+        [
+            0.32319833850336843,
+            0.11111681080947301,
+            0.9004586897807518,
+            -0.0007336086837696702,
+            -0.0010750476454721746,
+            -0.01319334445395958,
+            0.9999121170147793,
+            -0.0008126304019242525,
+            -0.0012322098482400179,
+            -0.0006706778658553958,
+            0.03608964756131172,
+            -0.026987465098500252,
+            -0.0023770667612552643
+        ]
+    ],
+    "position_instruction": "Place the mug to the right of the tissue box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "8eda72f64e6e4443af4fdbeed07cad29",
+        "6a63fc4af48b453c91ca2b335a4d464d",
+        "025"
+    ],
+    "target_obj_code": "025",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "handle_right"
+}

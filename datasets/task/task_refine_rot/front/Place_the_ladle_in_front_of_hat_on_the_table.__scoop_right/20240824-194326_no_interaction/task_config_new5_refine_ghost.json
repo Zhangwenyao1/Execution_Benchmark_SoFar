@@ -1,0 +1,85 @@
+{
+    "selected_obj_names": [
+        "hat",
+        "ladle"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/dc02f9c1fd01432fadd6e7d15851dc37/material_2.urdf",
+        "objaverse_rescale/ce27e3369587476c85a436905f1e5c00/material_2.urdf"
+    ],
+    "target_obj_name": "ladle",
+    "instruction": "Place the ladle in front of hat on the table. We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "init_obj_pos": [
+        [
+            0.3967117694177935,
+            0.15876988949052315,
+            0.9447224521836074,
+            -0.8708202068878053,
+            0.0042779675835143225,
+            -0.16908141521288297,
+            0.4615900142971503,
+            0.00040468916995450854,
+            0.000661462196148932,
+            -0.0002039024548139423,
+            -0.016417382284998894,
+            0.011773788370192051,
+            -0.0018344172276556492
+        ],
+        [
+            0.49741187835967565,
+            -0.16217501183591518,
+            0.9194572060223904,
+            0.0069493919082780405,
+            -0.021821775448881642,
+            -0.09919615904813046,
+            0.9948043215117546,
+            0.004279923625290394,
+            0.0042498912662267685,
+            -0.0008615810656920075,
+            -0.4930550456047058,
+            -0.9823917746543884,
+            -0.5325166583061218
+        ]
+    ],
+    "position_instruction": "Place the ladle in front of hat on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "rotation_instruction_label": "scoop_right",
+    "obj_codes": [
+        "dc02f9c1fd01432fadd6e7d15851dc37",
+        "ce27e3369587476c85a436905f1e5c00"
+    ],
+    "target_obj_code": "ce27e3369587476c85a436905f1e5c00",
+    "anno_target": {
+        "category": "ladle",
+        "annotation": {
+            " the ladle is lying on the table, with its scoop on the left(pointing towards left) and its handle on the right. ": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ladle is lying on the table, with its scoop on the right(pointing towards right) and its handle on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "scoop_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "scoop_right"
+}

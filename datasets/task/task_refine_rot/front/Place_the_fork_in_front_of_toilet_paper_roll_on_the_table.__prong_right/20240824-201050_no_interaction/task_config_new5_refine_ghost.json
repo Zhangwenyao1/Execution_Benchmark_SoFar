@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "toilet paper roll",
+        "bottle",
+        "fork"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6d5284b842434413a17133f7bf259669/material_2.urdf",
+        "objaverse_rescale/a7785ac7ce7f4ba79df661db33637ba9/material_2.urdf",
+        "objaverse_rescale/e98e7fb33743442383812b68608f7006/material_2.urdf"
+    ],
+    "target_obj_name": "fork",
+    "instruction": "Place the fork in front of toilet paper roll on the table. We also need to specify the rotation of the object after placement:  the prong of the fork is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.28241232454102366,
+            0.00486874481306471,
+            0.9340039990908808,
+            0.01922061392025366,
+            -0.2508464305435892,
+            0.0739247061541037,
+            0.9650086912065091,
+            -0.03734428063035011,
+            -0.0057634697295725346,
+            -0.002879096893593669,
+            0.07430065423250198,
+            -0.4829961657524109,
+            -0.004452403634786606
+        ],
+        [
+            0.5919851997885055,
+            0.1180167759805942,
+            0.9294398926355965,
+            -0.005649595478663565,
+            0.041169043230252424,
+            0.05397741112353803,
+            0.9976771176281602,
+            -7.879599434090778e-05,
+            -0.0001487692934460938,
+            -3.453808312769979e-05,
+            0.005330322310328484,
+            -0.009050802327692509,
+            -0.003117136424407363
+        ],
+        [
+            0.4099034383410942,
+            -0.25822498074807865,
+            0.9135286237651822,
+            0.16929914804039836,
+            -0.6835360141545369,
+            0.23942836960700167,
+            0.6684237964449321,
+            0.0010061688954010606,
+            0.0001645014708628878,
+            0.03478047624230385,
+            5.422763824462891,
+            3.106548547744751,
+            -0.7752284407615662
+        ]
+    ],
+    "position_instruction": "Place the fork in front of toilet paper roll on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the prong of the fork is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "prong_right",
+    "obj_codes": [
+        "6d5284b842434413a17133f7bf259669",
+        "a7785ac7ce7f4ba79df661db33637ba9",
+        "e98e7fb33743442383812b68608f7006"
+    ],
+    "target_obj_code": "e98e7fb33743442383812b68608f7006",
+    "anno_target": {
+        "category": "fork",
+        "annotation": {
+            " the prong of the fork is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the prong of the fork is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.7071068286895752,
+                        0.0,
+                        0.0,
+                        0.7071067094802856
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "prong_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "prong_right"
+}

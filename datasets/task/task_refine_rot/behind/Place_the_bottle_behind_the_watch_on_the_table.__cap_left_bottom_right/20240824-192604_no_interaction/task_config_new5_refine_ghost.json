@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "watch",
+        "pear",
+        "fork",
+        "bottle"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/d6e38c73f8f2402aac890e8ebb115302/material_2.urdf",
+        "objaverse_rescale/f3dd3064db4f4e8880344425970cecad/material_2.urdf",
+        "objaverse_rescale/e98e7fb33743442383812b68608f7006/material_2.urdf",
+        "ycb_16k_backup/021_bleach_cleanser_google_16k/021_bleach_cleanser_google_16k.urdf"
+    ],
+    "target_obj_name": "bottle",
+    "instruction": "Place the bottle behind the watch on the table. We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.",
+    "init_obj_pos": [
+        [
+            0.5557827344815824,
+            -0.07501703037374671,
+            0.9321265515200822,
+            -0.01952072792036134,
+            -0.009505938317325147,
+            -0.045995821611599826,
+            0.998705643677074,
+            -0.003393392311409116,
+            0.0019763156305998564,
+            -0.001110788551159203,
+            -0.02064157836139202,
+            -0.0624527707695961,
+            -0.06484166532754898
+        ],
+        [
+            0.4691294718209592,
+            0.17954947363044751,
+            0.9343877176857349,
+            -0.17263501139837492,
+            -0.017216287726135905,
+            0.10514749066286008,
+            0.9792061874210755,
+            -0.0020306205842643976,
+            0.001361966598778963,
+            -0.00024180006585083902,
+            -0.03045923076570034,
+            -0.05703569948673248,
+            -0.05747533589601517
+        ],
+        [
+            0.4767768228163999,
+            0.09856901947110175,
+            0.9067352022891698,
+            -0.49942797412808326,
+            -0.49803231159241323,
+            -0.4237334155174573,
+            -0.5683181396384827,
+            0.007200497202575207,
+            0.03543588146567345,
+            0.05413281172513962,
+            -2.932708263397217,
+            1.6117379665374756,
+            1.5925930738449097
+        ],
+        [
+            0.6549272136757098,
+            -0.09729774526870112,
+            0.926775231823962,
+            0.08507522057808385,
+            0.6986119572409617,
+            0.02428407714699667,
+            0.7100097348914745,
+            0.0013347994536161423,
+            -0.003940069116652012,
+            -0.000994371366687119,
+            0.09446500241756439,
+            0.032530851662158966,
+            0.011153488419950008
+        ]
+    ],
+    "position_instruction": "Place the bottle behind the watch on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.",
+    "rotation_instruction_label": "cap_left_bottom_right",
+    "obj_codes": [
+        "d6e38c73f8f2402aac890e8ebb115302",
+        "f3dd3064db4f4e8880344425970cecad",
+        "e98e7fb33743442383812b68608f7006",
+        "021"
+    ],
+    "target_obj_code": "021",
+    "anno_target": {
+        "category": "bottle",
+        "annotation": {
+            " the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.": {
+                "quat": [
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "cap_left_bottom_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "cap_left_bottom_right"
+}

@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "bottle",
+        "cup",
+        "camera",
+        "book"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6add0a1fa81942acbb24504b130661c1/material_2.urdf",
+        "ycb_16k_backup/065-f_cups_google_16k/065-f_cups_google_16k.urdf",
+        "objaverse_rescale/f6f8675406b7437faaf96a1f82062028/material_2.urdf",
+        "objaverse_rescale/b2d30398ba3741da9f9aef2319ee2b8b/material_2.urdf"
+    ],
+    "target_obj_name": "book",
+    "instruction": "Place the book behind the bottle on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.3127802010954591,
+            0.22008451517002775,
+            0.9345123378492587,
+            -0.004392818292886384,
+            -0.03184482942342665,
+            -0.006542054689943278,
+            0.9994617609027739,
+            0.0018637346802279353,
+            2.6577570679364726e-05,
+            -0.00047947574057616293,
+            -0.0001884364610305056,
+            0.05542164668440819,
+            0.008286481723189354
+        ],
+        [
+            0.4381472368797674,
+            0.17428490814830389,
+            0.9003515585098939,
+            0.000484873485406254,
+            0.00018868854397418707,
+            -0.05099529176997515,
+            0.9986987581406281,
+            -0.001620679278858006,
+            -0.0030683691147714853,
+            -0.002078949473798275,
+            0.08591388911008835,
+            -0.03671075403690338,
+            -0.007759608794003725
+        ],
+        [
+            0.45223908078149105,
+            -0.021539162484924834,
+            0.9580813316179436,
+            -0.44795065594237116,
+            0.2503287492944134,
+            0.23101883138974627,
+            0.8266232676744648,
+            -0.0001339264417765662,
+            -0.0005125552415847778,
+            1.526365304016508e-05,
+            0.010583210736513138,
+            -0.00352821359410882,
+            0.0012869678903371096
+        ],
+        [
+            0.6641418020226569,
+            -0.0794979872413799,
+            0.9163793777239354,
+            1.0595377563831084e-05,
+            -3.79794623666909e-05,
+            0.03937445335680003,
+            0.9992245247531464,
+            -0.0006295397179201245,
+            -0.0002537939290050417,
+            5.250307731330395e-05,
+            -0.00014471681788563728,
+            0.00013054221926722676,
+            -0.002480447292327881
+        ]
+    ],
+    "position_instruction": "Place the book behind the bottle on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "6add0a1fa81942acbb24504b130661c1",
+        "065-f",
+        "f6f8675406b7437faaf96a1f82062028",
+        "b2d30398ba3741da9f9aef2319ee2b8b"
+    ],
+    "target_obj_code": "b2d30398ba3741da9f9aef2319ee2b8b",
+    "anno_target": {
+        "category": "book",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        1.0,
+                        0.0,
+                        0.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "behind",
+    "rotation_tag": "lying_flat"
+}

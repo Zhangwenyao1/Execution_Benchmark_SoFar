@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "skillet",
+        "can",
+        "flashlight",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/027_skillet_google_16k/027_skillet_google_16k.urdf",
+        "ycb_16k_backup/010_potted_meat_can_google_16k/010_potted_meat_can_google_16k.urdf",
+        "objaverse_rescale/123a79642c2646d8b315576828fea84a/material_2.urdf",
+        "ycb_16k_backup/065-i_cups_google_16k/065-i_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup between the skillet and the can on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6536373781352774,
+            -0.21970547695379505,
+            0.902072825628452,
+            0.017247240108255037,
+            0.013082820330486657,
+            0.11462749821321018,
+            0.9931726482209571,
+            0.0002969010965898633,
+            0.00016465345106553286,
+            -5.2591880375985056e-05,
+            -0.0005964094889350235,
+            0.0038121354300528765,
+            0.0023747559171169996
+        ],
+        [
+            0.3443738352779876,
+            0.018297718321244823,
+            0.9030845855411211,
+            -0.0006255436952351312,
+            -0.00014154877605674862,
+            -0.09360572506424586,
+            0.9956091386152632,
+            0.000266698538325727,
+            -0.0032165064476430416,
+            -0.0005517390673048794,
+            0.07820308953523636,
+            -0.014348292723298073,
+            0.020830588415265083
+        ],
+        [
+            0.4421237763044777,
+            0.21517437598201777,
+            0.998936919106546,
+            -2.9153169400993815e-07,
+            6.65390450063409e-06,
+            0.04329931331085311,
+            0.9990621449251539,
+            0.0008305874071083963,
+            -0.0009272531606256962,
+            -0.0003223284147679806,
+            0.005856615491211414,
+            0.01362387090921402,
+            -0.006236984394490719
+        ],
+        [
+            0.697203173257268,
+            0.027888032098376106,
+            0.9005136560366497,
+            0.0016604640293370115,
+            -0.0014275223993011257,
+            0.05528569948197073,
+            0.9984681749919707,
+            0.0029684847686439753,
+            -0.004654006101191044,
+            -0.004707470070570707,
+            0.1367592066526413,
+            0.15559318661689758,
+            0.03014370985329151
+        ]
+    ],
+    "position_instruction": "Place the cup between the skillet and the can on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "027",
+        "010",
+        "123a79642c2646d8b315576828fea84a",
+        "065-i"
+    ],
+    "target_obj_code": "065-i",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "toilet paper roll",
+        "cup",
+        "microphone"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/7ca7ebcfad964498b49af73be442acf9/material_2.urdf",
+        "ycb_16k_backup/065-c_cups_google_16k/065-c_cups_google_16k.urdf",
+        "objaverse_rescale/f9d07bb386a04de8b0e1a9a28a936985/material_2.urdf"
+    ],
+    "target_obj_name": "microphone",
+    "instruction": "Place the microphone to the left of the toilet paper roll on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.3510533509724208,
+            0.11238056038551966,
+            0.9457633245059477,
+            0.001354992884565016,
+            -0.47139456374068445,
+            0.0025290725458504966,
+            0.881917758672582,
+            -0.00013586362183559686,
+            0.0005224967026151717,
+            -0.00011728572280844674,
+            -0.005486304871737957,
+            -0.0025800878647714853,
+            0.002886951668187976
+        ],
+        [
+            0.34806182240041383,
+            0.002202041497018146,
+            0.9005663410320062,
+            0.0005725453654302499,
+            -0.0008285437032962069,
+            -0.08538249033316092,
+            0.9963477385188593,
+            -0.002826737705618143,
+            -0.004473031498491764,
+            -0.0008024774142540991,
+            0.08453749865293503,
+            0.16911111772060394,
+            -0.4099203646183014
+        ],
+        [
+            0.6002202228725376,
+            0.20066669996231656,
+            0.9437021554914117,
+            -0.04632347144281236,
+            -0.02630442608289732,
+            -0.06488943496546594,
+            0.9964695551755701,
+            -0.0038453894667327404,
+            -0.001027698745019734,
+            -0.0028891710098832846,
+            0.02983958274126053,
+            -0.08791860193014145,
+            -0.008585772477090359
+        ]
+    ],
+    "position_instruction": "Place the microphone to the left of the toilet paper roll on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "7ca7ebcfad964498b49af73be442acf9",
+        "065-c",
+        "f9d07bb386a04de8b0e1a9a28a936985"
+    ],
+    "target_obj_code": "f9d07bb386a04de8b0e1a9a28a936985",
+    "anno_target": {
+        "category": "microphone",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "upright"
+}

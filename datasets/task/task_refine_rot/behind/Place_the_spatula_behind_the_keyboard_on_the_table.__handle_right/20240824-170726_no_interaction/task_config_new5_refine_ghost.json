@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "keyboard",
+        "shoe",
+        "spatula"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f5080a3df6d847b693c5cca415886c61/material_2.urdf",
+        "objaverse_rescale/d5a5f0a954f94bcea3168329d1605fe9/material_2.urdf",
+        "ycb_16k_backup/033_spatula_google_16k/033_spatula_google_16k.urdf"
+    ],
+    "target_obj_name": "spatula",
+    "instruction": "Place the spatula behind the keyboard on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.4197649364298852,
+            0.015657635332977718,
+            0.9139583350966834,
+            0.7034074404185533,
+            -0.0387781800017307,
+            -0.040575958785551675,
+            0.7085674400423768,
+            0.0013160755624994636,
+            0.006627687718719244,
+            -0.00444879662245512,
+            -0.2554994821548462,
+            -0.01293839979916811,
+            0.003940572962164879
+        ],
+        [
+            0.5487071250956074,
+            0.21763660398332144,
+            0.932486474216861,
+            -0.18852080046727349,
+            -0.6302542373691777,
+            -0.10437822955864098,
+            0.745885171634064,
+            0.0007508456474170089,
+            -0.007640060968697071,
+            0.0005201899912208319,
+            0.2189706414937973,
+            0.02298036776483059,
+            0.020482314750552177
+        ],
+        [
+            0.5541461712502032,
+            -0.11357469581575781,
+            0.9004403910299579,
+            0.0011309648358546229,
+            -0.0013962930871958712,
+            0.09734455144597355,
+            0.9952491193605426,
+            0.002096095122396946,
+            -0.006431912072002888,
+            -0.009251769632101059,
+            0.42771703004837036,
+            0.1902414709329605,
+            -0.0293990857899189
+        ]
+    ],
+    "position_instruction": "Place the spatula behind the keyboard on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "f5080a3df6d847b693c5cca415886c61",
+        "d5a5f0a954f94bcea3168329d1605fe9",
+        "033"
+    ],
+    "target_obj_code": "033",
+    "anno_target": {
+        "category": "spatula",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.621095597743988,
+                        0.7837347984313965
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "handle_right"
+}

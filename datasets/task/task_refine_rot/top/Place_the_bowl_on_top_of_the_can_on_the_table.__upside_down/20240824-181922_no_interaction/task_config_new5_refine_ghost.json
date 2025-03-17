@@ -1,0 +1,71 @@
+{
+    "selected_obj_names": [
+        "can",
+        "bowl"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/007_tuna_fish_can_google_16k/007_tuna_fish_can_google_16k.urdf",
+        "objaverse_rescale/bdd36c94f3f74f22b02b8a069c8d97b7/material_2.urdf"
+    ],
+    "target_obj_name": "bowl",
+    "instruction": "Place the bowl on top of the can on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.3023422682227032,
+            0.0086740186160602,
+            0.9031514244973955,
+            0.00045757752361481657,
+            -0.0007636174967307094,
+            -0.06492859028786603,
+            0.9978895157653261,
+            0.0014823853271082044,
+            -0.00015566601359751076,
+            -0.00788501650094986,
+            -0.09687328338623047,
+            0.15119095146656036,
+            -0.04577099159359932
+        ],
+        [
+            0.5029145964790325,
+            -0.15012572373849598,
+            0.9560787540342779,
+            0.7027547084989304,
+            0.07835010848666076,
+            0.07833922413053639,
+            0.7027517670880219,
+            -0.0013488632394000888,
+            6.170959295559442e-06,
+            -0.0006666848203167319,
+            -0.0009973333217203617,
+            -0.02891809493303299,
+            4.561300011118874e-05
+        ]
+    ],
+    "position_instruction": "Place the bowl on top of the can on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "007",
+        "bdd36c94f3f74f22b02b8a069c8d97b7"
+    ],
+    "target_obj_code": "bdd36c94f3f74f22b02b8a069c8d97b7",
+    "anno_target": {
+        "category": "bowl",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "top",
+    "rotation_tag": "upside_down"
+}

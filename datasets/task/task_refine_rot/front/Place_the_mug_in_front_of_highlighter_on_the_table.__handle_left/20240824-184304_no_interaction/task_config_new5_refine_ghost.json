@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "highlighter",
+        "lighter",
+        "cup",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/fd058916fb8843c09b4a2e05e3ee894e/material_2.urdf",
+        "objaverse_rescale/d9675ab05c39447baf27e19ea07d484e/material_2.urdf",
+        "ycb_16k_backup/065-j_cups_google_16k/065-j_cups_google_16k.urdf",
+        "objaverse_rescale/c609327dd3a74fb597584e1b4a14a615/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug in front of highlighter on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "init_obj_pos": [
+        [
+            0.7114805907125908,
+            -0.20178040921375912,
+            0.9115092451081415,
+            0.7110516144180247,
+            0.012328327494397382,
+            0.011969975545496381,
+            0.7029298212909688,
+            -0.010485806502401829,
+            0.0014772646827623248,
+            -0.005821974948048592,
+            -0.018846655264496803,
+            -1.0228204727172852,
+            0.027280116453766823
+        ],
+        [
+            0.3337179252416465,
+            0.16831060834335382,
+            0.9996536374136953,
+            -0.2184792876258313,
+            -0.6544017642374337,
+            0.230774902941055,
+            -0.6861254083722534,
+            -0.0016744555905461311,
+            0.0009489467483945191,
+            0.02898375317454338,
+            0.6102399230003357,
+            -0.11469407379627228,
+            0.02584529109299183
+        ],
+        [
+            0.3057677282330433,
+            0.08265742078432685,
+            0.9003782247281605,
+            0.00026240720335247373,
+            -0.0002988033499392113,
+            0.05274291651482196,
+            0.9986080445382595,
+            0.002536941785365343,
+            -0.002042983425781131,
+            -0.0025560108479112387,
+            0.0845608338713646,
+            0.14000318944454193,
+            0.040848758071660995
+        ],
+        [
+            0.37149459728001283,
+            -0.2460057360764705,
+            0.9360363699361943,
+            -0.001275275285465949,
+            0.014269760278095288,
+            -0.031103450131327474,
+            0.9994134895049601,
+            -0.0008968132897280157,
+            0.0003514556447044015,
+            -0.0001410247350577265,
+            -0.005199923180043697,
+            -0.01644778996706009,
+            -0.0016585749108344316
+        ]
+    ],
+    "position_instruction": "Place the mug in front of highlighter on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "rotation_instruction_label": "handle_left",
+    "obj_codes": [
+        "fd058916fb8843c09b4a2e05e3ee894e",
+        "d9675ab05c39447baf27e19ea07d484e",
+        "065-j",
+        "c609327dd3a74fb597584e1b4a14a615"
+    ],
+    "target_obj_code": "c609327dd3a74fb597584e1b4a14a615",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "handle_left"
+}

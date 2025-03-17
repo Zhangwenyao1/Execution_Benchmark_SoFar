@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "box",
+        "fork",
+        "toy",
+        "hard drive"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/003_cracker_box_google_16k/003_cracker_box_google_16k.urdf",
+        "ycb_16k_backup/030_fork_google_16k/030_fork_google_16k.urdf",
+        "ycb_16k_backup/072-a_toy_airplane_google_16k/072-a_toy_airplane_google_16k.urdf",
+        "objaverse_rescale/f8de4975c0f54c1a97203c6a674f6a39/material_2.urdf"
+    ],
+    "target_obj_name": "hard drive",
+    "instruction": "Place the hard drive between the box and the fork on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.6188447735473658,
+            -0.09215088194621365,
+            0.9038264320920056,
+            -0.0012295771425651783,
+            -0.014639941966513461,
+            -0.07980157111044266,
+            0.9967024979840133,
+            -0.0027399687096476555,
+            0.00037529473775066435,
+            -0.0004488805425353348,
+            -0.002883534412831068,
+            -0.03392350673675537,
+            -0.0011365242535248399
+        ],
+        [
+            0.4030142926509588,
+            0.03747343107793351,
+            0.9148306701711593,
+            0.8737091769199381,
+            0.4847620439360562,
+            0.03010865436380854,
+            0.027046327980372077,
+            0.005041885655373335,
+            -0.004400424659252167,
+            0.0022411795798689127,
+            0.8191545009613037,
+            1.8048973083496094,
+            -1.173082709312439
+        ],
+        [
+            0.34024196988437816,
+            -0.004307351100644272,
+            0.9154225611343639,
+            0.039434547836365685,
+            -0.0005133179435232165,
+            -0.17355658605983715,
+            0.9840339244034648,
+            0.0020671698730438948,
+            -0.0001803142949938774,
+            -0.00044562152470462024,
+            0.0027271434664726257,
+            0.029180096462368965,
+            -0.0009561363840475678
+        ],
+        [
+            0.6092525659362791,
+            -0.2154188627775492,
+            0.9508356907341566,
+            0.00039131574909132124,
+            2.4287826681841027e-05,
+            0.01195701683732516,
+            0.9999284354544768,
+            0.0012419804697856307,
+            -0.003360108472406864,
+            -0.00012145007349317893,
+            0.04168161004781723,
+            0.014204458333551884,
+            0.002350564580410719
+        ]
+    ],
+    "position_instruction": "Place the hard drive between the box and the fork on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "003",
+        "030",
+        "072-a",
+        "f8de4975c0f54c1a97203c6a674f6a39"
+    ],
+    "target_obj_code": "f8de4975c0f54c1a97203c6a674f6a39",
+    "anno_target": {
+        "category": "hard_drive",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "between",
+    "rotation_tag": "lying_flat"
+}

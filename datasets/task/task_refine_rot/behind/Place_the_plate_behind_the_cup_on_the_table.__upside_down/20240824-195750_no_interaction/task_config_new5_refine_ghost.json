@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "wrench",
+        "hot glue gun",
+        "plate"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-h_cups_google_16k/065-h_cups_google_16k.urdf",
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf",
+        "objaverse_rescale/5ceec13e87774982afe825e7e74a0ce1/material_2.urdf",
+        "objaverse_rescale/6d5a4e1174dd4f5fa0a9a9076e476b91/material_2.urdf"
+    ],
+    "target_obj_name": "plate",
+    "instruction": "Place the plate behind the cup on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6472443542330674,
+            -0.009190846542836745,
+            0.9004958864530568,
+            -0.0006395731807677459,
+            -0.0008076970564166613,
+            0.01842019126208854,
+            0.9998298030792443,
+            0.006196183152496815,
+            -0.0018584995996206999,
+            -0.0052058580331504345,
+            0.0412013903260231,
+            0.21575772762298584,
+            -0.017099570482969284
+        ],
+        [
+            0.5519814226803895,
+            -0.186476970850392,
+            0.9027235478099306,
+            0.012152946937697478,
+            -0.018006577120954798,
+            0.001435485509614697,
+            0.9997629761310777,
+            0.002366231754422188,
+            -0.004014100879430771,
+            0.03441042825579643,
+            -0.35235869884490967,
+            0.16255336999893188,
+            0.22600598633289337
+        ],
+        [
+            0.5796870279983126,
+            0.1963945722408252,
+            0.9177706591805834,
+            -0.002125246245280154,
+            0.030098490583500098,
+            0.023755761227895144,
+            0.9992623419310248,
+            -0.0011971482308581471,
+            -0.004977978300303221,
+            -0.003477960592135787,
+            0.13091030716896057,
+            -0.09593077003955841,
+            -0.08183285593986511
+        ],
+        [
+            0.42563552550487993,
+            -0.18049635746901604,
+            0.9127412649371681,
+            0.7064683815998505,
+            -0.029945201118512777,
+            -0.029944557964740787,
+            0.7064764923038529,
+            -6.061105159460567e-05,
+            2.3966613298398443e-05,
+            -0.00041665934259071946,
+            -0.004610904958099127,
+            -0.0046061077155172825,
+            0.0021707939449697733
+        ]
+    ],
+    "position_instruction": "Place the plate behind the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "065-h",
+        "042",
+        "5ceec13e87774982afe825e7e74a0ce1",
+        "6d5a4e1174dd4f5fa0a9a9076e476b91"
+    ],
+    "target_obj_code": "6d5a4e1174dd4f5fa0a9a9076e476b91",
+    "anno_target": {
+        "category": "plate",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "upside_down"
+}

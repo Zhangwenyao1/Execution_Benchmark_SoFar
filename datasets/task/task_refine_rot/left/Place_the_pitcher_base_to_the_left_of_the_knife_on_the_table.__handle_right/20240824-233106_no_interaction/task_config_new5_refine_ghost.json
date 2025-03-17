@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "knife",
+        "pitcher base"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/032_knife_google_16k/032_knife_google_16k.urdf",
+        "ycb_16k_backup/019_pitcher_base_google_16k/019_pitcher_base_google_16k.urdf"
+    ],
+    "target_obj_name": "pitcher base",
+    "instruction": "Place the pitcher base to the left of the knife on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6903790711796193,
+            0.20643075154402102,
+            0.9164959610366195,
+            0.2359717382775294,
+            0.004892816099297937,
+            -0.051388940897174884,
+            0.9703878481506075,
+            0.004543633665889502,
+            0.00071982346707955,
+            0.03281690925359726,
+            0.937665581703186,
+            1.171761393547058,
+            -0.02053295634686947
+        ],
+        [
+            0.491444789339356,
+            0.21116969800385493,
+            0.9013227255844846,
+            0.0001181577903240689,
+            0.000646004108005746,
+            0.015273544003584789,
+            0.9998831369570145,
+            -0.0008749439148232341,
+            0.0028042392805218697,
+            -0.0002111022622557357,
+            -0.026874208822846413,
+            -0.007116933818906546,
+            0.0030282086227089167
+        ]
+    ],
+    "position_instruction": "Place the pitcher base to the left of the knife on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "032",
+        "019"
+    ],
+    "target_obj_code": "019",
+    "anno_target": {
+        "category": "pitcher_base",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.3877721428871155,
+                        0.9217552542686462
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "handle_right"
+}

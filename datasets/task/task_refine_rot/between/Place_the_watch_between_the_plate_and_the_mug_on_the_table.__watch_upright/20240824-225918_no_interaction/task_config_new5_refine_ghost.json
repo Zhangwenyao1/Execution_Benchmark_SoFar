@@ -1,0 +1,97 @@
+{
+    "selected_obj_names": [
+        "plate",
+        "mug",
+        "watch"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/029_plate_google_16k/029_plate_google_16k.urdf",
+        "objaverse_rescale/9321c45cb9cf459f9f803507d3a11fb3/material_2.urdf",
+        "objaverse_rescale/243b381dcdc34316a7e78a533572d273/material_2.urdf"
+    ],
+    "target_obj_name": "watch",
+    "instruction": "Place the watch between the plate and the mug on the table. We also need to specify the rotation of the object after placement:  the watch is placed steadily on the table, and its contact with the table is in the shape of a circle, which means that the bringe of the watch bracelet is in touch with the table and while the plane of the watch dial is perpendicular to the table.",
+    "init_obj_pos": [
+        [
+            0.41393589532558384,
+            0.1884081913585918,
+            0.9203703103438718,
+            -0.11315280741165834,
+            -0.011846901936682298,
+            0.1910376173581104,
+            0.9749670362855868,
+            -0.006966924760490656,
+            0.017902735620737076,
+            0.004197290167212486,
+            -0.6621378064155579,
+            -0.035652756690979004,
+            -0.09506094455718994
+        ],
+        [
+            0.5987250883445108,
+            -0.13666487709374966,
+            0.9823792913308025,
+            0.21340203663351567,
+            -0.16694658994583023,
+            -0.10457418308880938,
+            0.9568974067774636,
+            -0.0011636611307039857,
+            0.0012700788211077452,
+            -0.0011054008500650525,
+            -0.02416791021823883,
+            -0.019130650907754898,
+            0.006820612587034702
+        ],
+        [
+            0.47713901389306745,
+            0.20569904133052047,
+            0.9752605279687793,
+            -0.2777012867622596,
+            -0.05580152009523382,
+            0.1962413294605459,
+            0.9387531764511922,
+            0.0119162043556571,
+            -0.01681213080883026,
+            0.0036325964611023664,
+            0.32521727681159973,
+            0.2108343243598938,
+            -0.2306811809539795
+        ]
+    ],
+    "position_instruction": "Place the watch between the plate and the mug on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the watch is placed steadily on the table, and its contact with the table is in the shape of a circle, which means that the bringe of the watch bracelet is in touch with the table and while the plane of the watch dial is perpendicular to the table.",
+    "rotation_instruction_label": "watch_upright",
+    "obj_codes": [
+        "029",
+        "9321c45cb9cf459f9f803507d3a11fb3",
+        "243b381dcdc34316a7e78a533572d273"
+    ],
+    "target_obj_code": "243b381dcdc34316a7e78a533572d273",
+    "anno_target": {
+        "category": "watch",
+        "annotation": {
+            " the watch is placed steadily on the table, and its contact with the table is in the shape of a circle, which means that the bringe of the watch bracelet is in touch with the table and while the plane of the watch dial is perpendicular to the table.": {
+                "quat": [
+                    [
+                        -0.09765274077653885,
+                        -0.7010872960090637,
+                        0.10222410410642624,
+                        -0.6989211440086365
+                    ],
+                    [
+                        0.6981616020202637,
+                        0.09691125154495239,
+                        0.7018415331840515,
+                        -0.10294347256422043
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "watch_upright",
+    "rot_tag_level": 2,
+    "position_tag": "between",
+    "rotation_tag": "watch_upright"
+}

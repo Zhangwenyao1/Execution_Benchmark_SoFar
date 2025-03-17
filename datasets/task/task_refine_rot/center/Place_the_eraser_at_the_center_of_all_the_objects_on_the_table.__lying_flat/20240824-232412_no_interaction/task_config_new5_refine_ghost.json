@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "bowl",
+        "book",
+        "eraser"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6e9e9135bb5747f58d388e1e92477f02/material_2.urdf",
+        "ycb_16k_backup/024_bowl_google_16k/024_bowl_google_16k.urdf",
+        "objaverse_rescale/de79a920c48745ff95c0df7a7c300091/material_2.urdf",
+        "objaverse_rescale/f0916a69ba514ecc973b44528b9dcc43/material_2.urdf"
+    ],
+    "target_obj_name": "eraser",
+    "instruction": "Place the eraser at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.6289690070041997,
+            0.18454513202076775,
+            0.928570007058943,
+            -0.12597364525710125,
+            0.1847188176615187,
+            -0.6732052772855778,
+            0.7048434249797738,
+            0.019586948677897453,
+            0.0015216261381283402,
+            -0.0018319111550226808,
+            0.00854790210723877,
+            -0.1552065759897232,
+            0.405542254447937
+        ],
+        [
+            0.7516512871487047,
+            0.15646358190038617,
+            0.9060075297733566,
+            0.11991972270444703,
+            0.34412308895608473,
+            -0.7365279329219268,
+            0.5698466142564723,
+            -0.022160910069942474,
+            -0.014262295328080654,
+            -0.00011713988351402804,
+            0.40688997507095337,
+            -0.7078979015350342,
+            -0.8363479971885681
+        ],
+        [
+            0.36690496853141374,
+            -0.24770263372027976,
+            0.9151610305461273,
+            0.007232542594604186,
+            -0.001828781025844399,
+            -0.10782031645621099,
+            0.994142406925114,
+            0.0002671741822268814,
+            1.3514446436602157e-05,
+            -3.092683255090378e-05,
+            -0.002888404531404376,
+            0.0019067971734330058,
+            0.0015838294057175517
+        ],
+        [
+            0.7791775938691893,
+            -0.04023927088814307,
+            0.9110833723295191,
+            -0.5067495692718323,
+            -0.5027786783696295,
+            0.5048474836171206,
+            0.485332353037752,
+            0.002151412656530738,
+            -0.003431027987971902,
+            -0.007817690260708332,
+            -0.0652354285120964,
+            0.002233882900327444,
+            0.036179449409246445
+        ]
+    ],
+    "position_instruction": "Place the eraser at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "6e9e9135bb5747f58d388e1e92477f02",
+        "024",
+        "de79a920c48745ff95c0df7a7c300091",
+        "f0916a69ba514ecc973b44528b9dcc43"
+    ],
+    "target_obj_code": "f0916a69ba514ecc973b44528b9dcc43",
+    "anno_target": {
+        "category": "eraser",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        -0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "center",
+    "rotation_tag": "lying_flat"
+}

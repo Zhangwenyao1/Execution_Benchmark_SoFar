@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "hat",
+        "wallet",
+        "fork",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/dc02f9c1fd01432fadd6e7d15851dc37/material_2.urdf",
+        "objaverse_rescale/f47fdcf9615d4e94a71e6731242a4c94/material_2.urdf",
+        "ycb_16k_backup/030_fork_google_16k/030_fork_google_16k.urdf",
+        "objaverse_rescale/c609327dd3a74fb597584e1b4a14a615/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug to the left of the hat on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.3703515368822132,
+            0.16549941639601856,
+            0.9447258635819762,
+            -0.8666952306708238,
+            0.08351486108286715,
+            -0.21116079092993031,
+            0.4441573656764038,
+            0.0035069279838353395,
+            0.0001001332129817456,
+            -0.0014883176190778613,
+            0.003876450937241316,
+            0.1156449019908905,
+            0.014987138099968433
+        ],
+        [
+            0.7136826916115157,
+            0.00791444633442263,
+            0.9530486965056691,
+            0.1067585603824297,
+            0.7349713976588789,
+            -0.11718980983119671,
+            0.6593073660138759,
+            0.0005116530228406191,
+            0.0037538502365350723,
+            -0.0002915782970376313,
+            -0.2496330887079239,
+            0.02138574793934822,
+            -0.010585303418338299
+        ],
+        [
+            0.32316270231960853,
+            -0.08844104144511138,
+            0.902877467888574,
+            0.054715594783085235,
+            -0.0036155607237932045,
+            -0.09332231956553236,
+            0.9941247789282263,
+            -0.00019517533655744046,
+            0.0031056434381753206,
+            -0.00020220242731738836,
+            0.3105844557285309,
+            0.21182990074157715,
+            -0.0010953679447993636
+        ],
+        [
+            0.6717617202848565,
+            -0.18109852834745782,
+            0.9356014558145548,
+            -0.09406643475089643,
+            0.007038137951501392,
+            -0.07378962532474488,
+            0.9928026297617584,
+            0.003235182724893093,
+            -0.0019041573395952582,
+            -0.0007723656017333269,
+            0.034270450472831726,
+            0.05581735819578171,
+            0.024197401478886604
+        ]
+    ],
+    "position_instruction": "Place the mug to the left of the hat on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "dc02f9c1fd01432fadd6e7d15851dc37",
+        "f47fdcf9615d4e94a71e6731242a4c94",
+        "030",
+        "c609327dd3a74fb597584e1b4a14a615"
+    ],
+    "target_obj_code": "c609327dd3a74fb597584e1b4a14a615",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "handle_right"
+}

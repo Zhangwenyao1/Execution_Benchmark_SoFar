@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "tape measure",
+        "box",
+        "bottle",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/1574b13827734d54b6d9d86be8be71d1/material_2.urdf",
+        "ycb_16k_backup/003_cracker_box_google_16k/003_cracker_box_google_16k.urdf",
+        "objaverse_rescale/d17b8f44d1544364b8ad9fe2554ddfdf/material_2.urdf",
+        "objaverse_rescale/a564a11174be455bbce4698f7da92fdf/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6293244591655928,
+            -0.03533592764654831,
+            0.9659321035190445,
+            -0.05649252437767545,
+            -0.026827779116312823,
+            0.07853601715964695,
+            0.9949477166996382,
+            0.0006970215472392738,
+            -0.00014153344091027975,
+            -0.0010292426450178027,
+            0.01099835243076086,
+            0.007388103287667036,
+            0.023696912452578545
+        ],
+        [
+            0.6630478155618881,
+            0.18070206760938004,
+            0.9038196440285639,
+            -0.0018197955394221416,
+            -0.014474778555814697,
+            -0.11966796816524099,
+            0.992706777716944,
+            -0.0022725898306816816,
+            0.00016465256339870393,
+            -0.0003021762240678072,
+            -0.0033898907713592052,
+            -0.02482224814593792,
+            0.00038081660750322044
+        ],
+        [
+            0.38321503057621453,
+            0.03722896537412231,
+            0.9346904482740158,
+            -0.006079010248668419,
+            0.09323480310310245,
+            0.09059039307532608,
+            0.9914956872357953,
+            -0.0013174000196158886,
+            0.0003349904727656394,
+            -0.00015946556231938303,
+            0.002356003038585186,
+            -0.02255336381494999,
+            0.001993382815271616
+        ],
+        [
+            0.6009526274238627,
+            -0.2639145829831524,
+            0.9604593174324149,
+            -0.07105466896292988,
+            0.24970040075697825,
+            0.08118192823442219,
+            0.962294361621492,
+            -0.0002530290512368083,
+            3.3026215533027425e-05,
+            -0.00037233205512166023,
+            0.0002657943405210972,
+            -0.004659533500671387,
+            -0.0004142459365539253
+        ]
+    ],
+    "position_instruction": "Place the mug at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "1574b13827734d54b6d9d86be8be71d1",
+        "003",
+        "d17b8f44d1544364b8ad9fe2554ddfdf",
+        "a564a11174be455bbce4698f7da92fdf"
+    ],
+    "target_obj_code": "a564a11174be455bbce4698f7da92fdf",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.4631405472755432,
+                        0.4735301733016968,
+                        0.5153847336769104,
+                        0.5437357425689697
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "center",
+    "rotation_tag": "handle_right"
+}

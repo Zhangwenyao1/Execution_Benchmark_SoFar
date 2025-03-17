@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "spatula",
+        "tissue box",
+        "USB"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/4b27628be0804c0285d0b13dda025a0d/material_2.urdf",
+        "objaverse_rescale/6e9e9135bb5747f58d388e1e92477f02/material_2.urdf",
+        "objaverse_rescale/b1098389cc3b460bb1f1ce558d4b0764/material_2.urdf"
+    ],
+    "target_obj_name": "USB",
+    "instruction": "Place the USB between the spatula and the tissue box on the table. We also need to specify the rotation of the object after placement:  the silver plug end of the USB is oriented towards right, and the larger end is on the left.",
+    "init_obj_pos": [
+        [
+            0.3898904140227275,
+            -0.05421420255431918,
+            0.9039860369907925,
+            -0.004173821920327214,
+            0.0020560952461442005,
+            -0.12546147013393608,
+            0.9920875824214049,
+            -0.0010916689643636346,
+            0.00045681316987611353,
+            -0.010463792830705643,
+            0.059345874935388565,
+            -0.08401473611593246,
+            -0.06078984960913658
+        ],
+        [
+            0.5394054642964898,
+            -0.039115893460968304,
+            0.9317406497967985,
+            0.007650374667072406,
+            0.05350451223195645,
+            0.034786263728852254,
+            0.997932189476851,
+            -0.0005536030512303114,
+            -0.003390922211110592,
+            -0.0005219743470661342,
+            0.07628053426742554,
+            -0.010063198395073414,
+            0.0003750545147340745
+        ],
+        [
+            0.6822559851109128,
+            0.05524631668991351,
+            0.9250259296915272,
+            -0.024600402796124313,
+            0.0007341792373734897,
+            -0.029562678929383482,
+            0.9992598907079346,
+            -0.0018593311542645097,
+            0.001520239864476025,
+            -0.004292274825274944,
+            -0.051843613386154175,
+            -0.09021445363759995,
+            -0.0004979229997843504
+        ]
+    ],
+    "position_instruction": "Place the USB between the spatula and the tissue box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the silver plug end of the USB is oriented towards right, and the larger end is on the left.",
+    "rotation_instruction_label": "plug_right",
+    "obj_codes": [
+        "4b27628be0804c0285d0b13dda025a0d",
+        "6e9e9135bb5747f58d388e1e92477f02",
+        "b1098389cc3b460bb1f1ce558d4b0764"
+    ],
+    "target_obj_code": "b1098389cc3b460bb1f1ce558d4b0764",
+    "anno_target": {
+        "category": "USB",
+        "annotation": {
+            " the silver plug end of the USB is oriented towards left, and the larger end is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the silver plug end of the USB is oriented towards right, and the larger end is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "plug_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "plug_right"
+}

@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "wrench",
+        "spatula",
+        "mug",
+        "wrench"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/19c1913ba85042938f0a87d94397c946/material_2.urdf",
+        "objaverse_rescale/81b129ecf5724f63b5b044702a3140c2/material_2.urdf",
+        "objaverse_rescale/c609327dd3a74fb597584e1b4a14a615/material_2.urdf",
+        "objaverse_rescale/5bf781c9fd8d4121b735503b13ba2eaf/material_2.urdf"
+    ],
+    "target_obj_name": "wrench",
+    "instruction": "Place the wrench at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.433230893644797,
+            0.12945766744929169,
+            0.9075120478800456,
+            0.01017950832997162,
+            -0.0006788132313206341,
+            -0.1513809014550285,
+            0.9884228546009141,
+            4.561879177344963e-05,
+            0.004476762842386961,
+            0.02920614555478096,
+            1.257083773612976,
+            2.935976028442383,
+            0.25160112977027893
+        ],
+        [
+            0.6409770134802374,
+            -0.20127605374046176,
+            0.9124029397200782,
+            0.08675109885827631,
+            0.014435515091661069,
+            0.06565006080861782,
+            0.9939597236642674,
+            0.004036829806864262,
+            0.004951482638716698,
+            0.0017249337397515774,
+            -0.5425480008125305,
+            0.7874479293823242,
+            0.09302697330713272
+        ],
+        [
+            0.3979973837850368,
+            -0.061276609537980996,
+            0.9355959017211277,
+            -0.09322430497934632,
+            0.006079873629122872,
+            -0.06458287693073711,
+            0.9935297258286333,
+            0.0032466978300362825,
+            -0.0018416630337014794,
+            -0.0007292386726476252,
+            0.032423511147499084,
+            0.056014660745859146,
+            0.006784730590879917
+        ],
+        [
+            0.591242322600208,
+            0.22255362642384632,
+            0.3043089210987091,
+            -0.46792247891426086,
+            -0.5318314433097839,
+            0.5404713749885559,
+            0.45397621393203735,
+            0.0007503223605453968,
+            -0.0051644342020154,
+            0.0289370808750391,
+            -0.7845404148101807,
+            4.270881652832031,
+            -0.33388495445251465
+        ]
+    ],
+    "position_instruction": "Place the wrench at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "19c1913ba85042938f0a87d94397c946",
+        "81b129ecf5724f63b5b044702a3140c2",
+        "c609327dd3a74fb597584e1b4a14a615",
+        "5bf781c9fd8d4121b735503b13ba2eaf"
+    ],
+    "target_obj_code": "5bf781c9fd8d4121b735503b13ba2eaf",
+    "anno_target": {
+        "category": "wrench",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "center",
+    "rotation_tag": "handle_right"
+}

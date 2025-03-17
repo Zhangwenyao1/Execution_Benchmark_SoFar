@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "power drill",
+        "screwdriver",
+        "tissue box",
+        "knife"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/035_power_drill_google_16k/035_power_drill_google_16k.urdf",
+        "ycb_16k_backup/043_phillips_screwdriver_google_16k/043_phillips_screwdriver_google_16k.urdf",
+        "objaverse_rescale/dc4c91abf45342b4bb8822f50fa162b2/material_2.urdf",
+        "objaverse_rescale/85db1d392a89459dbde5cdd951c4f6fb/material_2.urdf"
+    ],
+    "target_obj_name": "knife",
+    "instruction": "Place the knife behind the power drill on the table. We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.37593057582408157,
+            0.14263412751828686,
+            0.9461152393313631,
+            -0.15258427614527573,
+            -0.16523482645045232,
+            0.5781711248192123,
+            0.7843045589733598,
+            -0.010923147201538086,
+            -0.002665020991116762,
+            0.01146502885967493,
+            -0.06426160782575607,
+            -0.35943901538848877,
+            -0.08481165021657944
+        ],
+        [
+            0.3066356805139647,
+            -0.02818477051378377,
+            0.9014561987447288,
+            -0.027052926208402207,
+            -0.009175615037405304,
+            -0.07912361752710763,
+            0.9964554181806982,
+            -0.00011973787331953645,
+            0.000300793704809621,
+            -6.380405102390796e-05,
+            -0.026108071208000183,
+            -0.012059523724019527,
+            0.010680167935788631
+        ],
+        [
+            0.5558472377906091,
+            -0.03129161460546066,
+            0.95789000491826,
+            0.10344173557744206,
+            -0.07525598274587736,
+            -0.5799795522287908,
+            0.8045247438072805,
+            -0.00581645080819726,
+            -0.0019632121548056602,
+            -0.002270601922646165,
+            0.02745676040649414,
+            -0.070858433842659,
+            0.00018451170763000846
+        ],
+        [
+            0.4003086071026502,
+            0.13027608746029823,
+            0.9221391562866051,
+            -0.004324101639597978,
+            -0.00970438941948561,
+            0.03702825011428278,
+            0.999257742359038,
+            0.000917043536901474,
+            0.0038507706485688686,
+            -0.0033960069995373487,
+            -0.1533234864473343,
+            0.06786803901195526,
+            0.10476858168840408
+        ]
+    ],
+    "position_instruction": "Place the knife behind the power drill on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blade_right",
+    "obj_codes": [
+        "035",
+        "043",
+        "dc4c91abf45342b4bb8822f50fa162b2",
+        "85db1d392a89459dbde5cdd951c4f6fb"
+    ],
+    "target_obj_code": "85db1d392a89459dbde5cdd951c4f6fb",
+    "anno_target": {
+        "category": "knife",
+        "annotation": {
+            " the blade of the knife is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        -0.7071067690849304,
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blade of the knife is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        -8.429369557916289e-08,
+                        0.7071068286895752,
+                        8.429369557916289e-08,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blade_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "blade_right"
+}

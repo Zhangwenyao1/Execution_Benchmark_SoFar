@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "calculator",
+        "tissue box",
+        "binder",
+        "pen"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/69511a7fad2f42ee8c4b0579bbc8fec6/material_2.urdf",
+        "objaverse_rescale/213d8df9c37a4d8cba794965676f7a75/material_2.urdf",
+        "objaverse_rescale/a0026e7d1b244b9a9223daf4223c9372/material_2.urdf",
+        "objaverse_rescale/fbeb7c776372466daffa619106e0b2e0/material_2.urdf"
+    ],
+    "target_obj_name": "pen",
+    "instruction": "Place the pen in front of calculator on the table. We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "init_obj_pos": [
+        [
+            0.6668019781399512,
+            0.2210661674687978,
+            0.9102469618706651,
+            -0.00015372176965847508,
+            -0.00010229287994045689,
+            0.01837153744235287,
+            0.9998312120142018,
+            0.0012363692512735724,
+            0.001026985701173544,
+            -0.008368782699108124,
+            -0.11465071141719818,
+            0.01746225357055664,
+            -0.01992577314376831
+        ],
+        [
+            0.6890601581957535,
+            -0.051512759185241785,
+            0.9329000424521595,
+            2.7723868880994937e-08,
+            -2.1105133915541094e-06,
+            0.04583877336229263,
+            0.9989488509689499,
+            -0.00019165572302881628,
+            -2.7591422622208484e-05,
+            -0.00045530416537076235,
+            -0.006602596491575241,
+            0.0006127042579464614,
+            -0.0017523006536066532
+        ],
+        [
+            0.3744480261757674,
+            0.1885810171456559,
+            0.9272729674443108,
+            0.0003273215405285963,
+            7.282586333751334e-05,
+            0.0932174673746511,
+            0.9956457157710557,
+            0.0005062842974439263,
+            0.0002737834583967924,
+            -0.0004226529854349792,
+            0.0005062861018814147,
+            0.005032739602029324,
+            -0.0005056383670307696
+        ],
+        [
+            0.6446708803894662,
+            -0.11664064155415318,
+            0.9072097479712576,
+            0.1383924036445953,
+            -0.0007600961360551571,
+            -0.0616621422744997,
+            -0.988455737540864,
+            -0.005071582738310099,
+            0.00020342944480944425,
+            0.03081897832453251,
+            1.6432691812515259,
+            -0.487544983625412,
+            0.34828004240989685
+        ]
+    ],
+    "position_instruction": "Place the pen in front of calculator on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "rotation_instruction_label": "ballpoint_right",
+    "obj_codes": [
+        "69511a7fad2f42ee8c4b0579bbc8fec6",
+        "213d8df9c37a4d8cba794965676f7a75",
+        "a0026e7d1b244b9a9223daf4223c9372",
+        "fbeb7c776372466daffa619106e0b2e0"
+    ],
+    "target_obj_code": "fbeb7c776372466daffa619106e0b2e0",
+    "anno_target": {
+        "category": "pen",
+        "annotation": {
+            " the ballpoint of the pen is on the left(oriented towards left), while the clicker is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "ballpoint_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "ballpoint_right"
+}

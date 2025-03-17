@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "toy",
+        "wrench",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/072-a_toy_airplane_google_16k/072-a_toy_airplane_google_16k.urdf",
+        "objaverse_rescale/19c1913ba85042938f0a87d94397c946/material_2.urdf",
+        "objaverse_rescale/6d155e8051294915813e0c156e3cd6de/material_2.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer in front of toy on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6220004603188259,
+            0.044735433952426705,
+            0.9001953536222135,
+            -0.001453939574314884,
+            -4.9018880357678654e-05,
+            -0.09934761918416322,
+            0.9950517243939139,
+            0.0033846027217805386,
+            -0.0003835744864773005,
+            -0.0009202365181408823,
+            0.00502765504643321,
+            0.044345155358314514,
+            -0.0015671409200876951
+        ],
+        [
+            0.4675185774612036,
+            0.08808863804569496,
+            0.9075127494143931,
+            0.010249813330489018,
+            0.00036124218135369444,
+            -0.09484690568996375,
+            0.995439036461709,
+            -0.00023487464932259172,
+            0.0005831227754242718,
+            0.028638528659939766,
+            0.8428003191947937,
+            2.6781270503997803,
+            0.21989060938358307
+        ],
+        [
+            0.5477968721874044,
+            -0.07292893456288371,
+            0.9327372721784676,
+            0.08180956643192411,
+            0.0069043474539497935,
+            0.08393512046023949,
+            0.9930832897495471,
+            -3.580033444450237e-05,
+            0.00030745024560019374,
+            -0.004028639756143093,
+            -0.024953914806246758,
+            0.012581583112478256,
+            0.01025908999145031
+        ]
+    ],
+    "position_instruction": "Place the hammer in front of toy on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "072-a",
+        "19c1913ba85042938f0a87d94397c946",
+        "6d155e8051294915813e0c156e3cd6de"
+    ],
+    "target_obj_code": "6d155e8051294915813e0c156e3cd6de",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "handle_right"
+}

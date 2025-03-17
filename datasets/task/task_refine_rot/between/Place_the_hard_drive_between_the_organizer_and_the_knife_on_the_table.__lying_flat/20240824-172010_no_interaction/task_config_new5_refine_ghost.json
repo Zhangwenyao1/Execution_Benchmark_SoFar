@@ -1,0 +1,97 @@
+{
+    "selected_obj_names": [
+        "organizer",
+        "knife",
+        "hard drive"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/4f52ebe6c8cf432986e47d8de83386ce/material_2.urdf",
+        "ycb_16k_backup/032_knife_google_16k/032_knife_google_16k.urdf",
+        "objaverse_rescale/f8de4975c0f54c1a97203c6a674f6a39/material_2.urdf"
+    ],
+    "target_obj_name": "hard drive",
+    "instruction": "Place the hard drive between the organizer and the knife on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.6035243463511578,
+            0.056250298738786085,
+            1.021051105650082,
+            4.879408376437221e-05,
+            7.91099455390819e-06,
+            0.11225325797085117,
+            0.9936796282663151,
+            -0.002093927003443241,
+            0.001507865497842431,
+            -0.004153641872107983,
+            -0.014576415531337261,
+            -0.023766880854964256,
+            -0.0039983694441616535
+        ],
+        [
+            0.5400833300260616,
+            -0.20329839115363094,
+            0.916374674926516,
+            0.2302386943791086,
+            0.042296223614844974,
+            0.1037473441287131,
+            0.9666631583259836,
+            -0.0033850816544145346,
+            0.0007851552218198776,
+            0.033175304532051086,
+            2.6384518146514893,
+            1.9756451845169067,
+            -0.3955443799495697
+        ],
+        [
+            0.5855433323079334,
+            -0.18948220499602608,
+            0.9508357674580592,
+            0.0012342121468530776,
+            4.440413915782327e-05,
+            0.020089091009579167,
+            0.9997974310684425,
+            -0.0016685188747942448,
+            0.0007961735245771706,
+            -0.00012685424007941037,
+            -0.009850158356130123,
+            -0.0190535057336092,
+            -0.0001969606091734022
+        ]
+    ],
+    "position_instruction": "Place the hard drive between the organizer and the knife on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "4f52ebe6c8cf432986e47d8de83386ce",
+        "032",
+        "f8de4975c0f54c1a97203c6a674f6a39"
+    ],
+    "target_obj_code": "f8de4975c0f54c1a97203c6a674f6a39",
+    "anno_target": {
+        "category": "hard_drive",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "between",
+    "rotation_tag": "lying_flat"
+}

@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "toilet paper roll",
+        "can",
+        "screwdriver"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/7ca7ebcfad964498b49af73be442acf9/material_2.urdf",
+        "ycb_16k_backup/007_tuna_fish_can_google_16k/007_tuna_fish_can_google_16k.urdf",
+        "ycb_16k_backup/043_phillips_screwdriver_google_16k/043_phillips_screwdriver_google_16k.urdf"
+    ],
+    "target_obj_name": "screwdriver",
+    "instruction": "Place the screwdriver to the right of the toilet paper roll on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.45252889381417616,
+            0.13156683151464138,
+            0.9445607418892075,
+            0.00026699629036672435,
+            -0.3200297680567954,
+            0.000809213460718267,
+            0.9474071043875856,
+            -0.0016214196803048253,
+            0.0004188712337054312,
+            -0.0001912677107611671,
+            -0.00596804590895772,
+            -0.022647574543952942,
+            0.0003672670864034444
+        ],
+        [
+            0.4147068652738627,
+            -0.08491285914265148,
+            0.9031512385903647,
+            0.00046251959827409015,
+            -0.0007608198141714728,
+            -0.058443729881029256,
+            0.9982903073086621,
+            0.0006058235303498805,
+            0.00023191446962300688,
+            -0.009358618408441544,
+            -0.0740431696176529,
+            0.11969207227230072,
+            -0.025104066357016563
+        ],
+        [
+            0.34258351986474844,
+            0.08967828235098964,
+            0.9014557034440336,
+            -0.02522542381554499,
+            -0.013368587684372097,
+            0.0813027346859656,
+            0.9962804947349081,
+            -0.00044464151142165065,
+            -0.00015934051771182567,
+            -0.00010124042455572635,
+            -0.014113638550043106,
+            -0.020163295790553093,
+            0.02655182033777237
+        ]
+    ],
+    "position_instruction": "Place the screwdriver to the right of the toilet paper roll on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "7ca7ebcfad964498b49af73be442acf9",
+        "007",
+        "043"
+    ],
+    "target_obj_code": "043",
+    "anno_target": {
+        "category": "screwdriver",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.8475578427314758,
+                        0.530703067779541
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "handle_right"
+}

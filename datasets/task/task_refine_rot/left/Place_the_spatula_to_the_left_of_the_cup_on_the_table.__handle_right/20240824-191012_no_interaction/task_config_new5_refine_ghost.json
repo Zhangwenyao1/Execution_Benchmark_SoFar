@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "calculator",
+        "spatula"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-f_cups_google_16k/065-f_cups_google_16k.urdf",
+        "objaverse_rescale/b4bb8bd7791648fdb36c458fd9a877bf/material_2.urdf",
+        "ycb_16k_backup/033_spatula_google_16k/033_spatula_google_16k.urdf"
+    ],
+    "target_obj_name": "spatula",
+    "instruction": "Place the spatula to the left of the cup on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.4972085635829183,
+            0.09805317478604443,
+            0.8921416102301097,
+            0.35730909300352204,
+            0.13528236127924204,
+            -0.3491731107580983,
+            0.8556325341565885,
+            -0.0045957183465361595,
+            6.86190978740342e-05,
+            -0.0018097411375492811,
+            -0.007871127687394619,
+            -0.14156474173069,
+            0.029446443542838097
+        ],
+        [
+            0.4641363511834359,
+            -0.2205504708463264,
+            0.9130118377408526,
+            0.5603023873060471,
+            -0.43389749421805623,
+            -0.43266615293414207,
+            0.5573097876366485,
+            0.0002434723573969677,
+            6.294847116805613e-05,
+            -0.005859642755240202,
+            0.05013665184378624,
+            0.07135587185621262,
+            0.006810044404119253
+        ],
+        [
+            0.5251410377960312,
+            0.036208299744024605,
+            1.0219554760551348,
+            -0.725714214145528,
+            0.07828849122783782,
+            -0.15137460384135742,
+            -0.6665549646055299,
+            0.002278008032590151,
+            0.0003262314130552113,
+            0.0157773420214653,
+            0.06379809230566025,
+            0.20282496511936188,
+            -0.057935163378715515
+        ]
+    ],
+    "position_instruction": "Place the spatula to the left of the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "065-f",
+        "b4bb8bd7791648fdb36c458fd9a877bf",
+        "033"
+    ],
+    "target_obj_code": "033",
+    "anno_target": {
+        "category": "spatula",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.621095597743988,
+                        0.7837347984313965
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "handle_right"
+}

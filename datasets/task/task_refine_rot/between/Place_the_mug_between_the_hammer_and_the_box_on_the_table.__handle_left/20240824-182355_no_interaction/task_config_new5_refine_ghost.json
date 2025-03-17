@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "hammer",
+        "box",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/8ed38a92668a425eb16da938622d9ace/material_2.urdf",
+        "objaverse_rescale/5e1a1527a0bd49ed8e473079392c31c8/material_2.urdf",
+        "ycb_16k_backup/025_mug_google_16k/025_mug_google_16k.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug between the hammer and the box on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "init_obj_pos": [
+        [
+            0.30919773917559873,
+            -0.24312001636945202,
+            0.9154017863092797,
+            -0.006445572503429879,
+            0.5586128196384867,
+            0.028225055829903086,
+            0.8289231077452497,
+            0.009943289682269096,
+            -0.0019313344964757562,
+            0.011852981522679329,
+            0.41508200764656067,
+            -0.0017833678284659982,
+            -0.10283846408128738
+        ],
+        [
+            0.5487211105313573,
+            -0.11170424217643805,
+            0.9527975567342706,
+            -0.003017356935171534,
+            0.002351438736640587,
+            -0.04716951383255638,
+            0.9988795739516312,
+            0.0041912635788321495,
+            0.0015384519938379526,
+            -9.295305062551051e-05,
+            -0.026078371331095695,
+            0.09035799652338028,
+            -0.00613867724314332
+        ],
+        [
+            0.5057965743912033,
+            0.20163947467420515,
+            0.900459046181276,
+            -0.0008097387598680454,
+            -0.0010228444271967285,
+            -0.07612818217746972,
+            0.9970971858303347,
+            -0.0005277153104543686,
+            -0.0011027960572391748,
+            -0.0007642951677553356,
+            0.028888365253806114,
+            -0.020193515345454216,
+            -0.009222296066582203
+        ]
+    ],
+    "position_instruction": "Place the mug between the hammer and the box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "rotation_instruction_label": "handle_left",
+    "obj_codes": [
+        "8ed38a92668a425eb16da938622d9ace",
+        "5e1a1527a0bd49ed8e473079392c31c8",
+        "025"
+    ],
+    "target_obj_code": "025",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_left"
+}

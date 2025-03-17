@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "calculator",
+        "tissue box",
+        "binder"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/b4bb8bd7791648fdb36c458fd9a877bf/material_2.urdf",
+        "objaverse_rescale/dc4c91abf45342b4bb8822f50fa162b2/material_2.urdf",
+        "objaverse_rescale/a0026e7d1b244b9a9223daf4223c9372/material_2.urdf"
+    ],
+    "target_obj_name": "binder",
+    "instruction": "Place the binder to the left of the calculator on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.7376457959382842,
+            0.14380483206758887,
+            0.9370736982786031,
+            0.5311533850202904,
+            -0.07912074981068203,
+            -0.1227235671787693,
+            0.8345986547975018,
+            0.00400241045281291,
+            0.0010357429273426533,
+            0.02369789220392704,
+            -0.4619150757789612,
+            0.06241780146956444,
+            0.1543073058128357
+        ],
+        [
+            0.6032778766133031,
+            0.18661469659083238,
+            0.9630294343291167,
+            0.08593846758638798,
+            -0.04142542185506085,
+            0.40800840509571784,
+            0.9079799863346564,
+            -0.0005720108165405691,
+            -2.463271448505111e-05,
+            -0.00036936032120138407,
+            0.0002557477855589241,
+            -0.007111258339136839,
+            -0.000419877003878355
+        ],
+        [
+            0.6572517119393949,
+            -0.03170506830617797,
+            0.9273619563718165,
+            -0.0001973232129577708,
+            -1.2101564429706598e-05,
+            -0.14555807220702432,
+            0.9893496897116195,
+            0.0012409207411110401,
+            0.0022095441818237305,
+            -0.0034311397466808558,
+            7.857168384362012e-05,
+            0.046671800315380096,
+            0.007033260073512793
+        ]
+    ],
+    "position_instruction": "Place the binder to the left of the calculator on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "b4bb8bd7791648fdb36c458fd9a877bf",
+        "dc4c91abf45342b4bb8822f50fa162b2",
+        "a0026e7d1b244b9a9223daf4223c9372"
+    ],
+    "target_obj_code": "a0026e7d1b244b9a9223daf4223c9372",
+    "anno_target": {
+        "category": "binder",
+        "annotation": {
+            "the binder is standing upright on the table and oriented in a way so that its smaller side is in contact with the tabletop and the larger face is perpendicular to the tabletop, and the label should be in sight as well.": {
+                "quat": [
+                    [
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        -7.549783020976975e-08,
+                        -3.3001151131603493e-15,
+                        1.0,
+                        -4.371138828673793e-08
+                    ],
+                    [
+                        -0.0,
+                        1.0,
+                        -0.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "left",
+    "rotation_tag": "lying_flat"
+}

@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "screwdriver",
+        "mug",
+        "clock"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/043_phillips_screwdriver_google_16k/043_phillips_screwdriver_google_16k.urdf",
+        "objaverse_rescale/ca4f9a92cc2f4ee98fe9332db41bf7f7/material_2.urdf",
+        "objaverse_rescale/fdf932b04e6c4e0fbd6e274563b94536/material_2.urdf"
+    ],
+    "target_obj_name": "clock",
+    "instruction": "Place the clock in front of screwdriver on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.4587241147832272,
+            0.13719278054633638,
+            0.9014564431204656,
+            -0.025362276892017338,
+            -0.013531857813329808,
+            0.07467175417774004,
+            0.9967937464004232,
+            -0.0002532510843593627,
+            -0.0002305232046637684,
+            -7.86860691732727e-05,
+            -0.01080525666475296,
+            -0.0125813577324152,
+            0.02269112505018711
+        ],
+        [
+            0.4741516036488581,
+            0.008811477477725259,
+            0.9610415245022965,
+            0.02072692015326615,
+            0.2309115954761356,
+            0.05128572695195659,
+            0.9714010521234956,
+            0.0008940388215705752,
+            -0.0011491605546325445,
+            -0.0005922277923673391,
+            0.02316638082265854,
+            0.015804292634129524,
+            0.0030897774267941713
+        ],
+        [
+            0.2589693065505979,
+            -0.04721852968107534,
+            0.9343147423126483,
+            -0.015570196761325384,
+            -0.0008877747910971381,
+            0.05434607608816208,
+            0.9984003630020135,
+            -4.5144679461373016e-05,
+            7.53805652493611e-05,
+            -0.00022821126913186163,
+            -0.0033996503334492445,
+            -0.0011380644282326102,
+            -2.9022558010183275e-05
+        ]
+    ],
+    "position_instruction": "Place the clock in front of screwdriver on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "043",
+        "ca4f9a92cc2f4ee98fe9332db41bf7f7",
+        "fdf932b04e6c4e0fbd6e274563b94536"
+    ],
+    "target_obj_code": "fdf932b04e6c4e0fbd6e274563b94536",
+    "anno_target": {
+        "category": "clock",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "front",
+    "rotation_tag": "upright"
+}

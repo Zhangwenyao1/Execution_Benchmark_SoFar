@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "book",
+        "hammer",
+        "wallet"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/b2d30398ba3741da9f9aef2319ee2b8b/material_2.urdf",
+        "objaverse_rescale/6d155e8051294915813e0c156e3cd6de/material_2.urdf",
+        "objaverse_rescale/dbb07d13a33546f09ac8ca98b1ddef20/material_2.urdf"
+    ],
+    "target_obj_name": "wallet",
+    "instruction": "Place the wallet to the left of the book on the table. We also need to specify the rotation of the object after placement:  the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)",
+    "init_obj_pos": [
+        [
+            0.7134336334165544,
+            0.09024522680278972,
+            0.9163804519258373,
+            0.0001313847765351051,
+            0.00010326066303656391,
+            0.16304198542369255,
+            0.9866191175242731,
+            -0.0005973190418444574,
+            -0.00014481278776656836,
+            4.3475814891280606e-05,
+            -0.0002838431391865015,
+            0.00014194111281540245,
+            -0.002732429886236787
+        ],
+        [
+            0.6078710316967506,
+            0.03273226283528846,
+            0.9332892639969419,
+            0.07478170317977476,
+            0.009655782332914234,
+            0.1274417191301207,
+            0.988975768642604,
+            -1.8688042473513633e-05,
+            0.0030682706274092197,
+            -0.006421785801649094,
+            -0.11528176814317703,
+            0.10004732757806778,
+            0.01453023124486208
+        ],
+        [
+            0.43739254189227594,
+            -0.18514153344548973,
+            0.9317446374356005,
+            0.040842377816728025,
+            -0.03903598800125519,
+            0.15053200313630352,
+            0.9869894669381303,
+            0.00038233527448028326,
+            -0.0015143435448408127,
+            -0.002493681851774454,
+            0.02829233556985855,
+            0.009643662720918655,
+            0.015070119872689247
+        ]
+    ],
+    "position_instruction": "Place the wallet to the left of the book on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)",
+    "rotation_instruction_label": "clasp_right",
+    "obj_codes": [
+        "b2d30398ba3741da9f9aef2319ee2b8b",
+        "6d155e8051294915813e0c156e3cd6de",
+        "dbb07d13a33546f09ac8ca98b1ddef20"
+    ],
+    "target_obj_code": "dbb07d13a33546f09ac8ca98b1ddef20",
+    "anno_target": {
+        "category": "wallet",
+        "annotation": {
+            " the wallet is lying flat on the table, and the clasp is on the left(if the wallet has a clasp)": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            },
+            " the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "clasp_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "clasp_right"
+}

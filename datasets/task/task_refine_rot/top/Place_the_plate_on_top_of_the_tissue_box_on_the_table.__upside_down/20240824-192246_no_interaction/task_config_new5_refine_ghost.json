@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "wineglass",
+        "plate"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/dc4c91abf45342b4bb8822f50fa162b2/material_2.urdf",
+        "objaverse_rescale/dc707f81a94e48078069c6a463f59fcf/material_2.urdf",
+        "ycb_16k_backup/029_plate_google_16k/029_plate_google_16k.urdf"
+    ],
+    "target_obj_name": "plate",
+    "instruction": "Place the plate on top of the tissue box on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6668970499808918,
+            -0.20698294493176028,
+            0.9471223568521062,
+            0.6690350916056562,
+            0.22890186068766585,
+            0.22889310466613244,
+            0.6690320851874257,
+            0.00011224525951547548,
+            5.8530760725261644e-05,
+            -9.599667828297243e-05,
+            -0.00060412468155846,
+            0.0012658018385991454,
+            -0.001051338273100555
+        ],
+        [
+            0.4447056542576642,
+            -0.18703280588031995,
+            0.925776970267673,
+            0.004373845850373971,
+            0.023924230986780603,
+            0.41077874659632546,
+            0.9114106220518388,
+            0.05237199366092682,
+            -0.05180662125349045,
+            -6.005695468047634e-05,
+            -1.12563157081604,
+            3.023968458175659,
+            -3.4721882343292236
+        ],
+        [
+            0.5270215572294338,
+            0.05808293556530537,
+            0.9109749615489009,
+            0.04312542107170465,
+            0.028850934256395018,
+            0.4628960046528706,
+            0.884892711308174,
+            -0.05028670281171799,
+            0.06307653337717056,
+            0.08985526114702225,
+            -0.9312995672225952,
+            0.5113758444786072,
+            -0.8728214502334595
+        ]
+    ],
+    "position_instruction": "Place the plate on top of the tissue box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "dc4c91abf45342b4bb8822f50fa162b2",
+        "dc707f81a94e48078069c6a463f59fcf",
+        "029"
+    ],
+    "target_obj_code": "029",
+    "anno_target": {
+        "category": "plate",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "top",
+    "rotation_tag": "upside_down"
+}

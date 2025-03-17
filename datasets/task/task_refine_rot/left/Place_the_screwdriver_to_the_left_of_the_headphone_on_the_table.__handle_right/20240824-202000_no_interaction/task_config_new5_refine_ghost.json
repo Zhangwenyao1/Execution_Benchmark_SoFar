@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "headphone",
+        "spatula",
+        "screwdriver"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/efb1727dee214d49b88c58792e4bdffc/material_2.urdf",
+        "objaverse_rescale/4b27628be0804c0285d0b13dda025a0d/material_2.urdf",
+        "ycb_16k_backup/043_phillips_screwdriver_google_16k/043_phillips_screwdriver_google_16k.urdf"
+    ],
+    "target_obj_name": "screwdriver",
+    "instruction": "Place the screwdriver to the left of the headphone on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6344138783757379,
+            -0.08239298127434594,
+            0.932417392898214,
+            -0.0031062124851457444,
+            -0.0003086002835861866,
+            0.09888846121652248,
+            0.9950936279808499,
+            0.0004708066408056766,
+            0.0017027443973347545,
+            -0.002156684407964349,
+            -0.037214238196611404,
+            0.02690737508237362,
+            0.012442326173186302
+        ],
+        [
+            0.5294948468791231,
+            -0.058655356750666666,
+            0.9039866960627955,
+            -0.0044560658097322105,
+            0.0009008080058715694,
+            0.057741493264491704,
+            0.9983212168325502,
+            -0.0013926501851528883,
+            0.00016500879428349435,
+            -0.010416088625788689,
+            0.10824901610612869,
+            -0.10297898948192596,
+            0.010623599402606487
+        ],
+        [
+            0.4343108584384237,
+            0.022101354580452977,
+            0.9014533383873173,
+            -0.024946085859540088,
+            -0.01376326512170542,
+            0.0982253646173707,
+            0.9947562732042772,
+            -0.0005433950573205948,
+            -6.720123201375827e-05,
+            -0.00022958216140978038,
+            -0.019372429698705673,
+            -0.02249489352107048,
+            0.024060389026999474
+        ]
+    ],
+    "position_instruction": "Place the screwdriver to the left of the headphone on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "efb1727dee214d49b88c58792e4bdffc",
+        "4b27628be0804c0285d0b13dda025a0d",
+        "043"
+    ],
+    "target_obj_code": "043",
+    "anno_target": {
+        "category": "screwdriver",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.8475578427314758,
+                        0.530703067779541
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "handle_right"
+}

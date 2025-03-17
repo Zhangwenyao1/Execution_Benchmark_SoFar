@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "book",
+        "USB",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/2a371c84c5454f7facba7bb2f5312ad6/material_2.urdf",
+        "objaverse_rescale/878049e8c3174fa68a56530e5aef7a5a/material_2.urdf",
+        "objaverse_rescale/db9345f568e8499a9eac2577302b5f51/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug behind the book on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "init_obj_pos": [
+        [
+            0.7576937737578596,
+            0.14892656472933072,
+            0.9770663707647563,
+            -8.018854860773073e-06,
+            0.00012311653875446952,
+            0.03665610736284261,
+            0.9993279314474401,
+            2.923860665760003e-05,
+            -0.0029905717819929123,
+            -0.0007074173190630972,
+            0.04323526844382286,
+            -0.0012896176194772124,
+            0.000255953666055575
+        ],
+        [
+            0.32623456958670344,
+            -0.025317625035720197,
+            0.9401698892975391,
+            -0.0011946478808966005,
+            0.00015350509917939743,
+            -0.12474354248081389,
+            0.9921882875049283,
+            0.0005536056123673916,
+            0.0007172927726060152,
+            -0.0019228134769946337,
+            -0.0023250258527696133,
+            0.02409129962325096,
+            0.0016875723376870155
+        ],
+        [
+            0.460688427930644,
+            0.21657314667850022,
+            0.9651528447063606,
+            -0.011691522335288664,
+            0.2431145646999229,
+            0.020988480309183807,
+            0.9697000053782414,
+            0.0006810842896811664,
+            0.0009518478764221072,
+            0.0001281927980016917,
+            -0.015367657877504826,
+            0.004215718246996403,
+            0.003083132905885577
+        ]
+    ],
+    "position_instruction": "Place the mug behind the book on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "rotation_instruction_label": "handle_left",
+    "obj_codes": [
+        "2a371c84c5454f7facba7bb2f5312ad6",
+        "878049e8c3174fa68a56530e5aef7a5a",
+        "db9345f568e8499a9eac2577302b5f51"
+    ],
+    "target_obj_code": "db9345f568e8499a9eac2577302b5f51",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "handle_left"
+}

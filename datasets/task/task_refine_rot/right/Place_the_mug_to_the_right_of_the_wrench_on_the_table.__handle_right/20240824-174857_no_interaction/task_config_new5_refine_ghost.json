@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "wrench",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf",
+        "ycb_16k_backup/025_mug_google_16k/025_mug_google_16k.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug to the right of the wrench on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6567910002709941,
+            -0.027218567964854563,
+            0.9027263404641431,
+            0.010645774242129877,
+            -0.019087129453692654,
+            -0.08452844549141472,
+            0.9961813544143507,
+            0.0012031316291540861,
+            -0.004035446792840958,
+            0.03422793745994568,
+            0.06262459605932236,
+            -0.6337717175483704,
+            0.1005164384841919
+        ],
+        [
+            0.42290535255055794,
+            -0.07398573074774337,
+            0.900458325422486,
+            -0.0006720511928951581,
+            -0.0011310141528686902,
+            0.03297105583460679,
+            0.9994554410434372,
+            -0.0006160168559290469,
+            -0.0009782310808077455,
+            -0.0005858847871422768,
+            0.02928299643099308,
+            -0.026118263602256775,
+            -0.005981154274195433
+        ]
+    ],
+    "position_instruction": "Place the mug to the right of the wrench on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "042",
+        "025"
+    ],
+    "target_obj_code": "025",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "handle_right"
+}

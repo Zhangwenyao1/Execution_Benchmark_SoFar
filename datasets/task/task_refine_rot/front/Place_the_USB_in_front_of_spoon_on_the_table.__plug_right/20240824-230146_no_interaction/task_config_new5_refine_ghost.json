@@ -1,0 +1,127 @@
+{
+    "selected_obj_names": [
+        "spoon",
+        "cup",
+        "keyboard",
+        "USB"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/031_spoon_google_16k/031_spoon_google_16k.urdf",
+        "ycb_16k_backup/065-j_cups_google_16k/065-j_cups_google_16k.urdf",
+        "objaverse_rescale/0161b6232216457aa8f4f3393960ec85/material_2.urdf",
+        "objaverse_rescale/878049e8c3174fa68a56530e5aef7a5a/material_2.urdf"
+    ],
+    "target_obj_name": "USB",
+    "instruction": "Place the USB in front of spoon on the table. We also need to specify the rotation of the object after placement:  the silver plug end of the USB is oriented towards right, and the larger end is on the left.",
+    "init_obj_pos": [
+        [
+            0.4956566420029609,
+            0.02780935290710136,
+            0.9263375026548276,
+            -0.989723018162407,
+            0.14109641293988137,
+            0.01621406299536443,
+            -0.016650937996897718,
+            -0.0019261431880295277,
+            -0.003459770465269685,
+            0.023982740938663483,
+            -0.9672213792800903,
+            -0.3615228533744812,
+            -0.22268575429916382
+        ],
+        [
+            0.6245407092114551,
+            -0.1708775294624079,
+            0.950283449309346,
+            0.541246878637037,
+            -0.3801012254027548,
+            -0.30871589170473157,
+            0.6835710446046859,
+            0.010936793871223927,
+            0.006911152042448521,
+            -0.0009407309698872268,
+            -0.12436279654502869,
+            0.20837624371051788,
+            0.0789608284831047
+        ],
+        [
+            0.418276205928293,
+            -0.0843399130025066,
+            0.9132997936056675,
+            0.48147301926376507,
+            0.2761591353127439,
+            0.23617668943540182,
+            0.7975841241346812,
+            -0.0001512192393420264,
+            -0.0007375564891844988,
+            5.378934656619094e-05,
+            0.053717877715826035,
+            -0.013106401078402996,
+            5.935230728937313e-05
+        ],
+        [
+            0.7272872934409793,
+            -0.1395244151345507,
+            0.9148106649485904,
+            0.4113174557059957,
+            -0.575170811405183,
+            -0.5751682785357956,
+            0.4113124599440421,
+            0.00041988727753050625,
+            0.0006942113977856934,
+            -0.0031723114661872387,
+            -0.05646007880568504,
+            0.021600713953375816,
+            -0.0023735123686492443
+        ]
+    ],
+    "position_instruction": "Place the USB in front of spoon on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the silver plug end of the USB is oriented towards right, and the larger end is on the left.",
+    "rotation_instruction_label": "plug_right",
+    "obj_codes": [
+        "031",
+        "065-j",
+        "0161b6232216457aa8f4f3393960ec85",
+        "878049e8c3174fa68a56530e5aef7a5a"
+    ],
+    "target_obj_code": "878049e8c3174fa68a56530e5aef7a5a",
+    "anno_target": {
+        "category": "USB",
+        "annotation": {
+            " the silver plug end of the USB is oriented towards left, and the larger end is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the silver plug end of the USB is oriented towards right, and the larger end is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "plug_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "plug_right"
+}

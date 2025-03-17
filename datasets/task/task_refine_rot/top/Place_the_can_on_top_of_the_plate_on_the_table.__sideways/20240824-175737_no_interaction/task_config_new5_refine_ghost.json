@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "plate",
+        "hammer",
+        "can"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/029_plate_google_16k/029_plate_google_16k.urdf",
+        "objaverse_rescale/35a76a67ea1c45edabbd5013de70d68d/material_2.urdf",
+        "ycb_16k_backup/010_potted_meat_can_google_16k/010_potted_meat_can_google_16k.urdf"
+    ],
+    "target_obj_name": "can",
+    "instruction": "Place the can on top of the plate on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.6959155030613318,
+            0.12112010424090885,
+            0.9030421446836056,
+            -0.0001324363374962999,
+            -0.0001802990661503508,
+            -0.04829465201133968,
+            0.9988331074508724,
+            6.361465784721076e-05,
+            -4.385110514704138e-05,
+            -0.00031653052428737283,
+            0.0026172534562647343,
+            0.007580383215099573,
+            -0.0003413906379137188
+        ],
+        [
+            0.3944165599965748,
+            -0.22677495937455724,
+            0.9318243393812796,
+            7.431352359747322e-06,
+            5.970172039250065e-08,
+            0.02558414742310772,
+            0.9996726721009261,
+            0.002232602098956704,
+            -0.0017729420214891434,
+            -0.0013951726723462343,
+            0.06624837219715118,
+            0.08031202852725983,
+            -0.007999300956726074
+        ],
+        [
+            0.520905611143327,
+            0.07453974750284073,
+            0.9030843915739245,
+            -0.0006193696482915375,
+            -0.00012611798744469226,
+            -0.10200390123383685,
+            0.9947837979222264,
+            0.0004295777471270412,
+            -0.0022495617158710957,
+            -0.0003866518090944737,
+            0.055596258491277695,
+            -0.00859555322676897,
+            0.021929454058408737
+        ]
+    ],
+    "position_instruction": "Place the can on top of the plate on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "029",
+        "35a76a67ea1c45edabbd5013de70d68d",
+        "010"
+    ],
+    "target_obj_code": "010",
+    "anno_target": {
+        "category": "can",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.0,
+                        0.7071067690849304,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.0,
+                        -0.7071067690849304,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "top",
+    "rotation_tag": "sideways"
+}

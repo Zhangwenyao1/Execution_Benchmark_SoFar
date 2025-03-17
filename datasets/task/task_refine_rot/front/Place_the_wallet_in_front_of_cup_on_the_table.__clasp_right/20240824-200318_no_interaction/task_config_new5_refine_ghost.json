@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "cup",
+        "mobile phone",
+        "wallet"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-h_cups_google_16k/065-h_cups_google_16k.urdf",
+        "ycb_16k_backup/065-i_cups_google_16k/065-i_cups_google_16k.urdf",
+        "objaverse_rescale/45c813a9fac4458ead1f90280826c0a4/material_2.urdf",
+        "objaverse_rescale/f47fdcf9615d4e94a71e6731242a4c94/material_2.urdf"
+    ],
+    "target_obj_name": "wallet",
+    "instruction": "Place the wallet in front of cup on the table. We also need to specify the rotation of the object after placement:  the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)",
+    "init_obj_pos": [
+        [
+            0.32004519698498374,
+            0.03165143383804589,
+            0.9004965072523984,
+            -0.0006578619659088004,
+            -0.0007987525783851011,
+            0.01479749236602954,
+            0.9998899756631376,
+            0.006170977838337421,
+            -0.0018970915116369724,
+            -0.005215364042669535,
+            0.042540933936834335,
+            0.21523015201091766,
+            -0.016933200880885124
+        ],
+        [
+            0.32004519698498374,
+            0.03165143383804589,
+            0.9004965072523984,
+            -0.0006578619659088004,
+            -0.0007987525783851011,
+            0.01479749236602954,
+            0.9998899756631376,
+            0.001158168655820191,
+            -0.006102192681282759,
+            -0.0037825205363333225,
+            0.20950353145599365,
+            0.08714926987886429,
+            0.046658676117658615
+        ],
+        [
+            0.4720738919975288,
+            0.2685035836189457,
+            0.9056139133484242,
+            -0.7051391467418867,
+            -0.019472964910441804,
+            0.019553147470910526,
+            0.7085317648445278,
+            -0.005699792876839638,
+            -0.0007036984898149967,
+            0.01027872134000063,
+            -0.11697569489479065,
+            -1.1655373573303223,
+            0.04349905624985695
+        ],
+        [
+            0.6255081654060365,
+            0.15361639758176276,
+            0.9530539549985494,
+            0.03457623575138306,
+            0.7420406293021988,
+            -0.05109775778436631,
+            0.667509705948515,
+            -0.00038103945553302765,
+            0.006491340696811676,
+            -0.0008882764377631247,
+            -0.43558651208877563,
+            -0.0385647714138031,
+            -0.013892396353185177
+        ]
+    ],
+    "position_instruction": "Place the wallet in front of cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)",
+    "rotation_instruction_label": "clasp_right",
+    "obj_codes": [
+        "065-h",
+        "065-i",
+        "45c813a9fac4458ead1f90280826c0a4",
+        "f47fdcf9615d4e94a71e6731242a4c94"
+    ],
+    "target_obj_code": "f47fdcf9615d4e94a71e6731242a4c94",
+    "anno_target": {
+        "category": "wallet",
+        "annotation": {
+            " the wallet is lying flat on the table, and the clasp is on the left(if the wallet has a clasp)": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            },
+            " the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "clasp_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "clasp_right"
+}

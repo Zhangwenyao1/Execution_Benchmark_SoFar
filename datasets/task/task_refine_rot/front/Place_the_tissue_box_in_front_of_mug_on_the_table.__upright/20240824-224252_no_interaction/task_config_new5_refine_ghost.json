@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "cup",
+        "tissue box"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/c25119c5ac6e4654be3b75d78e34a912/material_2.urdf",
+        "ycb_16k_backup/065-i_cups_google_16k/065-i_cups_google_16k.urdf",
+        "objaverse_rescale/213d8df9c37a4d8cba794965676f7a75/material_2.urdf"
+    ],
+    "target_obj_name": "tissue box",
+    "instruction": "Place the tissue box in front of mug on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.4413322444598019,
+            -0.2585077612169759,
+            0.9311578013096579,
+            0.501814675658645,
+            -0.49818526252282075,
+            -0.49818349071888945,
+            0.5018034327042986,
+            1.122369030781556e-05,
+            6.774289795430377e-05,
+            -4.8427584260934964e-05,
+            -0.001511428621597588,
+            0.00014153480879031122,
+            -0.00010453836875967681
+        ],
+        [
+            0.2523734942190413,
+            -0.19746314479463253,
+            0.9286451299923457,
+            0.26414333677456836,
+            0.6062407592255403,
+            -0.2998549781321826,
+            0.6875953981671088,
+            -0.005417071282863617,
+            0.005911101121455431,
+            2.9526652724598534e-05,
+            -0.15599888563156128,
+            -0.12289901822805405,
+            -0.0284140482544899
+        ],
+        [
+            0.38914353304023197,
+            -0.022492480685738288,
+            0.9301907373736777,
+            0.5882578987160425,
+            0.3923775823120045,
+            0.39238390332208134,
+            0.5882408944564301,
+            5.544298255699687e-05,
+            0.0002075837692245841,
+            -0.00014320317131932825,
+            0.0001842530764406547,
+            -0.0006321171531453729,
+            0.003735966281965375
+        ]
+    ],
+    "position_instruction": "Place the tissue box in front of mug on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "c25119c5ac6e4654be3b75d78e34a912",
+        "065-i",
+        "213d8df9c37a4d8cba794965676f7a75"
+    ],
+    "target_obj_code": "213d8df9c37a4d8cba794965676f7a75",
+    "anno_target": {
+        "category": "tissue_box",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "front",
+    "rotation_tag": "upright"
+}

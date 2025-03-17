@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "can",
+        "hammer",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/010_potted_meat_can_google_16k/010_potted_meat_can_google_16k.urdf",
+        "ycb_16k_backup/048_hammer_google_16k/048_hammer_google_16k.urdf",
+        "ycb_16k_backup/065-i_cups_google_16k/065-i_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup between the can and the hammer on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.533513162318027,
+            0.2289835835146307,
+            0.903083307377958,
+            -0.0006215316864920488,
+            -0.00018474623567311683,
+            -0.00655172334379859,
+            0.9999783270093485,
+            0.0007114606560207903,
+            -0.003070203820243478,
+            -0.0004975719493813813,
+            0.07534781098365784,
+            -9.559377940604463e-05,
+            0.024038231000304222
+        ],
+        [
+            0.7130235087382081,
+            0.09096474094116326,
+            0.8975761099546022,
+            0.0009950274298871926,
+            -0.0021891745785278284,
+            -0.017665392641615207,
+            0.9998410630384685,
+            -0.007848658598959446,
+            -0.002411757130175829,
+            0.021519139409065247,
+            0.23698177933692932,
+            -0.5029110908508301,
+            -0.0015687014674767852
+        ],
+        [
+            0.32920047972689787,
+            -0.18437830930052304,
+            0.9005135798403459,
+            0.0017208496317696767,
+            -0.0013405014074144661,
+            0.09884848361320345,
+            0.9951001050245598,
+            0.003362042363733053,
+            -0.004349011927843094,
+            -0.004787866957485676,
+            0.12633667886257172,
+            0.1704939305782318,
+            0.030088873580098152
+        ]
+    ],
+    "position_instruction": "Place the cup between the can and the hammer on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "010",
+        "048",
+        "065-i"
+    ],
+    "target_obj_code": "065-i",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

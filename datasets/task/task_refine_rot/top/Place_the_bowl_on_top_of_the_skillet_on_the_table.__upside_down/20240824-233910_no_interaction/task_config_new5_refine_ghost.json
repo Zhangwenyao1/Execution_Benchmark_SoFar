@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "skillet",
+        "headphone",
+        "bowl"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/027_skillet_google_16k/027_skillet_google_16k.urdf",
+        "objaverse_rescale/efb1727dee214d49b88c58792e4bdffc/material_2.urdf",
+        "objaverse_rescale/bf83213efac34b3cb2ad6ac5ddaf05d9/material_2.urdf"
+    ],
+    "target_obj_name": "bowl",
+    "instruction": "Place the bowl on top of the skillet on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.3096828816037502,
+            0.21676027349885305,
+            0.9020723699329328,
+            0.019468400191431215,
+            0.009455318552106016,
+            -0.08116969253738808,
+            0.9964652825655546,
+            0.00033861829433590174,
+            6.42472441541031e-05,
+            -5.902255725231953e-05,
+            0.0009043214377015829,
+            0.003211700590327382,
+            0.0017876820638775826
+        ],
+        [
+            0.6871168629874222,
+            -0.13652582043750267,
+            0.9324169620710878,
+            -0.0031170487173735216,
+            0.0001627332586026699,
+            -0.05216194772181903,
+            0.9986337610631076,
+            0.0018157863523811102,
+            0.0017778142355382442,
+            -0.0020682604517787695,
+            -0.04570619761943817,
+            0.038293104618787766,
+            -0.003029296640306711
+        ],
+        [
+            0.4216810986813437,
+            -0.13878817415069147,
+            0.9506014818931854,
+            0.6805969489517821,
+            -0.18716194564229996,
+            -0.18808513740129115,
+            0.6829217965987416,
+            0.003156159771606326,
+            0.006193514447659254,
+            -0.0008513444918207824,
+            -0.16470710933208466,
+            0.07877618074417114,
+            -0.022862136363983154
+        ]
+    ],
+    "position_instruction": "Place the bowl on top of the skillet on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "027",
+        "efb1727dee214d49b88c58792e4bdffc",
+        "bf83213efac34b3cb2ad6ac5ddaf05d9"
+    ],
+    "target_obj_code": "bf83213efac34b3cb2ad6ac5ddaf05d9",
+    "anno_target": {
+        "category": "bowl",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "top",
+    "rotation_tag": "upside_down"
+}

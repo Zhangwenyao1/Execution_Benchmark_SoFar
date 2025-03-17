@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "bottle",
+        "mouse",
+        "stapler"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/021_bleach_cleanser_google_16k/021_bleach_cleanser_google_16k.urdf",
+        "objaverse_rescale/f496168739384cdb86ef6d65e2068a3f/material_2.urdf",
+        "objaverse_rescale/d2c345be5c084b4e8c92b48f7be69315/material_2.urdf"
+    ],
+    "target_obj_name": "stapler",
+    "instruction": "Place the stapler to the left of the bottle on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.34441137351789863,
+            0.2533803380433929,
+            0.9464655572797063,
+            -0.7216615106043218,
+            -0.01966275896231202,
+            0.009823647855799141,
+            0.6918970559014413,
+            0.000501150032505393,
+            -5.829235669807531e-05,
+            -0.00027458308613859117,
+            0.002353015122935176,
+            0.020799804478883743,
+            -2.8670390747720376e-05
+        ],
+        [
+            0.4011617308741174,
+            -0.08902368374210433,
+            0.9288819873962755,
+            -0.6186728779184221,
+            -0.08615614448623007,
+            -0.10482267947600153,
+            0.7738431331755014,
+            0.003054756438359618,
+            0.0011536680394783616,
+            -0.0012450838694348931,
+            -0.0738007053732872,
+            0.14372000098228455,
+            -0.03361215814948082
+        ],
+        [
+            0.47113056767764827,
+            0.13127390072712228,
+            0.9213142809667155,
+            -0.10250235641177959,
+            0.3645880516980305,
+            0.14304391881806375,
+            0.9143890073585951,
+            -0.00010221928096143529,
+            0.007989735342562199,
+            -0.0039037743117660284,
+            -0.4335194528102875,
+            -0.009646827355027199,
+            0.009930149652063847
+        ]
+    ],
+    "position_instruction": "Place the stapler to the left of the bottle on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "021",
+        "f496168739384cdb86ef6d65e2068a3f",
+        "d2c345be5c084b4e8c92b48f7be69315"
+    ],
+    "target_obj_code": "d2c345be5c084b4e8c92b48f7be69315",
+    "anno_target": {
+        "category": "stapler",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "upright"
+}

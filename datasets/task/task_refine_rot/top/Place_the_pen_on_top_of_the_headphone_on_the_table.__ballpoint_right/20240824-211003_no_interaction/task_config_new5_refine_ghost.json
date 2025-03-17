@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "headphone",
+        "scissors",
+        "pen"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/ea91786392284f03809c37976da090bf/material_2.urdf",
+        "objaverse_rescale/2b1120c4b517409184413ed709c57a66/material_2.urdf",
+        "objaverse_rescale/f126e15c0f904fccbd76f9348baea12c/material_2.urdf"
+    ],
+    "target_obj_name": "pen",
+    "instruction": "Place the pen on top of the headphone on the table. We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "init_obj_pos": [
+        [
+            0.550002638918083,
+            0.1951455655279965,
+            0.9113370514589106,
+            -0.6114368526694888,
+            -0.3597248134501907,
+            0.5063024556332579,
+            0.4903069010381024,
+            0.00023955268261488527,
+            0.0006429874338209629,
+            -8.274021638499107e-06,
+            -0.016563279554247856,
+            0.007877778261899948,
+            -0.0026697819121181965
+        ],
+        [
+            0.6212544480098591,
+            -0.1840817642686394,
+            0.9041547390995057,
+            -0.00021230822559109726,
+            -0.004244163214544812,
+            0.4102820111453431,
+            0.911948799732944,
+            0.01471653115004301,
+            0.007474985904991627,
+            0.024402251467108727,
+            -1.566408634185791,
+            1.410207986831665,
+            2.638031244277954
+        ],
+        [
+            0.30813489696659646,
+            -0.07098894007361715,
+            0.9070422880095755,
+            -0.487722168043475,
+            -0.5142566777111205,
+            -0.3065789453200019,
+            0.6353554174751066,
+            -0.0010575851192697883,
+            -0.0038256582338362932,
+            0.03153345733880997,
+            1.0072739124298096,
+            -5.653602123260498,
+            0.3692483603954315
+        ]
+    ],
+    "position_instruction": "Place the pen on top of the headphone on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "rotation_instruction_label": "ballpoint_right",
+    "obj_codes": [
+        "ea91786392284f03809c37976da090bf",
+        "2b1120c4b517409184413ed709c57a66",
+        "f126e15c0f904fccbd76f9348baea12c"
+    ],
+    "target_obj_code": "f126e15c0f904fccbd76f9348baea12c",
+    "anno_target": {
+        "category": "pen",
+        "annotation": {
+            " the ballpoint of the pen is on the left(oriented towards left), while the clicker is on the right.": {
+                "quat": [
+                    [
+                        -0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.": {
+                "quat": [
+                    [
+                        -0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "ballpoint_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "ballpoint_right"
+}

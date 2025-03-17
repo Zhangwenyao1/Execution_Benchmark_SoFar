@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "wrench",
+        "organizer",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/025_mug_google_16k/025_mug_google_16k.urdf",
+        "objaverse_rescale/19c1913ba85042938f0a87d94397c946/material_2.urdf",
+        "objaverse_rescale/4f52ebe6c8cf432986e47d8de83386ce/material_2.urdf",
+        "objaverse_rescale/2c88306f3d724a839054f3c2913fb1d5/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.3577498319529202,
+            -0.1957903615545604,
+            0.9231072449257549,
+            0.6129291491814426,
+            -0.19557156696133043,
+            -0.1809201103500399,
+            0.7438666103213216,
+            0.07621978968381882,
+            -0.017429206520318985,
+            0.008356564678251743,
+            0.40051934123039246,
+            1.9410505294799805,
+            -3.7569923400878906
+        ],
+        [
+            0.4327678525778775,
+            -0.2063759486218421,
+            0.9085148997256609,
+            -0.0013241331108529541,
+            -0.0042862915977755515,
+            -0.08628045560787215,
+            0.9962607878241228,
+            -0.0029730121605098248,
+            0.01399046741425991,
+            0.023833947256207466,
+            -0.3297041654586792,
+            -1.6974180936813354,
+            0.24202466011047363
+        ],
+        [
+            0.6442262626805884,
+            0.13283390955315705,
+            1.0210549258436274,
+            -5.3869148118247285e-06,
+            4.6020893847558636e-05,
+            -0.02416532225153896,
+            0.9997079748874361,
+            -0.0015521157765761018,
+            0.002030529547482729,
+            -0.004148159641772509,
+            -0.020323125645518303,
+            -0.018741626292467117,
+            -0.004850960802286863
+        ],
+        [
+            0.3577498319529202,
+            -0.1957903615545604,
+            0.9231072449257549,
+            0.6129291491814426,
+            -0.19557156696133043,
+            -0.1809201103500399,
+            0.7438666103213216,
+            -0.024683043360710144,
+            0.014884942211210728,
+            -0.013830854557454586,
+            -0.04017281159758568,
+            -0.3315959572792053,
+            0.5658506155014038
+        ]
+    ],
+    "position_instruction": "Place the mug at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "025",
+        "19c1913ba85042938f0a87d94397c946",
+        "4f52ebe6c8cf432986e47d8de83386ce",
+        "2c88306f3d724a839054f3c2913fb1d5"
+    ],
+    "target_obj_code": "2c88306f3d724a839054f3c2913fb1d5",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "center",
+    "rotation_tag": "handle_right"
+}

@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "paperweight"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-e_cups_google_16k/065-e_cups_google_16k.urdf",
+        "objaverse_rescale/21c10181c122474a8f72a4ad0331f185/material_2.urdf"
+    ],
+    "target_obj_name": "paperweight",
+    "instruction": "Place the paperweight behind the cup on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.34028261350292865,
+            -0.07645855392245686,
+            0.9008541732523002,
+            0.0011169581946243218,
+            -0.002287989923838595,
+            0.01679380907899372,
+            0.9998557323349795,
+            0.002493086736649275,
+            0.003924055956304073,
+            -0.009638742543756962,
+            -0.07618202269077301,
+            0.14681677520275116,
+            0.023884667083621025
+        ],
+        [
+            0.7036539681979309,
+            -0.05237397311659114,
+            0.9379810816608308,
+            -0.14261711646075928,
+            0.18308771748828517,
+            -0.037643998664269214,
+            0.9719681965794518,
+            0.0021502438466995955,
+            -0.0038896920159459114,
+            -0.0005434688646346331,
+            0.09867484122514725,
+            0.0631532371044159,
+            0.018548501655459404
+        ]
+    ],
+    "position_instruction": "Place the paperweight behind the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "065-e",
+        "21c10181c122474a8f72a4ad0331f185"
+    ],
+    "target_obj_code": "21c10181c122474a8f72a4ad0331f185",
+    "anno_target": {
+        "category": "paperweight",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "upright"
+}

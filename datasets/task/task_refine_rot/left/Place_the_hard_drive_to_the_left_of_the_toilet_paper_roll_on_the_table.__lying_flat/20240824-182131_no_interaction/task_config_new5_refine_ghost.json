@@ -1,0 +1,79 @@
+{
+    "selected_obj_names": [
+        "toilet paper roll",
+        "hard drive"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/ea0cf48616e34708b73c82eb7c7366ca/material_2.urdf",
+        "objaverse_rescale/f8de4975c0f54c1a97203c6a674f6a39/material_2.urdf"
+    ],
+    "target_obj_name": "hard drive",
+    "instruction": "Place the hard drive to the left of the toilet paper roll on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.4176679575567446,
+            0.13133812366042183,
+            0.9495374000237065,
+            0.00014504802551986297,
+            -0.0004914046343795833,
+            0.0923752736413951,
+            0.9957241316259393,
+            0.0004505201359279454,
+            -0.0011825496330857277,
+            -0.0004912379081360996,
+            0.015145843848586082,
+            0.005745464004576206,
+            8.303848881041631e-05
+        ],
+        [
+            0.5322872093945331,
+            -0.24103870885458892,
+            0.9508356915245926,
+            0.00030092461138740684,
+            -3.258972300866704e-06,
+            -0.07600128193189944,
+            0.9971076745158801,
+            0.0009001232101581991,
+            -0.0012267879210412502,
+            -8.550142229069024e-05,
+            0.013828207738697529,
+            0.010068326257169247,
+            0.005509800277650356
+        ]
+    ],
+    "position_instruction": "Place the hard drive to the left of the toilet paper roll on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "ea0cf48616e34708b73c82eb7c7366ca",
+        "f8de4975c0f54c1a97203c6a674f6a39"
+    ],
+    "target_obj_code": "f8de4975c0f54c1a97203c6a674f6a39",
+    "anno_target": {
+        "category": "hard_drive",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "left",
+    "rotation_tag": "lying_flat"
+}

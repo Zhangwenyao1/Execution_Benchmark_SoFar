@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "toy",
+        "mug",
+        "mug",
+        "bowl"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/072-a_toy_airplane_google_16k/072-a_toy_airplane_google_16k.urdf",
+        "objaverse_rescale/a564a11174be455bbce4698f7da92fdf/material_2.urdf",
+        "objaverse_rescale/c25119c5ac6e4654be3b75d78e34a912/material_2.urdf",
+        "ycb_16k_backup/024_bowl_google_16k/024_bowl_google_16k.urdf"
+    ],
+    "target_obj_name": "bowl",
+    "instruction": "Place the bowl at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.5075994185884095,
+            -0.0059731675914627795,
+            0.9490160462450693,
+            -0.5794337144040459,
+            -0.042652163223408965,
+            0.009040995899938307,
+            0.8138523354868692,
+            -0.00127131724730134,
+            0.002616242738440633,
+            -0.00032630751957185566,
+            -0.035266268998384476,
+            -0.018902307376265526,
+            -0.007262298837304115
+        ],
+        [
+            0.3545886610093198,
+            -0.025273504375474286,
+            0.9571862010866193,
+            -0.14347532314208195,
+            0.2219788093283473,
+            0.27158182691908994,
+            0.9254099368094841,
+            -0.00044005390373058617,
+            -0.00012839355622418225,
+            -0.000492586346808821,
+            0.001075834734365344,
+            -0.008268754929304123,
+            0.0007783843320794404
+        ],
+        [
+            0.3545886610093198,
+            -0.025273504375474286,
+            0.9571862010866193,
+            -0.14347532314208195,
+            0.2219788093283473,
+            0.27158182691908994,
+            0.9254099368094841,
+            -0.0007715982501395047,
+            0.00102532550226897,
+            -9.279647201765329e-05,
+            -0.016188975423574448,
+            -0.012152634561061859,
+            -0.0012990995310246944
+        ],
+        [
+            0.29979599706819277,
+            0.1921913487826592,
+            0.9004640726709134,
+            0.0002703183461549786,
+            -0.0004862770659476624,
+            0.12118719993039292,
+            0.9926295144894882,
+            -0.00046484536142088473,
+            6.934989505680278e-05,
+            -0.0003096013097092509,
+            -0.001801826641894877,
+            -0.015598628669977188,
+            0.0023505224380642176
+        ]
+    ],
+    "position_instruction": "Place the bowl at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "072-a",
+        "a564a11174be455bbce4698f7da92fdf",
+        "c25119c5ac6e4654be3b75d78e34a912",
+        "024"
+    ],
+    "target_obj_code": "024",
+    "anno_target": {
+        "category": "bowl",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "center",
+    "rotation_tag": "upside_down"
+}

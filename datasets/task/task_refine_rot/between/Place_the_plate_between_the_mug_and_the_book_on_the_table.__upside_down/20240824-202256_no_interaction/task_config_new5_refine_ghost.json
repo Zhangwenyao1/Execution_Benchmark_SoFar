@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "book",
+        "wrench",
+        "plate"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/922cd7d18c6748d49fe651ded8a04cf4/material_2.urdf",
+        "objaverse_rescale/de79a920c48745ff95c0df7a7c300091/material_2.urdf",
+        "objaverse_rescale/5bf781c9fd8d4121b735503b13ba2eaf/material_2.urdf",
+        "objaverse_rescale/8d50c19e138b403e8b2ede9b47d8be3c/material_2.urdf"
+    ],
+    "target_obj_name": "plate",
+    "instruction": "Place the plate between the mug and the book on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.41657344148158687,
+            0.10216105140691976,
+            0.9803847275408708,
+            -0.10217745146801067,
+            0.33153495291811497,
+            0.26184860220801554,
+            0.9005996074431722,
+            -0.0018437521066516638,
+            -0.0015575853176414967,
+            -0.0014402307569980621,
+            0.024822769686579704,
+            -0.028147954493761063,
+            -0.012497678399085999
+        ],
+        [
+            0.6236636362764596,
+            0.029562228323905974,
+            0.9151397986747432,
+            0.00736483672818453,
+            -0.0022978149520993902,
+            -0.11421023523708745,
+            0.993426646206705,
+            0.001863813609816134,
+            -0.0014048893935978413,
+            -0.0005940890987403691,
+            0.06656056642532349,
+            0.020321233198046684,
+            0.0056247590109705925
+        ],
+        [
+            0.29593530775242183,
+            0.24276643582310647,
+            0.9057112803036113,
+            0.6314955433351054,
+            -0.3033937817827552,
+            0.3001252083146319,
+            -0.6473719574229013,
+            -0.00045243685599416494,
+            0.0010859612375497818,
+            0.030188007280230522,
+            -0.607578456401825,
+            -0.6660618185997009,
+            -0.026680275797843933
+        ],
+        [
+            0.3257428512288942,
+            -0.12218993586617587,
+            0.9147543877770091,
+            0.7034067944676026,
+            -0.07224313435261816,
+            -0.07223304782329426,
+            0.7034075616865935,
+            0.0002599285217002034,
+            0.0003867712221108377,
+            -0.0007727317279204726,
+            -0.046207133680582047,
+            0.023868273943662643,
+            -0.001943106995895505
+        ]
+    ],
+    "position_instruction": "Place the plate between the mug and the book on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "922cd7d18c6748d49fe651ded8a04cf4",
+        "de79a920c48745ff95c0df7a7c300091",
+        "5bf781c9fd8d4121b735503b13ba2eaf",
+        "8d50c19e138b403e8b2ede9b47d8be3c"
+    ],
+    "target_obj_code": "8d50c19e138b403e8b2ede9b47d8be3c",
+    "anno_target": {
+        "category": "plate",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

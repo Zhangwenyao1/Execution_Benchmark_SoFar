@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "hammer",
+        "mug",
+        "spoon"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/9bf1b31f641543c9a921042dac3b527f/material_2.urdf",
+        "objaverse_rescale/c25119c5ac6e4654be3b75d78e34a912/material_2.urdf",
+        "objaverse_rescale/2613c5f24bb3407da2664c410c34d523/material_2.urdf"
+    ],
+    "target_obj_name": "spoon",
+    "instruction": "Place the spoon behind the hammer on the table. We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "init_obj_pos": [
+        [
+            0.5527813975733891,
+            -0.26284559559351406,
+            0.90765323422065,
+            0.025278491926961556,
+            -0.7048857425204464,
+            0.009562671105543588,
+            0.7088057866289076,
+            0.000830454402603209,
+            0.00296342303045094,
+            0.03169118985533714,
+            -0.02369219996035099,
+            2.221468210220337,
+            -0.0759178027510643
+        ],
+        [
+            0.37535468911977793,
+            0.188100088280795,
+            0.9304253545243306,
+            -0.001871844772230491,
+            0.29462659109927125,
+            0.03212446502418435,
+            0.9550705140256831,
+            -0.00074843066977337,
+            0.0016163419932126999,
+            -6.183848017826676e-05,
+            -0.027185067534446716,
+            -0.012339424341917038,
+            -0.0005826991982758045
+        ],
+        [
+            0.5724444818651995,
+            -0.03357665513396751,
+            0.9063293583950728,
+            0.15137690489592723,
+            -0.18976979581197262,
+            -0.13584391423581402,
+            0.9605305243596916,
+            0.0037811510264873505,
+            -0.0036300276406109333,
+            0.02580261044204235,
+            2.013845920562744,
+            -2.007289171218872,
+            -0.40332943201065063
+        ]
+    ],
+    "position_instruction": "Place the spoon behind the hammer on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "rotation_instruction_label": "scoop_right",
+    "obj_codes": [
+        "9bf1b31f641543c9a921042dac3b527f",
+        "c25119c5ac6e4654be3b75d78e34a912",
+        "2613c5f24bb3407da2664c410c34d523"
+    ],
+    "target_obj_code": "2613c5f24bb3407da2664c410c34d523",
+    "anno_target": {
+        "category": "spoon",
+        "annotation": {
+            " the ladle is lying on the table, with its scoop on the left(pointing towards left) and its handle on the right. ": {
+                "quat": [
+                    [
+                        0.0774809792637825,
+                        -0.22816672921180725,
+                        -0.43640369176864624,
+                        0.8668843507766724
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ladle is lying on the table, with its scoop on the right(pointing towards right) and its handle on the left.": {
+                "quat": [
+                    [
+                        0.2281040996313095,
+                        0.07766517251729965,
+                        0.8672364950180054,
+                        0.43570366501808167
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "scoop_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "scoop_right"
+}

@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "remote control",
+        "tissue box",
+        "fork"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/89dcd45ac1f04680b76b709357a3dba3/material_2.urdf",
+        "objaverse_rescale/8eda72f64e6e4443af4fdbeed07cad29/material_2.urdf",
+        "objaverse_rescale/e98e7fb33743442383812b68608f7006/material_2.urdf"
+    ],
+    "target_obj_name": "fork",
+    "instruction": "Place the fork in front of remote control on the table. We also need to specify the rotation of the object after placement:  the prong of the fork is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.4115927428287281,
+            0.07260140789330803,
+            0.909272943369125,
+            -0.7022605179635013,
+            0.009612404490317248,
+            -0.009782074073158757,
+            0.7117879442758056,
+            -0.0026497116778045893,
+            0.0034182225354015827,
+            -0.008305014111101627,
+            -0.47436124086380005,
+            -0.10658895969390869,
+            -0.08356213569641113
+        ],
+        [
+            0.5329883302538873,
+            0.19692500613955477,
+            0.9296251087142743,
+            -9.253397489454137e-06,
+            -4.682342963719088e-07,
+            0.07728940208549065,
+            0.9970087001824124,
+            -0.0009006464970298111,
+            0.003230175469070673,
+            -0.008783264085650444,
+            -0.03263257443904877,
+            -0.026175612583756447,
+            -0.0014630843652412295
+        ],
+        [
+            0.6604988457803538,
+            -0.1041422666971024,
+            0.9068920180569208,
+            0.7046551797364009,
+            -0.025827609414526373,
+            -0.13530735657484302,
+            0.6960502363474338,
+            0.05233345180749893,
+            -0.007665167562663555,
+            0.0532718151807785,
+            2.40226149559021,
+            -5.658654689788818,
+            6.915050029754639
+        ]
+    ],
+    "position_instruction": "Place the fork in front of remote control on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the prong of the fork is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "prong_right",
+    "obj_codes": [
+        "89dcd45ac1f04680b76b709357a3dba3",
+        "8eda72f64e6e4443af4fdbeed07cad29",
+        "e98e7fb33743442383812b68608f7006"
+    ],
+    "target_obj_code": "e98e7fb33743442383812b68608f7006",
+    "anno_target": {
+        "category": "fork",
+        "annotation": {
+            " the prong of the fork is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the prong of the fork is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.7071068286895752,
+                        0.0,
+                        0.0,
+                        0.7071067094802856
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "prong_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "prong_right"
+}

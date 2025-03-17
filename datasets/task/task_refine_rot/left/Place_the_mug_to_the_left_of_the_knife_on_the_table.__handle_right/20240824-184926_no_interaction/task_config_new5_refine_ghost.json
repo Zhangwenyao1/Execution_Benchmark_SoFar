@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "knife",
+        "paperweight",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/032_knife_google_16k/032_knife_google_16k.urdf",
+        "objaverse_rescale/21c10181c122474a8f72a4ad0331f185/material_2.urdf",
+        "objaverse_rescale/b8478cea51454555b90de0fe6ba7ba83/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug to the left of the knife on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.34681005890159516,
+            -0.18575659444507508,
+            0.916438247698376,
+            0.23492765115672237,
+            0.011457928136619685,
+            -0.024789892844412284,
+            0.9716291349159735,
+            0.006801681127399206,
+            0.000717515533324331,
+            0.033230289816856384,
+            -1.7220655679702759,
+            1.3047336339950562,
+            0.18434755504131317
+        ],
+        [
+            0.5265357938497527,
+            -0.15382105651383327,
+            0.930320864044888,
+            0.4768509671559047,
+            0.5198970671252251,
+            0.5235644286581669,
+            0.47770334284042326,
+            0.005344280041754246,
+            0.005047415848821402,
+            -0.01699470914900303,
+            0.3168618977069855,
+            0.18124745786190033,
+            0.14502805471420288
+        ],
+        [
+            0.3748948655372156,
+            0.022991368440907146,
+            0.9653320844501797,
+            0.009465719806966207,
+            -0.2281762557680992,
+            0.06237046375934547,
+            0.9715739404196834,
+            -8.201642049243674e-05,
+            4.751430606120266e-05,
+            -0.00021263392409309745,
+            -0.0006450902437791228,
+            0.0007463503279723227,
+            0.0011877386132255197
+        ]
+    ],
+    "position_instruction": "Place the mug to the left of the knife on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "032",
+        "21c10181c122474a8f72a4ad0331f185",
+        "b8478cea51454555b90de0fe6ba7ba83"
+    ],
+    "target_obj_code": "b8478cea51454555b90de0fe6ba7ba83",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "handle_right"
+}

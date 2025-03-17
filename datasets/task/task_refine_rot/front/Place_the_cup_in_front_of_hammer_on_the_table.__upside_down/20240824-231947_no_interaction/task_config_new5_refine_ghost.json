@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "hammer",
+        "hammer",
+        "toy",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/9bf1b31f641543c9a921042dac3b527f/material_2.urdf",
+        "objaverse_rescale/6d155e8051294915813e0c156e3cd6de/material_2.urdf",
+        "ycb_16k_backup/072-b_toy_airplane_google_16k/072-b_toy_airplane_google_16k.urdf",
+        "ycb_16k_backup/065-i_cups_google_16k/065-i_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup in front of hammer on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.5922341876102187,
+            -0.27969163690117294,
+            0.907607719045989,
+            -0.38064284880061333,
+            0.5961580221658054,
+            0.39363363512627786,
+            0.5871619840909157,
+            -0.0038604617584496737,
+            0.001516478369012475,
+            0.03152136504650116,
+            -0.2458513081073761,
+            0.483744740486145,
+            0.061455417424440384
+        ],
+        [
+            0.5922341876102187,
+            -0.27969163690117294,
+            0.907607719045989,
+            -0.38064284880061333,
+            0.5961580221658054,
+            0.39363363512627786,
+            0.5871619840909157,
+            0.005515288095921278,
+            -0.001148647046647966,
+            0.02350553497672081,
+            0.12150789797306061,
+            0.7573153972625732,
+            0.03461676463484764
+        ],
+        [
+            0.5173659324193143,
+            0.21341384381282102,
+            0.9001528497011145,
+            -0.00011844914391137537,
+            -0.0003031973008184433,
+            -0.048582385908660514,
+            0.9988191256782282,
+            -0.0009505970519967377,
+            -0.0017117481911554933,
+            -0.0003456127888057381,
+            0.03608620911836624,
+            0.006040745880454779,
+            -0.0008614730904810131
+        ],
+        [
+            0.39673916464616366,
+            0.16321216665431443,
+            0.9005134980592409,
+            0.0016666036171805205,
+            -0.0014217912784417175,
+            0.05593252490931988,
+            0.9984321477192187,
+            0.002951674396172166,
+            -0.0046713161282241344,
+            -0.004714606795459986,
+            0.13633087277412415,
+            0.15485651791095734,
+            0.029149215668439865
+        ]
+    ],
+    "position_instruction": "Place the cup in front of hammer on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "9bf1b31f641543c9a921042dac3b527f",
+        "6d155e8051294915813e0c156e3cd6de",
+        "072-b",
+        "065-i"
+    ],
+    "target_obj_code": "065-i",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "front",
+    "rotation_tag": "upside_down"
+}

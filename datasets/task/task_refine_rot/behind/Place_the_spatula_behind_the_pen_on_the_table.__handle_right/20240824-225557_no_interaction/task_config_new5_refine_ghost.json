@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "pen",
+        "toy",
+        "spatula"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f126e15c0f904fccbd76f9348baea12c/material_2.urdf",
+        "objaverse_rescale/9adc77036b434348ae049776c50df624/material_2.urdf",
+        "ycb_16k_backup/033_spatula_google_16k/033_spatula_google_16k.urdf"
+    ],
+    "target_obj_name": "spatula",
+    "instruction": "Place the spatula behind the pen on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6668475311640157,
+            0.2683516390428013,
+            0.9070418404878018,
+            -0.555670340022006,
+            -0.4400082377976131,
+            -0.3946490746697141,
+            0.5847010618704277,
+            -0.002102367579936981,
+            -0.0003628214471973479,
+            0.029913654550909996,
+            -0.10472270846366882,
+            0.061559222638607025,
+            0.031616222113370895
+        ],
+        [
+            0.46886483352423397,
+            -0.11123946913168373,
+            0.9406456000206888,
+            -0.07395113919956596,
+            -0.06292938312290458,
+            0.018101114686561098,
+            0.9951097785661451,
+            0.0009903726167976856,
+            -0.0009189595002681017,
+            -0.0003973092825617641,
+            0.014028222300112247,
+            0.015505669638514519,
+            -0.0010653033386915922
+        ],
+        [
+            0.6324977749152968,
+            -0.2478435958242991,
+            0.9004886025766944,
+            0.0010731606694687622,
+            -0.0017117289455418339,
+            -0.09184754200942115,
+            0.9957710315815683,
+            0.0016428163507953286,
+            -0.006294936407357454,
+            -0.007972143590450287,
+            0.28794965147972107,
+            0.08762755990028381,
+            -0.03320283815264702
+        ]
+    ],
+    "position_instruction": "Place the spatula behind the pen on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "f126e15c0f904fccbd76f9348baea12c",
+        "9adc77036b434348ae049776c50df624",
+        "033"
+    ],
+    "target_obj_code": "033",
+    "anno_target": {
+        "category": "spatula",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.621095597743988,
+                        0.7837347984313965
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "handle_right"
+}

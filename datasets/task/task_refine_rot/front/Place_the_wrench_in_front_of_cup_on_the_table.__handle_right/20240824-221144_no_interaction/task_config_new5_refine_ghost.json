@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "pitcher base",
+        "wrench"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-j_cups_google_16k/065-j_cups_google_16k.urdf",
+        "ycb_16k_backup/019_pitcher_base_google_16k/019_pitcher_base_google_16k.urdf",
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf"
+    ],
+    "target_obj_name": "wrench",
+    "instruction": "Place the wrench in front of cup on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6867827891262791,
+            -0.21703774193769715,
+            0.9003776417229501,
+            0.00022652374725079657,
+            -0.00031196548418861155,
+            -0.09575351920120241,
+            0.9954050004521341,
+            0.0024335235357284546,
+            -0.002487157005816698,
+            -0.0024973831605166197,
+            0.06700539588928223,
+            0.08991947025060654,
+            -0.007541435305029154
+        ],
+        [
+            0.5507691711327113,
+            -0.23485712632861697,
+            0.9156717320124755,
+            0.629871026012218,
+            -0.2749607168664279,
+            -0.7181640113487874,
+            -0.10908504743563727,
+            -0.000520559842698276,
+            0.0007195894722826779,
+            7.830678805476055e-05,
+            -0.0006851197686046362,
+            0.0003560171462595463,
+            -0.002909835195168853
+        ],
+        [
+            0.410634016156602,
+            -0.10291561930342892,
+            0.911063624133164,
+            -0.9704062916791217,
+            -0.23858350946266146,
+            -0.03710265690258831,
+            0.0035959606261194233,
+            0.0010772321838885546,
+            -0.004303719848394394,
+            0.033410459756851196,
+            0.021701302379369736,
+            6.682118892669678,
+            1.1605331897735596
+        ]
+    ],
+    "position_instruction": "Place the wrench in front of cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "065-j",
+        "019",
+        "042"
+    ],
+    "target_obj_code": "042",
+    "anno_target": {
+        "category": "wrench",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.2856176793575287,
+                        0.9583436250686646
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "handle_right"
+}

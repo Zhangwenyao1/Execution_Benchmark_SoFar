@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "power drill",
+        "clipboard",
+        "camera",
+        "toy"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/035_power_drill_google_16k/035_power_drill_google_16k.urdf",
+        "objaverse_rescale/a37158f20ccf436483029e8295629738/material_2.urdf",
+        "objaverse_rescale/6a63fc4af48b453c91ca2b335a4d464d/material_2.urdf",
+        "ycb_16k_backup/072-a_toy_airplane_google_16k/072-a_toy_airplane_google_16k.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "Place the toy to the left of the power drill on the table. We also need to specify the rotation of the object after placement: the toy is facing right, with its head oriented towards left",
+    "init_obj_pos": [
+        [
+            0.3977241035967714,
+            -0.005163209727961981,
+            0.9031124919143295,
+            -0.00031689294895922954,
+            0.00021738076090115706,
+            0.39245204332239986,
+            0.9197723881572749,
+            1.909098500618711e-05,
+            0.00018525980703998357,
+            -7.85776210250333e-05,
+            -0.0010270002530887723,
+            -0.0005539428093470633,
+            -0.00143114582169801
+        ],
+        [
+            0.5023752405041291,
+            0.01051144426315408,
+            0.9050711039308005,
+            0.6991368728462856,
+            0.052203096602124965,
+            0.04332734592549138,
+            0.711762046492309,
+            0.0010284825693815947,
+            0.0015057576820254326,
+            0.012602999806404114,
+            -0.13538987934589386,
+            0.30783313512802124,
+            -0.014334580861032009
+        ],
+        [
+            0.3025425392144327,
+            -0.22538527440248904,
+            0.9565248513345611,
+            0.09460936094531287,
+            -0.010413607651356299,
+            -0.08878491202574071,
+            0.9914927458099649,
+            0.0003712498291861266,
+            -0.0003105420619249344,
+            -0.0007201189291663468,
+            3.614893284975551e-05,
+            0.004276092629879713,
+            -0.007818181999027729
+        ],
+        [
+            0.6112553779981584,
+            -0.11304748941635982,
+            0.903254411717841,
+            0.01097365190386977,
+            0.03343788978435339,
+            -0.03432292014368593,
+            0.9987909809582138,
+            0.0009536292054690421,
+            0.00012001068535028026,
+            -0.00035173672949895263,
+            -0.0017369178822264075,
+            0.014028181321918964,
+            0.0005715344450436532
+        ]
+    ],
+    "position_instruction": "Place the toy to the left of the power drill on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement: the toy is facing right, with its head oriented towards left",
+    "rotation_instruction_label": "right",
+    "obj_codes": [
+        "035",
+        "a37158f20ccf436483029e8295629738",
+        "6a63fc4af48b453c91ca2b335a4d464d",
+        "072-a"
+    ],
+    "target_obj_code": "072-a",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        -0.0,
+                        0.0,
+                        -0.9992738962173462,
+                        -0.038100600242614746
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        -0.0,
+                        0.0,
+                        -0.042994238436222076,
+                        0.9990752935409546
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "right"
+}

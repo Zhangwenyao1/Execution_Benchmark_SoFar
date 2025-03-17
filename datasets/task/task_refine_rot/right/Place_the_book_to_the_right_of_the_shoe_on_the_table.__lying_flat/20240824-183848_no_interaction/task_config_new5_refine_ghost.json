@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "shoe",
+        "spatula",
+        "apple",
+        "book"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/ae7142127dd84ebbbe7762368ace452c/material_2.urdf",
+        "ycb_16k_backup/033_spatula_google_16k/033_spatula_google_16k.urdf",
+        "objaverse_rescale/fbda0b25f41f40958ea984f460e4770b/material_2.urdf",
+        "objaverse_rescale/2a371c84c5454f7facba7bb2f5312ad6/material_2.urdf"
+    ],
+    "target_obj_name": "book",
+    "instruction": "Place the book to the right of the shoe on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.5467972900635405,
+            -0.011951030304817943,
+            0.9312991210825073,
+            -0.03834728953851561,
+            0.2141874391005454,
+            0.17585536303329002,
+            0.9600667256024604,
+            -0.0007541686645708978,
+            -0.005508763715624809,
+            0.0009074094123207033,
+            0.11738207191228867,
+            -0.017857056111097336,
+            0.03177327290177345
+        ],
+        [
+            0.5414576129517357,
+            0.022866301688291287,
+            0.9324645909079424,
+            -0.9984028525293693,
+            0.05105218071870602,
+            -0.02266576036505942,
+            -0.008466534837656529,
+            0.0034189997240900993,
+            -0.0018006531754508615,
+            -0.011918383650481701,
+            1.0628641843795776,
+            0.26572591066360474,
+            -0.1338588446378708
+        ],
+        [
+            0.37150590200455763,
+            -0.09910572166169714,
+            0.9272698402852344,
+            -0.03531379218612292,
+            -0.03848917863906483,
+            0.09310257250695866,
+            0.9942853866982626,
+            0.0006865492323413491,
+            -0.0025523947551846504,
+            -0.0008767454419285059,
+            0.04738178476691246,
+            0.012797920033335686,
+            0.004483986180275679
+        ],
+        [
+            0.39996308319474905,
+            -0.16500775228648876,
+            0.9770702189467021,
+            -1.0230908324582796e-05,
+            0.00016892517742533663,
+            0.11418852012056244,
+            0.9934590848305173,
+            0.0011440180242061615,
+            0.00013635157665703446,
+            -0.0010181025136262178,
+            -0.005541976075619459,
+            0.021442200988531113,
+            0.026315994560718536
+        ]
+    ],
+    "position_instruction": "Place the book to the right of the shoe on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "ae7142127dd84ebbbe7762368ace452c",
+        "033",
+        "fbda0b25f41f40958ea984f460e4770b",
+        "2a371c84c5454f7facba7bb2f5312ad6"
+    ],
+    "target_obj_code": "2a371c84c5454f7facba7bb2f5312ad6",
+    "anno_target": {
+        "category": "book",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "right",
+    "rotation_tag": "lying_flat"
+}

@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "mouse",
+        "bottle",
+        "mug",
+        "can"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f496168739384cdb86ef6d65e2068a3f/material_2.urdf",
+        "objaverse_rescale/6add0a1fa81942acbb24504b130661c1/material_2.urdf",
+        "ycb_16k_backup/025_mug_google_16k/025_mug_google_16k.urdf",
+        "ycb_16k_backup/002_master_chef_can_google_16k/002_master_chef_can_google_16k.urdf"
+    ],
+    "target_obj_name": "can",
+    "instruction": "Place the can between the mouse and the bottle on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.30689918083726914,
+            0.174083928589999,
+            0.9300508084671576,
+            -0.6163380976271451,
+            0.0007199467676885889,
+            -0.3121034846041683,
+            0.7229925628856362,
+            -0.009071066044270992,
+            0.0005929088802076876,
+            0.014233777299523354,
+            0.017021477222442627,
+            -0.5512926578521729,
+            -0.2774789035320282
+        ],
+        [
+            0.39318685763688627,
+            0.15338890710754538,
+            0.935174653740739,
+            -0.0034169479198544487,
+            0.10217684677881184,
+            0.04012705352823217,
+            0.993950721124742,
+            0.0038544421549886465,
+            0.0009571647387929261,
+            0.001152456272393465,
+            -0.02446763962507248,
+            0.11733249574899673,
+            0.024870384484529495
+        ],
+        [
+            0.6907175897459426,
+            -0.21576188034197555,
+            0.90045828178233,
+            -0.0007756800638143503,
+            -0.0010614798499180669,
+            -0.061364255493104744,
+            0.9981145724458412,
+            -0.0005977597320452332,
+            -0.0010745350737124681,
+            -0.0005715034203603864,
+            0.034347135573625565,
+            -0.024103201925754547,
+            -0.007546494714915752
+        ],
+        [
+            0.5718041021388299,
+            0.1528302084390764,
+            0.9170532297962479,
+            0.022271645684036844,
+            -0.12457383943986532,
+            0.0029078800151279586,
+            0.9919560860035859,
+            0.00016226607840508223,
+            0.001182299922220409,
+            -0.0005928937462158501,
+            -0.019984237849712372,
+            0.002248910488560796,
+            0.0007593210320919752
+        ]
+    ],
+    "position_instruction": "Place the can between the mouse and the bottle on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "f496168739384cdb86ef6d65e2068a3f",
+        "6add0a1fa81942acbb24504b130661c1",
+        "025",
+        "002"
+    ],
+    "target_obj_code": "002",
+    "anno_target": {
+        "category": "can",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "sideways"
+}

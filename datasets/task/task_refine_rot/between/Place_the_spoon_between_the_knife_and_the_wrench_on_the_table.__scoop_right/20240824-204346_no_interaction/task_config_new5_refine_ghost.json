@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "knife",
+        "wrench",
+        "spoon"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/85db1d392a89459dbde5cdd951c4f6fb/material_2.urdf",
+        "objaverse_rescale/8a6cb4f7b0004f53830e270dc6e1ff1d/material_2.urdf",
+        "objaverse_rescale/218768789fdd42bd95eb933046698499/material_2.urdf"
+    ],
+    "target_obj_name": "spoon",
+    "instruction": "Place the spoon between the knife and the wrench on the table. We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "init_obj_pos": [
+        [
+            0.30801536576760363,
+            -0.20905149767444217,
+            0.9213206014121148,
+            -0.01830495619667492,
+            -0.012194854963241264,
+            0.04010307849042134,
+            0.9989534309399289,
+            0.0017543830908834934,
+            -0.0002773393352981657,
+            -0.003399280598387122,
+            0.034709345549345016,
+            0.010620983317494392,
+            0.0212843157351017
+        ],
+        [
+            0.47455658361877295,
+            0.2514019190730492,
+            0.9020053773590783,
+            0.48063158048975224,
+            -0.5204130393667693,
+            0.47890842639612835,
+            0.5184691614934765,
+            -0.001678614178672433,
+            -0.0062986984848976135,
+            0.012233900837600231,
+            -0.7736150622367859,
+            0.06479112058877945,
+            -0.058113690465688705
+        ],
+        [
+            0.6151134840683617,
+            -0.0034756331994016247,
+            0.9076362179423393,
+            0.0072099453056886234,
+            -0.029939583972702306,
+            -0.04710946745298936,
+            0.9984149117859399,
+            -0.0005183882312849164,
+            0.003669458907097578,
+            0.03302188217639923,
+            -0.6649171710014343,
+            -2.0238800048828125,
+            0.09162764251232147
+        ]
+    ],
+    "position_instruction": "Place the spoon between the knife and the wrench on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "rotation_instruction_label": "scoop_right",
+    "obj_codes": [
+        "85db1d392a89459dbde5cdd951c4f6fb",
+        "8a6cb4f7b0004f53830e270dc6e1ff1d",
+        "218768789fdd42bd95eb933046698499"
+    ],
+    "target_obj_code": "218768789fdd42bd95eb933046698499",
+    "anno_target": {
+        "category": "spoon",
+        "annotation": {
+            " the ladle is lying on the table, with its scoop on the left(pointing towards left) and its handle on the right. ": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ladle is lying on the table, with its scoop on the right(pointing towards right) and its handle on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "scoop_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "scoop_right"
+}

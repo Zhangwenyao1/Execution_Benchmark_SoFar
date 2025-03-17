@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "USB",
+        "cup",
+        "spoon",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/b1098389cc3b460bb1f1ce558d4b0764/material_2.urdf",
+        "ycb_16k_backup/065-b_cups_google_16k/065-b_cups_google_16k.urdf",
+        "objaverse_rescale/e1745c4aa7c046a2b5193d2d23be0192/material_2.urdf",
+        "objaverse_rescale/a564a11174be455bbce4698f7da92fdf/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug to the left of the USB on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.3162637692290536,
+            -0.19752743434679254,
+            0.9250262112141379,
+            -0.024497215727043595,
+            0.0005892655489393127,
+            -0.023809814748276044,
+            0.9994161455116617,
+            -0.002212301129475236,
+            0.0011436203494668007,
+            -0.004259257577359676,
+            -0.02332240715622902,
+            -0.10697387903928757,
+            -0.0029905412811785936
+        ],
+        [
+            0.516317017058906,
+            -0.15385588762369506,
+            0.9006605829569784,
+            0.00029317031013720795,
+            -0.0014789609088747431,
+            -0.09415972748168225,
+            0.9955559614840209,
+            0.0027461014688014984,
+            0.0014511496992781758,
+            -0.0073836566880345345,
+            -0.06267955899238586,
+            0.1869218349456787,
+            0.06487072259187698
+        ],
+        [
+            0.30295978210971886,
+            0.12811898826788437,
+            0.9048242198465565,
+            0.6837268875609076,
+            -0.15702572532323908,
+            -0.15185021760485462,
+            0.6962772265601846,
+            0.007656781002879143,
+            0.013537616468966007,
+            0.033344198018312454,
+            -2.767728567123413,
+            -6.261124134063721,
+            -0.18957184255123138
+        ],
+        [
+            0.6823116480699695,
+            -0.12802477938444518,
+            0.957194474369245,
+            -0.06462642822466576,
+            0.2563043976619418,
+            -0.03870476181371529,
+            0.963656277895295,
+            -0.0003438344574533403,
+            1.8181259292759933e-05,
+            -0.00029439988429658115,
+            -0.00046033752732910216,
+            -0.005904114805161953,
+            -8.503316348651424e-05
+        ]
+    ],
+    "position_instruction": "Place the mug to the left of the USB on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "b1098389cc3b460bb1f1ce558d4b0764",
+        "065-b",
+        "e1745c4aa7c046a2b5193d2d23be0192",
+        "a564a11174be455bbce4698f7da92fdf"
+    ],
+    "target_obj_code": "a564a11174be455bbce4698f7da92fdf",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.4631405472755432,
+                        0.4735301733016968,
+                        0.5153847336769104,
+                        0.5437357425689697
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "handle_right"
+}

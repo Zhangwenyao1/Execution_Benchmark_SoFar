@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "spatula",
+        "fork"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6f8040c86eb84e7bba2cd928c0755029/material_2.urdf",
+        "objaverse_rescale/81b129ecf5724f63b5b044702a3140c2/material_2.urdf",
+        "ycb_16k_backup/030_fork_google_16k/030_fork_google_16k.urdf"
+    ],
+    "target_obj_name": "fork",
+    "instruction": "Place the fork to the right of the tissue box on the table. We also need to specify the rotation of the object after placement:  the prong of the fork is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.6621309192382632,
+            -0.06156985941604783,
+            0.9273057637296093,
+            0.012562441645553807,
+            0.0015678918593936392,
+            0.12415634456424483,
+            0.9921819031203218,
+            0.00014291598927229643,
+            -0.000934504671022296,
+            -6.365887384163216e-05,
+            0.02119663543999195,
+            0.003944019321352243,
+            2.767865044006612e-05
+        ],
+        [
+            0.5137332910487209,
+            -0.08976263404173004,
+            0.912477971621622,
+            0.0899263921833255,
+            0.015395247310770363,
+            0.03331620975193374,
+            0.9952719530444412,
+            -0.0036352244205772877,
+            -0.0020576082170009613,
+            -0.0032250527292490005,
+            0.20287267863750458,
+            -0.21814663708209991,
+            0.046571578830480576
+        ],
+        [
+            0.4244979739269805,
+            -0.23260794575642676,
+            0.9028722767801005,
+            0.05458893974670446,
+            -0.003710029422594554,
+            -0.09523292059389006,
+            0.9939501869682265,
+            -0.0001213291470776312,
+            0.003061999101191759,
+            -0.00018005105084739625,
+            0.42299884557724,
+            0.2055385559797287,
+            0.0686616525053978
+        ]
+    ],
+    "position_instruction": "Place the fork to the right of the tissue box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the prong of the fork is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "prong_right",
+    "obj_codes": [
+        "6f8040c86eb84e7bba2cd928c0755029",
+        "81b129ecf5724f63b5b044702a3140c2",
+        "030"
+    ],
+    "target_obj_code": "030",
+    "anno_target": {
+        "category": "fork",
+        "annotation": {
+            " the prong of the fork is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the prong of the fork is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "prong_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "prong_right"
+}

@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "mouse",
+        "apple",
+        "plate"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f017c73a85484b6da3a66ec1cda70c71/material_2.urdf",
+        "ycb_16k_backup/013_apple_google_16k/013_apple_google_16k.urdf",
+        "objaverse_rescale/6d5a4e1174dd4f5fa0a9a9076e476b91/material_2.urdf"
+    ],
+    "target_obj_name": "plate",
+    "instruction": "Place the plate between the mouse and the apple on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.4191891689337896,
+            -0.09326938421986063,
+            0.9155497099375971,
+            -0.6144932653930477,
+            -0.2272837424696182,
+            0.18807659969825116,
+            0.7316879935064804,
+            -0.0018319772789254785,
+            -0.001783103565685451,
+            -0.0003310321772005409,
+            0.13759754598140717,
+            -0.15279453992843628,
+            -0.030838893726468086
+        ],
+        [
+            0.31938858705763884,
+            -0.1454307209164401,
+            0.9006188881861297,
+            0.007301170869776335,
+            -0.019358341104815175,
+            0.005042640000995033,
+            0.9997732339462887,
+            -0.0009700696100480855,
+            0.0011737348977476358,
+            -0.000357532175257802,
+            -0.03075966238975525,
+            -0.032748933881521225,
+            0.0589534230530262
+        ],
+        [
+            0.43494152919181256,
+            0.06323239991056824,
+            0.9127413658863566,
+            0.7062155610928462,
+            0.03544005489135997,
+            0.035446965907532636,
+            0.7062202888529653,
+            6.952669355086982e-05,
+            0.00016477071039844304,
+            -0.0004149329324718565,
+            0.006462778430432081,
+            0.009649754501879215,
+            0.0058313217014074326
+        ]
+    ],
+    "position_instruction": "Place the plate between the mouse and the apple on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "f017c73a85484b6da3a66ec1cda70c71",
+        "013",
+        "6d5a4e1174dd4f5fa0a9a9076e476b91"
+    ],
+    "target_obj_code": "6d5a4e1174dd4f5fa0a9a9076e476b91",
+    "anno_target": {
+        "category": "plate",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

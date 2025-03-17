@@ -1,0 +1,85 @@
+{
+    "selected_obj_names": [
+        "envelope box",
+        "bottle"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/40b28d1cbfbd4e9f9acf653b748324ee/material_2.urdf",
+        "objaverse_rescale/d17b8f44d1544364b8ad9fe2554ddfdf/material_2.urdf"
+    ],
+    "target_obj_name": "bottle",
+    "instruction": "Place the bottle to the right of the envelope box on the table. We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.",
+    "init_obj_pos": [
+        [
+            0.6221992678156891,
+            -0.04080376196982051,
+            0.9317138898689721,
+            -1.2126043319301651e-05,
+            -0.000111501077159883,
+            0.023096227065326897,
+            0.9997332402775326,
+            1.1920692486455664e-06,
+            9.993085768655874e-06,
+            -3.6265973903937265e-05,
+            -7.628931052749977e-05,
+            -0.00015359072131104767,
+            -7.718645065324381e-06
+        ],
+        [
+            0.4385206892787311,
+            -0.000852592802758815,
+            0.9347371108700746,
+            0.0017909252273299156,
+            -0.29816812207267146,
+            -0.002389901442783315,
+            0.9545086966275267,
+            -0.0007205117726698518,
+            -0.00022113538580015302,
+            -0.00021902807930018753,
+            0.0070370822213590145,
+            -0.020683012902736664,
+            -0.00010510964057175443
+        ]
+    ],
+    "position_instruction": "Place the bottle to the right of the envelope box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.",
+    "rotation_instruction_label": "cap_left_bottom_right",
+    "obj_codes": [
+        "40b28d1cbfbd4e9f9acf653b748324ee",
+        "d17b8f44d1544364b8ad9fe2554ddfdf"
+    ],
+    "target_obj_code": "d17b8f44d1544364b8ad9fe2554ddfdf",
+    "anno_target": {
+        "category": "bottle",
+        "annotation": {
+            " the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "cap_left_bottom_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "cap_left_bottom_right"
+}

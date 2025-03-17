@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "USB",
+        "watch",
+        "spoon",
+        "toy"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/0a51815f3c0941ae8312fc6917173ed6/material_2.urdf",
+        "objaverse_rescale/d6e38c73f8f2402aac890e8ebb115302/material_2.urdf",
+        "objaverse_rescale/218768789fdd42bd95eb933046698499/material_2.urdf",
+        "ycb_16k_backup/072-b_toy_airplane_google_16k/072-b_toy_airplane_google_16k.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "Place the toy at the center of all the objects on the table. We also need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "init_obj_pos": [
+        [
+            0.5480118729395808,
+            -0.008422018410548309,
+            0.9113468162778245,
+            -0.2810996754977959,
+            -0.33562971138341763,
+            -0.2648687253657172,
+            0.8591741544034353,
+            0.0032717729918658733,
+            -0.0017925621941685677,
+            -0.0007830639951862395,
+            0.3329837918281555,
+            0.35841459035873413,
+            0.04359635338187218
+        ],
+        [
+            0.5420988934903754,
+            -0.22080162103466627,
+            0.9321261418061735,
+            -0.01982634923632682,
+            -0.008856543665103786,
+            -0.07657049092957503,
+            0.9968276869294266,
+            -0.0028033964335918427,
+            0.0016977093182504177,
+            -0.0013330081710591912,
+            -0.02246176265180111,
+            -0.04731026291847229,
+            -0.0359593965113163
+        ],
+        [
+            0.5213160706375902,
+            0.13239945229645997,
+            0.9071233931433266,
+            0.014837491376777808,
+            -0.007085359006313636,
+            -0.14086450016704272,
+            0.9898923371408053,
+            0.00011376450129318982,
+            0.0027713212184607983,
+            0.03043116256594658,
+            2.1303884983062744,
+            5.87896203994751,
+            0.4874575436115265
+        ],
+        [
+            0.5953174035256403,
+            -0.09343181605502303,
+            0.8952939160443185,
+            0.23528234982982393,
+            0.3112655678488165,
+            0.03043177332216451,
+            0.9202335949653099,
+            0.008703894913196564,
+            -0.004067862406373024,
+            0.0007141567766666412,
+            0.15240274369716644,
+            0.20243418216705322,
+            0.020421795547008514
+        ]
+    ],
+    "position_instruction": "Place the toy at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "rotation_instruction_label": "left",
+    "obj_codes": [
+        "0a51815f3c0941ae8312fc6917173ed6",
+        "d6e38c73f8f2402aac890e8ebb115302",
+        "218768789fdd42bd95eb933046698499",
+        "072-b"
+    ],
+    "target_obj_code": "072-b",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_left",
+    "rot_tag_level": 1,
+    "position_tag": "center",
+    "rotation_tag": "left"
+}

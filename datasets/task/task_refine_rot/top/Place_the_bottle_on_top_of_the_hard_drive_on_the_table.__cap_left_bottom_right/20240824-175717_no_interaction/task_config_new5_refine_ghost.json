@@ -1,0 +1,85 @@
+{
+    "selected_obj_names": [
+        "hard drive",
+        "bottle"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/e32b159011544b8aa7cacd812636353e/material_2.urdf",
+        "ycb_16k_backup/022_windex_bottle_google_16k/022_windex_bottle_google_16k.urdf"
+    ],
+    "target_obj_name": "bottle",
+    "instruction": "Place the bottle on top of the hard drive on the table. We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.",
+    "init_obj_pos": [
+        [
+            0.6143399498259663,
+            0.036650276732213154,
+            0.9676671265893985,
+            0.560847713755827,
+            0.26331301599139995,
+            -0.41819228913283857,
+            0.6642524421439558,
+            0.0024223465006798506,
+            0.004941118881106377,
+            -0.0011850029695779085,
+            0.04593281075358391,
+            0.07193110138177872,
+            -0.14177891612052917
+        ],
+        [
+            0.40456237387340765,
+            -0.024582441515029634,
+            0.9378587864675976,
+            -0.0895784928849825,
+            -0.7465367317726923,
+            0.026902443734652875,
+            0.6587373226466736,
+            -0.0022806597407907248,
+            -0.00033226588857360184,
+            -0.002119898097589612,
+            -0.1365148276090622,
+            -0.014633478596806526,
+            0.10880149900913239
+        ]
+    ],
+    "position_instruction": "Place the bottle on top of the hard drive on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.",
+    "rotation_instruction_label": "cap_left_bottom_right",
+    "obj_codes": [
+        "e32b159011544b8aa7cacd812636353e",
+        "022"
+    ],
+    "target_obj_code": "022",
+    "anno_target": {
+        "category": "bottle",
+        "annotation": {
+            " the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            },
+            " the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "cap_left_bottom_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "cap_left_bottom_right"
+}

@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "clipboard",
+        "pear",
+        "highlighter"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/a37158f20ccf436483029e8295629738/material_2.urdf",
+        "objaverse_rescale/f9ac5185507b4d0dbc744941e9055b96/material_2.urdf",
+        "objaverse_rescale/25481a65cad54e2a956394ff2b2765cd/material_2.urdf"
+    ],
+    "target_obj_name": "highlighter",
+    "instruction": "Place the highlighter in front of clipboard on the table. We also need to specify the rotation of the object after placement:  the marker is placed in a stable pose on the table. Its tip end is pointing towards right and its cap end is pointing towards left.",
+    "init_obj_pos": [
+        [
+            0.5251904177910679,
+            -0.2065578489618854,
+            0.9036466099516397,
+            0.7071090735290582,
+            -0.0011336369247735155,
+            -0.0011334845723401563,
+            0.7071026716205547,
+            0.001531708985567093,
+            0.0014732007402926683,
+            0.012044990435242653,
+            -0.08316045254468918,
+            0.3166591227054596,
+            -0.0029818243347108364
+        ],
+        [
+            0.48526278463593203,
+            0.14195125607573414,
+            0.9343448640701172,
+            -0.12994406860517588,
+            0.031565345583968764,
+            -0.08377140415015658,
+            0.9874717817938942,
+            0.0029757912270724773,
+            -0.0005362327792681754,
+            -0.0006964459898881614,
+            0.014092376455664635,
+            0.07526228576898575,
+            0.006192454136908054
+        ],
+        [
+            0.7082914067635723,
+            -0.013392113260670736,
+            0.9114504113273686,
+            0.6859237775658906,
+            0.15129032495176373,
+            0.13916775910116308,
+            0.6980344860911163,
+            0.0023304400965571404,
+            0.001628517173230648,
+            0.005915834568440914,
+            -0.04378839209675789,
+            0.10705827921628952,
+            0.027741260826587677
+        ]
+    ],
+    "position_instruction": "Place the highlighter in front of clipboard on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the marker is placed in a stable pose on the table. Its tip end is pointing towards right and its cap end is pointing towards left.",
+    "rotation_instruction_label": "tip_right",
+    "obj_codes": [
+        "a37158f20ccf436483029e8295629738",
+        "f9ac5185507b4d0dbc744941e9055b96",
+        "25481a65cad54e2a956394ff2b2765cd"
+    ],
+    "target_obj_code": "25481a65cad54e2a956394ff2b2765cd",
+    "anno_target": {
+        "category": "highlighter",
+        "annotation": {
+            " the marker is placed in a stable pose on the table. Its tip(or cap) end is pointing towards left and its rear end is pointing towards right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the marker is placed in a stable pose on the table. Its tip(or cap) end is pointing towards right and its rear end is pointing towards left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "tip_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "tip_right"
+}

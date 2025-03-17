@@ -1,0 +1,127 @@
+{
+    "selected_obj_names": [
+        "screwdriver",
+        "book",
+        "box",
+        "USB"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/043_phillips_screwdriver_google_16k/043_phillips_screwdriver_google_16k.urdf",
+        "objaverse_rescale/de79a920c48745ff95c0df7a7c300091/material_2.urdf",
+        "ycb_16k_backup/003_cracker_box_google_16k/003_cracker_box_google_16k.urdf",
+        "objaverse_rescale/878049e8c3174fa68a56530e5aef7a5a/material_2.urdf"
+    ],
+    "target_obj_name": "USB",
+    "instruction": "Place the USB between the screwdriver and the book on the table. We also need to specify the rotation of the object after placement:  the silver plug end of the USB is oriented towards right, and the larger end is on the left.",
+    "init_obj_pos": [
+        [
+            0.48727588691267315,
+            0.14046636590242828,
+            0.9014631600568,
+            -0.0255728944739455,
+            -0.01310327989991205,
+            0.06686182866481298,
+            0.9973483979992575,
+            0.00011223529145354405,
+            -0.00044797544251196086,
+            -4.7685796744190156e-05,
+            0.0147700859233737,
+            0.007526201196014881,
+            0.01014086976647377
+        ],
+        [
+            0.5250222376768369,
+            -0.10407348946166536,
+            0.915140314447478,
+            0.007471131537566085,
+            -0.0016431076029900457,
+            -0.015102584640016844,
+            0.9998566868947492,
+            0.0019469268154352903,
+            -0.0004336840647738427,
+            -0.0025008274242281914,
+            -0.03131406381726265,
+            0.013136527501046658,
+            0.0031834125984460115
+        ],
+        [
+            0.6140957427002174,
+            -0.1984666221591666,
+            0.9236872623427458,
+            0.3003623718567592,
+            0.6468665881192229,
+            -0.28415337791179407,
+            0.6407830526542456,
+            0.0002826483396347612,
+            0.0007641026168130338,
+            -0.0010902815265581012,
+            -0.015127187594771385,
+            -0.006017132196575403,
+            -0.0068554081954061985
+        ],
+        [
+            0.5175890845140012,
+            0.2372168235543347,
+            0.940169863292711,
+            -0.0017748204206664367,
+            -9.881332328147874e-05,
+            0.05716635214936628,
+            0.9983630844689402,
+            0.00048191758105531335,
+            -0.001235856907442212,
+            -0.0007765298360027373,
+            0.04497288912534714,
+            0.013776279054582119,
+            0.001899351249448955
+        ]
+    ],
+    "position_instruction": "Place the USB between the screwdriver and the book on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the silver plug end of the USB is oriented towards right, and the larger end is on the left.",
+    "rotation_instruction_label": "plug_right",
+    "obj_codes": [
+        "043",
+        "de79a920c48745ff95c0df7a7c300091",
+        "003",
+        "878049e8c3174fa68a56530e5aef7a5a"
+    ],
+    "target_obj_code": "878049e8c3174fa68a56530e5aef7a5a",
+    "anno_target": {
+        "category": "USB",
+        "annotation": {
+            " the silver plug end of the USB is oriented towards left, and the larger end is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the silver plug end of the USB is oriented towards right, and the larger end is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "plug_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "plug_right"
+}

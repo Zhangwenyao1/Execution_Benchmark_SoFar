@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "mouse",
+        "highlighter",
+        "screwdriver"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f017c73a85484b6da3a66ec1cda70c71/material_2.urdf",
+        "objaverse_rescale/25481a65cad54e2a956394ff2b2765cd/material_2.urdf",
+        "ycb_16k_backup/044_flat_screwdriver_google_16k/044_flat_screwdriver_google_16k.urdf"
+    ],
+    "target_obj_name": "screwdriver",
+    "instruction": "Place the screwdriver behind the mouse on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.5316281044276263,
+            0.12591042984629486,
+            0.9175197169820924,
+            -0.5480466261554076,
+            -0.3274970773761249,
+            0.04916357493771821,
+            0.7680973263650349,
+            -0.0037125390954315662,
+            -0.01730923354625702,
+            0.020093364641070366,
+            0.9501966834068298,
+            -0.4502224028110504,
+            -0.17978134751319885
+        ],
+        [
+            0.6749431943775595,
+            0.16487877408101675,
+            0.9154303393352391,
+            0.6832134979830199,
+            -0.18173441467037918,
+            -0.13049658647082593,
+            0.6950989567088142,
+            -0.008557337336242199,
+            -0.0009140357142314315,
+            0.022640611976385117,
+            -0.18186421692371368,
+            -0.8604280352592468,
+            0.16108889877796173
+        ],
+        [
+            0.3351784501537212,
+            0.2231721662875095,
+            0.9005565112282745,
+            0.013592028271626259,
+            -0.011307142874662212,
+            -0.06114951241294454,
+            0.9979720148476777,
+            -0.0015119181480258703,
+            0.00034234393388032913,
+            -0.0011441457318142056,
+            0.02639782801270485,
+            -0.04478507861495018,
+            -0.03864680603146553
+        ]
+    ],
+    "position_instruction": "Place the screwdriver behind the mouse on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "f017c73a85484b6da3a66ec1cda70c71",
+        "25481a65cad54e2a956394ff2b2765cd",
+        "044"
+    ],
+    "target_obj_code": "044",
+    "anno_target": {
+        "category": "screwdriver",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.011427843011915684,
+                        0.021855341270565987,
+                        -0.40244925022125244,
+                        0.9151100516319275
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "handle_right"
+}

@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "camera",
+        "glue gun",
+        "pen"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6a63fc4af48b453c91ca2b335a4d464d/material_2.urdf",
+        "objaverse_rescale/a1da12b81f034db894496c1ffc4be1f5/material_2.urdf",
+        "objaverse_rescale/f126e15c0f904fccbd76f9348baea12c/material_2.urdf"
+    ],
+    "target_obj_name": "pen",
+    "instruction": "Place the pen between the camera and the glue gun on the table. We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "init_obj_pos": [
+        [
+            0.3827891062079731,
+            -0.12402708141346738,
+            0.9565253581193703,
+            0.095058064491731,
+            -0.004643738221678042,
+            -0.028124311782298284,
+            0.9950635271967252,
+            0.0007875405135564506,
+            -0.0002920706174336374,
+            -0.000880112056620419,
+            -0.0005818429635837674,
+            0.011673190630972385,
+            -0.009124875999987125
+        ],
+        [
+            0.7327586955432085,
+            -0.10256672277455132,
+            0.9143095757552924,
+            0.6630250580500732,
+            0.22990819040183708,
+            0.23359944771022004,
+            0.6730314215646482,
+            -0.008357396349310875,
+            0.01130308210849762,
+            0.011904374696314335,
+            -0.43932288885116577,
+            0.059447210282087326,
+            0.19241511821746826
+        ],
+        [
+            0.31602004197720457,
+            0.17271651657971127,
+            0.9070422931527283,
+            -0.5262987617653812,
+            -0.4747119933889355,
+            -0.35546255162263746,
+            0.6093476110487772,
+            -0.0017948915483430028,
+            -0.004956208169460297,
+            0.030911481007933617,
+            0.11000504344701767,
+            -4.562422275543213,
+            0.2922343611717224
+        ]
+    ],
+    "position_instruction": "Place the pen between the camera and the glue gun on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "rotation_instruction_label": "ballpoint_right",
+    "obj_codes": [
+        "6a63fc4af48b453c91ca2b335a4d464d",
+        "a1da12b81f034db894496c1ffc4be1f5",
+        "f126e15c0f904fccbd76f9348baea12c"
+    ],
+    "target_obj_code": "f126e15c0f904fccbd76f9348baea12c",
+    "anno_target": {
+        "category": "pen",
+        "annotation": {
+            " the ballpoint of the pen is on the left(oriented towards left), while the clicker is on the right.": {
+                "quat": [
+                    [
+                        -0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.": {
+                "quat": [
+                    [
+                        -0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "ballpoint_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "ballpoint_right"
+}

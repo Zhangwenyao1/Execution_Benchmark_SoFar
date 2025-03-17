@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "wineglass",
+        "box",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/afca0b1933b84b1dbebd1244f25e72fc/material_2.urdf",
+        "ycb_16k_backup/004_sugar_box_google_16k/004_sugar_box_google_16k.urdf",
+        "ycb_16k_backup/065-i_cups_google_16k/065-i_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup to the right of the wineglass on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.3579869389288113,
+            0.0885934868651489,
+            0.940703629915474,
+            0.004346123542885055,
+            0.023728861877911733,
+            -0.014719742739693247,
+            0.9996006109931134,
+            0.0001720272994134575,
+            0.005482107400894165,
+            8.082722342805937e-05,
+            -0.1518539935350418,
+            -0.0047841547057032585,
+            0.004834534600377083
+        ],
+        [
+            0.5707608069724162,
+            0.04964562689172145,
+            0.8998695237977925,
+            -0.0006652994813390413,
+            -0.00013898253276418526,
+            0.0678549488892726,
+            0.9976949653935762,
+            -0.0027987086214125156,
+            -0.002620187122374773,
+            -0.0008961089188233018,
+            0.03347581997513771,
+            -0.03640950843691826,
+            -0.010314002633094788
+        ],
+        [
+            0.5024010942854755,
+            0.013962508656806214,
+            0.9005137157300824,
+            0.0016013012292899825,
+            -0.0014913629273361694,
+            0.012653510169247298,
+            0.9999175467764264,
+            0.0025426391512155533,
+            -0.00499308854341507,
+            -0.00454739248380065,
+            0.14824621379375458,
+            0.13788561522960663,
+            0.0285725649446249
+        ]
+    ],
+    "position_instruction": "Place the cup to the right of the wineglass on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "afca0b1933b84b1dbebd1244f25e72fc",
+        "004",
+        "065-i"
+    ],
+    "target_obj_code": "065-i",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upside_down"
+}

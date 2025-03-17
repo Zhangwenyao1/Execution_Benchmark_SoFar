@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "toy",
+        "wineglass",
+        "hammer",
+        "watch"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/072-b_toy_airplane_google_16k/072-b_toy_airplane_google_16k.urdf",
+        "objaverse_rescale/afca0b1933b84b1dbebd1244f25e72fc/material_2.urdf",
+        "ycb_16k_backup/048_hammer_google_16k/048_hammer_google_16k.urdf",
+        "objaverse_rescale/fdb8227a88b2448d8c64fa82ffee3f58/material_2.urdf"
+    ],
+    "target_obj_name": "watch",
+    "instruction": "Place the watch at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the watch is placed steadily on the table, and its contact with the table is in the shape of a circle, which means that the bringe of the watch bracelet is in touch with the table and while the plane of the watch dial is perpendicular to the table.",
+    "init_obj_pos": [
+        [
+            0.3897522461108821,
+            -0.22626359148003852,
+            0.9001523425070188,
+            -0.00012173416841526573,
+            -0.00028794094620489014,
+            -0.11992902147622711,
+            0.9927824193037256,
+            -0.00031806991319172084,
+            -0.0007885619415901601,
+            -0.0004745532351080328,
+            0.019654804840683937,
+            0.010617674328386784,
+            0.0015372144989669323
+        ],
+        [
+            0.3258157378265347,
+            0.09523432910228065,
+            0.940703864935464,
+            0.001224568951955743,
+            0.023988158376720158,
+            0.1157976371706719,
+            0.9929823643520882,
+            -6.908008799655363e-05,
+            0.006136525422334671,
+            -0.00034957812749780715,
+            -0.11405619978904724,
+            0.07287018746137619,
+            -0.028149152174592018
+        ],
+        [
+            0.6676690299331636,
+            -0.19509346399339586,
+            0.8978800461184197,
+            0.001973742645545151,
+            -0.0018468790916481678,
+            0.1686702506445101,
+            0.9856688287275335,
+            -0.005632972344756126,
+            -0.004006948787719011,
+            0.021104862913489342,
+            0.24975605309009552,
+            -0.1271309107542038,
+            0.020035963505506516
+        ],
+        [
+            0.5618289954956793,
+            0.13675037054061848,
+            0.9695480463500389,
+            -0.0017530951397001096,
+            0.022839348197040785,
+            0.07665794930092987,
+            0.9967942865207152,
+            0.0028296958189457655,
+            0.00041217519901692867,
+            -0.0005162547458894551,
+            -0.00825989618897438,
+            0.040514685213565826,
+            -0.025655465200543404
+        ]
+    ],
+    "position_instruction": "Place the watch at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the watch is placed steadily on the table, and its contact with the table is in the shape of a circle, which means that the bringe of the watch bracelet is in touch with the table and while the plane of the watch dial is perpendicular to the table.",
+    "rotation_instruction_label": "watch_upright",
+    "obj_codes": [
+        "072-b",
+        "afca0b1933b84b1dbebd1244f25e72fc",
+        "048",
+        "fdb8227a88b2448d8c64fa82ffee3f58"
+    ],
+    "target_obj_code": "fdb8227a88b2448d8c64fa82ffee3f58",
+    "anno_target": {
+        "category": "watch",
+        "annotation": {
+            " the watch is placed steadily on the table, and its contact with the table is in the shape of a circle, which means that the bringe of the watch bracelet is in touch with the table and while the plane of the watch dial is perpendicular to the table.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        -0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "watch_upright",
+    "rot_tag_level": 2,
+    "position_tag": "center",
+    "rotation_tag": "watch_upright"
+}

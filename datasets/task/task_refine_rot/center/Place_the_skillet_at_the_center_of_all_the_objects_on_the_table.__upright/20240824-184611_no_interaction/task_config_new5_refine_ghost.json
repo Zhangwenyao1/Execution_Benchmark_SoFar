@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "watch",
+        "apple",
+        "envelope box",
+        "skillet"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/fdb8227a88b2448d8c64fa82ffee3f58/material_2.urdf",
+        "objaverse_rescale/f53d75bd123b40bca14d12d54286f432/material_2.urdf",
+        "objaverse_rescale/40b28d1cbfbd4e9f9acf653b748324ee/material_2.urdf",
+        "ycb_16k_backup/027_skillet_google_16k/027_skillet_google_16k.urdf"
+    ],
+    "target_obj_name": "skillet",
+    "instruction": "Place the skillet at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.5883953686510347,
+            -0.24572085504142022,
+            0.9695433629445979,
+            0.0018019720223947373,
+            0.023057079756323384,
+            -0.07851213239315594,
+            0.9966448560229567,
+            -0.0011446818243712187,
+            0.0005372498417273164,
+            -0.000339003570843488,
+            -0.004711373709142208,
+            -0.014980231411755085,
+            -0.01682872138917446
+        ],
+        [
+            0.42794554548506164,
+            0.30744997722602335,
+            0.9683582877975027,
+            -0.6149587751867986,
+            0.6136162390815824,
+            -0.30972373414680116,
+            -0.38648677139365395,
+            -0.00396448140963912,
+            0.0026941949035972357,
+            -0.0009380557457916439,
+            -0.04869338124990463,
+            -0.07166846841573715,
+            -0.0009237850899808109
+        ],
+        [
+            0.2989245493334971,
+            -0.018983445427873846,
+            0.9317154797273063,
+            -0.00015512758407629074,
+            8.293094135829418e-05,
+            0.08169303846215162,
+            0.9966575221833791,
+            2.3221639366965974e-06,
+            2.7712446808436653e-06,
+            -9.071613931155298e-06,
+            9.471734665567055e-05,
+            -5.685035648639314e-05,
+            -2.091241640300723e-06
+        ],
+        [
+            0.5864817004827593,
+            0.07762724653460122,
+            0.9020732185586418,
+            0.013587873920179358,
+            0.01684783889114239,
+            0.35031862938707653,
+            0.9363804664298515,
+            -8.740426892472897e-06,
+            -0.0002420877426629886,
+            -0.0001942692179000005,
+            0.002063979394733906,
+            0.0010100845247507095,
+            -0.001994012389332056
+        ]
+    ],
+    "position_instruction": "Place the skillet at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "fdb8227a88b2448d8c64fa82ffee3f58",
+        "f53d75bd123b40bca14d12d54286f432",
+        "40b28d1cbfbd4e9f9acf653b748324ee",
+        "027"
+    ],
+    "target_obj_code": "027",
+    "anno_target": {
+        "category": "skillet",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "center",
+    "rotation_tag": "upright"
+}

@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "SD card",
+        "box",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/02f7f045679d402da9b9f280030821d4/material_2.urdf",
+        "objaverse_rescale/9660e0c0326b4f7386014e27717231ae/material_2.urdf",
+        "ycb_16k_backup/065-f_cups_google_16k/065-f_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup on top of the SD card on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.592303376454624,
+            0.20143242437828057,
+            0.8984050601346774,
+            -0.7061552696853091,
+            0.04339578974444028,
+            -0.04344186859235773,
+            0.7053894984909598,
+            -0.0005972521030344069,
+            0.0004732634697575122,
+            0.030796457082033157,
+            0.03287598118185997,
+            -0.6847114562988281,
+            0.006016036029905081
+        ],
+        [
+            0.6301207175185018,
+            -0.17861990242617223,
+            0.9190806099959797,
+            0.00019390432187479698,
+            -0.0002150722060387015,
+            -0.06624483877487373,
+            0.997803356118204,
+            0.00034322027931921184,
+            -9.886999760055915e-05,
+            -0.00017246730567421764,
+            -7.2800277848728e-05,
+            0.0025039869360625744,
+            0.0014165936736389995
+        ],
+        [
+            0.3610057651073155,
+            -0.10649575414967243,
+            0.9003519600791938,
+            0.0004890451473266732,
+            0.00020165908171817598,
+            0.01590266628672491,
+            0.999873404673527,
+            0.0021553512196987867,
+            -0.00030916809919290245,
+            -0.0038402616046369076,
+            -0.008359698578715324,
+            0.07908827811479568,
+            -0.022246943786740303
+        ]
+    ],
+    "position_instruction": "Place the cup on top of the SD card on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "02f7f045679d402da9b9f280030821d4",
+        "9660e0c0326b4f7386014e27717231ae",
+        "065-f"
+    ],
+    "target_obj_code": "065-f",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "top",
+    "rotation_tag": "upside_down"
+}

@@ -1,0 +1,127 @@
+{
+    "selected_obj_names": [
+        "toy",
+        "pen",
+        "hammer",
+        "toilet paper roll"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/072-b_toy_airplane_google_16k/072-b_toy_airplane_google_16k.urdf",
+        "objaverse_rescale/f126e15c0f904fccbd76f9348baea12c/material_2.urdf",
+        "objaverse_rescale/6d155e8051294915813e0c156e3cd6de/material_2.urdf",
+        "objaverse_rescale/6d5284b842434413a17133f7bf259669/material_2.urdf"
+    ],
+    "target_obj_name": "toilet paper roll",
+    "instruction": "Place the toilet paper roll at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the paper roll is lying sideways on the table, with its lateral surface in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.5147128853463785,
+            0.18939293612546976,
+            0.9279461955546828,
+            -0.12875315743728616,
+            -0.2840020609628589,
+            -0.31744711084616706,
+            0.895540499159138,
+            -0.007097241934388876,
+            0.003297326387837529,
+            0.02423691377043724,
+            -0.1336405724287033,
+            -0.3727051615715027,
+            0.04234199970960617
+        ],
+        [
+            0.6629648116870304,
+            0.20695085104589886,
+            0.9070408238762606,
+            -0.5125313304389575,
+            -0.48955741359733174,
+            -0.3371383119771264,
+            0.6196635641278085,
+            -0.0013508554548025131,
+            -0.002277140272781253,
+            0.03173793852329254,
+            0.13648879528045654,
+            -3.003345012664795,
+            0.10982279479503632
+        ],
+        [
+            0.6160429316793077,
+            0.07230729062742217,
+            0.9173897540726291,
+            0.21532203493733792,
+            -0.6812571770254366,
+            0.20965555539877725,
+            0.6675100209826108,
+            0.008734051138162613,
+            0.00938861258327961,
+            0.021411871537566185,
+            -0.37469181418418884,
+            0.8830875754356384,
+            0.010738274082541466
+        ],
+        [
+            0.34390137145088834,
+            0.0920568761349851,
+            0.9336665686909181,
+            0.041688382869664455,
+            -0.314886609303546,
+            0.12443637723818357,
+            0.9400128137609961,
+            -0.07593937963247299,
+            -0.02105550467967987,
+            -0.004249942488968372,
+            0.27344223856925964,
+            -0.9874478578567505,
+            0.0010573387844488025
+        ]
+    ],
+    "position_instruction": "Place the toilet paper roll at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the paper roll is lying sideways on the table, with its lateral surface in contact with the tabletop.",
+    "rotation_instruction_label": "roll_sideways",
+    "obj_codes": [
+        "072-b",
+        "f126e15c0f904fccbd76f9348baea12c",
+        "6d155e8051294915813e0c156e3cd6de",
+        "6d5284b842434413a17133f7bf259669"
+    ],
+    "target_obj_code": "6d5284b842434413a17133f7bf259669",
+    "anno_target": {
+        "category": "toilet_paper_roll",
+        "annotation": {
+            " the paper roll is standing upright on the table, in the shape of a cylinder, and the axis(height) of the cylinder is perpendicular to the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the paper roll is lying sideways on the table, with its lateral surface in contact with the tabletop.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            }
+        }
+    },
+    "rot_tag_detail": "roll_sideways",
+    "rot_tag_level": 0,
+    "position_tag": "center",
+    "rotation_tag": "roll_sideways"
+}

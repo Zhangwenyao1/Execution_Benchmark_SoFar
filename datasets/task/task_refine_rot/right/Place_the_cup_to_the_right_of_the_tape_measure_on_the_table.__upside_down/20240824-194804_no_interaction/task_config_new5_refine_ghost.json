@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "tape measure",
+        "USB",
+        "cup",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/d1d1c4b27f5c45a29910830e268f7ee2/material_2.urdf",
+        "objaverse_rescale/878049e8c3174fa68a56530e5aef7a5a/material_2.urdf",
+        "ycb_16k_backup/065-g_cups_google_16k/065-g_cups_google_16k.urdf",
+        "ycb_16k_backup/065-i_cups_google_16k/065-i_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup to the right of the tape measure on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6382855416323125,
+            0.15439976618589452,
+            0.9677674722465706,
+            0.01346371755692637,
+            0.03393978338756667,
+            0.11109270919016306,
+            0.9931390785675197,
+            -0.001741048414260149,
+            -0.006437648553401232,
+            -0.0008026928408071399,
+            0.13162249326705933,
+            -0.08515769243240356,
+            -0.323036253452301
+        ],
+        [
+            0.5052877303669827,
+            -0.230409014488746,
+            0.9401700950747398,
+            -0.001059418469708459,
+            7.080686773090856e-05,
+            -0.06409404864897286,
+            0.9979432977612895,
+            -0.0013924197992309928,
+            0.0006342518026940525,
+            -0.002723586978390813,
+            0.044666703790426254,
+            -0.0227370522916317,
+            0.0032646935433149338
+        ],
+        [
+            0.5121946070949835,
+            0.2701740570616604,
+            0.9007153425719219,
+            -0.0010879135376992315,
+            0.0006302029935551306,
+            0.1122956053220618,
+            0.9936740493309018,
+            0.003448803909122944,
+            0.0089726522564888,
+            -0.011197950690984726,
+            -0.33459949493408203,
+            0.056182920932769775,
+            -0.03335794806480408
+        ],
+        [
+            0.5541061162948608,
+            0.16364560223563174,
+            0.300595760345459,
+            0.003004533937200904,
+            -0.0013442557537928224,
+            -0.03696812689304352,
+            0.9993110299110413,
+            0.0020434288308024406,
+            -0.0053523024544119835,
+            -0.004305093549191952,
+            0.16123256087303162,
+            0.11477918177843094,
+            0.02546609565615654
+        ]
+    ],
+    "position_instruction": "Place the cup to the right of the tape measure on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "d1d1c4b27f5c45a29910830e268f7ee2",
+        "878049e8c3174fa68a56530e5aef7a5a",
+        "065-g",
+        "065-i"
+    ],
+    "target_obj_code": "065-i",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upside_down"
+}

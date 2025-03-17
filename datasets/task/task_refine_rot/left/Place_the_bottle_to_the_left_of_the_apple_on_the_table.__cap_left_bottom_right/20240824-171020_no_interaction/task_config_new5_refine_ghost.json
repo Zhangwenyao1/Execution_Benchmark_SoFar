@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "apple",
+        "tissue box",
+        "bottle"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f53d75bd123b40bca14d12d54286f432/material_2.urdf",
+        "objaverse_rescale/6e9e9135bb5747f58d388e1e92477f02/material_2.urdf",
+        "objaverse_rescale/794b730ae452424bb3a9ce3c6caaff7a/material_2.urdf"
+    ],
+    "target_obj_name": "bottle",
+    "instruction": "Place the bottle to the left of the apple on the table. We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.",
+    "init_obj_pos": [
+        [
+            0.4205892719841699,
+            0.1412327867437358,
+            0.968268744408638,
+            0.06695178355929199,
+            0.039230893751601506,
+            -0.06973476972089729,
+            0.9945428384668278,
+            0.008964606560766697,
+            0.001786417094990611,
+            0.00018757852376438677,
+            -0.04479587450623512,
+            0.1751052886247635,
+            -0.05910900980234146
+        ],
+        [
+            0.324262044358289,
+            -0.03447538333260028,
+            0.9317407125162478,
+            0.007082758287622456,
+            0.05358323659789013,
+            0.045366184149834655,
+            0.9975071832455233,
+            -0.00046945319627411664,
+            -0.00339029380120337,
+            -0.0005401198868639767,
+            0.07601749897003174,
+            -0.00811974611133337,
+            0.0003582434437703341
+        ],
+        [
+            0.6491046870816788,
+            0.03192091021188381,
+            0.9317680175777907,
+            0.022958017467134512,
+            0.9992252908504358,
+            -0.007259761192491349,
+            -0.031129462351082292,
+            0.005795631092041731,
+            -0.0033171302638947964,
+            -0.007343510165810585,
+            0.16605979204177856,
+            0.10332288593053818,
+            -0.010291683487594128
+        ]
+    ],
+    "position_instruction": "Place the bottle to the left of the apple on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.",
+    "rotation_instruction_label": "cap_left_bottom_right",
+    "obj_codes": [
+        "f53d75bd123b40bca14d12d54286f432",
+        "6e9e9135bb5747f58d388e1e92477f02",
+        "794b730ae452424bb3a9ce3c6caaff7a"
+    ],
+    "target_obj_code": "794b730ae452424bb3a9ce3c6caaff7a",
+    "anno_target": {
+        "category": "bottle",
+        "annotation": {
+            " the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.": {
+                "quat": [
+                    [
+                        -1.0,
+                        -4.371138828673793e-08,
+                        -4.371138828673793e-08,
+                        1.910685676922942e-15
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.": {
+                "quat": [
+                    [
+                        -0.0,
+                        1.0,
+                        -0.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "cap_left_bottom_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "cap_left_bottom_right"
+}

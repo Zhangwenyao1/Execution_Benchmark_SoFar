@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "pen",
+        "orange"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-i_cups_google_16k/065-i_cups_google_16k.urdf",
+        "objaverse_rescale/fbeb7c776372466daffa619106e0b2e0/material_2.urdf",
+        "objaverse_rescale/a4c9a503f63e440e8d6d924d4e5c36b1/material_2.urdf"
+    ],
+    "target_obj_name": "orange",
+    "instruction": "Place the orange between the cup and the pen on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.31356642744646435,
+            -0.22033187417552125,
+            0.9005137035980316,
+            0.0014935839696608299,
+            -0.0015856266080392014,
+            -0.05877198865780438,
+            0.9982690560887849,
+            0.0017824721289798617,
+            -0.005572042427957058,
+            -0.0041529834270477295,
+            0.17231807112693787,
+            0.10519278049468994,
+            0.02806166186928749
+        ],
+        [
+            0.47238062702110856,
+            -0.18878916156522402,
+            0.9071942801812904,
+            0.9880139767151285,
+            0.03126541755907327,
+            -0.014168519710345225,
+            -0.15049952999804161,
+            -0.001470939489081502,
+            -0.00028693475178442895,
+            0.03273861110210419,
+            0.5322390794754028,
+            -0.21235564351081848,
+            -0.16864408552646637
+        ],
+        [
+            0.3302354958450513,
+            0.28661329305227495,
+            0.9391732469010291,
+            0.3325496748076172,
+            0.4929209528928341,
+            -0.5640919239523061,
+            0.5729222890727439,
+            -0.001866473350673914,
+            -0.003201133105903864,
+            -0.0004306904156692326,
+            0.05893189087510109,
+            -0.03648624196648598,
+            0.018580347299575806
+        ]
+    ],
+    "position_instruction": "Place the orange between the cup and the pen on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "065-i",
+        "fbeb7c776372466daffa619106e0b2e0",
+        "a4c9a503f63e440e8d6d924d4e5c36b1"
+    ],
+    "target_obj_code": "a4c9a503f63e440e8d6d924d4e5c36b1",
+    "anno_target": {
+        "category": "orange",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upright"
+}

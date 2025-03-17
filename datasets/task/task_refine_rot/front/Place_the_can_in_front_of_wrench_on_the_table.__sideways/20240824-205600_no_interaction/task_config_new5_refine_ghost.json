@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "wrench",
+        "tissue box",
+        "can"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf",
+        "objaverse_rescale/2bd98e8ea09f49bd85453a927011d31d/material_2.urdf",
+        "ycb_16k_backup/005_tomato_soup_can_google_16k/005_tomato_soup_can_google_16k.urdf"
+    ],
+    "target_obj_name": "can",
+    "instruction": "Place the can in front of wrench on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.6674769611167739,
+            0.01285436886247292,
+            0.9027454942335815,
+            0.011166393477513185,
+            -0.018233216902641104,
+            -0.04828005225890197,
+            0.9986049759599461,
+            0.0018286866834387183,
+            -0.0034862691536545753,
+            0.03440479934215546,
+            0.09808683395385742,
+            -0.4502766728401184,
+            0.21221846342086792
+        ],
+        [
+            0.6816642363639189,
+            -0.18776752850683184,
+            0.9149068323511463,
+            -0.0009784776210670274,
+            6.430673664527584e-05,
+            -0.068517220409826,
+            0.9976494519386551,
+            0.00020297036098781973,
+            0.00036695387098006904,
+            -0.00014222043682821095,
+            -0.004145709332078695,
+            0.0026833470910787582,
+            -0.0004550873127300292
+        ],
+        [
+            0.38303564735096907,
+            -0.14402824866876696,
+            0.8998952406743482,
+            -0.0002757726000597719,
+            -0.0007823591378114476,
+            -0.08158426207699826,
+            0.99666610258652,
+            -0.0021767509169876575,
+            -0.0005552798393182456,
+            -0.00017083858256228268,
+            0.010033485479652882,
+            -0.047546256333589554,
+            0.001511288108304143
+        ]
+    ],
+    "position_instruction": "Place the can in front of wrench on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "042",
+        "2bd98e8ea09f49bd85453a927011d31d",
+        "005"
+    ],
+    "target_obj_code": "005",
+    "anno_target": {
+        "category": "can",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "front",
+    "rotation_tag": "sideways"
+}

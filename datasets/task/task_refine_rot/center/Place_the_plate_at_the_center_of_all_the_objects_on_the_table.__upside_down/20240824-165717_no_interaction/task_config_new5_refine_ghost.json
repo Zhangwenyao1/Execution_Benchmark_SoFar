@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "knife",
+        "box",
+        "knife",
+        "plate"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/032_knife_google_16k/032_knife_google_16k.urdf",
+        "objaverse_rescale/5e1a1527a0bd49ed8e473079392c31c8/material_2.urdf",
+        "objaverse_rescale/85db1d392a89459dbde5cdd951c4f6fb/material_2.urdf",
+        "objaverse_rescale/6d5a4e1174dd4f5fa0a9a9076e476b91/material_2.urdf"
+    ],
+    "target_obj_name": "plate",
+    "instruction": "Place the plate at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6209592984643512,
+            -0.004944166927563084,
+            0.9178518709331908,
+            0.2524839414936194,
+            -0.06196339372038993,
+            -0.2894006892570191,
+            0.9212272456804893,
+            0.0004553705221042037,
+            -0.0004476197645999491,
+            0.033210694789886475,
+            -5.6474785804748535,
+            3.788094997406006,
+            -0.33468595147132874
+        ],
+        [
+            0.31565545306857734,
+            -0.23475224865761796,
+            0.9526931363732339,
+            -0.00430839216781433,
+            0.00762406437118122,
+            0.05272849917049439,
+            0.9985704866330761,
+            -0.0018324473639950156,
+            9.369699546368793e-05,
+            -0.0005382186500355601,
+            0.002735523506999016,
+            -0.03899569436907768,
+            -0.0015414447989314795
+        ],
+        [
+            0.6209592984643512,
+            -0.004944166927563084,
+            0.9178518709331908,
+            0.2524839414936194,
+            -0.06196339372038993,
+            -0.2894006892570191,
+            0.9212272456804893,
+            0.003047850215807557,
+            -0.0014934366336092353,
+            -0.003316182177513838,
+            0.0024002769496291876,
+            0.5721609592437744,
+            0.031763140112161636
+        ],
+        [
+            0.5483430351482058,
+            -0.16699545759559384,
+            0.9127413635515124,
+            0.7049021864901281,
+            0.05578195237085635,
+            0.055788924477686554,
+            0.7049034523796534,
+            -0.00043206187547184527,
+            0.0005631312960758805,
+            -0.0007853774586692452,
+            0.001917413086630404,
+            -0.018460208550095558,
+            0.019795624539256096
+        ]
+    ],
+    "position_instruction": "Place the plate at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "032",
+        "5e1a1527a0bd49ed8e473079392c31c8",
+        "85db1d392a89459dbde5cdd951c4f6fb",
+        "6d5a4e1174dd4f5fa0a9a9076e476b91"
+    ],
+    "target_obj_code": "6d5a4e1174dd4f5fa0a9a9076e476b91",
+    "anno_target": {
+        "category": "plate",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "center",
+    "rotation_tag": "upside_down"
+}

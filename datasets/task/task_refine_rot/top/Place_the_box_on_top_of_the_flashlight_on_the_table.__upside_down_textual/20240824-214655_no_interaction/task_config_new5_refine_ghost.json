@@ -1,0 +1,151 @@
+{
+    "selected_obj_names": [
+        "flashlight",
+        "mug",
+        "headphone",
+        "box"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/123a79642c2646d8b315576828fea84a/material_2.urdf",
+        "objaverse_rescale/3ea2fd4e065147048064f4c97a89fe6f/material_2.urdf",
+        "objaverse_rescale/ea91786392284f03809c37976da090bf/material_2.urdf",
+        "objaverse_rescale/f81ca566b008446eb704cad4844603b6/material_2.urdf"
+    ],
+    "target_obj_name": "box",
+    "instruction": "Place the box on top of the flashlight on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.",
+    "init_obj_pos": [
+        [
+            0.3740164918541713,
+            -0.18610796965722565,
+            0.9989368553495674,
+            6.959633317598164e-06,
+            1.6968400879932662e-06,
+            -0.12025865913670206,
+            0.992742592443442,
+            0.0002747925173025578,
+            -0.0009059675503522158,
+            -0.00032178073888644576,
+            0.005533314775675535,
+            0.0012955180136486888,
+            -0.006335980724543333
+        ],
+        [
+            0.5081158673022262,
+            -0.05832496626941289,
+            0.9544237587709212,
+            0.6758516199919179,
+            0.20790741153369433,
+            0.20791387934373684,
+            0.6758482927106474,
+            -0.0002489379548933357,
+            0.0004702867299783975,
+            -0.0002617235586512834,
+            -0.010243379510939121,
+            -0.005936841480433941,
+            -0.0013454967411234975
+        ],
+        [
+            0.6226431321045529,
+            0.0442411882344577,
+            0.9430184340047844,
+            -0.0025955304307142438,
+            -0.20313808773754347,
+            0.08152795154776296,
+            0.9757465724503183,
+            0.0022402768954634666,
+            -0.0040377844125032425,
+            -0.0015057529089972377,
+            0.07149459421634674,
+            0.04214024916291237,
+            -0.0338469073176384
+        ],
+        [
+            0.5545202492173814,
+            0.239291220588926,
+            0.9215657075412466,
+            -2.8142961929429525e-05,
+            0.00022756121896537723,
+            0.07825661667764179,
+            0.99693322212174,
+            0.0001450388372177258,
+            0.00020300898177083582,
+            -6.337330705719069e-05,
+            -0.0022242257837206125,
+            0.0012035752879455686,
+            -1.9924935259041376e-05
+        ]
+    ],
+    "position_instruction": "Place the box on top of the flashlight on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.",
+    "rotation_instruction_label": "upside_down_textual",
+    "obj_codes": [
+        "123a79642c2646d8b315576828fea84a",
+        "3ea2fd4e065147048064f4c97a89fe6f",
+        "ea91786392284f03809c37976da090bf",
+        "f81ca566b008446eb704cad4844603b6"
+    ],
+    "target_obj_code": "f81ca566b008446eb704cad4844603b6",
+    "anno_target": {
+        "category": "box",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        1.0,
+                        0.0,
+                        0.0,
+                        -4.371138828673793e-08
+                    ],
+                    [
+                        -0.7071067690849304,
+                        5.338507946817117e-08,
+                        0.7071067690849304,
+                        5.338507591545749e-08
+                    ],
+                    [
+                        0.0,
+                        0.7071067690849304,
+                        0.0,
+                        0.7071068286895752
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.": {
+                "quat": [
+                    [
+                        -0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down_textual",
+    "rot_tag_level": 2,
+    "position_tag": "top",
+    "rotation_tag": "upside_down_textual"
+}

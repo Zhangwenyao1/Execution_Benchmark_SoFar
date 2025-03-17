@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "spatula",
+        "bowl",
+        "SD card"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/033_spatula_google_16k/033_spatula_google_16k.urdf",
+        "objaverse_rescale/bdd36c94f3f74f22b02b8a069c8d97b7/material_2.urdf",
+        "objaverse_rescale/02f7f045679d402da9b9f280030821d4/material_2.urdf"
+    ],
+    "target_obj_name": "SD card",
+    "instruction": "Place the SD card to the left of the spatula on the table. We also need to specify the rotation of the object after placement:  the card is lying on the table, with the side with texts facing up so that the letters are legible from a viewer's perspective.",
+    "init_obj_pos": [
+        [
+            0.581551253700828,
+            0.20166537875093388,
+            0.9004448835681687,
+            0.0011418511686886932,
+            -0.00141582320883397,
+            0.08803430274295285,
+            0.9961157830097418,
+            0.002205988159403205,
+            -0.006578538101166487,
+            -0.009490597993135452,
+            0.43279269337654114,
+            0.19421307742595673,
+            -0.03104352578520775
+        ],
+        [
+            0.4923924578089198,
+            -0.221382196714992,
+            0.9564585581209553,
+            0.7097644153541192,
+            -0.0470151266262702,
+            -0.04683137617525555,
+            0.7013065483587576,
+            -0.00078162009594962,
+            0.002772281877696514,
+            -0.0007286077016033232,
+            -0.05750461295247078,
+            -0.014162402600049973,
+            0.009844603016972542
+        ],
+        [
+            0.5111165799043206,
+            -0.054065607222621465,
+            0.8984307776760485,
+            -0.6963602397574681,
+            -0.12370031230028704,
+            0.1230868992797204,
+            0.6961539085916546,
+            -0.0005358933703973889,
+            -1.1548518159543164e-05,
+            0.030781634151935577,
+            -0.5729981660842896,
+            -0.972078263759613,
+            0.009023607708513737
+        ]
+    ],
+    "position_instruction": "Place the SD card to the left of the spatula on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the card is lying on the table, with the side with texts facing up so that the letters are legible from a viewer's perspective.",
+    "rotation_instruction_label": "card_forth_textual",
+    "obj_codes": [
+        "033",
+        "bdd36c94f3f74f22b02b8a069c8d97b7",
+        "02f7f045679d402da9b9f280030821d4"
+    ],
+    "target_obj_code": "02f7f045679d402da9b9f280030821d4",
+    "anno_target": {
+        "category": "SD_card",
+        "annotation": {
+            " the card is lying on the table, with the side with texts facing up so that the letters are legible from a viewer's perspective.": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "card_forth_textual",
+    "rot_tag_level": 2,
+    "position_tag": "left",
+    "rotation_tag": "card_forth_textual"
+}

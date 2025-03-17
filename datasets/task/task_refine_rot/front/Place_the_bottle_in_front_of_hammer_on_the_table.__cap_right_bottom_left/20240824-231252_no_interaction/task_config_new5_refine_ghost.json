@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "hammer",
+        "tape measure",
+        "bottle"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/048_hammer_google_16k/048_hammer_google_16k.urdf",
+        "objaverse_rescale/7138f5e13b2e4e17975c23ba5584164b/material_2.urdf",
+        "ycb_16k_backup/021_bleach_cleanser_google_16k/021_bleach_cleanser_google_16k.urdf"
+    ],
+    "target_obj_name": "bottle",
+    "instruction": "Place the bottle in front of hammer on the table. We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.",
+    "init_obj_pos": [
+        [
+            0.42870023122506107,
+            0.2535131690957055,
+            0.8974845435421464,
+            0.0015032690668029965,
+            -0.0016954059038856628,
+            0.06169910631158221,
+            0.9980922232245313,
+            -0.007809311151504517,
+            -0.0026126073207706213,
+            0.02181830070912838,
+            0.3033379912376404,
+            -0.4554951786994934,
+            -0.003746259491890669
+        ],
+        [
+            0.5246076594533547,
+            -0.12560577712859297,
+            0.9173177270043864,
+            0.04836923785508756,
+            -0.010281248215964635,
+            -0.03614311330070954,
+            0.9981224314308197,
+            0.002308024326339364,
+            -0.0025000397581607103,
+            -0.0006979638710618019,
+            0.0924607589840889,
+            0.08482671529054642,
+            0.0010481036733835936
+        ],
+        [
+            0.5372078409589307,
+            0.004273599910722919,
+            0.9003783233360059,
+            -0.000849448229901984,
+            -0.0005992690939168116,
+            0.08399995187335779,
+            0.9964652163520461,
+            -0.002060083905234933,
+            -0.001210537739098072,
+            -0.0002724658988881856,
+            0.01040040235966444,
+            -0.021533556282520294,
+            8.495734800817445e-05
+        ]
+    ],
+    "position_instruction": "Place the bottle in front of hammer on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.",
+    "rotation_instruction_label": "cap_right_bottom_left",
+    "obj_codes": [
+        "048",
+        "7138f5e13b2e4e17975c23ba5584164b",
+        "021"
+    ],
+    "target_obj_code": "021",
+    "anno_target": {
+        "category": "bottle",
+        "annotation": {
+            " the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.": {
+                "quat": [
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "cap_right_bottom_left",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "cap_right_bottom_left"
+}

@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "mug",
+        "tape measure",
+        "knife"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/c609327dd3a74fb597584e1b4a14a615/material_2.urdf",
+        "objaverse_rescale/9321c45cb9cf459f9f803507d3a11fb3/material_2.urdf",
+        "objaverse_rescale/1574b13827734d54b6d9d86be8be71d1/material_2.urdf",
+        "objaverse_rescale/f93d05bc2db144f7a50374794ef5cf8d/material_2.urdf"
+    ],
+    "target_obj_name": "knife",
+    "instruction": "Place the knife at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.40450194405357837,
+            0.2568553528184522,
+            0.935827300774767,
+            -0.01565815058335717,
+            0.11967420531938172,
+            0.2720543764607579,
+            0.954682839036102,
+            -0.09340216219425201,
+            -0.1308179497718811,
+            0.011351938359439373,
+            -4.508542537689209,
+            -5.748776435852051,
+            7.884596347808838
+        ],
+        [
+            0.40450194405357837,
+            0.2568553528184522,
+            0.935827300774767,
+            -0.01565815058335717,
+            0.11967420531938172,
+            0.2720543764607579,
+            0.954682839036102,
+            0.04768204689025879,
+            0.06557814031839371,
+            -0.005540370941162109,
+            0.24684052169322968,
+            1.36796236038208,
+            -0.42021915316581726
+        ],
+        [
+            0.6719563007468384,
+            0.13218603895648065,
+            0.9536688862586097,
+            -0.9481175338416179,
+            0.1007653307538019,
+            -0.02349849735729812,
+            0.3006115612582394,
+            0.00022448792879004031,
+            -0.0012137274025008082,
+            -0.0003976446751039475,
+            0.029537025839090347,
+            -0.005588851403445005,
+            0.016024485230445862
+        ],
+        [
+            0.451770776256013,
+            -0.16156763647901543,
+            0.9032279796840204,
+            0.4622482311851712,
+            0.5457219521271188,
+            -0.4594014787507634,
+            0.5267489013318964,
+            -0.001536515774205327,
+            -0.0006239634822122753,
+            0.0001813646813388914,
+            0.39734700322151184,
+            -1.1198573112487793,
+            0.3854414224624634
+        ]
+    ],
+    "position_instruction": "Place the knife at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blade_right",
+    "obj_codes": [
+        "c609327dd3a74fb597584e1b4a14a615",
+        "9321c45cb9cf459f9f803507d3a11fb3",
+        "1574b13827734d54b6d9d86be8be71d1",
+        "f93d05bc2db144f7a50374794ef5cf8d"
+    ],
+    "target_obj_code": "f93d05bc2db144f7a50374794ef5cf8d",
+    "anno_target": {
+        "category": "knife",
+        "annotation": {
+            " the blade of the knife is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blade of the knife is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        -0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blade_right",
+    "rot_tag_level": 1,
+    "position_tag": "center",
+    "rotation_tag": "blade_right"
+}

@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "stapler",
+        "apple",
+        "headphone",
+        "screwdriver"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/d2c345be5c084b4e8c92b48f7be69315/material_2.urdf",
+        "objaverse_rescale/fbda0b25f41f40958ea984f460e4770b/material_2.urdf",
+        "objaverse_rescale/efb1727dee214d49b88c58792e4bdffc/material_2.urdf",
+        "ycb_16k_backup/044_flat_screwdriver_google_16k/044_flat_screwdriver_google_16k.urdf"
+    ],
+    "target_obj_name": "screwdriver",
+    "instruction": "Place the screwdriver on top of the stapler on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.4980120544546891,
+            0.07617435057385738,
+            0.92131452930721,
+            -0.06968630833103191,
+            0.37225678338110213,
+            0.0611901202057215,
+            0.9234849618955124,
+            0.0008964683511294425,
+            0.007439859677106142,
+            -0.003320825519040227,
+            -0.4011218547821045,
+            0.059249479323625565,
+            0.006504926364868879
+        ],
+        [
+            0.32239918199115836,
+            0.16839620648326284,
+            0.9260363014471062,
+            0.1130809871627565,
+            0.05191219257889653,
+            -0.07678866876432308,
+            0.9892529074778346,
+            0.003395254025235772,
+            -0.0007574686896987259,
+            0.00016812776448205113,
+            0.014383918605744839,
+            0.06988582015037537,
+            0.0042550633661448956
+        ],
+        [
+            0.5036560371023233,
+            -0.17328825056626104,
+            0.9324176430307627,
+            -0.0030118580060268414,
+            0.0008319854984077643,
+            -0.26434279004721073,
+            0.9644237273426756,
+            0.0044825258664786816,
+            -0.0012710108421742916,
+            -0.0005478983512148261,
+            0.025238534435629845,
+            0.05356096476316452,
+            0.02444421499967575
+        ],
+        [
+            0.706381698001676,
+            -0.18949821611645498,
+            0.9319777025348789,
+            0.9867253193005522,
+            0.16116155377219035,
+            0.01731436207755854,
+            -0.010015523091913489,
+            0.0007128846482373774,
+            -0.001370359561406076,
+            -0.0006217388436198235,
+            -0.18235646188259125,
+            -0.18480123579502106,
+            -0.13518622517585754
+        ]
+    ],
+    "position_instruction": "Place the screwdriver on top of the stapler on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "d2c345be5c084b4e8c92b48f7be69315",
+        "fbda0b25f41f40958ea984f460e4770b",
+        "efb1727dee214d49b88c58792e4bdffc",
+        "044"
+    ],
+    "target_obj_code": "044",
+    "anno_target": {
+        "category": "screwdriver",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.011427843011915684,
+                        0.021855341270565987,
+                        -0.40244925022125244,
+                        0.9151100516319275
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "handle_right"
+}

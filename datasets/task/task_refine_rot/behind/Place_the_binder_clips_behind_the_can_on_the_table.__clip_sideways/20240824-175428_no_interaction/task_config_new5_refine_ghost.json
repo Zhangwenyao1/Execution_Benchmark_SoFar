@@ -1,0 +1,97 @@
+{
+    "selected_obj_names": [
+        "can",
+        "lighter",
+        "binder clips"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/005_tomato_soup_can_google_16k/005_tomato_soup_can_google_16k.urdf",
+        "objaverse_rescale/b640aa4990b64db9ab3d868c6f49820e/material_2.urdf",
+        "objaverse_rescale/5e55c38b24dc4c239448efa1c6b7f49f/material_2.urdf"
+    ],
+    "target_obj_name": "binder clips",
+    "instruction": "Place the binder clips behind the can on the table. We also need to specify the rotation of the object after placement:  the binder clip is lying sideways on the table, which means that one side face of the black triangular prism is facing the table.",
+    "init_obj_pos": [
+        [
+            0.43924733652461895,
+            0.1954172647011872,
+            0.8998979601726261,
+            -0.00013123324503272875,
+            -0.0008429645423580702,
+            0.11657496356979499,
+            0.9931815292570226,
+            -0.0017021055100485682,
+            -0.0012423241278156638,
+            -0.00019882801279891282,
+            0.019310086965560913,
+            -0.03313782438635826,
+            -0.002325959037989378
+        ],
+        [
+            0.411904127237852,
+            -0.035513187953042175,
+            0.9247891613355564,
+            -3.234910633213341e-05,
+            0.004854001825503186,
+            -0.047232560563395254,
+            0.9988721253706294,
+            -0.002864641370251775,
+            0.017312290146946907,
+            0.020423075184226036,
+            -0.7605219483375549,
+            -1.1146728992462158,
+            0.005964318290352821
+        ],
+        [
+            0.5967061103037252,
+            -0.08243796297803674,
+            0.91000854316249,
+            8.905176609207009e-06,
+            5.1187666028450513e-05,
+            0.008823254539029103,
+            0.9999610729822745,
+            0.001233620336279273,
+            -0.0004581125685945153,
+            -0.00038126917206682265,
+            0.0058942195028066635,
+            0.015559295192360878,
+            0.0006971163675189018
+        ]
+    ],
+    "position_instruction": "Place the binder clips behind the can on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the binder clip is lying sideways on the table, which means that one side face of the black triangular prism is facing the table.",
+    "rotation_instruction_label": "clip_sideways",
+    "obj_codes": [
+        "005",
+        "b640aa4990b64db9ab3d868c6f49820e",
+        "5e55c38b24dc4c239448efa1c6b7f49f"
+    ],
+    "target_obj_code": "5e55c38b24dc4c239448efa1c6b7f49f",
+    "anno_target": {
+        "category": "binder_clips",
+        "annotation": {
+            " the binder clip is lying sideways on the table, which means that one side face of the black triangular prism is facing the table.": {
+                "quat": [
+                    [
+                        -0.13100828230381012,
+                        0.6948646306991577,
+                        -0.13100828230381012,
+                        0.6948646306991577
+                    ],
+                    [
+                        -0.6943783164024353,
+                        0.13356173038482666,
+                        -0.6943783164024353,
+                        0.13356173038482666
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "clip_sideways",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "clip_sideways"
+}

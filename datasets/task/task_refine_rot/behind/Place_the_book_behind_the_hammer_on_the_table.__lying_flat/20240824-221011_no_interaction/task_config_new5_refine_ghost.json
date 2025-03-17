@@ -1,0 +1,97 @@
+{
+    "selected_obj_names": [
+        "hammer",
+        "power drill",
+        "book"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/35a76a67ea1c45edabbd5013de70d68d/material_2.urdf",
+        "ycb_16k_backup/035_power_drill_google_16k/035_power_drill_google_16k.urdf",
+        "objaverse_rescale/c61227cac7224b86b43c53ac2a2b6ec7/material_2.urdf"
+    ],
+    "target_obj_name": "book",
+    "instruction": "Place the book behind the hammer on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.5946350245782627,
+            0.09591161633545316,
+            0.931824091971755,
+            1.4979743040207698e-07,
+            6.580640501260501e-06,
+            0.04421085970183561,
+            0.9990222218955375,
+            0.0022291464265435934,
+            -0.001756952959112823,
+            -0.0013989112339913845,
+            0.06584412604570389,
+            0.08175566792488098,
+            -0.0066341375932097435
+        ],
+        [
+            0.388038345421356,
+            -0.0905978891946627,
+            0.9031004405166307,
+            -2.8867942860737307e-05,
+            0.00017200229942877107,
+            0.010763885020624305,
+            0.9999420525016006,
+            -2.5472640118096024e-05,
+            0.00019548051932360977,
+            -0.0004078254278283566,
+            -0.0069205802865326405,
+            0.0038310035597532988,
+            0.00024581747129559517
+        ],
+        [
+            0.6135779888966226,
+            -0.24880086392262218,
+            0.9141700810121413,
+            -0.00011876402934274421,
+            -0.00014254217397807227,
+            -0.11049238927781031,
+            0.99387695289131,
+            0.00016704473819117993,
+            0.0011267270892858505,
+            -0.002660683123394847,
+            -0.03560234233736992,
+            0.009338493458926678,
+            0.00344721763394773
+        ]
+    ],
+    "position_instruction": "Place the book behind the hammer on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "35a76a67ea1c45edabbd5013de70d68d",
+        "035",
+        "c61227cac7224b86b43c53ac2a2b6ec7"
+    ],
+    "target_obj_code": "c61227cac7224b86b43c53ac2a2b6ec7",
+    "anno_target": {
+        "category": "book",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        1.0,
+                        0.0,
+                        0.0,
+                        -4.371138828673793e-08
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "behind",
+    "rotation_tag": "lying_flat"
+}

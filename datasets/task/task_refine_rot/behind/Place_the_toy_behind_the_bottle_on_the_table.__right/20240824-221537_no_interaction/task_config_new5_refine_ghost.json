@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "bottle",
+        "binder",
+        "toy"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/021_bleach_cleanser_google_16k/021_bleach_cleanser_google_16k.urdf",
+        "objaverse_rescale/78e016eeb0bf45d5bea47547128383a8/material_2.urdf",
+        "objaverse_rescale/9adc77036b434348ae049776c50df624/material_2.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "Place the toy behind the bottle on the table. We also need to specify the rotation of the object after placement: the toy is facing right, with its head oriented towards left",
+    "init_obj_pos": [
+        [
+            0.3802499778594716,
+            -0.2245643629245771,
+            0.9227178314953028,
+            0.5544819203355806,
+            -0.46035308369980327,
+            -0.4416098366171618,
+            0.5344207991386676,
+            -0.00037230091402307153,
+            0.0014070604229345918,
+            -0.0004741635057143867,
+            -0.05752549692988396,
+            -0.015542778186500072,
+            9.026152838487178e-05
+        ],
+        [
+            0.6404888451053696,
+            -0.1948136388760017,
+            1.0008029801497382,
+            -0.12523207143135473,
+            0.42376698805820284,
+            0.2665426053499443,
+            0.8565591092565382,
+            0.0057067591696977615,
+            -0.0018107276409864426,
+            -0.009217469953000546,
+            -0.010720535181462765,
+            0.017434535548090935,
+            -0.0007610180764459074
+        ],
+        [
+            0.6566930048403249,
+            -0.09676684008977209,
+            0.9433473917789021,
+            -0.1421365602702368,
+            -0.6226338663937012,
+            -0.10294470990009313,
+            0.7625789489343129,
+            0.00025769672356545925,
+            -0.0018503929022699594,
+            9.889608918456361e-05,
+            0.033238835632801056,
+            0.00397136714309454,
+            -0.007902652025222778
+        ]
+    ],
+    "position_instruction": "Place the toy behind the bottle on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement: the toy is facing right, with its head oriented towards left",
+    "rotation_instruction_label": "right",
+    "obj_codes": [
+        "021",
+        "78e016eeb0bf45d5bea47547128383a8",
+        "9adc77036b434348ae049776c50df624"
+    ],
+    "target_obj_code": "9adc77036b434348ae049776c50df624",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        0.6684325933456421,
+                        0.2306467592716217,
+                        0.2306467443704605,
+                        0.6684325337409973
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        -0.2339881807565689,
+                        0.6672703623771667,
+                        0.667270302772522,
+                        -0.23398815095424652
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "right"
+}

@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "fork",
+        "pen",
+        "toy",
+        "organizer"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/030_fork_google_16k/030_fork_google_16k.urdf",
+        "objaverse_rescale/f126e15c0f904fccbd76f9348baea12c/material_2.urdf",
+        "ycb_16k_backup/072-b_toy_airplane_google_16k/072-b_toy_airplane_google_16k.urdf",
+        "objaverse_rescale/4f52ebe6c8cf432986e47d8de83386ce/material_2.urdf"
+    ],
+    "target_obj_name": "organizer",
+    "instruction": "Place the organizer behind the fork on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.32033216636268735,
+            -0.12306249960998303,
+            0.902802549088977,
+            0.053367403925346335,
+            0.007988845121783425,
+            0.12647905274199547,
+            0.9905004531898894,
+            -0.0001811916590668261,
+            0.002953991061076522,
+            -0.0007480143685825169,
+            -0.7812652587890625,
+            -0.3182184398174286,
+            -0.12990036606788635
+        ],
+        [
+            0.33786898531279347,
+            0.07380234199505052,
+            0.9070396870508167,
+            -0.5308248670146549,
+            -0.46967906298870626,
+            -0.36023062167734676,
+            0.6065149936768889,
+            -0.0019506510579958558,
+            -0.0007549372967332602,
+            0.031419433653354645,
+            -0.38012439012527466,
+            -1.1037672758102417,
+            0.05065498501062393
+        ],
+        [
+            0.6922161452459508,
+            0.1354075310089901,
+            0.900151956451524,
+            -9.041446230235771e-05,
+            -0.00029462601538381486,
+            0.011913035134742496,
+            0.9999289897860819,
+            -0.0006718712975271046,
+            -0.0014818215277045965,
+            -0.0006366412271745503,
+            0.026717791333794594,
+            0.008572982624173164,
+            -0.004097044467926025
+        ],
+        [
+            0.5840552538461318,
+            -0.01837125153717167,
+            1.0210527681776342,
+            8.286530850886517e-05,
+            3.0315142677416255e-05,
+            0.035227845611238866,
+            0.9993793029215297,
+            0.0008447814034298062,
+            0.0032369978725910187,
+            -0.0007381797768175602,
+            -0.028804711997509003,
+            0.0053184619173407555,
+            0.0022070426493883133
+        ]
+    ],
+    "position_instruction": "Place the organizer behind the fork on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "030",
+        "f126e15c0f904fccbd76f9348baea12c",
+        "072-b",
+        "4f52ebe6c8cf432986e47d8de83386ce"
+    ],
+    "target_obj_code": "4f52ebe6c8cf432986e47d8de83386ce",
+    "anno_target": {
+        "category": "organizer",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "upright"
+}

@@ -1,0 +1,85 @@
+{
+    "selected_obj_names": [
+        "spoon",
+        "pen"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/2613c5f24bb3407da2664c410c34d523/material_2.urdf",
+        "objaverse_rescale/fbeb7c776372466daffa619106e0b2e0/material_2.urdf"
+    ],
+    "target_obj_name": "pen",
+    "instruction": "Place the pen behind the spoon on the table. We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "init_obj_pos": [
+        [
+            0.41858391888317537,
+            -0.12117435735459883,
+            0.9063350171815635,
+            0.17013306909186524,
+            -0.1726102198581931,
+            -0.03443819419570142,
+            0.9695743713518981,
+            0.00487244687974453,
+            -0.0018202102510258555,
+            0.025980951264500618,
+            2.2319695949554443,
+            -1.5184907913208008,
+            -0.3340582549571991
+        ],
+        [
+            0.39523019961024375,
+            0.13070525608308844,
+            0.9072135066409822,
+            0.9002244387856145,
+            0.41493215972553227,
+            -0.06362774556075909,
+            -0.1156666444290851,
+            -0.0006590759148821235,
+            -0.0004463357327040285,
+            0.02906445972621441,
+            14.754626274108887,
+            14.817233085632324,
+            0.45039936900138855
+        ]
+    ],
+    "position_instruction": "Place the pen behind the spoon on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "rotation_instruction_label": "ballpoint_right",
+    "obj_codes": [
+        "2613c5f24bb3407da2664c410c34d523",
+        "fbeb7c776372466daffa619106e0b2e0"
+    ],
+    "target_obj_code": "fbeb7c776372466daffa619106e0b2e0",
+    "anno_target": {
+        "category": "pen",
+        "annotation": {
+            " the ballpoint of the pen is on the left(oriented towards left), while the clicker is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "ballpoint_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "ballpoint_right"
+}

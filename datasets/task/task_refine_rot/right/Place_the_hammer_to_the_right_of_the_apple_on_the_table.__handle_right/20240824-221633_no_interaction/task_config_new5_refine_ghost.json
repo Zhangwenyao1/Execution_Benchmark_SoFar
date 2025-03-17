@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "apple",
+        "mug",
+        "glue gun",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/fbda0b25f41f40958ea984f460e4770b/material_2.urdf",
+        "objaverse_rescale/7bc2b14a48d1413e9375c32a53e3ee6f/material_2.urdf",
+        "objaverse_rescale/a1da12b81f034db894496c1ffc4be1f5/material_2.urdf",
+        "objaverse_rescale/35a76a67ea1c45edabbd5013de70d68d/material_2.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer to the right of the apple on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.49056647705283096,
+            -0.1009745203557057,
+            0.9260365426069435,
+            0.11492122913930834,
+            0.04765474401638581,
+            -0.11411013625286426,
+            0.9856475096454088,
+            -0.004146322142332792,
+            0.003322092816233635,
+            -0.001529964036308229,
+            -0.06088497117161751,
+            -0.0716056078672409,
+            0.033912692219018936
+        ],
+        [
+            0.6690317126579536,
+            -0.11160385992679012,
+            0.9401067069519973,
+            0.013969871883487573,
+            -0.12487285396842235,
+            -0.04515267451051623,
+            0.9910463404936662,
+            0.0004946175613440573,
+            0.00012892369704786688,
+            -0.00023772584972903132,
+            0.0010298944544047117,
+            0.00435735285282135,
+            0.0007740650326013565
+        ],
+        [
+            0.36902399934512276,
+            -0.026665142511562715,
+            0.9143094839810385,
+            0.669900463917896,
+            0.20902485555021683,
+            0.21240782096189748,
+            0.6800183054881799,
+            -0.0008121707942336798,
+            0.011242775246500969,
+            0.01941095106303692,
+            -0.22200340032577515,
+            0.9535282850265503,
+            0.20715561509132385
+        ],
+        [
+            0.485173821585713,
+            0.16981602395555975,
+            0.9318260376479885,
+            1.983473738592408e-05,
+            -1.1052840418410017e-06,
+            -0.05479890694917686,
+            0.9984974108141375,
+            0.002130875363945961,
+            -0.0018118511652573943,
+            -0.0015873765805736184,
+            0.06984332203865051,
+            0.07077284902334213,
+            -0.010067470371723175
+        ]
+    ],
+    "position_instruction": "Place the hammer to the right of the apple on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "fbda0b25f41f40958ea984f460e4770b",
+        "7bc2b14a48d1413e9375c32a53e3ee6f",
+        "a1da12b81f034db894496c1ffc4be1f5",
+        "35a76a67ea1c45edabbd5013de70d68d"
+    ],
+    "target_obj_code": "35a76a67ea1c45edabbd5013de70d68d",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "handle_right"
+}

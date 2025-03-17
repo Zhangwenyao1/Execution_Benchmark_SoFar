@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "spoon",
+        "bottle",
+        "wrench"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/031_spoon_google_16k/031_spoon_google_16k.urdf",
+        "objaverse_rescale/794b730ae452424bb3a9ce3c6caaff7a/material_2.urdf",
+        "objaverse_rescale/5bf781c9fd8d4121b735503b13ba2eaf/material_2.urdf"
+    ],
+    "target_obj_name": "wrench",
+    "instruction": "Place the wrench behind the spoon on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.3895915594277097,
+            0.1781428534509928,
+            0.9263566895585424,
+            0.9680842576154964,
+            -0.24952194575894682,
+            -0.017934067538739325,
+            0.015167002447377119,
+            -0.002370657864958048,
+            -0.0040840147994458675,
+            0.013413182459771633,
+            -1.5713194608688354,
+            -0.32127973437309265,
+            -0.1249031350016594
+        ],
+        [
+            0.5637185458632777,
+            -0.1901184413536832,
+            0.9298501923691883,
+            0.06277550605620473,
+            0.865844516521064,
+            -0.045036712935074184,
+            0.4943118484699661,
+            -0.005892306566238403,
+            -0.0033166364300996065,
+            -0.00589573523029685,
+            0.07373692840337753,
+            -0.07616017758846283,
+            -0.007128662895411253
+        ],
+        [
+            0.416687861446293,
+            -0.06977646257027238,
+            0.9060396823501522,
+            -0.03695270829104455,
+            -0.6836925600067023,
+            -0.7271212641097546,
+            -0.049936439809728506,
+            0.004042007029056549,
+            0.0011953371576964855,
+            0.03068326786160469,
+            -3.946199417114258,
+            1.548141598701477,
+            0.4229085147380829
+        ]
+    ],
+    "position_instruction": "Place the wrench behind the spoon on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "031",
+        "794b730ae452424bb3a9ce3c6caaff7a",
+        "5bf781c9fd8d4121b735503b13ba2eaf"
+    ],
+    "target_obj_code": "5bf781c9fd8d4121b735503b13ba2eaf",
+    "anno_target": {
+        "category": "wrench",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "handle_right"
+}

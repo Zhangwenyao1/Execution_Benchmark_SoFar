@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "shoe",
+        "cup",
+        "hat"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/d6951661c1e445d8a1d00b7d38d86030/material_2.urdf",
+        "ycb_16k_backup/065-f_cups_google_16k/065-f_cups_google_16k.urdf",
+        "objaverse_rescale/dc02f9c1fd01432fadd6e7d15851dc37/material_2.urdf"
+    ],
+    "target_obj_name": "hat",
+    "instruction": "Place the hat on top of the shoe on the table. We also need to specify the rotation of the object after placement:  the hat is placed in a tilted manner(not upright), with the sphere part in contact with the table.",
+    "init_obj_pos": [
+        [
+            0.5321463376648753,
+            -0.11184108884667078,
+            0.9277123952160191,
+            -0.06619923891272264,
+            -0.07315924666870639,
+            0.10712947558107251,
+            0.9893374858237034,
+            -0.009275971911847591,
+            -0.0036817367654293776,
+            0.007429217919707298,
+            0.4687228202819824,
+            -0.23949675261974335,
+            -0.05969895422458649
+        ],
+        [
+            0.547460872764379,
+            -0.019330335497055633,
+            0.9003518125864322,
+            0.0004863389781679284,
+            0.00019246842712167424,
+            -0.028574794259154837,
+            0.9995915203538643,
+            -0.0015405684243887663,
+            -0.0030770041048526764,
+            -0.002158114919438958,
+            0.08971576392650604,
+            -0.03030823916196823,
+            -0.0011267256923019886
+        ],
+        [
+            0.5643201547019092,
+            0.1835034845644809,
+            0.9447258365896058,
+            -0.867235278581676,
+            0.07771609590601725,
+            -0.20818177945988733,
+            0.4455597902879055,
+            0.003547120373696089,
+            0.00013392724213190377,
+            -0.0015082594472914934,
+            0.0017075131181627512,
+            0.1121860072016716,
+            0.006776764057576656
+        ]
+    ],
+    "position_instruction": "Place the hat on top of the shoe on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the hat is placed in a tilted manner(not upright), with the sphere part in contact with the table.",
+    "rotation_instruction_label": "hat_sideways",
+    "obj_codes": [
+        "d6951661c1e445d8a1d00b7d38d86030",
+        "065-f",
+        "dc02f9c1fd01432fadd6e7d15851dc37"
+    ],
+    "target_obj_code": "dc02f9c1fd01432fadd6e7d15851dc37",
+    "anno_target": {
+        "category": "hat",
+        "annotation": {
+            " the hat is placed in a tilted manner(not upright), with the sphere part in contact with the table.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.19006666541099548,
+                        0.354581743478775,
+                        -0.8068916201591492,
+                        -0.4325186014175415
+                    ],
+                    [
+                        -0.017941374331712723,
+                        -0.6261371970176697,
+                        0.6202858686447144,
+                        0.4720971882343292
+                    ],
+                    [
+                        -0.38241448998451233,
+                        -0.7841233015060425,
+                        0.48870813846588135,
+                        0.008612249046564102
+                    ],
+                    [
+                        -0.3121756315231323,
+                        -0.4250824451446533,
+                        0.8460759520530701,
+                        0.077504001557827
+                    ],
+                    [
+                        0.10660324990749359,
+                        -0.5132120251655579,
+                        0.7850396633148193,
+                        0.3300940990447998
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "hat_sideways",
+    "rot_tag_level": 0,
+    "position_tag": "top",
+    "rotation_tag": "hat_sideways"
+}

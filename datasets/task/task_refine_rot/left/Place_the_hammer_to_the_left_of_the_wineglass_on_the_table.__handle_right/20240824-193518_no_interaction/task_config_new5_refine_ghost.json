@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "wineglass",
+        "cup",
+        "box",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/afca0b1933b84b1dbebd1244f25e72fc/material_2.urdf",
+        "ycb_16k_backup/065-i_cups_google_16k/065-i_cups_google_16k.urdf",
+        "ycb_16k_backup/009_gelatin_box_google_16k/009_gelatin_box_google_16k.urdf",
+        "objaverse_rescale/35a76a67ea1c45edabbd5013de70d68d/material_2.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer to the left of the wineglass on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.37062820571938215,
+            0.039948284318068794,
+            0.9407036048617137,
+            0.005734245298409102,
+            0.023421344366209795,
+            -0.0734839396521277,
+            0.9970048493724284,
+            -0.0013655772199854255,
+            0.0067339688539505005,
+            -0.0003236828779336065,
+            -0.15618495643138885,
+            -0.08604741096496582,
+            0.028117040172219276
+        ],
+        [
+            0.4737850298966932,
+            0.12632982127118972,
+            0.9005125865008071,
+            0.001729746025119938,
+            -0.0013958320357103688,
+            0.12368518397523469,
+            0.9923190187115386,
+            0.0024063384626060724,
+            -0.0038205361925065517,
+            -0.005246379412710667,
+            0.10308011621236801,
+            0.13854500651359558,
+            0.02576076053082943
+        ],
+        [
+            0.6193879908087045,
+            0.1953746414216286,
+            0.9003100513873116,
+            -0.0029752676446617482,
+            0.00018745509176542303,
+            -0.008977271542710568,
+            0.9999552596184889,
+            -0.013006146065890789,
+            -0.005258962512016296,
+            0.012408665381371975,
+            0.27973636984825134,
+            -0.864501416683197,
+            0.03221030905842781
+        ],
+        [
+            0.6723037845450777,
+            -0.09004725176784943,
+            0.9318243707498455,
+            6.345687641980887e-06,
+            1.27942849161883e-06,
+            0.024721678237278638,
+            0.9996943725875568,
+            0.002236704109236598,
+            -0.001758217578753829,
+            -0.0013815596466884017,
+            0.06564053148031235,
+            0.08044742792844772,
+            -0.007811804302036762
+        ]
+    ],
+    "position_instruction": "Place the hammer to the left of the wineglass on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "afca0b1933b84b1dbebd1244f25e72fc",
+        "065-i",
+        "009",
+        "35a76a67ea1c45edabbd5013de70d68d"
+    ],
+    "target_obj_code": "35a76a67ea1c45edabbd5013de70d68d",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "handle_right"
+}

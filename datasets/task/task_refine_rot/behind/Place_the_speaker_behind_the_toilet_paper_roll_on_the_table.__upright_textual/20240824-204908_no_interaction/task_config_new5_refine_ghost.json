@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "toilet paper roll",
+        "hammer",
+        "pear",
+        "speaker"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6d5284b842434413a17133f7bf259669/material_2.urdf",
+        "objaverse_rescale/6d155e8051294915813e0c156e3cd6de/material_2.urdf",
+        "objaverse_rescale/f3dd3064db4f4e8880344425970cecad/material_2.urdf",
+        "objaverse_rescale/4445f4442a884999960e7e6660459095/material_2.urdf"
+    ],
+    "target_obj_name": "speaker",
+    "instruction": "Place the speaker behind the toilet paper roll on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.",
+    "init_obj_pos": [
+        [
+            0.3194328361076924,
+            0.11450566531691614,
+            0.9336627764886107,
+            0.011408978172299498,
+            -0.3182366423596906,
+            0.03394915274390206,
+            0.9473345394867989,
+            -0.06986735761165619,
+            -0.004833769518882036,
+            -0.004348085727542639,
+            0.06421379745006561,
+            -0.8989031314849854,
+            0.003927664365619421
+        ],
+        [
+            0.5867917198330679,
+            0.17420344436829435,
+            0.932722081116109,
+            0.08226258743652672,
+            0.0010188249277340757,
+            0.012340955431226404,
+            0.9965337573424488,
+            0.00019223583512939513,
+            -0.002403788734227419,
+            -0.001997746992856264,
+            0.07834506779909134,
+            -0.05053388699889183,
+            -0.00896665919572115
+        ],
+        [
+            0.33714296502916413,
+            -0.04035629778340005,
+            0.9343877134526946,
+            -0.17287616603154687,
+            0.014609999336167483,
+            -0.07551109586830822,
+            0.9819360740589977,
+            -0.0014068707823753357,
+            0.00199706363491714,
+            -0.00024563257466070354,
+            -0.04864300787448883,
+            -0.042925722897052765,
+            -0.0575050413608551
+        ],
+        [
+            0.6989577389618047,
+            0.0017047117380936453,
+            0.9687472150577363,
+            -0.0028424319447341705,
+            0.00031074671740231814,
+            -0.10961749256483518,
+            0.9939697326080494,
+            0.0010570476297289133,
+            -0.002169025130569935,
+            -0.0008326381212100387,
+            0.03206976503133774,
+            0.00829893909394741,
+            0.001892396598123014
+        ]
+    ],
+    "position_instruction": "Place the speaker behind the toilet paper roll on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.",
+    "rotation_instruction_label": "upright_textual",
+    "obj_codes": [
+        "6d5284b842434413a17133f7bf259669",
+        "6d155e8051294915813e0c156e3cd6de",
+        "f3dd3064db4f4e8880344425970cecad",
+        "4445f4442a884999960e7e6660459095"
+    ],
+    "target_obj_code": "4445f4442a884999960e7e6660459095",
+    "anno_target": {
+        "category": "speaker",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.": {
+                "quat": [
+                    [
+                        -0.4999999701976776,
+                        -0.5000000596046448,
+                        -0.4999999701976776,
+                        -0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright_textual",
+    "rot_tag_level": 2,
+    "position_tag": "behind",
+    "rotation_tag": "upright_textual"
+}

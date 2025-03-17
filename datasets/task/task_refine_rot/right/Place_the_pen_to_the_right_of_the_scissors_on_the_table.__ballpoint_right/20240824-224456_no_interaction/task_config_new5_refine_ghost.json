@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "scissors",
+        "toy",
+        "shoe",
+        "pen"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/2b1120c4b517409184413ed709c57a66/material_2.urdf",
+        "ycb_16k_backup/073-g_lego_duplo_google_16k/073-g_lego_duplo_google_16k.urdf",
+        "objaverse_rescale/d6951661c1e445d8a1d00b7d38d86030/material_2.urdf",
+        "objaverse_rescale/fbeb7c776372466daffa619106e0b2e0/material_2.urdf"
+    ],
+    "target_obj_name": "pen",
+    "instruction": "Place the pen to the right of the scissors on the table. We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "init_obj_pos": [
+        [
+            0.428870566153836,
+            0.1589656411362502,
+            0.904150264130545,
+            0.00633868290368323,
+            -0.002093558418816595,
+            0.9995882844259991,
+            0.027905192177821416,
+            -0.014721370302140713,
+            0.007211757358163595,
+            0.02165895886719227,
+            -2.0044195652008057,
+            1.01836359500885,
+            1.4733456373214722
+        ],
+        [
+            0.32373261696328837,
+            0.1469993826219758,
+            0.9002531370592823,
+            0.002186605875527592,
+            -0.0007254808702206532,
+            0.05291774765777139,
+            0.9985962169040502,
+            -0.001523831277154386,
+            -0.0002997232659254223,
+            -0.0026209282223135233,
+            0.012338320724666119,
+            -0.01185507234185934,
+            -0.006602698005735874
+        ],
+        [
+            0.5428193219764651,
+            -0.09338649086501616,
+            0.9277165156660807,
+            -0.0748161913118818,
+            -0.06419977229333149,
+            -0.024898990301205265,
+            0.9948170520437659,
+            -0.014012740924954414,
+            0.0011467974400147796,
+            -0.008786700665950775,
+            0.5990828275680542,
+            -0.46716246008872986,
+            -0.05744480341672897
+        ],
+        [
+            0.3635820772227586,
+            -0.15803851939302888,
+            0.9074604266711018,
+            0.06655150058168663,
+            0.02154018554773532,
+            0.17928256102132498,
+            0.9813076385571095,
+            0.002208254998549819,
+            -0.0013680817792192101,
+            0.03223887458443642,
+            -3.189027786254883,
+            -3.2531189918518066,
+            -0.8395866751670837
+        ]
+    ],
+    "position_instruction": "Place the pen to the right of the scissors on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "rotation_instruction_label": "ballpoint_right",
+    "obj_codes": [
+        "2b1120c4b517409184413ed709c57a66",
+        "073-g",
+        "d6951661c1e445d8a1d00b7d38d86030",
+        "fbeb7c776372466daffa619106e0b2e0"
+    ],
+    "target_obj_code": "fbeb7c776372466daffa619106e0b2e0",
+    "anno_target": {
+        "category": "pen",
+        "annotation": {
+            " the ballpoint of the pen is on the left(oriented towards left), while the clicker is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "ballpoint_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "ballpoint_right"
+}

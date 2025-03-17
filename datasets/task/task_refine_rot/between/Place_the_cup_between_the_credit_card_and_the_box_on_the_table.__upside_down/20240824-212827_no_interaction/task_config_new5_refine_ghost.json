@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "credit card",
+        "box",
+        "toilet paper roll",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/5de830b2cccf4fe7a2e6b400abf26ca7/material_2.urdf",
+        "ycb_16k_backup/003_cracker_box_google_16k/003_cracker_box_google_16k.urdf",
+        "objaverse_rescale/7ca7ebcfad964498b49af73be442acf9/material_2.urdf",
+        "ycb_16k_backup/065-j_cups_google_16k/065-j_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup between the credit card and the box on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.5251863348859663,
+            -0.17542803297934223,
+            0.9017773051194172,
+            -0.2595706410081681,
+            -0.9654907930590765,
+            0.020498745931406798,
+            0.00551473118145871,
+            -1.3106568985676859e-05,
+            -2.848167969204951e-05,
+            0.03519171476364136,
+            1.1324994564056396,
+            -0.6315550208091736,
+            0.008000022731721401
+        ],
+        [
+            0.4056013144379985,
+            0.05476289678233023,
+            0.9038231659936444,
+            -0.008190289313742768,
+            -0.012126278407937764,
+            -0.5563923426756563,
+            0.8307908482553391,
+            -0.0008947487222030759,
+            0.0015896165277808905,
+            -0.0006375234806910157,
+            -0.020907968282699585,
+            -0.008817200548946857,
+            -0.0035189525224268436
+        ],
+        [
+            0.530448266975056,
+            0.2164741304674946,
+            0.9440052889828622,
+            -0.007986393428823884,
+            -0.29781800027336514,
+            -0.025976925457392493,
+            0.9542357442356448,
+            0.002829300705343485,
+            6.653698073932901e-05,
+            0.00033069064375013113,
+            -0.0010394435375928879,
+            0.039161086082458496,
+            0.007599024102091789
+        ],
+        [
+            0.41366127997670654,
+            0.22085960787935444,
+            0.9256949824828379,
+            -0.4800297683797436,
+            0.4588707589477432,
+            0.736784333331724,
+            0.12711370582647738,
+            0.005365224555134773,
+            -0.0020155839156359434,
+            -0.006821269169449806,
+            0.0027697342447936535,
+            0.10888621211051941,
+            0.060188423842191696
+        ]
+    ],
+    "position_instruction": "Place the cup between the credit card and the box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "5de830b2cccf4fe7a2e6b400abf26ca7",
+        "003",
+        "7ca7ebcfad964498b49af73be442acf9",
+        "065-j"
+    ],
+    "target_obj_code": "065-j",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

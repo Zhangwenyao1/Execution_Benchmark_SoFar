@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "apple",
+        "binder",
+        "fork",
+        "wineglass"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f53d75bd123b40bca14d12d54286f432/material_2.urdf",
+        "objaverse_rescale/78e016eeb0bf45d5bea47547128383a8/material_2.urdf",
+        "ycb_16k_backup/030_fork_google_16k/030_fork_google_16k.urdf",
+        "objaverse_rescale/afca0b1933b84b1dbebd1244f25e72fc/material_2.urdf"
+    ],
+    "target_obj_name": "wineglass",
+    "instruction": "Place the wineglass to the right of the apple on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.5014558661233908,
+            -0.17518558488744257,
+            0.9682676877877304,
+            0.06604520790547554,
+            0.0416878665162592,
+            -0.035493588554392,
+            0.9963133831629365,
+            0.007033610716462135,
+            0.004690173547714949,
+            -0.0013418379239737988,
+            -0.06928972154855728,
+            0.12032225728034973,
+            0.09333434700965881
+        ],
+        [
+            0.69283520897068,
+            0.17389227484051645,
+            1.0259559532214642,
+            -2.3189413222584193e-06,
+            8.404780285675072e-07,
+            -0.03254517215800857,
+            0.9994702655722784,
+            -0.0018662576330825686,
+            -1.9544979295460507e-05,
+            -0.0008392309537157416,
+            -0.000637920165900141,
+            -0.010917559266090393,
+            0.0023593995720148087
+        ],
+        [
+            0.6376211472580637,
+            -0.248625121661316,
+            0.9028356619038606,
+            0.05391978212197196,
+            -0.005395331349615721,
+            -0.1247165124037755,
+            0.990711531692948,
+            0.0012863733572885394,
+            0.002600049367174506,
+            5.473847340908833e-05,
+            -0.17034369707107544,
+            0.3569318354129791,
+            0.02473638392984867
+        ],
+        [
+            0.5476142984343826,
+            0.014317471914777544,
+            0.9407042811601009,
+            0.003238086821865491,
+            0.023742826158691024,
+            0.03194870435717099,
+            0.9992022184170873,
+            0.0003043761826120317,
+            0.005710539873689413,
+            -0.0003551563713699579,
+            -0.1525285542011261,
+            0.038898974657058716,
+            -0.00986193772405386
+        ]
+    ],
+    "position_instruction": "Place the wineglass to the right of the apple on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "f53d75bd123b40bca14d12d54286f432",
+        "78e016eeb0bf45d5bea47547128383a8",
+        "030",
+        "afca0b1933b84b1dbebd1244f25e72fc"
+    ],
+    "target_obj_code": "afca0b1933b84b1dbebd1244f25e72fc",
+    "anno_target": {
+        "category": "wineglass",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upside_down"
+}

@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "plate",
+        "spatula",
+        "toilet paper roll",
+        "wineglass"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/8d50c19e138b403e8b2ede9b47d8be3c/material_2.urdf",
+        "objaverse_rescale/4b27628be0804c0285d0b13dda025a0d/material_2.urdf",
+        "objaverse_rescale/ea0cf48616e34708b73c82eb7c7366ca/material_2.urdf",
+        "objaverse_rescale/afca0b1933b84b1dbebd1244f25e72fc/material_2.urdf"
+    ],
+    "target_obj_name": "wineglass",
+    "instruction": "Place the wineglass at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.4094577753442664,
+            -0.2413193482518389,
+            0.9147543752954745,
+            0.705030394723059,
+            0.05418195634106866,
+            0.054174992327682886,
+            0.705025906141043,
+            2.1468233171617612e-05,
+            0.000463728210888803,
+            -0.0008678615558892488,
+            -0.04531606659293175,
+            0.011407827027142048,
+            0.002424613106995821
+        ],
+        [
+            0.751982317446036,
+            -0.18373392773040167,
+            0.9150053668071876,
+            0.05159906685452148,
+            0.353638354962824,
+            -0.04674549652313465,
+            0.9327873866823764,
+            0.012851796112954617,
+            -0.01237293891608715,
+            0.02315646968781948,
+            0.6784442663192749,
+            0.7709936499595642,
+            0.2225254774093628
+        ],
+        [
+            0.764306602104429,
+            0.09507657587991283,
+            0.949733618255826,
+            0.04873476280913378,
+            0.4772314707178051,
+            -0.05728999043390709,
+            0.875552912876509,
+            0.017045434564352036,
+            -0.0029633939266204834,
+            -0.0025883864145725965,
+            0.02922004461288452,
+            0.21604354679584503,
+            -0.0072210137732326984
+        ],
+        [
+            0.40224507969333123,
+            0.15511006971237923,
+            0.9407042928794452,
+            0.0017251664634657959,
+            0.024146881394569313,
+            0.09419015804306037,
+            0.9952598485056109,
+            -0.0017995611997321248,
+            0.005578538868576288,
+            -0.00013553949247580022,
+            -0.10575193911790848,
+            -0.036162782460451126,
+            -0.031486012041568756
+        ]
+    ],
+    "position_instruction": "Place the wineglass at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "8d50c19e138b403e8b2ede9b47d8be3c",
+        "4b27628be0804c0285d0b13dda025a0d",
+        "ea0cf48616e34708b73c82eb7c7366ca",
+        "afca0b1933b84b1dbebd1244f25e72fc"
+    ],
+    "target_obj_code": "afca0b1933b84b1dbebd1244f25e72fc",
+    "anno_target": {
+        "category": "wineglass",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "center",
+    "rotation_tag": "upside_down"
+}

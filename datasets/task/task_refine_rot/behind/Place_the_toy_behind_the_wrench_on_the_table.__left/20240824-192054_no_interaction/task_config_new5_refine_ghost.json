@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "wrench",
+        "watch",
+        "clock",
+        "toy"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf",
+        "objaverse_rescale/fdb8227a88b2448d8c64fa82ffee3f58/material_2.urdf",
+        "objaverse_rescale/fdf932b04e6c4e0fbd6e274563b94536/material_2.urdf",
+        "ycb_16k_backup/072-a_toy_airplane_google_16k/072-a_toy_airplane_google_16k.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "Place the toy behind the wrench on the table. We also need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "init_obj_pos": [
+        [
+            0.504664477213225,
+            0.015029514467958636,
+            0.9037353087436343,
+            0.013740136684411918,
+            -0.009932566190387345,
+            -0.013152978202357104,
+            0.9997697494609314,
+            0.0019565836992114782,
+            -0.003815992269665003,
+            0.03442852199077606,
+            -0.34821009635925293,
+            0.8200640082359314,
+            0.5823332667350769
+        ],
+        [
+            0.41936792570649084,
+            0.10783453379814906,
+            0.9695499321752754,
+            0.0019269800438739785,
+            0.02273822354674424,
+            -0.08359407173995806,
+            0.9962385713812648,
+            0.002799974288791418,
+            -0.0003833454102277756,
+            -0.0002760911884251982,
+            0.009290553629398346,
+            0.044739339500665665,
+            0.051216971129179
+        ],
+        [
+            0.5338635553205349,
+            -0.21145268955441818,
+            0.934319683924563,
+            -0.015982963331182442,
+            -0.00035142069590584236,
+            0.038048988213538026,
+            0.9991479849764875,
+            -8.763527716837416e-07,
+            -7.525065029767575e-06,
+            -1.5012044968898408e-05,
+            0.0001553968759253621,
+            -4.5166029849497136e-06,
+            9.661576768849045e-06
+        ],
+        [
+            0.5832031693693799,
+            -0.029652415010428815,
+            0.9036632747060706,
+            0.03253687664984871,
+            0.013917116908821458,
+            0.05205986545408225,
+            0.9980167513242051,
+            0.0037145474925637245,
+            0.0011014719493687153,
+            -0.0011094659566879272,
+            -0.014678673818707466,
+            0.04930144548416138,
+            -0.0016132156597450376
+        ]
+    ],
+    "position_instruction": "Place the toy behind the wrench on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "rotation_instruction_label": "left",
+    "obj_codes": [
+        "042",
+        "fdb8227a88b2448d8c64fa82ffee3f58",
+        "fdf932b04e6c4e0fbd6e274563b94536",
+        "072-a"
+    ],
+    "target_obj_code": "072-a",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        -0.0,
+                        0.0,
+                        -0.9992738962173462,
+                        -0.038100600242614746
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        -0.0,
+                        0.0,
+                        -0.042994238436222076,
+                        0.9990752935409546
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_left",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "left"
+}

@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "headphone",
+        "pear",
+        "cup",
+        "calculator"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/ea91786392284f03809c37976da090bf/material_2.urdf",
+        "objaverse_rescale/f3dd3064db4f4e8880344425970cecad/material_2.urdf",
+        "ycb_16k_backup/065-f_cups_google_16k/065-f_cups_google_16k.urdf",
+        "objaverse_rescale/d9ffbc4bbe1044bb902e1dddac52b0de/material_2.urdf"
+    ],
+    "target_obj_name": "calculator",
+    "instruction": "Place the calculator to the right of the headphone on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.5308313833925818,
+            0.16722164367161077,
+            0.9488561388807325,
+            -0.13684959443553668,
+            -0.6918427308504411,
+            -0.030523412500008725,
+            0.7083037099730519,
+            0.0014682802138850093,
+            -0.004418692551553249,
+            -0.0010313835227862,
+            0.09896615892648697,
+            0.03328371047973633,
+            0.0017911469331011176
+        ],
+        [
+            0.433791062084367,
+            0.027203707880970464,
+            0.9343877163482951,
+            -0.17221655678847678,
+            -0.020994636116904965,
+            0.12657589841133327,
+            0.9766674074441124,
+            -0.0020820125937461853,
+            0.0012741333339363337,
+            -0.00024242475046776235,
+            -0.027971066534519196,
+            -0.05807255208492279,
+            -0.05751512944698334
+        ],
+        [
+            0.5429135425751658,
+            -0.013278915044167056,
+            0.9003517795487066,
+            0.00048254862579432284,
+            0.00019546283115487022,
+            -0.03119353065708207,
+            0.9995132278195475,
+            -0.0015355116920545697,
+            -0.0030648070387542248,
+            -0.002218131674453616,
+            0.08728043735027313,
+            -0.026128249242901802,
+            4.046888352604583e-05
+        ],
+        [
+            0.49000037900559196,
+            -0.13752753422627265,
+            0.9051821850717118,
+            -0.7035151877235055,
+            -0.03039934758040561,
+            0.030661558159124372,
+            0.7093674147860907,
+            -0.0002538096741773188,
+            -0.0016041843919083476,
+            -0.0037876046262681484,
+            0.20116209983825684,
+            0.0228261798620224,
+            0.018006769940257072
+        ]
+    ],
+    "position_instruction": "Place the calculator to the right of the headphone on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "ea91786392284f03809c37976da090bf",
+        "f3dd3064db4f4e8880344425970cecad",
+        "065-f",
+        "d9ffbc4bbe1044bb902e1dddac52b0de"
+    ],
+    "target_obj_code": "d9ffbc4bbe1044bb902e1dddac52b0de",
+    "anno_target": {
+        "category": "calculator",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upside_down"
+}

@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "wrench",
+        "hammer",
+        "knife",
+        "mouse"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/5bf781c9fd8d4121b735503b13ba2eaf/material_2.urdf",
+        "ycb_16k_backup/048_hammer_google_16k/048_hammer_google_16k.urdf",
+        "ycb_16k_backup/032_knife_google_16k/032_knife_google_16k.urdf",
+        "objaverse_rescale/969b0d9d99a8468898753fdcd219f883/material_2.urdf"
+    ],
+    "target_obj_name": "mouse",
+    "instruction": "Place the mouse to the left of the wrench on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.47232293116586177,
+            -0.04110749662182891,
+            0.9061591743664557,
+            0.6265256806317345,
+            -0.2777462891800407,
+            -0.3028484245698179,
+            0.6622729060525123,
+            -0.00250229611992836,
+            0.0005776103353127837,
+            0.03013858012855053,
+            1.5399138927459717,
+            -0.8768227696418762,
+            -0.05206495523452759
+        ],
+        [
+            0.42378951014132216,
+            -0.13469699888120976,
+            0.8974997824015349,
+            0.0005977256806231517,
+            -0.0007953614786210593,
+            0.3130371622018893,
+            0.9497403567316266,
+            0.004209604114294052,
+            0.004739162512123585,
+            0.021256348118185997,
+            -0.19266968965530396,
+            0.3336154520511627,
+            0.027477191761136055
+        ],
+        [
+            0.4806465281413974,
+            0.10708317138929449,
+            0.9093755151036762,
+            -0.24667697355114965,
+            0.9676940556847657,
+            -0.04962484918468671,
+            -0.016001864123078795,
+            -0.0012669428251683712,
+            2.2010988686815836e-05,
+            0.03514856845140457,
+            -2.899296522140503,
+            -0.737480640411377,
+            0.05860248953104019
+        ],
+        [
+            0.34336523578158906,
+            0.28558779675801815,
+            0.9208235282649675,
+            -0.5548860916954006,
+            -0.31397459172250364,
+            0.25480228529745647,
+            0.7270468873483226,
+            0.0071645742282271385,
+            0.001077058957889676,
+            0.0003684618859551847,
+            0.16773055493831635,
+            0.2826562523841858,
+            -0.07210003584623337
+        ]
+    ],
+    "position_instruction": "Place the mouse to the left of the wrench on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "5bf781c9fd8d4121b735503b13ba2eaf",
+        "048",
+        "032",
+        "969b0d9d99a8468898753fdcd219f883"
+    ],
+    "target_obj_code": "969b0d9d99a8468898753fdcd219f883",
+    "anno_target": {
+        "category": "mouse",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "upright"
+}

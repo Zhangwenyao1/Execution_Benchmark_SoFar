@@ -1,0 +1,97 @@
+{
+    "selected_obj_names": [
+        "toilet paper roll",
+        "box",
+        "hard drive"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/7ca7ebcfad964498b49af73be442acf9/material_2.urdf",
+        "ycb_16k_backup/009_gelatin_box_google_16k/009_gelatin_box_google_16k.urdf",
+        "objaverse_rescale/e32b159011544b8aa7cacd812636353e/material_2.urdf"
+    ],
+    "target_obj_name": "hard drive",
+    "instruction": "Place the hard drive in front of toilet paper roll on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.5529030524399009,
+            -0.05155031340795358,
+            0.9457631102913349,
+            0.030577006519381947,
+            -0.47040397428293623,
+            0.05719355465776915,
+            0.8800647958853604,
+            0.0006301184766925871,
+            3.984774593845941e-05,
+            -0.00011245683708693832,
+            -0.0004857734893448651,
+            0.008635536767542362,
+            -0.00012352656631264836
+        ],
+        [
+            0.3480537168589904,
+            -0.07710984327331659,
+            0.9003364113635381,
+            -0.002584950136662461,
+            0.0019221944946049866,
+            -0.046447999050693765,
+            0.9989155152390524,
+            0.0040624020621180534,
+            -0.010685784742236137,
+            0.02300863526761532,
+            0.7651075124740601,
+            0.2729998528957367,
+            -0.08334484696388245
+        ],
+        [
+            0.5137933622677824,
+            0.13080169660307345,
+            0.9151859270817326,
+            0.7048464858336044,
+            -0.056510257314081984,
+            -0.056513203752330675,
+            0.7048434436298343,
+            -1.5189970326900948e-05,
+            9.84485523076728e-05,
+            9.329684189651744e-07,
+            -0.0012286296114325523,
+            -0.001368152443319559,
+            -0.001078777713701129
+        ]
+    ],
+    "position_instruction": "Place the hard drive in front of toilet paper roll on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "7ca7ebcfad964498b49af73be442acf9",
+        "009",
+        "e32b159011544b8aa7cacd812636353e"
+    ],
+    "target_obj_code": "e32b159011544b8aa7cacd812636353e",
+    "anno_target": {
+        "category": "hard_drive",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "front",
+    "rotation_tag": "lying_flat"
+}

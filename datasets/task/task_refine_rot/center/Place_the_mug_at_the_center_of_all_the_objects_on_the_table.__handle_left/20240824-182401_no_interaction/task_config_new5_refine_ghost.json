@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "hammer",
+        "orange",
+        "mug",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/4f24b866dab248b684149ec6bb40101f/material_2.urdf",
+        "objaverse_rescale/a4c9a503f63e440e8d6d924d4e5c36b1/material_2.urdf",
+        "objaverse_rescale/b8478cea51454555b90de0fe6ba7ba83/material_2.urdf",
+        "objaverse_rescale/3ea2fd4e065147048064f4c97a89fe6f/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "init_obj_pos": [
+        [
+            0.3676099761280025,
+            -0.2611500091731174,
+            0.9141268155820346,
+            0.005257989885123967,
+            0.015407553563408345,
+            0.0072925435559416,
+            0.999840877161983,
+            0.0030248430557549,
+            -0.0018044752068817616,
+            0.018139667809009552,
+            0.07441962510347366,
+            0.2813042104244232,
+            -0.14072875678539276
+        ],
+        [
+            0.6114513643685813,
+            -0.1319665031809609,
+            0.9411258181630519,
+            -0.045700944525822455,
+            -0.4911208943118183,
+            -0.324012239260473,
+            -0.8072965747785759,
+            0.004598463419824839,
+            0.0018924304749816656,
+            0.00025473066489212215,
+            -0.0023580787237733603,
+            0.04767104238271713,
+            -0.037937913089990616
+        ],
+        [
+            0.6018375556479859,
+            0.0565258541580788,
+            0.9647513487962176,
+            -0.014915870289911048,
+            -0.22799591127826357,
+            -0.06353374283465515,
+            0.9714725136488983,
+            -6.377032696036622e-05,
+            8.448981679975986e-05,
+            -0.00020426372066140175,
+            -0.0010677942773327231,
+            0.0007271131034940481,
+            -0.0002308311522938311
+        ],
+        [
+            0.4870549440383911,
+            -0.0681972810345072,
+            0.3469702899456024,
+            0.5714659690856934,
+            0.4571276903152466,
+            0.4032285213470459,
+            0.5494247078895569,
+            0.01406966894865036,
+            -0.003967846743762493,
+            0.012533621862530708,
+            0.008844551630318165,
+            0.31596410274505615,
+            0.08864367008209229
+        ]
+    ],
+    "position_instruction": "Place the mug at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "rotation_instruction_label": "handle_left",
+    "obj_codes": [
+        "4f24b866dab248b684149ec6bb40101f",
+        "a4c9a503f63e440e8d6d924d4e5c36b1",
+        "b8478cea51454555b90de0fe6ba7ba83",
+        "3ea2fd4e065147048064f4c97a89fe6f"
+    ],
+    "target_obj_code": "3ea2fd4e065147048064f4c97a89fe6f",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).": {
+                "quat": [
+                    [
+                        -0.07323886454105377,
+                        -0.7033036947250366,
+                        -0.7033036947250366,
+                        -0.07323885709047318
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "center",
+    "rotation_tag": "handle_left"
+}

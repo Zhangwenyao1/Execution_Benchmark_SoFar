@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "shoe",
+        "watch",
+        "mug",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/aa51af2f1270482193471455b504efc6/material_2.urdf",
+        "objaverse_rescale/d6e38c73f8f2402aac890e8ebb115302/material_2.urdf",
+        "objaverse_rescale/db9345f568e8499a9eac2577302b5f51/material_2.urdf",
+        "ycb_16k_backup/065-j_cups_google_16k/065-j_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6029762312962933,
+            -0.21262979351435962,
+            0.9320596991831261,
+            0.02913151781702104,
+            0.07911520082538029,
+            0.10516830708740885,
+            0.9908742437122906,
+            -0.0001908920385176316,
+            -0.0014587644254788756,
+            0.0001422539062332362,
+            0.04517040774226189,
+            0.0058714887127280235,
+            0.0026212171651422977
+        ],
+        [
+            0.5452079544325733,
+            0.09642019641151352,
+            0.932126101504794,
+            -0.01851329448405875,
+            -0.011401774335277575,
+            0.053495341966803264,
+            0.998331360750131,
+            -0.00324545381590724,
+            0.001585122081451118,
+            -0.0006885395268909633,
+            -0.01918843947350979,
+            -0.05322787165641785,
+            -0.03625969961285591
+        ],
+        [
+            0.39824695815042244,
+            -0.31141919651057115,
+            0.964300173443464,
+            -0.049308894240259,
+            -0.9674803798121673,
+            0.012621749096989434,
+            -0.24777215153652699,
+            -0.0005112997605465353,
+            0.0008991311187855899,
+            2.964453051390592e-05,
+            -0.012723189778625965,
+            -0.0001294810645049438,
+            -0.002854035934433341
+        ],
+        [
+            0.4097134605110222,
+            -0.16908000234011566,
+            0.9323446261261787,
+            0.4509961335800796,
+            -0.4864861098159244,
+            0.733694435932536,
+            -0.14705858401883315,
+            -0.007845316082239151,
+            0.0015683554811403155,
+            -0.0006154066068120301,
+            -0.00804966501891613,
+            -0.19492819905281067,
+            -0.016623815521597862
+        ]
+    ],
+    "position_instruction": "Place the cup at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "aa51af2f1270482193471455b504efc6",
+        "d6e38c73f8f2402aac890e8ebb115302",
+        "db9345f568e8499a9eac2577302b5f51",
+        "065-j"
+    ],
+    "target_obj_code": "065-j",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "center",
+    "rotation_tag": "upside_down"
+}

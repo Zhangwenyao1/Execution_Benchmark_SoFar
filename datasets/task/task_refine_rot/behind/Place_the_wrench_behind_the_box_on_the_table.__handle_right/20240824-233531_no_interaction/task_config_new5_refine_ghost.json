@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "box",
+        "mug",
+        "remote control",
+        "wrench"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/004_sugar_box_google_16k/004_sugar_box_google_16k.urdf",
+        "objaverse_rescale/b8478cea51454555b90de0fe6ba7ba83/material_2.urdf",
+        "objaverse_rescale/c7ec86e7feb746489b30b4a01c2510af/material_2.urdf",
+        "objaverse_rescale/5bf781c9fd8d4121b735503b13ba2eaf/material_2.urdf"
+    ],
+    "target_obj_name": "wrench",
+    "instruction": "Place the wrench behind the box on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.43509460123820326,
+            -0.24724775284099912,
+            0.8998698468144165,
+            -0.0006708082167876646,
+            -6.886904983909365e-05,
+            -0.04848746911774535,
+            0.9988235633043235,
+            -0.00332074286416173,
+            -0.0018510184017941356,
+            -0.0008624190231785178,
+            0.021742217242717743,
+            -0.04114212840795517,
+            -0.01625794544816017
+        ],
+        [
+            0.5330117637916013,
+            0.17594527662638407,
+            0.9653317052878064,
+            0.01275107780844503,
+            -0.22801512587296519,
+            0.07634351487288375,
+            0.9705762103640864,
+            -8.437509677605703e-05,
+            5.9297497500665486e-05,
+            -0.00023091936600394547,
+            -0.0013273238437250257,
+            0.000707081111613661,
+            0.000719977542757988
+        ],
+        [
+            0.6830468953339105,
+            0.18700551760344114,
+            0.9082268852496153,
+            -0.13054830681071208,
+            -0.6951188764915418,
+            0.690711452927943,
+            0.1506139964550591,
+            -0.013235845603048801,
+            0.013079768046736717,
+            0.041341785341501236,
+            -1.5598939657211304,
+            -1.9858713150024414,
+            0.12006571143865585
+        ],
+        [
+            0.2755709658038329,
+            -0.19822388207359495,
+            0.9057339996047474,
+            0.48134210984468456,
+            0.5155624389635257,
+            -0.5240789492988159,
+            -0.4773325881626947,
+            0.00024714937899261713,
+            -0.00014677071885671467,
+            0.028912773355841637,
+            -0.46538227796554565,
+            0.6630560755729675,
+            -0.0656830370426178
+        ]
+    ],
+    "position_instruction": "Place the wrench behind the box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "004",
+        "b8478cea51454555b90de0fe6ba7ba83",
+        "c7ec86e7feb746489b30b4a01c2510af",
+        "5bf781c9fd8d4121b735503b13ba2eaf"
+    ],
+    "target_obj_code": "5bf781c9fd8d4121b735503b13ba2eaf",
+    "anno_target": {
+        "category": "wrench",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "handle_right"
+}

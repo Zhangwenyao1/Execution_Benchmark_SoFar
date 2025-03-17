@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "keyboard",
+        "shoe",
+        "can",
+        "book"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f5080a3df6d847b693c5cca415886c61/material_2.urdf",
+        "objaverse_rescale/aa51af2f1270482193471455b504efc6/material_2.urdf",
+        "ycb_16k_backup/002_master_chef_can_google_16k/002_master_chef_can_google_16k.urdf",
+        "objaverse_rescale/de79a920c48745ff95c0df7a7c300091/material_2.urdf"
+    ],
+    "target_obj_name": "book",
+    "instruction": "Place the book behind the keyboard on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.5067795181835295,
+            -0.07681616086488664,
+            0.913847341287085,
+            0.7031813634413411,
+            -0.02053296249225011,
+            -0.02179134038619265,
+            0.7103798315297547,
+            0.0013903399230912328,
+            0.006491947919130325,
+            -0.004663763102144003,
+            -0.25437721610069275,
+            -0.024033473804593086,
+            0.0018155206926167011
+        ],
+        [
+            0.37103632696772276,
+            0.07764175807070813,
+            0.9320613836365084,
+            0.030695637371432015,
+            0.07841566190029578,
+            0.08418874791920183,
+            0.9928851980661699,
+            -0.0002691965491976589,
+            -0.0014634514227509499,
+            0.00019397385767661035,
+            0.04226374998688698,
+            1.0123067113454454e-05,
+            0.0006065966445021331
+        ],
+        [
+            0.31687732032728316,
+            0.24564070442276395,
+            0.9000915012203963,
+            -0.00014844508381060782,
+            0.00023476171837170088,
+            -0.06584452343859934,
+            0.9978298560296426,
+            0.0003374439256731421,
+            0.0009142633061856031,
+            -0.0006805769517086446,
+            -0.01758434809744358,
+            0.00458088144659996,
+            0.00027160168974660337
+        ],
+        [
+            0.5219582439476286,
+            0.19759106432446305,
+            0.9151444582758435,
+            0.007601449067681965,
+            -0.001383544137929484,
+            0.005812209563255829,
+            0.9999532599065227,
+            0.0006710680900141597,
+            -0.00040008031646721065,
+            5.0003567594103515e-05,
+            -0.0288875550031662,
+            -0.047064583748579025,
+            0.001948741846717894
+        ]
+    ],
+    "position_instruction": "Place the book behind the keyboard on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "f5080a3df6d847b693c5cca415886c61",
+        "aa51af2f1270482193471455b504efc6",
+        "002",
+        "de79a920c48745ff95c0df7a7c300091"
+    ],
+    "target_obj_code": "de79a920c48745ff95c0df7a7c300091",
+    "anno_target": {
+        "category": "book",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        1.0,
+                        0.0,
+                        0.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "behind",
+    "rotation_tag": "lying_flat"
+}

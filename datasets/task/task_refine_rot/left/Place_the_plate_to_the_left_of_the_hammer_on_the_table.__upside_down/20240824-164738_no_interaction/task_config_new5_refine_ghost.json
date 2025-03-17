@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "hammer",
+        "box",
+        "mug",
+        "plate"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/8ed38a92668a425eb16da938622d9ace/material_2.urdf",
+        "ycb_16k_backup/008_pudding_box_google_16k/008_pudding_box_google_16k.urdf",
+        "objaverse_rescale/e5e87ddbf3f6470384bef58431351e2a/material_2.urdf",
+        "objaverse_rescale/8d50c19e138b403e8b2ede9b47d8be3c/material_2.urdf"
+    ],
+    "target_obj_name": "plate",
+    "instruction": "Place the plate to the left of the hammer on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.2922302230795786,
+            -0.2739568909940503,
+            0.9112762694982978,
+            0.15205490296082075,
+            -0.688443161713823,
+            0.6926670786917184,
+            -0.15211060999066192,
+            0.0028738181572407484,
+            -0.00015936174895614386,
+            -0.008887329138815403,
+            0.08403900265693665,
+            -0.026708688586950302,
+            0.03149073198437691
+        ],
+        [
+            0.3300943905604316,
+            -0.05447719907722024,
+            0.9003415934187455,
+            -0.006134355047847478,
+            0.0025186486188819206,
+            -0.08283563388676023,
+            0.9965411601413467,
+            0.0004228079051245004,
+            -0.002038528909906745,
+            -0.0011633270187303424,
+            0.06144101917743683,
+            0.050523292273283005,
+            -0.03694872185587883
+        ],
+        [
+            0.4529698294687414,
+            -0.15481686787778773,
+            0.9327672079503161,
+            -0.02842500916482586,
+            0.22875446035101252,
+            0.12002286410394745,
+            0.9656386113944403,
+            -0.0026691812090575695,
+            -0.000677038449794054,
+            -0.000253417732892558,
+            0.012499754317104816,
+            -0.04991833493113518,
+            -1.1739640285668429e-05
+        ],
+        [
+            0.42811778988923693,
+            0.17689444610619814,
+            0.9147544195493119,
+            0.7068977739536755,
+            -0.017169181684071933,
+            -0.017176890149911393,
+            0.706898656685961,
+            0.00013231972116045654,
+            0.000474883388960734,
+            -0.0008963407017290592,
+            -0.04267577826976776,
+            0.0204244963824749,
+            0.0022175689227879047
+        ]
+    ],
+    "position_instruction": "Place the plate to the left of the hammer on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "8ed38a92668a425eb16da938622d9ace",
+        "008",
+        "e5e87ddbf3f6470384bef58431351e2a",
+        "8d50c19e138b403e8b2ede9b47d8be3c"
+    ],
+    "target_obj_code": "8d50c19e138b403e8b2ede9b47d8be3c",
+    "anno_target": {
+        "category": "plate",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "upside_down"
+}

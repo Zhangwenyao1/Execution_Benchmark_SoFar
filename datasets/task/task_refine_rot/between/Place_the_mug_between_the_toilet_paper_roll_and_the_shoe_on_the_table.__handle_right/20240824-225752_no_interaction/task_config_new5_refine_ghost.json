@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "toilet paper roll",
+        "shoe",
+        "cup",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/7ca7ebcfad964498b49af73be442acf9/material_2.urdf",
+        "objaverse_rescale/ae7142127dd84ebbbe7762368ace452c/material_2.urdf",
+        "ycb_16k_backup/065-j_cups_google_16k/065-j_cups_google_16k.urdf",
+        "objaverse_rescale/ca4f9a92cc2f4ee98fe9332db41bf7f7/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug between the toilet paper roll and the shoe on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.4252191278479592,
+            -0.14632371339313133,
+            0.9457635301293829,
+            0.044666408020383595,
+            -0.4692633475607268,
+            0.08356207007923533,
+            0.8779602514207174,
+            0.0015497213462367654,
+            9.049759682966396e-05,
+            -0.00013781515008304268,
+            -0.001149809337221086,
+            0.02146083302795887,
+            0.00010682323772925884
+        ],
+        [
+            0.5314884285806007,
+            0.2150756906462079,
+            0.9310957847657249,
+            -0.0049732497433537925,
+            0.2243038836990077,
+            0.0187176666650585,
+            0.974326784759173,
+            -0.0012603526702150702,
+            0.0022086219396442175,
+            -0.0002248763048555702,
+            -0.0462304912507534,
+            -0.02774198353290558,
+            0.0023300061002373695
+        ],
+        [
+            0.30078769403985545,
+            -0.22506188376123015,
+            0.9003778474793847,
+            0.00033236272176626226,
+            -0.00023292561151283208,
+            0.05025940601976348,
+            0.9987361149909516,
+            0.0013968674466013908,
+            -0.003325504017993808,
+            -0.0032502664253115654,
+            0.036042485386133194,
+            0.15984933078289032,
+            0.025764180347323418
+        ],
+        [
+            0.44144717912882414,
+            0.04544997176122912,
+            0.961014454057674,
+            0.068240868191361,
+            0.2228207033235015,
+            -0.15074508924213054,
+            0.9607132954988667,
+            0.0003601075441110879,
+            -0.0014148707268759608,
+            -0.000596594822127372,
+            0.028212809935212135,
+            0.006873672362416983,
+            -0.0013697321992367506
+        ]
+    ],
+    "position_instruction": "Place the mug between the toilet paper roll and the shoe on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "7ca7ebcfad964498b49af73be442acf9",
+        "ae7142127dd84ebbbe7762368ace452c",
+        "065-j",
+        "ca4f9a92cc2f4ee98fe9332db41bf7f7"
+    ],
+    "target_obj_code": "ca4f9a92cc2f4ee98fe9332db41bf7f7",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_right"
+}

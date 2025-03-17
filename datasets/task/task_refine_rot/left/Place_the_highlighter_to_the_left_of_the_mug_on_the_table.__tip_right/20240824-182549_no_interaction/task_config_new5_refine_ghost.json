@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "wrench",
+        "highlighter"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/3ea2fd4e065147048064f4c97a89fe6f/material_2.urdf",
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf",
+        "objaverse_rescale/fd058916fb8843c09b4a2e05e3ee894e/material_2.urdf"
+    ],
+    "target_obj_name": "highlighter",
+    "instruction": "Place the highlighter to the left of the mug on the table. We also need to specify the rotation of the object after placement:  the marker is placed in a stable pose on the table. Its tip end is pointing towards right and its cap end is pointing towards left.",
+    "init_obj_pos": [
+        [
+            0.5448804722524347,
+            -0.2877380740923723,
+            0.9544241754151349,
+            0.4400397050384521,
+            0.5534977679255573,
+            0.55350461398781,
+            0.4400430901460722,
+            0.0012031731894239783,
+            -0.0021432696375995874,
+            0.0003695421328302473,
+            0.04142923653125763,
+            0.030135786160826683,
+            0.011883266270160675
+        ],
+        [
+            0.5224091422251839,
+            0.01907864731203808,
+            0.9037839353631408,
+            0.01873083257083728,
+            -0.01235652921042148,
+            0.0919703443636369,
+            0.9955088788427304,
+            0.0029368118848651648,
+            -0.0013275386299937963,
+            0.03232954442501068,
+            0.6868495345115662,
+            -5.3696513175964355,
+            0.3474352955818176
+        ],
+        [
+            0.3620829401636093,
+            0.007542015220395628,
+            0.9121483654679089,
+            0.6671637237688006,
+            -0.23005914531483798,
+            -0.2244352867946045,
+            0.6720075575359085,
+            -0.0015113649424165487,
+            -0.0020181445870548487,
+            0.03414885699748993,
+            0.3739067316055298,
+            -0.24349351227283478,
+            0.031163623556494713
+        ]
+    ],
+    "position_instruction": "Place the highlighter to the left of the mug on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the marker is placed in a stable pose on the table. Its tip end is pointing towards right and its cap end is pointing towards left.",
+    "rotation_instruction_label": "tip_right",
+    "obj_codes": [
+        "3ea2fd4e065147048064f4c97a89fe6f",
+        "042",
+        "fd058916fb8843c09b4a2e05e3ee894e"
+    ],
+    "target_obj_code": "fd058916fb8843c09b4a2e05e3ee894e",
+    "anno_target": {
+        "category": "highlighter",
+        "annotation": {
+            " the marker is placed in a stable pose on the table. Its tip(or cap) end is pointing towards left and its rear end is pointing towards right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        -3.090862321641907e-08,
+                        0.7071068286895752,
+                        0.7071067094802856,
+                        -3.0908616110991716e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the marker is placed in a stable pose on the table. Its tip(or cap) end is pointing towards right and its rear end is pointing towards left.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "tip_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "tip_right"
+}

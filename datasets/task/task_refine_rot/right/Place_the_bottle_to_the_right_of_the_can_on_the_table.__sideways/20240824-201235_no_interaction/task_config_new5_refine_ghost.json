@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "can",
+        "bottle"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/007_tuna_fish_can_google_16k/007_tuna_fish_can_google_16k.urdf",
+        "ycb_16k_backup/006_mustard_bottle_google_16k/006_mustard_bottle_google_16k.urdf"
+    ],
+    "target_obj_name": "bottle",
+    "instruction": "Place the bottle to the right of the can on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.5098292267882341,
+            -0.18019937472589806,
+            0.903323883836696,
+            -0.00643089581318931,
+            -0.01881133291495697,
+            0.8861391828810037,
+            -0.46299257650203124,
+            -0.0015886721666902304,
+            -0.007015548180788755,
+            -0.0008840815862640738,
+            0.23626764118671417,
+            0.018146580085158348,
+            -0.13078853487968445
+        ],
+        [
+            0.5093432892772546,
+            -0.28430712848921075,
+            0.9007401517542458,
+            -0.45667004257762644,
+            0.21835427298371157,
+            0.12895697520538213,
+            0.8527273786080648,
+            0.0008275275467894971,
+            -0.015407838858664036,
+            0.018986569717526436,
+            0.4179958701133728,
+            0.17616061866283417,
+            0.12401654571294785
+        ]
+    ],
+    "position_instruction": "Place the bottle to the right of the can on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "007",
+        "006"
+    ],
+    "target_obj_code": "006",
+    "anno_target": {
+        "category": "bottle",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        -0.5752763748168945,
+                        -0.40566325187683105,
+                        0.5800817012786865,
+                        0.40987759828567505
+                    ],
+                    [
+                        0.6911351084709167,
+                        -0.15224890410900116,
+                        -0.6912870407104492,
+                        0.14585892856121063
+                    ],
+                    [
+                        0.3850180208683014,
+                        -0.5968241095542908,
+                        -0.38060277700424194,
+                        0.5922023057937622
+                    ],
+                    [
+                        -0.16173969209194183,
+                        -0.6879724264144897,
+                        0.169623464345932,
+                        0.6868493556976318
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "sideways"
+}

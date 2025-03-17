@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "wineglass",
+        "toy",
+        "glue gun",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/afca0b1933b84b1dbebd1244f25e72fc/material_2.urdf",
+        "ycb_16k_backup/073-g_lego_duplo_google_16k/073-g_lego_duplo_google_16k.urdf",
+        "objaverse_rescale/a1da12b81f034db894496c1ffc4be1f5/material_2.urdf",
+        "ycb_16k_backup/065-e_cups_google_16k/065-e_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup between the wineglass and the toy on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.5228221272255518,
+            -0.0767940463597775,
+            0.9407030412554491,
+            0.003712761801692519,
+            0.02400420350793764,
+            0.01182292968079844,
+            0.9996350493792799,
+            0.0006778346723876894,
+            0.005460054147988558,
+            -6.879388092784211e-05,
+            -0.15347757935523987,
+            0.06366536766290665,
+            0.006436661817133427
+        ],
+        [
+            0.5016672930204649,
+            0.12698712822325892,
+            0.9026171112570507,
+            0.01898675896287936,
+            -0.001662217758961607,
+            -0.11632859159595586,
+            0.9930278942675824,
+            -0.0017110215267166495,
+            -0.00025767835904844105,
+            -0.0025590211153030396,
+            0.00720180943608284,
+            -0.02353368140757084,
+            -0.003472076030448079
+        ],
+        [
+            0.5850162936644416,
+            0.252591958316147,
+            0.9740843217064432,
+            0.03792756976406026,
+            0.22678841565752908,
+            -0.06120944892741224,
+            0.9712784962807229,
+            0.012799868360161781,
+            0.0008483094861730933,
+            -0.0049473922699689865,
+            -0.03029496967792511,
+            0.2157316356897354,
+            -0.0013065757229924202
+        ],
+        [
+            0.344703509487003,
+            0.24280719213397625,
+            0.9008658210855557,
+            0.0009678425622887173,
+            -0.0024464874554840045,
+            -0.07071997840624697,
+            0.997492738136036,
+            0.002873776014894247,
+            0.0038868216797709465,
+            -0.009714195504784584,
+            -0.045664168894290924,
+            0.16379089653491974,
+            0.04047810286283493
+        ]
+    ],
+    "position_instruction": "Place the cup between the wineglass and the toy on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "afca0b1933b84b1dbebd1244f25e72fc",
+        "073-g",
+        "a1da12b81f034db894496c1ffc4be1f5",
+        "065-e"
+    ],
+    "target_obj_code": "065-e",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

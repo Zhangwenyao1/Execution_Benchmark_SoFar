@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "camera",
+        "tissue box",
+        "spatula",
+        "wrench"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6a63fc4af48b453c91ca2b335a4d464d/material_2.urdf",
+        "objaverse_rescale/6f8040c86eb84e7bba2cd928c0755029/material_2.urdf",
+        "objaverse_rescale/4b27628be0804c0285d0b13dda025a0d/material_2.urdf",
+        "objaverse_rescale/19c1913ba85042938f0a87d94397c946/material_2.urdf"
+    ],
+    "target_obj_name": "wrench",
+    "instruction": "Place the wrench to the left of the camera on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6957136156781121,
+            -0.21606872575903252,
+            0.9565255514271043,
+            0.0949325206747403,
+            0.006707534907754796,
+            0.09061613050648859,
+            0.9913281708827965,
+            0.0008826717385090888,
+            -1.0500055395823438e-05,
+            -0.001177602563984692,
+            -0.006420294754207134,
+            0.003792445408180356,
+            -0.013012539595365524
+        ],
+        [
+            0.671373368315446,
+            -0.0880495437101272,
+            0.9273054735328214,
+            0.012658587721732164,
+            0.00011639008126174857,
+            0.008815062492667104,
+            0.999881013562859,
+            -0.00019831913232337683,
+            -0.0011083242716267705,
+            -0.00020152406068518758,
+            0.019928043708205223,
+            -0.002347066532820463,
+            -0.00012039910507155582
+        ],
+        [
+            0.41379226903267846,
+            -0.16846542585570162,
+            0.9039862989977653,
+            -0.004197363000131536,
+            0.0020436075795176923,
+            -0.10871349551670097,
+            0.994062161891522,
+            -0.0013727277982980013,
+            0.00047332089161500335,
+            -0.01049855723977089,
+            0.31993231177330017,
+            1.0746947526931763,
+            -0.3533756136894226
+        ],
+        [
+            0.5231065015576138,
+            0.17315298259888573,
+            0.9075332408482142,
+            0.010011072056189006,
+            0.0011808067449788464,
+            -0.0357427745243371,
+            0.9993101811755047,
+            8.605499169789255e-05,
+            -0.0010901836212724447,
+            0.02809504233300686,
+            0.5288228988647461,
+            2.9436256885528564,
+            0.06825991719961166
+        ]
+    ],
+    "position_instruction": "Place the wrench to the left of the camera on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "6a63fc4af48b453c91ca2b335a4d464d",
+        "6f8040c86eb84e7bba2cd928c0755029",
+        "4b27628be0804c0285d0b13dda025a0d",
+        "19c1913ba85042938f0a87d94397c946"
+    ],
+    "target_obj_code": "19c1913ba85042938f0a87d94397c946",
+    "anno_target": {
+        "category": "wrench",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "handle_right"
+}

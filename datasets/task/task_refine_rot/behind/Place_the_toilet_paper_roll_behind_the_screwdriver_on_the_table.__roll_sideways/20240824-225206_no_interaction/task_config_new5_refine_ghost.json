@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "screwdriver",
+        "box",
+        "toilet paper roll"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/043_phillips_screwdriver_google_16k/043_phillips_screwdriver_google_16k.urdf",
+        "ycb_16k_backup/008_pudding_box_google_16k/008_pudding_box_google_16k.urdf",
+        "objaverse_rescale/6d5284b842434413a17133f7bf259669/material_2.urdf"
+    ],
+    "target_obj_name": "toilet paper roll",
+    "instruction": "Place the toilet paper roll behind the screwdriver on the table. We also need to specify the rotation of the object after placement:  the paper roll is lying sideways on the table, with its lateral surface in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.5884830485427942,
+            0.00010527475977711343,
+            0.9014680371060964,
+            -0.02576534319145223,
+            -0.012981968792108604,
+            0.05991247206805656,
+            0.9977866060772717,
+            0.00012816404341720045,
+            -0.0006792036583647132,
+            -0.000315835204673931,
+            0.001998122548684478,
+            0.012371893040835857,
+            0.019719738513231277
+        ],
+        [
+            0.5946416622642317,
+            -0.23016129797370496,
+            0.9003421288766952,
+            -0.0064035257283487825,
+            0.001811547240851217,
+            0.029830236301855547,
+            0.9995328259527121,
+            0.0002079428668366745,
+            -0.0010745866457000375,
+            -0.00197906163521111,
+            -0.02633434161543846,
+            -0.015749653801321983,
+            0.012773492373526096
+        ],
+        [
+            0.2735001775348488,
+            0.019786673545586865,
+            0.9337545216761627,
+            -0.029304242533198226,
+            -0.3836641386437877,
+            -0.07028335967986966,
+            0.9203278434560089,
+            -0.0329514779150486,
+            0.004506806377321482,
+            0.00482353987172246,
+            -0.058135293424129486,
+            -0.42714637517929077,
+            0.003873462788760662
+        ]
+    ],
+    "position_instruction": "Place the toilet paper roll behind the screwdriver on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the paper roll is lying sideways on the table, with its lateral surface in contact with the tabletop.",
+    "rotation_instruction_label": "roll_sideways",
+    "obj_codes": [
+        "043",
+        "008",
+        "6d5284b842434413a17133f7bf259669"
+    ],
+    "target_obj_code": "6d5284b842434413a17133f7bf259669",
+    "anno_target": {
+        "category": "toilet_paper_roll",
+        "annotation": {
+            " the paper roll is standing upright on the table, in the shape of a cylinder, and the axis(height) of the cylinder is perpendicular to the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the paper roll is lying sideways on the table, with its lateral surface in contact with the tabletop.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            }
+        }
+    },
+    "rot_tag_detail": "roll_sideways",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "roll_sideways"
+}

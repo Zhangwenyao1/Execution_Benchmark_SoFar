@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "screwdriver",
+        "knife",
+        "apple",
+        "paperweight"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/043_phillips_screwdriver_google_16k/043_phillips_screwdriver_google_16k.urdf",
+        "objaverse_rescale/0df75457524743ec81468c916fddb930/material_2.urdf",
+        "ycb_16k_backup/013_apple_google_16k/013_apple_google_16k.urdf",
+        "objaverse_rescale/21c10181c122474a8f72a4ad0331f185/material_2.urdf"
+    ],
+    "target_obj_name": "paperweight",
+    "instruction": "Place the paperweight in front of screwdriver on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.6814817968087639,
+            -0.14102621669842916,
+            0.9014536435676049,
+            -0.026621245722930193,
+            -0.010193457856348318,
+            -0.04045548314451203,
+            0.9987746275194588,
+            -0.0002248351083835587,
+            -2.6217363483738154e-05,
+            -0.00010463071521371603,
+            -0.01243360061198473,
+            -0.017957119271159172,
+            0.021179530769586563
+        ],
+        [
+            0.4181266587355284,
+            0.10454549814889275,
+            0.9051049198782901,
+            0.6121988014046441,
+            0.02638596005090198,
+            0.03212870302230771,
+            0.7896101285527011,
+            -0.003608816070482135,
+            -0.0016080912901088595,
+            0.044059257954359055,
+            -12.54870319366455,
+            15.55351448059082,
+            -0.3066630959510803
+        ],
+        [
+            0.6516435737601961,
+            -0.015472274407880428,
+            0.9006190231785915,
+            0.008415655205044996,
+            -0.018621752706614744,
+            0.08653144024915495,
+            0.9960395157432314,
+            -0.0011954579968005419,
+            -0.0032270329538732767,
+            -0.0006305472343228757,
+            0.11170300096273422,
+            -0.07895015180110931,
+            0.1533588021993637
+        ],
+        [
+            0.6100863792038826,
+            0.1369571001532979,
+            0.9379814952377935,
+            -0.148037510573557,
+            0.17872837909898562,
+            -0.008444986658760312,
+            0.972661166166392,
+            0.0023598801344633102,
+            -0.0037289196625351906,
+            -0.0004983773687854409,
+            0.10039035230875015,
+            0.0667991191148758,
+            0.013401241041719913
+        ]
+    ],
+    "position_instruction": "Place the paperweight in front of screwdriver on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "043",
+        "0df75457524743ec81468c916fddb930",
+        "013",
+        "21c10181c122474a8f72a4ad0331f185"
+    ],
+    "target_obj_code": "21c10181c122474a8f72a4ad0331f185",
+    "anno_target": {
+        "category": "paperweight",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "front",
+    "rotation_tag": "upright"
+}

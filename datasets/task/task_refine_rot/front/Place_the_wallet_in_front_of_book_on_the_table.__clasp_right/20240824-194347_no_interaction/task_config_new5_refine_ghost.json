@@ -1,0 +1,127 @@
+{
+    "selected_obj_names": [
+        "book",
+        "shoe",
+        "wallet"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/c61227cac7224b86b43c53ac2a2b6ec7/material_2.urdf",
+        "objaverse_rescale/ece4453042144b4a82fb86a4eab1ba7f/material_2.urdf",
+        "objaverse_rescale/ccfcc4ae6efa44a2ba34c4c479be7daf/material_2.urdf"
+    ],
+    "target_obj_name": "wallet",
+    "instruction": "Place the wallet in front of book on the table. We also need to specify the rotation of the object after placement:  the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)",
+    "init_obj_pos": [
+        [
+            0.548457126824362,
+            0.21591654247545244,
+            0.914163095744619,
+            0.0001767268316363667,
+            7.138556340671245e-06,
+            0.7257145063477386,
+            0.6879959476574877,
+            0.0003183215740136802,
+            -0.0007420552428811789,
+            -0.0021058747079223394,
+            0.026618370786309242,
+            -0.02502511441707611,
+            0.012238076888024807
+        ],
+        [
+            0.47303835015694573,
+            -0.23907148207004517,
+            0.931405196027087,
+            -0.05070593951826435,
+            -0.6989865803963737,
+            -0.013614266922871947,
+            0.7132049634288219,
+            -0.0007930788560770452,
+            -0.000386218074709177,
+            -0.0014394049067050219,
+            0.014643254689872265,
+            -0.029594682157039642,
+            -0.002465164754539728
+        ],
+        [
+            0.7345137537626303,
+            0.02812719682111562,
+            0.9072999309343506,
+            0.021985463764049525,
+            -0.7066765127779585,
+            0.705304865793354,
+            -0.05167196492567707,
+            -0.0006460268632508814,
+            -0.0009516191785223782,
+            -0.0018910402432084084,
+            0.11954963207244873,
+            -0.11015759408473969,
+            -0.0038717170245945454
+        ]
+    ],
+    "position_instruction": "Place the wallet in front of book on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)",
+    "rotation_instruction_label": "clasp_right",
+    "obj_codes": [
+        "c61227cac7224b86b43c53ac2a2b6ec7",
+        "ece4453042144b4a82fb86a4eab1ba7f",
+        "ccfcc4ae6efa44a2ba34c4c479be7daf"
+    ],
+    "target_obj_code": "ccfcc4ae6efa44a2ba34c4c479be7daf",
+    "anno_target": {
+        "category": "wallet",
+        "annotation": {
+            " the wallet is lying flat on the table, and the clasp is on the left(if the wallet has a clasp)": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ],
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ],
+                    [
+                        0.4999999701976776,
+                        0.5,
+                        -0.4999999701976776,
+                        -0.5000000596046448
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)": {
+                "quat": [
+                    [
+                        -0.5,
+                        0.4999999701976776,
+                        -0.5000000596046448,
+                        0.4999999701976776
+                    ],
+                    [
+                        -0.5,
+                        0.4999999701976776,
+                        -0.5000000596046448,
+                        0.4999999701976776
+                    ],
+                    [
+                        -0.5,
+                        0.5,
+                        0.4999999403953552,
+                        -0.5
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "clasp_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "clasp_right"
+}

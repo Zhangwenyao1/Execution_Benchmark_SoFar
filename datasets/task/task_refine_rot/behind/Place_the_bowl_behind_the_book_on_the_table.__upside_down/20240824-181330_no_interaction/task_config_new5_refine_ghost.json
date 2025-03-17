@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "book",
+        "watch",
+        "calculator",
+        "bowl"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/b2d30398ba3741da9f9aef2319ee2b8b/material_2.urdf",
+        "objaverse_rescale/243b381dcdc34316a7e78a533572d273/material_2.urdf",
+        "objaverse_rescale/b4bb8bd7791648fdb36c458fd9a877bf/material_2.urdf",
+        "ycb_16k_backup/024_bowl_google_16k/024_bowl_google_16k.urdf"
+    ],
+    "target_obj_name": "bowl",
+    "instruction": "Place the bowl behind the book on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6059847782710827,
+            0.19763770805255193,
+            0.9163859117320537,
+            -0.00036453251081717186,
+            -3.826490638125791e-05,
+            0.09544768388424314,
+            0.99543438020443,
+            0.008573994971811771,
+            -0.002638177713379264,
+            0.022875839844346046,
+            -0.06432865560054779,
+            0.4130883812904358,
+            0.04233021289110184
+        ],
+        [
+            0.5037957684829913,
+            0.1634008314532948,
+            0.9160816118755434,
+            -0.031053680388226902,
+            -0.5836833066726375,
+            0.022493210093613457,
+            0.8110755340569255,
+            -0.0010028757387772202,
+            0.007102091331034899,
+            0.014422937296330929,
+            -0.32868731021881104,
+            0.16629837453365326,
+            -0.055866558104753494
+        ],
+        [
+            0.5497669342794789,
+            -0.29713569715609683,
+            0.9130115207606397,
+            0.7044714507981658,
+            -0.07702044304381278,
+            -0.07752908850128525,
+            0.7012681846482292,
+            0.0002182723255828023,
+            -0.0004835761501453817,
+            -0.004105300642549992,
+            0.028375890105962753,
+            0.06610224395990372,
+            -0.009460890665650368
+        ],
+        [
+            0.3584137466212911,
+            0.11745560684135516,
+            0.9004641648631563,
+            0.00024910007063086876,
+            -0.0004979335582463771,
+            0.0784512071522488,
+            0.9969177990725631,
+            -0.000608168775215745,
+            0.00017822827794589102,
+            -0.00022532364528160542,
+            -0.001161769381724298,
+            -0.021957676857709885,
+            0.008410846814513206
+        ]
+    ],
+    "position_instruction": "Place the bowl behind the book on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "b2d30398ba3741da9f9aef2319ee2b8b",
+        "243b381dcdc34316a7e78a533572d273",
+        "b4bb8bd7791648fdb36c458fd9a877bf",
+        "024"
+    ],
+    "target_obj_code": "024",
+    "anno_target": {
+        "category": "bowl",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "upside_down"
+}

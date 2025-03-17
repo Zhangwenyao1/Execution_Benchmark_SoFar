@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "mug",
+        "spatula"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/dc4c91abf45342b4bb8822f50fa162b2/material_2.urdf",
+        "ycb_16k_backup/025_mug_google_16k/025_mug_google_16k.urdf",
+        "objaverse_rescale/81b129ecf5724f63b5b044702a3140c2/material_2.urdf"
+    ],
+    "target_obj_name": "spatula",
+    "instruction": "Place the spatula between the tissue box and the mug on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.3718508787226482,
+            0.008992328879298905,
+            0.9471225232182844,
+            0.7070973690307176,
+            0.003640158291517553,
+            0.003654384860906794,
+            0.707097380442566,
+            9.682702511781827e-05,
+            -0.00022707386233378202,
+            0.00018352743063587695,
+            0.004179915878921747,
+            0.0009587244712747633,
+            -0.001078104949556291
+        ],
+        [
+            0.5627444712280765,
+            -0.0878803734426271,
+            0.9210134138180585,
+            -0.10898619900367243,
+            -0.13468143574950822,
+            -0.2296539118134488,
+            0.9577275187024555,
+            -0.0011036139912903309,
+            -0.0005506317829713225,
+            -0.0011083300923928618,
+            0.0035614678636193275,
+            -0.043272651731967926,
+            -0.012814583256840706
+        ],
+        [
+            0.6339644257244766,
+            -0.15127076281466825,
+            0.9130976637451922,
+            0.06669391591491584,
+            -0.0164150766936511,
+            -0.26710070069061437,
+            0.9612178122192997,
+            0.007621914613991976,
+            -0.0002669822424650192,
+            -0.002313943114131689,
+            0.2087164670228958,
+            0.49008598923683167,
+            0.38026323914527893
+        ]
+    ],
+    "position_instruction": "Place the spatula between the tissue box and the mug on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "dc4c91abf45342b4bb8822f50fa162b2",
+        "025",
+        "81b129ecf5724f63b5b044702a3140c2"
+    ],
+    "target_obj_code": "81b129ecf5724f63b5b044702a3140c2",
+    "anno_target": {
+        "category": "spatula",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.07927235215902328,
+                        0.0,
+                        0.0,
+                        0.9968529939651489
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_right"
+}

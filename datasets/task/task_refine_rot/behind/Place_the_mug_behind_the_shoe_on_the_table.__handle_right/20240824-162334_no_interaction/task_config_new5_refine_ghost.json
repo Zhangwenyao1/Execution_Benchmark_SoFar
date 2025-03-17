@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "shoe",
+        "hammer",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/d5a5f0a954f94bcea3168329d1605fe9/material_2.urdf",
+        "objaverse_rescale/6d155e8051294915813e0c156e3cd6de/material_2.urdf",
+        "objaverse_rescale/c25119c5ac6e4654be3b75d78e34a912/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug behind the shoe on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.4288593636702243,
+            -0.08936283502313425,
+            0.9426719369867166,
+            0.3489480670319521,
+            0.5284283728348281,
+            -0.4799389925044476,
+            0.6071715282946121,
+            0.0032983440905809402,
+            -5.0948860007338226e-05,
+            -0.008793835528194904,
+            0.08086354285478592,
+            0.1271194964647293,
+            -0.062308795750141144
+        ],
+        [
+            0.2720284693938476,
+            -0.004011653085576012,
+            0.9162219295465907,
+            0.11123880102657804,
+            0.6982971139322208,
+            -0.10171908604322924,
+            0.6997573131841004,
+            -0.005931810010224581,
+            0.0020482640247792006,
+            0.023518919944763184,
+            0.029721198603510857,
+            -0.44842153787612915,
+            0.10474426299333572
+        ],
+        [
+            0.28183348862193136,
+            -0.1547047055015096,
+            0.9304253356408976,
+            -0.05529042136417058,
+            0.28939807427736863,
+            0.2048653168923723,
+            0.9333926964812347,
+            -0.015454180538654327,
+            -0.0012825988233089447,
+            -0.009004457853734493,
+            0.01720617711544037,
+            -0.22097772359848022,
+            -0.021244235336780548
+        ]
+    ],
+    "position_instruction": "Place the mug behind the shoe on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "d5a5f0a954f94bcea3168329d1605fe9",
+        "6d155e8051294915813e0c156e3cd6de",
+        "c25119c5ac6e4654be3b75d78e34a912"
+    ],
+    "target_obj_code": "c25119c5ac6e4654be3b75d78e34a912",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "handle_right"
+}

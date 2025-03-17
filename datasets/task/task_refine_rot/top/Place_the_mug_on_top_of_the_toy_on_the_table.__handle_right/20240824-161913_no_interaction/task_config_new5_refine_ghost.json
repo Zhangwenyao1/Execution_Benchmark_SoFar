@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "toy",
+        "glasses",
+        "knife",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/072-b_toy_airplane_google_16k/072-b_toy_airplane_google_16k.urdf",
+        "objaverse_rescale/e4f348e98ceb45e3abc77da5b738f1b2/material_2.urdf",
+        "objaverse_rescale/85db1d392a89459dbde5cdd951c4f6fb/material_2.urdf",
+        "objaverse_rescale/a564a11174be455bbce4698f7da92fdf/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug on top of the toy on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.5555006104864881,
+            0.12831342059647893,
+            0.9001530698679813,
+            -8.332210364770956e-05,
+            -0.00031947132483280415,
+            0.07473329770191119,
+            0.9972035024056503,
+            -0.0006388464826159179,
+            -0.0015222991351038218,
+            -0.0007167415460571647,
+            0.03374491259455681,
+            0.003489651018753648,
+            -0.0057192775420844555
+        ],
+        [
+            0.3733320185766369,
+            0.227396538129309,
+            0.9129378132607401,
+            -0.6598022507986088,
+            0.09054262656456785,
+            -0.06247146656544691,
+            0.7433440243124598,
+            -0.001316867652349174,
+            0.001840210985392332,
+            0.03279126062989235,
+            -0.0984535664319992,
+            0.6627557873725891,
+            0.1294216811656952
+        ],
+        [
+            0.4561908329519923,
+            -0.05788305512144253,
+            0.9213109655700568,
+            -0.019250417834458848,
+            -0.009467600220111257,
+            -0.043929359773243165,
+            0.9988042837859593,
+            0.0002094432566082105,
+            -0.0012732784962281585,
+            1.7041351384250447e-05,
+            0.06587906926870346,
+            0.1512703001499176,
+            0.003098940011113882
+        ],
+        [
+            0.7198496698353389,
+            -0.11887980103816496,
+            0.95719455430292,
+            -0.06747369786865692,
+            0.2555699887486357,
+            -0.027974950247874174,
+            0.9640273248749643,
+            -0.00036103610182181,
+            0.00012037881242576987,
+            -0.0002560566063039005,
+            -0.001364035066217184,
+            -0.005896948277950287,
+            -0.0009275631164200604
+        ]
+    ],
+    "position_instruction": "Place the mug on top of the toy on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "072-b",
+        "e4f348e98ceb45e3abc77da5b738f1b2",
+        "85db1d392a89459dbde5cdd951c4f6fb",
+        "a564a11174be455bbce4698f7da92fdf"
+    ],
+    "target_obj_code": "a564a11174be455bbce4698f7da92fdf",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.4631405472755432,
+                        0.4735301733016968,
+                        0.5153847336769104,
+                        0.5437357425689697
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "handle_right"
+}

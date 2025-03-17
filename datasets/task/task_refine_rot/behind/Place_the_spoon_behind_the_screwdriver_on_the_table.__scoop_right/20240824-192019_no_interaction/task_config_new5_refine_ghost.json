@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "screwdriver",
+        "cup",
+        "spoon"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/044_flat_screwdriver_google_16k/044_flat_screwdriver_google_16k.urdf",
+        "ycb_16k_backup/065-f_cups_google_16k/065-f_cups_google_16k.urdf",
+        "ycb_16k_backup/031_spoon_google_16k/031_spoon_google_16k.urdf"
+    ],
+    "target_obj_name": "spoon",
+    "instruction": "Place the spoon behind the screwdriver on the table. We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "init_obj_pos": [
+        [
+            0.6376244605854887,
+            -0.17709367999074235,
+            0.9005569260547087,
+            0.014310716227461518,
+            -0.01046288808860103,
+            0.0017057409757998082,
+            0.999841398333568,
+            -0.0016177447978407145,
+            0.00044032823643647134,
+            -0.0009204601519741118,
+            0.053577642887830734,
+            -0.0677955225110054,
+            -0.08061167597770691
+        ],
+        [
+            0.3716958800611935,
+            0.030888594410814815,
+            0.9003514306907137,
+            0.0004952106904482707,
+            0.00016916026502294956,
+            -0.09577266216909125,
+            0.9954030959024698,
+            -0.0018641951028257608,
+            -0.0030435174703598022,
+            -0.0023290531244128942,
+            0.08385400474071503,
+            -0.04112618789076805,
+            -0.005624603480100632
+        ],
+        [
+            0.44887034140484416,
+            -0.2737393066354315,
+            0.9268166721853511,
+            0.7688341667330303,
+            -0.638723107937633,
+            -0.026604267226041478,
+            0.014799608636204772,
+            -0.0031995305325835943,
+            -0.007765935268253088,
+            0.01203986443579197,
+            0.4142797589302063,
+            -0.06296142190694809,
+            -0.6004557609558105
+        ]
+    ],
+    "position_instruction": "Place the spoon behind the screwdriver on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "rotation_instruction_label": "scoop_right",
+    "obj_codes": [
+        "044",
+        "065-f",
+        "031"
+    ],
+    "target_obj_code": "031",
+    "anno_target": {
+        "category": "spoon",
+        "annotation": {
+            " the ladle is lying on the table, with its scoop on the left(pointing towards left) and its handle on the right. ": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.8228724002838135,
+                        0.5682262182235718
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ladle is lying on the table, with its scoop on the right(pointing towards right) and its handle on the left.": {
+                "quat": [
+                    [
+                        -0.5680640339851379,
+                        0.8226374983787537,
+                        0.01965927705168724,
+                        0.013575514778494835
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "scoop_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "scoop_right"
+}

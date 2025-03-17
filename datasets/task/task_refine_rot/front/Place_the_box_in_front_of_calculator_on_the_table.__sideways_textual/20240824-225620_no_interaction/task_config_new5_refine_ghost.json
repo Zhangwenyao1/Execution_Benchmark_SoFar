@@ -1,0 +1,133 @@
+{
+    "selected_obj_names": [
+        "calculator",
+        "orange",
+        "box"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/d9ffbc4bbe1044bb902e1dddac52b0de/material_2.urdf",
+        "objaverse_rescale/a4c9a503f63e440e8d6d924d4e5c36b1/material_2.urdf",
+        "objaverse_rescale/5e1a1527a0bd49ed8e473079392c31c8/material_2.urdf"
+    ],
+    "target_obj_name": "box",
+    "instruction": "Place the box in front of calculator on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.",
+    "init_obj_pos": [
+        [
+            0.4383026381917506,
+            0.2015375358922756,
+            0.9051848395421038,
+            -0.7012727152170702,
+            0.06415315973120497,
+            -0.06468835877908234,
+            0.7070476414125493,
+            0.001033141859807074,
+            0.004633087199181318,
+            -0.016605252400040627,
+            -0.2790084183216095,
+            -0.09595978260040283,
+            -0.048906292766332626
+        ],
+        [
+            0.6568276342113064,
+            0.07866366620227662,
+            0.939419667067136,
+            0.39399847152497486,
+            0.40137637264173204,
+            -0.6012752156435259,
+            0.5675652623036229,
+            -0.0009311031317338347,
+            -0.004960775375366211,
+            -0.00031850626692175865,
+            0.09945758432149887,
+            0.009476075880229473,
+            0.010445422492921352
+        ],
+        [
+            0.39198385510192446,
+            -0.15667959313004837,
+            0.9527398430085778,
+            -0.002680489066958913,
+            0.005756914533448692,
+            -0.11191631452571564,
+            0.9936973439918197,
+            -0.0017290180549025536,
+            0.0003401662106625736,
+            -0.0006186011014506221,
+            -0.0072865840047597885,
+            -0.03739839792251587,
+            -0.0015479899011552334
+        ]
+    ],
+    "position_instruction": "Place the box in front of calculator on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.",
+    "rotation_instruction_label": "sideways_textual",
+    "obj_codes": [
+        "d9ffbc4bbe1044bb902e1dddac52b0de",
+        "a4c9a503f63e440e8d6d924d4e5c36b1",
+        "5e1a1527a0bd49ed8e473079392c31c8"
+    ],
+    "target_obj_code": "5e1a1527a0bd49ed8e473079392c31c8",
+    "anno_target": {
+        "category": "box",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.": {
+                "quat": [
+                    [
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        0.0,
+                        0.7071067690849304,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.0,
+                        1.0,
+                        0.0,
+                        -4.371138828673793e-08
+                    ],
+                    [
+                        0.0,
+                        0.7071067690849304,
+                        0.0,
+                        -0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.": {
+                "quat": [
+                    [
+                        -0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways_textual",
+    "rot_tag_level": 2,
+    "position_tag": "front",
+    "rotation_tag": "sideways_textual"
+}

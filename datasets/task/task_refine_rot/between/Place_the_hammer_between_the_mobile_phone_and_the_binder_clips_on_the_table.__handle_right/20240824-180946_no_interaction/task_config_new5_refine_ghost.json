@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "mobile phone",
+        "binder clips",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/45c813a9fac4458ead1f90280826c0a4/material_2.urdf",
+        "objaverse_rescale/5e55c38b24dc4c239448efa1c6b7f49f/material_2.urdf",
+        "objaverse_rescale/6d155e8051294915813e0c156e3cd6de/material_2.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer between the mobile phone and the binder clips on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.621961102876174,
+            -0.24716902440995078,
+            0.9056201035551419,
+            -0.2453256552102297,
+            -0.661426832721637,
+            0.6646325664649866,
+            0.2461573063016007,
+            -0.004409485030919313,
+            0.00483107753098011,
+            -0.0035105240531265736,
+            -0.06522240489721298,
+            0.041380174458026886,
+            0.21774426102638245
+        ],
+        [
+            0.5943034874200562,
+            -0.08899466807713606,
+            0.9047111475383476,
+            -0.04272787006800482,
+            -0.7057972281495146,
+            0.23686462241236603,
+            0.6662730315008714,
+            0.0005531726637855172,
+            0.002022084081545472,
+            -0.0035883779637515545,
+            -0.024934280663728714,
+            -0.0027482809964567423,
+            0.006344446446746588
+        ],
+        [
+            0.35729081158263015,
+            0.14327416875633808,
+            0.9327449253571437,
+            0.08145275483426385,
+            0.009524106973076773,
+            0.11574552434133138,
+            0.9898877278314065,
+            -0.00037777191027998924,
+            0.0017663876060396433,
+            -0.004709562752395868,
+            -0.0719219520688057,
+            0.056611232459545135,
+            0.013636793941259384
+        ]
+    ],
+    "position_instruction": "Place the hammer between the mobile phone and the binder clips on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "45c813a9fac4458ead1f90280826c0a4",
+        "5e55c38b24dc4c239448efa1c6b7f49f",
+        "6d155e8051294915813e0c156e3cd6de"
+    ],
+    "target_obj_code": "6d155e8051294915813e0c156e3cd6de",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_right"
+}

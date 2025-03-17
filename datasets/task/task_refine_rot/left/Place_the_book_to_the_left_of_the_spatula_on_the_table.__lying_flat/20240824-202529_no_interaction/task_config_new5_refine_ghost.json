@@ -1,0 +1,97 @@
+{
+    "selected_obj_names": [
+        "spatula",
+        "mug",
+        "book"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/4b27628be0804c0285d0b13dda025a0d/material_2.urdf",
+        "objaverse_rescale/db9345f568e8499a9eac2577302b5f51/material_2.urdf",
+        "objaverse_rescale/de79a920c48745ff95c0df7a7c300091/material_2.urdf"
+    ],
+    "target_obj_name": "book",
+    "instruction": "Place the book to the left of the spatula on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.40659816602944776,
+            0.13654135525847763,
+            0.903985981867645,
+            -0.004156399991398046,
+            0.0021018598946999658,
+            -0.13315034462377054,
+            0.9910849066808881,
+            -0.0010863029165193439,
+            0.0004908564151264727,
+            -0.010486318729817867,
+            0.059117693454027176,
+            -0.08304081112146378,
+            -0.06285800784826279
+        ],
+        [
+            0.66883029150272,
+            -0.19883742935631887,
+            0.9642138063043749,
+            -0.0034236808481639945,
+            0.25103858355504716,
+            0.01321348590077403,
+            0.9678808355197833,
+            0.00046060277963988483,
+            0.0012390787014737725,
+            0.00030678490293212235,
+            -0.01914154179394245,
+            0.001365007134154439,
+            0.0017778289038687944
+        ],
+        [
+            0.44711796836601475,
+            -0.16042924456646912,
+            0.9151326629755314,
+            0.00749259371455453,
+            -0.000508148952276639,
+            0.11984572829634312,
+            0.9927641231597718,
+            0.0006499055307358503,
+            -0.0006452687084674835,
+            -4.847827221965417e-05,
+            -0.0008150622597895563,
+            -0.0007751157972961664,
+            0.000515985069796443
+        ]
+    ],
+    "position_instruction": "Place the book to the left of the spatula on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "4b27628be0804c0285d0b13dda025a0d",
+        "db9345f568e8499a9eac2577302b5f51",
+        "de79a920c48745ff95c0df7a7c300091"
+    ],
+    "target_obj_code": "de79a920c48745ff95c0df7a7c300091",
+    "anno_target": {
+        "category": "book",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        1.0,
+                        0.0,
+                        0.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "left",
+    "rotation_tag": "lying_flat"
+}

@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "SD card",
+        "spatula",
+        "toilet paper roll",
+        "wrench"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/02f7f045679d402da9b9f280030821d4/material_2.urdf",
+        "objaverse_rescale/4b27628be0804c0285d0b13dda025a0d/material_2.urdf",
+        "objaverse_rescale/ea0cf48616e34708b73c82eb7c7366ca/material_2.urdf",
+        "objaverse_rescale/5bf781c9fd8d4121b735503b13ba2eaf/material_2.urdf"
+    ],
+    "target_obj_name": "wrench",
+    "instruction": "Place the wrench between the SD card and the spatula on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.24294296306808305,
+            -0.09035577125762118,
+            0.8983887375250542,
+            -0.701732679864912,
+            -0.08367120112245455,
+            0.08330397427147557,
+            0.7025886591618968,
+            5.889423846383579e-05,
+            -0.001327698235400021,
+            0.030428500846028328,
+            1.4223864078521729,
+            -0.5398824214935303,
+            0.034414246678352356
+        ],
+        [
+            0.5734727628386113,
+            -0.01834472959691095,
+            0.903987170542173,
+            -0.004474865005967254,
+            0.0005476250330805366,
+            0.10445992341596708,
+            0.9945188786996112,
+            -0.0025082649663090706,
+            0.0011079700198024511,
+            -0.010235159657895565,
+            0.12353482097387314,
+            -0.13183781504631042,
+            0.009050318039953709
+        ],
+        [
+            0.6295385552829315,
+            0.2335866396297923,
+            0.9495372963788006,
+            0.00014969016155926682,
+            -0.0007775041301450315,
+            0.06513943507067131,
+            0.9978758575488528,
+            -0.00032613473013043404,
+            -0.0012916303239762783,
+            -0.00048788401181809604,
+            0.016610313206911087,
+            -0.004115574527531862,
+            2.1562826077570207e-05
+        ],
+        [
+            0.36760487182900203,
+            0.001966133348189078,
+            0.9056183037010819,
+            0.6286302789643491,
+            -0.2764269971121331,
+            -0.3084261347778969,
+            0.6582441849517088,
+            -0.003026067977771163,
+            0.000253100908594206,
+            0.02991759404540062,
+            0.978482723236084,
+            -0.3992045819759369,
+            -0.012980826199054718
+        ]
+    ],
+    "position_instruction": "Place the wrench between the SD card and the spatula on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "02f7f045679d402da9b9f280030821d4",
+        "4b27628be0804c0285d0b13dda025a0d",
+        "ea0cf48616e34708b73c82eb7c7366ca",
+        "5bf781c9fd8d4121b735503b13ba2eaf"
+    ],
+    "target_obj_code": "5bf781c9fd8d4121b735503b13ba2eaf",
+    "anno_target": {
+        "category": "wrench",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_right"
+}

@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "book",
+        "pot",
+        "wrench"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/b2d30398ba3741da9f9aef2319ee2b8b/material_2.urdf",
+        "objaverse_rescale/cba3e4df7c354d22b7913d45a28a8159/material_2.urdf",
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf"
+    ],
+    "target_obj_name": "wrench",
+    "instruction": "Place the wrench behind the book on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.39840705704288437,
+            -0.1910853939802702,
+            0.9163852279370012,
+            0.00038462242382221733,
+            4.388088200859556e-05,
+            0.08943331093956158,
+            0.9959927374406135,
+            -0.0007179081439971924,
+            -0.00020582563593052328,
+            1.4546483726007864e-05,
+            -0.00042565606418065727,
+            0.0011299483012408018,
+            -0.003243175568059087
+        ],
+        [
+            0.40082143711814106,
+            0.04149010493216776,
+            0.9374526528158535,
+            -0.17682215662221146,
+            -0.03051324183086977,
+            0.005102552347388141,
+            0.9837564896660064,
+            0.01209680549800396,
+            -0.0021582210902124643,
+            -0.0006574592553079128,
+            0.03750073164701462,
+            0.2071751058101654,
+            0.0005575735121965408
+        ],
+        [
+            0.5254033949497566,
+            0.1336581433437103,
+            0.9027372061118157,
+            0.012710416660949719,
+            -0.017413533036415442,
+            0.0346896101718922,
+            0.9991655744277899,
+            0.0029506811406463385,
+            -0.004518826492130756,
+            0.034421518445014954,
+            -0.4797968864440918,
+            0.14667733013629913,
+            0.24571888148784637
+        ]
+    ],
+    "position_instruction": "Place the wrench behind the book on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "b2d30398ba3741da9f9aef2319ee2b8b",
+        "cba3e4df7c354d22b7913d45a28a8159",
+        "042"
+    ],
+    "target_obj_code": "042",
+    "anno_target": {
+        "category": "wrench",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.2856176793575287,
+                        0.9583436250686646
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "handle_right"
+}

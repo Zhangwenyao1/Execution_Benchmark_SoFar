@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "hammer",
+        "clipboard",
+        "headphone",
+        "stapler"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/048_hammer_google_16k/048_hammer_google_16k.urdf",
+        "objaverse_rescale/b31c69728a414e639eef2fccd1c3dd75/material_2.urdf",
+        "objaverse_rescale/f8891134871e48ce8cb5053c4287272b/material_2.urdf",
+        "objaverse_rescale/d2c345be5c084b4e8c92b48f7be69315/material_2.urdf"
+    ],
+    "target_obj_name": "stapler",
+    "instruction": "Place the stapler at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.48616157214213146,
+            0.18250316616328355,
+            0.897656066588748,
+            0.0017519782693956668,
+            -0.0017881629577551988,
+            0.2422702657841028,
+            0.9702055717023484,
+            -0.005333997309207916,
+            -0.004504003096371889,
+            0.02099498175084591,
+            0.26596033573150635,
+            -0.12763851881027222,
+            0.019689634442329407
+        ],
+        [
+            0.6519629531667912,
+            0.07157398245064973,
+            0.9426869278766798,
+            -0.392984453429353,
+            -0.0011024756652081103,
+            0.058814365905744584,
+            0.9176616338680325,
+            -0.004581741522997618,
+            -0.0019644468557089567,
+            -0.011950995773077011,
+            -0.017054762691259384,
+            -0.0808270275592804,
+            0.0009697012137621641
+        ],
+        [
+            0.6376589449178846,
+            0.18280514465431874,
+            0.9548700927579453,
+            0.12069359579221645,
+            0.0133971161274769,
+            0.1094248249435902,
+            0.9865494315543824,
+            7.602976256748661e-05,
+            0.00039608977385796607,
+            -0.00012768400483764708,
+            -0.009513660334050655,
+            0.0036908695474267006,
+            0.0035249278880655766
+        ],
+        [
+            0.7165592876207703,
+            -0.052786180387497425,
+            0.9213146586315274,
+            -0.07445976488242154,
+            0.3713374345832586,
+            0.07302492381306808,
+            0.9226221402030593,
+            0.0008404606487601995,
+            0.007345952559262514,
+            -0.003267357125878334,
+            -0.3997231423854828,
+            0.0524650514125824,
+            0.0065846918150782585
+        ]
+    ],
+    "position_instruction": "Place the stapler at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "048",
+        "b31c69728a414e639eef2fccd1c3dd75",
+        "f8891134871e48ce8cb5053c4287272b",
+        "d2c345be5c084b4e8c92b48f7be69315"
+    ],
+    "target_obj_code": "d2c345be5c084b4e8c92b48f7be69315",
+    "anno_target": {
+        "category": "stapler",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "center",
+    "rotation_tag": "upright"
+}

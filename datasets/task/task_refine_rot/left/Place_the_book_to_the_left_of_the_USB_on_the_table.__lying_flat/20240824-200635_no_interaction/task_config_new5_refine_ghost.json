@@ -1,0 +1,97 @@
+{
+    "selected_obj_names": [
+        "USB",
+        "cup",
+        "book"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/0a51815f3c0941ae8312fc6917173ed6/material_2.urdf",
+        "ycb_16k_backup/065-g_cups_google_16k/065-g_cups_google_16k.urdf",
+        "objaverse_rescale/b2d30398ba3741da9f9aef2319ee2b8b/material_2.urdf"
+    ],
+    "target_obj_name": "book",
+    "instruction": "Place the book to the left of the USB on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.4754358088989303,
+            0.10870116638301137,
+            0.9111759159318368,
+            -0.21342313580077052,
+            -0.39828335506252194,
+            -0.08920290989113869,
+            0.8876169078223219,
+            0.0001747133064782247,
+            -7.232742063933983e-05,
+            -4.216939487378113e-05,
+            0.0060373651795089245,
+            0.014222539961338043,
+            -0.0006514982669614255
+        ],
+        [
+            0.6674183722922141,
+            -0.0468830687271581,
+            0.9005620389231622,
+            0.0005334197339421288,
+            -0.001328390511508637,
+            0.08227962117996311,
+            0.9966082554246262,
+            0.004235380329191685,
+            0.008918427862226963,
+            -0.0037614377215504646,
+            -0.31345993280410767,
+            0.14924664795398712,
+            0.0012770788744091988
+        ],
+        [
+            0.45411478192903765,
+            -0.15287358991468103,
+            0.9163635309099072,
+            9.860416317422677e-05,
+            -0.00017168218673305956,
+            0.10423972457718919,
+            0.9945521809450302,
+            -0.0007242440478876233,
+            -0.000184947406523861,
+            -5.58321517019067e-07,
+            -0.0004416298761498183,
+            0.0010794848203659058,
+            -0.003333869157359004
+        ]
+    ],
+    "position_instruction": "Place the book to the left of the USB on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "0a51815f3c0941ae8312fc6917173ed6",
+        "065-g",
+        "b2d30398ba3741da9f9aef2319ee2b8b"
+    ],
+    "target_obj_code": "b2d30398ba3741da9f9aef2319ee2b8b",
+    "anno_target": {
+        "category": "book",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        1.0,
+                        0.0,
+                        0.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "left",
+    "rotation_tag": "lying_flat"
+}

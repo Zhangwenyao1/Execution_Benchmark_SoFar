@@ -1,0 +1,97 @@
+{
+    "selected_obj_names": [
+        "spoon",
+        "remote control",
+        "eraser"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/e1745c4aa7c046a2b5193d2d23be0192/material_2.urdf",
+        "objaverse_rescale/d28b249d997b46c1b42771d8ce869902/material_2.urdf",
+        "objaverse_rescale/f0916a69ba514ecc973b44528b9dcc43/material_2.urdf"
+    ],
+    "target_obj_name": "eraser",
+    "instruction": "Place the eraser behind the spoon on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.5106172931732417,
+            -0.09416535678477225,
+            0.9057220178664409,
+            0.6912992508126482,
+            -0.0018622483026404346,
+            -0.013068320944860098,
+            0.722447989023994,
+            0.005652810446918011,
+            -0.002614563098177314,
+            0.032372262328863144,
+            -1.7094719409942627,
+            -2.743542194366455,
+            -3.2903382778167725
+        ],
+        [
+            0.6107897512004394,
+            -0.25131340183172995,
+            0.9089540127640349,
+            0.0032980929287280475,
+            0.0005173377412870491,
+            -0.3024502882423271,
+            0.9531593141163901,
+            0.0010108621791005135,
+            0.00015070740482769907,
+            0.027709517627954483,
+            -0.6095567941665649,
+            0.5324652791023254,
+            -0.0771159678697586
+        ],
+        [
+            0.38416154679306913,
+            0.1871572171119874,
+            0.925576226486685,
+            0.21819789516610705,
+            0.5440658664915289,
+            -0.3594705196422325,
+            0.7260598852519298,
+            0.0035386395175009966,
+            0.004165905527770519,
+            -0.0021132335532456636,
+            -0.3353402614593506,
+            0.3624049127101898,
+            0.07804256677627563
+        ]
+    ],
+    "position_instruction": "Place the eraser behind the spoon on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "e1745c4aa7c046a2b5193d2d23be0192",
+        "d28b249d997b46c1b42771d8ce869902",
+        "f0916a69ba514ecc973b44528b9dcc43"
+    ],
+    "target_obj_code": "f0916a69ba514ecc973b44528b9dcc43",
+    "anno_target": {
+        "category": "eraser",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        -0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "behind",
+    "rotation_tag": "lying_flat"
+}

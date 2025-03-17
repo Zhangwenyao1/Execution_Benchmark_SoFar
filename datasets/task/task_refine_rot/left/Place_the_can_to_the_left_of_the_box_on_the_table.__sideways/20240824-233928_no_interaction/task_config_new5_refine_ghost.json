@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "box",
+        "mug",
+        "can"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f81ca566b008446eb704cad4844603b6/material_2.urdf",
+        "objaverse_rescale/77d41aba53e4455f9f84fa04b175dff4/material_2.urdf",
+        "ycb_16k_backup/010_potted_meat_can_google_16k/010_potted_meat_can_google_16k.urdf"
+    ],
+    "target_obj_name": "can",
+    "instruction": "Place the can to the left of the box on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.33077450991288654,
+            0.02315084535189252,
+            0.9215661147564636,
+            3.8001763476975866e-06,
+            0.00023247133383827624,
+            -0.03808675171509572,
+            0.9992744094023573,
+            -0.0055705043487250805,
+            -0.013358519412577152,
+            -0.001270339940674603,
+            0.17443667352199554,
+            -0.06568681448698044,
+            -0.016576014459133148
+        ],
+        [
+            0.5435528208042814,
+            0.2410226990780918,
+            0.9623190082465848,
+            -0.002671636709826655,
+            0.2248514953248659,
+            0.011693616343379237,
+            0.9743192119343013,
+            0.0006552426493726671,
+            3.762987398658879e-05,
+            -0.00012920649896841496,
+            0.0008682925836183131,
+            0.005867286119610071,
+            0.0020708891097456217
+        ],
+        [
+            0.364687685430804,
+            -0.038779520626062186,
+            0.9040969750027097,
+            0.009840114825255724,
+            0.0006398334619095637,
+            0.02420643297417228,
+            0.9996583473147373,
+            0.007968014106154442,
+            -0.010859616100788116,
+            -0.037676434963941574,
+            0.31354716420173645,
+            -0.042749207466840744,
+            -0.9795383810997009
+        ]
+    ],
+    "position_instruction": "Place the can to the left of the box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "f81ca566b008446eb704cad4844603b6",
+        "77d41aba53e4455f9f84fa04b175dff4",
+        "010"
+    ],
+    "target_obj_code": "010",
+    "anno_target": {
+        "category": "can",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.0,
+                        0.7071067690849304,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.0,
+                        -0.7071067690849304,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "sideways"
+}

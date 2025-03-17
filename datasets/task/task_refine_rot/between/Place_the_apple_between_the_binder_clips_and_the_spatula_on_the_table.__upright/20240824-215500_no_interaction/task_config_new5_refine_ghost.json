@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "binder clips",
+        "spatula",
+        "apple"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/5e55c38b24dc4c239448efa1c6b7f49f/material_2.urdf",
+        "ycb_16k_backup/033_spatula_google_16k/033_spatula_google_16k.urdf",
+        "objaverse_rescale/f53d75bd123b40bca14d12d54286f432/material_2.urdf"
+    ],
+    "target_obj_name": "apple",
+    "instruction": "Place the apple between the binder clips and the spatula on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.6170778079945938,
+            0.07343579876426178,
+            0.9100081467218633,
+            3.703755209746987e-05,
+            -3.6491008468768763e-06,
+            -0.160436787137383,
+            0.9870461164241203,
+            0.0006475558620877564,
+            -0.0004273593658581376,
+            -0.0002656499855220318,
+            0.006645248271524906,
+            0.009395488537847996,
+            0.0027598191518336535
+        ],
+        [
+            0.6588211453956275,
+            0.22465955273323945,
+            0.9004327736969664,
+            0.001087070719816525,
+            -0.0013957737829363515,
+            0.08701666194281744,
+            0.9962052853890736,
+            0.0021909852512180805,
+            -0.0065845162607729435,
+            -0.00951464008539915,
+            0.4338889718055725,
+            0.1921612024307251,
+            -0.030892735347151756
+        ],
+        [
+            0.4909416458415005,
+            -0.08895238588679417,
+            0.9682680974403252,
+            0.05791349918694551,
+            0.05211494449544873,
+            0.1327384638902396,
+            0.9880842875869544,
+            0.003971915692090988,
+            8.60417349031195e-05,
+            -0.0011441872920840979,
+            0.006986573338508606,
+            0.07592752575874329,
+            0.05947786569595337
+        ]
+    ],
+    "position_instruction": "Place the apple between the binder clips and the spatula on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "5e55c38b24dc4c239448efa1c6b7f49f",
+        "033",
+        "f53d75bd123b40bca14d12d54286f432"
+    ],
+    "target_obj_code": "f53d75bd123b40bca14d12d54286f432",
+    "anno_target": {
+        "category": "apple",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upright"
+}

@@ -1,0 +1,97 @@
+{
+    "selected_obj_names": [
+        "mouse",
+        "plate",
+        "watch"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/969b0d9d99a8468898753fdcd219f883/material_2.urdf",
+        "ycb_16k_backup/029_plate_google_16k/029_plate_google_16k.urdf",
+        "objaverse_rescale/fdb8227a88b2448d8c64fa82ffee3f58/material_2.urdf"
+    ],
+    "target_obj_name": "watch",
+    "instruction": "Place the watch on top of the mouse on the table. We also need to specify the rotation of the object after placement:  the watch is placed steadily on the table, and its contact with the table is in the shape of a circle, which means that the bringe of the watch bracelet is in touch with the table and while the plane of the watch dial is perpendicular to the table.",
+    "init_obj_pos": [
+        [
+            0.416395303176263,
+            0.038945680975168956,
+            0.9208193731410723,
+            -0.5598000082090323,
+            -0.3051608053366648,
+            0.2433622444577293,
+            0.7309416198766778,
+            0.006296093575656414,
+            0.0037191351875662804,
+            -0.0004981599049642682,
+            0.0029668747447431087,
+            0.2655901610851288,
+            -0.037129372358322144
+        ],
+        [
+            0.44609019706801123,
+            -0.23883993289469707,
+            0.9030418421607799,
+            -0.0001371365793483273,
+            -0.00017337578384761526,
+            -0.1114951901007335,
+            0.9937649489284659,
+            5.871992470929399e-05,
+            -4.54285072919447e-05,
+            -0.000286040420178324,
+            0.003058080095797777,
+            0.006722864229232073,
+            -0.00026327944942750037
+        ],
+        [
+            0.5750241810356832,
+            0.16863041166581297,
+            0.9695432238144108,
+            0.002938434869968467,
+            0.02294020954606043,
+            -0.12822918180780754,
+            0.9914748556163181,
+            -0.001087393262423575,
+            0.000634807744063437,
+            -0.00032399475458078086,
+            -0.006025560665875673,
+            -0.014159457758069038,
+            -0.0184889268130064
+        ]
+    ],
+    "position_instruction": "Place the watch on top of the mouse on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the watch is placed steadily on the table, and its contact with the table is in the shape of a circle, which means that the bringe of the watch bracelet is in touch with the table and while the plane of the watch dial is perpendicular to the table.",
+    "rotation_instruction_label": "watch_upright",
+    "obj_codes": [
+        "969b0d9d99a8468898753fdcd219f883",
+        "029",
+        "fdb8227a88b2448d8c64fa82ffee3f58"
+    ],
+    "target_obj_code": "fdb8227a88b2448d8c64fa82ffee3f58",
+    "anno_target": {
+        "category": "watch",
+        "annotation": {
+            " the watch is placed steadily on the table, and its contact with the table is in the shape of a circle, which means that the bringe of the watch bracelet is in touch with the table and while the plane of the watch dial is perpendicular to the table.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        -0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "watch_upright",
+    "rot_tag_level": 2,
+    "position_tag": "top",
+    "rotation_tag": "watch_upright"
+}

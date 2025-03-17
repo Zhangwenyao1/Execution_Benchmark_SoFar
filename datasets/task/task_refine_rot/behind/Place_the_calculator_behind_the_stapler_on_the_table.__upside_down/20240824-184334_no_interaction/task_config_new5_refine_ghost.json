@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "stapler",
+        "power drill",
+        "calculator"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/d2c345be5c084b4e8c92b48f7be69315/material_2.urdf",
+        "ycb_16k_backup/035_power_drill_google_16k/035_power_drill_google_16k.urdf",
+        "objaverse_rescale/054be0c3f09143f38c4d8038eb2588c6/material_2.urdf"
+    ],
+    "target_obj_name": "calculator",
+    "instruction": "Place the calculator behind the stapler on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.3917413776060398,
+            -0.1830326638318662,
+            0.9213134297061003,
+            -0.06826046527291124,
+            0.3725249790593801,
+            0.057637924475498904,
+            0.9237118157302586,
+            0.0009433208033442497,
+            0.0073721036314964294,
+            -0.003318552393466234,
+            -0.39798229932785034,
+            0.06255234777927399,
+            0.006210495717823505
+        ],
+        [
+            0.41655219681033423,
+            0.2337396789886793,
+            0.9030991014631986,
+            -1.2420128832613677e-05,
+            0.00017762226049707554,
+            -0.0899649506007595,
+            0.9959449161271297,
+            3.2467614801134914e-05,
+            0.000115299153549131,
+            -0.0003185551904607564,
+            -0.005100917536765337,
+            0.005166308023035526,
+            -0.00022110437566880137
+        ],
+        [
+            0.5991477879922102,
+            0.049219789027142836,
+            0.9056311597517369,
+            -4.49158116755918e-05,
+            8.729605325512936e-05,
+            0.11283154812071729,
+            0.9936141263642801,
+            0.0010659530526027083,
+            0.0011364005040377378,
+            -0.008545256219804287,
+            -0.10836750268936157,
+            -0.09607445448637009,
+            0.004386307671666145
+        ]
+    ],
+    "position_instruction": "Place the calculator behind the stapler on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "d2c345be5c084b4e8c92b48f7be69315",
+        "035",
+        "054be0c3f09143f38c4d8038eb2588c6"
+    ],
+    "target_obj_code": "054be0c3f09143f38c4d8038eb2588c6",
+    "anno_target": {
+        "category": "calculator",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "upside_down"
+}

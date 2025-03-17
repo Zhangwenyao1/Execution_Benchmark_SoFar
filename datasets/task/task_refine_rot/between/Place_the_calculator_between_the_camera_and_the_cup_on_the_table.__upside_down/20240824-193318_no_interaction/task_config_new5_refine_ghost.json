@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "camera",
+        "cup",
+        "tape measure",
+        "calculator"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f6f8675406b7437faaf96a1f82062028/material_2.urdf",
+        "ycb_16k_backup/065-e_cups_google_16k/065-e_cups_google_16k.urdf",
+        "objaverse_rescale/1574b13827734d54b6d9d86be8be71d1/material_2.urdf",
+        "objaverse_rescale/054be0c3f09143f38c4d8038eb2588c6/material_2.urdf"
+    ],
+    "target_obj_name": "calculator",
+    "instruction": "Place the calculator between the camera and the cup on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6901804149811384,
+            -0.08367245079848314,
+            0.9612725366388409,
+            -0.49026854118940566,
+            0.23158287023234514,
+            0.26233267768025126,
+            0.7982403760497649,
+            0.0023788700345903635,
+            -0.001370775979012251,
+            -0.0008027532021515071,
+            0.011396645568311214,
+            0.02222505584359169,
+            -0.005086391232907772
+        ],
+        [
+            0.5014541165532416,
+            0.10360955123856527,
+            0.9027328027770842,
+            0.0009748795922257669,
+            -0.01985457403963318,
+            -0.07526916445402473,
+            0.9969650938633093,
+            0.0028080418705940247,
+            0.003959499765187502,
+            -0.009659314528107643,
+            -0.05245829373598099,
+            0.16226786375045776,
+            0.03663671389222145
+        ],
+        [
+            0.4403094519050978,
+            -0.10173544143833198,
+            0.9536689165804391,
+            0.15102366383075302,
+            0.9414233242241308,
+            -0.29892763889853863,
+            -0.03944926200155405,
+            0.00040916871512308717,
+            0.0013630959438160062,
+            -0.0004337467544246465,
+            -0.03138348087668419,
+            0.02268403023481369,
+            0.01886153034865856
+        ],
+        [
+            0.4978172167985697,
+            0.3348447517068446,
+            0.9056136266183195,
+            0.00023391405594966154,
+            -0.00013273943270518114,
+            0.7287891497844118,
+            0.6847381271851093,
+            0.0010910468408837914,
+            -0.0008427004213444889,
+            -0.01035947073251009,
+            -0.15914782881736755,
+            -0.006294552236795425,
+            0.00014433669275604188
+        ]
+    ],
+    "position_instruction": "Place the calculator between the camera and the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "f6f8675406b7437faaf96a1f82062028",
+        "065-e",
+        "1574b13827734d54b6d9d86be8be71d1",
+        "054be0c3f09143f38c4d8038eb2588c6"
+    ],
+    "target_obj_code": "054be0c3f09143f38c4d8038eb2588c6",
+    "anno_target": {
+        "category": "calculator",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

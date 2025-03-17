@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "glue gun",
+        "spatula",
+        "toy"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/a1da12b81f034db894496c1ffc4be1f5/material_2.urdf",
+        "objaverse_rescale/4b27628be0804c0285d0b13dda025a0d/material_2.urdf",
+        "ycb_16k_backup/073-g_lego_duplo_google_16k/073-g_lego_duplo_google_16k.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "Place the toy in front of glue gun on the table. We also need to specify the rotation of the object after placement: the toy is facing right, with its head oriented towards left",
+    "init_obj_pos": [
+        [
+            0.46524781359163847,
+            0.08778829694593387,
+            0.9725061289412732,
+            -0.0006812750538839639,
+            0.21613102994500008,
+            -0.00031565160664507355,
+            0.9763640786731534,
+            0.012683254666626453,
+            0.0005977345863357186,
+            -0.00495573366060853,
+            -0.025325249880552292,
+            0.21445205807685852,
+            -0.0019474508007988334
+        ],
+        [
+            0.36401352625947564,
+            0.14111840543407062,
+            0.9039865666028862,
+            -0.004505650650203013,
+            0.0006877738579748197,
+            0.11429111194681103,
+            0.9934368464121421,
+            -0.002989943604916334,
+            0.002385426312685013,
+            -0.010105290450155735,
+            0.12604820728302002,
+            -0.11691613495349884,
+            0.03712582588195801
+        ],
+        [
+            0.6460760295793815,
+            -0.23087271150213945,
+            0.9002532898538521,
+            0.002031850886596023,
+            -0.001083795493768054,
+            -0.11909212484782906,
+            0.9928805380147854,
+            -0.0016680645057931542,
+            7.28978761799226e-07,
+            -0.0024939209688454866,
+            0.0008624668116681278,
+            -0.03504328802227974,
+            -0.002174065448343754
+        ]
+    ],
+    "position_instruction": "Place the toy in front of glue gun on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement: the toy is facing right, with its head oriented towards left",
+    "rotation_instruction_label": "right",
+    "obj_codes": [
+        "a1da12b81f034db894496c1ffc4be1f5",
+        "4b27628be0804c0285d0b13dda025a0d",
+        "073-g"
+    ],
+    "target_obj_code": "073-g",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "right"
+}

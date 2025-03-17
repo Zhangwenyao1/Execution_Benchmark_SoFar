@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "hammer",
+        "knife",
+        "pitcher base"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6d155e8051294915813e0c156e3cd6de/material_2.urdf",
+        "ycb_16k_backup/032_knife_google_16k/032_knife_google_16k.urdf",
+        "ycb_16k_backup/019_pitcher_base_google_16k/019_pitcher_base_google_16k.urdf"
+    ],
+    "target_obj_name": "pitcher base",
+    "instruction": "Place the pitcher base on top of the hammer on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6164970020650581,
+            -0.1920954023196358,
+            0.9327227397242001,
+            0.08196450107489943,
+            0.007069735086468364,
+            0.08563921827978667,
+            0.9929238458722689,
+            -0.00018709685537032783,
+            0.0007098838104866445,
+            -0.004476903937757015,
+            -0.03867182508111,
+            0.02471303753554821,
+            0.012394954450428486
+        ],
+        [
+            0.45719126818591815,
+            0.2399454998254224,
+            0.9367897299820236,
+            -0.6744300869553532,
+            -0.09154798539292103,
+            -0.10616909674504539,
+            -0.7249076817610869,
+            -0.001440116437152028,
+            0.0017152989748865366,
+            -0.0017440654337406158,
+            -1.870561957359314,
+            -0.44601210951805115,
+            -0.1291079968214035
+        ],
+        [
+            0.42573010218258345,
+            0.12738031910971717,
+            0.908886662213549,
+            0.6145082949191456,
+            0.3115628470536964,
+            0.10218052799871542,
+            0.7175425335889587,
+            -0.00045020529069006443,
+            -0.0003317385562695563,
+            -6.125642539700493e-05,
+            0.006458544638007879,
+            -0.009285176172852516,
+            -1.8618611647980288e-05
+        ]
+    ],
+    "position_instruction": "Place the pitcher base on top of the hammer on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "6d155e8051294915813e0c156e3cd6de",
+        "032",
+        "019"
+    ],
+    "target_obj_code": "019",
+    "anno_target": {
+        "category": "pitcher_base",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.3877721428871155,
+                        0.9217552542686462
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "handle_right"
+}

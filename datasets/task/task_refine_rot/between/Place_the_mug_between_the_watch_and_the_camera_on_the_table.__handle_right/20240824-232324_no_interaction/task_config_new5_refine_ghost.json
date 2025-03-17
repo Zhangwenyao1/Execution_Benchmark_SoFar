@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "watch",
+        "camera",
+        "cup",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/fdb8227a88b2448d8c64fa82ffee3f58/material_2.urdf",
+        "objaverse_rescale/f6f8675406b7437faaf96a1f82062028/material_2.urdf",
+        "ycb_16k_backup/065-g_cups_google_16k/065-g_cups_google_16k.urdf",
+        "objaverse_rescale/c609327dd3a74fb597584e1b4a14a615/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug between the watch and the camera on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6482324865138218,
+            -0.11840176328788503,
+            0.9695492390584981,
+            0.0019695136183587505,
+            0.022775189271600972,
+            -0.08488560637220018,
+            0.9961284282664427,
+            0.0030550826340913773,
+            0.0001835456641856581,
+            -0.00012194240844110027,
+            0.001016160356812179,
+            0.048743922263383865,
+            0.05541004240512848
+        ],
+        [
+            0.38979874093211453,
+            0.3269442381423133,
+            0.95808365969131,
+            -0.43465081951574863,
+            0.27271811576835414,
+            0.18865174816725722,
+            0.8373255115780744,
+            -0.0008251973195001483,
+            -0.0005286665400490165,
+            0.00011920688120881096,
+            0.010691913776099682,
+            -0.009550914168357849,
+            0.00494401715695858
+        ],
+        [
+            0.3716146705655539,
+            -0.1926855209493596,
+            0.9005611312230686,
+            0.0003478588315121173,
+            -0.001405840098450905,
+            -0.059942449912874174,
+            0.9982007840641539,
+            0.006300514098256826,
+            0.007668755948543549,
+            -0.003815343603491783,
+            -0.2648252546787262,
+            0.21652089059352875,
+            -0.005639943294227123
+        ],
+        [
+            0.5275786644243533,
+            0.13059029590701618,
+            0.9360363400035177,
+            -0.0013627259702803259,
+            0.014255575452781168,
+            -0.024960296229513058,
+            0.9995858668261453,
+            -0.000898323894944042,
+            0.00034391251392662525,
+            -0.00014011960593052208,
+            -0.005042625591158867,
+            -0.016395041719079018,
+            -0.00159459188580513
+        ]
+    ],
+    "position_instruction": "Place the mug between the watch and the camera on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "fdb8227a88b2448d8c64fa82ffee3f58",
+        "f6f8675406b7437faaf96a1f82062028",
+        "065-g",
+        "c609327dd3a74fb597584e1b4a14a615"
+    ],
+    "target_obj_code": "c609327dd3a74fb597584e1b4a14a615",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_right"
+}

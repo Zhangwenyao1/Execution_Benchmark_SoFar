@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "toilet_paper_roll"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/7ca7ebcfad964498b49af73be442acf9/material_2.urdf"
+    ],
+    "target_obj_name": "toilet paper roll",
+    "instruction": "We need to specify the rotation of the object after placement:  the paper roll is lying sideways on the table, with its lateral surface in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.5662076349666614,
+            -0.07542740560895345,
+            0.9915835475754249,
+            -0.019300272794221338,
+            -0.47099700424104457,
+            -0.03610590487250227,
+            0.8811842515043984,
+            0.0015362752601504326,
+            -0.0003791373164858669,
+            -9.4490016635973e-05,
+            0.0052080606110394,
+            0.02107585221529007,
+            -0.00019509965204633772
+        ]
+    ],
+    "position_instruction": "",
+    "rotation_instruction": "We need to specify the rotation of the object after placement:  the paper roll is lying sideways on the table, with its lateral surface in contact with the tabletop.",
+    "rotation_instruction_label": "roll_sideways",
+    "obj_codes": [
+        "7ca7ebcfad964498b49af73be442acf9"
+    ],
+    "target_obj_code": "7ca7ebcfad964498b49af73be442acf9",
+    "anno_target": {
+        "category": "toilet_paper_roll",
+        "annotation": {
+            " the paper roll is standing upright on the table, in the shape of a cylinder, and the axis(height) of the cylinder is perpendicular to the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the paper roll is lying sideways on the table, with its lateral surface in contact with the tabletop.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            }
+        }
+    },
+    "rot_tag_detail": "roll_sideways",
+    "rot_tag_level": 0,
+    "position_tag": "rot_ins",
+    "rotation_tag": "roll_sideways"
+}

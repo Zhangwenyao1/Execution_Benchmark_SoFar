@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "can",
+        "watch",
+        "wrench"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/005_tomato_soup_can_google_16k/005_tomato_soup_can_google_16k.urdf",
+        "objaverse_rescale/fdb8227a88b2448d8c64fa82ffee3f58/material_2.urdf",
+        "objaverse_rescale/8a6cb4f7b0004f53830e270dc6e1ff1d/material_2.urdf"
+    ],
+    "target_obj_name": "wrench",
+    "instruction": "Place the wrench to the right of the can on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6640411189022509,
+            -0.005485018660512217,
+            0.8998947611698945,
+            -0.00022972604075724822,
+            -0.0007908955950188989,
+            -0.027516785388491272,
+            0.9996210022963633,
+            -0.0020872564055025578,
+            -0.0007353264954872429,
+            -0.00015678531781304628,
+            0.011497014202177525,
+            -0.04500036686658859,
+            -0.0010340787703171372
+        ],
+        [
+            0.42235968917012356,
+            0.05713193260349269,
+            0.9695478411248923,
+            0.0023254410706716852,
+            0.022783291338945705,
+            -0.1027562066262349,
+            0.9944428972843934,
+            0.002843886846676469,
+            -0.00039889858453534544,
+            -0.00033580619492568076,
+            0.008796850219368935,
+            0.04480435326695442,
+            0.04315938800573349
+        ],
+        [
+            0.49715801454390374,
+            -0.20502356616641038,
+            0.902006876075866,
+            0.30876993811885695,
+            -0.6346432332831551,
+            0.30992686521524626,
+            0.6370513558417641,
+            0.002705708844587207,
+            0.003215889213606715,
+            0.015033919364213943,
+            0.28493887186050415,
+            0.11503511667251587,
+            -0.3862093389034271
+        ]
+    ],
+    "position_instruction": "Place the wrench to the right of the can on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "005",
+        "fdb8227a88b2448d8c64fa82ffee3f58",
+        "8a6cb4f7b0004f53830e270dc6e1ff1d"
+    ],
+    "target_obj_code": "8a6cb4f7b0004f53830e270dc6e1ff1d",
+    "anno_target": {
+        "category": "wrench",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "handle_right"
+}

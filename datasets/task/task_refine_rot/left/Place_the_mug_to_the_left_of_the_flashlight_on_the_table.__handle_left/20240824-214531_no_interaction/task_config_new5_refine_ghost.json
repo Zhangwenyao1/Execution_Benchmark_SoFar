@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "flashlight",
+        "headphone",
+        "hammer",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/123a79642c2646d8b315576828fea84a/material_2.urdf",
+        "objaverse_rescale/ea91786392284f03809c37976da090bf/material_2.urdf",
+        "objaverse_rescale/6d155e8051294915813e0c156e3cd6de/material_2.urdf",
+        "objaverse_rescale/a564a11174be455bbce4698f7da92fdf/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug to the left of the flashlight on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "init_obj_pos": [
+        [
+            0.2622448677626272,
+            0.09851730861204265,
+            0.9292968216688723,
+            -0.2795536326359979,
+            -0.6898110345082362,
+            -0.011676925586155424,
+            0.6677380867971734,
+            0.0005682390765286982,
+            0.003089215839281678,
+            -0.005808989983052015,
+            -0.11631748825311661,
+            0.08732465654611588,
+            -0.03328246995806694
+        ],
+        [
+            0.5333332563226436,
+            0.3439200465863399,
+            0.9121561177434526,
+            -0.5525132669726637,
+            -0.4481407814408082,
+            0.5800101939371167,
+            0.39684644984911305,
+            -0.0001852956775110215,
+            -0.00033895933302119374,
+            9.597020834917203e-05,
+            0.007290220353752375,
+            -0.007673992309719324,
+            -0.004529417492449284
+        ],
+        [
+            0.5342810104814262,
+            0.18127206077087504,
+            0.9162211117980829,
+            -0.6613268847737057,
+            -0.250285113175578,
+            0.6578583869540782,
+            -0.2592806516351958,
+            0.003443371271714568,
+            0.009224305860698223,
+            0.022770114243030548,
+            -0.5066549777984619,
+            0.2450283020734787,
+            0.03016318567097187
+        ],
+        [
+            0.2963912615591614,
+            -0.21447809455391625,
+            0.9559683845320915,
+            0.5836729316486357,
+            -0.7601429863622305,
+            -0.2126284193121153,
+            -0.19051956446997342,
+            -0.00033178235753439367,
+            -9.863755394690088e-07,
+            -0.00020651415979955345,
+            -0.0019217990338802338,
+            -0.0042921872809529305,
+            -9.617224714020267e-05
+        ]
+    ],
+    "position_instruction": "Place the mug to the left of the flashlight on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "rotation_instruction_label": "handle_left",
+    "obj_codes": [
+        "123a79642c2646d8b315576828fea84a",
+        "ea91786392284f03809c37976da090bf",
+        "6d155e8051294915813e0c156e3cd6de",
+        "a564a11174be455bbce4698f7da92fdf"
+    ],
+    "target_obj_code": "a564a11174be455bbce4698f7da92fdf",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).": {
+                "quat": [
+                    [
+                        0.47213223576545715,
+                        -0.45122507214546204,
+                        -0.5337954163551331,
+                        0.5371680855751038
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "handle_left"
+}

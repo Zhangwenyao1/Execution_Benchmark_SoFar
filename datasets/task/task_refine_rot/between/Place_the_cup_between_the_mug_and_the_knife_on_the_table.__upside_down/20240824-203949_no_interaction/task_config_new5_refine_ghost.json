@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "knife",
+        "shoe",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/c25119c5ac6e4654be3b75d78e34a912/material_2.urdf",
+        "ycb_16k_backup/032_knife_google_16k/032_knife_google_16k.urdf",
+        "objaverse_rescale/d5a5f0a954f94bcea3168329d1605fe9/material_2.urdf",
+        "ycb_16k_backup/065-c_cups_google_16k/065-c_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup between the mug and the knife on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.7227628204415614,
+            0.10756103253626502,
+            0.930425194142796,
+            -0.00023531609714642272,
+            0.2946455117595357,
+            0.026798075397319307,
+            0.9552307732591616,
+            -0.0008716389420442283,
+            0.0014298880705609918,
+            -0.00038621187559328973,
+            -0.027343235909938812,
+            -0.01446264423429966,
+            0.001183701679110527
+        ],
+        [
+            0.4048895075373972,
+            0.026389632023750328,
+            0.9097884231531358,
+            0.8826495274019301,
+            -0.4676819196494526,
+            0.04400331264172271,
+            -0.016344487960989976,
+            0.0011378685012459755,
+            0.0004995965282432735,
+            -0.008388658054172993,
+            -1.0915656089782715,
+            1.1592350006103516,
+            0.10728421062231064
+        ],
+        [
+            0.4278914789866099,
+            0.24172327707979682,
+            0.932485360371983,
+            -0.08293087146853793,
+            -0.6526555847370078,
+            0.01890294651414452,
+            0.7528650854450255,
+            0.0025317079853266478,
+            -0.0036807898432016373,
+            0.0006065272609703243,
+            0.1022905632853508,
+            0.07758358865976334,
+            0.014063944108784199
+        ],
+        [
+            0.311862217626669,
+            -0.19026115276607233,
+            0.9005684520366388,
+            0.0007138516435857701,
+            -0.0007311976622539858,
+            0.07699578947755406,
+            0.9970308942899103,
+            -0.0013111091684550047,
+            -0.0053047374822199345,
+            -0.00107030279468745,
+            0.13374288380146027,
+            0.01253630593419075,
+            -0.14112617075443268
+        ]
+    ],
+    "position_instruction": "Place the cup between the mug and the knife on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "c25119c5ac6e4654be3b75d78e34a912",
+        "032",
+        "d5a5f0a954f94bcea3168329d1605fe9",
+        "065-c"
+    ],
+    "target_obj_code": "065-c",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "toy",
+        "binder",
+        "tape measure"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/072-b_toy_airplane_google_16k/072-b_toy_airplane_google_16k.urdf",
+        "objaverse_rescale/a0026e7d1b244b9a9223daf4223c9372/material_2.urdf",
+        "objaverse_rescale/7138f5e13b2e4e17975c23ba5584164b/material_2.urdf"
+    ],
+    "target_obj_name": "tape measure",
+    "instruction": "Place the tape measure between the toy and the binder on the table. We also need to specify the rotation of the object after placement:  the tape measure is placed upright on the table.",
+    "init_obj_pos": [
+        [
+            0.5363260543673217,
+            -0.11328994608545821,
+            0.9001521928584253,
+            -7.129045470623874e-05,
+            -0.0003043878360307014,
+            0.05004079157534385,
+            0.9987471258753283,
+            -0.0006438785349018872,
+            -0.0015501099405810237,
+            -0.000459351489553228,
+            0.03121832199394703,
+            0.0017692937981337309,
+            -0.006377174984663725
+        ],
+        [
+            0.6145391858624272,
+            0.0681643894690015,
+            0.9272654453964623,
+            -0.0003782870252476103,
+            -0.0001431937567838726,
+            -0.10491975997513643,
+            0.9944806083384609,
+            8.239388989750296e-06,
+            -0.00028361784643493593,
+            -0.0007031401037238538,
+            0.0018586640944704413,
+            0.005581682547926903,
+            0.00018154940335080028
+        ],
+        [
+            0.3940977064613082,
+            -0.176600555223621,
+            0.9173281642305273,
+            0.047471044597229006,
+            -0.01379715634151757,
+            -0.10362878001142586,
+            0.9933867395707873,
+            0.002138344803825021,
+            -0.0025216073263436556,
+            0.00042446053703315556,
+            0.11894017457962036,
+            0.07139340788125992,
+            0.008607814088463783
+        ]
+    ],
+    "position_instruction": "Place the tape measure between the toy and the binder on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the tape measure is placed upright on the table.",
+    "rotation_instruction_label": "tape_measure_upright",
+    "obj_codes": [
+        "072-b",
+        "a0026e7d1b244b9a9223daf4223c9372",
+        "7138f5e13b2e4e17975c23ba5584164b"
+    ],
+    "target_obj_code": "7138f5e13b2e4e17975c23ba5584164b",
+    "anno_target": {
+        "category": "tape_measure",
+        "annotation": {
+            " the tape measure is placed upright on the table.": {
+                "quat": [
+                    [
+                        0.7488577365875244,
+                        0.0,
+                        0.0,
+                        0.6627307534217834
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "tape_measure_upright",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "tape_measure_upright"
+}

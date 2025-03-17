@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "calculator",
+        "cup",
+        "knife",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/054be0c3f09143f38c4d8038eb2588c6/material_2.urdf",
+        "ycb_16k_backup/065-f_cups_google_16k/065-f_cups_google_16k.urdf",
+        "ycb_16k_backup/032_knife_google_16k/032_knife_google_16k.urdf",
+        "objaverse_rescale/db9345f568e8499a9eac2577302b5f51/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug on top of the calculator on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.5268478117421318,
+            0.20882401273508308,
+            0.9055999119871332,
+            0.0001742476004007797,
+            -0.0001760513314707542,
+            -0.0018233297743951416,
+            0.999998307054685,
+            -0.00041536695789545774,
+            -0.0012483493192121387,
+            -0.010394169948995113,
+            0.004533577710390091,
+            0.162075012922287,
+            -0.005441676825284958
+        ],
+        [
+            0.3293985593188817,
+            0.09704983862583032,
+            0.9694534647915773,
+            0.08230322130393078,
+            0.6683295676473648,
+            -0.004046273722010333,
+            -0.7392870866180804,
+            0.015981394797563553,
+            -0.003351526102051139,
+            -0.0019041713094338775,
+            0.0821223258972168,
+            0.4027725160121918,
+            0.07402651011943817
+        ],
+        [
+            0.35162299989403867,
+            -0.20068242094461114,
+            0.9029612193271918,
+            0.006342278126637099,
+            0.022658770032520856,
+            -0.1902830287226794,
+            0.9814472602381143,
+            0.0007735964609310031,
+            -0.0005854468327015638,
+            0.0328826867043972,
+            0.4620998799800873,
+            -0.6788180470466614,
+            0.04467941075563431
+        ],
+        [
+            0.6503662818642559,
+            -0.1490362185042962,
+            0.9642130466085488,
+            -0.031534414966357185,
+            0.24909475693964073,
+            0.12157100265484065,
+            0.9603009289027098,
+            0.00021940832084510475,
+            0.0012724099215120077,
+            0.0002892205084208399,
+            -0.017364487051963806,
+            -0.0028450374957174063,
+            0.0003606525424402207
+        ]
+    ],
+    "position_instruction": "Place the mug on top of the calculator on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "054be0c3f09143f38c4d8038eb2588c6",
+        "065-f",
+        "032",
+        "db9345f568e8499a9eac2577302b5f51"
+    ],
+    "target_obj_code": "db9345f568e8499a9eac2577302b5f51",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "handle_right"
+}

@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "cap",
+        "organizer",
+        "mug",
+        "screwdriver"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/87e82aa304ce4571b69bdd5182549c72/material_2.urdf",
+        "objaverse_rescale/4f52ebe6c8cf432986e47d8de83386ce/material_2.urdf",
+        "objaverse_rescale/c25119c5ac6e4654be3b75d78e34a912/material_2.urdf",
+        "ycb_16k_backup/044_flat_screwdriver_google_16k/044_flat_screwdriver_google_16k.urdf"
+    ],
+    "target_obj_name": "screwdriver",
+    "instruction": "Place the screwdriver at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.36741800332103736,
+            0.11467074554679856,
+            0.9389535889770002,
+            0.6599741214858746,
+            -0.620598766526331,
+            0.2941294578127628,
+            -0.30459676951950165,
+            0.00025065301451832056,
+            -0.002121965168043971,
+            -0.0006972419214434922,
+            0.06940416991710663,
+            0.0018579241586849093,
+            0.027855442836880684
+        ],
+        [
+            0.5296575529138402,
+            -0.29929963143898586,
+            1.02106064833763,
+            -3.742725846335538e-05,
+            -3.3532644982304406e-05,
+            -0.2919093541778889,
+            0.9564459871933239,
+            0.00029845317476429045,
+            0.002080876613035798,
+            -0.001470270100980997,
+            -0.021764742210507393,
+            0.0029890905134379864,
+            -0.0013760727597400546
+        ],
+        [
+            0.4633117580152977,
+            -0.08086814880322607,
+            0.9486788418918262,
+            -0.22868726031270611,
+            -0.5718780521980071,
+            -0.30386553470406913,
+            0.7268585606594248,
+            -0.001751698786392808,
+            0.002885419176891446,
+            -0.0007589939050376415,
+            -0.042016174644231796,
+            -0.030863650143146515,
+            0.0019492455758154392
+        ],
+        [
+            0.33113831451213516,
+            0.2459722304486963,
+            0.926448359358122,
+            -0.7917432391155305,
+            0.48773945526645396,
+            -0.116815221835896,
+            -0.34872205413289,
+            0.0008576377294957638,
+            -0.0005444435519166291,
+            -0.0002963503065984696,
+            -0.1292179822921753,
+            0.08230888098478317,
+            -0.04665910080075264
+        ]
+    ],
+    "position_instruction": "Place the screwdriver at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "87e82aa304ce4571b69bdd5182549c72",
+        "4f52ebe6c8cf432986e47d8de83386ce",
+        "c25119c5ac6e4654be3b75d78e34a912",
+        "044"
+    ],
+    "target_obj_code": "044",
+    "anno_target": {
+        "category": "screwdriver",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.011427843011915684,
+                        0.021855341270565987,
+                        -0.40244925022125244,
+                        0.9151100516319275
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "center",
+    "rotation_tag": "handle_right"
+}

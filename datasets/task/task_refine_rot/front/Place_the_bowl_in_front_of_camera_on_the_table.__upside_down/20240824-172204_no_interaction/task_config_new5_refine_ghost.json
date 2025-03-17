@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "camera",
+        "mouse",
+        "bowl"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f6f8675406b7437faaf96a1f82062028/material_2.urdf",
+        "objaverse_rescale/969b0d9d99a8468898753fdcd219f883/material_2.urdf",
+        "objaverse_rescale/bdd36c94f3f74f22b02b8a069c8d97b7/material_2.urdf"
+    ],
+    "target_obj_name": "bowl",
+    "instruction": "Place the bowl in front of camera on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6038208355442904,
+            0.12218061034333424,
+            0.9668631914774124,
+            -0.23818610072429194,
+            0.43837500861912615,
+            -0.07840277162523343,
+            0.8631035503584843,
+            -0.0014123902656137943,
+            -1.0650336434991914e-06,
+            0.00043994304724037647,
+            -0.005209812428802252,
+            -0.021232828497886658,
+            0.0007733062957413495
+        ],
+        [
+            0.6060073273564026,
+            -0.10780343762197632,
+            0.9242594556192832,
+            -0.5793144282262038,
+            -0.12552140002648574,
+            0.038947846957606135,
+            0.804439081970602,
+            0.0064963530749082565,
+            0.0010203029960393906,
+            -0.0009348539751954377,
+            0.12236848473548889,
+            0.1162472516298294,
+            -0.0559903159737587
+        ],
+        [
+            0.566987660567221,
+            -0.3153036141913974,
+            0.9560787111391625,
+            0.7066203379365944,
+            0.026377561070439315,
+            0.026377692023600015,
+            0.7066089014793522,
+            -0.00041242525912821293,
+            0.0023412839509546757,
+            -0.0008503499557264149,
+            -0.042919762432575226,
+            -0.02076096273958683,
+            -0.029326776042580605
+        ]
+    ],
+    "position_instruction": "Place the bowl in front of camera on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "f6f8675406b7437faaf96a1f82062028",
+        "969b0d9d99a8468898753fdcd219f883",
+        "bdd36c94f3f74f22b02b8a069c8d97b7"
+    ],
+    "target_obj_code": "bdd36c94f3f74f22b02b8a069c8d97b7",
+    "anno_target": {
+        "category": "bowl",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "front",
+    "rotation_tag": "upside_down"
+}

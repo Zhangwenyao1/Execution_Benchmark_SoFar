@@ -1,0 +1,111 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "spatula",
+        "fork",
+        "shoe"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/b8478cea51454555b90de0fe6ba7ba83/material_2.urdf",
+        "ycb_16k_backup/033_spatula_google_16k/033_spatula_google_16k.urdf",
+        "ycb_16k_backup/030_fork_google_16k/030_fork_google_16k.urdf",
+        "objaverse_rescale/ae7142127dd84ebbbe7762368ace452c/material_2.urdf"
+    ],
+    "target_obj_name": "shoe",
+    "instruction": "Place the shoe to the right of the mug on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.395890773480773,
+            -0.22759845647130686,
+            0.9680135751594112,
+            -0.008552031895364432,
+            -0.01659007511603071,
+            -0.45798728017386214,
+            0.8887627823874346,
+            -0.03680824860930443,
+            0.13577963411808014,
+            0.007732555270195007,
+            -0.8071497678756714,
+            3.9135024547576904,
+            -4.330203056335449
+        ],
+        [
+            0.45541819406578316,
+            -0.08649094255385295,
+            0.9318571450443968,
+            -0.6984510060429222,
+            0.715214970171252,
+            -0.013774438783830762,
+            -0.021071389056142968,
+            0.004230482038110495,
+            0.0017433769535273314,
+            -0.009376264177262783,
+            -0.14475692808628082,
+            -0.02741061896085739,
+            -0.0463932640850544
+        ],
+        [
+            0.6402775600224891,
+            0.1346389745010026,
+            0.90282190237149,
+            0.0563907843396301,
+            -0.002970161172978202,
+            -0.059144670598740075,
+            0.9966509747769944,
+            -0.0006970209651626647,
+            0.003380206413567066,
+            -0.0006861801957711577,
+            -0.09979415684938431,
+            0.0170697383582592,
+            -0.1533391773700714
+        ],
+        [
+            0.18030015322703802,
+            -0.16804584289407457,
+            0.9446717557858898,
+            0.194628872273036,
+            0.02569028600845738,
+            -0.5061250488259371,
+            0.8398196510164986,
+            0.0048565189354121685,
+            -0.08307474106550217,
+            0.002105191582813859,
+            -0.6417749524116516,
+            -2.8190786838531494,
+            0.2799208462238312
+        ]
+    ],
+    "position_instruction": "Place the shoe to the right of the mug on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "b8478cea51454555b90de0fe6ba7ba83",
+        "033",
+        "030",
+        "ae7142127dd84ebbbe7762368ace452c"
+    ],
+    "target_obj_code": "ae7142127dd84ebbbe7762368ace452c",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        [
+                            -1,
+                            -1,
+                            -1,
+                            -1
+                        ]
+                    ]
+                ],
+                "stage": 2,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "sideways"
+}

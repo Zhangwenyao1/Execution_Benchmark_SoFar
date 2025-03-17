@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "hat",
+        "hammer",
+        "toy"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/dc02f9c1fd01432fadd6e7d15851dc37/material_2.urdf",
+        "objaverse_rescale/6d155e8051294915813e0c156e3cd6de/material_2.urdf",
+        "objaverse_rescale/9adc77036b434348ae049776c50df624/material_2.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "Place the toy on top of the hat on the table. We also need to specify the rotation of the object after placement: the toy is facing right, with its head oriented towards left",
+    "init_obj_pos": [
+        [
+            0.6316812745241133,
+            0.25516362022050504,
+            0.9447227301842052,
+            -0.8705796526349827,
+            0.020551698483365646,
+            -0.17771364448860918,
+            0.4583520008355772,
+            0.00046520851901732385,
+            0.0006196510512381792,
+            -0.00017890696472022682,
+            -0.014378531835973263,
+            0.015430950559675694,
+            -0.003963775932788849
+        ],
+        [
+            0.39045852953565047,
+            0.21309147530275965,
+            0.9327396628167032,
+            0.08180781972741359,
+            -0.006558858339050478,
+            -0.07946847241278428,
+            0.9934531815345479,
+            -0.000523818249348551,
+            -0.0001533050963189453,
+            -0.0032546939328312874,
+            -0.02911492809653282,
+            -0.09397895634174347,
+            -0.028742380440235138
+        ],
+        [
+            0.39928320367824954,
+            -0.11291703737378127,
+            0.9406450841873526,
+            -0.06961863017299104,
+            -0.06770257470684957,
+            0.083844545720006,
+            0.9917357006097468,
+            0.0011880231322720647,
+            -0.0007443000795319676,
+            -0.00040132165304385126,
+            0.011311999522149563,
+            0.018547644838690758,
+            -0.004088276065886021
+        ]
+    ],
+    "position_instruction": "Place the toy on top of the hat on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement: the toy is facing right, with its head oriented towards left",
+    "rotation_instruction_label": "right",
+    "obj_codes": [
+        "dc02f9c1fd01432fadd6e7d15851dc37",
+        "6d155e8051294915813e0c156e3cd6de",
+        "9adc77036b434348ae049776c50df624"
+    ],
+    "target_obj_code": "9adc77036b434348ae049776c50df624",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        0.6684325933456421,
+                        0.2306467592716217,
+                        0.2306467443704605,
+                        0.6684325337409973
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        -0.2339881807565689,
+                        0.6672703623771667,
+                        0.667270302772522,
+                        -0.23398815095424652
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "right"
+}

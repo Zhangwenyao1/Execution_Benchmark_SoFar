@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "remote control",
+        "toy",
+        "remote control",
+        "plate"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f1bbc61a42b94ee9a2976ca744f8962e/material_2.urdf",
+        "objaverse_rescale/9adc77036b434348ae049776c50df624/material_2.urdf",
+        "objaverse_rescale/c7ec86e7feb746489b30b4a01c2510af/material_2.urdf",
+        "ycb_16k_backup/029_plate_google_16k/029_plate_google_16k.urdf"
+    ],
+    "target_obj_name": "plate",
+    "instruction": "Place the plate at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.2597796551957794,
+            0.06584790134134662,
+            0.9057232828909085,
+            -0.47543318256508005,
+            0.523503721871526,
+            -0.5234061276000821,
+            0.4753453141594914,
+            0.005372544284909964,
+            3.6051620554644614e-05,
+            0.031436577439308167,
+            -1.4557055234909058,
+            1.1500314474105835,
+            0.10294285416603088
+        ],
+        [
+            0.3212638793604562,
+            -0.14923199292258318,
+            0.9405959112337002,
+            -0.07383296085026649,
+            -0.0626328740444359,
+            -0.0025025254375004293,
+            0.9952987261859896,
+            0.0009985375218093395,
+            -0.0009455590625293553,
+            -0.00040273062768392265,
+            0.01445973664522171,
+            0.01564549095928669,
+            -0.003951658494770527
+        ],
+        [
+            0.5324026346206665,
+            -0.07000880919196462,
+            0.3064146041870117,
+            0.584080696105957,
+            -0.3993147015571594,
+            -0.40211305022239685,
+            0.5811218023300171,
+            0.0004629270697478205,
+            0.0006231699953787029,
+            0.029000835493206978,
+            -0.8933383226394653,
+            0.19203658401966095,
+            -0.022793302312493324
+        ],
+        [
+            0.48964375257492065,
+            -0.028316829353570938,
+            0.3027849495410919,
+            2.4480968363604916e-08,
+            6.721730869685416e-07,
+            -0.09805794805288315,
+            0.9951807856559753,
+            6.688197026960552e-05,
+            -1.8584587451186962e-05,
+            -0.00035625460441224277,
+            0.0013676887610927224,
+            0.00724021065980196,
+            -9.000034333439544e-05
+        ]
+    ],
+    "position_instruction": "Place the plate at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "f1bbc61a42b94ee9a2976ca744f8962e",
+        "9adc77036b434348ae049776c50df624",
+        "c7ec86e7feb746489b30b4a01c2510af",
+        "029"
+    ],
+    "target_obj_code": "029",
+    "anno_target": {
+        "category": "plate",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "center",
+    "rotation_tag": "upside_down"
+}

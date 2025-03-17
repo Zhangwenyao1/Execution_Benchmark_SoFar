@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "wrench",
+        "mug",
+        "orange"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf",
+        "objaverse_rescale/ca4f9a92cc2f4ee98fe9332db41bf7f7/material_2.urdf",
+        "objaverse_rescale/a4c9a503f63e440e8d6d924d4e5c36b1/material_2.urdf"
+    ],
+    "target_obj_name": "orange",
+    "instruction": "Place the orange behind the wrench on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.6812826844973824,
+            -0.19551793295267336,
+            0.9027694693563411,
+            0.01088025416409352,
+            -0.017682555338705466,
+            -0.0518976512955666,
+            0.9984365683888102,
+            0.0019369682995602489,
+            -0.0035457583144307137,
+            0.03438744693994522,
+            0.05716308578848839,
+            -0.05708906799554825,
+            0.19556693732738495
+        ],
+        [
+            0.6762465718418869,
+            0.08577965523262639,
+            0.9610146850917642,
+            0.054067028071418693,
+            0.2266665063937233,
+            -0.08992276248742949,
+            0.9683041609646318,
+            0.00047134593478403986,
+            -0.001361639122478664,
+            -0.0006182872457429767,
+            0.02740298956632614,
+            0.0096248434856534,
+            -0.002338501624763012
+        ],
+        [
+            0.5824314038134659,
+            -0.19522391721454982,
+            0.9373398663419051,
+            0.35852799387556855,
+            0.5656593730583157,
+            -0.685382772091319,
+            0.28589789610847544,
+            -0.0020134509541094303,
+            -0.0017535834340378642,
+            -0.0003502044710330665,
+            0.045861341059207916,
+            -0.017203550785779953,
+            0.02892380580306053
+        ]
+    ],
+    "position_instruction": "Place the orange behind the wrench on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "042",
+        "ca4f9a92cc2f4ee98fe9332db41bf7f7",
+        "a4c9a503f63e440e8d6d924d4e5c36b1"
+    ],
+    "target_obj_code": "a4c9a503f63e440e8d6d924d4e5c36b1",
+    "anno_target": {
+        "category": "orange",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "upright"
+}

@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "watch",
+        "hammer",
+        "spatula"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/d6e38c73f8f2402aac890e8ebb115302/material_2.urdf",
+        "objaverse_rescale/35a76a67ea1c45edabbd5013de70d68d/material_2.urdf",
+        "ycb_16k_backup/033_spatula_google_16k/033_spatula_google_16k.urdf"
+    ],
+    "target_obj_name": "spatula",
+    "instruction": "Place the spatula to the right of the watch on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6101762262398602,
+            -0.049830350989086926,
+            0.9322774457570926,
+            -0.007095772446350281,
+            -0.010130946406406377,
+            -0.018614476746902215,
+            0.9997502264034446,
+            -0.00013854853750672191,
+            -0.0007099357317201793,
+            -0.0014739589532837272,
+            -8.643521869089454e-05,
+            -0.004891840275377035,
+            -0.01682768575847149
+        ],
+        [
+            0.6467892480596823,
+            0.058236120302643246,
+            0.9310045211435067,
+            -0.04382503819815828,
+            -0.002770309060966051,
+            0.06318181597773022,
+            0.9970354805845139,
+            1.4744045074621681e-05,
+            -0.00267412094399333,
+            -0.0031025309581309557,
+            0.11452072858810425,
+            0.014830110594630241,
+            -0.030806032940745354
+        ],
+        [
+            0.33009274942607136,
+            -0.1467396981667387,
+            0.9004366517605672,
+            0.0010539292168646843,
+            -0.001441328537679202,
+            0.0521237901202659,
+            0.9986390350415663,
+            0.0020809052512049675,
+            -0.006593093276023865,
+            -0.009613419882953167,
+            0.492424875497818,
+            0.14808188378810883,
+            -0.0006808811449445784
+        ]
+    ],
+    "position_instruction": "Place the spatula to the right of the watch on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "d6e38c73f8f2402aac890e8ebb115302",
+        "35a76a67ea1c45edabbd5013de70d68d",
+        "033"
+    ],
+    "target_obj_code": "033",
+    "anno_target": {
+        "category": "spatula",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.621095597743988,
+                        0.7837347984313965
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "handle_right"
+}

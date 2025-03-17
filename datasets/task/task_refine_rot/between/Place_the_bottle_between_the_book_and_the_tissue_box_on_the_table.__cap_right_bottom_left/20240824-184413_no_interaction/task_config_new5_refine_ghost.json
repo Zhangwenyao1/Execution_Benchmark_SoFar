@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "book",
+        "tissue box",
+        "bottle"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/c61227cac7224b86b43c53ac2a2b6ec7/material_2.urdf",
+        "objaverse_rescale/6f8040c86eb84e7bba2cd928c0755029/material_2.urdf",
+        "ycb_16k_backup/022_windex_bottle_google_16k/022_windex_bottle_google_16k.urdf"
+    ],
+    "target_obj_name": "bottle",
+    "instruction": "Place the bottle between the book and the tissue box on the table. We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.",
+    "init_obj_pos": [
+        [
+            0.490990430676456,
+            0.01998510917947357,
+            0.9141693785745452,
+            0.00025542030039716425,
+            -7.521770201342751e-05,
+            -0.1341504651469074,
+            0.9909609385861969,
+            2.031967778748367e-05,
+            0.0017933303024619818,
+            -0.002562830690294504,
+            -0.036475688219070435,
+            0.012752658687531948,
+            0.009072729386389256
+        ],
+        [
+            0.4716686144465361,
+            -0.2112681496082833,
+            0.9273029670354999,
+            0.012589469103589409,
+            0.0008134787406556683,
+            0.06428104172318368,
+            0.997852088836322,
+            -8.067281305557117e-05,
+            -0.0009231257135979831,
+            -0.00026122326380573213,
+            0.017677467316389084,
+            0.0006420331192202866,
+            0.00035899673821404576
+        ],
+        [
+            0.392374497172562,
+            -0.06779592718387914,
+            0.9292519571816036,
+            0.31911069125864183,
+            -0.6424564485400565,
+            0.5615176302001937,
+            0.4124512449103375,
+            -0.0013264636509120464,
+            0.0002273899008287117,
+            5.3036226745462045e-05,
+            0.001688684686087072,
+            -0.04096348211169243,
+            0.02984972670674324
+        ]
+    ],
+    "position_instruction": "Place the bottle between the book and the tissue box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.",
+    "rotation_instruction_label": "cap_right_bottom_left",
+    "obj_codes": [
+        "c61227cac7224b86b43c53ac2a2b6ec7",
+        "6f8040c86eb84e7bba2cd928c0755029",
+        "022"
+    ],
+    "target_obj_code": "022",
+    "anno_target": {
+        "category": "bottle",
+        "annotation": {
+            " the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            },
+            " the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "cap_right_bottom_left",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "cap_right_bottom_left"
+}

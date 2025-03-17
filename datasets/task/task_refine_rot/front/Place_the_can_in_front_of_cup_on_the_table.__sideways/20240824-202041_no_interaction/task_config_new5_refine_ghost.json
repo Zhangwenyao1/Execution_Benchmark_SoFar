@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "can"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-f_cups_google_16k/065-f_cups_google_16k.urdf",
+        "ycb_16k_backup/010_potted_meat_can_google_16k/010_potted_meat_can_google_16k.urdf"
+    ],
+    "target_obj_name": "can",
+    "instruction": "Place the can in front of cup on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.49611685163974667,
+            0.05609962967888897,
+            0.9003504906622005,
+            0.00047635724175728314,
+            0.00023020026184155732,
+            0.0033172805927821217,
+            0.9999943578546263,
+            0.002185800578445196,
+            -0.003711909055709839,
+            -0.003000859636813402,
+            0.10802378505468369,
+            0.07971437275409698,
+            -0.03266622871160507
+        ],
+        [
+            0.4551383048521226,
+            0.03909276976082084,
+            0.9030853219471063,
+            -0.0005868992226887543,
+            -0.0001664805426820647,
+            -0.01733947633001009,
+            0.9998494738680078,
+            0.00020863772078882903,
+            -0.001560974633321166,
+            -0.0002314023586222902,
+            0.03465034067630768,
+            0.008206518366932869,
+            -0.0012223621597513556
+        ]
+    ],
+    "position_instruction": "Place the can in front of cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "065-f",
+        "010"
+    ],
+    "target_obj_code": "010",
+    "anno_target": {
+        "category": "can",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.0,
+                        0.7071067690849304,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.0,
+                        -0.7071067690849304,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "front",
+    "rotation_tag": "sideways"
+}

@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "bottle",
+        "hammer",
+        "knife"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/022_windex_bottle_google_16k/022_windex_bottle_google_16k.urdf",
+        "objaverse_rescale/8ed38a92668a425eb16da938622d9ace/material_2.urdf",
+        "ycb_16k_backup/032_knife_google_16k/032_knife_google_16k.urdf"
+    ],
+    "target_obj_name": "knife",
+    "instruction": "Place the knife between the bottle and the hammer on the table. We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.5238576784966633,
+            -0.008376439987610554,
+            0.9303082110696901,
+            -0.1468840786207203,
+            -0.713621922319016,
+            0.07386103378272062,
+            0.6809650263574485,
+            0.000519408960826695,
+            -0.0006130624678917229,
+            -0.0002006331633310765,
+            0.021755831316113472,
+            0.018247900530695915,
+            -0.00020948720339220017
+        ],
+        [
+            0.4159017139041708,
+            -0.049134471119477795,
+            0.915434446708275,
+            0.03820767750253094,
+            0.5575019976532142,
+            -0.038041084075010625,
+            0.8284229426536522,
+            0.013995746150612831,
+            -0.0034904740750789642,
+            0.01505735982209444,
+            0.5541592836380005,
+            0.029132690280675888,
+            -0.12415868788957596
+        ],
+        [
+            0.6214688983896453,
+            -0.07239672089254837,
+            0.8994593015159111,
+            -0.9107194793709005,
+            -0.3584322031213522,
+            0.048910648973972785,
+            0.19930914198027735,
+            -0.0041372827254235744,
+            0.004138336982578039,
+            -0.006599885411560535,
+            1.474151849746704,
+            1.4593209028244019,
+            0.13892050087451935
+        ]
+    ],
+    "position_instruction": "Place the knife between the bottle and the hammer on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blade_right",
+    "obj_codes": [
+        "022",
+        "8ed38a92668a425eb16da938622d9ace",
+        "032"
+    ],
+    "target_obj_code": "032",
+    "anno_target": {
+        "category": "knife",
+        "annotation": {
+            " the blade of the knife is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        -0.010130898095667362,
+                        0.010130898095667362,
+                        0.707034170627594,
+                        0.707034170627594
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blade of the knife is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        -0.010140104219317436,
+                        -0.010121682658791542,
+                        0.7076767086982727,
+                        -0.7063910365104675
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blade_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "blade_right"
+}

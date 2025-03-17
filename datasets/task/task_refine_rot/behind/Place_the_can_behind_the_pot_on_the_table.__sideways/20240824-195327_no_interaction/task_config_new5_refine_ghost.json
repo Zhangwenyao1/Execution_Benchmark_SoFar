@@ -1,0 +1,127 @@
+{
+    "selected_obj_names": [
+        "pot",
+        "shoe",
+        "speaker",
+        "can"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/af249e607bea40cfa2f275e5e23b8283/material_2.urdf",
+        "objaverse_rescale/d6951661c1e445d8a1d00b7d38d86030/material_2.urdf",
+        "objaverse_rescale/4445f4442a884999960e7e6660459095/material_2.urdf",
+        "ycb_16k_backup/010_potted_meat_can_google_16k/010_potted_meat_can_google_16k.urdf"
+    ],
+    "target_obj_name": "can",
+    "instruction": "Place the can behind the pot on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.44239946177161465,
+            -0.19137068017434383,
+            0.9813023262392893,
+            0.7070492225495393,
+            0.008964100916036536,
+            0.008961051107598131,
+            0.7070507346364237,
+            0.002418416552245617,
+            0.002117524854838848,
+            -0.0010478310286998749,
+            -0.039604052901268005,
+            0.03578011691570282,
+            -0.012388458475470543
+        ],
+        [
+            0.29938063422052713,
+            0.1765168907492517,
+            0.932442247147988,
+            -0.030441924576964242,
+            -0.1534209706662558,
+            0.0390328959532835,
+            0.9869203250624518,
+            -0.021356020122766495,
+            -0.006817774847149849,
+            0.04976319521665573,
+            -2.6176953315734863,
+            1.7896066904067993,
+            -4.733771800994873
+        ],
+        [
+            0.5005815878012249,
+            0.17189627011779796,
+            0.9693478657453667,
+            -0.00022059631558814,
+            -0.022016159472592865,
+            0.013048481750238946,
+            0.9996724349422446,
+            -0.046563055366277695,
+            0.02025650069117546,
+            -0.004489777609705925,
+            -0.406112402677536,
+            -0.5394160747528076,
+            -0.4201963543891907
+        ],
+        [
+            0.6454176315615391,
+            0.20349416213372157,
+            0.9030839877273454,
+            -0.0006097086432734175,
+            -0.00024066859423616988,
+            0.05672122970182272,
+            0.9983898399097977,
+            0.00035994351492263377,
+            -0.004421424586325884,
+            -0.0005916320369578898,
+            0.11584145575761795,
+            0.0012185777304694057,
+            0.007598506286740303
+        ]
+    ],
+    "position_instruction": "Place the can behind the pot on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "af249e607bea40cfa2f275e5e23b8283",
+        "d6951661c1e445d8a1d00b7d38d86030",
+        "4445f4442a884999960e7e6660459095",
+        "010"
+    ],
+    "target_obj_code": "010",
+    "anno_target": {
+        "category": "can",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.0,
+                        0.7071067690849304,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.0,
+                        -0.7071067690849304,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "sideways"
+}

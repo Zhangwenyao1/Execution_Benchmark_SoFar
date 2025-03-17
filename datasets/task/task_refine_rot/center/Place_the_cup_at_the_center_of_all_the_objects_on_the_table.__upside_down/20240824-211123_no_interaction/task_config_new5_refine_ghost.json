@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "mouse",
+        "pitcher base",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6e9e9135bb5747f58d388e1e92477f02/material_2.urdf",
+        "objaverse_rescale/e51e63e374ee4c25ae3fb4a9c74bd335/material_2.urdf",
+        "ycb_16k_backup/019_pitcher_base_google_16k/019_pitcher_base_google_16k.urdf",
+        "ycb_16k_backup/065-i_cups_google_16k/065-i_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6702613461601893,
+            -0.23419998353225924,
+            0.9317406687482646,
+            0.00715744139339562,
+            0.05357302016746839,
+            0.043966328528544284,
+            0.9975698795064709,
+            -0.0004925165558233857,
+            -0.003385418327525258,
+            -0.0005140752764418721,
+            0.07593575119972229,
+            -0.008714835159480572,
+            0.00036907452158629894
+        ],
+        [
+            0.3198959712955666,
+            -0.01078440987883909,
+            0.9275075269219403,
+            0.7070695967150723,
+            -0.006708893092914116,
+            -0.006707364586386288,
+            0.7070803259990752,
+            0.00310277147218585,
+            -0.007736142724752426,
+            -0.011209209449589252,
+            0.3147306442260742,
+            0.1521797925233841,
+            -0.03750625252723694
+        ],
+        [
+            0.5031231556553456,
+            0.12773209082611392,
+            0.9013211570966901,
+            0.00022417113264411353,
+            0.0006532456129352333,
+            -0.1304332771148901,
+            0.991456848903947,
+            -0.003444950096309185,
+            0.004090609960258007,
+            -0.0001496203476563096,
+            -0.03719340264797211,
+            -0.0309161189943552,
+            -0.005056876223534346
+        ],
+        [
+            0.4366373719674696,
+            0.06678252457064704,
+            0.900513367921067,
+            0.0015795065624215762,
+            -0.0015061603416651607,
+            0.0007984788789494687,
+            0.9999972995321161,
+            0.0024360530078411102,
+            -0.0050695715472102165,
+            -0.004485186655074358,
+            0.15102064609527588,
+            0.13279427587985992,
+            0.027798712253570557
+        ]
+    ],
+    "position_instruction": "Place the cup at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "6e9e9135bb5747f58d388e1e92477f02",
+        "e51e63e374ee4c25ae3fb4a9c74bd335",
+        "019",
+        "065-i"
+    ],
+    "target_obj_code": "065-i",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "center",
+    "rotation_tag": "upside_down"
+}

@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "box"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-e_cups_google_16k/065-e_cups_google_16k.urdf",
+        "ycb_16k_backup/003_cracker_box_google_16k/003_cracker_box_google_16k.urdf"
+    ],
+    "target_obj_name": "box",
+    "instruction": "Place the box in front of cup on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.",
+    "init_obj_pos": [
+        [
+            0.5768364120343439,
+            0.1801040964754509,
+            0.9008437173506103,
+            0.0009718934781361006,
+            -0.0023289114339137035,
+            -0.022573362617369086,
+            0.9997420041664467,
+            0.0026130210608243942,
+            0.003990769851952791,
+            -0.009773542173206806,
+            -0.060113824903964996,
+            0.1528957188129425,
+            0.035069990903139114
+        ],
+        [
+            0.335679073397584,
+            0.17440112411571312,
+            0.9038265743533728,
+            8.29483633028396e-05,
+            -0.01470935006164942,
+            0.010476835869043239,
+            0.999836918727503,
+            0.0020464269910007715,
+            -0.000494516862090677,
+            -0.0007921434589661658,
+            0.0036929568741470575,
+            0.02526218257844448,
+            -0.005037830211222172
+        ]
+    ],
+    "position_instruction": "Place the box in front of cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.",
+    "rotation_instruction_label": "sideways_textual",
+    "obj_codes": [
+        "065-e",
+        "003"
+    ],
+    "target_obj_code": "003",
+    "anno_target": {
+        "category": "box",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.5,
+                        0.4999999701976776,
+                        -0.5000000596046448,
+                        0.4999999403953552
+                    ],
+                    [
+                        -5.1982041782139277e-08,
+                        0.7071066498756409,
+                        -0.7071069478988647,
+                        -9.835190439844155e-09
+                    ],
+                    [
+                        0.5000001192092896,
+                        -0.49999985098838806,
+                        0.5000001788139343,
+                        0.4999998211860657
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.": {
+                "quat": [
+                    [
+                        1.0,
+                        0.0,
+                        -0.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways_textual",
+    "rot_tag_level": 2,
+    "position_tag": "front",
+    "rotation_tag": "sideways_textual"
+}

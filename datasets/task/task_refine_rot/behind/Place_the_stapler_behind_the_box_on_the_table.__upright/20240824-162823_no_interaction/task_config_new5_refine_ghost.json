@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "box",
+        "toilet paper roll",
+        "hot glue gun",
+        "stapler"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/003_cracker_box_google_16k/003_cracker_box_google_16k.urdf",
+        "objaverse_rescale/ea0cf48616e34708b73c82eb7c7366ca/material_2.urdf",
+        "objaverse_rescale/5ceec13e87774982afe825e7e74a0ce1/material_2.urdf",
+        "objaverse_rescale/d2c345be5c084b4e8c92b48f7be69315/material_2.urdf"
+    ],
+    "target_obj_name": "stapler",
+    "instruction": "Place the stapler behind the box on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.5159336603428656,
+            -0.1735502682671264,
+            0.923329673549978,
+            0.02098765511970822,
+            0.7123119010627582,
+            -0.01348725156061574,
+            0.7014195377819716,
+            -0.0002876275684684515,
+            0.0009601344354450703,
+            -4.6414852477028035e-06,
+            -0.03270834684371948,
+            -0.009730812162160873,
+            -0.00011504061694722623
+        ],
+        [
+            0.3594634103895185,
+            -0.13949001214437437,
+            0.9495056222980329,
+            -0.00037172703464353227,
+            -0.01677357486827691,
+            -0.026393590473770046,
+            0.9995108240469707,
+            0.0004096316988579929,
+            -0.0031012580730021,
+            -0.001155052799731493,
+            0.03890835493803024,
+            0.005153609439730644,
+            -0.00010440540063427761
+        ],
+        [
+            0.5044699941939182,
+            0.040994797553986405,
+            0.9177719871522457,
+            0.0005960667295844481,
+            0.030220515554439647,
+            -0.06374247720475906,
+            0.9975085271534668,
+            -0.0023045847192406654,
+            -0.004114158917218447,
+            -0.0027524272445589304,
+            0.04342373088002205,
+            -0.13133296370506287,
+            -0.059735510498285294
+        ],
+        [
+            0.5189852930224614,
+            0.21353397428023857,
+            0.9213145071221861,
+            -0.10145096769066389,
+            0.3648820904174507,
+            0.14040500008792348,
+            0.9147978996464349,
+            -6.0081412811996415e-05,
+            0.007956482470035553,
+            -0.0038888000417500734,
+            -0.43132129311561584,
+            -0.007031959947198629,
+            0.009856138378381729
+        ]
+    ],
+    "position_instruction": "Place the stapler behind the box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "003",
+        "ea0cf48616e34708b73c82eb7c7366ca",
+        "5ceec13e87774982afe825e7e74a0ce1",
+        "d2c345be5c084b4e8c92b48f7be69315"
+    ],
+    "target_obj_code": "d2c345be5c084b4e8c92b48f7be69315",
+    "anno_target": {
+        "category": "stapler",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "upright"
+}

@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "apple"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-a_cups_google_16k/065-a_cups_google_16k.urdf",
+        "objaverse_rescale/f53d75bd123b40bca14d12d54286f432/material_2.urdf"
+    ],
+    "target_obj_name": "apple",
+    "instruction": "Place the apple to the right of the cup on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.5016564018137479,
+            0.11182333670687596,
+            0.9011635635439631,
+            0.002178951695691405,
+            -0.005365386189384616,
+            -0.045172918096899536,
+            0.9989623978264434,
+            -0.0035899875219911337,
+            -0.004269706085324287,
+            0.010139896534383297,
+            -0.30455225706100464,
+            -0.5558918714523315,
+            1.1710361242294312
+        ],
+        [
+            0.5622679382809956,
+            0.04514534929607705,
+            0.9682683305404475,
+            0.06290349198140853,
+            0.04572990369178985,
+            0.028076668597981143,
+            0.9965759515889017,
+            0.004442234989255667,
+            0.0007685526506975293,
+            -0.001596737653017044,
+            -0.01636112481355667,
+            0.08938442170619965,
+            0.022758610546588898
+        ]
+    ],
+    "position_instruction": "Place the apple to the right of the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "065-a",
+        "f53d75bd123b40bca14d12d54286f432"
+    ],
+    "target_obj_code": "f53d75bd123b40bca14d12d54286f432",
+    "anno_target": {
+        "category": "apple",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upright"
+}

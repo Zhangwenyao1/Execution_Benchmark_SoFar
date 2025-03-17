@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "box"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/8eda72f64e6e4443af4fdbeed07cad29/material_2.urdf",
+        "ycb_16k_backup/003_cracker_box_google_16k/003_cracker_box_google_16k.urdf"
+    ],
+    "target_obj_name": "box",
+    "instruction": "Place the box to the right of the tissue box on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.",
+    "init_obj_pos": [
+        [
+            0.4343897444835847,
+            0.0040102636580637485,
+            0.9296253683033056,
+            8.880605591751948e-06,
+            -1.4079316860490486e-07,
+            -0.037149785530063505,
+            0.9993097084268643,
+            -0.0010040357010439038,
+            0.0036233135033398867,
+            -0.005092958454042673,
+            -0.03476898372173309,
+            -0.012704593129456043,
+            -0.009760571643710136
+        ],
+        [
+            0.6975967155443882,
+            0.143985971415314,
+            0.903826172266804,
+            0.0017840001244826971,
+            -0.014593278410673116,
+            0.12610844065010132,
+            0.9919075132115818,
+            0.0023067740257829428,
+            -5.1009228627663106e-05,
+            -0.0007652761414647102,
+            -0.0014396263286471367,
+            0.02368498221039772,
+            -0.001488303765654564
+        ]
+    ],
+    "position_instruction": "Place the box to the right of the tissue box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.",
+    "rotation_instruction_label": "sideways_textual",
+    "obj_codes": [
+        "8eda72f64e6e4443af4fdbeed07cad29",
+        "003"
+    ],
+    "target_obj_code": "003",
+    "anno_target": {
+        "category": "box",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.5,
+                        0.4999999701976776,
+                        -0.5000000596046448,
+                        0.4999999403953552
+                    ],
+                    [
+                        -5.1982041782139277e-08,
+                        0.7071066498756409,
+                        -0.7071069478988647,
+                        -9.835190439844155e-09
+                    ],
+                    [
+                        0.5000001192092896,
+                        -0.49999985098838806,
+                        0.5000001788139343,
+                        0.4999998211860657
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.": {
+                "quat": [
+                    [
+                        1.0,
+                        0.0,
+                        -0.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways_textual",
+    "rot_tag_level": 2,
+    "position_tag": "right",
+    "rotation_tag": "sideways_textual"
+}

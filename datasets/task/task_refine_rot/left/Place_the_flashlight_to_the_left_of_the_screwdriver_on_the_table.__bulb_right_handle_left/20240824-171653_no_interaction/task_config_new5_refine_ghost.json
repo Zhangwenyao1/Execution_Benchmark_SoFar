@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "screwdriver",
+        "tape measure",
+        "headphone",
+        "flashlight"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/044_flat_screwdriver_google_16k/044_flat_screwdriver_google_16k.urdf",
+        "objaverse_rescale/d1d1c4b27f5c45a29910830e268f7ee2/material_2.urdf",
+        "objaverse_rescale/f8891134871e48ce8cb5053c4287272b/material_2.urdf",
+        "objaverse_rescale/123a79642c2646d8b315576828fea84a/material_2.urdf"
+    ],
+    "target_obj_name": "flashlight",
+    "instruction": "Place the flashlight to the left of the screwdriver on the table. We also need to specify the rotation of the object after placement:  the flashlight is lying on the table(not standing up), with its bulb side on the right (oriented towards right) and its handle on the left.",
+    "init_obj_pos": [
+        [
+            0.6342576078473954,
+            -0.10464771452559313,
+            0.9005358334641798,
+            0.014126367178086319,
+            -0.010272026023843783,
+            0.017476630455794395,
+            0.9996947027065953,
+            -0.0019501897040754557,
+            3.0255498131737113e-05,
+            -0.0013904855586588383,
+            0.09129200875759125,
+            -0.08897889405488968,
+            -0.0960424467921257
+        ],
+        [
+            0.5088893181298484,
+            0.07732864975122805,
+            0.9260478267657791,
+            0.6915820478881116,
+            -0.04778564125342444,
+            -0.0422775170531072,
+            0.719474401963481,
+            -0.001581898657605052,
+            0.007146525662392378,
+            -0.00021825921430718154,
+            -0.354839563369751,
+            -0.09629638493061066,
+            0.018106156960129738
+        ],
+        [
+            0.5739222270526471,
+            -1.2809481913296945,
+            0.045843966277675216,
+            -0.11184975244355999,
+            0.02085259687111882,
+            -0.1827291309561764,
+            0.9765576617804217,
+            0.0005072880303487182,
+            0.00021323154214769602,
+            5.0431939598638564e-05,
+            -0.0022897336166352034,
+            0.010915451683104038,
+            -0.0005538119003176689
+        ],
+        [
+            0.5793531637914252,
+            0.2396757626474931,
+            0.9989368275697432,
+            -6.276417654281928e-06,
+            -3.78005474203011e-06,
+            -0.22482890059263103,
+            0.9743982581083707,
+            -0.001302461139857769,
+            -0.0006529366946779191,
+            -0.0003812700160779059,
+            0.011433493345975876,
+            -0.017510758712887764,
+            0.015336701646447182
+        ]
+    ],
+    "position_instruction": "Place the flashlight to the left of the screwdriver on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the flashlight is lying on the table(not standing up), with its bulb side on the right (oriented towards right) and its handle on the left.",
+    "rotation_instruction_label": "bulb_right_handle_left",
+    "obj_codes": [
+        "044",
+        "d1d1c4b27f5c45a29910830e268f7ee2",
+        "f8891134871e48ce8cb5053c4287272b",
+        "123a79642c2646d8b315576828fea84a"
+    ],
+    "target_obj_code": "123a79642c2646d8b315576828fea84a",
+    "anno_target": {
+        "category": "flashlight",
+        "annotation": {
+            " the flashlight is lying on the table(not standing up), with its bulb side on the left (oriented towards left) and its handle on the right.": {
+                "quat": [
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the flashlight is lying on the table(not standing up), with its bulb side on the right (oriented towards right) and its handle on the left.": {
+                "quat": [
+                    [
+                        3.090862321641907e-08,
+                        -0.7071068286895752,
+                        0.7071067094802856,
+                        -3.0908616110991716e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "bulb_right_handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "bulb_right_handle_left"
+}

@@ -1,0 +1,133 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "hammer",
+        "box"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/c25119c5ac6e4654be3b75d78e34a912/material_2.urdf",
+        "objaverse_rescale/4f24b866dab248b684149ec6bb40101f/material_2.urdf",
+        "ycb_16k_backup/003_cracker_box_google_16k/003_cracker_box_google_16k.urdf"
+    ],
+    "target_obj_name": "box",
+    "instruction": "Place the box on top of the mug on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.",
+    "init_obj_pos": [
+        [
+            0.35822837914425226,
+            -0.016223420669873753,
+            0.9477222879922413,
+            -0.02084041198291345,
+            0.18695012022907836,
+            -0.33961760884061903,
+            0.9215612890850485,
+            -0.025097252801060677,
+            0.01847062073647976,
+            0.0005095376400277019,
+            -0.3089144825935364,
+            -0.41694217920303345,
+            -0.010490123182535172
+        ],
+        [
+            0.3497779582433108,
+            -0.06919988989651621,
+            0.9154057394887742,
+            -0.0665152098415892,
+            0.0503436848404386,
+            0.7447193938509019,
+            0.66214368884613,
+            0.002156122587621212,
+            -0.011808648705482483,
+            0.015363384038209915,
+            0.9871344566345215,
+            0.5432276129722595,
+            0.0950903668999672
+        ],
+        [
+            0.47707349458144394,
+            -0.10138967930843798,
+            0.9030879321732933,
+            0.0007467057487242139,
+            0.004264611891184267,
+            -0.15075423759293677,
+            0.9885617913735667,
+            0.006078260950744152,
+            -0.0010288567282259464,
+            0.0002541896828915924,
+            0.013967727310955524,
+            0.07194659113883972,
+            -0.003121540416032076
+        ]
+    ],
+    "position_instruction": "Place the box on top of the mug on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.",
+    "rotation_instruction_label": "sideways_textual",
+    "obj_codes": [
+        "c25119c5ac6e4654be3b75d78e34a912",
+        "4f24b866dab248b684149ec6bb40101f",
+        "003"
+    ],
+    "target_obj_code": "003",
+    "anno_target": {
+        "category": "box",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.5,
+                        0.4999999701976776,
+                        -0.5000000596046448,
+                        0.4999999403953552
+                    ],
+                    [
+                        -5.1982041782139277e-08,
+                        0.7071066498756409,
+                        -0.7071069478988647,
+                        -9.835190439844155e-09
+                    ],
+                    [
+                        0.5000001192092896,
+                        -0.49999985098838806,
+                        0.5000001788139343,
+                        0.4999998211860657
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.": {
+                "quat": [
+                    [
+                        1.0,
+                        0.0,
+                        -0.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways_textual",
+    "rot_tag_level": 2,
+    "position_tag": "top",
+    "rotation_tag": "sideways_textual"
+}

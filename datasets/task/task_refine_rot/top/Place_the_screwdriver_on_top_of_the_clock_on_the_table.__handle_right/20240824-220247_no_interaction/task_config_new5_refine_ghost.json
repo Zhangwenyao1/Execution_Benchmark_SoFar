@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "clock",
+        "cup",
+        "wrench",
+        "screwdriver"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/fdf932b04e6c4e0fbd6e274563b94536/material_2.urdf",
+        "ycb_16k_backup/065-b_cups_google_16k/065-b_cups_google_16k.urdf",
+        "objaverse_rescale/8a6cb4f7b0004f53830e270dc6e1ff1d/material_2.urdf",
+        "ycb_16k_backup/044_flat_screwdriver_google_16k/044_flat_screwdriver_google_16k.urdf"
+    ],
+    "target_obj_name": "screwdriver",
+    "instruction": "Place the screwdriver on top of the clock on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6581933992805543,
+            0.06115200305718874,
+            0.9343120774091664,
+            -0.01547750473891798,
+            -0.0026744998290695343,
+            0.17618769114002708,
+            0.9842312692596521,
+            -0.0005684471689164639,
+            -0.0002814937033690512,
+            -0.00019208929734304547,
+            0.014199240133166313,
+            -0.021791093051433563,
+            0.0026773116551339626
+        ],
+        [
+            0.33680795378283035,
+            -0.007412847415334539,
+            0.9331946975818904,
+            0.09433574309459013,
+            -0.20070933792687642,
+            -0.16140229081995697,
+            0.9616474560678749,
+            0.0028087368700653315,
+            0.0012264569522812963,
+            -0.0072642420418560505,
+            -0.052591606974601746,
+            0.18650078773498535,
+            0.062357768416404724
+        ],
+        [
+            0.5228417159356125,
+            -0.20303817316513814,
+            0.9018525863239802,
+            0.4480217846852207,
+            -0.5470671377233945,
+            0.44805932632108686,
+            0.5470254723203449,
+            -0.0005377028719522059,
+            0.0011968894395977259,
+            0.022857200354337692,
+            -0.7054138779640198,
+            -0.38057854771614075,
+            0.008936002850532532
+        ],
+        [
+            0.557399457038471,
+            -0.03954111671739199,
+            0.9764368942894349,
+            -0.3343512743085932,
+            -0.8728923059726857,
+            -0.05801851401400622,
+            -0.3505739573521002,
+            -0.0055835796520113945,
+            -0.003501106286421418,
+            0.018543744459748268,
+            0.7394883632659912,
+            -0.17965835332870483,
+            0.8496966361999512
+        ]
+    ],
+    "position_instruction": "Place the screwdriver on top of the clock on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "fdf932b04e6c4e0fbd6e274563b94536",
+        "065-b",
+        "8a6cb4f7b0004f53830e270dc6e1ff1d",
+        "044"
+    ],
+    "target_obj_code": "044",
+    "anno_target": {
+        "category": "screwdriver",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.011427843011915684,
+                        0.021855341270565987,
+                        -0.40244925022125244,
+                        0.9151100516319275
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "handle_right"
+}

@@ -1,0 +1,79 @@
+{
+    "selected_obj_names": [
+        "bottle",
+        "hard drive"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/022_windex_bottle_google_16k/022_windex_bottle_google_16k.urdf",
+        "objaverse_rescale/f8de4975c0f54c1a97203c6a674f6a39/material_2.urdf"
+    ],
+    "target_obj_name": "hard drive",
+    "instruction": "Place the hard drive behind the bottle on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.5192195856490108,
+            0.2234174727973459,
+            0.930190922815992,
+            -0.06125310122824728,
+            -0.7256644450651566,
+            0.1535658534913751,
+            0.6678897359592121,
+            -0.002038128674030304,
+            -0.004210284445434809,
+            -0.0001294224930461496,
+            0.14869311451911926,
+            -0.07148876786231995,
+            0.010472521185874939
+        ],
+        [
+            0.30176274258646363,
+            0.07339627901813076,
+            0.9508357838250663,
+            0.0012378755372929107,
+            3.298760818106956e-05,
+            0.010852266159303743,
+            0.9999403456682701,
+            -0.0016388497315347195,
+            0.0008514454239048064,
+            -0.00012635148596018553,
+            -0.010283922776579857,
+            -0.018686551600694656,
+            -0.0010530612198635936
+        ]
+    ],
+    "position_instruction": "Place the hard drive behind the bottle on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "022",
+        "f8de4975c0f54c1a97203c6a674f6a39"
+    ],
+    "target_obj_code": "f8de4975c0f54c1a97203c6a674f6a39",
+    "anno_target": {
+        "category": "hard_drive",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "behind",
+    "rotation_tag": "lying_flat"
+}

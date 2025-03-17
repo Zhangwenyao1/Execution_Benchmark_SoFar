@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "apple",
+        "pen",
+        "mouse"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/fbda0b25f41f40958ea984f460e4770b/material_2.urdf",
+        "objaverse_rescale/f126e15c0f904fccbd76f9348baea12c/material_2.urdf",
+        "objaverse_rescale/f017c73a85484b6da3a66ec1cda70c71/material_2.urdf"
+    ],
+    "target_obj_name": "mouse",
+    "instruction": "Place the mouse between the apple and the pen on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.38877804301256247,
+            -0.15722619997620396,
+            0.9260360389137331,
+            0.11184317907952089,
+            0.05463401051500094,
+            -0.05240496364248861,
+            0.9908380028915227,
+            -0.0024326650891453028,
+            -0.0019478820031508803,
+            -0.0010024489602074027,
+            0.0402035228908062,
+            -0.04649670794606209,
+            0.007830397225916386
+        ],
+        [
+            0.3905511895184878,
+            0.33425754065128827,
+            0.907052813625739,
+            -0.5277339374841985,
+            -0.4732176906655933,
+            -0.3710318080950647,
+            0.5999144154379457,
+            -0.0011943590361624956,
+            -0.013441009446978569,
+            0.023763108998537064,
+            -1.6645642518997192,
+            8.43458366394043,
+            -1.9578627347946167
+        ],
+        [
+            0.3595106708291705,
+            0.07541306389246198,
+            0.9160660303565991,
+            -0.5992884456803451,
+            -0.27860328321142447,
+            0.4135139132099741,
+            0.6262905180821623,
+            -0.0003099261084571481,
+            -0.0009758358355611563,
+            -0.00010571954044280574,
+            0.04578457400202751,
+            -0.02425815910100937,
+            -0.007266918662935495
+        ]
+    ],
+    "position_instruction": "Place the mouse between the apple and the pen on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "fbda0b25f41f40958ea984f460e4770b",
+        "f126e15c0f904fccbd76f9348baea12c",
+        "f017c73a85484b6da3a66ec1cda70c71"
+    ],
+    "target_obj_code": "f017c73a85484b6da3a66ec1cda70c71",
+    "anno_target": {
+        "category": "mouse",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upright"
+}

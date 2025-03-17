@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "mug",
+        "pear",
+        "lighter"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/8eda72f64e6e4443af4fdbeed07cad29/material_2.urdf",
+        "ycb_16k_backup/025_mug_google_16k/025_mug_google_16k.urdf",
+        "objaverse_rescale/f3dd3064db4f4e8880344425970cecad/material_2.urdf",
+        "objaverse_rescale/d9675ab05c39447baf27e19ea07d484e/material_2.urdf"
+    ],
+    "target_obj_name": "lighter",
+    "instruction": "Place the lighter to the left of the tissue box on the table. We also need to specify the rotation of the object after placement:  the lighter is lying steadily on the table(not standing up), with its grey head pointing forth.",
+    "init_obj_pos": [
+        [
+            0.6586420487813544,
+            0.2323784367780199,
+            0.9296262827951861,
+            2.8343129620907593e-07,
+            4.141822582984468e-06,
+            -0.012506670332461473,
+            0.9999217885314627,
+            -0.0008405838743783534,
+            0.003522703656926751,
+            -0.0058148885145783424,
+            -0.03801030293107033,
+            -0.013862207531929016,
+            -0.007541109342128038
+        ],
+        [
+            0.4447760663597061,
+            -0.07684502328137276,
+            0.9004579538695823,
+            -0.0006314436694618428,
+            -0.0012696681966314026,
+            0.061445638777508534,
+            0.9981094242099842,
+            -3.658873538370244e-05,
+            -0.001127673196606338,
+            -0.0007671662024222314,
+            0.03289366886019707,
+            -0.003023929661139846,
+            -0.007162502035498619
+        ],
+        [
+            0.35457999239402727,
+            0.2443719741244971,
+            0.9343860214132816,
+            -0.17325005671129792,
+            0.01182980970248569,
+            -0.059184184659552413,
+            0.9830268082499675,
+            -0.0015259110368788242,
+            0.0020031100139021873,
+            -0.0002491225313860923,
+            -0.04900919273495674,
+            -0.04559772461652756,
+            -0.0545949786901474
+        ],
+        [
+            0.6021876439273873,
+            -0.3520187426198563,
+            0.9997331513855832,
+            0.3588622509361356,
+            0.5864459255733948,
+            -0.3810641957213187,
+            0.6181335939509185,
+            -0.0012201970675960183,
+            0.0010091555304825306,
+            0.027855172753334045,
+            -0.23537462949752808,
+            0.5335540175437927,
+            0.006884599104523659
+        ]
+    ],
+    "position_instruction": "Place the lighter to the left of the tissue box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the lighter is lying steadily on the table(not standing up), with its grey head pointing forth.",
+    "rotation_instruction_label": "lighter_forth",
+    "obj_codes": [
+        "8eda72f64e6e4443af4fdbeed07cad29",
+        "025",
+        "f3dd3064db4f4e8880344425970cecad",
+        "d9675ab05c39447baf27e19ea07d484e"
+    ],
+    "target_obj_code": "d9675ab05c39447baf27e19ea07d484e",
+    "anno_target": {
+        "category": "lighter",
+        "annotation": {
+            " the lighter is lying steadily on the table(not standing up), with its grey head pointing forth, oriented towards the viewer.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "lighter_forth",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "lighter_forth"
+}

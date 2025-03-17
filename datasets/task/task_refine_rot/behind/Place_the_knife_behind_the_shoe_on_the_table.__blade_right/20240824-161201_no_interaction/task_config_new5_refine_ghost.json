@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "shoe",
+        "hat",
+        "knife"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/ece4453042144b4a82fb86a4eab1ba7f/material_2.urdf",
+        "objaverse_rescale/dc02f9c1fd01432fadd6e7d15851dc37/material_2.urdf",
+        "objaverse_rescale/0df75457524743ec81468c916fddb930/material_2.urdf"
+    ],
+    "target_obj_name": "knife",
+    "instruction": "Place the knife behind the shoe on the table. We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.5875535442105644,
+            0.07970459305265626,
+            0.9314052842550231,
+            -0.10785174319385907,
+            -0.6924763712947779,
+            -0.07203926417306523,
+            0.709686424490327,
+            -0.0011159376008436084,
+            -0.00011947387247346342,
+            -0.0011976155219599605,
+            0.004522785544395447,
+            -0.04287738353013992,
+            -0.0009791464544832706
+        ],
+        [
+            0.5684239297618064,
+            -0.09581844576588505,
+            0.9447254807461555,
+            -0.8634008588682858,
+            0.11267356852694595,
+            -0.22595491991139807,
+            0.4367928548279427,
+            0.003483136650174856,
+            -4.969623842043802e-05,
+            -0.0011812679003924131,
+            0.007681393995881081,
+            0.11365668475627899,
+            0.014478323049843311
+        ],
+        [
+            0.3419217559181347,
+            0.20373570166057903,
+            0.915697397103966,
+            -0.011628913540728954,
+            0.0026774210291079,
+            0.012892682564549968,
+            0.9998456773536527,
+            0.010568101890385151,
+            -0.0004960728692822158,
+            -0.0031614957842975855,
+            1.4694994688034058,
+            1.0114638805389404,
+            -1.3182910680770874
+        ]
+    ],
+    "position_instruction": "Place the knife behind the shoe on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blade_right",
+    "obj_codes": [
+        "ece4453042144b4a82fb86a4eab1ba7f",
+        "dc02f9c1fd01432fadd6e7d15851dc37",
+        "0df75457524743ec81468c916fddb930"
+    ],
+    "target_obj_code": "0df75457524743ec81468c916fddb930",
+    "anno_target": {
+        "category": "knife",
+        "annotation": {
+            " the blade of the knife is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blade of the knife is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.5
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blade_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "blade_right"
+}

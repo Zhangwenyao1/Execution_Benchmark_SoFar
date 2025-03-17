@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "can",
+        "knife",
+        "bowl"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-c_cups_google_16k/065-c_cups_google_16k.urdf",
+        "ycb_16k_backup/007_tuna_fish_can_google_16k/007_tuna_fish_can_google_16k.urdf",
+        "objaverse_rescale/85db1d392a89459dbde5cdd951c4f6fb/material_2.urdf",
+        "objaverse_rescale/bf83213efac34b3cb2ad6ac5ddaf05d9/material_2.urdf"
+    ],
+    "target_obj_name": "bowl",
+    "instruction": "Place the bowl to the right of the cup on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.4534705158211083,
+            0.08023646073935477,
+            0.9005673679578966,
+            0.0010119846450465059,
+            -4.200588507705805e-05,
+            0.7400592988631103,
+            0.6725408599399942,
+            0.005663829389959574,
+            -0.002687007188796997,
+            -0.00048790453001856804,
+            0.08800456672906876,
+            0.23641930520534515,
+            -0.04376579448580742
+        ],
+        [
+            0.7025583991786534,
+            -0.008744217491107638,
+            0.9084006551792358,
+            0.06797516004919157,
+            0.23531163845418293,
+            -0.3532987519850909,
+            0.9028775123293697,
+            -0.014844237826764584,
+            0.025032278150320053,
+            -0.01587650179862976,
+            -2.136629581451416,
+            0.7663084864616394,
+            2.160261392593384
+        ],
+        [
+            0.5888083484919244,
+            0.05020783084110597,
+            0.9233598921563453,
+            0.047282171217869144,
+            0.1099167301416703,
+            -0.3584414683497919,
+            0.9258522681762645,
+            0.018701374530792236,
+            -0.03900618106126785,
+            0.0029829267878085375,
+            5.271205902099609,
+            5.679134845733643,
+            -5.201435089111328
+        ],
+        [
+            0.39987201007641376,
+            0.10355665626425559,
+            0.9505956021483271,
+            0.6659868443108505,
+            -0.2353021922416581,
+            -0.23464021485488368,
+            0.6678610417624289,
+            0.0036613328848034143,
+            0.00546202901750803,
+            -0.0009241130319423974,
+            -0.14780451357364655,
+            0.09650848805904388,
+            -0.011925308965146542
+        ]
+    ],
+    "position_instruction": "Place the bowl to the right of the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "065-c",
+        "007",
+        "85db1d392a89459dbde5cdd951c4f6fb",
+        "bf83213efac34b3cb2ad6ac5ddaf05d9"
+    ],
+    "target_obj_code": "bf83213efac34b3cb2ad6ac5ddaf05d9",
+    "anno_target": {
+        "category": "bowl",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upside_down"
+}

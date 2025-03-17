@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "paperweight",
+        "can",
+        "calipers",
+        "eraser"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/21c10181c122474a8f72a4ad0331f185/material_2.urdf",
+        "ycb_16k_backup/005_tomato_soup_can_google_16k/005_tomato_soup_can_google_16k.urdf",
+        "objaverse_rescale/95c967114b624291bc26bcd705aaa334/material_2.urdf",
+        "objaverse_rescale/f0916a69ba514ecc973b44528b9dcc43/material_2.urdf"
+    ],
+    "target_obj_name": "eraser",
+    "instruction": "Place the eraser to the left of the paperweight on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.7021350426749963,
+            0.08976406856267656,
+            0.9379798224375709,
+            -0.15180883430003805,
+            0.1755644977464865,
+            0.011991423910389248,
+            0.972618831152312,
+            0.0025286090094596148,
+            -0.003622893476858735,
+            -0.0004933921154588461,
+            0.09859368205070496,
+            0.07044907659292221,
+            0.008945636451244354
+        ],
+        [
+            0.3987856608072444,
+            -0.19175098798567458,
+            0.8998952521589807,
+            -0.00013237270424329314,
+            -0.000814554589717208,
+            0.09701623742423689,
+            0.9952824567198658,
+            -0.0017923939740285277,
+            -0.0011908934684470296,
+            -0.00019136816263198853,
+            0.018185632303357124,
+            -0.03565480187535286,
+            -0.0026045350823551416
+        ],
+        [
+            0.4915861265827593,
+            0.12796774655925008,
+            0.902743723296269,
+            0.6862755475620542,
+            0.15748084411319568,
+            0.16149781080446624,
+            0.6914796552763947,
+            -0.0005390193546190858,
+            -0.0009744574199430645,
+            0.03156351298093796,
+            3.4567630290985107,
+            -1.091939091682434,
+            -0.034415893256664276
+        ],
+        [
+            0.6064063780793885,
+            -0.1958052602552672,
+            0.9106543842483025,
+            0.6942076648137864,
+            0.08369675295658899,
+            0.11023089682044965,
+            0.7063424955674635,
+            -0.0012026645708829165,
+            0.006455633789300919,
+            -0.006961581762880087,
+            -0.6271147727966309,
+            0.70682692527771,
+            -0.06415943801403046
+        ]
+    ],
+    "position_instruction": "Place the eraser to the left of the paperweight on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "21c10181c122474a8f72a4ad0331f185",
+        "005",
+        "95c967114b624291bc26bcd705aaa334",
+        "f0916a69ba514ecc973b44528b9dcc43"
+    ],
+    "target_obj_code": "f0916a69ba514ecc973b44528b9dcc43",
+    "anno_target": {
+        "category": "eraser",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        -0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "left",
+    "rotation_tag": "lying_flat"
+}

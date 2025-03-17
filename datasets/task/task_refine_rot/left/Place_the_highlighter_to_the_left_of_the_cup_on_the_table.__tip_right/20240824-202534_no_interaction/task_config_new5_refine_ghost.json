@@ -1,0 +1,133 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "can",
+        "book",
+        "highlighter"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-b_cups_google_16k/065-b_cups_google_16k.urdf",
+        "ycb_16k_backup/002_master_chef_can_google_16k/002_master_chef_can_google_16k.urdf",
+        "objaverse_rescale/2a371c84c5454f7facba7bb2f5312ad6/material_2.urdf",
+        "objaverse_rescale/25481a65cad54e2a956394ff2b2765cd/material_2.urdf"
+    ],
+    "target_obj_name": "highlighter",
+    "instruction": "Place the highlighter to the left of the cup on the table. We also need to specify the rotation of the object after placement:  the marker is placed in a stable pose on the table. Its tip end is pointing towards right and its cap end is pointing towards left.",
+    "init_obj_pos": [
+        [
+            0.5607898404326814,
+            -0.1925453359812123,
+            0.9006506489949393,
+            0.0004409418601464199,
+            -0.0013239415183121759,
+            0.0477539781332864,
+            0.9988581532537938,
+            0.002016682643443346,
+            0.0023580945562571287,
+            -0.007743388414382935,
+            -0.11148122698068619,
+            0.18214324116706848,
+            0.08405322581529617
+        ],
+        [
+            0.3969571377204557,
+            0.09202925304995627,
+            0.9000913082803012,
+            -0.000184066196048496,
+            0.0002172249851400627,
+            0.05792637472983892,
+            0.9983208171943525,
+            0.00019443451310507953,
+            0.0011595068499445915,
+            -0.0006013360689394176,
+            -0.01988970674574375,
+            0.002842726418748498,
+            0.0007528822170570493
+        ],
+        [
+            0.6234641662929918,
+            0.2490209534101671,
+            0.9770677484314791,
+            -1.8504376096241513e-05,
+            6.874331717465907e-05,
+            0.07032102822502256,
+            0.9975244096869617,
+            0.0003917811845894903,
+            -0.002939992118626833,
+            -0.0006573151331394911,
+            0.04194650426506996,
+            0.007393146865069866,
+            0.0004284968599677086
+        ],
+        [
+            0.601767411941676,
+            0.09307231827181303,
+            0.9114635560856742,
+            0.6949840121254893,
+            0.09804522506790013,
+            0.08581961746170974,
+            0.7071204635633651,
+            -0.006100430618971586,
+            0.0017056588549166918,
+            -0.007330613676458597,
+            -1.0980823040008545,
+            -0.2702098786830902,
+            0.106200210750103
+        ]
+    ],
+    "position_instruction": "Place the highlighter to the left of the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the marker is placed in a stable pose on the table. Its tip end is pointing towards right and its cap end is pointing towards left.",
+    "rotation_instruction_label": "tip_right",
+    "obj_codes": [
+        "065-b",
+        "002",
+        "2a371c84c5454f7facba7bb2f5312ad6",
+        "25481a65cad54e2a956394ff2b2765cd"
+    ],
+    "target_obj_code": "25481a65cad54e2a956394ff2b2765cd",
+    "anno_target": {
+        "category": "highlighter",
+        "annotation": {
+            " the marker is placed in a stable pose on the table. Its tip(or cap) end is pointing towards left and its rear end is pointing towards right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the marker is placed in a stable pose on the table. Its tip(or cap) end is pointing towards right and its rear end is pointing towards left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "tip_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "tip_right"
+}

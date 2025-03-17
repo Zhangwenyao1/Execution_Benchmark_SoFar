@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "tape measure",
+        "box",
+        "shoe",
+        "organizer"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/11307d06bb254318b95021d68c6fa12f/material_2.urdf",
+        "ycb_16k_backup/003_cracker_box_google_16k/003_cracker_box_google_16k.urdf",
+        "objaverse_rescale/d6951661c1e445d8a1d00b7d38d86030/material_2.urdf",
+        "objaverse_rescale/4f52ebe6c8cf432986e47d8de83386ce/material_2.urdf"
+    ],
+    "target_obj_name": "organizer",
+    "instruction": "Place the organizer to the left of the tape measure on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.3945490948689934,
+            0.05334963516134474,
+            0.922691909959817,
+            0.031160390574450306,
+            -0.03742568403514666,
+            -0.048126469121954306,
+            0.9976533422003865,
+            0.0014565752353519201,
+            0.0008752451976761222,
+            -0.0005278135067783296,
+            -0.013413314707577229,
+            0.02089196816086769,
+            0.015464975498616695
+        ],
+        [
+            0.4564413675701086,
+            -0.11285566196733055,
+            0.9133390330208745,
+            0.05401888782099938,
+            -0.01565501965034252,
+            0.015837166954662595,
+            0.9982915727687882,
+            -0.0014505375875160098,
+            0.0005931855412200093,
+            -0.0004463283985387534,
+            -0.0043960451148450375,
+            -0.018079441040754318,
+            -0.0032969017047435045
+        ],
+        [
+            0.4558552224237029,
+            -0.3392862654459495,
+            0.9283680857571941,
+            -0.06386790018469575,
+            -0.06616707969629225,
+            0.012918320524094628,
+            0.9956786258051833,
+            -0.005727660842239857,
+            0.0019813731778413057,
+            -0.0015628101537004113,
+            -0.06574396789073944,
+            -0.2134612649679184,
+            -0.005963353905826807
+        ],
+        [
+            0.6825178266992127,
+            0.10361982353896135,
+            1.021081547019467,
+            5.18080202377931e-06,
+            4.8055761244761264e-05,
+            0.11021236357598056,
+            0.9939080604255094,
+            -0.0020876131020486355,
+            0.001513493130914867,
+            -0.004151834174990654,
+            -0.014630082063376904,
+            -0.02374727837741375,
+            -0.004188761115074158
+        ]
+    ],
+    "position_instruction": "Place the organizer to the left of the tape measure on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "11307d06bb254318b95021d68c6fa12f",
+        "003",
+        "d6951661c1e445d8a1d00b7d38d86030",
+        "4f52ebe6c8cf432986e47d8de83386ce"
+    ],
+    "target_obj_code": "4f52ebe6c8cf432986e47d8de83386ce",
+    "anno_target": {
+        "category": "organizer",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "upright"
+}

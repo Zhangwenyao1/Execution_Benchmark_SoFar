@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "USB",
+        "bottle",
+        "can",
+        "spatula"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/0a51815f3c0941ae8312fc6917173ed6/material_2.urdf",
+        "ycb_16k_backup/022_windex_bottle_google_16k/022_windex_bottle_google_16k.urdf",
+        "ycb_16k_backup/010_potted_meat_can_google_16k/010_potted_meat_can_google_16k.urdf",
+        "ycb_16k_backup/033_spatula_google_16k/033_spatula_google_16k.urdf"
+    ],
+    "target_obj_name": "spatula",
+    "instruction": "Place the spatula at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.43179529689445845,
+            -0.04489479433653033,
+            0.9111771257729444,
+            -0.19860588127594092,
+            -0.40566305155325527,
+            -0.05651777618848785,
+            0.8903925726901686,
+            0.000663253478705883,
+            -0.0004573215846903622,
+            -0.0007140345987863839,
+            0.05214054882526398,
+            0.06266722083091736,
+            0.001656506909057498
+        ],
+        [
+            0.6592639421402285,
+            0.15251931199276073,
+            0.9301886424800141,
+            -0.04271408343490694,
+            -0.7269826437170884,
+            0.17059780418055354,
+            0.663753065544108,
+            -0.0016711910720914602,
+            0.0025344425812363625,
+            -0.00017875000776257366,
+            -0.08865627646446228,
+            -0.059941645711660385,
+            -0.016371864825487137
+        ],
+        [
+            0.6608854470506514,
+            -0.17984090540114067,
+            0.9030836708185289,
+            -0.0005995618138976231,
+            -0.0002398453159079072,
+            0.0807790614249502,
+            0.9967318226259062,
+            0.0011273204581812024,
+            -0.002850222634151578,
+            -0.00047930507571436465,
+            0.07338442653417587,
+            0.012864946387708187,
+            0.030434012413024902
+        ],
+        [
+            0.7681615855470486,
+            -0.04055438332359461,
+            0.9019065931055128,
+            0.004440159392722282,
+            -0.010754661800918176,
+            0.20737723154720333,
+            0.9781918554506234,
+            -0.0005115547683089972,
+            0.0009433314553461969,
+            0.0003879312425851822,
+            -0.45039820671081543,
+            0.020810751244425774,
+            -0.1687503606081009
+        ]
+    ],
+    "position_instruction": "Place the spatula at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "0a51815f3c0941ae8312fc6917173ed6",
+        "022",
+        "010",
+        "033"
+    ],
+    "target_obj_code": "033",
+    "anno_target": {
+        "category": "spatula",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.621095597743988,
+                        0.7837347984313965
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "center",
+    "rotation_tag": "handle_right"
+}

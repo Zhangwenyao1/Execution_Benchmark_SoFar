@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "can"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/3ea2fd4e065147048064f4c97a89fe6f/material_2.urdf",
+        "ycb_16k_backup/007_tuna_fish_can_google_16k/007_tuna_fish_can_google_16k.urdf"
+    ],
+    "target_obj_name": "can",
+    "instruction": "Place the can behind the mug on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.655279135830108,
+            0.0844985773305713,
+            0.9544242331360985,
+            0.4140934865695249,
+            0.5731714574130566,
+            0.5731771942528383,
+            0.4140881171636437,
+            0.001778529491275549,
+            -0.0008994308882392943,
+            0.0005338206537999213,
+            0.005133524537086487,
+            0.053599268198013306,
+            0.023726442828774452
+        ],
+        [
+            0.48221900810705326,
+            -0.06432852301900625,
+            0.9031511459355454,
+            0.0004770873068456407,
+            -0.0007461856901331232,
+            -0.020549596700738557,
+            0.9997884424567305,
+            0.0015167747624218464,
+            0.003603051183745265,
+            -0.009923151694238186,
+            -0.23510800302028656,
+            0.17321625351905823,
+            0.02475947141647339
+        ]
+    ],
+    "position_instruction": "Place the can behind the mug on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "3ea2fd4e065147048064f4c97a89fe6f",
+        "007"
+    ],
+    "target_obj_code": "007",
+    "anno_target": {
+        "category": "can",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "sideways"
+}

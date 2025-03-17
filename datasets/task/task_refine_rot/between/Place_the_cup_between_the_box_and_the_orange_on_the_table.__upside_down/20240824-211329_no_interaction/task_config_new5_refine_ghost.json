@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "box",
+        "orange",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/004_sugar_box_google_16k/004_sugar_box_google_16k.urdf",
+        "objaverse_rescale/a4c9a503f63e440e8d6d924d4e5c36b1/material_2.urdf",
+        "ycb_16k_backup/065-b_cups_google_16k/065-b_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup between the box and the orange on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.5572111487844515,
+            -0.24590742322303064,
+            0.9164143316861383,
+            0.027387635983427076,
+            -0.19229220281564086,
+            -0.21503657367881937,
+            0.9570960756956538,
+            0.0017782915383577347,
+            -0.00043805959285236895,
+            0.0006282427348196507,
+            -0.015544652007520199,
+            0.045966386795043945,
+            0.024852456524968147
+        ],
+        [
+            0.3780419797186331,
+            -0.17230485686742336,
+            0.9565197106630494,
+            0.5296543748463006,
+            0.8122232371453512,
+            -0.004542698852533256,
+            0.24441567080372792,
+            0.007518189027905464,
+            -0.003999701235443354,
+            -0.0011236314894631505,
+            0.09465710073709488,
+            0.15016700327396393,
+            -0.110530786216259
+        ],
+        [
+            0.6294743991662788,
+            -0.22992904745821946,
+            0.9634221758045742,
+            0.4640251111162801,
+            0.8858183679231877,
+            0.001771178497267135,
+            0.0018379962340761887,
+            0.012112090364098549,
+            0.002246702555567026,
+            0.01120732817798853,
+            -0.20815125107765198,
+            0.2267528921365738,
+            0.3515404760837555
+        ]
+    ],
+    "position_instruction": "Place the cup between the box and the orange on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "004",
+        "a4c9a503f63e440e8d6d924d4e5c36b1",
+        "065-b"
+    ],
+    "target_obj_code": "065-b",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

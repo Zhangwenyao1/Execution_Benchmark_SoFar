@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "eraser",
+        "toilet paper roll",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f0916a69ba514ecc973b44528b9dcc43/material_2.urdf",
+        "objaverse_rescale/6d5284b842434413a17133f7bf259669/material_2.urdf",
+        "ycb_16k_backup/065-c_cups_google_16k/065-c_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup to the right of the eraser on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.40306146632615325,
+            0.15295133074640554,
+            0.9106718303131688,
+            0.6970774797739203,
+            0.05405898601588755,
+            0.0787333865691856,
+            0.7106065487049232,
+            -0.008088613860309124,
+            -0.012562212534248829,
+            0.016986439004540443,
+            1.2187378406524658,
+            -1.448122262954712,
+            0.03627636656165123
+        ],
+        [
+            0.5946129547688312,
+            -0.21627960177032193,
+            0.9336022207007599,
+            -0.04147564086400388,
+            -0.35747012855646,
+            -0.10755349664544493,
+            0.9267832129274278,
+            0.06390751898288727,
+            -0.013057981617748737,
+            -0.01347355730831623,
+            0.1710875928401947,
+            0.8356263637542725,
+            0.005044329911470413
+        ],
+        [
+            0.410744201559876,
+            0.32497394630538107,
+            0.8591626513761712,
+            -0.6695922822575195,
+            0.11257098753956221,
+            0.15513545805029788,
+            0.7175701623960263,
+            -0.00017905142158269882,
+            -0.0006807621684856713,
+            0.029103759676218033,
+            -0.29148194193840027,
+            0.054555464535951614,
+            -0.10828030109405518
+        ]
+    ],
+    "position_instruction": "Place the cup to the right of the eraser on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "f0916a69ba514ecc973b44528b9dcc43",
+        "6d5284b842434413a17133f7bf259669",
+        "065-c"
+    ],
+    "target_obj_code": "065-c",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upside_down"
+}

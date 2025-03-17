@@ -1,0 +1,97 @@
+{
+    "selected_obj_names": [
+        "toy",
+        "spoon",
+        "hard drive"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/072-b_toy_airplane_google_16k/072-b_toy_airplane_google_16k.urdf",
+        "ycb_16k_backup/031_spoon_google_16k/031_spoon_google_16k.urdf",
+        "objaverse_rescale/f8de4975c0f54c1a97203c6a674f6a39/material_2.urdf"
+    ],
+    "target_obj_name": "hard drive",
+    "instruction": "Place the hard drive in front of toy on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.6980717059407189,
+            -0.23572267379745987,
+            0.9001521059840337,
+            -0.00010260806240959555,
+            -0.00029511694594764866,
+            -0.054133228126871734,
+            0.9985336729375413,
+            -0.00023306533694267273,
+            -0.0007891178247518837,
+            -0.0006699349032714963,
+            0.01597953960299492,
+            0.013070293702185154,
+            -0.0004452368011698127
+        ],
+        [
+            0.29270197341007725,
+            0.030872488356280228,
+            0.9267376453494042,
+            0.9177262103381512,
+            -0.39614430402902495,
+            -0.02110626361323042,
+            0.020070348278559046,
+            -0.006392986048012972,
+            -0.0037122645881026983,
+            0.012247086502611637,
+            0.9391380548477173,
+            -0.12023110687732697,
+            -0.3488354980945587
+        ],
+        [
+            0.41723429215770025,
+            -0.08573376178873082,
+            0.9059885151388141,
+            -0.7009593482748948,
+            0.09300687790245318,
+            -0.09300780010533194,
+            0.7009673757375868,
+            -0.0008545159362256527,
+            -0.0006543938652612269,
+            -0.0004914965247735381,
+            -0.007243209984153509,
+            -0.005741444882005453,
+            -0.0009894383838400245
+        ]
+    ],
+    "position_instruction": "Place the hard drive in front of toy on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "072-b",
+        "031",
+        "f8de4975c0f54c1a97203c6a674f6a39"
+    ],
+    "target_obj_code": "f8de4975c0f54c1a97203c6a674f6a39",
+    "anno_target": {
+        "category": "hard_drive",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "front",
+    "rotation_tag": "lying_flat"
+}

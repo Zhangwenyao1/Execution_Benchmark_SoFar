@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "remote control",
+        "bottle",
+        "calculator",
+        "glasses"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f1bbc61a42b94ee9a2976ca744f8962e/material_2.urdf",
+        "ycb_16k_backup/022_windex_bottle_google_16k/022_windex_bottle_google_16k.urdf",
+        "objaverse_rescale/b4bb8bd7791648fdb36c458fd9a877bf/material_2.urdf",
+        "objaverse_rescale/e4f348e98ceb45e3abc77da5b738f1b2/material_2.urdf"
+    ],
+    "target_obj_name": "glasses",
+    "instruction": "Place the glasses behind the remote control on the table. We also need to specify the rotation of the object after placement:  the lens of the glasses in not in contact with the table while the temples(arms) and lower rim of the glasses are in contact with the table, which means that the glasses is in a position consistent with how humans generally wear them. ",
+    "init_obj_pos": [
+        [
+            0.3183136100413707,
+            -0.00020600635355053995,
+            0.9060447634004593,
+            -0.04831359356963105,
+            0.7036491355449515,
+            -0.7073945994803887,
+            0.04622306079449245,
+            -0.0007545241387560964,
+            -0.003905704477801919,
+            0.0320730097591877,
+            0.6499990820884705,
+            -0.26044610142707825,
+            0.02610718086361885
+        ],
+        [
+            0.4388128170897511,
+            0.24555708454738345,
+            0.9272478099017457,
+            0.3277236411783678,
+            -0.6408698671803696,
+            0.47819171244630293,
+            0.5032054396572819,
+            0.0006051729433238506,
+            0.00042885163566097617,
+            -0.00016162202518898994,
+            -0.015064520761370659,
+            0.02197185903787613,
+            0.002258253050968051
+        ],
+        [
+            0.49973516428720755,
+            -0.045652079861047856,
+            0.9130093413414304,
+            0.7035238700287708,
+            -0.08482717711868806,
+            -0.08523977591574512,
+            0.7004232255741166,
+            0.00020342755306046456,
+            -0.0005106240278109908,
+            -0.003984793089330196,
+            0.03467326611280441,
+            0.06739721447229385,
+            -0.009666986763477325
+        ],
+        [
+            0.6269049320916789,
+            0.3488862810694746,
+            0.9147319547499321,
+            0.5814611825803612,
+            0.3045454858012028,
+            -0.3997716085701854,
+            -0.6397949681042863,
+            0.0014016613131389022,
+            -0.004539076238870621,
+            0.03318176046013832,
+            0.642194390296936,
+            -0.19493745267391205,
+            -0.025139499455690384
+        ]
+    ],
+    "position_instruction": "Place the glasses behind the remote control on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the lens of the glasses in not in contact with the table while the temples(arms) and lower rim of the glasses are in contact with the table, which means that the glasses is in a position consistent with how humans generally wear them. ",
+    "rotation_instruction_label": "lower_rim",
+    "obj_codes": [
+        "f1bbc61a42b94ee9a2976ca744f8962e",
+        "022",
+        "b4bb8bd7791648fdb36c458fd9a877bf",
+        "e4f348e98ceb45e3abc77da5b738f1b2"
+    ],
+    "target_obj_code": "e4f348e98ceb45e3abc77da5b738f1b2",
+    "anno_target": {
+        "category": "glasses",
+        "annotation": {
+            " the lens of the glasses in not in contact with the table while the temples(arms) and upper rim of the glasses are in contact with the table, which means that the glasses is in an upside down position compared to how humans generally wear them. ": {
+                "quat": [
+                    [
+                        -0.334464967250824,
+                        0.609382152557373,
+                        -0.6155509948730469,
+                        0.371326744556427
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the lens of the glasses in not in contact with the table while the temples(arms) and lower rim of the glasses are in contact with the table, which means that the glasses is in a position consistent with how humans generally wear them. ": {
+                "quat": [
+                    [
+                        0.3672770857810974,
+                        0.6228358745574951,
+                        0.6019344329833984,
+                        0.3389069437980652
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "lower_rim",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "lower_rim"
+}

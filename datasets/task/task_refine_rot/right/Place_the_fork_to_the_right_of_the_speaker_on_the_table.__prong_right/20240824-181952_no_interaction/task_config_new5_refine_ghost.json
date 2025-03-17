@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "speaker",
+        "calipers",
+        "mug",
+        "fork"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/4445f4442a884999960e7e6660459095/material_2.urdf",
+        "objaverse_rescale/95c967114b624291bc26bcd705aaa334/material_2.urdf",
+        "objaverse_rescale/77d41aba53e4455f9f84fa04b175dff4/material_2.urdf",
+        "objaverse_rescale/e98e7fb33743442383812b68608f7006/material_2.urdf"
+    ],
+    "target_obj_name": "fork",
+    "instruction": "Place the fork to the right of the speaker on the table. We also need to specify the rotation of the object after placement:  the prong of the fork is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.5233917910014318,
+            0.20678964064166502,
+            0.9682535180421222,
+            -0.00738566738168348,
+            0.0005082147333112788,
+            -0.06866864574797564,
+            0.9976120542206023,
+            0.0012514536501839757,
+            -0.001764069078490138,
+            -0.001071658916771412,
+            0.026378413662314415,
+            0.01003113854676485,
+            0.0007989393197931349
+        ],
+        [
+            0.32765528196338284,
+            -0.0014968016352514533,
+            0.9026343120059512,
+            0.6324319019620436,
+            -0.2922648135772477,
+            -0.3057302315121993,
+            0.6489531521341327,
+            -0.0047625890001654625,
+            0.0009251821902580559,
+            0.031890250742435455,
+            3.322815179824829,
+            -3.3220407962799072,
+            -0.5630587935447693
+        ],
+        [
+            0.4522818721876863,
+            -0.23318906231964123,
+            0.9622923261010795,
+            -0.01751493173320729,
+            0.2252347157047574,
+            0.07553930343384296,
+            0.971213860920708,
+            0.0006333499914035201,
+            0.00013912499707657844,
+            -0.00013907284301239997,
+            -0.00012892979430034757,
+            0.004509157035499811,
+            0.0024916334077715874
+        ],
+        [
+            0.47318023110125734,
+            -0.11851768497371729,
+            0.9062300515285916,
+            0.46399591148352576,
+            -0.5243871572407887,
+            -0.5505084068703052,
+            0.45460576042612594,
+            -0.005882536061108112,
+            0.0003883926838170737,
+            0.035149212926626205,
+            0.43869471549987793,
+            0.8444778323173523,
+            -0.09306956827640533
+        ]
+    ],
+    "position_instruction": "Place the fork to the right of the speaker on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the prong of the fork is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "prong_right",
+    "obj_codes": [
+        "4445f4442a884999960e7e6660459095",
+        "95c967114b624291bc26bcd705aaa334",
+        "77d41aba53e4455f9f84fa04b175dff4",
+        "e98e7fb33743442383812b68608f7006"
+    ],
+    "target_obj_code": "e98e7fb33743442383812b68608f7006",
+    "anno_target": {
+        "category": "fork",
+        "annotation": {
+            " the prong of the fork is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the prong of the fork is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.7071068286895752,
+                        0.0,
+                        0.0,
+                        0.7071067094802856
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "prong_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "prong_right"
+}

@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "shoe",
+        "box",
+        "organizer",
+        "fork"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/d6951661c1e445d8a1d00b7d38d86030/material_2.urdf",
+        "objaverse_rescale/f81ca566b008446eb704cad4844603b6/material_2.urdf",
+        "objaverse_rescale/4f52ebe6c8cf432986e47d8de83386ce/material_2.urdf",
+        "ycb_16k_backup/030_fork_google_16k/030_fork_google_16k.urdf"
+    ],
+    "target_obj_name": "fork",
+    "instruction": "Place the fork to the left of the shoe on the table. We also need to specify the rotation of the object after placement:  the prong of the fork is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.5735343848428235,
+            -0.15112701879096077,
+            0.9277134733748231,
+            -0.07241920836925954,
+            -0.06697782422405514,
+            0.0171233258276912,
+            0.9949754876548366,
+            -0.004152323119342327,
+            0.005841811653226614,
+            0.0011682979529723525,
+            -0.02803672105073929,
+            -0.07718582451343536,
+            -0.034313034266233444
+        ],
+        [
+            0.42460469979062637,
+            -0.20144659900226364,
+            0.9215662159160296,
+            4.196274211566554e-06,
+            0.00022923145830151828,
+            0.02636816398568103,
+            0.9996522732247218,
+            0.00013767604832537472,
+            0.0002175746631110087,
+            -8.045128925004974e-05,
+            -0.0023977451492100954,
+            0.0013410227838903666,
+            4.184748468105681e-05
+        ],
+        [
+            0.5516834090080197,
+            0.006071476408813227,
+            1.0210485211863334,
+            -1.9463861454397443e-05,
+            5.1080707213024774e-05,
+            -0.02643558573823602,
+            0.9996505173402331,
+            -0.0015671822475269437,
+            0.0020341076888144016,
+            -0.004159960430115461,
+            -0.020475102588534355,
+            -0.01880006492137909,
+            -0.004626160953193903
+        ],
+        [
+            0.32051295021113685,
+            -0.050639154947760764,
+            0.902908776050186,
+            0.05622732257204564,
+            0.0016805957357191093,
+            0.007706448633318103,
+            0.9983868360729784,
+            0.00040949234971776605,
+            0.003356505185365677,
+            -0.0009314240305684507,
+            -0.9780289530754089,
+            -0.10006098449230194,
+            -0.2587542235851288
+        ]
+    ],
+    "position_instruction": "Place the fork to the left of the shoe on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the prong of the fork is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "prong_right",
+    "obj_codes": [
+        "d6951661c1e445d8a1d00b7d38d86030",
+        "f81ca566b008446eb704cad4844603b6",
+        "4f52ebe6c8cf432986e47d8de83386ce",
+        "030"
+    ],
+    "target_obj_code": "030",
+    "anno_target": {
+        "category": "fork",
+        "annotation": {
+            " the prong of the fork is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the prong of the fork is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "prong_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "prong_right"
+}

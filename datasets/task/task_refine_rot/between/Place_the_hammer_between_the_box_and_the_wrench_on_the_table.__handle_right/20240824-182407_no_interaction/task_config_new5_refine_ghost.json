@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "box",
+        "wrench",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/008_pudding_box_google_16k/008_pudding_box_google_16k.urdf",
+        "objaverse_rescale/19c1913ba85042938f0a87d94397c946/material_2.urdf",
+        "objaverse_rescale/35a76a67ea1c45edabbd5013de70d68d/material_2.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer between the box and the wrench on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.4764202765411267,
+            0.04399718268365261,
+            0.9003414945939932,
+            -0.0060920864827718755,
+            0.0026115618314554,
+            -0.09832814066489672,
+            0.9951319726450722,
+            0.0004243460134603083,
+            -0.0019625381100922823,
+            -0.0011423464166000485,
+            0.05143071711063385,
+            0.05090942978858948,
+            -0.037951406091451645
+        ],
+        [
+            0.4192469744491444,
+            -0.2298005910847208,
+            0.9075134909707793,
+            0.010250573314641789,
+            0.0003689841945195182,
+            -0.09450259118518843,
+            0.9954717725062173,
+            -0.0002463981800246984,
+            0.000571995391510427,
+            0.028635913506150246,
+            0.8408098816871643,
+            2.6778106689453125,
+            0.2196878343820572
+        ],
+        [
+            0.30377254380420915,
+            0.08487441418460978,
+            0.931826552227649,
+            2.3895334276916396e-05,
+            -1.4707184591656122e-06,
+            -0.05548457111985288,
+            0.9984595443955138,
+            0.0021031450014561415,
+            -0.0018056799890473485,
+            -0.001532861148007214,
+            0.06990908831357956,
+            0.0694516971707344,
+            -0.010418335907161236
+        ]
+    ],
+    "position_instruction": "Place the hammer between the box and the wrench on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "008",
+        "19c1913ba85042938f0a87d94397c946",
+        "35a76a67ea1c45edabbd5013de70d68d"
+    ],
+    "target_obj_code": "35a76a67ea1c45edabbd5013de70d68d",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_right"
+}

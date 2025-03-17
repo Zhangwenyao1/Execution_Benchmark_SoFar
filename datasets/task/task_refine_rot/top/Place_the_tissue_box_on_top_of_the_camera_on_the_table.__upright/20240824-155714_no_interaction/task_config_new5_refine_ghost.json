@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "camera",
+        "tissue box"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f6f8675406b7437faaf96a1f82062028/material_2.urdf",
+        "objaverse_rescale/8eda72f64e6e4443af4fdbeed07cad29/material_2.urdf"
+    ],
+    "target_obj_name": "tissue box",
+    "instruction": "Place the tissue box on top of the camera on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.5301808248964819,
+            0.1551092140716455,
+            0.9580132076978133,
+            -0.4926469529009516,
+            0.22634065625252187,
+            0.3383203634125231,
+            0.7691607236624882,
+            0.0024585621431469917,
+            -0.0011229143710806966,
+            -0.0007453539874404669,
+            0.006791683845221996,
+            0.025383813306689262,
+            -0.006326008588075638
+        ],
+        [
+            0.6833772899136342,
+            -0.21965306413085206,
+            0.9296261527314346,
+            2.787752655129574e-07,
+            -2.1663839312259464e-06,
+            0.04919239794356526,
+            0.9987893211182185,
+            -0.0007002467173151672,
+            0.003315142123028636,
+            -0.0078981202095747,
+            -0.03654136881232262,
+            -0.019464576616883278,
+            -0.0019440855830907822
+        ]
+    ],
+    "position_instruction": "Place the tissue box on top of the camera on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "f6f8675406b7437faaf96a1f82062028",
+        "8eda72f64e6e4443af4fdbeed07cad29"
+    ],
+    "target_obj_code": "8eda72f64e6e4443af4fdbeed07cad29",
+    "anno_target": {
+        "category": "tissue_box",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "top",
+    "rotation_tag": "upright"
+}

@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "orange",
+        "mug",
+        "can",
+        "apple"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/a4c9a503f63e440e8d6d924d4e5c36b1/material_2.urdf",
+        "objaverse_rescale/77d41aba53e4455f9f84fa04b175dff4/material_2.urdf",
+        "ycb_16k_backup/007_tuna_fish_can_google_16k/007_tuna_fish_can_google_16k.urdf",
+        "objaverse_rescale/f53d75bd123b40bca14d12d54286f432/material_2.urdf"
+    ],
+    "target_obj_name": "apple",
+    "instruction": "Place the apple behind the orange on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.4567891795778758,
+            0.028369228206116672,
+            0.9373085840264218,
+            0.27356202495897963,
+            0.6121014363330527,
+            -0.6384410204968908,
+            0.3780062347187469,
+            -0.00143524631857872,
+            -0.0023347216192632914,
+            -0.00023767274979036301,
+            0.06316466629505157,
+            -0.020521128550171852,
+            0.012079369276762009
+        ],
+        [
+            0.6776723264725195,
+            -0.102302461873679,
+            0.9623208425197586,
+            -0.007410572194840782,
+            0.2246292847742146,
+            0.03211899821541019,
+            0.9738866144450327,
+            0.00044227525359019637,
+            0.0002512169012334198,
+            -0.00012370781041681767,
+            -0.0026865885592997074,
+            0.0029791654087603092,
+            0.0015657423064112663
+        ],
+        [
+            0.30490171918880804,
+            0.17507996228093775,
+            0.9031501005084768,
+            0.000473196710254775,
+            -0.0007364160384656306,
+            -0.0070455927180445,
+            0.9999747963821606,
+            0.0001822626800276339,
+            0.0010667417664080858,
+            -0.006758461706340313,
+            -0.10026781260967255,
+            0.07468166202306747,
+            0.005738181062042713
+        ],
+        [
+            0.38096393983190613,
+            -0.12579887377841578,
+            0.9682680217892738,
+            0.0677935120225788,
+            0.03863313949978784,
+            -0.07802286436041776,
+            0.9938933307438123,
+            0.00034357569529674947,
+            0.0024432269856333733,
+            -0.0012411706848070025,
+            -0.03708689287304878,
+            0.001278313109651208,
+            0.035624489188194275
+        ]
+    ],
+    "position_instruction": "Place the apple behind the orange on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "a4c9a503f63e440e8d6d924d4e5c36b1",
+        "77d41aba53e4455f9f84fa04b175dff4",
+        "007",
+        "f53d75bd123b40bca14d12d54286f432"
+    ],
+    "target_obj_code": "f53d75bd123b40bca14d12d54286f432",
+    "anno_target": {
+        "category": "apple",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "upright"
+}

@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "envelope box",
+        "paperweight"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-h_cups_google_16k/065-h_cups_google_16k.urdf",
+        "objaverse_rescale/40b28d1cbfbd4e9f9acf653b748324ee/material_2.urdf",
+        "objaverse_rescale/21c10181c122474a8f72a4ad0331f185/material_2.urdf"
+    ],
+    "target_obj_name": "paperweight",
+    "instruction": "Place the paperweight between the cup and the envelope box on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.6392794090436162,
+            0.11923009343386663,
+            0.9234779053371095,
+            0.5808048421527938,
+            0.33218008162770407,
+            0.4781230676862522,
+            0.5689643757283636,
+            -0.0004569530428852886,
+            0.0031216791830956936,
+            0.004445172380656004,
+            -0.16009290516376495,
+            0.048343442380428314,
+            0.10094135999679565
+        ],
+        [
+            0.5444622940874941,
+            0.251179370884939,
+            0.9317158561609374,
+            -3.3739306244079524e-05,
+            0.00010863476512024017,
+            0.09387424628092894,
+            0.9955840561928128,
+            0.00021094396652188152,
+            0.0005891002947464585,
+            -0.003305575344711542,
+            -0.02982614003121853,
+            0.0026064119301736355,
+            -0.00030280102510005236
+        ],
+        [
+            0.6138846511240754,
+            -0.17800966766973925,
+            0.9379810678009489,
+            -0.16880656221573373,
+            0.15926601437547744,
+            0.11063411005287571,
+            0.9663843825883479,
+            0.0032107033766806126,
+            -0.003083131043240428,
+            -0.0005702884518541396,
+            0.06532954424619675,
+            0.08386624604463577,
+            -0.00970388576388359
+        ]
+    ],
+    "position_instruction": "Place the paperweight between the cup and the envelope box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "065-h",
+        "40b28d1cbfbd4e9f9acf653b748324ee",
+        "21c10181c122474a8f72a4ad0331f185"
+    ],
+    "target_obj_code": "21c10181c122474a8f72a4ad0331f185",
+    "anno_target": {
+        "category": "paperweight",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upright"
+}

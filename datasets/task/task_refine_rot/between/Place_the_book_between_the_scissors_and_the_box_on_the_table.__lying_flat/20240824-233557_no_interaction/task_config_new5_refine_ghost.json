@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "scissors",
+        "box",
+        "shoe",
+        "book"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/2b1120c4b517409184413ed709c57a66/material_2.urdf",
+        "objaverse_rescale/9660e0c0326b4f7386014e27717231ae/material_2.urdf",
+        "objaverse_rescale/d6951661c1e445d8a1d00b7d38d86030/material_2.urdf",
+        "objaverse_rescale/de79a920c48745ff95c0df7a7c300091/material_2.urdf"
+    ],
+    "target_obj_name": "book",
+    "instruction": "Place the book between the scissors and the box on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.3282361270085271,
+            0.21288099262451313,
+            0.9045217675455637,
+            -0.168183003365266,
+            0.9857269509564224,
+            -0.002838527232397603,
+            0.006985578024992028,
+            0.007501722779124975,
+            0.005395940504968166,
+            0.008768218569457531,
+            -1.4819140434265137,
+            2.2709925174713135,
+            -0.02179880440235138
+        ],
+        [
+            0.611679201543173,
+            0.040075467184386926,
+            0.9190820485933595,
+            9.822713067467386e-05,
+            -0.00022572497860432345,
+            -0.038650592391053354,
+            0.9992527563672192,
+            0.000374434981495142,
+            -0.00012873763625975698,
+            -0.00017591737559996545,
+            -4.5067037717672065e-05,
+            0.002773693297058344,
+            0.001478040125221014
+        ],
+        [
+            0.35620175423284245,
+            -0.00925947074574747,
+            0.9277154905002146,
+            0.0892429336306503,
+            0.04195067373285827,
+            0.2872783249075693,
+            -0.9527575787201359,
+            -0.004343484528362751,
+            0.004506549332290888,
+            -0.00031075248261913657,
+            -0.1673312485218048,
+            -0.08735635131597519,
+            -0.044101957231760025
+        ],
+        [
+            0.31913375697899315,
+            -0.26087882234978377,
+            0.9151313566505953,
+            0.0074795672885747365,
+            -0.0009480372015424786,
+            0.006765653479429258,
+            0.9999486902994754,
+            -0.00041555656935088336,
+            -0.0009151005069725215,
+            -0.001325548510067165,
+            0.09343667328357697,
+            0.10094740986824036,
+            -0.014894531108438969
+        ]
+    ],
+    "position_instruction": "Place the book between the scissors and the box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "2b1120c4b517409184413ed709c57a66",
+        "9660e0c0326b4f7386014e27717231ae",
+        "d6951661c1e445d8a1d00b7d38d86030",
+        "de79a920c48745ff95c0df7a7c300091"
+    ],
+    "target_obj_code": "de79a920c48745ff95c0df7a7c300091",
+    "anno_target": {
+        "category": "book",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        1.0,
+                        0.0,
+                        0.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "between",
+    "rotation_tag": "lying_flat"
+}

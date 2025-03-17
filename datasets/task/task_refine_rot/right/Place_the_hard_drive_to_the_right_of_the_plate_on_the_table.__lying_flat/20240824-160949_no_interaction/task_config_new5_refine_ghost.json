@@ -1,0 +1,97 @@
+{
+    "selected_obj_names": [
+        "plate",
+        "paperweight",
+        "hard drive"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/029_plate_google_16k/029_plate_google_16k.urdf",
+        "objaverse_rescale/21c10181c122474a8f72a4ad0331f185/material_2.urdf",
+        "objaverse_rescale/e32b159011544b8aa7cacd812636353e/material_2.urdf"
+    ],
+    "target_obj_name": "hard drive",
+    "instruction": "Place the hard drive to the right of the plate on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.3213646110765214,
+            0.1600465091997006,
+            0.9030416723573467,
+            -0.00012912218409672575,
+            -0.00016160175706747028,
+            -0.05958378541524748,
+            0.9982232865085464,
+            4.819769401365193e-06,
+            3.181762440362945e-05,
+            -5.852275990037015e-06,
+            -0.0002357136836508289,
+            -0.0003302435507066548,
+            -0.0007068981067277491
+        ],
+        [
+            0.554872103918985,
+            0.04502634111596493,
+            0.9393530605069996,
+            0.03891119944551543,
+            0.9419121903364251,
+            -0.1112324737637267,
+            -0.3145070444898683,
+            -0.0021369841415435076,
+            0.008619007654488087,
+            -0.0005116213578730822,
+            -0.19831211864948273,
+            -0.08263466507196426,
+            -0.24398669600486755
+        ],
+        [
+            0.5378463073378895,
+            0.15765113188620702,
+            0.9681544016862385,
+            0.3907834716774534,
+            0.13571472526388823,
+            0.09254345543896327,
+            0.905707182518545,
+            -0.0007980534574016929,
+            -0.0016304590972140431,
+            -0.004809624049812555,
+            0.05263090133666992,
+            0.04656616225838661,
+            -0.04617252200841904
+        ]
+    ],
+    "position_instruction": "Place the hard drive to the right of the plate on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "029",
+        "21c10181c122474a8f72a4ad0331f185",
+        "e32b159011544b8aa7cacd812636353e"
+    ],
+    "target_obj_code": "e32b159011544b8aa7cacd812636353e",
+    "anno_target": {
+        "category": "hard_drive",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "right",
+    "rotation_tag": "lying_flat"
+}

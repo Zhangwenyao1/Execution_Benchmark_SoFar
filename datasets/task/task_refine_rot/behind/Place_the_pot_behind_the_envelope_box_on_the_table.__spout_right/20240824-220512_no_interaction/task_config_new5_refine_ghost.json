@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "envelope box",
+        "mug",
+        "microphone",
+        "pot"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/40b28d1cbfbd4e9f9acf653b748324ee/material_2.urdf",
+        "objaverse_rescale/e5e87ddbf3f6470384bef58431351e2a/material_2.urdf",
+        "objaverse_rescale/f9d07bb386a04de8b0e1a9a28a936985/material_2.urdf",
+        "objaverse_rescale/cba3e4df7c354d22b7913d45a28a8159/material_2.urdf"
+    ],
+    "target_obj_name": "pot",
+    "instruction": "Place the pot behind the envelope box on the table. We also need to specify the rotation of the object after placement:  the pot is upright on the table with its spout pointing towards right.",
+    "init_obj_pos": [
+        [
+            0.6881772404870339,
+            0.02231713164864729,
+            0.9317139100592852,
+            -8.792979424320262e-05,
+            0.00012052861468147023,
+            0.07708470542159969,
+            0.9970245362734401,
+            -7.861442099965643e-06,
+            -1.4945297152735293e-05,
+            -5.041975327912951e-06,
+            0.0003355566004756838,
+            -0.0001174581702798605,
+            3.4076163046847796e-06
+        ],
+        [
+            0.3743761859517132,
+            -0.19213091325743048,
+            0.9327734885377982,
+            0.013556453716379998,
+            0.22978502061081071,
+            -0.05732842480743793,
+            0.9714569051556655,
+            -0.0010388335213065147,
+            0.0005937418900430202,
+            -3.309094608994201e-05,
+            -0.010685679502785206,
+            -0.019873525947332382,
+            0.001284147729165852
+        ],
+        [
+            0.5320195175753857,
+            -0.09174023992039297,
+            0.9436970447569352,
+            -0.04594430267952207,
+            -0.028415352618499815,
+            -0.04882039629371148,
+            0.9973456059423856,
+            -0.00029769615503028035,
+            -0.0006667929701507092,
+            -0.0026295376010239124,
+            0.024277430027723312,
+            0.011526993475854397,
+            -0.013870316557586193
+        ],
+        [
+            0.3046750098413137,
+            0.21616046308514747,
+            0.9372602594885128,
+            -0.1531175861726706,
+            0.014959773876313535,
+            -0.03434902283013229,
+            0.9874975213137708,
+            -0.023461950942873955,
+            -0.02081138640642166,
+            0.004294634331017733,
+            0.3567107915878296,
+            -0.3995168209075928,
+            0.024036243557929993
+        ]
+    ],
+    "position_instruction": "Place the pot behind the envelope box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the pot is upright on the table with its spout pointing towards right.",
+    "rotation_instruction_label": "spout_right",
+    "obj_codes": [
+        "40b28d1cbfbd4e9f9acf653b748324ee",
+        "e5e87ddbf3f6470384bef58431351e2a",
+        "f9d07bb386a04de8b0e1a9a28a936985",
+        "cba3e4df7c354d22b7913d45a28a8159"
+    ],
+    "target_obj_code": "cba3e4df7c354d22b7913d45a28a8159",
+    "anno_target": {
+        "category": "pot",
+        "annotation": {
+            " the pot is upright on the table with its spout pointing towards left.": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            },
+            " the pot is upright on the table with its spout pointing towards right.": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "spout_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "spout_right"
+}

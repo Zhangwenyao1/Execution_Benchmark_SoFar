@@ -1,0 +1,85 @@
+{
+    "selected_obj_names": [
+        "toilet paper roll",
+        "toy"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6d5284b842434413a17133f7bf259669/material_2.urdf",
+        "ycb_16k_backup/072-b_toy_airplane_google_16k/072-b_toy_airplane_google_16k.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "Place the toy to the right of the toilet paper roll on the table. We also need to specify the rotation of the object after placement: the toy is facing right, with its head oriented towards left",
+    "init_obj_pos": [
+        [
+            0.32123586955578504,
+            -0.15131640058212054,
+            0.9335486212825453,
+            -0.03159948586902788,
+            -0.3370814752025025,
+            -0.08782674934143589,
+            0.9368372396890692,
+            0.04272341728210449,
+            -0.00982078816741705,
+            0.005798112601041794,
+            0.12038906663656235,
+            0.536230742931366,
+            -0.002906462177634239
+        ],
+        [
+            0.3937735115665617,
+            0.04394904335532918,
+            0.9001531379540365,
+            -0.0001256832414307433,
+            -0.00030633944183466275,
+            -0.06528133499487722,
+            0.9978668436525767,
+            -0.0011836523190140724,
+            -0.0015467964112758636,
+            -0.0004826637450605631,
+            0.028237590566277504,
+            -0.0012250415747985244,
+            0.0004770556406583637
+        ]
+    ],
+    "position_instruction": "Place the toy to the right of the toilet paper roll on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement: the toy is facing right, with its head oriented towards left",
+    "rotation_instruction_label": "right",
+    "obj_codes": [
+        "6d5284b842434413a17133f7bf259669",
+        "072-b"
+    ],
+    "target_obj_code": "072-b",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "right"
+}

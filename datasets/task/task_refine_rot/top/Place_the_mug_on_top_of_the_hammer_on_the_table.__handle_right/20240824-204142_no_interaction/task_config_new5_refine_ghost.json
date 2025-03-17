@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "hammer",
+        "shoe",
+        "mouse",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6d155e8051294915813e0c156e3cd6de/material_2.urdf",
+        "objaverse_rescale/ae7142127dd84ebbbe7762368ace452c/material_2.urdf",
+        "objaverse_rescale/f017c73a85484b6da3a66ec1cda70c71/material_2.urdf",
+        "objaverse_rescale/b8478cea51454555b90de0fe6ba7ba83/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug on top of the hammer on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6182483385913314,
+            -0.2320068283325265,
+            0.9327226165219847,
+            0.08182311567091953,
+            0.008568110055616628,
+            0.10360147895817057,
+            0.9912105219324795,
+            -0.0002511866914574057,
+            0.001112430589273572,
+            -0.004506329540163279,
+            -0.05231282860040665,
+            0.037134427577257156,
+            0.012953334487974644
+        ],
+        [
+            0.5252933114230919,
+            -0.06746125024291712,
+            0.9310992478103685,
+            0.024522081883512025,
+            0.2230562488763652,
+            -0.10915440470855839,
+            0.9683645456490145,
+            5.447043076856062e-05,
+            0.000251009245403111,
+            1.927976427396061e-06,
+            -0.0035073712933808565,
+            0.0007915010210126638,
+            -0.0006846179021522403
+        ],
+        [
+            0.5272443260420644,
+            0.25717104557249365,
+            0.9160635221758506,
+            -0.6190913986283607,
+            -0.23115967701754317,
+            0.3634341977024637,
+            0.656663252973616,
+            -6.992601993260905e-05,
+            -0.0008622450986877084,
+            -0.0001063178715412505,
+            0.0563969649374485,
+            -0.02783438190817833,
+            -0.018130701035261154
+        ],
+        [
+            0.6161623391423795,
+            0.08295295164483453,
+            0.9653317959543289,
+            -0.02264017897489959,
+            -0.2272461493117933,
+            -0.07456591800077061,
+            0.9707144450308997,
+            -4.3235668272245675e-05,
+            4.3551284761633724e-05,
+            -0.00020066817523911595,
+            0.00017037377983797342,
+            0.000814805505797267,
+            0.0004757668939419091
+        ]
+    ],
+    "position_instruction": "Place the mug on top of the hammer on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "6d155e8051294915813e0c156e3cd6de",
+        "ae7142127dd84ebbbe7762368ace452c",
+        "f017c73a85484b6da3a66ec1cda70c71",
+        "b8478cea51454555b90de0fe6ba7ba83"
+    ],
+    "target_obj_code": "b8478cea51454555b90de0fe6ba7ba83",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "handle_right"
+}

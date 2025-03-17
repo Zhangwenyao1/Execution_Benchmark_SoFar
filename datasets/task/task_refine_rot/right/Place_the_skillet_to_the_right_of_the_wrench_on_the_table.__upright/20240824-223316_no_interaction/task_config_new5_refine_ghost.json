@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "wrench",
+        "mug",
+        "skillet"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/5bf781c9fd8d4121b735503b13ba2eaf/material_2.urdf",
+        "objaverse_rescale/ca4f9a92cc2f4ee98fe9332db41bf7f7/material_2.urdf",
+        "ycb_16k_backup/027_skillet_google_16k/027_skillet_google_16k.urdf"
+    ],
+    "target_obj_name": "skillet",
+    "instruction": "Place the skillet to the right of the wrench on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.6934761784441731,
+            0.04486736725752889,
+            0.9049634085760525,
+            -0.6158880358695092,
+            0.330663344461243,
+            0.35409601579558136,
+            -0.6212565424204404,
+            -0.0038782821502536535,
+            -0.001840289798565209,
+            0.03019728511571884,
+            6.466823101043701,
+            -8.659825325012207,
+            -0.4226801097393036
+        ],
+        [
+            0.5242315981428561,
+            0.0945991353734155,
+            0.9610050042320541,
+            0.1296087683727704,
+            0.19982530195927514,
+            -0.2833999826320701,
+            0.9289541784727169,
+            -0.004149230197072029,
+            -0.004881813656538725,
+            -0.00036153520341031253,
+            0.1061958372592926,
+            -0.0749133750796318,
+            0.0017556874081492424
+        ],
+        [
+            0.6966188319586384,
+            -0.10249196292769173,
+            0.9044063943401234,
+            0.04732302634002249,
+            0.02071418358408881,
+            -0.19306985656502265,
+            0.979824210898276,
+            0.0035368006210774183,
+            -0.005968350451439619,
+            0.013534457422792912,
+            0.17877385020256042,
+            0.0942983329296112,
+            -0.004632410127669573
+        ]
+    ],
+    "position_instruction": "Place the skillet to the right of the wrench on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "5bf781c9fd8d4121b735503b13ba2eaf",
+        "ca4f9a92cc2f4ee98fe9332db41bf7f7",
+        "027"
+    ],
+    "target_obj_code": "027",
+    "anno_target": {
+        "category": "skillet",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upright"
+}

@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "glue gun",
+        "paperweight",
+        "knife"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/a1da12b81f034db894496c1ffc4be1f5/material_2.urdf",
+        "objaverse_rescale/21c10181c122474a8f72a4ad0331f185/material_2.urdf",
+        "objaverse_rescale/0df75457524743ec81468c916fddb930/material_2.urdf"
+    ],
+    "target_obj_name": "knife",
+    "instruction": "Place the knife to the left of the glue gun on the table. We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.39635812150493166,
+            0.1667157343914063,
+            0.97250575260737,
+            -0.005463254464777534,
+            0.21606133928603738,
+            0.02031144821161882,
+            0.9761532131730769,
+            0.012783086858689785,
+            0.0006347591988742352,
+            -0.005022971425205469,
+            -0.020901592448353767,
+            0.2169807404279709,
+            -0.0012148722307756543
+        ],
+        [
+            0.4778841051942466,
+            0.23322297035129494,
+            0.93798000444589,
+            -0.11933999583135749,
+            0.19907058456907836,
+            -0.1554870353023061,
+            0.9601836541033157,
+            0.0010745972394943237,
+            -0.004391614813357592,
+            -0.0006637033075094223,
+            0.07566343992948532,
+            0.054348092526197433,
+            0.022791460156440735
+        ],
+        [
+            0.5128888108472485,
+            -0.16252684675792303,
+            0.9048820835130458,
+            -0.6208829136343419,
+            0.0863727755766293,
+            -0.10283677467129504,
+            0.7723138927737383,
+            -0.007178971078246832,
+            -0.007756746839731932,
+            0.017345253378152847,
+            -13.490900039672852,
+            0.6965152621269226,
+            -0.722672164440155
+        ]
+    ],
+    "position_instruction": "Place the knife to the left of the glue gun on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blade_right",
+    "obj_codes": [
+        "a1da12b81f034db894496c1ffc4be1f5",
+        "21c10181c122474a8f72a4ad0331f185",
+        "0df75457524743ec81468c916fddb930"
+    ],
+    "target_obj_code": "0df75457524743ec81468c916fddb930",
+    "anno_target": {
+        "category": "knife",
+        "annotation": {
+            " the blade of the knife is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blade of the knife is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.5
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blade_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "blade_right"
+}

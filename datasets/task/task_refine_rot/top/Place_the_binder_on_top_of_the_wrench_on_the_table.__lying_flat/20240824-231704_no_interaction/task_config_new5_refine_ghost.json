@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "wrench",
+        "fork",
+        "binder"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/5bf781c9fd8d4121b735503b13ba2eaf/material_2.urdf",
+        "objaverse_rescale/e98e7fb33743442383812b68608f7006/material_2.urdf",
+        "objaverse_rescale/a0026e7d1b244b9a9223daf4223c9372/material_2.urdf"
+    ],
+    "target_obj_name": "binder",
+    "instruction": "Place the binder on top of the wrench on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.20138958374525376,
+            0.1772309691504995,
+            0.906844492496075,
+            0.1505094133220337,
+            -0.6771210492861354,
+            0.7050225098315367,
+            -0.14763895741280494,
+            -0.004644220229238272,
+            0.008282072842121124,
+            0.01315753161907196,
+            -3.49448299407959,
+            -1.021783709526062,
+            -0.06304378807544708
+        ],
+        [
+            0.41999023013717535,
+            -0.32113270072077166,
+            0.9060539689554957,
+            0.6788454841723303,
+            -0.16833620922464723,
+            -0.175903707320177,
+            0.6927406549595073,
+            -0.00024008114996831864,
+            -0.000887064088601619,
+            0.034766167402267456,
+            1.0174018144607544,
+            3.4076101779937744,
+            0.3122158348560333
+        ],
+        [
+            0.5433722639656328,
+            0.11984421130827146,
+            0.9272556951751025,
+            -7.313058012252096e-05,
+            -0.0003623123245425558,
+            -0.09598201973582852,
+            0.9953829992867715,
+            -8.818658443487948e-07,
+            -0.00026293875998817384,
+            -0.0006721927784383297,
+            0.001519384910352528,
+            0.005384401418268681,
+            0.00023493930348195136
+        ]
+    ],
+    "position_instruction": "Place the binder on top of the wrench on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "5bf781c9fd8d4121b735503b13ba2eaf",
+        "e98e7fb33743442383812b68608f7006",
+        "a0026e7d1b244b9a9223daf4223c9372"
+    ],
+    "target_obj_code": "a0026e7d1b244b9a9223daf4223c9372",
+    "anno_target": {
+        "category": "binder",
+        "annotation": {
+            "the binder is standing upright on the table and oriented in a way so that its smaller side is in contact with the tabletop and the larger face is perpendicular to the tabletop, and the label should be in sight as well.": {
+                "quat": [
+                    [
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        -7.549783020976975e-08,
+                        -3.3001151131603493e-15,
+                        1.0,
+                        -4.371138828673793e-08
+                    ],
+                    [
+                        -0.0,
+                        1.0,
+                        -0.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "top",
+    "rotation_tag": "lying_flat"
+}

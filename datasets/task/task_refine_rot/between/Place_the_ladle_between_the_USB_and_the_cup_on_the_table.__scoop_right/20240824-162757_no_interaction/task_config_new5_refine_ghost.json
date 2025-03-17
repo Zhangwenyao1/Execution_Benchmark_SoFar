@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "USB",
+        "cup",
+        "ladle"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/0a51815f3c0941ae8312fc6917173ed6/material_2.urdf",
+        "ycb_16k_backup/065-c_cups_google_16k/065-c_cups_google_16k.urdf",
+        "objaverse_rescale/ce27e3369587476c85a436905f1e5c00/material_2.urdf"
+    ],
+    "target_obj_name": "ladle",
+    "instruction": "Place the ladle between the USB and the cup on the table. We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "init_obj_pos": [
+        [
+            0.48796414862874804,
+            -0.03505237084006745,
+            0.9111760928737553,
+            -0.15127710401167896,
+            -0.4257515171671888,
+            0.044920329893597684,
+            0.8909730901626192,
+            0.0008100816048681736,
+            -0.0001800239842850715,
+            -0.00023123098071664572,
+            0.02150909975171089,
+            0.06131482124328613,
+            -0.0031357586849480867
+        ],
+        [
+            0.6133759618029572,
+            -0.18219926485624113,
+            0.9005684626558428,
+            0.0006052399887206242,
+            -0.0008234012540683767,
+            -0.06259631571990043,
+            0.9980384045482541,
+            -0.0023601960856467485,
+            -0.004703427664935589,
+            -0.0005832808674313128,
+            0.14712536334991455,
+            -0.05225038155913353,
+            -0.08549080789089203
+        ],
+        [
+            0.3822849784969406,
+            -0.24310995707649613,
+            0.9194524080672409,
+            0.006486395416098962,
+            -0.024731118533026935,
+            -0.10681669667551194,
+            0.9939499442939477,
+            0.0036523404996842146,
+            -0.014750962145626545,
+            -0.01102518942207098,
+            0.8188607096672058,
+            2.292496919631958,
+            0.41776561737060547
+        ]
+    ],
+    "position_instruction": "Place the ladle between the USB and the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "rotation_instruction_label": "scoop_right",
+    "obj_codes": [
+        "0a51815f3c0941ae8312fc6917173ed6",
+        "065-c",
+        "ce27e3369587476c85a436905f1e5c00"
+    ],
+    "target_obj_code": "ce27e3369587476c85a436905f1e5c00",
+    "anno_target": {
+        "category": "ladle",
+        "annotation": {
+            " the ladle is lying on the table, with its scoop on the left(pointing towards left) and its handle on the right. ": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ladle is lying on the table, with its scoop on the right(pointing towards right) and its handle on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "scoop_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "scoop_right"
+}

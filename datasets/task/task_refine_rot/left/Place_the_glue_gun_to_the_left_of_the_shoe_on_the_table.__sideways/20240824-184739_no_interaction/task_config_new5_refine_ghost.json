@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "shoe",
+        "screwdriver",
+        "glue gun"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/ae7142127dd84ebbbe7762368ace452c/material_2.urdf",
+        "ycb_16k_backup/043_phillips_screwdriver_google_16k/043_phillips_screwdriver_google_16k.urdf",
+        "objaverse_rescale/a1da12b81f034db894496c1ffc4be1f5/material_2.urdf"
+    ],
+    "target_obj_name": "glue gun",
+    "instruction": "Place the glue gun to the left of the shoe on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.5103162471363576,
+            -0.2163491462045433,
+            0.9311304758721762,
+            0.01773730732614223,
+            0.22410512679456557,
+            -0.07790236919071668,
+            0.9712844593360292,
+            0.0007851457339711487,
+            -0.0008878609514795244,
+            -0.0003798700636252761,
+            0.02067500725388527,
+            0.013259957544505596,
+            -0.00033393639023415744
+        ],
+        [
+            0.533938997190855,
+            -0.07867782752909545,
+            0.9014527928601119,
+            -0.025481929177342485,
+            -0.012715815992074789,
+            0.05705835120312753,
+            0.997964590487576,
+            -0.0004353654512669891,
+            5.187944771023467e-05,
+            -0.0002844832488335669,
+            -0.019770439714193344,
+            -0.019109949469566345,
+            0.015390761196613312
+        ],
+        [
+            0.6554767091894849,
+            -0.130661181896358,
+            0.9143094924131598,
+            0.7015560589260904,
+            0.01680066384988647,
+            0.01727855396875137,
+            0.7122066311479014,
+            0.0012331607285887003,
+            0.008786940947175026,
+            0.01311404723674059,
+            -0.7857043743133545,
+            0.08778499811887741,
+            -0.03452453017234802
+        ]
+    ],
+    "position_instruction": "Place the glue gun to the left of the shoe on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "ae7142127dd84ebbbe7762368ace452c",
+        "043",
+        "a1da12b81f034db894496c1ffc4be1f5"
+    ],
+    "target_obj_code": "a1da12b81f034db894496c1ffc4be1f5",
+    "anno_target": {
+        "category": "glue_gun",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.4999999701976776,
+                        0.5
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "sideways"
+}

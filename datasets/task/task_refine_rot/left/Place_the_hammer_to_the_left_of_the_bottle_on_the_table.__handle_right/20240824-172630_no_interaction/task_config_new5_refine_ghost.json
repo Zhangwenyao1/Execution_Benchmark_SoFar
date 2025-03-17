@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "bottle",
+        "shoe",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/021_bleach_cleanser_google_16k/021_bleach_cleanser_google_16k.urdf",
+        "objaverse_rescale/ae7142127dd84ebbbe7762368ace452c/material_2.urdf",
+        "objaverse_rescale/8ed38a92668a425eb16da938622d9ace/material_2.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer to the left of the bottle on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.5103071211571003,
+            -0.041552576473689116,
+            0.946437766480752,
+            -0.7197337375737654,
+            0.055809388968212,
+            -0.06191288053307315,
+            0.6892281583954538,
+            0.001221886952407658,
+            -0.0003954916319344193,
+            -0.0005226243520155549,
+            0.01682438887655735,
+            0.049507059156894684,
+            0.00028701117844320834
+        ],
+        [
+            0.7046196979792747,
+            -0.028252670989042175,
+            0.9310954449377545,
+            -0.014481724230841117,
+            0.2238851841490216,
+            0.06001957900178104,
+            0.9726578813325425,
+            -0.00015720150258857757,
+            0.0004981511738151312,
+            7.601433753734455e-05,
+            -0.010989590547978878,
+            -0.004876480903476477,
+            0.001279787509702146
+        ],
+        [
+            0.5525175291259498,
+            -0.1618407189313917,
+            0.9112784654962091,
+            0.5840892604482909,
+            0.39488116682728536,
+            0.39788605372414493,
+            0.5870223915370828,
+            -0.001690107979811728,
+            -0.001828717882744968,
+            -0.0071317595429718494,
+            0.064338818192482,
+            -0.2128702998161316,
+            0.01362308394163847
+        ]
+    ],
+    "position_instruction": "Place the hammer to the left of the bottle on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "021",
+        "ae7142127dd84ebbbe7762368ace452c",
+        "8ed38a92668a425eb16da938622d9ace"
+    ],
+    "target_obj_code": "8ed38a92668a425eb16da938622d9ace",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "handle_right"
+}

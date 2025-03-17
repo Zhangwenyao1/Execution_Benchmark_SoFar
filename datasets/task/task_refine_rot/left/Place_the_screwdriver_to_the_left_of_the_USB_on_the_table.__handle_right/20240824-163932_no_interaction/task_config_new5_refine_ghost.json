@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "USB",
+        "cup",
+        "screwdriver"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/b1098389cc3b460bb1f1ce558d4b0764/material_2.urdf",
+        "ycb_16k_backup/065-j_cups_google_16k/065-j_cups_google_16k.urdf",
+        "ycb_16k_backup/044_flat_screwdriver_google_16k/044_flat_screwdriver_google_16k.urdf"
+    ],
+    "target_obj_name": "screwdriver",
+    "instruction": "Place the screwdriver to the left of the USB on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.4609787080523511,
+            0.08862497215358948,
+            0.9250260856137094,
+            -0.024520485906662195,
+            -0.00015105503117741572,
+            0.006394236441027076,
+            0.9996788667835356,
+            -0.0023056548088788986,
+            0.0010657805250957608,
+            -0.004621796775609255,
+            -0.025946900248527527,
+            -0.11635149270296097,
+            0.00461845425888896
+        ],
+        [
+            0.33382954895567823,
+            0.08735782872896565,
+            0.9003776132667239,
+            0.0002240515097283205,
+            -0.0003139187425916883,
+            -0.10272090086268172,
+            0.9947101425952695,
+            0.002428382867947221,
+            -0.0026504341512918472,
+            -0.0024292406160384417,
+            0.07218404114246368,
+            0.08931323140859604,
+            -0.008149310015141964
+        ],
+        [
+            0.4304900219256885,
+            -0.06309647067014598,
+            0.900556668711837,
+            0.014056319838343793,
+            -0.010746070734685781,
+            -0.019964773801553554,
+            0.9996441114933949,
+            -0.0015615662559866905,
+            0.0004077492922078818,
+            -0.001083682058379054,
+            0.0424630343914032,
+            -0.05772411823272705,
+            -0.06872950494289398
+        ]
+    ],
+    "position_instruction": "Place the screwdriver to the left of the USB on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "b1098389cc3b460bb1f1ce558d4b0764",
+        "065-j",
+        "044"
+    ],
+    "target_obj_code": "044",
+    "anno_target": {
+        "category": "screwdriver",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.011427843011915684,
+                        0.021855341270565987,
+                        -0.40244925022125244,
+                        0.9151100516319275
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "handle_right"
+}

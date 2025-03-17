@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "lighter",
+        "watch",
+        "hammer",
+        "toy"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/d9675ab05c39447baf27e19ea07d484e/material_2.urdf",
+        "objaverse_rescale/fdb8227a88b2448d8c64fa82ffee3f58/material_2.urdf",
+        "objaverse_rescale/6d155e8051294915813e0c156e3cd6de/material_2.urdf",
+        "ycb_16k_backup/072-a_toy_airplane_google_16k/072-a_toy_airplane_google_16k.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "Place the toy to the right of the lighter on the table. We also need to specify the rotation of the object after placement: the toy is facing right, with its head oriented towards left",
+    "init_obj_pos": [
+        [
+            0.44162101209633087,
+            -0.17483498648017057,
+            0.9247951190661333,
+            0.025548394898847332,
+            0.026821529997245127,
+            -0.20007654558489685,
+            0.9790798031588199,
+            0.0012269479921087623,
+            -0.0025570348370820284,
+            0.031299274414777756,
+            0.5060142278671265,
+            -0.3852580785751343,
+            -0.03383421152830124
+        ],
+        [
+            0.6451860675886198,
+            0.09410830516920168,
+            0.9699911319889772,
+            0.011631208145877592,
+            0.016994179083363953,
+            0.020725416513536595,
+            0.9995730938679223,
+            -0.0007575802155770361,
+            -0.0006705383420921862,
+            -5.7304125220980495e-05,
+            0.00876733660697937,
+            -0.012941357679665089,
+            -0.02235184982419014
+        ],
+        [
+            0.5493990690303878,
+            0.07921745718416487,
+            0.9350824146901108,
+            0.0574892994879486,
+            -0.015258430217696281,
+            -0.017728274640264274,
+            0.9980720760696372,
+            0.000239169443375431,
+            -0.0020675945561379194,
+            -0.001511245733126998,
+            0.06697350740432739,
+            -0.016889475286006927,
+            -0.010402252897620201
+        ],
+        [
+            0.3764392267086019,
+            0.12181094817231611,
+            0.9001955034673426,
+            -0.0014493740984743671,
+            -0.0002123325558008627,
+            0.012264909329002005,
+            0.9999237102043129,
+            0.004144921898841858,
+            0.0005530797643586993,
+            -0.001173114636912942,
+            -0.007502192631363869,
+            0.054666850715875626,
+            -0.0018247354310005903
+        ]
+    ],
+    "position_instruction": "Place the toy to the right of the lighter on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement: the toy is facing right, with its head oriented towards left",
+    "rotation_instruction_label": "right",
+    "obj_codes": [
+        "d9675ab05c39447baf27e19ea07d484e",
+        "fdb8227a88b2448d8c64fa82ffee3f58",
+        "6d155e8051294915813e0c156e3cd6de",
+        "072-a"
+    ],
+    "target_obj_code": "072-a",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        -0.0,
+                        0.0,
+                        -0.9992738962173462,
+                        -0.038100600242614746
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        -0.0,
+                        0.0,
+                        -0.042994238436222076,
+                        0.9990752935409546
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "right"
+}

@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "spatula"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-g_cups_google_16k/065-g_cups_google_16k.urdf",
+        "objaverse_rescale/4b27628be0804c0285d0b13dda025a0d/material_2.urdf"
+    ],
+    "target_obj_name": "spatula",
+    "instruction": "Place the spatula to the left of the cup on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.45176492794936945,
+            -0.06925234893777468,
+            0.9005747603641033,
+            0.00024011616012156473,
+            -0.0012004400214335933,
+            -0.028143521599508357,
+            0.9996031429922384,
+            0.004613133147358894,
+            0.0097331078723073,
+            -0.0036539090797305107,
+            -0.33472269773483276,
+            0.18163418769836426,
+            0.011148400604724884
+        ],
+        [
+            0.5546759062257138,
+            0.011033357804243877,
+            0.9039872228880241,
+            -0.004400231443404304,
+            0.0009894099806754873,
+            0.00782916270843349,
+            0.9999591807881058,
+            -0.0012892212253063917,
+            -1.4618755812989548e-05,
+            -0.010049975477159023,
+            0.07353740185499191,
+            0.08411373198032379,
+            -0.02122519537806511
+        ]
+    ],
+    "position_instruction": "Place the spatula to the left of the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "065-g",
+        "4b27628be0804c0285d0b13dda025a0d"
+    ],
+    "target_obj_code": "4b27628be0804c0285d0b13dda025a0d",
+    "anno_target": {
+        "category": "spatula",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "handle_right"
+}

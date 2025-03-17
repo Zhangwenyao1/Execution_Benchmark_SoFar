@@ -1,0 +1,127 @@
+{
+    "selected_obj_names": [
+        "calculator",
+        "wrench",
+        "mug",
+        "highlighter"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/d9ffbc4bbe1044bb902e1dddac52b0de/material_2.urdf",
+        "objaverse_rescale/19c1913ba85042938f0a87d94397c946/material_2.urdf",
+        "objaverse_rescale/ca4f9a92cc2f4ee98fe9332db41bf7f7/material_2.urdf",
+        "objaverse_rescale/fd058916fb8843c09b4a2e05e3ee894e/material_2.urdf"
+    ],
+    "target_obj_name": "highlighter",
+    "instruction": "Place the highlighter between the calculator and the wrench on the table. We also need to specify the rotation of the object after placement:  the marker is placed in a stable pose on the table. Its tip end is pointing towards right and its cap end is pointing towards left.",
+    "init_obj_pos": [
+        [
+            0.40972751840869476,
+            -0.0670050593952938,
+            0.9051816487208799,
+            -0.703738170662005,
+            -0.02469085840560985,
+            0.02489592225770714,
+            0.7095936454897456,
+            -0.002480217022821307,
+            -0.0017117545939981937,
+            -0.008699786849319935,
+            0.03484833613038063,
+            0.2406429499387741,
+            0.024131376296281815
+        ],
+        [
+            0.41495523398128364,
+            0.19018868369494613,
+            0.9075136203831214,
+            0.010286389386680313,
+            0.0016000938225430327,
+            -0.05769833965674824,
+            0.9982797861792049,
+            0.00010337167623220012,
+            -0.0007785156485624611,
+            0.028070533648133278,
+            0.6346315145492554,
+            2.7576465606689453,
+            0.2020479142665863
+        ],
+        [
+            0.5567582828927303,
+            -0.13499561522761552,
+            0.9610164260939467,
+            0.04768527513869545,
+            0.2282385740987712,
+            -0.0590366330120046,
+            0.9706430568395954,
+            0.0001422479108441621,
+            0.0005886999424546957,
+            -0.0001141700049629435,
+            -0.011628528125584126,
+            0.0043815551325678825,
+            0.00021859348635189235
+        ],
+        [
+            0.4218122419889908,
+            -0.3265146711640409,
+            0.9115247826178283,
+            0.7084562565467731,
+            0.06196968963312411,
+            0.06211454029590247,
+            0.7002794256654521,
+            -0.0042285374365746975,
+            -0.0005329731502570212,
+            -0.004615508485585451,
+            0.061331234872341156,
+            -0.3516313433647156,
+            -0.00037430482916533947
+        ]
+    ],
+    "position_instruction": "Place the highlighter between the calculator and the wrench on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the marker is placed in a stable pose on the table. Its tip end is pointing towards right and its cap end is pointing towards left.",
+    "rotation_instruction_label": "tip_right",
+    "obj_codes": [
+        "d9ffbc4bbe1044bb902e1dddac52b0de",
+        "19c1913ba85042938f0a87d94397c946",
+        "ca4f9a92cc2f4ee98fe9332db41bf7f7",
+        "fd058916fb8843c09b4a2e05e3ee894e"
+    ],
+    "target_obj_code": "fd058916fb8843c09b4a2e05e3ee894e",
+    "anno_target": {
+        "category": "highlighter",
+        "annotation": {
+            " the marker is placed in a stable pose on the table. Its tip(or cap) end is pointing towards left and its rear end is pointing towards right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        -3.090862321641907e-08,
+                        0.7071068286895752,
+                        0.7071067094802856,
+                        -3.0908616110991716e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the marker is placed in a stable pose on the table. Its tip(or cap) end is pointing towards right and its rear end is pointing towards left.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "tip_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "tip_right"
+}

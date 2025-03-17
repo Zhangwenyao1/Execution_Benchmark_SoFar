@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "calculator",
+        "hat",
+        "flashlight"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f0b1f7c17d70489888f5ae922169c0ce/material_2.urdf",
+        "objaverse_rescale/dc02f9c1fd01432fadd6e7d15851dc37/material_2.urdf",
+        "objaverse_rescale/123a79642c2646d8b315576828fea84a/material_2.urdf"
+    ],
+    "target_obj_name": "flashlight",
+    "instruction": "Place the flashlight behind the calculator on the table. We also need to specify the rotation of the object after placement:  the flashlight is lying on the table(not standing up), with its bulb side on the right (oriented towards right) and its handle on the left.",
+    "init_obj_pos": [
+        [
+            0.5696861531357696,
+            0.061708872530200805,
+            0.9444864115966082,
+            0.6494600316272983,
+            0.24235663053992096,
+            -0.17412416016248142,
+            0.699389525085781,
+            -0.0013656654627993703,
+            -0.002485868288204074,
+            -0.007855364121496677,
+            0.030215417966246605,
+            -0.06441924721002579,
+            0.027867909520864487
+        ],
+        [
+            0.3645094771074609,
+            0.015142374798865233,
+            0.963436546297434,
+            -0.4785106171886312,
+            0.036702137710680524,
+            -0.6199230197573171,
+            0.6207865912696496,
+            0.010629333555698395,
+            -0.0006182897486723959,
+            -0.0024846417363733053,
+            -0.017793159931898117,
+            0.18851272761821747,
+            -0.12822522222995758
+        ],
+        [
+            0.5276741294359522,
+            -0.07826353083627241,
+            0.9989367919509855,
+            2.4669665778706725e-07,
+            -6.518041881983342e-06,
+            0.06165533294485413,
+            0.9980975001856857,
+            -0.0005271657719276845,
+            -0.0011620324803516269,
+            -0.0002609150833450258,
+            0.008600370027124882,
+            -0.00795530155301094,
+            -0.008101141080260277
+        ]
+    ],
+    "position_instruction": "Place the flashlight behind the calculator on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the flashlight is lying on the table(not standing up), with its bulb side on the right (oriented towards right) and its handle on the left.",
+    "rotation_instruction_label": "bulb_right_handle_left",
+    "obj_codes": [
+        "f0b1f7c17d70489888f5ae922169c0ce",
+        "dc02f9c1fd01432fadd6e7d15851dc37",
+        "123a79642c2646d8b315576828fea84a"
+    ],
+    "target_obj_code": "123a79642c2646d8b315576828fea84a",
+    "anno_target": {
+        "category": "flashlight",
+        "annotation": {
+            " the flashlight is lying on the table(not standing up), with its bulb side on the left (oriented towards left) and its handle on the right.": {
+                "quat": [
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the flashlight is lying on the table(not standing up), with its bulb side on the right (oriented towards right) and its handle on the left.": {
+                "quat": [
+                    [
+                        3.090862321641907e-08,
+                        -0.7071068286895752,
+                        0.7071067094802856,
+                        -3.0908616110991716e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "bulb_right_handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "bulb_right_handle_left"
+}

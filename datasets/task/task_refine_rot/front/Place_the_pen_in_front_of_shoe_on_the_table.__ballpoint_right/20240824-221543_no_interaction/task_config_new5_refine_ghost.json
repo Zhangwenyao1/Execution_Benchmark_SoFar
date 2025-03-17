@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "shoe",
+        "highlighter",
+        "pen"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/ae7142127dd84ebbbe7762368ace452c/material_2.urdf",
+        "objaverse_rescale/25481a65cad54e2a956394ff2b2765cd/material_2.urdf",
+        "objaverse_rescale/f126e15c0f904fccbd76f9348baea12c/material_2.urdf"
+    ],
+    "target_obj_name": "pen",
+    "instruction": "Place the pen in front of shoe on the table. We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "init_obj_pos": [
+        [
+            0.27657652582727793,
+            -0.1334196028476056,
+            0.9431451838176376,
+            0.11490892194786043,
+            -0.9543182488893165,
+            -0.17166573809237537,
+            -0.21587842379174527,
+            0.001832655631005764,
+            -0.000287033268250525,
+            -0.00022454006830230355,
+            0.011499272659420967,
+            0.02712002396583557,
+            -0.03384040296077728
+        ],
+        [
+            0.47808107068927885,
+            -0.2134147542673117,
+            0.911455231214578,
+            0.6917321063668815,
+            0.12126860018401511,
+            0.10864001085269981,
+            0.7035609196598193,
+            0.001932670478709042,
+            0.008440617471933365,
+            -0.01017028745263815,
+            -0.2465670108795166,
+            0.07599269598722458,
+            0.0318497009575367
+        ],
+        [
+            0.2524747293601942,
+            -0.035849806081466686,
+            0.9132371246747658,
+            -0.3579932137775685,
+            0.5812616614582116,
+            0.7080459228082108,
+            0.180684008707788,
+            -0.004488836508244276,
+            0.0024591924156993628,
+            0.019142979755997658,
+            0.4916211664676666,
+            -2.279512643814087,
+            0.37173333764076233
+        ]
+    ],
+    "position_instruction": "Place the pen in front of shoe on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "rotation_instruction_label": "ballpoint_right",
+    "obj_codes": [
+        "ae7142127dd84ebbbe7762368ace452c",
+        "25481a65cad54e2a956394ff2b2765cd",
+        "f126e15c0f904fccbd76f9348baea12c"
+    ],
+    "target_obj_code": "f126e15c0f904fccbd76f9348baea12c",
+    "anno_target": {
+        "category": "pen",
+        "annotation": {
+            " the ballpoint of the pen is on the left(oriented towards left), while the clicker is on the right.": {
+                "quat": [
+                    [
+                        -0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.": {
+                "quat": [
+                    [
+                        -0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "ballpoint_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "ballpoint_right"
+}

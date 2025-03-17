@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "can",
+        "knife",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/007_tuna_fish_can_google_16k/007_tuna_fish_can_google_16k.urdf",
+        "objaverse_rescale/f93d05bc2db144f7a50374794ef5cf8d/material_2.urdf",
+        "ycb_16k_backup/065-b_cups_google_16k/065-b_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup on top of the can on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.3727678384235516,
+            -0.1353255363884766,
+            0.9055399093230133,
+            -0.007665204871437962,
+            -0.02114255813894381,
+            -0.07774663991321722,
+            0.9967194674791023,
+            0.0005843591061420739,
+            -0.0011210243683308363,
+            -0.008934108540415764,
+            0.09553410112857819,
+            -0.01461193896830082,
+            -0.008386557921767235
+        ],
+        [
+            0.5355810736241523,
+            -0.15337390932639505,
+            0.9034264741282229,
+            0.5037761649385464,
+            0.5059492194055394,
+            -0.5033763783365357,
+            0.4866592080250092,
+            -0.0012158266035839915,
+            -0.0020016818307340145,
+            -0.0024100278969854116,
+            0.6105585694313049,
+            0.15215173363685608,
+            0.10800839215517044
+        ],
+        [
+            0.521285080968443,
+            -0.15694150268908552,
+            0.9006581162970242,
+            0.0001957538347633927,
+            -0.0014680553064350787,
+            -0.1526171463987236,
+            0.9882842774825282,
+            0.0030273122247308493,
+            0.0008923914865590632,
+            -0.0073897214606404305,
+            -0.03523971512913704,
+            0.1921677440404892,
+            0.062370240688323975
+        ]
+    ],
+    "position_instruction": "Place the cup on top of the can on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "007",
+        "f93d05bc2db144f7a50374794ef5cf8d",
+        "065-b"
+    ],
+    "target_obj_code": "065-b",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "top",
+    "rotation_tag": "upside_down"
+}

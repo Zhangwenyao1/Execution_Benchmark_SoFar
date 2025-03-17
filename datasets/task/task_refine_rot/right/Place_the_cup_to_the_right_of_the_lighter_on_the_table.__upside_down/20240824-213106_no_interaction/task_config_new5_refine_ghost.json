@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "lighter",
+        "cup",
+        "tape measure",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/b640aa4990b64db9ab3d868c6f49820e/material_2.urdf",
+        "ycb_16k_backup/065-c_cups_google_16k/065-c_cups_google_16k.urdf",
+        "objaverse_rescale/7138f5e13b2e4e17975c23ba5584164b/material_2.urdf",
+        "ycb_16k_backup/065-i_cups_google_16k/065-i_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup to the right of the lighter on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.5565775309432278,
+            -0.05909131492022228,
+            0.9247850363572326,
+            3.112659784707373e-05,
+            0.004910871270464819,
+            -0.06222996959129002,
+            0.9980497549016111,
+            -0.0022739616688340902,
+            0.0173693485558033,
+            0.02039966732263565,
+            -0.806003749370575,
+            -1.0869780778884888,
+            0.007651874795556068
+        ],
+        [
+            0.3114886632523636,
+            -0.04175518841118136,
+            0.9005684129250207,
+            0.0006607491390342545,
+            -0.0007790942307782329,
+            0.0065421559507918645,
+            0.9999780780688504,
+            -0.0021870043128728867,
+            -0.004870256874710321,
+            -0.0011369518470019102,
+            0.03880744054913521,
+            0.17575153708457947,
+            -0.4337659478187561
+        ],
+        [
+            0.303544505367809,
+            0.118728697049888,
+            0.9173296622555851,
+            0.0477002595776165,
+            0.007116283533453106,
+            0.30357617308121737,
+            0.9515858084703983,
+            -0.0006360033294185996,
+            0.00032397606992162764,
+            -0.0008796266047284007,
+            -0.02260199934244156,
+            -0.012911579571664333,
+            -0.008631429634988308
+        ],
+        [
+            0.3114886632523636,
+            -0.04175518841118136,
+            0.9005684129250207,
+            0.0006607491390342545,
+            -0.0007790942307782329,
+            0.0065421559507918645,
+            0.9999780780688504,
+            0.006180391181260347,
+            -0.0021487066987901926,
+            -0.003307333681732416,
+            0.058087509125471115,
+            0.24275565147399902,
+            0.03541113808751106
+        ]
+    ],
+    "position_instruction": "Place the cup to the right of the lighter on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "b640aa4990b64db9ab3d868c6f49820e",
+        "065-c",
+        "7138f5e13b2e4e17975c23ba5584164b",
+        "065-i"
+    ],
+    "target_obj_code": "065-i",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upside_down"
+}

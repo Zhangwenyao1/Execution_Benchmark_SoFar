@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "hammer",
+        "mixer",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-g_cups_google_16k/065-g_cups_google_16k.urdf",
+        "objaverse_rescale/8ed38a92668a425eb16da938622d9ace/material_2.urdf",
+        "objaverse_rescale/990d0cb9499540fda49b1ff36be9ba26/material_2.urdf",
+        "objaverse_rescale/6d155e8051294915813e0c156e3cd6de/material_2.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer between the cup and the hammer on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.39283484176840816,
+            -0.07680556959166163,
+            0.900585035154579,
+            0.00019287607183963965,
+            -0.00106022577107676,
+            0.04442730781444279,
+            0.9990120384862715,
+            0.005285251885652542,
+            0.008574681356549263,
+            -0.003913999069482088,
+            -0.3022612929344177,
+            0.18090887367725372,
+            -0.004613437689840794
+        ],
+        [
+            0.36700350265367593,
+            0.0958815168028401,
+            0.9112755110759619,
+            -0.5821124756892517,
+            0.3977672112129208,
+            -0.4008122653432576,
+            0.5850434507634722,
+            -0.0029422009829431772,
+            0.0001615707005839795,
+            -0.009943355806171894,
+            -0.1199164018034935,
+            -0.33594971895217896,
+            0.028329478576779366
+        ],
+        [
+            0.7246201638820112,
+            0.021264402702129894,
+            0.9182952529663752,
+            0.8994925676315911,
+            -0.4185565780434643,
+            0.12485249450204026,
+            -0.011634705354703916,
+            -0.000928743276745081,
+            -0.0013445280492305756,
+            0.030493775382637978,
+            0.35225337743759155,
+            0.5754405856132507,
+            -0.022895900532603264
+        ],
+        [
+            0.660239577293396,
+            -0.03644946151591672,
+            0.3258139491081238,
+            0.08213723450899124,
+            -0.0021670558489859104,
+            -0.024526717141270638,
+            0.9963168501853943,
+            0.00014349029515869915,
+            -0.0019462195923551917,
+            -0.0034774206578731537,
+            0.054599959403276443,
+            -0.023786434903740883,
+            -0.01807098649442196
+        ]
+    ],
+    "position_instruction": "Place the hammer between the cup and the hammer on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "065-g",
+        "8ed38a92668a425eb16da938622d9ace",
+        "990d0cb9499540fda49b1ff36be9ba26",
+        "6d155e8051294915813e0c156e3cd6de"
+    ],
+    "target_obj_code": "6d155e8051294915813e0c156e3cd6de",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_right"
+}

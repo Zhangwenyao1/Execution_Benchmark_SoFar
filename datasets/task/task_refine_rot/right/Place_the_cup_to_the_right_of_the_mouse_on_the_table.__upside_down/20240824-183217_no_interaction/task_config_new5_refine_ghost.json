@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "mouse",
+        "book",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/969b0d9d99a8468898753fdcd219f883/material_2.urdf",
+        "objaverse_rescale/de79a920c48745ff95c0df7a7c300091/material_2.urdf",
+        "ycb_16k_backup/065-e_cups_google_16k/065-e_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup to the right of the mouse on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.46389818242289566,
+            0.2871509505505832,
+            0.9208150511210952,
+            -0.6018403687543533,
+            -0.2105876213506659,
+            0.12193494779820833,
+            0.7606397917391267,
+            0.0068858833983540535,
+            0.0028807909693568945,
+            2.767507430689875e-05,
+            0.10308940708637238,
+            0.2899079918861389,
+            0.16144117712974548
+        ],
+        [
+            0.5974391734234887,
+            0.01190748728710604,
+            0.9151392531708298,
+            0.007594241038104336,
+            -0.0017361286358952195,
+            -0.035904935270052014,
+            0.9993248465757602,
+            0.0021666372194886208,
+            -0.0017394536407664418,
+            -0.0005384346004575491,
+            0.06096555292606354,
+            0.0327337272465229,
+            0.003431149758398533
+        ],
+        [
+            0.4151554013577528,
+            -0.039406116923079014,
+            0.9008395034788608,
+            0.00077862282886247,
+            -0.0023916366936521903,
+            -0.09503498995204256,
+            0.9954707552234937,
+            0.002930078189820051,
+            0.003964484669268131,
+            -0.009691944345831871,
+            -0.042323462665081024,
+            0.16585226356983185,
+            0.04504906386137009
+        ]
+    ],
+    "position_instruction": "Place the cup to the right of the mouse on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "969b0d9d99a8468898753fdcd219f883",
+        "de79a920c48745ff95c0df7a7c300091",
+        "065-e"
+    ],
+    "target_obj_code": "065-e",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upside_down"
+}

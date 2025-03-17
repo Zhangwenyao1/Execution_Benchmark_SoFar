@@ -1,0 +1,97 @@
+{
+    "selected_obj_names": [
+        "pen",
+        "box"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/fbeb7c776372466daffa619106e0b2e0/material_2.urdf",
+        "ycb_16k_backup/008_pudding_box_google_16k/008_pudding_box_google_16k.urdf"
+    ],
+    "target_obj_name": "box",
+    "instruction": "Place the box behind the pen on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.",
+    "init_obj_pos": [
+        [
+            0.44904798852157324,
+            0.09067029582576434,
+            0.9072081636587921,
+            -0.13951376607577065,
+            -0.004664897548536111,
+            0.09949687083994764,
+            0.985197706300251,
+            -0.0022141127847135067,
+            -0.00011956253001699224,
+            0.031095106154680252,
+            1.5184670686721802,
+            -0.88568115234375,
+            -0.2540314197540283
+        ],
+        [
+            0.378975386186634,
+            0.20545719866322756,
+            0.9003415759043786,
+            -0.0061373270737498965,
+            0.0025115403945043797,
+            -0.08187511833891369,
+            0.9966205347965827,
+            0.0004228775796946138,
+            -0.0020425862167030573,
+            -0.0011637439019978046,
+            0.062060147523880005,
+            0.05048500373959541,
+            -0.036861028522253036
+        ]
+    ],
+    "position_instruction": "Place the box behind the pen on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.",
+    "rotation_instruction_label": "upside_down_textual",
+    "obj_codes": [
+        "fbeb7c776372466daffa619106e0b2e0",
+        "008"
+    ],
+    "target_obj_code": "008",
+    "anno_target": {
+        "category": "box",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            },
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            },
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down_textual",
+    "rot_tag_level": 2,
+    "position_tag": "behind",
+    "rotation_tag": "upside_down_textual"
+}

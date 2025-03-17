@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "speaker",
+        "cup",
+        "microphone"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/025_mug_google_16k/025_mug_google_16k.urdf",
+        "objaverse_rescale/4445f4442a884999960e7e6660459095/material_2.urdf",
+        "ycb_16k_backup/065-i_cups_google_16k/065-i_cups_google_16k.urdf",
+        "objaverse_rescale/f9d07bb386a04de8b0e1a9a28a936985/material_2.urdf"
+    ],
+    "target_obj_name": "microphone",
+    "instruction": "Place the microphone to the left of the mug on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.37225889608545665,
+            -0.3325212582958061,
+            0.9420854209862075,
+            -0.17710541524960108,
+            -0.6565686826414091,
+            0.6855862246681899,
+            -0.25985142949194917,
+            -0.0033521344885230064,
+            0.00645435368642211,
+            -0.004851066041737795,
+            -0.191231369972229,
+            -0.0678582489490509,
+            0.03116428479552269
+        ],
+        [
+            0.49169264878412045,
+            0.13356130202561114,
+            0.9696003998492008,
+            0.0038355614064708534,
+            -0.0005371632418928246,
+            -0.0884192520703632,
+            0.9960758182927976,
+            0.001139518222771585,
+            -0.001989831682294607,
+            -0.0010115603217855096,
+            0.029406258836388588,
+            0.009247297421097755,
+            0.0013956347247585654
+        ],
+        [
+            0.48500055487406196,
+            -0.058205346657363516,
+            0.9009087264152077,
+            0.006979769199031632,
+            -0.002304580907705484,
+            -0.03454240698571728,
+            0.9993762023624545,
+            0.0019991081207990646,
+            -0.005409301724284887,
+            -0.004273591563105583,
+            0.165353462100029,
+            0.1142902821302414,
+            0.028090251609683037
+        ],
+        [
+            0.7305657940502415,
+            -0.033434305750578826,
+            0.9359764355883707,
+            -0.17143916844430912,
+            0.9108872344451437,
+            -0.02175806866965936,
+            0.3747260920936361,
+            0.0006590003031305969,
+            0.00021806979202665389,
+            -0.0003184243687428534,
+            -0.00714647164568305,
+            0.019353222101926804,
+            0.0019102616934105754
+        ]
+    ],
+    "position_instruction": "Place the microphone to the left of the mug on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "025",
+        "4445f4442a884999960e7e6660459095",
+        "065-i",
+        "f9d07bb386a04de8b0e1a9a28a936985"
+    ],
+    "target_obj_code": "f9d07bb386a04de8b0e1a9a28a936985",
+    "anno_target": {
+        "category": "microphone",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "upright"
+}

@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "calculator",
+        "box"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/054be0c3f09143f38c4d8038eb2588c6/material_2.urdf",
+        "objaverse_rescale/f81ca566b008446eb704cad4844603b6/material_2.urdf"
+    ],
+    "target_obj_name": "box",
+    "instruction": "Place the box to the left of the calculator on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.",
+    "init_obj_pos": [
+        [
+            0.6604865246638537,
+            -0.05170706956797507,
+            0.9056170605576801,
+            0.0001246796629658267,
+            -0.00012316363695303348,
+            -0.10123242035987265,
+            0.9948627877017935,
+            -0.00018795175128616393,
+            0.0014164714375510812,
+            -0.010172316804528236,
+            -0.1269819438457489,
+            0.02760828658938408,
+            0.01573806442320347
+        ],
+        [
+            0.43777744493241516,
+            -0.22269246260562764,
+            0.9215662547620503,
+            1.6513772466592942e-05,
+            0.00022543374296554337,
+            -0.09569514865539379,
+            0.9954106627069781,
+            0.00015199981862679124,
+            0.0002580698928795755,
+            -0.00010616649524308741,
+            -0.002530719619244337,
+            0.0020608894992619753,
+            9.761899127624929e-05
+        ]
+    ],
+    "position_instruction": "Place the box to the left of the calculator on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.",
+    "rotation_instruction_label": "upside_down_textual",
+    "obj_codes": [
+        "054be0c3f09143f38c4d8038eb2588c6",
+        "f81ca566b008446eb704cad4844603b6"
+    ],
+    "target_obj_code": "f81ca566b008446eb704cad4844603b6",
+    "anno_target": {
+        "category": "box",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        1.0,
+                        0.0,
+                        0.0,
+                        -4.371138828673793e-08
+                    ],
+                    [
+                        -0.7071067690849304,
+                        5.338507946817117e-08,
+                        0.7071067690849304,
+                        5.338507591545749e-08
+                    ],
+                    [
+                        0.0,
+                        0.7071067690849304,
+                        0.0,
+                        0.7071068286895752
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.": {
+                "quat": [
+                    [
+                        -0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down_textual",
+    "rot_tag_level": 2,
+    "position_tag": "left",
+    "rotation_tag": "upside_down_textual"
+}

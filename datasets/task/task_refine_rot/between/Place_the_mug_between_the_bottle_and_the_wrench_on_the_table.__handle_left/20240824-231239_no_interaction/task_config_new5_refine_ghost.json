@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "bottle",
+        "wrench",
+        "spatula",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/021_bleach_cleanser_google_16k/021_bleach_cleanser_google_16k.urdf",
+        "objaverse_rescale/19c1913ba85042938f0a87d94397c946/material_2.urdf",
+        "objaverse_rescale/4b27628be0804c0285d0b13dda025a0d/material_2.urdf",
+        "objaverse_rescale/3ea2fd4e065147048064f4c97a89fe6f/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug between the bottle and the wrench on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "init_obj_pos": [
+        [
+            0.43223835973730157,
+            0.23619544841029538,
+            0.9003780286243714,
+            -0.0008844455906952548,
+            -0.0005446381264102651,
+            0.024844303923606148,
+            0.9996907930394574,
+            -0.0011839736253023148,
+            0.0009177903411909938,
+            -0.0005340962670743465,
+            -0.009453210048377514,
+            -0.01607643999159336,
+            4.2276325984857976e-05
+        ],
+        [
+            0.4727789607035186,
+            -0.19018945848354246,
+            0.9075128470765921,
+            0.010113040166818826,
+            0.001924451391812096,
+            0.03709271641651609,
+            0.9992588019598666,
+            -0.0006627161637879908,
+            0.0030691581778228283,
+            0.02855546586215496,
+            0.04099544510245323,
+            4.014596462249756,
+            0.4784546494483948
+        ],
+        [
+            0.5578099298089995,
+            0.09600065546504491,
+            0.9039868348369674,
+            -0.00431571240397003,
+            0.0013902755294267581,
+            -0.06382588208391549,
+            0.9979507495546098,
+            -0.001114236074499786,
+            0.00020731601398438215,
+            -0.010383222252130508,
+            0.07415316253900528,
+            -0.19622552394866943,
+            -0.029169097542762756
+        ],
+        [
+            0.563949752898283,
+            -0.2909933779389189,
+            0.9544242431512682,
+            0.434276290032284,
+            0.5580320297828675,
+            0.5580398141484085,
+            0.4342763215712068,
+            0.0017314644064754248,
+            -0.0011689523234963417,
+            0.0008813506574369967,
+            0.02417963370680809,
+            0.042486127465963364,
+            0.005730416625738144
+        ]
+    ],
+    "position_instruction": "Place the mug between the bottle and the wrench on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "rotation_instruction_label": "handle_left",
+    "obj_codes": [
+        "021",
+        "19c1913ba85042938f0a87d94397c946",
+        "4b27628be0804c0285d0b13dda025a0d",
+        "3ea2fd4e065147048064f4c97a89fe6f"
+    ],
+    "target_obj_code": "3ea2fd4e065147048064f4c97a89fe6f",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).": {
+                "quat": [
+                    [
+                        -0.07323886454105377,
+                        -0.7033036947250366,
+                        -0.7033036947250366,
+                        -0.07323885709047318
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_left"
+}

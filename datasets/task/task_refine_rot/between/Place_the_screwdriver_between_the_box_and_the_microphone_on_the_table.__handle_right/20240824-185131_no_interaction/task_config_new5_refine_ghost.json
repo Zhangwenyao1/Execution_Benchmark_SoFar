@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "box",
+        "microphone",
+        "cup",
+        "screwdriver"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/009_gelatin_box_google_16k/009_gelatin_box_google_16k.urdf",
+        "objaverse_rescale/5172dbe9281a45f48cee8c15bdfa1831/material_2.urdf",
+        "ycb_16k_backup/065-a_cups_google_16k/065-a_cups_google_16k.urdf",
+        "ycb_16k_backup/043_phillips_screwdriver_google_16k/043_phillips_screwdriver_google_16k.urdf"
+    ],
+    "target_obj_name": "screwdriver",
+    "instruction": "Place the screwdriver between the box and the microphone on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.36010271287576295,
+            -0.12773421266634064,
+            0.9003171518964047,
+            -0.002881541029218752,
+            6.128156457720837e-06,
+            -0.0079776277385977,
+            0.9999640264226541,
+            -0.006080400198698044,
+            -0.0001401353074470535,
+            0.009055091999471188,
+            -0.009952561929821968,
+            -0.4269573986530304,
+            0.022028399631381035
+        ],
+        [
+            0.35928787645651233,
+            0.11827899046550777,
+            0.9411519400718129,
+            -0.12199587908237962,
+            0.15704464513097957,
+            0.07782315704158185,
+            0.9769327208926325,
+            -0.003374194260686636,
+            0.00015469823847524822,
+            -0.0007827826775610447,
+            0.006341414526104927,
+            -0.08345531672239304,
+            0.002809734083712101
+        ],
+        [
+            0.6314871045476219,
+            -0.1642904588706406,
+            0.9012163093436447,
+            0.0026161227242010856,
+            -0.005491084945370561,
+            -0.026969729202787826,
+            0.9996177457382106,
+            -0.0035962103866040707,
+            -0.0037703027483075857,
+            0.012075971812009811,
+            -0.48394685983657837,
+            -0.774914026260376,
+            1.6785173416137695
+        ],
+        [
+            0.5080696654002496,
+            0.06040511690957481,
+            0.9014544484644526,
+            -0.025651584216823228,
+            -0.012464569477238303,
+            0.046388245141939406,
+            0.9985162800112799,
+            -0.0005315481103025377,
+            -0.0001059424685081467,
+            -0.00014995007950346917,
+            -0.019914424046874046,
+            -0.025926562026143074,
+            0.022586790844798088
+        ]
+    ],
+    "position_instruction": "Place the screwdriver between the box and the microphone on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "009",
+        "5172dbe9281a45f48cee8c15bdfa1831",
+        "065-a",
+        "043"
+    ],
+    "target_obj_code": "043",
+    "anno_target": {
+        "category": "screwdriver",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.8475578427314758,
+                        0.530703067779541
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_right"
+}

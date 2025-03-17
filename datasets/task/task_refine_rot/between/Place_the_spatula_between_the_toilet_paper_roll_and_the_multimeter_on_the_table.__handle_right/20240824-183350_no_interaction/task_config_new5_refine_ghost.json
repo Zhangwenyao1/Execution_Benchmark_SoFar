@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "toilet paper roll",
+        "multimeter",
+        "cup",
+        "spatula"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/7ca7ebcfad964498b49af73be442acf9/material_2.urdf",
+        "objaverse_rescale/79ac684e66b34554ba869bd2fc3c2653/material_2.urdf",
+        "ycb_16k_backup/065-j_cups_google_16k/065-j_cups_google_16k.urdf",
+        "ycb_16k_backup/033_spatula_google_16k/033_spatula_google_16k.urdf"
+    ],
+    "target_obj_name": "spatula",
+    "instruction": "Place the spatula between the toilet paper roll and the multimeter on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.3386525715238799,
+            0.036557327468298983,
+            0.9457633270033802,
+            -0.011978285485488795,
+            -0.4712443036426407,
+            -0.022403474632162072,
+            0.881636779680611,
+            0.002063944935798645,
+            -0.00031764694722369313,
+            -0.00018661204376257956,
+            0.004425484221428633,
+            0.028556205332279205,
+            0.00012082048488082364
+        ],
+        [
+            0.5265940774523638,
+            0.3440173656018551,
+            0.9745613203161002,
+            0.15754957391663407,
+            0.5313085851858534,
+            -0.6744401560286074,
+            0.4878727241838801,
+            0.04211712256073952,
+            0.0037993083242326975,
+            0.033139824867248535,
+            -1.3338125944137573,
+            0.20942580699920654,
+            0.9955180287361145
+        ],
+        [
+            0.3066508062424415,
+            -0.1592869258085676,
+            0.9003781935264225,
+            0.00025517680812471816,
+            -0.00030557945146113047,
+            -0.022123502885268587,
+            0.9997551660912183,
+            0.00255996803753078,
+            -0.0022199677769094706,
+            -0.002522451104596257,
+            0.07555817067623138,
+            0.11212926357984543,
+            0.014833366498351097
+        ],
+        [
+            0.6075330341974637,
+            0.17690600632360723,
+            0.8420871883167818,
+            -0.22473798442402285,
+            0.5131377973528698,
+            -0.7029281966738162,
+            0.43826292291929947,
+            -0.006709170527756214,
+            -0.01247506681829691,
+            0.02775137685239315,
+            11.286968231201172,
+            15.50777530670166,
+            0.037342529743909836
+        ]
+    ],
+    "position_instruction": "Place the spatula between the toilet paper roll and the multimeter on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "7ca7ebcfad964498b49af73be442acf9",
+        "79ac684e66b34554ba869bd2fc3c2653",
+        "065-j",
+        "033"
+    ],
+    "target_obj_code": "033",
+    "anno_target": {
+        "category": "spatula",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.621095597743988,
+                        0.7837347984313965
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_right"
+}

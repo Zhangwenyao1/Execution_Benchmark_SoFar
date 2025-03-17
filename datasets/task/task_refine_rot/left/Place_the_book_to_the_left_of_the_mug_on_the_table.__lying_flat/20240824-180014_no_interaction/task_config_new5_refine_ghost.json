@@ -1,0 +1,97 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "headphone",
+        "book"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/e5e87ddbf3f6470384bef58431351e2a/material_2.urdf",
+        "objaverse_rescale/ea91786392284f03809c37976da090bf/material_2.urdf",
+        "objaverse_rescale/b2d30398ba3741da9f9aef2319ee2b8b/material_2.urdf"
+    ],
+    "target_obj_name": "book",
+    "instruction": "Place the book to the left of the mug on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.5483508558377096,
+            -0.20736317678098937,
+            0.9388252818862571,
+            0.2017384015480541,
+            -0.4853287929851814,
+            0.3265497359777377,
+            0.7855716708062046,
+            0.0017501420807093382,
+            0.001916281646117568,
+            -0.0004927900736220181,
+            -0.030506908893585205,
+            0.02773045003414154,
+            0.0008444957784377038
+        ],
+        [
+            0.3895471984144075,
+            0.25646767009230986,
+            0.948856420475967,
+            -0.03093585727815453,
+            -0.7045614704866762,
+            0.07665800884454183,
+            0.7048117881534827,
+            0.0013849938986822963,
+            -0.0010103316744789481,
+            -0.0008429248118773103,
+            0.023246057331562042,
+            0.03236035630106926,
+            0.005062331445515156
+        ],
+        [
+            0.6862040954160272,
+            -0.2620041218000191,
+            0.9163670061247876,
+            0.07789015677450095,
+            0.9969618274546429,
+            -0.0003837993982266358,
+            -0.00030128717870896984,
+            -0.000596939236856997,
+            0.00014529688633047044,
+            -0.0012139850296080112,
+            -0.004775309935212135,
+            -0.019662776961922646,
+            0.0016375670675188303
+        ]
+    ],
+    "position_instruction": "Place the book to the left of the mug on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "e5e87ddbf3f6470384bef58431351e2a",
+        "ea91786392284f03809c37976da090bf",
+        "b2d30398ba3741da9f9aef2319ee2b8b"
+    ],
+    "target_obj_code": "b2d30398ba3741da9f9aef2319ee2b8b",
+    "anno_target": {
+        "category": "book",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        1.0,
+                        0.0,
+                        0.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "left",
+    "rotation_tag": "lying_flat"
+}

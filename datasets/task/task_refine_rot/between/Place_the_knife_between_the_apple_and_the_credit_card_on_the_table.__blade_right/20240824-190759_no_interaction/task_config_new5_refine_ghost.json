@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "apple",
+        "credit card",
+        "hammer",
+        "knife"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f53d75bd123b40bca14d12d54286f432/material_2.urdf",
+        "objaverse_rescale/5de830b2cccf4fe7a2e6b400abf26ca7/material_2.urdf",
+        "objaverse_rescale/9bf1b31f641543c9a921042dac3b527f/material_2.urdf",
+        "objaverse_rescale/85db1d392a89459dbde5cdd951c4f6fb/material_2.urdf"
+    ],
+    "target_obj_name": "knife",
+    "instruction": "Place the knife between the apple and the credit card on the table. We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.6589883356040926,
+            -0.17682747796067383,
+            0.9682684546422143,
+            0.06339539189485063,
+            0.044972830350091725,
+            0.016904739726131608,
+            0.9968313290580272,
+            0.00741072092205286,
+            0.0017462251707911491,
+            -0.002225294476374984,
+            -0.04317101463675499,
+            0.14102980494499207,
+            -0.02822626382112503
+        ],
+        [
+            0.5931801328131655,
+            0.07175344051260513,
+            0.9014060605494756,
+            0.0009369645530403657,
+            0.00790333799577751,
+            -0.1171923839021618,
+            0.9930773406443629,
+            -0.0001621401315787807,
+            -5.906766091356985e-06,
+            0.03519391641020775,
+            0.428925096988678,
+            -1.1100378036499023,
+            0.028350159525871277
+        ],
+        [
+            0.5012088961238063,
+            0.19202521710597673,
+            0.9075462778457618,
+            -0.3891679924700946,
+            -0.5900489930108725,
+            -0.4030329452271856,
+            0.5813388895860596,
+            5.5942356993909925e-05,
+            0.0007516206242144108,
+            0.031212860718369484,
+            -0.268008828163147,
+            0.4966103732585907,
+            -0.036671075969934464
+        ],
+        [
+            0.48533946641601416,
+            -0.18607636792390986,
+            0.9213193515993563,
+            -0.01931535374545096,
+            -0.0106790430435214,
+            -0.04539064504480877,
+            0.998725470032571,
+            0.0032247246708720922,
+            -0.0028608818538486958,
+            -0.004172108601778746,
+            0.20425011217594147,
+            0.6549952030181885,
+            -0.032851316034793854
+        ]
+    ],
+    "position_instruction": "Place the knife between the apple and the credit card on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blade_right",
+    "obj_codes": [
+        "f53d75bd123b40bca14d12d54286f432",
+        "5de830b2cccf4fe7a2e6b400abf26ca7",
+        "9bf1b31f641543c9a921042dac3b527f",
+        "85db1d392a89459dbde5cdd951c4f6fb"
+    ],
+    "target_obj_code": "85db1d392a89459dbde5cdd951c4f6fb",
+    "anno_target": {
+        "category": "knife",
+        "annotation": {
+            " the blade of the knife is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        -0.7071067690849304,
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blade of the knife is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        -8.429369557916289e-08,
+                        0.7071068286895752,
+                        8.429369557916289e-08,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blade_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "blade_right"
+}

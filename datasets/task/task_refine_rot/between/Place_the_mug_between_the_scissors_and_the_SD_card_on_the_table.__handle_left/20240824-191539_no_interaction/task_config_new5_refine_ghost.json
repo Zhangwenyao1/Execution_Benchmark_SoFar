@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "scissors",
+        "SD card",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/037_scissors_google_16k/037_scissors_google_16k.urdf",
+        "objaverse_rescale/02f7f045679d402da9b9f280030821d4/material_2.urdf",
+        "objaverse_rescale/c25119c5ac6e4654be3b75d78e34a912/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug between the scissors and the SD card on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "init_obj_pos": [
+        [
+            0.57997691274905,
+            0.03503730786722216,
+            0.9001711331783283,
+            -0.0011177872304615048,
+            -0.001611561074218108,
+            0.013908457213954504,
+            0.9999013492542839,
+            7.394171552732587e-05,
+            0.007018417119979858,
+            0.0010709729976952076,
+            -1.0343608856201172,
+            -1.595471978187561,
+            0.46479955315589905
+        ],
+        [
+            0.5644084935653786,
+            -0.15904892011499652,
+            0.8982578282290401,
+            0.6844316256229739,
+            0.17566839153760694,
+            0.17584840575875477,
+            0.6853986462299051,
+            -1.222192850036663e-06,
+            0.0016344740288332105,
+            0.030799075961112976,
+            -1.4350998401641846,
+            0.7580046057701111,
+            0.01626775972545147
+        ],
+        [
+            0.44706959117415224,
+            -0.20756728675051586,
+            0.9304251754674749,
+            -0.005544420573514581,
+            0.2945848931737017,
+            0.044059523949810074,
+            0.954592980522934,
+            -0.0010623247362673283,
+            0.0016949798446148634,
+            -0.0002797808847390115,
+            -0.028512241318821907,
+            -0.01650327444076538,
+            -0.0013701198622584343
+        ]
+    ],
+    "position_instruction": "Place the mug between the scissors and the SD card on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "rotation_instruction_label": "handle_left",
+    "obj_codes": [
+        "037",
+        "02f7f045679d402da9b9f280030821d4",
+        "c25119c5ac6e4654be3b75d78e34a912"
+    ],
+    "target_obj_code": "c25119c5ac6e4654be3b75d78e34a912",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_left"
+}

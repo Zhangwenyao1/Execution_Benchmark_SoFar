@@ -1,0 +1,85 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "spoon"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/213d8df9c37a4d8cba794965676f7a75/material_2.urdf",
+        "ycb_16k_backup/031_spoon_google_16k/031_spoon_google_16k.urdf"
+    ],
+    "target_obj_name": "spoon",
+    "instruction": "Place the spoon on top of the tissue box on the table. We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "init_obj_pos": [
+        [
+            0.5314197909144984,
+            -0.03203652078935491,
+            0.9329532330266973,
+            0.0009275399288295294,
+            0.0007871015253602291,
+            -0.06278647409188416,
+            0.998026241544769,
+            3.131865742034279e-05,
+            -0.00014440834638662636,
+            -0.0003923139302060008,
+            0.003390512429177761,
+            0.0010808813385665417,
+            0.000154234076035209
+        ],
+        [
+            0.7033612350374945,
+            -0.18128548992207816,
+            0.9264713599205026,
+            0.9892796366530539,
+            0.1438799690901931,
+            -0.00962345915445477,
+            0.023059575713979874,
+            0.007701687514781952,
+            -0.0023395069874823093,
+            0.015119721181690693,
+            -0.8920888900756836,
+            -1.4018064737319946,
+            -0.3430723249912262
+        ]
+    ],
+    "position_instruction": "Place the spoon on top of the tissue box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "rotation_instruction_label": "scoop_right",
+    "obj_codes": [
+        "213d8df9c37a4d8cba794965676f7a75",
+        "031"
+    ],
+    "target_obj_code": "031",
+    "anno_target": {
+        "category": "spoon",
+        "annotation": {
+            " the ladle is lying on the table, with its scoop on the left(pointing towards left) and its handle on the right. ": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.8228724002838135,
+                        0.5682262182235718
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ladle is lying on the table, with its scoop on the right(pointing towards right) and its handle on the left.": {
+                "quat": [
+                    [
+                        -0.5680640339851379,
+                        0.8226374983787537,
+                        0.01965927705168724,
+                        0.013575514778494835
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "scoop_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "scoop_right"
+}

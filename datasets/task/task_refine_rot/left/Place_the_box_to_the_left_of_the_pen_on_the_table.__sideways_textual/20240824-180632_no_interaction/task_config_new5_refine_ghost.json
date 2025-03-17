@@ -1,0 +1,133 @@
+{
+    "selected_obj_names": [
+        "pen",
+        "wallet",
+        "bottle",
+        "box"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f126e15c0f904fccbd76f9348baea12c/material_2.urdf",
+        "objaverse_rescale/dbb07d13a33546f09ac8ca98b1ddef20/material_2.urdf",
+        "objaverse_rescale/a7785ac7ce7f4ba79df661db33637ba9/material_2.urdf",
+        "objaverse_rescale/9660e0c0326b4f7386014e27717231ae/material_2.urdf"
+    ],
+    "target_obj_name": "box",
+    "instruction": "Place the box to the left of the pen on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.",
+    "init_obj_pos": [
+        [
+            0.5949883232286253,
+            -0.02333945933863206,
+            0.9070449416490961,
+            -0.532284878216683,
+            -0.4679607380414053,
+            -0.3644290728549425,
+            0.6040505003157287,
+            -0.0022309282794594765,
+            -0.00568566145375371,
+            0.03198300302028656,
+            -1.8800171613693237,
+            6.566044807434082,
+            0.2226090431213379
+        ],
+        [
+            0.45869447886142706,
+            0.20130745134635553,
+            0.914849281096415,
+            0.1944358074016177,
+            -0.6542256801938741,
+            0.7290577935156181,
+            -0.05155783053118444,
+            0.013425356708467007,
+            0.0018643980147317052,
+            0.015980474650859833,
+            -0.030496297404170036,
+            0.5994006991386414,
+            -0.03147032856941223
+        ],
+        [
+            0.6731614653177312,
+            -0.028008811659256644,
+            0.9294379823565697,
+            -0.006953827944729831,
+            0.041360170202342623,
+            0.08498350202077129,
+            0.9954992641795545,
+            -0.0032856499310582876,
+            -0.0005904718418605626,
+            -8.108748443191871e-05,
+            0.02781524322926998,
+            -0.14394967257976532,
+            -0.00450878543779254
+        ],
+        [
+            0.3513148558900077,
+            0.134403842325627,
+            0.9190854394377108,
+            0.0003122971897239837,
+            -0.00024976652873579344,
+            0.15488606897367788,
+            0.9879322576599199,
+            0.0004884536610916257,
+            0.0005160829750820994,
+            -0.0023714385461062193,
+            -0.013121481984853745,
+            0.01721777394413948,
+            0.010869987308979034
+        ]
+    ],
+    "position_instruction": "Place the box to the left of the pen on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.",
+    "rotation_instruction_label": "sideways_textual",
+    "obj_codes": [
+        "f126e15c0f904fccbd76f9348baea12c",
+        "dbb07d13a33546f09ac8ca98b1ddef20",
+        "a7785ac7ce7f4ba79df661db33637ba9",
+        "9660e0c0326b4f7386014e27717231ae"
+    ],
+    "target_obj_code": "9660e0c0326b4f7386014e27717231ae",
+    "anno_target": {
+        "category": "box",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            },
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            },
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways_textual",
+    "rot_tag_level": 2,
+    "position_tag": "left",
+    "rotation_tag": "sideways_textual"
+}

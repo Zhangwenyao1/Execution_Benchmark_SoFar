@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "hammer",
+        "toy",
+        "tape measure",
+        "shoe"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/048_hammer_google_16k/048_hammer_google_16k.urdf",
+        "ycb_16k_backup/072-b_toy_airplane_google_16k/072-b_toy_airplane_google_16k.urdf",
+        "objaverse_rescale/d1d1c4b27f5c45a29910830e268f7ee2/material_2.urdf",
+        "objaverse_rescale/ece4453042144b4a82fb86a4eab1ba7f/material_2.urdf"
+    ],
+    "target_obj_name": "shoe",
+    "instruction": "Place the shoe at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.3647081783003613,
+            -0.21312909292466078,
+            0.8976027950127338,
+            0.0014572038205603378,
+            -0.0024399360492537575,
+            0.3916404578146442,
+            0.9201139467869374,
+            -0.0056893471628427505,
+            -0.003980490379035473,
+            0.021125109866261482,
+            0.24717780947685242,
+            -0.12662576138973236,
+            0.020380184054374695
+        ],
+        [
+            0.3774133713923794,
+            0.008004603634787671,
+            0.900153361428628,
+            -0.00013990532329431787,
+            -0.0003055828012874892,
+            -0.10297178962769855,
+            0.994684220034942,
+            -0.0003533567360136658,
+            -0.0007915332680568099,
+            -0.0007027560495771468,
+            0.016697142273187637,
+            0.011325282976031303,
+            0.001125351875089109
+        ],
+        [
+            0.6468463153358585,
+            0.1225090328758335,
+            0.9674619856200539,
+            -0.0006666121461048088,
+            0.030286290569915785,
+            0.019825330598881474,
+            0.9993444113509653,
+            0.0007694099331274629,
+            -0.0012216467875987291,
+            -0.0003565148217603564,
+            0.02657783403992653,
+            0.01985004171729088,
+            -0.0034229799639433622
+        ],
+        [
+            0.5954287967873728,
+            0.22745649739627488,
+            0.9314040908262039,
+            -0.07517030592058993,
+            -0.6967580278338391,
+            -0.03865786544535338,
+            0.7123083919175136,
+            -0.0007795784622430801,
+            0.0003550997644197196,
+            -0.0008667439105920494,
+            -0.020198777318000793,
+            -0.028732892125844955,
+            0.0018899436108767986
+        ]
+    ],
+    "position_instruction": "Place the shoe at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "048",
+        "072-b",
+        "d1d1c4b27f5c45a29910830e268f7ee2",
+        "ece4453042144b4a82fb86a4eab1ba7f"
+    ],
+    "target_obj_code": "ece4453042144b4a82fb86a4eab1ba7f",
+    "anno_target": {
+        "category": "shoe",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        -0.5,
+                        0.5,
+                        0.4999999701976776,
+                        0.5
+                    ],
+                    [
+                        -0.499998539686203,
+                        0.5000014305114746,
+                        -0.499998539686203,
+                        -0.5000014305114746
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "center",
+    "rotation_tag": "sideways"
+}

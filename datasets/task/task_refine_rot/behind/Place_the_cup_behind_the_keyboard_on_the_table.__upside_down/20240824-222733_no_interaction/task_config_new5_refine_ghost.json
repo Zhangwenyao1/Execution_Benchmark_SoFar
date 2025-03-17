@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "keyboard",
+        "tape measure",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/44bb12d306864e2cb4256a61d4168942/material_2.urdf",
+        "objaverse_rescale/1574b13827734d54b6d9d86be8be71d1/material_2.urdf",
+        "ycb_16k_backup/065-j_cups_google_16k/065-j_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup behind the keyboard on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.33969884953320045,
+            0.14886175391795317,
+            0.908581927875871,
+            -0.7065143174383594,
+            0.02754894190088421,
+            -0.027278136464073514,
+            0.7066360295978393,
+            2.8986639790673507e-06,
+            -3.6331184674054384e-05,
+            -3.595305315684527e-05,
+            0.0008533078944310546,
+            0.00021037671831436455,
+            -0.0003118069435004145
+        ],
+        [
+            0.4841571466179509,
+            -0.07241657098552585,
+            0.9536691008797417,
+            -0.9532366110065527,
+            0.020390397522237723,
+            0.0019527058009871845,
+            0.3015300682613294,
+            0.00012492251698859036,
+            -0.0013929916312918067,
+            -0.0002661977778188884,
+            0.03543673828244209,
+            -0.008180229924619198,
+            0.015119167044758797
+        ],
+        [
+            0.6339461254194594,
+            -0.19795547870235872,
+            0.9003777910498135,
+            0.0002658187685033925,
+            -0.0002807572588509823,
+            0.11427470375505905,
+            0.9934491142466422,
+            0.002774811116978526,
+            -0.0010847339872270823,
+            -0.002929910784587264,
+            0.02273266203701496,
+            0.10953271389007568,
+            -0.0013897380558773875
+        ]
+    ],
+    "position_instruction": "Place the cup behind the keyboard on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "44bb12d306864e2cb4256a61d4168942",
+        "1574b13827734d54b6d9d86be8be71d1",
+        "065-j"
+    ],
+    "target_obj_code": "065-j",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "upside_down"
+}

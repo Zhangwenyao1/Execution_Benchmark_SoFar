@@ -1,0 +1,97 @@
+{
+    "selected_obj_names": [
+        "power drill",
+        "ladle",
+        "watch"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/035_power_drill_google_16k/035_power_drill_google_16k.urdf",
+        "objaverse_rescale/ce27e3369587476c85a436905f1e5c00/material_2.urdf",
+        "objaverse_rescale/fdb8227a88b2448d8c64fa82ffee3f58/material_2.urdf"
+    ],
+    "target_obj_name": "watch",
+    "instruction": "Place the watch in front of power drill on the table. We also need to specify the rotation of the object after placement:  the watch is placed steadily on the table, and its contact with the table is in the shape of a circle, which means that the bringe of the watch bracelet is in touch with the table and while the plane of the watch dial is perpendicular to the table.",
+    "init_obj_pos": [
+        [
+            0.4311256659295772,
+            0.1912279513170978,
+            0.903088490981016,
+            -7.887595263233335e-05,
+            0.0003405212917581059,
+            0.01863700544728875,
+            0.9998262548322043,
+            -2.479378736097715e-06,
+            0.0002032230404438451,
+            -0.000407552084652707,
+            -0.007050700951367617,
+            0.004970032721757889,
+            0.00022956731845624745
+        ],
+        [
+            0.5206359972928644,
+            -0.33286517756137185,
+            0.9194667683240682,
+            0.027638539714367357,
+            0.05225085519496496,
+            -0.3520040370754395,
+            0.9341301392934734,
+            -0.004671104717999697,
+            -0.006247799843549728,
+            -0.002766937715932727,
+            0.11392300575971603,
+            0.27695995569229126,
+            0.07741934061050415
+        ],
+        [
+            0.5540802484594001,
+            0.13595191965735012,
+            0.961681885895102,
+            -0.628008991782689,
+            -0.6036187742474437,
+            -0.3240483576234188,
+            0.3691093923725988,
+            0.014660252258181572,
+            -0.010701305232942104,
+            0.0010961017105728388,
+            0.3520958125591278,
+            0.17888198792934418,
+            -0.3113853931427002
+        ]
+    ],
+    "position_instruction": "Place the watch in front of power drill on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the watch is placed steadily on the table, and its contact with the table is in the shape of a circle, which means that the bringe of the watch bracelet is in touch with the table and while the plane of the watch dial is perpendicular to the table.",
+    "rotation_instruction_label": "watch_upright",
+    "obj_codes": [
+        "035",
+        "ce27e3369587476c85a436905f1e5c00",
+        "fdb8227a88b2448d8c64fa82ffee3f58"
+    ],
+    "target_obj_code": "fdb8227a88b2448d8c64fa82ffee3f58",
+    "anno_target": {
+        "category": "watch",
+        "annotation": {
+            " the watch is placed steadily on the table, and its contact with the table is in the shape of a circle, which means that the bringe of the watch bracelet is in touch with the table and while the plane of the watch dial is perpendicular to the table.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        -0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "watch_upright",
+    "rot_tag_level": 2,
+    "position_tag": "front",
+    "rotation_tag": "watch_upright"
+}

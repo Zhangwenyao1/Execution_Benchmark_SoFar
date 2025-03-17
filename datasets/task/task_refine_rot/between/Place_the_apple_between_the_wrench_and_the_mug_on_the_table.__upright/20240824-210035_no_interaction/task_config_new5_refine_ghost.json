@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "wrench",
+        "mug",
+        "screwdriver",
+        "apple"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/19c1913ba85042938f0a87d94397c946/material_2.urdf",
+        "objaverse_rescale/c609327dd3a74fb597584e1b4a14a615/material_2.urdf",
+        "ycb_16k_backup/043_phillips_screwdriver_google_16k/043_phillips_screwdriver_google_16k.urdf",
+        "objaverse_rescale/fbda0b25f41f40958ea984f460e4770b/material_2.urdf"
+    ],
+    "target_obj_name": "apple",
+    "instruction": "Place the apple between the wrench and the mug on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.3145531238903483,
+            -0.2204085112085585,
+            0.9075133288825453,
+            0.01023956831885891,
+            6.48734475389998e-05,
+            -0.11184023586126782,
+            0.9936734416671174,
+            -0.0003907949721906334,
+            0.002079647732898593,
+            0.028827225789427757,
+            0.9644812941551208,
+            2.78367018699646,
+            0.2497360110282898
+        ],
+        [
+            0.5085164811809731,
+            0.13126913177834193,
+            0.9356015849349935,
+            -0.09389155625190068,
+            -0.009063515596484762,
+            0.09541115073847949,
+            0.9909585968467036,
+            0.0036983878817409277,
+            -0.000708225998096168,
+            -0.0007433569408021867,
+            0.014254249632358551,
+            0.06417343765497208,
+            0.022805381566286087
+        ],
+        [
+            0.696859860823997,
+            -0.23304339991034276,
+            0.9014543423122882,
+            -0.027235383314873896,
+            -0.008496171993826514,
+            -0.10394977736554928,
+            0.9941732709858963,
+            -0.0001763613981893286,
+            0.0002281008055433631,
+            -0.00010349600051995367,
+            -0.02210320718586445,
+            -0.019821105524897575,
+            0.018931591883301735
+        ],
+        [
+            0.48668308629390195,
+            -0.17718452563801743,
+            0.9260363339437395,
+            0.10043267860382209,
+            0.0734386010734644,
+            0.12218461396106185,
+            0.9846781042818107,
+            0.004255993757396936,
+            0.0016145703848451376,
+            -0.0006185611127875745,
+            -0.03593475744128227,
+            0.08546547591686249,
+            0.0013486664975062013
+        ]
+    ],
+    "position_instruction": "Place the apple between the wrench and the mug on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "19c1913ba85042938f0a87d94397c946",
+        "c609327dd3a74fb597584e1b4a14a615",
+        "043",
+        "fbda0b25f41f40958ea984f460e4770b"
+    ],
+    "target_obj_code": "fbda0b25f41f40958ea984f460e4770b",
+    "anno_target": {
+        "category": "apple",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upright"
+}

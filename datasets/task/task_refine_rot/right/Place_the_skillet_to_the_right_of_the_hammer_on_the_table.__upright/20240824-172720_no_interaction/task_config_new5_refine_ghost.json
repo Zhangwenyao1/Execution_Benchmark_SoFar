@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "hammer",
+        "skillet"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/048_hammer_google_16k/048_hammer_google_16k.urdf",
+        "ycb_16k_backup/027_skillet_google_16k/027_skillet_google_16k.urdf"
+    ],
+    "target_obj_name": "skillet",
+    "instruction": "Place the skillet to the right of the hammer on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.7185560071452793,
+            -0.3403385139950545,
+            0.8967201205821929,
+            0.003816691449041945,
+            -0.0042019963822931515,
+            0.07506612330373494,
+            0.9971624006273676,
+            -0.003326548496261239,
+            -0.002309543779119849,
+            0.02602347545325756,
+            0.23307161033153534,
+            -0.24515381455421448,
+            -0.00590936467051506
+        ],
+        [
+            0.6927846720786671,
+            -0.34246192983882157,
+            0.9296293893148516,
+            0.012468453612380422,
+            0.029378056524062595,
+            0.03810579039113923,
+            0.9987639441820331,
+            0.0018210540292784572,
+            -0.00662131467834115,
+            0.029073454439640045,
+            0.0847352147102356,
+            0.058468639850616455,
+            -0.031924858689308167
+        ]
+    ],
+    "position_instruction": "Place the skillet to the right of the hammer on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "048",
+        "027"
+    ],
+    "target_obj_code": "027",
+    "anno_target": {
+        "category": "skillet",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upright"
+}

@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "keyboard",
+        "calipers",
+        "toy"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/44bb12d306864e2cb4256a61d4168942/material_2.urdf",
+        "objaverse_rescale/95c967114b624291bc26bcd705aaa334/material_2.urdf",
+        "ycb_16k_backup/073-g_lego_duplo_google_16k/073-g_lego_duplo_google_16k.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "Place the toy in front of keyboard on the table. We also need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "init_obj_pos": [
+        [
+            0.5112344710879079,
+            0.284487627836951,
+            0.9085888760383417,
+            -0.7065099291057844,
+            0.030634189982515356,
+            -0.030954507291283115,
+            0.7063618654467464,
+            -2.5916880986187607e-05,
+            0.00012809850159101188,
+            -0.0006401801947504282,
+            -0.00790781993418932,
+            -0.003678463865071535,
+            -0.00017575857054907829
+        ],
+        [
+            0.43670281934099253,
+            0.2184245692805771,
+            0.902609288938482,
+            -0.7063411947630568,
+            -0.04127174703754166,
+            0.04157041183986757,
+            0.7054435911797844,
+            -0.0052812728099524975,
+            -0.0006092251278460026,
+            0.03273477777838707,
+            -5.996661186218262,
+            -0.919548749923706,
+            -0.5271560549736023
+        ],
+        [
+            0.4726934586988946,
+            0.056725777798302936,
+            0.9002529085319863,
+            0.0020261708964303712,
+            -0.0010902027232332248,
+            -0.12455537918567824,
+            0.9922099896722627,
+            -0.0016811448149383068,
+            9.525723726255819e-05,
+            -0.002617698162794113,
+            -0.00032304140040650964,
+            -0.038234688341617584,
+            -0.002237849636003375
+        ]
+    ],
+    "position_instruction": "Place the toy in front of keyboard on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "rotation_instruction_label": "left",
+    "obj_codes": [
+        "44bb12d306864e2cb4256a61d4168942",
+        "95c967114b624291bc26bcd705aaa334",
+        "073-g"
+    ],
+    "target_obj_code": "073-g",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_left",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "left"
+}

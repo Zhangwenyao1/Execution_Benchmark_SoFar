@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "hammer",
+        "pear"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-d_cups_google_16k/065-d_cups_google_16k.urdf",
+        "objaverse_rescale/8ed38a92668a425eb16da938622d9ace/material_2.urdf",
+        "objaverse_rescale/f3dd3064db4f4e8880344425970cecad/material_2.urdf"
+    ],
+    "target_obj_name": "pear",
+    "instruction": "Place the pear to the right of the cup on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.5615443167045124,
+            0.0828357859763472,
+            0.9006112765787885,
+            0.0008625022635080327,
+            -0.0007330173199059946,
+            0.05919546038688963,
+            0.9982457694601263,
+            0.0067855860106647015,
+            0.001236590789631009,
+            -0.006878587417304516,
+            -0.06692888587713242,
+            0.19655027985572815,
+            -0.020343391224741936
+        ],
+        [
+            0.5011044508682923,
+            -0.1791139958170961,
+            0.911294366075064,
+            -0.6036692556667639,
+            0.3644086134165713,
+            -0.36713450311947077,
+            0.6066317242361848,
+            -0.0032321149483323097,
+            -0.0011329895351082087,
+            -0.011791838333010674,
+            0.009389356710016727,
+            -0.3557298183441162,
+            0.023898407816886902
+        ],
+        [
+            0.5023107468803351,
+            0.21851972147421736,
+            0.9343877264543212,
+            -0.17303722768293203,
+            -0.01253382013911559,
+            0.07858205193449203,
+            0.98169541218358,
+            -0.0019578381907194853,
+            0.001459046034142375,
+            -0.0002443245321046561,
+            -0.033217329531908035,
+            -0.05550804361701012,
+            -0.05736488476395607
+        ]
+    ],
+    "position_instruction": "Place the pear to the right of the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "065-d",
+        "8ed38a92668a425eb16da938622d9ace",
+        "f3dd3064db4f4e8880344425970cecad"
+    ],
+    "target_obj_code": "f3dd3064db4f4e8880344425970cecad",
+    "anno_target": {
+        "category": "pear",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7223767042160034,
+                        -0.006980384234338999,
+                        0.007292850874364376,
+                        0.6914260387420654
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upright"
+}

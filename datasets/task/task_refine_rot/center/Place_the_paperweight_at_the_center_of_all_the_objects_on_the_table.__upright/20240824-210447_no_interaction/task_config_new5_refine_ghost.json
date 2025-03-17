@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "knife",
+        "headphone",
+        "wrench",
+        "paperweight"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f93d05bc2db144f7a50374794ef5cf8d/material_2.urdf",
+        "objaverse_rescale/ea91786392284f03809c37976da090bf/material_2.urdf",
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf",
+        "objaverse_rescale/21c10181c122474a8f72a4ad0331f185/material_2.urdf"
+    ],
+    "target_obj_name": "paperweight",
+    "instruction": "Place the paperweight at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.6885351271843848,
+            -0.2986751969498191,
+            0.9032160901639472,
+            0.44537745533725215,
+            0.5596182015306818,
+            -0.44224011004753605,
+            0.5411931964262133,
+            -0.0014031584141775966,
+            -0.00041934536420740187,
+            2.550986027927138e-05,
+            0.2172749638557434,
+            -0.49307286739349365,
+            0.1317075788974762
+        ],
+        [
+            0.4493022722037782,
+            0.02592577903000372,
+            0.9430229984113195,
+            -0.00908332534343391,
+            -0.20301235341503573,
+            0.04959701572674863,
+            0.9778770953410231,
+            -0.0004130028828512877,
+            0.005219209007918835,
+            -0.0010736881522461772,
+            -0.09229891747236252,
+            -0.007125990465283394,
+            0.0020785897504538298
+        ],
+        [
+            0.46028800869240466,
+            0.24217185132837046,
+            0.902761922408137,
+            0.010292228774868097,
+            -0.018391837554106984,
+            -0.09163606470266787,
+            0.9955695063550498,
+            0.0017492903862148523,
+            -0.002935302210971713,
+            0.034312449395656586,
+            0.23818980157375336,
+            -0.3397904336452484,
+            0.1483106166124344
+        ],
+        [
+            0.5834787281050539,
+            0.03804121766001209,
+            0.9414412023198788,
+            -0.0012681706352534025,
+            0.023692885408521012,
+            0.11472703545058095,
+            0.9931136623070791,
+            0.0008948857430368662,
+            -0.002593529876321554,
+            -0.0005285565857775509,
+            0.06875792145729065,
+            0.023797791451215744,
+            -0.00020310707623139024
+        ]
+    ],
+    "position_instruction": "Place the paperweight at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "f93d05bc2db144f7a50374794ef5cf8d",
+        "ea91786392284f03809c37976da090bf",
+        "042",
+        "21c10181c122474a8f72a4ad0331f185"
+    ],
+    "target_obj_code": "21c10181c122474a8f72a4ad0331f185",
+    "anno_target": {
+        "category": "paperweight",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "center",
+    "rotation_tag": "upright"
+}

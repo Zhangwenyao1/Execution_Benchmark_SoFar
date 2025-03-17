@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "spatula",
+        "eraser",
+        "box",
+        "can"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/033_spatula_google_16k/033_spatula_google_16k.urdf",
+        "objaverse_rescale/f0916a69ba514ecc973b44528b9dcc43/material_2.urdf",
+        "objaverse_rescale/5e1a1527a0bd49ed8e473079392c31c8/material_2.urdf",
+        "ycb_16k_backup/005_tomato_soup_can_google_16k/005_tomato_soup_can_google_16k.urdf"
+    ],
+    "target_obj_name": "can",
+    "instruction": "Place the can between the spatula and the eraser on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.6427422165870667,
+            -0.14868740092094296,
+            0.30307385325431824,
+            -0.48053765296936035,
+            -0.8506195545196533,
+            0.18463096022605896,
+            0.1069643497467041,
+            -0.006597956642508507,
+            0.008632085286080837,
+            0.037896785885095596,
+            0.318962961435318,
+            0.37155893445014954,
+            -0.003257135860621929
+        ],
+        [
+            0.6534216403961182,
+            -0.2508503496646881,
+            0.30849045515060425,
+            0.6976218819618225,
+            -0.04951956123113632,
+            -0.02776237390935421,
+            0.7142133116722107,
+            -0.0014439712977036834,
+            -0.007425991352647543,
+            0.02058064565062523,
+            0.6325562596321106,
+            -0.18209770321846008,
+            0.07516815513372421
+        ],
+        [
+            0.5226185917854309,
+            0.06089766323566437,
+            0.341794490814209,
+            -0.0006354707293212414,
+            0.00017366974498145282,
+            -0.38195350766181946,
+            0.924181342124939,
+            -0.0012895527761429548,
+            0.0010682169813662767,
+            -0.00016299303388223052,
+            -0.014930865727365017,
+            -0.02623610943555832,
+            0.005632629618048668
+        ],
+        [
+            0.5225604176521301,
+            0.15261009335517883,
+            0.30021435022354126,
+            -6.54611858408316e-06,
+            2.0254508854122832e-05,
+            -0.009697274304926395,
+            0.9999529719352722,
+            -0.002053390257060528,
+            -0.0007981593953445554,
+            -0.00015791630721651018,
+            0.012183846905827522,
+            -0.043977729976177216,
+            -0.0015917373821139336
+        ]
+    ],
+    "position_instruction": "Place the can between the spatula and the eraser on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "033",
+        "f0916a69ba514ecc973b44528b9dcc43",
+        "5e1a1527a0bd49ed8e473079392c31c8",
+        "005"
+    ],
+    "target_obj_code": "005",
+    "anno_target": {
+        "category": "can",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "sideways"
+}

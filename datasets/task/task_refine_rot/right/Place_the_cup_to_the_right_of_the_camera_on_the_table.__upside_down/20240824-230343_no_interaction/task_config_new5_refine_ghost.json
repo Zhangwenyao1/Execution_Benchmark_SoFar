@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "camera",
+        "pen",
+        "wrench",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6a63fc4af48b453c91ca2b335a4d464d/material_2.urdf",
+        "objaverse_rescale/fbeb7c776372466daffa619106e0b2e0/material_2.urdf",
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf",
+        "ycb_16k_backup/065-e_cups_google_16k/065-e_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup to the right of the camera on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.5518829789777921,
+            0.2307028535556293,
+            0.9565250104823914,
+            0.09516044355786245,
+            0.0016331307265041479,
+            0.03746110153024855,
+            0.9947554919366075,
+            0.000855190388392657,
+            -9.743757254909724e-05,
+            -0.0009253323660232127,
+            -0.005281122867017984,
+            0.00980234146118164,
+            -0.010148757137358189
+        ],
+        [
+            0.6333285434349892,
+            -0.14185545016626588,
+            0.9071982348843431,
+            -0.14680662105432846,
+            -0.0246336070690246,
+            0.22488336048452637,
+            0.9629478052285947,
+            -0.000596715894062072,
+            -0.00015045161126181483,
+            0.030529431998729706,
+            -0.154257133603096,
+            0.5821691155433655,
+            -0.18571728467941284
+        ],
+        [
+            0.3660128569331021,
+            -0.1372252100706243,
+            0.902724793064086,
+            0.012290358329840892,
+            -0.017798168306218134,
+            0.011982544996358922,
+            0.9996942487143144,
+            0.00249845115467906,
+            -0.0041076322086155415,
+            0.03443213552236557,
+            -0.4396468997001648,
+            0.24850505590438843,
+            0.22689363360404968
+        ],
+        [
+            0.6624016440966446,
+            0.24709920811095162,
+            0.9008444735334681,
+            0.0009863409356938033,
+            -0.0023260792704937064,
+            -0.018033397881580714,
+            0.9998341927777973,
+            0.0025967189576476812,
+            0.003990021999925375,
+            -0.009781427681446075,
+            -0.061128921806812286,
+            0.15208029747009277,
+            0.03477295860648155
+        ]
+    ],
+    "position_instruction": "Place the cup to the right of the camera on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "6a63fc4af48b453c91ca2b335a4d464d",
+        "fbeb7c776372466daffa619106e0b2e0",
+        "042",
+        "065-e"
+    ],
+    "target_obj_code": "065-e",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upside_down"
+}

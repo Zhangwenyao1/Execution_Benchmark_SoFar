@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "spatula",
+        "bottle",
+        "tissue box",
+        "keyboard"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/4b27628be0804c0285d0b13dda025a0d/material_2.urdf",
+        "ycb_16k_backup/006_mustard_bottle_google_16k/006_mustard_bottle_google_16k.urdf",
+        "objaverse_rescale/dc4c91abf45342b4bb8822f50fa162b2/material_2.urdf",
+        "objaverse_rescale/f5080a3df6d847b693c5cca415886c61/material_2.urdf"
+    ],
+    "target_obj_name": "keyboard",
+    "instruction": "Place the keyboard in front of spatula on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.5150156426262584,
+            0.16685493236428756,
+            0.9191698987305851,
+            -0.028118551963228506,
+            0.24373130226107348,
+            0.3218303428633782,
+            0.9144559200672572,
+            0.012376703321933746,
+            -3.1211660825647414e-05,
+            0.023152312263846397,
+            -2.4567933082580566,
+            3.610429525375366,
+            2.270805835723877
+        ],
+        [
+            0.6950903078409031,
+            0.14788692283781854,
+            0.902931780999213,
+            -0.6600444970487552,
+            0.252467555006002,
+            -0.07310655573251386,
+            0.7037448593729659,
+            -0.00474632577970624,
+            0.00205335789360106,
+            -0.00013238683459348977,
+            -0.09211503714323044,
+            -0.18883951008319855,
+            -5.270577094051987e-05
+        ],
+        [
+            0.6337633778634079,
+            0.051448110374020216,
+            0.9483695969136962,
+            -0.4456365084826838,
+            0.5878506892738165,
+            -0.004113028994214248,
+            0.6751464673833041,
+            -0.005692320875823498,
+            0.012305083684623241,
+            0.008674944750964642,
+            -0.1752125769853592,
+            -0.061297234147787094,
+            -0.037383969873189926
+        ],
+        [
+            0.5037269332258665,
+            -0.20957060555804544,
+            0.9138759105693129,
+            0.7028352004137143,
+            0.03893293533509488,
+            0.03687043646975588,
+            0.7093288930532418,
+            -0.00031963849323801696,
+            0.006066960748285055,
+            -0.0057664308696985245,
+            -0.2843635082244873,
+            -0.08370164781808853,
+            0.012696952559053898
+        ]
+    ],
+    "position_instruction": "Place the keyboard in front of spatula on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "4b27628be0804c0285d0b13dda025a0d",
+        "006",
+        "dc4c91abf45342b4bb8822f50fa162b2",
+        "f5080a3df6d847b693c5cca415886c61"
+    ],
+    "target_obj_code": "f5080a3df6d847b693c5cca415886c61",
+    "anno_target": {
+        "category": "keyboard",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "front",
+    "rotation_tag": "upright"
+}

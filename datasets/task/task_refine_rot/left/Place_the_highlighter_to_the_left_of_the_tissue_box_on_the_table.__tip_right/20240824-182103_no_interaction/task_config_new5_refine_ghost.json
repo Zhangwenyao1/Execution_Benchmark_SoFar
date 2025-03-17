@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "tape measure",
+        "highlighter"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6f8040c86eb84e7bba2cd928c0755029/material_2.urdf",
+        "objaverse_rescale/11307d06bb254318b95021d68c6fa12f/material_2.urdf",
+        "objaverse_rescale/25481a65cad54e2a956394ff2b2765cd/material_2.urdf"
+    ],
+    "target_obj_name": "highlighter",
+    "instruction": "Place the highlighter to the left of the tissue box on the table. We also need to specify the rotation of the object after placement:  the marker is placed in a stable pose on the table. Its tip end is pointing towards right and its cap end is pointing towards left.",
+    "init_obj_pos": [
+        [
+            0.5999844510986848,
+            -0.12677721516073773,
+            0.9273032707082213,
+            0.012532067537663458,
+            0.0014737700788053374,
+            0.11643762293963186,
+            0.9931178455999842,
+            0.00033712928416207433,
+            -0.0018354933708906174,
+            7.446706149494275e-05,
+            0.04653008654713631,
+            0.00647447444498539,
+            0.0005336246686056256
+        ],
+        [
+            0.3235805315417115,
+            -0.04814425921493042,
+            0.9226919731904167,
+            0.030709748843124586,
+            -0.03779455326662419,
+            -0.05996895839989639,
+            0.997011638396363,
+            0.0014863730175420642,
+            0.0008415498305112123,
+            -0.0005343214725144207,
+            -0.012822970747947693,
+            0.021298637613654137,
+            0.015601887367665768
+        ],
+        [
+            0.6728026393014188,
+            -0.2636316609418722,
+            0.9114629495232576,
+            0.6959736195034236,
+            0.0906991205092134,
+            0.0782575640249918,
+            0.7080043390877163,
+            -0.004711718764156103,
+            -0.0004173637425992638,
+            -0.007645113859325647,
+            -0.5497363209724426,
+            -0.16392767429351807,
+            0.04656898230314255
+        ]
+    ],
+    "position_instruction": "Place the highlighter to the left of the tissue box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the marker is placed in a stable pose on the table. Its tip end is pointing towards right and its cap end is pointing towards left.",
+    "rotation_instruction_label": "tip_right",
+    "obj_codes": [
+        "6f8040c86eb84e7bba2cd928c0755029",
+        "11307d06bb254318b95021d68c6fa12f",
+        "25481a65cad54e2a956394ff2b2765cd"
+    ],
+    "target_obj_code": "25481a65cad54e2a956394ff2b2765cd",
+    "anno_target": {
+        "category": "highlighter",
+        "annotation": {
+            " the marker is placed in a stable pose on the table. Its tip(or cap) end is pointing towards left and its rear end is pointing towards right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the marker is placed in a stable pose on the table. Its tip(or cap) end is pointing towards right and its rear end is pointing towards left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "tip_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "tip_right"
+}

@@ -1,0 +1,127 @@
+{
+    "selected_obj_names": [
+        "spatula",
+        "bottle",
+        "wallet"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/81b129ecf5724f63b5b044702a3140c2/material_2.urdf",
+        "objaverse_rescale/6add0a1fa81942acbb24504b130661c1/material_2.urdf",
+        "objaverse_rescale/ccfcc4ae6efa44a2ba34c4c479be7daf/material_2.urdf"
+    ],
+    "target_obj_name": "wallet",
+    "instruction": "Place the wallet to the right of the spatula on the table. We also need to specify the rotation of the object after placement:  the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)",
+    "init_obj_pos": [
+        [
+            0.5806847651872566,
+            0.18802347258161908,
+            0.9124553279325146,
+            0.09016682177574573,
+            0.0075328082999948,
+            -0.04062016133338671,
+            0.9950694465931642,
+            0.00801700260490179,
+            7.654056389583275e-05,
+            -0.0026288307271897793,
+            0.054559554904699326,
+            0.6227597594261169,
+            -0.1059214249253273
+        ],
+        [
+            0.30545823964515606,
+            -0.07818456210458749,
+            0.9345124317190953,
+            -0.006649668341913256,
+            -0.03144482843711046,
+            -0.07768515629072015,
+            0.9964597438770874,
+            0.0017555981175974011,
+            -0.0002800284419208765,
+            -0.0004186816222500056,
+            0.009628632105886936,
+            0.057903993874788284,
+            0.0035913297906517982
+        ],
+        [
+            0.44108436863282974,
+            0.088233164086938,
+            0.9073005215110049,
+            -0.7041673124069368,
+            -0.06434852244945337,
+            0.09381872166353754,
+            0.7008606931920077,
+            0.0015960686141625047,
+            -4.112253736821003e-05,
+            -0.000957296637352556,
+            0.013744807802140713,
+            0.28796616196632385,
+            0.004038950428366661
+        ]
+    ],
+    "position_instruction": "Place the wallet to the right of the spatula on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)",
+    "rotation_instruction_label": "clasp_right",
+    "obj_codes": [
+        "81b129ecf5724f63b5b044702a3140c2",
+        "6add0a1fa81942acbb24504b130661c1",
+        "ccfcc4ae6efa44a2ba34c4c479be7daf"
+    ],
+    "target_obj_code": "ccfcc4ae6efa44a2ba34c4c479be7daf",
+    "anno_target": {
+        "category": "wallet",
+        "annotation": {
+            " the wallet is lying flat on the table, and the clasp is on the left(if the wallet has a clasp)": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ],
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ],
+                    [
+                        0.4999999701976776,
+                        0.5,
+                        -0.4999999701976776,
+                        -0.5000000596046448
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)": {
+                "quat": [
+                    [
+                        -0.5,
+                        0.4999999701976776,
+                        -0.5000000596046448,
+                        0.4999999701976776
+                    ],
+                    [
+                        -0.5,
+                        0.4999999701976776,
+                        -0.5000000596046448,
+                        0.4999999701976776
+                    ],
+                    [
+                        -0.5,
+                        0.5,
+                        0.4999999403953552,
+                        -0.5
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "clasp_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "clasp_right"
+}

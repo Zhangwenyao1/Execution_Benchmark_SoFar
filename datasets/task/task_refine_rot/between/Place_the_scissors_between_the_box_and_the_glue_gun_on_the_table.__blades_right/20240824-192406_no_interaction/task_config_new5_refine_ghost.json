@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "box",
+        "glue gun",
+        "calculator",
+        "scissors"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/004_sugar_box_google_16k/004_sugar_box_google_16k.urdf",
+        "objaverse_rescale/a1da12b81f034db894496c1ffc4be1f5/material_2.urdf",
+        "objaverse_rescale/d9ffbc4bbe1044bb902e1dddac52b0de/material_2.urdf",
+        "ycb_16k_backup/037_scissors_google_16k/037_scissors_google_16k.urdf"
+    ],
+    "target_obj_name": "scissors",
+    "instruction": "Place the scissors between the box and the glue gun on the table. We also need to specify the rotation of the object after placement:  the blades of the scissors are on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.25285326357430943,
+            0.046378559748638935,
+            0.9097977588715243,
+            -0.04079815951558942,
+            0.2890230296399859,
+            0.0005838827907894969,
+            0.9564522244204098,
+            -0.002898450242355466,
+            -0.0025487972889095545,
+            -0.0009168495889753103,
+            0.03236959129571915,
+            -0.037304434925317764,
+            -0.010881646536290646
+        ],
+        [
+            0.6304639088460157,
+            -0.0911105469634028,
+            0.9151148830455392,
+            -0.7062439522555849,
+            -0.00031630687245900085,
+            -0.04757792990649558,
+            0.7063679780668052,
+            0.0011438282672315836,
+            0.0011053901398554444,
+            -0.00626350985839963,
+            -0.025486819446086884,
+            0.2052476704120636,
+            -0.008828535676002502
+        ],
+        [
+            0.45036954526057227,
+            0.09917444606989623,
+            0.9051820924664589,
+            -0.09404021418239542,
+            -0.6978644587698728,
+            0.7036680569737211,
+            0.09483090686685378,
+            0.003285650396719575,
+            0.0056479694321751595,
+            0.032071303576231,
+            -0.3585227429866791,
+            0.26234400272369385,
+            0.005043758079409599
+        ],
+        [
+            0.4960664032533305,
+            -0.0933721372679393,
+            0.91441995656312,
+            0.30839154229316296,
+            -0.9511518806532209,
+            0.005041241515555387,
+            0.013391880221542522,
+            -0.02910580113530159,
+            0.004655834287405014,
+            0.007634165696799755,
+            0.697455108165741,
+            0.46464893221855164,
+            -0.20159311592578888
+        ]
+    ],
+    "position_instruction": "Place the scissors between the box and the glue gun on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the blades of the scissors are on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blades_right",
+    "obj_codes": [
+        "004",
+        "a1da12b81f034db894496c1ffc4be1f5",
+        "d9ffbc4bbe1044bb902e1dddac52b0de",
+        "037"
+    ],
+    "target_obj_code": "037",
+    "anno_target": {
+        "category": "scissors",
+        "annotation": {
+            " the blades of the scissors are on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.9899005889892578,
+                        0.1417630910873413
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blades of the scissors are on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.13520878553390503,
+                        0.990817129611969
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blades_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "blades_right"
+}

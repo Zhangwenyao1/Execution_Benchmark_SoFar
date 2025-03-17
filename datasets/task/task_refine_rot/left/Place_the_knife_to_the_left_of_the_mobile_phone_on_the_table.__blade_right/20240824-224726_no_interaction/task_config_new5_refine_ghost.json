@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "mobile phone",
+        "box",
+        "pot",
+        "knife"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/bad5e04d290841779dad272897f384e1/material_2.urdf",
+        "objaverse_rescale/9660e0c0326b4f7386014e27717231ae/material_2.urdf",
+        "objaverse_rescale/cba3e4df7c354d22b7913d45a28a8159/material_2.urdf",
+        "objaverse_rescale/85db1d392a89459dbde5cdd951c4f6fb/material_2.urdf"
+    ],
+    "target_obj_name": "knife",
+    "instruction": "Place the knife to the left of the mobile phone on the table. We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.3533994017442901,
+            0.0889183806794502,
+            0.9063517919999543,
+            0.43102546744403303,
+            -0.5637423660384683,
+            -0.4277725424854508,
+            -0.5598412659348514,
+            0.0010181093821302056,
+            -0.0030001518316566944,
+            0.0020328767132014036,
+            -0.018083449453115463,
+            0.22911237180233002,
+            0.03247880935668945
+        ],
+        [
+            0.5709090323012779,
+            -0.15809499101654637,
+            0.9190779195885905,
+            -0.00019597999724451108,
+            -4.004712925197382e-05,
+            0.07011008544496503,
+            0.9975392402842947,
+            0.0004324362089391798,
+            -0.0003254532057326287,
+            -8.86816342244856e-05,
+            1.585054451425094e-05,
+            0.0022069995757192373,
+            0.0008026226423680782
+        ],
+        [
+            0.3838166789977472,
+            -0.08656215349760943,
+            0.9372619175566725,
+            -0.14373133814011782,
+            0.017231296820514552,
+            0.06185252844876431,
+            0.9875315942139924,
+            -0.006358504295349121,
+            -0.0420357920229435,
+            0.005090324208140373,
+            0.7177293300628662,
+            -0.10870308429002762,
+            0.0021957673598080873
+        ],
+        [
+            0.6047785778936575,
+            0.1343644818756769,
+            0.9213144371720449,
+            -0.01974553542762461,
+            -0.010050415991594787,
+            -0.07847380957235861,
+            0.9966699374317831,
+            0.00325537147000432,
+            -0.004522324074059725,
+            -0.004929433576762676,
+            0.35488373041152954,
+            1.2482292652130127,
+            -0.10574717074632645
+        ]
+    ],
+    "position_instruction": "Place the knife to the left of the mobile phone on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blade_right",
+    "obj_codes": [
+        "bad5e04d290841779dad272897f384e1",
+        "9660e0c0326b4f7386014e27717231ae",
+        "cba3e4df7c354d22b7913d45a28a8159",
+        "85db1d392a89459dbde5cdd951c4f6fb"
+    ],
+    "target_obj_code": "85db1d392a89459dbde5cdd951c4f6fb",
+    "anno_target": {
+        "category": "knife",
+        "annotation": {
+            " the blade of the knife is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        -0.7071067690849304,
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blade of the knife is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        -8.429369557916289e-08,
+                        0.7071068286895752,
+                        8.429369557916289e-08,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blade_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "blade_right"
+}

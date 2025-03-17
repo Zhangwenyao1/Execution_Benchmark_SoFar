@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "wallet",
+        "mouse",
+        "pot",
+        "plate"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/dbb07d13a33546f09ac8ca98b1ddef20/material_2.urdf",
+        "objaverse_rescale/969b0d9d99a8468898753fdcd219f883/material_2.urdf",
+        "objaverse_rescale/cba3e4df7c354d22b7913d45a28a8159/material_2.urdf",
+        "ycb_16k_backup/029_plate_google_16k/029_plate_google_16k.urdf"
+    ],
+    "target_obj_name": "plate",
+    "instruction": "Place the plate at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.5073333034064317,
+            -0.2132982295415465,
+            0.9317447395739129,
+            0.035373520857842684,
+            -0.044044947947057315,
+            0.019912696439200676,
+            0.9982045086569081,
+            0.0004028041730634868,
+            -0.00199147779494524,
+            -0.002138956682756543,
+            0.040417686104774475,
+            0.005950211081653833,
+            0.02513141557574272
+        ],
+        [
+            0.3724029764296356,
+            -0.19032244807361548,
+            0.9208160104574116,
+            -0.5393168249102844,
+            -0.340062045317125,
+            0.289341491386536,
+            0.7139864628027899,
+            0.005740690045058727,
+            0.00484798289835453,
+            9.274367039324716e-05,
+            -0.08283483982086182,
+            0.2867012619972229,
+            0.03219590708613396
+        ],
+        [
+            0.38327701290150556,
+            0.044074132140709384,
+            0.9372317826615764,
+            -0.1622545175785568,
+            0.04534387978888935,
+            -0.15180518028614062,
+            0.9739469140201286,
+            -0.002671667141839862,
+            -0.01715698651969433,
+            -0.0017118745017796755,
+            0.29594147205352783,
+            -0.045683592557907104,
+            -0.003267905442044139
+        ],
+        [
+            0.4457132167727625,
+            0.21819220824665458,
+            0.903041312690929,
+            -0.0001340240671173215,
+            -0.00015044964333178843,
+            -0.10122356611221034,
+            0.9948636836602189,
+            6.0508431488415226e-05,
+            -4.944131069350988e-05,
+            -0.00030729908030480146,
+            0.003396467072889209,
+            0.007269310299307108,
+            -0.0003354943182785064
+        ]
+    ],
+    "position_instruction": "Place the plate at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "dbb07d13a33546f09ac8ca98b1ddef20",
+        "969b0d9d99a8468898753fdcd219f883",
+        "cba3e4df7c354d22b7913d45a28a8159",
+        "029"
+    ],
+    "target_obj_code": "029",
+    "anno_target": {
+        "category": "plate",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "center",
+    "rotation_tag": "upside_down"
+}

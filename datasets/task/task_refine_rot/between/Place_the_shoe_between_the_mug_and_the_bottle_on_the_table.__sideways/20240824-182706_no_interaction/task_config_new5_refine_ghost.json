@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "bottle",
+        "shoe"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/77d41aba53e4455f9f84fa04b175dff4/material_2.urdf",
+        "objaverse_rescale/d17b8f44d1544364b8ad9fe2554ddfdf/material_2.urdf",
+        "objaverse_rescale/d5a5f0a954f94bcea3168329d1605fe9/material_2.urdf"
+    ],
+    "target_obj_name": "shoe",
+    "instruction": "Place the shoe between the mug and the bottle on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.6920290625489339,
+            -0.07909108929934248,
+            0.9623208638949007,
+            0.004551400953031606,
+            0.22470477630082358,
+            -0.019724485654400204,
+            0.9742166047253707,
+            0.00047987428843043745,
+            0.00017557007959112525,
+            -0.0001272695662919432,
+            -0.002096490701660514,
+            0.003996227867901325,
+            0.0014314616564661264
+        ],
+        [
+            0.48427231530923914,
+            -0.03541424900330174,
+            0.9346268753557236,
+            -0.06981002112172686,
+            -0.2817478062657428,
+            0.22204636912652118,
+            -0.9308276664201361,
+            0.00316022546030581,
+            -0.001007628277875483,
+            -0.0008362156804651022,
+            0.04437386617064476,
+            0.10460818558931351,
+            -6.62940219626762e-05
+        ],
+        [
+            0.5723556001376379,
+            0.14035997565489133,
+            0.9351042906571746,
+            -0.619145417759878,
+            -0.2746292763713943,
+            0.6952753855227726,
+            -0.2404783784726407,
+            0.0036323266103863716,
+            -0.001792138908058405,
+            -0.010413601994514465,
+            0.2766542434692383,
+            0.11858074367046356,
+            -0.06650374084711075
+        ]
+    ],
+    "position_instruction": "Place the shoe between the mug and the bottle on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "77d41aba53e4455f9f84fa04b175dff4",
+        "d17b8f44d1544364b8ad9fe2554ddfdf",
+        "d5a5f0a954f94bcea3168329d1605fe9"
+    ],
+    "target_obj_code": "d5a5f0a954f94bcea3168329d1605fe9",
+    "anno_target": {
+        "category": "shoe",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ],
+                    [
+                        -0.5,
+                        0.5,
+                        0.4999999701976776,
+                        0.5
+                    ],
+                    [
+                        -0.4999999701976776,
+                        -0.5,
+                        -0.5,
+                        0.5
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "sideways"
+}

@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "book",
+        "knife",
+        "binder"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/de79a920c48745ff95c0df7a7c300091/material_2.urdf",
+        "ycb_16k_backup/032_knife_google_16k/032_knife_google_16k.urdf",
+        "objaverse_rescale/78e016eeb0bf45d5bea47547128383a8/material_2.urdf"
+    ],
+    "target_obj_name": "binder",
+    "instruction": "Place the binder between the book and the knife on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.36090238739279695,
+            0.11290429898453294,
+            0.9151516341564886,
+            0.007240193242701269,
+            -0.001045227971777576,
+            0.0356953637054553,
+            0.9993359435696436,
+            0.0006314478814601898,
+            -0.0003045000194106251,
+            -0.00015791582700330764,
+            -0.0025588085409253836,
+            0.0018965520430356264,
+            0.0025115087628364563
+        ],
+        [
+            0.3680708799406105,
+            0.02868975111453414,
+            0.9163934589097835,
+            0.23311997967506,
+            0.02474075559471742,
+            0.03025707019273911,
+            0.971662225154531,
+            0.0025501984637230635,
+            0.0010657637612894177,
+            0.03300919383764267,
+            -1.4273027181625366,
+            1.134000301361084,
+            -0.30165016651153564
+        ],
+        [
+            0.3853811883312784,
+            -0.19580532397290473,
+            1.0259542072555023,
+            -1.9550716123020283e-05,
+            -3.044008020257326e-06,
+            0.06568595234059467,
+            0.997840345583206,
+            -0.0007315733819268644,
+            0.00017055477655958384,
+            -0.0006944303750060499,
+            -0.0019281117711216211,
+            -0.004767118953168392,
+            0.001226621912792325
+        ]
+    ],
+    "position_instruction": "Place the binder between the book and the knife on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "de79a920c48745ff95c0df7a7c300091",
+        "032",
+        "78e016eeb0bf45d5bea47547128383a8"
+    ],
+    "target_obj_code": "78e016eeb0bf45d5bea47547128383a8",
+    "anno_target": {
+        "category": "binder",
+        "annotation": {
+            "the binder is standing upright on the table and oriented in a way so that its smaller side is in contact with the tabletop and the larger face is perpendicular to the tabletop, and the label should be in sight as well.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        0.5,
+                        0.4999999701976776
+                    ],
+                    [
+                        -0.4999997913837433,
+                        0.5000002384185791,
+                        0.4999997615814209,
+                        0.5000002384185791
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "between",
+    "rotation_tag": "lying_flat"
+}

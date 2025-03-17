@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "pot",
+        "headphone",
+        "toy"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/af249e607bea40cfa2f275e5e23b8283/material_2.urdf",
+        "objaverse_rescale/ea91786392284f03809c37976da090bf/material_2.urdf",
+        "ycb_16k_backup/072-b_toy_airplane_google_16k/072-b_toy_airplane_google_16k.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "Place the toy in front of pot on the table. We also need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "init_obj_pos": [
+        [
+            0.519357183777454,
+            -0.19997260147837112,
+            0.9813025521991948,
+            0.7053990311579326,
+            -0.04913460896514247,
+            -0.04912907080494781,
+            0.705396577426582,
+            -0.000488650577608496,
+            -0.00018591777188703418,
+            -0.00038329631206579506,
+            0.004330642055720091,
+            -0.00744025781750679,
+            0.0004287417104933411
+        ],
+        [
+            0.5581521562841809,
+            0.08137617873308747,
+            0.9113373721110832,
+            -0.020749787832877255,
+            0.709106147733041,
+            -0.6735458096579916,
+            0.20754266993622633,
+            -0.00041588442400097847,
+            -0.00010713406663853675,
+            -1.7767919416655786e-05,
+            0.003042949363589287,
+            -0.012564181350171566,
+            -0.0007920326897874475
+        ],
+        [
+            0.3190112940415245,
+            0.21006124154658645,
+            0.9322651754941625,
+            0.31303728532416486,
+            0.9363142456404222,
+            0.07797434008497559,
+            -0.1387201993078003,
+            0.00027750778826884925,
+            -0.0009058061405085027,
+            -0.0001509263674961403,
+            0.02048972062766552,
+            0.017336294054985046,
+            -0.008468497544527054
+        ]
+    ],
+    "position_instruction": "Place the toy in front of pot on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "rotation_instruction_label": "left",
+    "obj_codes": [
+        "af249e607bea40cfa2f275e5e23b8283",
+        "ea91786392284f03809c37976da090bf",
+        "072-b"
+    ],
+    "target_obj_code": "072-b",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_left",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "left"
+}

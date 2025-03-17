@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "shoe",
+        "spoon",
+        "bottle"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/ae7142127dd84ebbbe7762368ace452c/material_2.urdf",
+        "ycb_16k_backup/031_spoon_google_16k/031_spoon_google_16k.urdf",
+        "ycb_16k_backup/021_bleach_cleanser_google_16k/021_bleach_cleanser_google_16k.urdf"
+    ],
+    "target_obj_name": "bottle",
+    "instruction": "Place the bottle between the shoe and the spoon on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.32564532821094483,
+            0.2297815911928348,
+            0.934362996952342,
+            -0.03168084296934232,
+            0.19472452324600784,
+            -0.01803613368705891,
+            0.9801802804163071,
+            0.0003496695135254413,
+            6.338969251373783e-05,
+            -1.3185583156882785e-05,
+            -0.0025182710960507393,
+            0.004059687722474337,
+            0.0020478053484112024
+        ],
+        [
+            0.5553682683732861,
+            0.1350290386440892,
+            0.9262944626052324,
+            -0.9838214226257485,
+            0.17770497514578387,
+            0.01694080145597536,
+            -0.015144617430438143,
+            -0.0012969585368409753,
+            -0.0030853128992021084,
+            0.02146361768245697,
+            0.087529756128788,
+            -0.3600083887577057,
+            0.028854334726929665
+        ],
+        [
+            0.6590603006820946,
+            0.10171621690380236,
+            0.9227933025846771,
+            0.5559417698669474,
+            0.4587654830893935,
+            0.44356514613930886,
+            0.5326471075424835,
+            -0.0002871706092264503,
+            -0.0014417868806049228,
+            -0.0003925250202883035,
+            0.05899590998888016,
+            -0.010302362963557243,
+            -0.00048449006862938404
+        ]
+    ],
+    "position_instruction": "Place the bottle between the shoe and the spoon on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "ae7142127dd84ebbbe7762368ace452c",
+        "031",
+        "021"
+    ],
+    "target_obj_code": "021",
+    "anno_target": {
+        "category": "bottle",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.0,
+                        0.6908057332038879,
+                        -0.0,
+                        0.7230404019355774
+                    ],
+                    [
+                        -0.0,
+                        -0.7413507699966431,
+                        -0.0,
+                        0.6711177229881287
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "sideways"
+}

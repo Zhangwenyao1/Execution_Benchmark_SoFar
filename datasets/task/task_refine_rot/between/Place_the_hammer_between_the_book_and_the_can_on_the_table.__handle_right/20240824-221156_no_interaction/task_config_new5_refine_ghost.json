@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "book",
+        "can",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/b2d30398ba3741da9f9aef2319ee2b8b/material_2.urdf",
+        "ycb_16k_backup/002_master_chef_can_google_16k/002_master_chef_can_google_16k.urdf",
+        "ycb_16k_backup/048_hammer_google_16k/048_hammer_google_16k.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer between the book and the can on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.5450484922076172,
+            0.13390960283006462,
+            0.916360817212715,
+            6.466879965980364e-05,
+            -0.00010266136478462953,
+            0.0901734930108101,
+            0.9959260647441762,
+            -0.0007176742074079812,
+            -0.00020453249453566968,
+            1.1664232260955032e-05,
+            -0.0004301955923438072,
+            0.0011015695054084063,
+            -0.0032435269095003605
+        ],
+        [
+            0.5895921660714336,
+            -0.22456836965300786,
+            0.9000915460121516,
+            -0.00015337952160616528,
+            0.00022910842162686025,
+            -0.0367356078239769,
+            0.9993249817260936,
+            0.00029832744621671736,
+            0.000990594387985766,
+            -0.0006536019500344992,
+            -0.01839624159038067,
+            0.004224998876452446,
+            0.00047672694199718535
+        ],
+        [
+            0.3859184668796349,
+            0.016403964677598585,
+            0.8974392800521425,
+            0.000638153095640765,
+            -0.000992528604072358,
+            0.08350149941860394,
+            0.9965069529323127,
+            -0.007327725645154715,
+            -0.00328184780664742,
+            0.02167065069079399,
+            0.279915988445282,
+            -0.31440266966819763,
+            0.009581577964127064
+        ]
+    ],
+    "position_instruction": "Place the hammer between the book and the can on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "b2d30398ba3741da9f9aef2319ee2b8b",
+        "002",
+        "048"
+    ],
+    "target_obj_code": "048",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        -0.0,
+                        0.0,
+                        -0.9831142425537109,
+                        -0.1829928606748581
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_right"
+}

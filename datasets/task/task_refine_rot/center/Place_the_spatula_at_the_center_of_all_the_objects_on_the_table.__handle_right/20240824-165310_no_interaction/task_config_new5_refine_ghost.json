@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "binder clips",
+        "bottle",
+        "mug",
+        "spatula"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/5e55c38b24dc4c239448efa1c6b7f49f/material_2.urdf",
+        "objaverse_rescale/d17b8f44d1544364b8ad9fe2554ddfdf/material_2.urdf",
+        "objaverse_rescale/c25119c5ac6e4654be3b75d78e34a912/material_2.urdf",
+        "objaverse_rescale/81b129ecf5724f63b5b044702a3140c2/material_2.urdf"
+    ],
+    "target_obj_name": "spatula",
+    "instruction": "Place the spatula at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.4124440678185932,
+            0.15697156335199247,
+            0.9100081088433274,
+            3.3797000166087415e-05,
+            5.830760225870311e-06,
+            0.12800278905790988,
+            0.9917738072852909,
+            0.0012894654646515846,
+            -0.00016103363304864615,
+            -0.00032975684734992683,
+            0.0027819855604320765,
+            0.017418649047613144,
+            0.0025504103396087885
+        ],
+        [
+            0.6190903635276783,
+            -0.1213783206135056,
+            0.9346903264025068,
+            0.011409300620715261,
+            0.0927097405606799,
+            -0.09584445701883233,
+            0.9910038203373801,
+            -0.0010596872307360172,
+            0.0005345248500816524,
+            -0.00039010948967188597,
+            -0.009853295050561428,
+            -0.0459677018225193,
+            0.02148507535457611
+        ],
+        [
+            0.6597631596230332,
+            0.20453125285738064,
+            0.9304852865784937,
+            -0.02074877513694422,
+            0.2941837874575838,
+            0.098706999697513,
+            0.950411655935543,
+            -0.0010346496710553765,
+            0.0014136992394924164,
+            -0.00021195934095885605,
+            -0.02497546561062336,
+            -0.016803352162241936,
+            -0.00017378047050442547
+        ],
+        [
+            0.42186988117000723,
+            -0.09996206129227286,
+            0.9124646762687311,
+            0.08957717375820498,
+            0.013560718944413918,
+            0.020336585017153186,
+            0.9956798984377675,
+            0.004645315930247307,
+            0.004326656926423311,
+            0.0019089400302618742,
+            -0.4541342556476593,
+            0.6677457690238953,
+            0.049464430660009384
+        ]
+    ],
+    "position_instruction": "Place the spatula at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "5e55c38b24dc4c239448efa1c6b7f49f",
+        "d17b8f44d1544364b8ad9fe2554ddfdf",
+        "c25119c5ac6e4654be3b75d78e34a912",
+        "81b129ecf5724f63b5b044702a3140c2"
+    ],
+    "target_obj_code": "81b129ecf5724f63b5b044702a3140c2",
+    "anno_target": {
+        "category": "spatula",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.07927235215902328,
+                        0.0,
+                        0.0,
+                        0.9968529939651489
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "center",
+    "rotation_tag": "handle_right"
+}

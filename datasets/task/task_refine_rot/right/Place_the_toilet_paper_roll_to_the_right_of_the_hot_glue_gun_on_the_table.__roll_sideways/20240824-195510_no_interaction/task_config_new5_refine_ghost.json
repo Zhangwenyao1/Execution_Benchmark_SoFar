@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "hot glue gun",
+        "spoon",
+        "toilet paper roll"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/5ceec13e87774982afe825e7e74a0ce1/material_2.urdf",
+        "objaverse_rescale/218768789fdd42bd95eb933046698499/material_2.urdf",
+        "objaverse_rescale/6d5284b842434413a17133f7bf259669/material_2.urdf"
+    ],
+    "target_obj_name": "toilet paper roll",
+    "instruction": "Place the toilet paper roll to the right of the hot glue gun on the table. We also need to specify the rotation of the object after placement:  the paper roll is lying sideways on the table, with its lateral surface in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.6397594620573437,
+            0.1464438769787609,
+            0.9177703058307448,
+            -0.0028527879003001177,
+            0.030252656691689212,
+            0.05411813201782924,
+            0.9980720746274745,
+            -0.0011716317385435104,
+            -0.0021053797099739313,
+            -0.0016846514772623777,
+            0.006464043166488409,
+            -0.09229036420583725,
+            -0.031118812039494514
+        ],
+        [
+            0.4278727894271795,
+            0.20872366910313797,
+            0.927662143021293,
+            -0.033611302412900834,
+            -0.8426687837225051,
+            -0.006727747081436503,
+            0.5373400587234778,
+            -0.030902817845344543,
+            0.0033356514759361744,
+            0.03292015567421913,
+            0.2719151973724365,
+            -8.709325790405273,
+            -1.8109068870544434
+        ],
+        [
+            0.3724536147718764,
+            0.09418082801375544,
+            0.9407455864301068,
+            0.10886571854942786,
+            -0.07276438066529843,
+            -0.07231358549876028,
+            0.9887488789290372,
+            -0.0025119977071881294,
+            0.008388372138142586,
+            -0.006972987670451403,
+            -0.1047627329826355,
+            -0.033945634961128235,
+            0.0028592199087142944
+        ]
+    ],
+    "position_instruction": "Place the toilet paper roll to the right of the hot glue gun on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the paper roll is lying sideways on the table, with its lateral surface in contact with the tabletop.",
+    "rotation_instruction_label": "roll_sideways",
+    "obj_codes": [
+        "5ceec13e87774982afe825e7e74a0ce1",
+        "218768789fdd42bd95eb933046698499",
+        "6d5284b842434413a17133f7bf259669"
+    ],
+    "target_obj_code": "6d5284b842434413a17133f7bf259669",
+    "anno_target": {
+        "category": "toilet_paper_roll",
+        "annotation": {
+            " the paper roll is standing upright on the table, in the shape of a cylinder, and the axis(height) of the cylinder is perpendicular to the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the paper roll is lying sideways on the table, with its lateral surface in contact with the tabletop.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            }
+        }
+    },
+    "rot_tag_detail": "roll_sideways",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "roll_sideways"
+}

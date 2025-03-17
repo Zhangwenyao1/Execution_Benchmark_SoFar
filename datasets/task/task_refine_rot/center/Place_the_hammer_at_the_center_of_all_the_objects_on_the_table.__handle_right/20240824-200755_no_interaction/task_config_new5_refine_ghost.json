@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "binder",
+        "book",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/213d8df9c37a4d8cba794965676f7a75/material_2.urdf",
+        "objaverse_rescale/78e016eeb0bf45d5bea47547128383a8/material_2.urdf",
+        "objaverse_rescale/c61227cac7224b86b43c53ac2a2b6ec7/material_2.urdf",
+        "objaverse_rescale/9bf1b31f641543c9a921042dac3b527f/material_2.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6129945105922592,
+            0.22382881112118758,
+            0.9514296053913837,
+            0.019895953887368402,
+            -0.1730678486459454,
+            0.0971102780991537,
+            0.9799088042626625,
+            6.649201532127336e-05,
+            -0.0004323217726778239,
+            -0.00018072738021146506,
+            0.0009104104246944189,
+            -0.0023583120200783014,
+            -0.002523654606193304
+        ],
+        [
+            0.5490815634688293,
+            -0.22534955682247282,
+            0.9311036560709834,
+            -0.2919537248594176,
+            0.6428163650482588,
+            0.29286497640223047,
+            0.6448102426014788,
+            -0.0008145272731781006,
+            0.00017014336481224746,
+            -0.0006854379316791892,
+            -0.001826308318413794,
+            -0.005200226791203022,
+            0.0012541169999167323
+        ],
+        [
+            0.6573686003684998,
+            4.0890065691148725e-05,
+            0.3118565082550049,
+            0.0003168905677739531,
+            -0.0017406638944521546,
+            0.14769978821277618,
+            0.9890305995941162,
+            -0.0001995102793443948,
+            0.0006225191755220294,
+            -0.0037722059059888124,
+            -0.03994305059313774,
+            -0.02692863903939724,
+            0.001198110287077725
+        ],
+        [
+            0.5662879347801208,
+            -0.13600558042526245,
+            0.3057365417480469,
+            0.04326694458723068,
+            -0.7059096693992615,
+            0.026865433901548386,
+            0.7064685225486755,
+            0.00022646623256150633,
+            0.0034402261953800917,
+            0.03076038509607315,
+            -0.6183277368545532,
+            0.271003395318985,
+            0.000649230380076915
+        ]
+    ],
+    "position_instruction": "Place the hammer at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "213d8df9c37a4d8cba794965676f7a75",
+        "78e016eeb0bf45d5bea47547128383a8",
+        "c61227cac7224b86b43c53ac2a2b6ec7",
+        "9bf1b31f641543c9a921042dac3b527f"
+    ],
+    "target_obj_code": "9bf1b31f641543c9a921042dac3b527f",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        -0.7071067690849304,
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "center",
+    "rotation_tag": "handle_right"
+}

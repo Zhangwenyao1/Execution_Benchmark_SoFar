@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "book",
+        "wrench",
+        "spatula"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/2c88306f3d724a839054f3c2913fb1d5/material_2.urdf",
+        "objaverse_rescale/b2d30398ba3741da9f9aef2319ee2b8b/material_2.urdf",
+        "objaverse_rescale/19c1913ba85042938f0a87d94397c946/material_2.urdf",
+        "ycb_16k_backup/033_spatula_google_16k/033_spatula_google_16k.urdf"
+    ],
+    "target_obj_name": "spatula",
+    "instruction": "Place the spatula in front of mug on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.3392266938882607,
+            -0.2214795456969717,
+            0.9387081439616608,
+            -0.0798273294547071,
+            0.14461624838766,
+            0.09790922914477085,
+            0.9813906057338659,
+            0.0008304741932079196,
+            0.0012814748333767056,
+            -0.0004950540605932474,
+            -0.018228214234113693,
+            0.014023888856172562,
+            -0.0009809262119233608
+        ],
+        [
+            0.4705335397171964,
+            -0.18106685116632254,
+            0.9163778196110406,
+            0.0004035630482260117,
+            -9.466792245175821e-05,
+            -0.08292455503537442,
+            0.9965557417159542,
+            -0.00035360470064915717,
+            -0.000344169297022745,
+            -4.989988883608021e-05,
+            0.0013479117769747972,
+            -0.0006936408462934196,
+            0.00010293517698301002
+        ],
+        [
+            0.31692855540674125,
+            0.2242896811646423,
+            0.9106168191226306,
+            -0.022989328279254106,
+            0.005499126951171976,
+            -0.09184400511116747,
+            0.9954928071629566,
+            -0.00381465838290751,
+            -0.0007663562428206205,
+            0.02186581678688526,
+            0.5030519366264343,
+            2.6413047313690186,
+            0.17209121584892273
+        ],
+        [
+            0.5911846167449974,
+            0.10427894089291441,
+            0.9018933833392527,
+            -0.003181159297514184,
+            -0.014761434350932792,
+            -0.13253401789952093,
+            0.9910634260131065,
+            -0.0005172387463971972,
+            -0.007539454847574234,
+            -0.009168012998998165,
+            0.5940041542053223,
+            0.012583042494952679,
+            -0.037119828164577484
+        ]
+    ],
+    "position_instruction": "Place the spatula in front of mug on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "2c88306f3d724a839054f3c2913fb1d5",
+        "b2d30398ba3741da9f9aef2319ee2b8b",
+        "19c1913ba85042938f0a87d94397c946",
+        "033"
+    ],
+    "target_obj_code": "033",
+    "anno_target": {
+        "category": "spatula",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.621095597743988,
+                        0.7837347984313965
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "handle_right"
+}

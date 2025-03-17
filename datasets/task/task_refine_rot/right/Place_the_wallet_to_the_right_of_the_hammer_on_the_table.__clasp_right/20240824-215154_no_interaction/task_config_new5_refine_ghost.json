@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "hammer",
+        "fork",
+        "wallet"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/8ed38a92668a425eb16da938622d9ace/material_2.urdf",
+        "ycb_16k_backup/030_fork_google_16k/030_fork_google_16k.urdf",
+        "objaverse_rescale/f47fdcf9615d4e94a71e6731242a4c94/material_2.urdf"
+    ],
+    "target_obj_name": "wallet",
+    "instruction": "Place the wallet to the right of the hammer on the table. We also need to specify the rotation of the object after placement:  the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)",
+    "init_obj_pos": [
+        [
+            0.6231114657958123,
+            -0.26448720379290136,
+            0.9165383916392563,
+            -0.4300924512482486,
+            0.4458324780544399,
+            -0.1285219411901678,
+            0.7744262363348887,
+            0.003234966192394495,
+            0.006807220634073019,
+            0.021532712504267693,
+            2.7470836639404297,
+            1.2908676862716675,
+            1.617253303527832
+        ],
+        [
+            0.5744543300258163,
+            -0.15432286139558643,
+            0.902884728843571,
+            0.05522337805938379,
+            -0.0024122220632024315,
+            -0.06896481884406357,
+            0.9960865491824671,
+            -0.0008178774733096361,
+            0.003267102874815464,
+            -0.00032050287700258195,
+            0.2832401394844055,
+            0.07496627420186996,
+            -0.04681665822863579
+        ],
+        [
+            0.7773704241314023,
+            -0.1917915874807697,
+            0.9534598950531942,
+            0.11491085152527776,
+            0.658602472792169,
+            -0.13723315630531135,
+            0.73089352155034,
+            -0.009279207326471806,
+            -0.006340435240417719,
+            0.009373367764055729,
+            0.4271630644798279,
+            -0.6333017349243164,
+            -0.4313053786754608
+        ]
+    ],
+    "position_instruction": "Place the wallet to the right of the hammer on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)",
+    "rotation_instruction_label": "clasp_right",
+    "obj_codes": [
+        "8ed38a92668a425eb16da938622d9ace",
+        "030",
+        "f47fdcf9615d4e94a71e6731242a4c94"
+    ],
+    "target_obj_code": "f47fdcf9615d4e94a71e6731242a4c94",
+    "anno_target": {
+        "category": "wallet",
+        "annotation": {
+            " the wallet is lying flat on the table, and the clasp is on the left(if the wallet has a clasp)": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            },
+            " the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "clasp_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "clasp_right"
+}

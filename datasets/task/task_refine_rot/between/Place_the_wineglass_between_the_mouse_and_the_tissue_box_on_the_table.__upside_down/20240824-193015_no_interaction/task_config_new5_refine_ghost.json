@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "mouse",
+        "tissue box",
+        "wineglass"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f017c73a85484b6da3a66ec1cda70c71/material_2.urdf",
+        "objaverse_rescale/dc4c91abf45342b4bb8822f50fa162b2/material_2.urdf",
+        "objaverse_rescale/dc707f81a94e48078069c6a463f59fcf/material_2.urdf"
+    ],
+    "target_obj_name": "wineglass",
+    "instruction": "Place the wineglass between the mouse and the tissue box on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.48399694515082053,
+            0.0865484103152059,
+            0.9160584123145994,
+            -0.6105217551971411,
+            -0.25285503160085804,
+            0.38564392311350476,
+            0.6438992809366667,
+            -0.00024813273921608925,
+            -0.0009871318470686674,
+            -7.548597204731777e-05,
+            0.03408336266875267,
+            -0.015598958358168602,
+            -0.038623105734586716
+        ],
+        [
+            0.6380465527605632,
+            -0.09180737916223997,
+            0.9471224322690031,
+            0.7069259578234112,
+            0.015853863612694863,
+            0.015847180784638808,
+            0.7069322541977993,
+            6.367080914060352e-06,
+            -0.00022763462038710713,
+            0.00020610963110812008,
+            0.00430893711745739,
+            -0.0001535452902317047,
+            -0.00033128034556284547
+        ],
+        [
+            0.6064270441026077,
+            0.18419441442352236,
+            0.924497220273171,
+            0.04457986242023612,
+            -0.06519487985642795,
+            -0.007111961079497177,
+            0.9968508832903251,
+            0.003555683884769678,
+            0.011139812879264355,
+            -0.013294439762830734,
+            -0.2352880984544754,
+            0.2735690176486969,
+            0.05888035520911217
+        ]
+    ],
+    "position_instruction": "Place the wineglass between the mouse and the tissue box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "f017c73a85484b6da3a66ec1cda70c71",
+        "dc4c91abf45342b4bb8822f50fa162b2",
+        "dc707f81a94e48078069c6a463f59fcf"
+    ],
+    "target_obj_code": "dc707f81a94e48078069c6a463f59fcf",
+    "anno_target": {
+        "category": "wineglass",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

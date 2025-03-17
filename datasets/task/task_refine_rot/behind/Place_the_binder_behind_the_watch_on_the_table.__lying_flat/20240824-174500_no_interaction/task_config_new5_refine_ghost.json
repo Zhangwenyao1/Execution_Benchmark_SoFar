@@ -1,0 +1,127 @@
+{
+    "selected_obj_names": [
+        "watch",
+        "USB",
+        "plate",
+        "binder"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/243b381dcdc34316a7e78a533572d273/material_2.urdf",
+        "objaverse_rescale/0a51815f3c0941ae8312fc6917173ed6/material_2.urdf",
+        "objaverse_rescale/6d5a4e1174dd4f5fa0a9a9076e476b91/material_2.urdf",
+        "objaverse_rescale/a0026e7d1b244b9a9223daf4223c9372/material_2.urdf"
+    ],
+    "target_obj_name": "binder",
+    "instruction": "Place the binder behind the watch on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.6389197211892891,
+            0.028319726266436133,
+            0.9248360215995636,
+            0.10200173301056085,
+            -0.0011296391441801307,
+            -0.011372387425043411,
+            0.994718572854906,
+            0.00016757890989538282,
+            0.0014080555411055684,
+            -0.0006880023283883929,
+            -0.015656637027859688,
+            -0.002966440748423338,
+            -0.035894207656383514
+        ],
+        [
+            0.47270923799338593,
+            -0.1966610616215333,
+            0.9111764191082825,
+            -0.23124498665665014,
+            -0.3881112038594287,
+            -0.12937417464258338,
+            0.8826991404326283,
+            0.000615584896877408,
+            -0.00046535645378753543,
+            -0.0007013989379629493,
+            0.04959902539849281,
+            0.05806996673345566,
+            0.0009562113555148244
+        ],
+        [
+            0.6201255521404037,
+            -0.1945411831327966,
+            0.9127414412897813,
+            0.7054118557269689,
+            0.048927753774698726,
+            0.048918009040560775,
+            0.7054127990771808,
+            -0.00017510591715108603,
+            0.0003587726387195289,
+            -0.00029500763048417866,
+            -0.0003137083840556443,
+            -0.014947055839002132,
+            0.016977373510599136
+        ],
+        [
+            0.6073150137696682,
+            0.1991930276668329,
+            0.927268164270804,
+            -5.2910564564669747e-05,
+            -0.00045793300751799116,
+            -0.009815074112781123,
+            0.9999517247437473,
+            0.00011801689106505364,
+            -7.820854079909623e-05,
+            -0.000801169197075069,
+            7.15373971615918e-05,
+            0.007572256028652191,
+            0.00013380582095123827
+        ]
+    ],
+    "position_instruction": "Place the binder behind the watch on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "243b381dcdc34316a7e78a533572d273",
+        "0a51815f3c0941ae8312fc6917173ed6",
+        "6d5a4e1174dd4f5fa0a9a9076e476b91",
+        "a0026e7d1b244b9a9223daf4223c9372"
+    ],
+    "target_obj_code": "a0026e7d1b244b9a9223daf4223c9372",
+    "anno_target": {
+        "category": "binder",
+        "annotation": {
+            "the binder is standing upright on the table and oriented in a way so that its smaller side is in contact with the tabletop and the larger face is perpendicular to the tabletop, and the label should be in sight as well.": {
+                "quat": [
+                    [
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        -7.549783020976975e-08,
+                        -3.3001151131603493e-15,
+                        1.0,
+                        -4.371138828673793e-08
+                    ],
+                    [
+                        -0.0,
+                        1.0,
+                        -0.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "behind",
+    "rotation_tag": "lying_flat"
+}

@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "mobile phone",
+        "fork",
+        "wrench",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/45c813a9fac4458ead1f90280826c0a4/material_2.urdf",
+        "ycb_16k_backup/030_fork_google_16k/030_fork_google_16k.urdf",
+        "objaverse_rescale/8a6cb4f7b0004f53830e270dc6e1ff1d/material_2.urdf",
+        "ycb_16k_backup/048_hammer_google_16k/048_hammer_google_16k.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer between the mobile phone and the fork on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.29925741486901314,
+            0.22992116077979888,
+            0.9285053747981217,
+            -0.7625511623920616,
+            -0.2044078442584804,
+            -0.021501522095082683,
+            0.6134091966116173,
+            0.009718759916722775,
+            -0.009318480268120766,
+            0.043736860156059265,
+            -0.26643386483192444,
+            -4.223992824554443,
+            1.1062082052230835
+        ],
+        [
+            0.3209089934825897,
+            0.2080463394180751,
+            0.30243226885795593,
+            0.05877106636762619,
+            0.005574279930442572,
+            0.10864488035440445,
+            0.992326021194458,
+            -0.00016764270549174398,
+            0.005013523157685995,
+            -0.0018357343506067991,
+            -0.9175148606300354,
+            -0.4586169421672821,
+            -0.1705022007226944
+        ],
+        [
+            0.31620293855667114,
+            -0.012208320200443268,
+            0.31311753392219543,
+            0.43082529306411743,
+            0.560052752494812,
+            -0.34421467781066895,
+            0.6182610988616943,
+            0.007882158271968365,
+            0.0024903982412070036,
+            0.037159956991672516,
+            -3.710350275039673,
+            -1.9334769248962402,
+            -1.191667079925537
+        ],
+        [
+            0.40576210618019104,
+            0.04457613453269005,
+            0.30050623416900635,
+            0.001560566364787519,
+            -0.0027774812187999487,
+            -0.031246211379766464,
+            0.9995067119598389,
+            -0.017215969040989876,
+            -0.005780620500445366,
+            0.01566372625529766,
+            0.07165268808603287,
+            0.045001935213804245,
+            -0.10449296981096268
+        ]
+    ],
+    "position_instruction": "Place the hammer between the mobile phone and the fork on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "45c813a9fac4458ead1f90280826c0a4",
+        "030",
+        "8a6cb4f7b0004f53830e270dc6e1ff1d",
+        "048"
+    ],
+    "target_obj_code": "048",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        -0.0,
+                        0.0,
+                        -0.9831142425537109,
+                        -0.1829928606748581
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_right"
+}

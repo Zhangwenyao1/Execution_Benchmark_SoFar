@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "box",
+        "can",
+        "remote control",
+        "screwdriver"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/9660e0c0326b4f7386014e27717231ae/material_2.urdf",
+        "ycb_16k_backup/002_master_chef_can_google_16k/002_master_chef_can_google_16k.urdf",
+        "objaverse_rescale/f1bbc61a42b94ee9a2976ca744f8962e/material_2.urdf",
+        "ycb_16k_backup/044_flat_screwdriver_google_16k/044_flat_screwdriver_google_16k.urdf"
+    ],
+    "target_obj_name": "screwdriver",
+    "instruction": "Place the screwdriver between the box and the can on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6547731369979483,
+            -0.15999296571412677,
+            0.9190793546730933,
+            -7.876696339751385e-05,
+            -0.00013490484390429473,
+            0.08450030189331159,
+            0.9964234414024931,
+            0.0004254376981407404,
+            -0.00035943082184530795,
+            -6.755714275641367e-05,
+            0.00013687800674233586,
+            0.0018629400292411447,
+            0.0005676709697581828
+        ],
+        [
+            0.6059047535278951,
+            0.05572726483747326,
+            0.9000879322699366,
+            -9.425438262479057e-05,
+            0.0003375062164595364,
+            0.005404558360710736,
+            0.9999853338697479,
+            0.0002537524269428104,
+            0.0010814531706273556,
+            -0.0006232921150512993,
+            -0.01927538402378559,
+            0.0037516355514526367,
+            0.0006634785677306354
+        ],
+        [
+            0.5040710478306273,
+            0.004980378548161006,
+            0.9060089630624409,
+            -0.7030983372132391,
+            -0.09335786268119116,
+            0.09144004906823856,
+            0.6989819419054959,
+            0.0005860395613126457,
+            0.00219679344445467,
+            0.03204319253563881,
+            -0.6225603222846985,
+            -0.10271038860082626,
+            -0.009992798790335655
+        ],
+        [
+            0.44718959458435203,
+            0.1567623659795827,
+            0.9004493995279156,
+            0.009953252056165648,
+            -0.012983927981390189,
+            0.1704187212385363,
+            0.9852359158288441,
+            -0.002125111175701022,
+            -0.00212365691550076,
+            -0.0020991915371268988,
+            0.25601881742477417,
+            -0.1567356288433075,
+            -0.13688625395298004
+        ]
+    ],
+    "position_instruction": "Place the screwdriver between the box and the can on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "9660e0c0326b4f7386014e27717231ae",
+        "002",
+        "f1bbc61a42b94ee9a2976ca744f8962e",
+        "044"
+    ],
+    "target_obj_code": "044",
+    "anno_target": {
+        "category": "screwdriver",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.011427843011915684,
+                        0.021855341270565987,
+                        -0.40244925022125244,
+                        0.9151100516319275
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_right"
+}

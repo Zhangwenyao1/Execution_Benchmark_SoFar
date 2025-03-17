@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "stapler",
+        "apple",
+        "hammer",
+        "spoon"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/d2c345be5c084b4e8c92b48f7be69315/material_2.urdf",
+        "objaverse_rescale/fbda0b25f41f40958ea984f460e4770b/material_2.urdf",
+        "objaverse_rescale/9bf1b31f641543c9a921042dac3b527f/material_2.urdf",
+        "ycb_16k_backup/031_spoon_google_16k/031_spoon_google_16k.urdf"
+    ],
+    "target_obj_name": "spoon",
+    "instruction": "Place the spoon on top of the stapler on the table. We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "init_obj_pos": [
+        [
+            0.5123449999527357,
+            0.053583641910931755,
+            0.9365938114367718,
+            -0.013389320859795547,
+            0.4476158822276164,
+            0.13446260332286064,
+            0.8839573272348302,
+            0.0003790831833612174,
+            0.003909492399543524,
+            -0.005273765418678522,
+            -0.21507598459720612,
+            0.03835005313158035,
+            -0.0012786953011527658
+        ],
+        [
+            0.5926370668251271,
+            -0.24198851080622563,
+            0.9260352733131405,
+            0.10516987534952084,
+            0.06640491725102073,
+            0.05682985636375595,
+            0.990605901309661,
+            -0.0032512519974261522,
+            -0.0016290664207190275,
+            -0.0011507479939609766,
+            0.03088897094130516,
+            -0.06876307725906372,
+            -0.004056673496961594
+        ],
+        [
+            0.5900912244723228,
+            -0.019932381967649866,
+            0.9320555957880852,
+            0.036583558316180764,
+            -0.3724120833054934,
+            -0.16699585853596438,
+            0.9121859825171752,
+            0.00010089973511639982,
+            0.0010854859137907624,
+            0.03797532618045807,
+            0.6865752339363098,
+            0.5679583549499512,
+            0.41322895884513855
+        ],
+        [
+            0.2564860972378778,
+            -0.07296474151349214,
+            0.9264595726299041,
+            0.8786233020691927,
+            -0.47686881579682294,
+            -0.021475906454375915,
+            0.012490437283308672,
+            -0.004773871041834354,
+            -0.0043725245632231236,
+            0.009874476119875908,
+            -2.873068332672119,
+            1.2772725820541382,
+            -0.3877321481704712
+        ]
+    ],
+    "position_instruction": "Place the spoon on top of the stapler on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "rotation_instruction_label": "scoop_right",
+    "obj_codes": [
+        "d2c345be5c084b4e8c92b48f7be69315",
+        "fbda0b25f41f40958ea984f460e4770b",
+        "9bf1b31f641543c9a921042dac3b527f",
+        "031"
+    ],
+    "target_obj_code": "031",
+    "anno_target": {
+        "category": "spoon",
+        "annotation": {
+            " the ladle is lying on the table, with its scoop on the left(pointing towards left) and its handle on the right. ": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.8228724002838135,
+                        0.5682262182235718
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ladle is lying on the table, with its scoop on the right(pointing towards right) and its handle on the left.": {
+                "quat": [
+                    [
+                        -0.5680640339851379,
+                        0.8226374983787537,
+                        0.01965927705168724,
+                        0.013575514778494835
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "scoop_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "scoop_right"
+}

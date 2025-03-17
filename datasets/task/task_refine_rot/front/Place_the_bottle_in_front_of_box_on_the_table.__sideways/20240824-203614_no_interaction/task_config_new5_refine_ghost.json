@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "box",
+        "spatula",
+        "toy",
+        "bottle"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/5e1a1527a0bd49ed8e473079392c31c8/material_2.urdf",
+        "objaverse_rescale/4b27628be0804c0285d0b13dda025a0d/material_2.urdf",
+        "ycb_16k_backup/072-b_toy_airplane_google_16k/072-b_toy_airplane_google_16k.urdf",
+        "objaverse_rescale/8c0f8088a5d546c886d1b07e3f4eafae/material_2.urdf"
+    ],
+    "target_obj_name": "bottle",
+    "instruction": "Place the bottle in front of box on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.41445694714175163,
+            0.0010769302163739906,
+            0.9581294810382852,
+            -0.022931929615126204,
+            0.13964933786716838,
+            0.14150325149680423,
+            0.9797698805603383,
+            0.0016264067962765694,
+            9.694923210190609e-05,
+            -0.0007013531867414713,
+            -0.0007700046407990158,
+            0.04433586448431015,
+            -0.0020412106532603502
+        ],
+        [
+            0.6052841725016662,
+            -0.0680522056451202,
+            0.9039851744813034,
+            -0.004478396818112959,
+            0.0007650128825723693,
+            0.0674284084606719,
+            0.9977137708028736,
+            -0.004768684506416321,
+            -0.0029070787131786346,
+            0.0055154114961624146,
+            -0.45231857895851135,
+            2.0737786293029785,
+            -0.07099007070064545
+        ],
+        [
+            0.6735891925655104,
+            0.048818629218749306,
+            0.8999387941226963,
+            -0.018534554521543834,
+            0.012760903623695205,
+            0.11580350339840836,
+            0.9930172094319671,
+            0.0050941407680511475,
+            0.010388016700744629,
+            0.007106253411620855,
+            -0.4565141499042511,
+            0.32427066564559937,
+            -0.043652523308992386
+        ],
+        [
+            0.563106549430419,
+            0.1941218371568578,
+            0.9311562008447614,
+            -0.09160291508922981,
+            0.23507278577637125,
+            0.26959674560505476,
+            0.9293370142707399,
+            -0.0009976590517908335,
+            -0.0001502919039921835,
+            -0.00017907825531437993,
+            0.007908894680440426,
+            -0.04263392090797424,
+            0.0027973914984613657
+        ]
+    ],
+    "position_instruction": "Place the bottle in front of box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "5e1a1527a0bd49ed8e473079392c31c8",
+        "4b27628be0804c0285d0b13dda025a0d",
+        "072-b",
+        "8c0f8088a5d546c886d1b07e3f4eafae"
+    ],
+    "target_obj_code": "8c0f8088a5d546c886d1b07e3f4eafae",
+    "anno_target": {
+        "category": "bottle",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "front",
+    "rotation_tag": "sideways"
+}

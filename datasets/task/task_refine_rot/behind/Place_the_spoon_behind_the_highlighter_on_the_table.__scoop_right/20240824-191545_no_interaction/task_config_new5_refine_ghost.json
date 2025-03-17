@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "highlighter",
+        "scissors",
+        "credit card",
+        "spoon"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/25481a65cad54e2a956394ff2b2765cd/material_2.urdf",
+        "objaverse_rescale/2b1120c4b517409184413ed709c57a66/material_2.urdf",
+        "objaverse_rescale/5de830b2cccf4fe7a2e6b400abf26ca7/material_2.urdf",
+        "ycb_16k_backup/031_spoon_google_16k/031_spoon_google_16k.urdf"
+    ],
+    "target_obj_name": "spoon",
+    "instruction": "Place the spoon behind the highlighter on the table. We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "init_obj_pos": [
+        [
+            0.3506101310934121,
+            -0.25657308274778684,
+            0.9113048359050898,
+            0.7063933311104803,
+            0.03173527008378033,
+            0.016660863849275308,
+            0.7069114159575753,
+            0.006280604749917984,
+            0.008435908704996109,
+            -0.008801616728305817,
+            -0.43578460812568665,
+            0.14259330928325653,
+            0.22987593710422516
+        ],
+        [
+            0.6387805414715656,
+            -0.07671441798918013,
+            0.9073601878079002,
+            -0.250964403527015,
+            0.9676339069572301,
+            -0.024363562887353935,
+            0.010387832904336711,
+            0.002662328304722905,
+            0.010457273572683334,
+            0.009387275204062462,
+            -1.249945878982544,
+            1.4806321859359741,
+            0.1058584600687027
+        ],
+        [
+            0.6371570466813072,
+            0.03574663243056899,
+            0.9017923796377364,
+            0.02109374189271606,
+            -0.003875956069791851,
+            -0.1807660527171911,
+            0.9832922582846632,
+            1.750975388858933e-05,
+            1.266662911802996e-05,
+            0.03519870713353157,
+            -1.2202388048171997,
+            0.44093644618988037,
+            0.004854231607168913
+        ],
+        [
+            0.7240978543735213,
+            -0.23942200147563486,
+            0.9265011135466248,
+            -0.9800012809453442,
+            0.19735946472466526,
+            0.016769662933373113,
+            -0.019118301027529396,
+            -0.006900767330080271,
+            -0.004891385789960623,
+            0.02374543808400631,
+            -4.807235240936279,
+            -0.4960470497608185,
+            -0.4774319529533386
+        ]
+    ],
+    "position_instruction": "Place the spoon behind the highlighter on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "rotation_instruction_label": "scoop_right",
+    "obj_codes": [
+        "25481a65cad54e2a956394ff2b2765cd",
+        "2b1120c4b517409184413ed709c57a66",
+        "5de830b2cccf4fe7a2e6b400abf26ca7",
+        "031"
+    ],
+    "target_obj_code": "031",
+    "anno_target": {
+        "category": "spoon",
+        "annotation": {
+            " the ladle is lying on the table, with its scoop on the left(pointing towards left) and its handle on the right. ": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.8228724002838135,
+                        0.5682262182235718
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ladle is lying on the table, with its scoop on the right(pointing towards right) and its handle on the left.": {
+                "quat": [
+                    [
+                        -0.5680640339851379,
+                        0.8226374983787537,
+                        0.01965927705168724,
+                        0.013575514778494835
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "scoop_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "scoop_right"
+}

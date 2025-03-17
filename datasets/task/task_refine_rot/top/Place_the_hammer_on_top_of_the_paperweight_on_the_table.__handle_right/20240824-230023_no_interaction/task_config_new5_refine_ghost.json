@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "paperweight",
+        "bowl",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/21c10181c122474a8f72a4ad0331f185/material_2.urdf",
+        "objaverse_rescale/bdd36c94f3f74f22b02b8a069c8d97b7/material_2.urdf",
+        "objaverse_rescale/9bf1b31f641543c9a921042dac3b527f/material_2.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer on top of the paperweight on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6279323990119255,
+            -0.11462357569207723,
+            0.9392312953033443,
+            -0.1610942301722595,
+            -0.21534452103325455,
+            -0.2013968667751984,
+            0.9418676596631278,
+            0.0005008183652535081,
+            -0.0035269679501652718,
+            -0.00039104706957004964,
+            0.058196693658828735,
+            0.028570786118507385,
+            0.020065005868673325
+        ],
+        [
+            0.679774189260027,
+            0.05712555809659584,
+            0.9571836741338345,
+            0.6952127777379161,
+            0.011296418791075596,
+            0.0031168282707820442,
+            0.7187084735648788,
+            0.0014772849390283227,
+            -0.0020185080356895924,
+            -0.00015334703493863344,
+            0.03681180626153946,
+            0.03066130541265011,
+            0.014990977942943573
+        ],
+        [
+            0.3639648519833139,
+            0.06021803389001893,
+            0.9076114730670966,
+            -0.7058865716033651,
+            0.044152111317666796,
+            0.7063749351393491,
+            0.02844626694527485,
+            -0.001199973514303565,
+            -0.003235135693103075,
+            0.03179768845438957,
+            0.02450072206556797,
+            0.7945042848587036,
+            0.028851954266428947
+        ]
+    ],
+    "position_instruction": "Place the hammer on top of the paperweight on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "21c10181c122474a8f72a4ad0331f185",
+        "bdd36c94f3f74f22b02b8a069c8d97b7",
+        "9bf1b31f641543c9a921042dac3b527f"
+    ],
+    "target_obj_code": "9bf1b31f641543c9a921042dac3b527f",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        -0.7071067690849304,
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "handle_right"
+}

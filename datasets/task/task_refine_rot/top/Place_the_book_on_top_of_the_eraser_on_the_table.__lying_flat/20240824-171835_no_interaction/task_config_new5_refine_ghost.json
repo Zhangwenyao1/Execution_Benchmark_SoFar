@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "eraser",
+        "wineglass",
+        "can",
+        "book"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f0916a69ba514ecc973b44528b9dcc43/material_2.urdf",
+        "objaverse_rescale/dc707f81a94e48078069c6a463f59fcf/material_2.urdf",
+        "ycb_16k_backup/005_tomato_soup_can_google_16k/005_tomato_soup_can_google_16k.urdf",
+        "objaverse_rescale/2a371c84c5454f7facba7bb2f5312ad6/material_2.urdf"
+    ],
+    "target_obj_name": "book",
+    "instruction": "Place the book on top of the eraser on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.38506663292181686,
+            0.12466118857813284,
+            0.911084896587991,
+            0.40706079511507753,
+            -0.5864005181137741,
+            0.5659662135415343,
+            -0.41245385992330796,
+            -0.005787605419754982,
+            0.0007641900447197258,
+            0.009396483190357685,
+            0.21062211692333221,
+            -0.5670002102851868,
+            0.0018886153120547533
+        ],
+        [
+            0.5215168772840337,
+            0.23329525425530784,
+            0.9245522910618333,
+            0.04557074015379064,
+            0.03434930331269737,
+            0.031196552205544837,
+            0.9978828629324452,
+            0.00022834501578472555,
+            0.005757633596658707,
+            -0.004256099928170443,
+            -0.13791219890117645,
+            0.035088397562503815,
+            0.002981418976560235
+        ],
+        [
+            0.6031799492951035,
+            -0.09978344313872586,
+            0.8590982991311358,
+            0.5564630266648307,
+            0.4283268015629084,
+            0.45638405555989936,
+            0.5464418037161906,
+            -0.0017421571537852287,
+            -0.004585911054164171,
+            -0.010594752617180347,
+            0.10551109164953232,
+            -0.1075194925069809,
+            -0.0033168941736221313
+        ],
+        [
+            0.44815175154046255,
+            -0.127625265260606,
+            0.9770655164754759,
+            1.5509748016853272e-06,
+            3.308340509118987e-06,
+            0.10511865289423168,
+            0.9944596868653609,
+            0.0005265087238512933,
+            -0.002888798015192151,
+            -0.0006261271191760898,
+            0.04035614803433418,
+            0.0106009840965271,
+            3.9972157537704334e-05
+        ]
+    ],
+    "position_instruction": "Place the book on top of the eraser on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "f0916a69ba514ecc973b44528b9dcc43",
+        "dc707f81a94e48078069c6a463f59fcf",
+        "005",
+        "2a371c84c5454f7facba7bb2f5312ad6"
+    ],
+    "target_obj_code": "2a371c84c5454f7facba7bb2f5312ad6",
+    "anno_target": {
+        "category": "book",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "top",
+    "rotation_tag": "lying_flat"
+}

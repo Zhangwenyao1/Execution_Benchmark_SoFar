@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "organizer",
+        "spoon",
+        "mug",
+        "plate"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/4f52ebe6c8cf432986e47d8de83386ce/material_2.urdf",
+        "objaverse_rescale/218768789fdd42bd95eb933046698499/material_2.urdf",
+        "objaverse_rescale/922cd7d18c6748d49fe651ded8a04cf4/material_2.urdf",
+        "ycb_16k_backup/029_plate_google_16k/029_plate_google_16k.urdf"
+    ],
+    "target_obj_name": "plate",
+    "instruction": "Place the plate to the right of the organizer on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.34252556506835147,
+            -0.13571636154627717,
+            1.0198858234677932,
+            0.4898863077142634,
+            -0.5045844909896159,
+            0.5585154967825119,
+            -0.4398480837978269,
+            -0.01608296111226082,
+            -0.017722710967063904,
+            0.05080397427082062,
+            0.113120898604393,
+            -0.15137626230716705,
+            -0.07588426768779755
+        ],
+        [
+            0.4216230623202,
+            -0.03668855536640714,
+            0.9028191851003856,
+            0.01804032402736984,
+            0.007719348720159669,
+            -0.21221961041522946,
+            0.9770249716970036,
+            -0.0063022724352777,
+            -0.01217352133244276,
+            0.028864357620477676,
+            3.46808123588562,
+            6.586234092712402,
+            -6.0704665184021
+        ],
+        [
+            0.6821962156499,
+            0.08847568746426801,
+            0.9803848554283658,
+            -0.04241021767907535,
+            0.3443245167421147,
+            0.09973035412412264,
+            0.9325748533351086,
+            -0.0023536875378340483,
+            -0.0008682376937940717,
+            -0.0014001799281686544,
+            0.013362312689423561,
+            -0.03297131508588791,
+            -0.009669016115367413
+        ],
+        [
+            0.30692568154167615,
+            -0.29253463544533315,
+            0.923004735615751,
+            0.8274930359541597,
+            -0.5614454243679311,
+            -0.0006675215134169467,
+            0.005819391609918837,
+            0.010340273380279541,
+            0.023909110575914383,
+            0.019153103232383728,
+            0.07370705157518387,
+            0.5539093017578125,
+            0.03095915913581848
+        ]
+    ],
+    "position_instruction": "Place the plate to the right of the organizer on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "4f52ebe6c8cf432986e47d8de83386ce",
+        "218768789fdd42bd95eb933046698499",
+        "922cd7d18c6748d49fe651ded8a04cf4",
+        "029"
+    ],
+    "target_obj_code": "029",
+    "anno_target": {
+        "category": "plate",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upside_down"
+}

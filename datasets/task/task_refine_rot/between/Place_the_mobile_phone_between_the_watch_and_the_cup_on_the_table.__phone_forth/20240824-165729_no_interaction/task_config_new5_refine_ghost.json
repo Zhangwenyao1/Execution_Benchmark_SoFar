@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "watch",
+        "cup",
+        "mobile phone"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/243b381dcdc34316a7e78a533572d273/material_2.urdf",
+        "ycb_16k_backup/065-d_cups_google_16k/065-d_cups_google_16k.urdf",
+        "objaverse_rescale/45c813a9fac4458ead1f90280826c0a4/material_2.urdf"
+    ],
+    "target_obj_name": "mobile phone",
+    "instruction": "Place the mobile phone between the watch and the cup on the table. We also need to specify the rotation of the object after placement:  the rectangular phone is placed steadily on the table, with the screen facing up, and is oriented in a 'pointing forward' way so that from a viewer's perspective: its two long edges are in a left-right position while the two short edges are in a front-back / near-far position.",
+    "init_obj_pos": [
+        [
+            0.610205208146287,
+            0.17378857872751968,
+            0.9248377374233482,
+            0.1017372426308632,
+            -0.005485564735581196,
+            -0.053779339708962336,
+            0.9933414441479164,
+            0.00017703257617540658,
+            -0.0006008556811138988,
+            -8.688998059369624e-05,
+            0.0071901585906744,
+            0.00407278211787343,
+            0.011615346185863018
+        ],
+        [
+            0.4603517508878252,
+            0.08238121928216184,
+            0.9006116657062236,
+            0.0008371183922897514,
+            -0.0007568260322223957,
+            0.01930574856769419,
+            0.9998129897732856,
+            0.006680667866021395,
+            -0.0002435031783534214,
+            -0.006807750556617975,
+            -0.029891418293118477,
+            0.19503489136695862,
+            -0.0018823231803253293
+        ],
+        [
+            0.5401526680734028,
+            0.07164271037128073,
+            0.9056138183161679,
+            -0.7044023638758864,
+            0.03765320773202446,
+            -0.03784767469919746,
+            0.7077902932602403,
+            0.0013414418790489435,
+            0.002910003997385502,
+            0.02329634502530098,
+            -0.5092625617980957,
+            0.37927931547164917,
+            -0.017989592626690865
+        ]
+    ],
+    "position_instruction": "Place the mobile phone between the watch and the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the rectangular phone is placed steadily on the table, with the screen facing up, and is oriented in a 'pointing forward' way so that from a viewer's perspective: its two long edges are in a left-right position while the two short edges are in a front-back / near-far position.",
+    "rotation_instruction_label": "phone_forth",
+    "obj_codes": [
+        "243b381dcdc34316a7e78a533572d273",
+        "065-d",
+        "45c813a9fac4458ead1f90280826c0a4"
+    ],
+    "target_obj_code": "45c813a9fac4458ead1f90280826c0a4",
+    "anno_target": {
+        "category": "mobile_phone",
+        "annotation": {
+            " the rectangular phone is placed steadily on the table, with the screen facing up, and is oriented in a 'pointing forward' way so that from a viewer's perspective, its two long edges are in a left-right position while the two short edges are in a front-back / near-far position.": {
+                "quat": [
+                    [
+                        -0.5,
+                        -0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "phone_forth",
+    "rot_tag_level": 2,
+    "position_tag": "between",
+    "rotation_tag": "phone_forth"
+}

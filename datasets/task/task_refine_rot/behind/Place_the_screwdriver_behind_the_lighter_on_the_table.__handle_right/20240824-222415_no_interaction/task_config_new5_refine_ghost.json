@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "lighter",
+        "bowl",
+        "SD card",
+        "screwdriver"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/b640aa4990b64db9ab3d868c6f49820e/material_2.urdf",
+        "objaverse_rescale/bdd36c94f3f74f22b02b8a069c8d97b7/material_2.urdf",
+        "objaverse_rescale/02f7f045679d402da9b9f280030821d4/material_2.urdf",
+        "ycb_16k_backup/043_phillips_screwdriver_google_16k/043_phillips_screwdriver_google_16k.urdf"
+    ],
+    "target_obj_name": "screwdriver",
+    "instruction": "Place the screwdriver behind the lighter on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.5831997158626165,
+            -0.02226387841094026,
+            0.9247650649199,
+            0.00013597990988573535,
+            0.0052271530897409334,
+            -0.17159383473473142,
+            0.9851539038450133,
+            0.00024933452368713915,
+            0.019501877948641777,
+            0.013327306136488914,
+            -1.143786072731018,
+            -1.0808732509613037,
+            0.14518560469150543
+        ],
+        [
+            0.48456352182807766,
+            -0.31587251763765284,
+            0.9560787313899195,
+            0.7036029318546255,
+            0.07030529105594434,
+            0.07031712793651619,
+            0.7036018631682787,
+            -0.0020467224530875683,
+            4.430969420354813e-05,
+            -0.00097707100212574,
+            -0.0039688097313046455,
+            -0.042170535773038864,
+            0.006729993969202042
+        ],
+        [
+            0.4794458576887313,
+            0.24219471533823436,
+            0.8983761279786195,
+            0.6660128431401484,
+            0.23646741163496082,
+            -0.23743697959802848,
+            -0.6664335951363825,
+            -0.0033578870352357626,
+            -0.0012384688016027212,
+            0.033560264855623245,
+            0.8693334460258484,
+            -0.3459630012512207,
+            0.11388184130191803
+        ],
+        [
+            0.5076735193619389,
+            0.30781224101214094,
+            0.9413000791219057,
+            -0.817867512170874,
+            -0.3311033563178193,
+            -0.051268832102502604,
+            0.4677978268711242,
+            0.001794574549421668,
+            -0.006168316584080458,
+            0.000829290715046227,
+            0.3853937089443207,
+            0.15985408425331116,
+            0.09582354128360748
+        ]
+    ],
+    "position_instruction": "Place the screwdriver behind the lighter on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "b640aa4990b64db9ab3d868c6f49820e",
+        "bdd36c94f3f74f22b02b8a069c8d97b7",
+        "02f7f045679d402da9b9f280030821d4",
+        "043"
+    ],
+    "target_obj_code": "043",
+    "anno_target": {
+        "category": "screwdriver",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.8475578427314758,
+                        0.530703067779541
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "handle_right"
+}

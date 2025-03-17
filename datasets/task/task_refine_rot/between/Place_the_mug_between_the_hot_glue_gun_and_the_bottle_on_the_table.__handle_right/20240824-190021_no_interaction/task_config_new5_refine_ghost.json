@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "hot glue gun",
+        "bottle",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/5ceec13e87774982afe825e7e74a0ce1/material_2.urdf",
+        "objaverse_rescale/8c0f8088a5d546c886d1b07e3f4eafae/material_2.urdf",
+        "ycb_16k_backup/025_mug_google_16k/025_mug_google_16k.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug between the hot glue gun and the bottle on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6331440794849965,
+            0.03473041724056616,
+            0.9307063492675853,
+            -0.03027270371045083,
+            -0.061883255851325314,
+            0.04828612899533332,
+            0.9964549542262032,
+            -0.0007575048366561532,
+            -0.0021320367231965065,
+            -0.0009724335977807641,
+            0.10187497735023499,
+            0.0018481484148651361,
+            -0.001567286904901266
+        ],
+        [
+            0.7015830076854874,
+            -0.11565561541645594,
+            0.929660934868193,
+            0.15291171363553027,
+            0.6440400059164156,
+            -0.16334619505643744,
+            0.7315384468179467,
+            -0.0008525876910425723,
+            0.00011643248581094667,
+            -0.0001958033535629511,
+            -0.00984850712120533,
+            -0.025456000119447708,
+            -0.0013154075713828206
+        ],
+        [
+            0.5110060382076702,
+            0.06124896620256468,
+            0.9056964289404718,
+            -0.022541374736340065,
+            -0.03877477895838221,
+            0.11832241040326293,
+            0.9919617987292073,
+            -9.809478797251359e-05,
+            -0.001245638239197433,
+            -0.0007403800846077502,
+            0.040588103234767914,
+            -0.00691396975889802,
+            -0.007536944467574358
+        ]
+    ],
+    "position_instruction": "Place the mug between the hot glue gun and the bottle on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "5ceec13e87774982afe825e7e74a0ce1",
+        "8c0f8088a5d546c886d1b07e3f4eafae",
+        "025"
+    ],
+    "target_obj_code": "025",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_right"
+}

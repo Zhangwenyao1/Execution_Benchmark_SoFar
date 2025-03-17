@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "power drill",
+        "tape measure",
+        "pear"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-d_cups_google_16k/065-d_cups_google_16k.urdf",
+        "ycb_16k_backup/035_power_drill_google_16k/035_power_drill_google_16k.urdf",
+        "objaverse_rescale/1574b13827734d54b6d9d86be8be71d1/material_2.urdf",
+        "objaverse_rescale/f9ac5185507b4d0dbc744941e9055b96/material_2.urdf"
+    ],
+    "target_obj_name": "pear",
+    "instruction": "Place the pear to the right of the cup on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.3341514359414689,
+            -0.058535137378788064,
+            0.9005994740588469,
+            0.0005776491540308473,
+            -0.0011821351876067357,
+            -0.07258594875689402,
+            0.9973612930733348,
+            0.007356854155659676,
+            -0.001124836504459381,
+            -0.006966610439121723,
+            -0.003670987905934453,
+            0.19906224310398102,
+            -0.013633500784635544
+        ],
+        [
+            0.40585026791605683,
+            0.1997865609033143,
+            0.9126122330246443,
+            -0.03913403108250294,
+            -0.029842370832587145,
+            0.0041101920871880184,
+            0.9987797889601747,
+            0.0003538829041644931,
+            -3.835300594801083e-05,
+            0.0004945156397297978,
+            0.0007931701838970184,
+            0.012782379984855652,
+            0.00010451160778757185
+        ],
+        [
+            0.5072069495297692,
+            -0.05962059863871834,
+            0.965190576587662,
+            -0.4755919169346808,
+            -0.05438718370944648,
+            0.033119940102817096,
+            0.8773582121130087,
+            -0.0001042704243445769,
+            -0.004109525587409735,
+            0.000579626124817878,
+            0.07987286895513535,
+            0.0023359789047390223,
+            -0.035522282123565674
+        ],
+        [
+            0.31384383778003283,
+            -0.009446124148790109,
+            0.9342107699354935,
+            -0.159019385371557,
+            0.006964503876630144,
+            0.08345961713825102,
+            0.9837168408993213,
+            0.002349067712202668,
+            -0.0007231775089167058,
+            -0.000793083047028631,
+            0.017345266416668892,
+            0.049289509654045105,
+            0.021403837949037552
+        ]
+    ],
+    "position_instruction": "Place the pear to the right of the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "065-d",
+        "035",
+        "1574b13827734d54b6d9d86be8be71d1",
+        "f9ac5185507b4d0dbc744941e9055b96"
+    ],
+    "target_obj_code": "f9ac5185507b4d0dbc744941e9055b96",
+    "anno_target": {
+        "category": "pear",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.710725724697113,
+                        0.05059582740068436,
+                        -0.04982345923781395,
+                        0.6998761892318726
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upright"
+}

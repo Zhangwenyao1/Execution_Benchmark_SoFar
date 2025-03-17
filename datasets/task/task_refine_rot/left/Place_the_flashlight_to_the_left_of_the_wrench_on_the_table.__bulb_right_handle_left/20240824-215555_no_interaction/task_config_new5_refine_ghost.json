@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "wrench",
+        "toy",
+        "flashlight"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/8a6cb4f7b0004f53830e270dc6e1ff1d/material_2.urdf",
+        "ycb_16k_backup/073-g_lego_duplo_google_16k/073-g_lego_duplo_google_16k.urdf",
+        "objaverse_rescale/123a79642c2646d8b315576828fea84a/material_2.urdf"
+    ],
+    "target_obj_name": "flashlight",
+    "instruction": "Place the flashlight to the left of the wrench on the table. We also need to specify the rotation of the object after placement:  the flashlight is lying on the table(not standing up), with its bulb side on the right (oriented towards right) and its handle on the left.",
+    "init_obj_pos": [
+        [
+            0.6127898949763679,
+            0.20144239863236563,
+            0.9020458491453821,
+            0.2501043086202571,
+            -0.6634563520647228,
+            0.24881924813488313,
+            0.6598200402171387,
+            0.004104026593267918,
+            0.0028603009413927794,
+            0.025338610634207726,
+            -1.4889588356018066,
+            1.9526305198669434,
+            0.03172832354903221
+        ],
+        [
+            0.6242006985565269,
+            -0.7903910652257052,
+            0.03989540709594974,
+            0.30279969608307367,
+            -0.4630160189460059,
+            0.39111488682216616,
+            0.735498236270811,
+            0.005457010585814714,
+            0.0019594780169427395,
+            -0.0009757710504345596,
+            -0.03316769376397133,
+            0.07765916734933853,
+            -0.06826817244291306
+        ],
+        [
+            0.6423898686967151,
+            -0.21531895259520115,
+            0.9685996713471863,
+            0.5693234223418288,
+            0.1296092230131059,
+            -0.7449213918037231,
+            0.3227451163319586,
+            0.0014118170365691185,
+            0.005173748359084129,
+            -0.0022587531711906195,
+            -0.6666228175163269,
+            -0.0830649584531784,
+            0.5185670852661133
+        ]
+    ],
+    "position_instruction": "Place the flashlight to the left of the wrench on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the flashlight is lying on the table(not standing up), with its bulb side on the right (oriented towards right) and its handle on the left.",
+    "rotation_instruction_label": "bulb_right_handle_left",
+    "obj_codes": [
+        "8a6cb4f7b0004f53830e270dc6e1ff1d",
+        "073-g",
+        "123a79642c2646d8b315576828fea84a"
+    ],
+    "target_obj_code": "123a79642c2646d8b315576828fea84a",
+    "anno_target": {
+        "category": "flashlight",
+        "annotation": {
+            " the flashlight is lying on the table(not standing up), with its bulb side on the left (oriented towards left) and its handle on the right.": {
+                "quat": [
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the flashlight is lying on the table(not standing up), with its bulb side on the right (oriented towards right) and its handle on the left.": {
+                "quat": [
+                    [
+                        3.090862321641907e-08,
+                        -0.7071068286895752,
+                        0.7071067094802856,
+                        -3.0908616110991716e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "bulb_right_handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "bulb_right_handle_left"
+}

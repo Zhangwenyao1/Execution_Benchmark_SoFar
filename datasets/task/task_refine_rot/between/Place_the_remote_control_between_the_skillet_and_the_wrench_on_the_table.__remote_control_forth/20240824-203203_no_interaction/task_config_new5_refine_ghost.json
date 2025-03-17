@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "skillet",
+        "wrench",
+        "mug",
+        "remote control"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/027_skillet_google_16k/027_skillet_google_16k.urdf",
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf",
+        "objaverse_rescale/77d41aba53e4455f9f84fa04b175dff4/material_2.urdf",
+        "objaverse_rescale/d28b249d997b46c1b42771d8ce869902/material_2.urdf"
+    ],
+    "target_obj_name": "remote control",
+    "instruction": "Place the remote control between the skillet and the wrench on the table. We also need to specify the rotation of the object after placement:  the remote control is lying flat on the tablel, and its buttons are all facing up, which means that the particular side of the remote-control that has all the buttons on it is parallel to the table plane.",
+    "init_obj_pos": [
+        [
+            0.3749563211872656,
+            0.2863652813068715,
+            0.9203335025544235,
+            0.0015191453607458897,
+            -0.08748735562522997,
+            0.09901824636347654,
+            0.9912310738118432,
+            -0.012166506610810757,
+            -0.03924277052283287,
+            -0.07913745194673538,
+            -0.17940427362918854,
+            0.8913284540176392,
+            -0.5038350224494934
+        ],
+        [
+            0.34332831839812106,
+            0.1841664022269449,
+            0.9018918864416761,
+            0.004381972983640629,
+            -0.017454754733032846,
+            -0.07770128320076479,
+            0.9968142457042509,
+            0.0012616943567991257,
+            -0.003946431912481785,
+            0.034557703882455826,
+            0.24058476090431213,
+            -0.8748257756233215,
+            0.14156973361968994
+        ],
+        [
+            0.42774716750547315,
+            -0.03318990387858404,
+            0.9745143565983927,
+            0.07180699101796456,
+            -0.5020607146399427,
+            0.10778303105322339,
+            0.8550798869539366,
+            -0.0053010727278888226,
+            0.02716740407049656,
+            -0.00507925683632493,
+            -0.3981715142726898,
+            -0.13832694292068481,
+            0.4497886896133423
+        ],
+        [
+            0.4486023126454555,
+            -0.1456155537657041,
+            0.9633188212366405,
+            0.21362057163371098,
+            0.8344281737902888,
+            0.49901658813913935,
+            0.09528021264597678,
+            0.00023003110254649073,
+            -0.008926047943532467,
+            0.02560044825077057,
+            1.077915072441101,
+            1.2296149730682373,
+            3.3423938751220703
+        ]
+    ],
+    "position_instruction": "Place the remote control between the skillet and the wrench on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the remote control is lying flat on the tablel, and its buttons are all facing up, which means that the particular side of the remote-control that has all the buttons on it is parallel to the table plane.",
+    "rotation_instruction_label": "remote_control_forth",
+    "obj_codes": [
+        "027",
+        "042",
+        "77d41aba53e4455f9f84fa04b175dff4",
+        "d28b249d997b46c1b42771d8ce869902"
+    ],
+    "target_obj_code": "d28b249d997b46c1b42771d8ce869902",
+    "anno_target": {
+        "category": "remote_control",
+        "annotation": {
+            " the remote control is lying flat on the tablel, and its buttons are all facing up, which means that the particular side of the remote-control that has all the buttons on it is parallel to the table plane.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "remote_control_forth",
+    "rot_tag_level": 2,
+    "position_tag": "between",
+    "rotation_tag": "remote_control_forth"
+}

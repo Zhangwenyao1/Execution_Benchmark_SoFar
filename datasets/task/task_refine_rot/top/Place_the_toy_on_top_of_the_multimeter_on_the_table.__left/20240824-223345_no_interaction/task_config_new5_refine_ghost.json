@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "multimeter",
+        "skillet",
+        "toy"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/79ac684e66b34554ba869bd2fc3c2653/material_2.urdf",
+        "ycb_16k_backup/027_skillet_google_16k/027_skillet_google_16k.urdf",
+        "ycb_16k_backup/072-a_toy_airplane_google_16k/072-a_toy_airplane_google_16k.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "Place the toy on top of the multimeter on the table. We also need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "init_obj_pos": [
+        [
+            0.508972525231967,
+            -0.19845204301940403,
+            0.9203809535470793,
+            0.6476299094937524,
+            0.28371518270776125,
+            0.28952415970081335,
+            0.6451797860904758,
+            0.0012743619736284018,
+            0.0015600043116137385,
+            -0.004132547415792942,
+            -0.12361326813697815,
+            0.08285623043775558,
+            0.0013390134554356337
+        ],
+        [
+            0.6624958282285536,
+            -0.14838621127878082,
+            0.9020724293961125,
+            0.01777226709283241,
+            0.012354840076224373,
+            0.0734437455096065,
+            0.9970644516251647,
+            0.00015547701332252473,
+            0.00022536248434334993,
+            -3.6435532820178196e-05,
+            -0.0010639614192768931,
+            0.0016626643482595682,
+            0.0014454314950853586
+        ],
+        [
+            0.42819150133710226,
+            0.0023641394106092848,
+            0.9001957264987875,
+            -0.0014618106610829087,
+            -7.971583529487552e-05,
+            -0.07752535855799798,
+            0.9969893056274118,
+            0.0033632887061685324,
+            -0.00024754792684689164,
+            -0.0010120519436895847,
+            0.0032593721989542246,
+            0.0441725067794323,
+            -0.0014823517994955182
+        ]
+    ],
+    "position_instruction": "Place the toy on top of the multimeter on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "rotation_instruction_label": "left",
+    "obj_codes": [
+        "79ac684e66b34554ba869bd2fc3c2653",
+        "027",
+        "072-a"
+    ],
+    "target_obj_code": "072-a",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        -0.0,
+                        0.0,
+                        -0.9992738962173462,
+                        -0.038100600242614746
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        -0.0,
+                        0.0,
+                        -0.042994238436222076,
+                        0.9990752935409546
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_left",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "left"
+}

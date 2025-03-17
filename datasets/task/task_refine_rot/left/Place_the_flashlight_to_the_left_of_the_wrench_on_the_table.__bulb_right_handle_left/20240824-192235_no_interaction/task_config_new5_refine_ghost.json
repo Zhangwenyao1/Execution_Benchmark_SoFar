@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "wrench",
+        "spoon",
+        "remote control",
+        "flashlight"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/5bf781c9fd8d4121b735503b13ba2eaf/material_2.urdf",
+        "objaverse_rescale/218768789fdd42bd95eb933046698499/material_2.urdf",
+        "objaverse_rescale/f1bbc61a42b94ee9a2976ca744f8962e/material_2.urdf",
+        "objaverse_rescale/123a79642c2646d8b315576828fea84a/material_2.urdf"
+    ],
+    "target_obj_name": "flashlight",
+    "instruction": "Place the flashlight to the left of the wrench on the table. We also need to specify the rotation of the object after placement:  the flashlight is lying on the table(not standing up), with its bulb side on the right (oriented towards right) and its handle on the left.",
+    "init_obj_pos": [
+        [
+            0.5951856385136988,
+            -0.06067320221140258,
+            0.9052945466382385,
+            -0.6628106789992523,
+            0.24851524789347418,
+            -0.23160793028371324,
+            0.6672929956163858,
+            -0.0018466307083144784,
+            0.0012662493390962481,
+            0.028680836781859398,
+            3.73701548576355,
+            -2.6929750442504883,
+            -0.21257038414478302
+        ],
+        [
+            0.2981721488354046,
+            0.23340013300664408,
+            0.9075301138982927,
+            0.010328570889020547,
+            -0.03836444382191333,
+            0.00036854267191773805,
+            0.999210365363532,
+            0.0005489675677381456,
+            -0.004317179787904024,
+            0.032259587198495865,
+            0.20901161432266235,
+            -11.972793579101562,
+            0.599613606929779
+        ],
+        [
+            0.40820800650540473,
+            0.21698029882394518,
+            0.9057240630304323,
+            -0.7070089828953777,
+            0.014406114967899264,
+            -0.01419950418868564,
+            0.7069152254956544,
+            6.73597096465528e-05,
+            -0.004084072075784206,
+            0.03287695348262787,
+            0.5722020268440247,
+            -0.6720032691955566,
+            0.13468676805496216
+        ],
+        [
+            0.48810919584977597,
+            0.02388897981453407,
+            0.9989370135344164,
+            -2.6427409965298244e-06,
+            -7.398537373049209e-06,
+            0.07571409112765216,
+            0.9971295684829483,
+            0.0004966267151758075,
+            -0.0010328037897124887,
+            -0.0002569896460045129,
+            0.006698406767100096,
+            0.008730797097086906,
+            -0.0065905507653951645
+        ]
+    ],
+    "position_instruction": "Place the flashlight to the left of the wrench on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the flashlight is lying on the table(not standing up), with its bulb side on the right (oriented towards right) and its handle on the left.",
+    "rotation_instruction_label": "bulb_right_handle_left",
+    "obj_codes": [
+        "5bf781c9fd8d4121b735503b13ba2eaf",
+        "218768789fdd42bd95eb933046698499",
+        "f1bbc61a42b94ee9a2976ca744f8962e",
+        "123a79642c2646d8b315576828fea84a"
+    ],
+    "target_obj_code": "123a79642c2646d8b315576828fea84a",
+    "anno_target": {
+        "category": "flashlight",
+        "annotation": {
+            " the flashlight is lying on the table(not standing up), with its bulb side on the left (oriented towards left) and its handle on the right.": {
+                "quat": [
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the flashlight is lying on the table(not standing up), with its bulb side on the right (oriented towards right) and its handle on the left.": {
+                "quat": [
+                    [
+                        3.090862321641907e-08,
+                        -0.7071068286895752,
+                        0.7071067094802856,
+                        -3.0908616110991716e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "bulb_right_handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "bulb_right_handle_left"
+}

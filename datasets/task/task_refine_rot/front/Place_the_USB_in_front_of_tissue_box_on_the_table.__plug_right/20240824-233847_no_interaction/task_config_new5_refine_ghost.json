@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "bottle",
+        "marker",
+        "USB"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6f8040c86eb84e7bba2cd928c0755029/material_2.urdf",
+        "ycb_16k_backup/006_mustard_bottle_google_16k/006_mustard_bottle_google_16k.urdf",
+        "ycb_16k_backup/040_large_marker_google_16k/040_large_marker_google_16k.urdf",
+        "objaverse_rescale/0a51815f3c0941ae8312fc6917173ed6/material_2.urdf"
+    ],
+    "target_obj_name": "USB",
+    "instruction": "Place the USB in front of tissue box on the table. We also need to specify the rotation of the object after placement:  the silver plug end of the USB is oriented towards right, and the larger end is on the left.",
+    "init_obj_pos": [
+        [
+            0.6434369814998911,
+            0.0025946422197161553,
+            0.9273059325874851,
+            0.012583359445248491,
+            0.0013967844123666557,
+            0.11059290943907289,
+            0.9937851460150618,
+            9.416319517185912e-05,
+            -0.0010082960361614823,
+            -7.796909630997106e-05,
+            0.02188641019165516,
+            0.0032663720194250345,
+            1.949863690242637e-05
+        ],
+        [
+            0.36178881590213813,
+            -0.12496152433129185,
+            0.9564883389532511,
+            0.6465636804480668,
+            -0.2921123826385624,
+            0.02616671309625643,
+            0.7042308330089002,
+            -0.00351722352206707,
+            0.001435062033124268,
+            -0.0006247385172173381,
+            -0.06356643885374069,
+            -0.14988106489181519,
+            -0.00020497852528933436
+        ],
+        [
+            0.3413307845658452,
+            0.16674407211113348,
+            0.8728845512440722,
+            -0.4497489943793656,
+            0.5027412928262878,
+            0.48157729013780726,
+            0.559517960538916,
+            0.011888926848769188,
+            0.00024817747180350125,
+            0.03219442069530487,
+            3.0520358085632324,
+            -0.3997343182563782,
+            1.1844451427459717
+        ],
+        [
+            0.47496324691096775,
+            0.19604559732700888,
+            0.911173860507533,
+            -0.8886194972321313,
+            0.0764977428002306,
+            0.4312836864057315,
+            -0.13600686131834086,
+            -0.0048873163759708405,
+            -0.0005675374413840473,
+            -0.0017266245558857918,
+            0.08219929039478302,
+            -0.3495934009552002,
+            -0.008809720166027546
+        ]
+    ],
+    "position_instruction": "Place the USB in front of tissue box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the silver plug end of the USB is oriented towards right, and the larger end is on the left.",
+    "rotation_instruction_label": "plug_right",
+    "obj_codes": [
+        "6f8040c86eb84e7bba2cd928c0755029",
+        "006",
+        "040",
+        "0a51815f3c0941ae8312fc6917173ed6"
+    ],
+    "target_obj_code": "0a51815f3c0941ae8312fc6917173ed6",
+    "anno_target": {
+        "category": "USB",
+        "annotation": {
+            " the silver plug end of the USB is oriented towards left, and the larger end is on the right.": {
+                "quat": [
+                    [
+                        0.3347366452217102,
+                        0.01982596144080162,
+                        -0.9307867884635925,
+                        0.14558252692222595
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the silver plug end of the USB is oriented towards right, and the larger end is on the left.": {
+                "quat": [
+                    [
+                        0.15423105657100677,
+                        0.9358363151550293,
+                        0.020968524739146233,
+                        -0.3162015974521637
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "plug_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "plug_right"
+}

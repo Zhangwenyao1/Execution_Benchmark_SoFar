@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "remote control"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/025_mug_google_16k/025_mug_google_16k.urdf",
+        "objaverse_rescale/c7ec86e7feb746489b30b4a01c2510af/material_2.urdf"
+    ],
+    "target_obj_name": "remote control",
+    "instruction": "Place the remote control to the left of the mug on the table. We also need to specify the rotation of the object after placement:  the remote control is lying flat on the tablel, and its buttons are all facing up, which means that the particular side of the remote-control that has all the buttons on it is parallel to the table plane.",
+    "init_obj_pos": [
+        [
+            0.6978868606149099,
+            -0.06594522308358222,
+            0.9004586049480311,
+            -0.0006813968757645087,
+            -0.0010956233313677418,
+            0.02990451538704295,
+            0.9995519272490438,
+            -0.0005221479223109782,
+            -0.0011439570225775242,
+            -0.0008572053047828376,
+            0.03276332840323448,
+            -0.01609259471297264,
+            -0.0020603861194103956
+        ],
+        [
+            0.6658055717593986,
+            0.15647542815224558,
+            0.9078708359220671,
+            0.7048181538177113,
+            0.05684301722087434,
+            0.05387375403504893,
+            0.7050516719137616,
+            -0.0002545803436078131,
+            0.0018902713200077415,
+            0.028756091371178627,
+            -0.399798184633255,
+            -0.6048262119293213,
+            -0.05158708244562149
+        ]
+    ],
+    "position_instruction": "Place the remote control to the left of the mug on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the remote control is lying flat on the tablel, and its buttons are all facing up, which means that the particular side of the remote-control that has all the buttons on it is parallel to the table plane.",
+    "rotation_instruction_label": "remote_control_forth",
+    "obj_codes": [
+        "025",
+        "c7ec86e7feb746489b30b4a01c2510af"
+    ],
+    "target_obj_code": "c7ec86e7feb746489b30b4a01c2510af",
+    "anno_target": {
+        "category": "remote_control",
+        "annotation": {
+            " the remote control is lying flat on the tablel, and its buttons are all facing up, which means that the particular side of the remote-control that has all the buttons on it is parallel to the table plane.": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "remote_control_forth",
+    "rot_tag_level": 2,
+    "position_tag": "left",
+    "rotation_tag": "remote_control_forth"
+}

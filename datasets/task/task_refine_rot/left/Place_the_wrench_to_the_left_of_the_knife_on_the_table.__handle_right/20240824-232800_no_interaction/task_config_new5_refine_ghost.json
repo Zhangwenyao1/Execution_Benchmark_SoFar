@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "knife",
+        "mug",
+        "wrench"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/0df75457524743ec81468c916fddb930/material_2.urdf",
+        "objaverse_rescale/ca4f9a92cc2f4ee98fe9332db41bf7f7/material_2.urdf",
+        "objaverse_rescale/19c1913ba85042938f0a87d94397c946/material_2.urdf"
+    ],
+    "target_obj_name": "wrench",
+    "instruction": "Place the wrench to the left of the knife on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.5519221812985653,
+            -0.207743247671679,
+            0.9019973826296583,
+            0.6763186150193717,
+            0.10411624072654674,
+            0.11590510589812521,
+            0.7199437101760068,
+            -0.00608661025762558,
+            0.005343607626855373,
+            0.03381357342004776,
+            -4.038240909576416,
+            -3.936145544052124,
+            -0.1898462325334549
+        ],
+        [
+            0.4489795715289769,
+            -0.1301280464506433,
+            0.961010768160338,
+            0.0946845075678445,
+            0.21844148960766954,
+            -0.12517614214274922,
+            0.9631454163743269,
+            -0.002220142399892211,
+            -0.0060029285959899426,
+            -0.0004045004607178271,
+            0.12423492968082428,
+            -0.03625816851854324,
+            0.003182400017976761
+        ],
+        [
+            0.3314615658258296,
+            0.01975923272660156,
+            0.9075134630488503,
+            0.010058673537443014,
+            0.002319434870217219,
+            0.0560452144832394,
+            0.9983748680941829,
+            -0.00041508005233481526,
+            0.0007063823286443949,
+            0.028300367295742035,
+            -0.1425170600414276,
+            3.585550308227539,
+            0.21053096652030945
+        ]
+    ],
+    "position_instruction": "Place the wrench to the left of the knife on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "0df75457524743ec81468c916fddb930",
+        "ca4f9a92cc2f4ee98fe9332db41bf7f7",
+        "19c1913ba85042938f0a87d94397c946"
+    ],
+    "target_obj_code": "19c1913ba85042938f0a87d94397c946",
+    "anno_target": {
+        "category": "wrench",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "handle_right"
+}

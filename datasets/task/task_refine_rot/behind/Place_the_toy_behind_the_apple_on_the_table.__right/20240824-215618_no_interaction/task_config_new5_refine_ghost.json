@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "apple",
+        "mug",
+        "flashlight",
+        "toy"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/fbda0b25f41f40958ea984f460e4770b/material_2.urdf",
+        "objaverse_rescale/c609327dd3a74fb597584e1b4a14a615/material_2.urdf",
+        "objaverse_rescale/123a79642c2646d8b315576828fea84a/material_2.urdf",
+        "ycb_16k_backup/072-b_toy_airplane_google_16k/072-b_toy_airplane_google_16k.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "Place the toy behind the apple on the table. We also need to specify the rotation of the object after placement: the toy is facing right, with its head oriented towards left",
+    "init_obj_pos": [
+        [
+            0.4376676296717785,
+            -0.230143115613916,
+            0.9260354949092795,
+            0.1126934185603325,
+            0.05288205085660319,
+            -0.06681525820398629,
+            0.9899693951741739,
+            0.004562729969620705,
+            0.004164557438343763,
+            -0.001815912895835936,
+            -0.07986011356115341,
+            0.08816692233085632,
+            0.0017566701862961054
+        ],
+        [
+            0.6125018264696392,
+            0.04746654146800042,
+            0.9356015921879102,
+            -0.09430080831060995,
+            -0.0025044845625658016,
+            0.026352132115801046,
+            0.9951917655617908,
+            0.003628014586865902,
+            -0.0007369247614406049,
+            -0.0007450900156982243,
+            0.01353873685002327,
+            0.06250423192977905,
+            0.0073157246224582195
+        ],
+        [
+            0.6650813694294079,
+            0.1475711561477728,
+            0.9989369720092511,
+            6.603232867925836e-06,
+            1.5188304744171501e-06,
+            0.07311099042455335,
+            0.9973238105215532,
+            0.0004899105406366289,
+            -0.0010327129857614636,
+            -0.0002592272649053484,
+            0.006644072942435741,
+            0.008579622022807598,
+            -0.006648897659033537
+        ],
+        [
+            0.5711656621437615,
+            -0.16252477080849564,
+            0.9001521787208846,
+            -7.238337865319338e-05,
+            -0.00030411005368120777,
+            0.04654617021325711,
+            0.9989160907284448,
+            -0.0006884034955874085,
+            -0.002030900912359357,
+            -0.0003562655474524945,
+            0.030235234647989273,
+            0.011496485210955143,
+            -0.0029701776802539825
+        ]
+    ],
+    "position_instruction": "Place the toy behind the apple on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement: the toy is facing right, with its head oriented towards left",
+    "rotation_instruction_label": "right",
+    "obj_codes": [
+        "fbda0b25f41f40958ea984f460e4770b",
+        "c609327dd3a74fb597584e1b4a14a615",
+        "123a79642c2646d8b315576828fea84a",
+        "072-b"
+    ],
+    "target_obj_code": "072-b",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "right"
+}

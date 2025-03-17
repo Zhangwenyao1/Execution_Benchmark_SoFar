@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "mug",
+        "glasses",
+        "mouse"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-a_cups_google_16k/065-a_cups_google_16k.urdf",
+        "objaverse_rescale/e5e87ddbf3f6470384bef58431351e2a/material_2.urdf",
+        "objaverse_rescale/f632e59e1b4d4dd1b5889c3f24f5da78/material_2.urdf",
+        "objaverse_rescale/969b0d9d99a8468898753fdcd219f883/material_2.urdf"
+    ],
+    "target_obj_name": "mouse",
+    "instruction": "Place the mouse at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.6369405552757026,
+            -0.16569002142315298,
+            0.9011684843285578,
+            0.002598014344411387,
+            -0.005201917650797662,
+            0.026712755107191857,
+            0.9996262396960187,
+            -0.0022792655508965254,
+            -0.004121565259993076,
+            0.010347729548811913,
+            -0.37440025806427,
+            -0.7846825122833252,
+            1.6433134078979492
+        ],
+        [
+            0.42393659186270977,
+            0.20390848523529045,
+            0.9385299075089135,
+            0.42645490171140293,
+            0.5640345707246253,
+            -0.5640435124745409,
+            -0.42644593545863363,
+            0.0012559053720906377,
+            -0.0031083927024155855,
+            -8.86951747816056e-05,
+            0.043037015944719315,
+            0.017607126384973526,
+            -0.0035443378146737814
+        ],
+        [
+            0.6341997393451894,
+            0.28163567202819056,
+            0.9244103964476258,
+            0.6532605625339911,
+            0.06879382058934867,
+            -0.0789658641049431,
+            -0.7498549459679885,
+            -0.0038255597464740276,
+            0.003504252526909113,
+            0.029453570023179054,
+            0.6544904112815857,
+            0.46225354075431824,
+            -0.5335474014282227
+        ],
+        [
+            0.6463401814878729,
+            -0.07902570762534988,
+            0.9208165633720214,
+            -0.4789169619226071,
+            -0.4209435185998277,
+            0.3982877656136569,
+            0.6594027248154933,
+            0.0030742438975721598,
+            0.00478912191465497,
+            -0.00047480821376666427,
+            -0.03893296793103218,
+            0.23111745715141296,
+            -0.05599832534790039
+        ]
+    ],
+    "position_instruction": "Place the mouse at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "065-a",
+        "e5e87ddbf3f6470384bef58431351e2a",
+        "f632e59e1b4d4dd1b5889c3f24f5da78",
+        "969b0d9d99a8468898753fdcd219f883"
+    ],
+    "target_obj_code": "969b0d9d99a8468898753fdcd219f883",
+    "anno_target": {
+        "category": "mouse",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "center",
+    "rotation_tag": "upright"
+}

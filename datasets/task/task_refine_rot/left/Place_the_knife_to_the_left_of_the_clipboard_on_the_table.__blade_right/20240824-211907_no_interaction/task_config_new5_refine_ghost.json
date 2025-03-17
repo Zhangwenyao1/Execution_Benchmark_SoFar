@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "clipboard",
+        "mug",
+        "knife"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/b31c69728a414e639eef2fccd1c3dd75/material_2.urdf",
+        "objaverse_rescale/b8478cea51454555b90de0fe6ba7ba83/material_2.urdf",
+        "ycb_16k_backup/032_knife_google_16k/032_knife_google_16k.urdf"
+    ],
+    "target_obj_name": "knife",
+    "instruction": "Place the knife to the left of the clipboard on the table. We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.4452793057263384,
+            0.010627546921790923,
+            0.9014578173865241,
+            -0.711458879589816,
+            0.06234183324986219,
+            -0.07365635038078396,
+            0.6960707582770819,
+            -0.0011127025354653597,
+            0.0004710359498858452,
+            -0.007035424467176199,
+            0.07527447491884232,
+            -0.019139030948281288,
+            -0.017134513705968857
+        ],
+        [
+            0.3019543742470627,
+            0.23809556925682152,
+            0.9653322453226576,
+            0.004805468440521067,
+            -0.2283226663328764,
+            0.042528436257938125,
+            0.9726443335676037,
+            -5.074638465885073e-05,
+            -5.18621745868586e-05,
+            -0.00020113258506171405,
+            -0.0002644298947416246,
+            0.0007712193764746189,
+            -0.0002803181123454124
+        ],
+        [
+            0.3160446679848546,
+            0.09011545143320832,
+            0.9169745171190923,
+            0.2414312534851972,
+            0.0387818115765391,
+            0.08639093982739879,
+            0.965786480774683,
+            0.003795078257098794,
+            0.0007069585844874382,
+            0.0332721546292305,
+            -13.346128463745117,
+            -1.962152123451233,
+            -1.0180145502090454
+        ]
+    ],
+    "position_instruction": "Place the knife to the left of the clipboard on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blade_right",
+    "obj_codes": [
+        "b31c69728a414e639eef2fccd1c3dd75",
+        "b8478cea51454555b90de0fe6ba7ba83",
+        "032"
+    ],
+    "target_obj_code": "032",
+    "anno_target": {
+        "category": "knife",
+        "annotation": {
+            " the blade of the knife is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        -0.010130898095667362,
+                        0.010130898095667362,
+                        0.707034170627594,
+                        0.707034170627594
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blade of the knife is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        -0.010140104219317436,
+                        -0.010121682658791542,
+                        0.7076767086982727,
+                        -0.7063910365104675
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blade_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "blade_right"
+}

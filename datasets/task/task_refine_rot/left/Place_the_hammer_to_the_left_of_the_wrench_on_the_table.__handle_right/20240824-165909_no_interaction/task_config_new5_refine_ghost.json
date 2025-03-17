@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "wrench",
+        "screwdriver",
+        "remote control",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf",
+        "ycb_16k_backup/044_flat_screwdriver_google_16k/044_flat_screwdriver_google_16k.urdf",
+        "objaverse_rescale/89dcd45ac1f04680b76b709357a3dba3/material_2.urdf",
+        "objaverse_rescale/6d155e8051294915813e0c156e3cd6de/material_2.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer to the left of the wrench on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.31269084959802707,
+            -0.0855907248275602,
+            0.9022940946802476,
+            0.00878843596241599,
+            -0.020490205021541263,
+            -0.06578445719300505,
+            0.9975847433092251,
+            0.0018625784432515502,
+            -0.0029182815924286842,
+            0.03431300073862076,
+            0.2743200957775116,
+            -0.48338818550109863,
+            0.2136131227016449
+        ],
+        [
+            0.681819989616629,
+            0.03352827271033493,
+            0.9005371256553685,
+            0.012832822144008214,
+            -0.01206526149334108,
+            -0.10725212498051283,
+            0.9940758169415855,
+            -0.0018528306391090155,
+            -7.910010026535019e-05,
+            -0.0014094427460804582,
+            0.03760027512907982,
+            -0.058252930641174316,
+            0.0033935578539967537
+        ],
+        [
+            0.3293058627009948,
+            -0.1943174590735539,
+            0.9487382458025823,
+            -0.4530895628683991,
+            -0.2849411322371607,
+            -0.06813195728633825,
+            0.8419480005175266,
+            -0.0013755947584286332,
+            -0.00044946244452148676,
+            0.03581441938877106,
+            0.18017488718032837,
+            -0.1746867150068283,
+            0.03780638426542282
+        ],
+        [
+            0.4652685469111952,
+            0.015724645692298485,
+            0.9357931511458004,
+            0.07677374373535482,
+            -0.050829955061771036,
+            0.2344473748228827,
+            0.9677585113962753,
+            -0.0010242521530017257,
+            0.0025301866699010134,
+            0.009116926230490208,
+            -0.005682704038918018,
+            0.06970426440238953,
+            -0.03457615152001381
+        ]
+    ],
+    "position_instruction": "Place the hammer to the left of the wrench on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "042",
+        "044",
+        "89dcd45ac1f04680b76b709357a3dba3",
+        "6d155e8051294915813e0c156e3cd6de"
+    ],
+    "target_obj_code": "6d155e8051294915813e0c156e3cd6de",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "handle_right"
+}

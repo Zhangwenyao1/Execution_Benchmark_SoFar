@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "book",
+        "toilet paper roll",
+        "remote control",
+        "bottle"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/b2d30398ba3741da9f9aef2319ee2b8b/material_2.urdf",
+        "objaverse_rescale/7ca7ebcfad964498b49af73be442acf9/material_2.urdf",
+        "objaverse_rescale/f1bbc61a42b94ee9a2976ca744f8962e/material_2.urdf",
+        "objaverse_rescale/8c0f8088a5d546c886d1b07e3f4eafae/material_2.urdf"
+    ],
+    "target_obj_name": "bottle",
+    "instruction": "Place the bottle behind the book on the table. We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.",
+    "init_obj_pos": [
+        [
+            0.6086888104773049,
+            -0.2466720136157533,
+            0.9163609143883102,
+            9.125526623717837e-05,
+            -8.348728444286261e-05,
+            -0.10464037083899824,
+            0.994510119351748,
+            -0.0003465828485786915,
+            -0.000346469838405028,
+            -5.485775909619406e-05,
+            0.0014318457106128335,
+            -0.0006740131066180766,
+            0.00017021260282490402
+        ],
+        [
+            0.43799607021059145,
+            0.20782685153815197,
+            0.9457632061237364,
+            0.036985077199323965,
+            -0.4699188248259313,
+            0.06919852765607358,
+            0.8792155400747922,
+            0.0024098707363009453,
+            -0.00024321726232301444,
+            5.216258796281181e-05,
+            0.003170955693349242,
+            0.03292760252952576,
+            -0.0006579117034561932
+        ],
+        [
+            0.6934290223458607,
+            -0.26130510985644845,
+            0.9386172251956759,
+            -0.40342600082994656,
+            0.5808318470135795,
+            -0.5803488403855241,
+            0.40382799656825075,
+            0.0019391889218240976,
+            -0.000301734748063609,
+            0.032208774238824844,
+            0.22935359179973602,
+            0.47937843203544617,
+            -0.008534764871001244
+        ],
+        [
+            0.4572661798381188,
+            -0.1970477115936722,
+            0.9293175107589206,
+            -0.08841477495196463,
+            0.7833418814998213,
+            0.07508290421009339,
+            0.6106724832132954,
+            0.002094426192343235,
+            0.0006667153793387115,
+            -0.00032134423963725567,
+            -0.02413569763302803,
+            0.10831848531961441,
+            0.0006068685906939209
+        ]
+    ],
+    "position_instruction": "Place the bottle behind the book on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.",
+    "rotation_instruction_label": "cap_right_bottom_left",
+    "obj_codes": [
+        "b2d30398ba3741da9f9aef2319ee2b8b",
+        "7ca7ebcfad964498b49af73be442acf9",
+        "f1bbc61a42b94ee9a2976ca744f8962e",
+        "8c0f8088a5d546c886d1b07e3f4eafae"
+    ],
+    "target_obj_code": "8c0f8088a5d546c886d1b07e3f4eafae",
+    "anno_target": {
+        "category": "bottle",
+        "annotation": {
+            " the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "cap_right_bottom_left",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "cap_right_bottom_left"
+}

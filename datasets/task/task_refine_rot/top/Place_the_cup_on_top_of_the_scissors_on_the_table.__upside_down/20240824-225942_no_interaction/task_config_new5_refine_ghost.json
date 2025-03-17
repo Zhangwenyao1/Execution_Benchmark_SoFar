@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "scissors",
+        "pen",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/2b1120c4b517409184413ed709c57a66/material_2.urdf",
+        "objaverse_rescale/fbeb7c776372466daffa619106e0b2e0/material_2.urdf",
+        "ycb_16k_backup/065-d_cups_google_16k/065-d_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup on top of the scissors on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6271625129791035,
+            0.01971198156591656,
+            0.9044826521047672,
+            -0.18177721031355634,
+            0.9833208514127411,
+            -0.002233871490355232,
+            0.005670873451896765,
+            0.019066661596298218,
+            0.00556256202980876,
+            0.01960722543299198,
+            0.17654362320899963,
+            -1.0074424743652344,
+            -0.8552557826042175
+        ],
+        [
+            0.6514005189714003,
+            0.16890319154619213,
+            0.9072071352950969,
+            -0.1408658675817922,
+            -0.007781849799740311,
+            0.1202341371149156,
+            0.9826698338894674,
+            -0.004254432860761881,
+            0.00020869667059741914,
+            0.030503738671541214,
+            -4.83320951461792,
+            -0.9301607608795166,
+            0.4065019488334656
+        ],
+        [
+            0.36109651751190686,
+            0.09652686759660244,
+            0.9006099053947723,
+            0.0008416420193442428,
+            -0.0007375714382751032,
+            0.04317066761839158,
+            0.9990670853773868,
+            0.006874660961329937,
+            0.0006204309174790978,
+            -0.007286603096872568,
+            -0.0593048520386219,
+            0.20104536414146423,
+            -0.005043028853833675
+        ]
+    ],
+    "position_instruction": "Place the cup on top of the scissors on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "2b1120c4b517409184413ed709c57a66",
+        "fbeb7c776372466daffa619106e0b2e0",
+        "065-d"
+    ],
+    "target_obj_code": "065-d",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "top",
+    "rotation_tag": "upside_down"
+}

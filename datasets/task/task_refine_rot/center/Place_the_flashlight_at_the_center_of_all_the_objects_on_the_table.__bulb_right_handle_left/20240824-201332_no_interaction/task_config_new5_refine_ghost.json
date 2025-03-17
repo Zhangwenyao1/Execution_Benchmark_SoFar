@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "shoe",
+        "mug",
+        "pen",
+        "flashlight"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/d5a5f0a954f94bcea3168329d1605fe9/material_2.urdf",
+        "objaverse_rescale/9321c45cb9cf459f9f803507d3a11fb3/material_2.urdf",
+        "objaverse_rescale/f126e15c0f904fccbd76f9348baea12c/material_2.urdf",
+        "objaverse_rescale/123a79642c2646d8b315576828fea84a/material_2.urdf"
+    ],
+    "target_obj_name": "flashlight",
+    "instruction": "Place the flashlight at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the flashlight is lying on the table(not standing up), with its bulb side on the right (oriented towards right) and its handle on the left.",
+    "init_obj_pos": [
+        [
+            0.3470092926914048,
+            -0.14867529340122407,
+            0.9322916741000571,
+            -0.34155300593422694,
+            -0.5630859426424605,
+            -0.28480003373913026,
+            0.6965376559224458,
+            -0.0012390189804136753,
+            -0.004889780189841986,
+            0.00030829093884676695,
+            0.12040554732084274,
+            -0.03706284984946251,
+            0.03550838306546211
+        ],
+        [
+            0.3924209368427781,
+            0.03772078760944739,
+            0.9636317206256866,
+            0.08772097814767035,
+            -0.23813349234905234,
+            0.04202113837928949,
+            0.9663496746746335,
+            -0.0009138969471678138,
+            0.0011903721606358886,
+            -0.0008591167279519141,
+            -0.02302294224500656,
+            -0.013991477899253368,
+            0.007483195513486862
+        ],
+        [
+            0.5341073039970617,
+            0.30035521449438113,
+            0.9070418201824955,
+            -0.4740520838569762,
+            -0.5268564135430368,
+            -0.2882803655424981,
+            0.6438877014993447,
+            -0.001516898744739592,
+            -0.003122087102383375,
+            0.03114740177989006,
+            1.551885724067688,
+            -6.574620723724365,
+            0.47467467188835144
+        ],
+        [
+            0.5318021376124915,
+            0.19131046056469883,
+            0.9989367763795821,
+            -6.591158759166549e-06,
+            -1.8233623526552981e-06,
+            0.06218286279336582,
+            0.9980647732126677,
+            0.0004553833859972656,
+            -0.0010423639323562384,
+            -0.00025845516938716173,
+            0.0066482205875217915,
+            0.0078208576887846,
+            -0.006893971003592014
+        ]
+    ],
+    "position_instruction": "Place the flashlight at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the flashlight is lying on the table(not standing up), with its bulb side on the right (oriented towards right) and its handle on the left.",
+    "rotation_instruction_label": "bulb_right_handle_left",
+    "obj_codes": [
+        "d5a5f0a954f94bcea3168329d1605fe9",
+        "9321c45cb9cf459f9f803507d3a11fb3",
+        "f126e15c0f904fccbd76f9348baea12c",
+        "123a79642c2646d8b315576828fea84a"
+    ],
+    "target_obj_code": "123a79642c2646d8b315576828fea84a",
+    "anno_target": {
+        "category": "flashlight",
+        "annotation": {
+            " the flashlight is lying on the table(not standing up), with its bulb side on the left (oriented towards left) and its handle on the right.": {
+                "quat": [
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the flashlight is lying on the table(not standing up), with its bulb side on the right (oriented towards right) and its handle on the left.": {
+                "quat": [
+                    [
+                        3.090862321641907e-08,
+                        -0.7071068286895752,
+                        0.7071067094802856,
+                        -3.0908616110991716e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "bulb_right_handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "center",
+    "rotation_tag": "bulb_right_handle_left"
+}

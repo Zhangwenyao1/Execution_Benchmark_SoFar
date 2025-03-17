@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "pear",
+        "pen",
+        "tissue box",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f3dd3064db4f4e8880344425970cecad/material_2.urdf",
+        "objaverse_rescale/f126e15c0f904fccbd76f9348baea12c/material_2.urdf",
+        "objaverse_rescale/6e9e9135bb5747f58d388e1e92477f02/material_2.urdf",
+        "objaverse_rescale/c609327dd3a74fb597584e1b4a14a615/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug to the right of the pear on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "init_obj_pos": [
+        [
+            0.3202489169955213,
+            0.06558280664717067,
+            0.9343877125108389,
+            -0.17243057906908474,
+            -0.0191624557118062,
+            0.11618259113928417,
+            0.9779581285562057,
+            -0.0020711920224130154,
+            0.0013049988774582744,
+            -0.00024173659039661288,
+            -0.02897491678595543,
+            -0.05789302662014961,
+            -0.05663647875189781
+        ],
+        [
+            0.5876422305563942,
+            -0.024364561224011712,
+            0.9070396083268647,
+            -0.4315682899804271,
+            -0.5622581423209825,
+            -0.23840840910411398,
+            0.6639096496855388,
+            -0.000505749718286097,
+            3.545392246451229e-05,
+            0.03266008943319321,
+            0.22498250007629395,
+            -2.3397178649902344,
+            0.16037076711654663
+        ],
+        [
+            0.6089121888588728,
+            0.18397709334929935,
+            0.9317406586402881,
+            0.013590602799875787,
+            0.05231117096283272,
+            -0.07707525710982953,
+            0.9955592607421653,
+            -0.0014365497045218945,
+            -0.003385266987606883,
+            -0.0005290064727887511,
+            0.07895722985267639,
+            -0.029340635985136032,
+            0.00039798091165721416
+        ],
+        [
+            0.6572853556698276,
+            -0.17623237808421915,
+            0.9356015769747623,
+            -0.09433467615002,
+            -3.939498720649392e-05,
+            0.00041445782162895803,
+            0.9955404539989426,
+            0.003641674527898431,
+            -0.0009328812011517584,
+            -0.0007549505680799484,
+            0.017934128642082214,
+            0.06290016323328018,
+            0.026083732023835182
+        ]
+    ],
+    "position_instruction": "Place the mug to the right of the pear on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "rotation_instruction_label": "handle_left",
+    "obj_codes": [
+        "f3dd3064db4f4e8880344425970cecad",
+        "f126e15c0f904fccbd76f9348baea12c",
+        "6e9e9135bb5747f58d388e1e92477f02",
+        "c609327dd3a74fb597584e1b4a14a615"
+    ],
+    "target_obj_code": "c609327dd3a74fb597584e1b4a14a615",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).": {
+                "quat": [
+                    [
+                        0.5067986845970154,
+                        -0.4931075870990753,
+                        -0.4931075870990753,
+                        0.5067986845970154
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "handle_left"
+}

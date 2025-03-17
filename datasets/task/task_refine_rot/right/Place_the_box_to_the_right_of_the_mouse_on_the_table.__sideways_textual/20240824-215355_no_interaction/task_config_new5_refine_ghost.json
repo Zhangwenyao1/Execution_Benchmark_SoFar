@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "mouse",
+        "USB",
+        "box"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f017c73a85484b6da3a66ec1cda70c71/material_2.urdf",
+        "objaverse_rescale/b1098389cc3b460bb1f1ce558d4b0764/material_2.urdf",
+        "ycb_16k_backup/008_pudding_box_google_16k/008_pudding_box_google_16k.urdf"
+    ],
+    "target_obj_name": "box",
+    "instruction": "Place the box to the right of the mouse on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.",
+    "init_obj_pos": [
+        [
+            0.6429080136400446,
+            0.2193600434311126,
+            0.9160664077781469,
+            -0.5921943635384123,
+            -0.2933474700078975,
+            0.42903382529125783,
+            0.615778429623229,
+            -0.00027575314743444324,
+            -0.0025117897894233465,
+            -0.0006488013896159828,
+            0.14292193949222565,
+            -0.05156650021672249,
+            0.10983674228191376
+        ],
+        [
+            0.46470830055731377,
+            -0.22781801160950568,
+            0.9250261398348817,
+            -0.024467365361384327,
+            0.0017241768508768622,
+            -0.0700587531564841,
+            0.9972412678748396,
+            -0.0020516442600637674,
+            0.0013396017020568252,
+            -0.002258260501548648,
+            -0.026598934084177017,
+            -0.079652339220047,
+            0.009977049194276333
+        ],
+        [
+            0.3072123590744021,
+            0.08821382007689131,
+            0.9003419815145198,
+            -0.006239171050030075,
+            0.0022867600571222476,
+            -0.04451334643298479,
+            0.9989866893319378,
+            0.0003751300973817706,
+            -0.0021280082874000072,
+            -0.0012247946579009295,
+            0.08177238702774048,
+            0.04686706140637398,
+            -0.031873952597379684
+        ]
+    ],
+    "position_instruction": "Place the box to the right of the mouse on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.",
+    "rotation_instruction_label": "sideways_textual",
+    "obj_codes": [
+        "f017c73a85484b6da3a66ec1cda70c71",
+        "b1098389cc3b460bb1f1ce558d4b0764",
+        "008"
+    ],
+    "target_obj_code": "008",
+    "anno_target": {
+        "category": "box",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            },
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            },
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways_textual",
+    "rot_tag_level": 2,
+    "position_tag": "right",
+    "rotation_tag": "sideways_textual"
+}

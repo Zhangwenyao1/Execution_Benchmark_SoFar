@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "spatula",
+        "keyboard",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/81b129ecf5724f63b5b044702a3140c2/material_2.urdf",
+        "objaverse_rescale/f5080a3df6d847b693c5cca415886c61/material_2.urdf",
+        "ycb_16k_backup/065-f_cups_google_16k/065-f_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup between the spatula and the keyboard on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.5811406067293777,
+            -0.18589880006121698,
+            0.9124531562529031,
+            0.08811497061572546,
+            0.02119471315798571,
+            0.11314981451841351,
+            0.9894360290397702,
+            0.0031670157331973314,
+            0.005553681869059801,
+            0.0013052537105977535,
+            -0.6845116019248962,
+            1.0411028861999512,
+            0.20572951436042786
+        ],
+        [
+            0.41589442841386604,
+            -0.008938560674632813,
+            0.9138540638935266,
+            0.7055986179203557,
+            -0.029959418465462094,
+            -0.032309289646860855,
+            0.707240506077395,
+            0.0009282936225645244,
+            0.008799920789897442,
+            -0.0040131122805178165,
+            -0.25626999139785767,
+            -0.008795474655926228,
+            0.0387488417327404
+        ],
+        [
+            0.6797484511260111,
+            0.17614816985420853,
+            0.9003500885581005,
+            0.0005024863474530839,
+            0.00017472170009733774,
+            -0.10544744181947,
+            0.994424735208013,
+            -0.002348710549995303,
+            -0.002159473951905966,
+            -0.002015078207477927,
+            0.05186602100729942,
+            -0.06322311609983444,
+            -0.00738972332328558
+        ]
+    ],
+    "position_instruction": "Place the cup between the spatula and the keyboard on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "81b129ecf5724f63b5b044702a3140c2",
+        "f5080a3df6d847b693c5cca415886c61",
+        "065-f"
+    ],
+    "target_obj_code": "065-f",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

@@ -1,0 +1,79 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "eraser"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/b8478cea51454555b90de0fe6ba7ba83/material_2.urdf",
+        "objaverse_rescale/f0916a69ba514ecc973b44528b9dcc43/material_2.urdf"
+    ],
+    "target_obj_name": "eraser",
+    "instruction": "Place the eraser in front of mug on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.36877937353989276,
+            -0.10673819598269792,
+            0.965331616595922,
+            0.003685475848154613,
+            -0.22834093671575884,
+            0.0377339010247921,
+            0.9728427347731972,
+            -6.890561053296551e-05,
+            6.13399752182886e-05,
+            -0.00022935231390874833,
+            -0.0011349809356033802,
+            0.000783431576564908,
+            0.0005122402799315751
+        ],
+        [
+            0.5010927727991743,
+            0.04787339845241373,
+            0.9110839140270298,
+            -0.265169873132664,
+            0.662770153396987,
+            -0.6439429465275731,
+            0.27524197311879445,
+            -0.0013065241510048509,
+            0.005400892347097397,
+            0.009985246695578098,
+            -0.3011145293712616,
+            -0.0421004593372345,
+            0.06786816567182541
+        ]
+    ],
+    "position_instruction": "Place the eraser in front of mug on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "b8478cea51454555b90de0fe6ba7ba83",
+        "f0916a69ba514ecc973b44528b9dcc43"
+    ],
+    "target_obj_code": "f0916a69ba514ecc973b44528b9dcc43",
+    "anno_target": {
+        "category": "eraser",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        -0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "front",
+    "rotation_tag": "lying_flat"
+}

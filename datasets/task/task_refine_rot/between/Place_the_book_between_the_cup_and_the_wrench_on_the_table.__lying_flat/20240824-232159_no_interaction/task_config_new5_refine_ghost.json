@@ -1,0 +1,97 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "wrench",
+        "book"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-b_cups_google_16k/065-b_cups_google_16k.urdf",
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf",
+        "objaverse_rescale/b2d30398ba3741da9f9aef2319ee2b8b/material_2.urdf"
+    ],
+    "target_obj_name": "book",
+    "instruction": "Place the book between the cup and the wrench on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.4637268639094604,
+            0.127943295150261,
+            0.9006667837766635,
+            0.0005154827434923385,
+            -0.001439559989136487,
+            0.028688290655685688,
+            0.9995872367751764,
+            0.0022089530248194933,
+            0.0023211368825286627,
+            -0.007878166623413563,
+            -0.10967044532299042,
+            0.18831633031368256,
+            0.08107262849807739
+        ],
+        [
+            0.4833501529701376,
+            0.12036217660790903,
+            0.9027494564803191,
+            0.011699485338971359,
+            -0.0174583466349534,
+            -0.007676247023286951,
+            0.9997496703711467,
+            0.002272271318361163,
+            -0.004364068619906902,
+            0.0345488041639328,
+            -0.13589969277381897,
+            -0.24384036660194397,
+            0.21148106455802917
+        ],
+        [
+            0.30132347806874427,
+            0.174275295842517,
+            0.9163819133073722,
+            -0.00022465667867350265,
+            -6.505808846650368e-06,
+            -0.010835013185499918,
+            0.9999412742638047,
+            -0.0005459936219267547,
+            -0.0003033956454601139,
+            3.935406857635826e-05,
+            5.001108365831897e-05,
+            -0.0005290905828587711,
+            -0.001611950108781457
+        ]
+    ],
+    "position_instruction": "Place the book between the cup and the wrench on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "065-b",
+        "042",
+        "b2d30398ba3741da9f9aef2319ee2b8b"
+    ],
+    "target_obj_code": "b2d30398ba3741da9f9aef2319ee2b8b",
+    "anno_target": {
+        "category": "book",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        1.0,
+                        0.0,
+                        0.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "between",
+    "rotation_tag": "lying_flat"
+}

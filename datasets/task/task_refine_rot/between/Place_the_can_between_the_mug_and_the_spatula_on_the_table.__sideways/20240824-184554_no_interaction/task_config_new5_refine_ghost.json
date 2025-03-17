@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "spatula",
+        "can"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/9321c45cb9cf459f9f803507d3a11fb3/material_2.urdf",
+        "ycb_16k_backup/033_spatula_google_16k/033_spatula_google_16k.urdf",
+        "ycb_16k_backup/002_master_chef_can_google_16k/002_master_chef_can_google_16k.urdf"
+    ],
+    "target_obj_name": "can",
+    "instruction": "Place the can between the mug and the spatula on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.5553098055948862,
+            -0.15276841263061267,
+            0.9636735047704116,
+            0.06460280951911082,
+            -0.24716478744887524,
+            -0.06976002825383533,
+            0.9642974558224319,
+            0.000493669300340116,
+            0.000664643885102123,
+            -0.0008454074850305915,
+            -0.015033658593893051,
+            0.009629485197365284,
+            -0.0020786100067198277
+        ],
+        [
+            0.6712508763178592,
+            0.14243895089052086,
+            0.9004446278342103,
+            0.0010049384472810053,
+            -0.0015712611422859597,
+            0.06842385619904262,
+            0.997654598114995,
+            0.002240530913695693,
+            -0.0065705375745892525,
+            -0.009547660127282143,
+            0.45924273133277893,
+            0.17707808315753937,
+            -0.015102834440767765
+        ],
+        [
+            0.3180886564951299,
+            -0.056037491158588415,
+            0.9000917642800104,
+            -0.00014549830152593886,
+            0.00023403411167937377,
+            -0.07116131359274422,
+            0.9974647820880868,
+            0.00034632222377695143,
+            0.0008967535104602575,
+            -0.0006849458441138268,
+            -0.017392288893461227,
+            0.004648641217499971,
+            0.00022513816657010466
+        ]
+    ],
+    "position_instruction": "Place the can between the mug and the spatula on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "9321c45cb9cf459f9f803507d3a11fb3",
+        "033",
+        "002"
+    ],
+    "target_obj_code": "002",
+    "anno_target": {
+        "category": "can",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "sideways"
+}

@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "box",
+        "speaker",
+        "bowl"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/9660e0c0326b4f7386014e27717231ae/material_2.urdf",
+        "objaverse_rescale/4445f4442a884999960e7e6660459095/material_2.urdf",
+        "ycb_16k_backup/024_bowl_google_16k/024_bowl_google_16k.urdf"
+    ],
+    "target_obj_name": "bowl",
+    "instruction": "Place the bowl between the box and the speaker on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6236908184364923,
+            0.05820785999609012,
+            0.9195046551861873,
+            -6.845757926621279e-07,
+            -1.6867732753884013e-06,
+            0.08588492425904329,
+            0.9963050636134024,
+            0.0004252868820913136,
+            -0.0003592745342757553,
+            -6.530019163619727e-05,
+            0.00010866396769415587,
+            0.001850371714681387,
+            0.0005654820124618709
+        ],
+        [
+            0.35471030796488395,
+            -0.11564516150566949,
+            1.0086322764239803,
+            0.3219730385337953,
+            0.023756636868549622,
+            0.06965834024440239,
+            0.9438838383489814,
+            0.0036574159748852253,
+            -0.010439548641443253,
+            0.006569002289324999,
+            0.12003615498542786,
+            0.06712455302476883,
+            0.007704760413616896
+        ],
+        [
+            0.377000007789886,
+            -0.2853181731163462,
+            0.9498956154331287,
+            0.29237972384323674,
+            0.0317308035461208,
+            0.15262322618201637,
+            0.9435112103316331,
+            -0.008351149037480354,
+            -0.01069759763777256,
+            0.0016423796769231558,
+            0.1151723712682724,
+            0.7199655771255493,
+            1.9684032201766968
+        ]
+    ],
+    "position_instruction": "Place the bowl between the box and the speaker on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "9660e0c0326b4f7386014e27717231ae",
+        "4445f4442a884999960e7e6660459095",
+        "024"
+    ],
+    "target_obj_code": "024",
+    "anno_target": {
+        "category": "bowl",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

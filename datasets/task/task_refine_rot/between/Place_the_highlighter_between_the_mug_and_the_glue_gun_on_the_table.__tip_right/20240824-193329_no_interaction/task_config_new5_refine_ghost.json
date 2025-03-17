@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "glue gun",
+        "highlighter"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/a564a11174be455bbce4698f7da92fdf/material_2.urdf",
+        "objaverse_rescale/a1da12b81f034db894496c1ffc4be1f5/material_2.urdf",
+        "objaverse_rescale/fd058916fb8843c09b4a2e05e3ee894e/material_2.urdf"
+    ],
+    "target_obj_name": "highlighter",
+    "instruction": "Place the highlighter between the mug and the glue gun on the table. We also need to specify the rotation of the object after placement:  the marker is placed in a stable pose on the table. Its tip end is pointing towards right and its cap end is pointing towards left.",
+    "init_obj_pos": [
+        [
+            0.36793301183384325,
+            -0.24667057752525126,
+            0.9790200602456722,
+            -0.042950582397527075,
+            -0.18023214045402047,
+            0.10823661709000655,
+            0.9767069456802215,
+            -0.0066330311819911,
+            0.001604411518201232,
+            0.0013042846694588661,
+            -0.021369770169258118,
+            -0.1072956994175911,
+            0.03016672097146511
+        ],
+        [
+            0.7181597203730019,
+            0.13585514317400094,
+            0.9725054906041121,
+            -0.004961924982363072,
+            0.21607881188080497,
+            0.018689403459247165,
+            0.9761844254826996,
+            0.012680218555033207,
+            0.001108350232243538,
+            -0.00496184267103672,
+            -0.033999063074588776,
+            0.21363495290279388,
+            -0.0012809376930817962
+        ],
+        [
+            0.40454822370308496,
+            -0.23409681119540393,
+            0.9970585285686069,
+            -0.019761834009566832,
+            -0.18516133438351526,
+            -0.14435676144107717,
+            0.9718466317234105,
+            0.004486257676035166,
+            -0.008118852972984314,
+            0.00391751853749156,
+            0.2110804319381714,
+            0.04641341418027878,
+            -0.6433128714561462
+        ]
+    ],
+    "position_instruction": "Place the highlighter between the mug and the glue gun on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the marker is placed in a stable pose on the table. Its tip end is pointing towards right and its cap end is pointing towards left.",
+    "rotation_instruction_label": "tip_right",
+    "obj_codes": [
+        "a564a11174be455bbce4698f7da92fdf",
+        "a1da12b81f034db894496c1ffc4be1f5",
+        "fd058916fb8843c09b4a2e05e3ee894e"
+    ],
+    "target_obj_code": "fd058916fb8843c09b4a2e05e3ee894e",
+    "anno_target": {
+        "category": "highlighter",
+        "annotation": {
+            " the marker is placed in a stable pose on the table. Its tip(or cap) end is pointing towards left and its rear end is pointing towards right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        -3.090862321641907e-08,
+                        0.7071068286895752,
+                        0.7071067094802856,
+                        -3.0908616110991716e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the marker is placed in a stable pose on the table. Its tip(or cap) end is pointing towards right and its rear end is pointing towards left.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "tip_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "tip_right"
+}

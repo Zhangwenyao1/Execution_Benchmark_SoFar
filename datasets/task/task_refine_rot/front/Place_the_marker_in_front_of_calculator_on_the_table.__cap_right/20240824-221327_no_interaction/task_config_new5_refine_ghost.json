@@ -1,0 +1,85 @@
+{
+    "selected_obj_names": [
+        "calculator",
+        "marker"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f0b1f7c17d70489888f5ae922169c0ce/material_2.urdf",
+        "ycb_16k_backup/040_large_marker_google_16k/040_large_marker_google_16k.urdf"
+    ],
+    "target_obj_name": "marker",
+    "instruction": "Place the marker in front of calculator on the table. We also need to specify the rotation of the object after placement:  the cap of the marker is on the right(oriented towards right), while its body (the area we generally grab it) is on the left.",
+    "init_obj_pos": [
+        [
+            0.34686995511116747,
+            -0.1298713392426103,
+            0.9147770914825776,
+            0.6834537546037411,
+            0.11586860009538777,
+            0.11249069025959225,
+            0.7119067898502613,
+            -8.105860615614802e-05,
+            0.0001981287932721898,
+            -0.0007079748902469873,
+            -0.0011829226277768612,
+            -0.0050345053896307945,
+            0.0015641190111637115
+        ],
+        [
+            0.46091633168072804,
+            0.04460928589974532,
+            0.8937457612536426,
+            -0.017424060219911653,
+            0.09108410564232362,
+            0.16711787580639112,
+            0.9815659445043681,
+            0.0020680143497884274,
+            0.008595834486186504,
+            0.016302403062582016,
+            -1.7371482849121094,
+            1.8169450759887695,
+            -0.23006603121757507
+        ]
+    ],
+    "position_instruction": "Place the marker in front of calculator on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the cap of the marker is on the right(oriented towards right), while its body (the area we generally grab it) is on the left.",
+    "rotation_instruction_label": "cap_right",
+    "obj_codes": [
+        "f0b1f7c17d70489888f5ae922169c0ce",
+        "040"
+    ],
+    "target_obj_code": "040",
+    "anno_target": {
+        "category": "marker",
+        "annotation": {
+            " the cap of the marker is on the left(oriented towards left), while its body (the area we generally grab it) is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the cap of the marker is on the right(oriented towards right), while its body (the area we generally grab it) is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "cap_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "cap_right"
+}

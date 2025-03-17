@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "paperweight",
+        "mouse",
+        "clipboard",
+        "marker"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/21c10181c122474a8f72a4ad0331f185/material_2.urdf",
+        "objaverse_rescale/e51e63e374ee4c25ae3fb4a9c74bd335/material_2.urdf",
+        "objaverse_rescale/b31c69728a414e639eef2fccd1c3dd75/material_2.urdf",
+        "ycb_16k_backup/040_large_marker_google_16k/040_large_marker_google_16k.urdf"
+    ],
+    "target_obj_name": "marker",
+    "instruction": "Place the marker between the paperweight and the mouse on the table. We also need to specify the rotation of the object after placement:  the cap of the marker is on the right(oriented towards right), while its body (the area we generally grab it) is on the left.",
+    "init_obj_pos": [
+        [
+            0.6999613291647904,
+            -0.23294752156264784,
+            0.9379512675602817,
+            -0.14999680162908147,
+            0.17780287149732896,
+            -0.002571161073525619,
+            0.9725638732335707,
+            0.0024023072328418493,
+            -0.0037145442329347134,
+            -0.00046809177729301155,
+            0.10082703828811646,
+            0.06801861524581909,
+            0.012160693295300007
+        ],
+        [
+            0.4575539673776494,
+            -0.03218655280594393,
+            0.9358089896455783,
+            0.7433030569500692,
+            0.06825132959618667,
+            0.13648029408888443,
+            0.6513182408488538,
+            -0.0055710189044475555,
+            -0.006276406347751617,
+            0.014413617551326752,
+            0.3294174373149872,
+            -0.2882069945335388,
+            -0.003850623033940792
+        ],
+        [
+            0.3365299237979342,
+            -0.04169717165472479,
+            0.9219501959363701,
+            -0.6341575562822592,
+            0.024259548191335953,
+            -0.24561801795953533,
+            0.7327533400710595,
+            -0.004541174974292517,
+            -0.003727454924955964,
+            0.017094261944293976,
+            0.004361792001873255,
+            -0.18589232861995697,
+            -0.033818792551755905
+        ],
+        [
+            0.28966791707643813,
+            0.0684235520211538,
+            0.8967914045123275,
+            0.04122484365360942,
+            -0.024513395478795125,
+            -0.8474347993323103,
+            -0.5287285377095151,
+            0.001071133534424007,
+            -0.015567668713629246,
+            0.03004968725144863,
+            4.285170078277588,
+            0.5003986954689026,
+            0.07441453635692596
+        ]
+    ],
+    "position_instruction": "Place the marker between the paperweight and the mouse on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the cap of the marker is on the right(oriented towards right), while its body (the area we generally grab it) is on the left.",
+    "rotation_instruction_label": "cap_right",
+    "obj_codes": [
+        "21c10181c122474a8f72a4ad0331f185",
+        "e51e63e374ee4c25ae3fb4a9c74bd335",
+        "b31c69728a414e639eef2fccd1c3dd75",
+        "040"
+    ],
+    "target_obj_code": "040",
+    "anno_target": {
+        "category": "marker",
+        "annotation": {
+            " the cap of the marker is on the left(oriented towards left), while its body (the area we generally grab it) is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the cap of the marker is on the right(oriented towards right), while its body (the area we generally grab it) is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "cap_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "cap_right"
+}

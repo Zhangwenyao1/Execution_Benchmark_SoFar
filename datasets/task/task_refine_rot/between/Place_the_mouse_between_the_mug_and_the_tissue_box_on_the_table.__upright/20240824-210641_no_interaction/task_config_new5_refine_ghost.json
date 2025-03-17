@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "tissue box",
+        "wrench",
+        "mouse"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/025_mug_google_16k/025_mug_google_16k.urdf",
+        "objaverse_rescale/6e9e9135bb5747f58d388e1e92477f02/material_2.urdf",
+        "objaverse_rescale/8a6cb4f7b0004f53830e270dc6e1ff1d/material_2.urdf",
+        "objaverse_rescale/f017c73a85484b6da3a66ec1cda70c71/material_2.urdf"
+    ],
+    "target_obj_name": "mouse",
+    "instruction": "Place the mouse between the mug and the tissue box on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.5054455733412478,
+            -0.08026110757786153,
+            0.9004583142202108,
+            -0.000566204619080827,
+            -0.0011474696051343275,
+            0.12905035513639126,
+            0.991637216206111,
+            -9.506074275122955e-05,
+            -0.0014258393784984946,
+            -0.0010950580472126603,
+            0.044864870607852936,
+            -0.0051186541095376015,
+            -0.0023847962729632854
+        ],
+        [
+            0.6546741602722956,
+            0.1969065338070531,
+            0.9317404792676196,
+            0.016716702930372578,
+            0.051405541806001015,
+            -0.13733384865460768,
+            0.9890487531605721,
+            -0.0023083218839019537,
+            -0.00436356570571661,
+            -0.0008413367904722691,
+            0.09855066984891891,
+            -0.052124347537755966,
+            0.00018590320541989058
+        ],
+        [
+            0.5166461653843725,
+            0.0928409067661154,
+            0.9019802485490777,
+            -0.319687253508629,
+            0.6296646115151634,
+            0.320540787450386,
+            0.6313288687603748,
+            -0.0021110898815095425,
+            -0.002233574166893959,
+            0.015680551528930664,
+            -1.3283905982971191,
+            0.9856685400009155,
+            0.2332654744386673
+        ],
+        [
+            0.5840301413274127,
+            0.10610875971923178,
+            0.9160630926868297,
+            -0.6117032587336825,
+            -0.25006774819156935,
+            0.3833414401296112,
+            0.6452399436243443,
+            0.00015744485426694155,
+            0.00048585422337055206,
+            -7.701480353716761e-05,
+            -0.0355936735868454,
+            0.024700844660401344,
+            0.010062460787594318
+        ]
+    ],
+    "position_instruction": "Place the mouse between the mug and the tissue box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "025",
+        "6e9e9135bb5747f58d388e1e92477f02",
+        "8a6cb4f7b0004f53830e270dc6e1ff1d",
+        "f017c73a85484b6da3a66ec1cda70c71"
+    ],
+    "target_obj_code": "f017c73a85484b6da3a66ec1cda70c71",
+    "anno_target": {
+        "category": "mouse",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upright"
+}

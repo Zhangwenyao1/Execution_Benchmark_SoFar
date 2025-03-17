@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "power drill",
+        "calculator",
+        "pot"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/035_power_drill_google_16k/035_power_drill_google_16k.urdf",
+        "objaverse_rescale/b4bb8bd7791648fdb36c458fd9a877bf/material_2.urdf",
+        "objaverse_rescale/cba3e4df7c354d22b7913d45a28a8159/material_2.urdf"
+    ],
+    "target_obj_name": "pot",
+    "instruction": "Place the pot behind the power drill on the table. We also need to specify the rotation of the object after placement:  the pot is upright on the table with its spout pointing towards right.",
+    "init_obj_pos": [
+        [
+            0.3063653493213281,
+            0.24971584613797101,
+            0.9031184055650975,
+            -0.00021655234020607098,
+            0.0002165734048664182,
+            0.11519954738446092,
+            0.9933423229096102,
+            -6.307724106591195e-05,
+            0.0002578608982730657,
+            -0.0004402382473926991,
+            -0.008062012493610382,
+            0.0027406690642237663,
+            9.821012645261362e-05
+        ],
+        [
+            0.7530552277595748,
+            -0.26109371120382147,
+            0.9130240328271158,
+            0.6836937180971134,
+            0.18599621079853007,
+            0.184474620338622,
+            0.6811295206156134,
+            0.0005098032997921109,
+            -0.0003921808092854917,
+            -0.002250528195872903,
+            0.06767317652702332,
+            0.043180763721466064,
+            -3.6915487726219e-05
+        ],
+        [
+            0.5770141500479241,
+            -0.20856789265897527,
+            0.9375943110916863,
+            -0.18499307831930728,
+            -0.0478623915166729,
+            0.01980262866316596,
+            0.9813738372049062,
+            0.01978379487991333,
+            -0.0010022864444181323,
+            -0.0013557339552789927,
+            0.017458386719226837,
+            0.3471404016017914,
+            -0.033405911177396774
+        ]
+    ],
+    "position_instruction": "Place the pot behind the power drill on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the pot is upright on the table with its spout pointing towards right.",
+    "rotation_instruction_label": "spout_right",
+    "obj_codes": [
+        "035",
+        "b4bb8bd7791648fdb36c458fd9a877bf",
+        "cba3e4df7c354d22b7913d45a28a8159"
+    ],
+    "target_obj_code": "cba3e4df7c354d22b7913d45a28a8159",
+    "anno_target": {
+        "category": "pot",
+        "annotation": {
+            " the pot is upright on the table with its spout pointing towards left.": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            },
+            " the pot is upright on the table with its spout pointing towards right.": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "spout_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "spout_right"
+}

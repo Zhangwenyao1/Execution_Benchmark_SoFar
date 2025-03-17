@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "ladle",
+        "paperweight",
+        "scissors"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/ce27e3369587476c85a436905f1e5c00/material_2.urdf",
+        "objaverse_rescale/21c10181c122474a8f72a4ad0331f185/material_2.urdf",
+        "ycb_16k_backup/037_scissors_google_16k/037_scissors_google_16k.urdf"
+    ],
+    "target_obj_name": "scissors",
+    "instruction": "Place the scissors between the ladle and the paperweight on the table. We also need to specify the rotation of the object after placement:  the blades of the scissors are on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.28796727886584655,
+            -0.2236327562700218,
+            0.9196837113198351,
+            0.024407954070523333,
+            -0.10428543006068454,
+            0.13447571500030414,
+            0.9851117108888234,
+            0.0012912737438455224,
+            -0.013503391295671463,
+            0.016749083995819092,
+            0.8935558795928955,
+            0.21080836653709412,
+            0.003513848641887307
+        ],
+        [
+            0.5940836860448924,
+            -0.17108560326094474,
+            0.9379815566444974,
+            -0.1639196718360958,
+            0.16428224844052713,
+            0.0814814063978502,
+            0.9692793531505247,
+            0.0029842823278158903,
+            -0.003251222427934408,
+            -0.0005171246593818069,
+            0.07906517386436462,
+            0.08006840199232101,
+            -0.005804790649563074
+        ],
+        [
+            0.3791520571503925,
+            -0.09972715684639473,
+            0.9002551227982507,
+            0.0006459170116000396,
+            -0.00414199642694346,
+            0.01843783582194268,
+            0.9998212204524441,
+            -0.0005964098963886499,
+            0.01487630046904087,
+            0.004127947147935629,
+            0.20285587012767792,
+            1.8260838985443115,
+            -0.40097373723983765
+        ]
+    ],
+    "position_instruction": "Place the scissors between the ladle and the paperweight on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the blades of the scissors are on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blades_right",
+    "obj_codes": [
+        "ce27e3369587476c85a436905f1e5c00",
+        "21c10181c122474a8f72a4ad0331f185",
+        "037"
+    ],
+    "target_obj_code": "037",
+    "anno_target": {
+        "category": "scissors",
+        "annotation": {
+            " the blades of the scissors are on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.9899005889892578,
+                        0.1417630910873413
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blades of the scissors are on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.13520878553390503,
+                        0.990817129611969
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blades_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "blades_right"
+}

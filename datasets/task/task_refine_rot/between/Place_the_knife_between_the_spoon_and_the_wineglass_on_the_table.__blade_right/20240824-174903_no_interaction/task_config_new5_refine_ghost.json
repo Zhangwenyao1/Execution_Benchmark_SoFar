@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "spoon",
+        "wineglass",
+        "knife"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/218768789fdd42bd95eb933046698499/material_2.urdf",
+        "objaverse_rescale/afca0b1933b84b1dbebd1244f25e72fc/material_2.urdf",
+        "objaverse_rescale/85db1d392a89459dbde5cdd951c4f6fb/material_2.urdf"
+    ],
+    "target_obj_name": "knife",
+    "instruction": "Place the knife between the spoon and the wineglass on the table. We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.6066812982647732,
+            0.13054057763956872,
+            0.9079750584433697,
+            0.0027655712625624233,
+            -0.01718103810296573,
+            -0.08288369293035246,
+            0.9964072746580706,
+            0.00018197481404058635,
+            0.006723934318870306,
+            0.03402275592088699,
+            0.9332048296928406,
+            3.5982911586761475,
+            -0.3051113784313202
+        ],
+        [
+            0.3867205330951077,
+            -0.19589440482435114,
+            0.9407049800717849,
+            0.003398125360577507,
+            0.02366544415100069,
+            0.025290038649679287,
+            0.9993942232383911,
+            0.0004085969412699342,
+            0.005193122662603855,
+            1.961850284715183e-05,
+            -0.1401333510875702,
+            0.006907413247972727,
+            -0.012868082150816917
+        ],
+        [
+            0.7169814678098038,
+            0.21675408339759453,
+            0.9212628912998374,
+            -0.019578659938035984,
+            -0.01758724602534078,
+            0.04201553840097999,
+            0.9987702735790401,
+            0.0016661302652209997,
+            -0.0005912797641940415,
+            -0.002558761276304722,
+            0.01677766442298889,
+            0.35545867681503296,
+            -0.05171820521354675
+        ]
+    ],
+    "position_instruction": "Place the knife between the spoon and the wineglass on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blade_right",
+    "obj_codes": [
+        "218768789fdd42bd95eb933046698499",
+        "afca0b1933b84b1dbebd1244f25e72fc",
+        "85db1d392a89459dbde5cdd951c4f6fb"
+    ],
+    "target_obj_code": "85db1d392a89459dbde5cdd951c4f6fb",
+    "anno_target": {
+        "category": "knife",
+        "annotation": {
+            " the blade of the knife is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        -0.7071067690849304,
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blade of the knife is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        -8.429369557916289e-08,
+                        0.7071068286895752,
+                        8.429369557916289e-08,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blade_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "blade_right"
+}

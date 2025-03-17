@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "wrench",
+        "toilet paper roll",
+        "spoon"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6f8040c86eb84e7bba2cd928c0755029/material_2.urdf",
+        "objaverse_rescale/19c1913ba85042938f0a87d94397c946/material_2.urdf",
+        "objaverse_rescale/6d5284b842434413a17133f7bf259669/material_2.urdf",
+        "objaverse_rescale/e1745c4aa7c046a2b5193d2d23be0192/material_2.urdf"
+    ],
+    "target_obj_name": "spoon",
+    "instruction": "Place the spoon between the tissue box and the wrench on the table. We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "init_obj_pos": [
+        [
+            0.32311832538545426,
+            0.004349610721569929,
+            0.9272594757902523,
+            0.011734069939741562,
+            0.0017501824937047267,
+            0.14781683024453832,
+            0.9889435945292049,
+            0.0001874155568657443,
+            -0.0010135697666555643,
+            -7.783510227454826e-05,
+            0.022073671221733093,
+            0.004958223085850477,
+            0.0006268625147640705
+        ],
+        [
+            0.4461642645767961,
+            -0.15559207509590478,
+            0.907573651666837,
+            0.010179667705578795,
+            -0.004362406695828895,
+            0.0030748106149810603,
+            0.9999339424746548,
+            -0.00029205740429461,
+            0.00367910647764802,
+            0.028117693960666656,
+            0.7661858201026917,
+            3.755136013031006,
+            0.31495383381843567
+        ],
+        [
+            0.3968435835899952,
+            0.19204483963595165,
+            0.9335752799771255,
+            0.027949246279571953,
+            -0.3320310121419239,
+            0.07907384070160181,
+            0.9395326361149516,
+            0.03068569116294384,
+            0.005341032985597849,
+            0.0029520567040890455,
+            -0.06991054862737656,
+            0.4006959795951843,
+            0.002343688393011689
+        ],
+        [
+            0.29471623403814856,
+            -0.2133512819277894,
+            0.9051435819706053,
+            0.5146035435910232,
+            -0.4711049500869355,
+            -0.4768593974073229,
+            0.5346479533594716,
+            0.00257433345541358,
+            -0.0007359830196946859,
+            0.033755335956811905,
+            0.8292181491851807,
+            0.9834917783737183,
+            -0.09289007633924484
+        ]
+    ],
+    "position_instruction": "Place the spoon between the tissue box and the wrench on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "rotation_instruction_label": "scoop_right",
+    "obj_codes": [
+        "6f8040c86eb84e7bba2cd928c0755029",
+        "19c1913ba85042938f0a87d94397c946",
+        "6d5284b842434413a17133f7bf259669",
+        "e1745c4aa7c046a2b5193d2d23be0192"
+    ],
+    "target_obj_code": "e1745c4aa7c046a2b5193d2d23be0192",
+    "anno_target": {
+        "category": "spoon",
+        "annotation": {
+            " the ladle is lying on the table, with its scoop on the left(pointing towards left) and its handle on the right. ": {
+                "quat": [
+                    [
+                        1.1620866047223899e-07,
+                        0.6936773657798767,
+                        0.7202858328819275,
+                        -1.1419894718756041e-07
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ladle is lying on the table, with its scoop on the right(pointing towards right) and its handle on the left.": {
+                "quat": [
+                    [
+                        -0.6936756372451782,
+                        -0.0015665553510189056,
+                        -0.0016268827021121979,
+                        -0.7202840447425842
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "scoop_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "scoop_right"
+}

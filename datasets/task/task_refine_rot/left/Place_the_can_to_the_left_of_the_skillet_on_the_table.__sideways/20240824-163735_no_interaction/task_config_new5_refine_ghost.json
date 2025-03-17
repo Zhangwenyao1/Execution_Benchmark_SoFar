@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "skillet",
+        "hat",
+        "can"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/027_skillet_google_16k/027_skillet_google_16k.urdf",
+        "objaverse_rescale/dc02f9c1fd01432fadd6e7d15851dc37/material_2.urdf",
+        "ycb_16k_backup/005_tomato_soup_can_google_16k/005_tomato_soup_can_google_16k.urdf"
+    ],
+    "target_obj_name": "can",
+    "instruction": "Place the can to the left of the skillet on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.4000704573059112,
+            -0.02166940918985774,
+            0.9020726177314656,
+            0.019635822688292753,
+            0.009114918459412787,
+            -0.09892843324245927,
+            0.9948590441992389,
+            0.00033745868131518364,
+            5.741099448641762e-05,
+            -5.834304101881571e-05,
+            0.001023360644467175,
+            0.003166299080476165,
+            0.001724508823826909
+        ],
+        [
+            0.6825374700754127,
+            -0.09766962536142373,
+            0.9447257959013726,
+            -0.8629837814499097,
+            0.11575526424825319,
+            -0.22754272743169476,
+            0.435986260042879,
+            0.003342032665386796,
+            -0.00018450681818649173,
+            -0.0014279676834121346,
+            0.011136147193610668,
+            0.10528139770030975,
+            0.007203045766800642
+        ],
+        [
+            0.6110340122193836,
+            0.17027241711864935,
+            0.8998947222984232,
+            -0.00017881583926101545,
+            -0.0007992702527811575,
+            0.03577348166817242,
+            0.999359588537228,
+            -0.0019754034001380205,
+            -0.0009706915589049459,
+            -0.00016683450667187572,
+            0.01436616014689207,
+            -0.041270751506090164,
+            -0.0025366663467139006
+        ]
+    ],
+    "position_instruction": "Place the can to the left of the skillet on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "027",
+        "dc02f9c1fd01432fadd6e7d15851dc37",
+        "005"
+    ],
+    "target_obj_code": "005",
+    "anno_target": {
+        "category": "can",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "sideways"
+}

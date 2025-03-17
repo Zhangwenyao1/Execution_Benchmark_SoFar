@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "box",
+        "cup",
+        "apple"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f81ca566b008446eb704cad4844603b6/material_2.urdf",
+        "ycb_16k_backup/065-h_cups_google_16k/065-h_cups_google_16k.urdf",
+        "objaverse_rescale/fbda0b25f41f40958ea984f460e4770b/material_2.urdf"
+    ],
+    "target_obj_name": "apple",
+    "instruction": "Place the apple to the left of the box on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.30753415012932267,
+            -0.1181820404176236,
+            0.9215662198517658,
+            1.302164014957705e-05,
+            0.00023491811121114766,
+            -0.05416557227972545,
+            0.9985319401118455,
+            0.00014154831296764314,
+            0.00025056538288481534,
+            -0.00012512874673120677,
+            -0.0025817565619945526,
+            0.001700986409559846,
+            9.372387285111472e-05
+        ],
+        [
+            0.48781199875501213,
+            -0.18886922626645022,
+            0.9004964820930994,
+            -0.0007159405078295258,
+            -0.0007350945090201957,
+            -0.06702731057722175,
+            0.9977506134811637,
+            0.005919603630900383,
+            -0.00272301584482193,
+            -0.005114578176289797,
+            0.06721778213977814,
+            0.2113037407398224,
+            -0.020817790180444717
+        ],
+        [
+            0.516097841317819,
+            0.21676856550990528,
+            0.9260363281668528,
+            0.10540763646154111,
+            0.06609407762714406,
+            0.05171767285973213,
+            0.9908814688913001,
+            0.0042625535279512405,
+            0.0012235705507919192,
+            9.510638483334333e-05,
+            -0.028068671002984047,
+            0.08576801419258118,
+            0.0016576532507315278
+        ]
+    ],
+    "position_instruction": "Place the apple to the left of the box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "f81ca566b008446eb704cad4844603b6",
+        "065-h",
+        "fbda0b25f41f40958ea984f460e4770b"
+    ],
+    "target_obj_code": "fbda0b25f41f40958ea984f460e4770b",
+    "anno_target": {
+        "category": "apple",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "upright"
+}

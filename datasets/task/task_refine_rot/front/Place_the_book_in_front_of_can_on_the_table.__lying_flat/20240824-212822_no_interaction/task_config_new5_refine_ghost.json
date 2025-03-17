@@ -1,0 +1,97 @@
+{
+    "selected_obj_names": [
+        "can",
+        "box",
+        "book"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/010_potted_meat_can_google_16k/010_potted_meat_can_google_16k.urdf",
+        "objaverse_rescale/9660e0c0326b4f7386014e27717231ae/material_2.urdf",
+        "objaverse_rescale/2a371c84c5454f7facba7bb2f5312ad6/material_2.urdf"
+    ],
+    "target_obj_name": "book",
+    "instruction": "Place the book in front of can on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.3134673619909616,
+            0.17503684138741368,
+            0.9030851924229484,
+            -0.0006026532555345667,
+            -0.00010520637022839229,
+            -0.12177262306960737,
+            0.9925578340889868,
+            0.0003014009853359312,
+            -0.00024383859999943525,
+            -9.52549307839945e-05,
+            0.003226090921089053,
+            0.007524070795625448,
+            0.002316906116902828
+        ],
+        [
+            0.6117049288036254,
+            0.12251597890938423,
+            0.919080609995971,
+            0.00018700049749510579,
+            -0.00022110123078641038,
+            -0.09779053478730552,
+            0.9952069771917158,
+            0.00028914373251609504,
+            -6.046170892659575e-05,
+            -0.000159112605615519,
+            -0.0001125368507928215,
+            0.0020305183716118336,
+            0.0012529065134003758
+        ],
+        [
+            0.6335327988523864,
+            -0.017224224850890268,
+            0.9770726133235637,
+            -3.4122628257836305e-07,
+            -0.00011078198132073055,
+            0.05071441193699998,
+            0.9987131901347452,
+            0.0003143529174849391,
+            -0.0029496087227016687,
+            -0.0006701690144836903,
+            0.04246527701616287,
+            0.005542729049921036,
+            0.0005663872580043972
+        ]
+    ],
+    "position_instruction": "Place the book in front of can on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "010",
+        "9660e0c0326b4f7386014e27717231ae",
+        "2a371c84c5454f7facba7bb2f5312ad6"
+    ],
+    "target_obj_code": "2a371c84c5454f7facba7bb2f5312ad6",
+    "anno_target": {
+        "category": "book",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "front",
+    "rotation_tag": "lying_flat"
+}

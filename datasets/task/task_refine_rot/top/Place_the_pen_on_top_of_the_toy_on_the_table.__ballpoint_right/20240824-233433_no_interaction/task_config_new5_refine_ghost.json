@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "toy",
+        "box",
+        "pen"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/073-g_lego_duplo_google_16k/073-g_lego_duplo_google_16k.urdf",
+        "objaverse_rescale/f81ca566b008446eb704cad4844603b6/material_2.urdf",
+        "objaverse_rescale/f126e15c0f904fccbd76f9348baea12c/material_2.urdf"
+    ],
+    "target_obj_name": "pen",
+    "instruction": "Place the pen on top of the toy on the table. We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "init_obj_pos": [
+        [
+            0.45465000205728595,
+            0.17144414137163588,
+            0.900256972761223,
+            0.0021910772344791705,
+            -0.0007803951930794115,
+            0.025962053675882935,
+            0.9996602232422903,
+            -0.0015631697606295347,
+            -0.00028095944435335696,
+            -0.0026777335442602634,
+            0.011588236317038536,
+            -0.014298937283456326,
+            -0.005953147076070309
+        ],
+        [
+            0.29773428738453855,
+            -0.19958220244671057,
+            0.9217510615515356,
+            0.0018010308719570065,
+            0.001234622852683876,
+            -0.05291473819389288,
+            0.9985966465375709,
+            0.0001549433363834396,
+            0.00025502691278234124,
+            -9.699178190203384e-05,
+            -0.0024771769531071186,
+            0.001849378109909594,
+            0.00013398114242590964
+        ],
+        [
+            0.30395583987897457,
+            0.11128689003009758,
+            0.9070427417374469,
+            -0.54315490397381,
+            -0.45534679232555086,
+            -0.3782426464397615,
+            0.5954616271618833,
+            -0.0021142479963600636,
+            -0.0003753029741346836,
+            0.03162144869565964,
+            -0.6074715256690979,
+            2.461380958557129,
+            -0.10878296941518784
+        ]
+    ],
+    "position_instruction": "Place the pen on top of the toy on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.",
+    "rotation_instruction_label": "ballpoint_right",
+    "obj_codes": [
+        "073-g",
+        "f81ca566b008446eb704cad4844603b6",
+        "f126e15c0f904fccbd76f9348baea12c"
+    ],
+    "target_obj_code": "f126e15c0f904fccbd76f9348baea12c",
+    "anno_target": {
+        "category": "pen",
+        "annotation": {
+            " the ballpoint of the pen is on the left(oriented towards left), while the clicker is on the right.": {
+                "quat": [
+                    [
+                        -0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ballpoint of the pen is on the right(oriented towards right), while the clicker is on the left.": {
+                "quat": [
+                    [
+                        -0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "ballpoint_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "ballpoint_right"
+}

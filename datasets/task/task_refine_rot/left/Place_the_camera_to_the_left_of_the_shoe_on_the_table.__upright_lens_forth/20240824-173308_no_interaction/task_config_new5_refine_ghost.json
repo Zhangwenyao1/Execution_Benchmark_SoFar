@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "shoe",
+        "cup",
+        "camera"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/aa51af2f1270482193471455b504efc6/material_2.urdf",
+        "ycb_16k_backup/065-f_cups_google_16k/065-f_cups_google_16k.urdf",
+        "objaverse_rescale/f6f8675406b7437faaf96a1f82062028/material_2.urdf"
+    ],
+    "target_obj_name": "camera",
+    "instruction": "Place the camera to the left of the shoe on the table. We also need to specify the rotation of the object after placement:  the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.",
+    "init_obj_pos": [
+        [
+            0.4063830080516306,
+            0.04482569232868755,
+            0.9320596817110848,
+            0.03131450292483663,
+            0.0782619385272814,
+            0.0775505834909413,
+            0.9934185310757687,
+            -0.00022504825028590858,
+            -0.0013796045677736402,
+            0.00018936737615149468,
+            0.042687300592660904,
+            0.0016196524957194924,
+            0.0017199586145579815
+        ],
+        [
+            0.6001714898680891,
+            0.06884450667126851,
+            0.900349048159129,
+            0.000489039297606018,
+            0.00022976610692398533,
+            -0.023476526948198715,
+            0.9997242423441335,
+            -0.001525556086562574,
+            -0.0030906544998288155,
+            -0.0021558695007115602,
+            0.08856131136417389,
+            -0.033456843346357346,
+            -0.005679496098309755
+        ],
+        [
+            0.3646865128051529,
+            -0.1302549214316904,
+            0.9580126903570253,
+            -0.4873618092194198,
+            0.23749186986021573,
+            0.3207289022113619,
+            0.7766653397384026,
+            0.002429179847240448,
+            -0.0012361779808998108,
+            -0.00072833540616557,
+            0.008915162645280361,
+            0.02354653924703598,
+            -0.004576449282467365
+        ]
+    ],
+    "position_instruction": "Place the camera to the left of the shoe on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.",
+    "rotation_instruction_label": "upright_lens_forth",
+    "obj_codes": [
+        "aa51af2f1270482193471455b504efc6",
+        "065-f",
+        "f6f8675406b7437faaf96a1f82062028"
+    ],
+    "target_obj_code": "f6f8675406b7437faaf96a1f82062028",
+    "anno_target": {
+        "category": "camera",
+        "annotation": {
+            " the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "upright_lens_forth",
+    "rot_tag_level": 2,
+    "position_tag": "left",
+    "rotation_tag": "upright_lens_forth"
+}

@@ -1,0 +1,71 @@
+{
+    "selected_obj_names": [
+        "book",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/de79a920c48745ff95c0df7a7c300091/material_2.urdf",
+        "ycb_16k_backup/065-d_cups_google_16k/065-d_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup to the right of the book on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.3466291167361143,
+            0.06637452379318037,
+            0.9151370967094964,
+            0.007080511745828397,
+            -0.002271833292275215,
+            -0.09069381152147013,
+            0.9958510619960276,
+            0.0003240393998567015,
+            -8.630139745946508e-06,
+            -6.111027323640883e-05,
+            -0.0028917845338582993,
+            0.0020780256018042564,
+            0.0018818293465301394
+        ],
+        [
+            0.6512869207639428,
+            0.18251480432091244,
+            0.9006101116886172,
+            0.0007679550618735424,
+            -0.0007995905787797059,
+            -0.06025701875079486,
+            0.9981822792412184,
+            0.00738085201010108,
+            -0.0015234677121043205,
+            -0.0063452268950641155,
+            0.03979425132274628,
+            0.18925802409648895,
+            -0.049216147512197495
+        ]
+    ],
+    "position_instruction": "Place the cup to the right of the book on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "de79a920c48745ff95c0df7a7c300091",
+        "065-d"
+    ],
+    "target_obj_code": "065-d",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upside_down"
+}

@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "book",
+        "headphone",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/dc4c91abf45342b4bb8822f50fa162b2/material_2.urdf",
+        "objaverse_rescale/de79a920c48745ff95c0df7a7c300091/material_2.urdf",
+        "objaverse_rescale/ea91786392284f03809c37976da090bf/material_2.urdf",
+        "ycb_16k_backup/065-e_cups_google_16k/065-e_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup to the left of the tissue box on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.5609791602511693,
+            0.03730529318066302,
+            0.9492047433426221,
+            0.7214828864863545,
+            -0.00016950163952636892,
+            0.022640882605330724,
+            0.6920619959305422,
+            -0.00021843200374860317,
+            -9.582644997863099e-05,
+            0.00014637154527008533,
+            0.001708703814074397,
+            -0.003922411240637302,
+            0.0001973063190234825
+        ],
+        [
+            0.3372541420033852,
+            -0.09931919829112974,
+            0.9151435443104434,
+            0.007598817053959257,
+            -0.0013361057509048398,
+            -0.03210903351832406,
+            0.9994545926490718,
+            0.002371398499235511,
+            -0.001021437463350594,
+            -0.00231989030726254,
+            -0.0006923220353201032,
+            0.07886587083339691,
+            -0.0025899347383528948
+        ],
+        [
+            0.43016656602643305,
+            -0.2408594063514892,
+            0.9226924100335319,
+            0.5391283990317933,
+            -0.31918661936526427,
+            -0.41326868956080454,
+            0.6608097015058764,
+            0.010928471572697163,
+            0.0077664609998464584,
+            0.00922539085149765,
+            -0.17778407037258148,
+            0.31650736927986145,
+            -0.006529646925628185
+        ],
+        [
+            0.5084385621342105,
+            0.11723994271289954,
+            0.9049370239057876,
+            0.017992322848313532,
+            -0.012036169193725948,
+            -0.05051128842750881,
+            0.9984888665834257,
+            0.0010965055553242564,
+            0.005616902373731136,
+            -0.006994991097599268,
+            -0.1619182825088501,
+            0.10233987122774124,
+            -0.0060010082088410854
+        ]
+    ],
+    "position_instruction": "Place the cup to the left of the tissue box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "dc4c91abf45342b4bb8822f50fa162b2",
+        "de79a920c48745ff95c0df7a7c300091",
+        "ea91786392284f03809c37976da090bf",
+        "065-e"
+    ],
+    "target_obj_code": "065-e",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "upside_down"
+}

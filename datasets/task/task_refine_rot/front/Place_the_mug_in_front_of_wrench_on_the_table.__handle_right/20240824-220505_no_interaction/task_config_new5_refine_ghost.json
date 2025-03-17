@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "wrench",
+        "scissors",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf",
+        "ycb_16k_backup/037_scissors_google_16k/037_scissors_google_16k.urdf",
+        "objaverse_rescale/77d41aba53e4455f9f84fa04b175dff4/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug in front of wrench on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.44604460511603516,
+            -0.07936632337441998,
+            0.9027534585401157,
+            0.0096543405045314,
+            -0.018493317195149246,
+            -0.11747628913693729,
+            0.9928565417114172,
+            0.0012232416775077581,
+            -0.002653061877936125,
+            0.034281130880117416,
+            0.20573489367961884,
+            -0.30050358176231384,
+            0.1196189820766449
+        ],
+        [
+            0.6063768518755794,
+            -0.16030291113845757,
+            0.900162591805288,
+            -0.001025546170570577,
+            -0.0014079492939280806,
+            -0.007766760095661212,
+            0.9999683211839538,
+            0.0006152935093268752,
+            0.005646123085170984,
+            0.0009323032572865486,
+            -0.9033353328704834,
+            -1.319770097732544,
+            0.6783996820449829
+        ],
+        [
+            0.47505781800448993,
+            0.17709960424567994,
+            0.9623188366220531,
+            -0.02978782607744623,
+            0.22287346415187514,
+            0.12907429974585158,
+            0.9658053269368726,
+            0.0006168796098791063,
+            0.00019550461729522794,
+            -0.00014670098607894033,
+            -0.000828558811917901,
+            0.003577004885300994,
+            0.00261543202213943
+        ]
+    ],
+    "position_instruction": "Place the mug in front of wrench on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "042",
+        "037",
+        "77d41aba53e4455f9f84fa04b175dff4"
+    ],
+    "target_obj_code": "77d41aba53e4455f9f84fa04b175dff4",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "handle_right"
+}

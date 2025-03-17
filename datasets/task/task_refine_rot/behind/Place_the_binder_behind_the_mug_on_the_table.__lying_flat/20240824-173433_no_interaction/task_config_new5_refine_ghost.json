@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "cap",
+        "binder"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/9321c45cb9cf459f9f803507d3a11fb3/material_2.urdf",
+        "objaverse_rescale/87e82aa304ce4571b69bdd5182549c72/material_2.urdf",
+        "objaverse_rescale/a0026e7d1b244b9a9223daf4223c9372/material_2.urdf"
+    ],
+    "target_obj_name": "binder",
+    "instruction": "Place the binder behind the mug on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.3125740815775629,
+            -0.14494930376262705,
+            0.9636733569354912,
+            0.09411200690947755,
+            -0.23749891344446872,
+            0.04780117495113215,
+            0.9656356683249945,
+            0.0003656611661426723,
+            0.000877999875228852,
+            -0.0006804055301472545,
+            -0.01671590656042099,
+            0.005957080516964197,
+            0.0011684653582051396
+        ],
+        [
+            0.6950436207749994,
+            -0.0599960126108557,
+            0.9389511152120833,
+            -0.6151819636454946,
+            0.6652344713254781,
+            -0.3144180207916422,
+            0.2831175691599728,
+            -0.003298011375591159,
+            -0.0025151758454740047,
+            -0.0013942804653197527,
+            0.07172834873199463,
+            -0.10129993408918381,
+            0.0011187486816197634
+        ],
+        [
+            0.45153208868532113,
+            0.2324235684292747,
+            0.9272586756319909,
+            0.00014293940272621001,
+            -0.00022083425686401058,
+            0.12363030848077378,
+            0.9923283114098409,
+            0.000537095416802913,
+            0.0002973141963593662,
+            -0.00040539668407291174,
+            0.0006586248055100441,
+            0.00401856005191803,
+            -0.00024340650998055935
+        ]
+    ],
+    "position_instruction": "Place the binder behind the mug on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "9321c45cb9cf459f9f803507d3a11fb3",
+        "87e82aa304ce4571b69bdd5182549c72",
+        "a0026e7d1b244b9a9223daf4223c9372"
+    ],
+    "target_obj_code": "a0026e7d1b244b9a9223daf4223c9372",
+    "anno_target": {
+        "category": "binder",
+        "annotation": {
+            "the binder is standing upright on the table and oriented in a way so that its smaller side is in contact with the tabletop and the larger face is perpendicular to the tabletop, and the label should be in sight as well.": {
+                "quat": [
+                    [
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        -7.549783020976975e-08,
+                        -3.3001151131603493e-15,
+                        1.0,
+                        -4.371138828673793e-08
+                    ],
+                    [
+                        -0.0,
+                        1.0,
+                        -0.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "behind",
+    "rotation_tag": "lying_flat"
+}

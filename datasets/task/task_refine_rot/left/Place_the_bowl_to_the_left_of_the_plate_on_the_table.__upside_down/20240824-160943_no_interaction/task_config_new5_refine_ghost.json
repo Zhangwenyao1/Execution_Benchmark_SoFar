@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "plate",
+        "remote control",
+        "bowl"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/029_plate_google_16k/029_plate_google_16k.urdf",
+        "objaverse_rescale/89dcd45ac1f04680b76b709357a3dba3/material_2.urdf",
+        "objaverse_rescale/bdd36c94f3f74f22b02b8a069c8d97b7/material_2.urdf"
+    ],
+    "target_obj_name": "bowl",
+    "instruction": "Place the bowl to the left of the plate on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6536758515683181,
+            -0.26097177093302704,
+            0.9187128533637299,
+            0.10189303530017188,
+            0.025877584216051755,
+            -0.023930464017653513,
+            0.9941707564017145,
+            7.077534246491268e-05,
+            -3.0618982691521524e-06,
+            -0.0003149367985315621,
+            -0.00010026484233094379,
+            0.007797594647854567,
+            4.906409958493896e-05
+        ],
+        [
+            0.49729519385847404,
+            -0.1878210933522816,
+            0.9334449937158769,
+            -0.560125543254044,
+            0.21017099133464065,
+            -0.007738826212156843,
+            0.8012662733228171,
+            0.002532759215682745,
+            -0.014605027623474598,
+            0.023669781163334846,
+            0.36569538712501526,
+            0.32796934247016907,
+            0.1751413196325302
+        ],
+        [
+            0.4483426386089138,
+            0.1425323449978276,
+            0.9673057136559701,
+            0.8976430524456381,
+            0.19550945946765402,
+            -0.10677334737941128,
+            0.38027944191625535,
+            0.008175021968781948,
+            0.0005498516256920993,
+            -0.006055907811969519,
+            -0.0568961426615715,
+            0.17647328972816467,
+            0.08445654809474945
+        ]
+    ],
+    "position_instruction": "Place the bowl to the left of the plate on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "029",
+        "89dcd45ac1f04680b76b709357a3dba3",
+        "bdd36c94f3f74f22b02b8a069c8d97b7"
+    ],
+    "target_obj_code": "bdd36c94f3f74f22b02b8a069c8d97b7",
+    "anno_target": {
+        "category": "bowl",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "upside_down"
+}

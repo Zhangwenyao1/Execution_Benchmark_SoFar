@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "keyboard",
+        "binder",
+        "apple"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-j_cups_google_16k/065-j_cups_google_16k.urdf",
+        "objaverse_rescale/44bb12d306864e2cb4256a61d4168942/material_2.urdf",
+        "objaverse_rescale/a0026e7d1b244b9a9223daf4223c9372/material_2.urdf",
+        "objaverse_rescale/fbda0b25f41f40958ea984f460e4770b/material_2.urdf"
+    ],
+    "target_obj_name": "apple",
+    "instruction": "Place the apple between the cup and the keyboard on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.6510967679408202,
+            -0.23938128972298747,
+            0.9003780298039431,
+            -6.954133122093271e-05,
+            -0.00038995505912482644,
+            -0.5775006597271702,
+            0.8163901218864289,
+            -0.001956648426130414,
+            -0.0052125221118330956,
+            0.0014319418696686625,
+            0.1263812631368637,
+            -0.0031791727524250746,
+            0.07918623834848404
+        ],
+        [
+            0.43436020376154527,
+            -0.029046538522750767,
+            0.908602226263585,
+            -0.6176726691146484,
+            0.3443516989825173,
+            -0.3446214351070674,
+            0.617364112741731,
+            -0.001518523320555687,
+            -0.0010917014442384243,
+            0.0017833085730671883,
+            0.05595310032367706,
+            -0.07883302867412567,
+            -7.977277709869668e-05
+        ],
+        [
+            0.620583653376809,
+            -0.015737782643490596,
+            0.9272712206669383,
+            0.0002369315115234236,
+            0.00023404169091197123,
+            0.2799357086221273,
+            0.9600186915504156,
+            -0.0006366281304508448,
+            0.00012468422937672585,
+            -0.0013803673209622502,
+            -0.010057819075882435,
+            -0.030293144285678864,
+            -0.0011878650402650237
+        ],
+        [
+            0.5214356517433698,
+            0.1607275600262196,
+            0.9260365811637314,
+            0.1009612561566826,
+            0.07270113845227712,
+            0.11450649671600023,
+            0.9856011523090029,
+            -0.005144998896867037,
+            0.001273138914257288,
+            -0.0014636480482295156,
+            -0.02498556673526764,
+            -0.090226911008358,
+            0.029248101636767387
+        ]
+    ],
+    "position_instruction": "Place the apple between the cup and the keyboard on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "065-j",
+        "44bb12d306864e2cb4256a61d4168942",
+        "a0026e7d1b244b9a9223daf4223c9372",
+        "fbda0b25f41f40958ea984f460e4770b"
+    ],
+    "target_obj_code": "fbda0b25f41f40958ea984f460e4770b",
+    "anno_target": {
+        "category": "apple",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upright"
+}

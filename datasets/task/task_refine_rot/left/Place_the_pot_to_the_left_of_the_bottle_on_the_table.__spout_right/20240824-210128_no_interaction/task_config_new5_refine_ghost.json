@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "bottle",
+        "cup",
+        "pot"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/021_bleach_cleanser_google_16k/021_bleach_cleanser_google_16k.urdf",
+        "ycb_16k_backup/065-c_cups_google_16k/065-c_cups_google_16k.urdf",
+        "objaverse_rescale/cba3e4df7c354d22b7913d45a28a8159/material_2.urdf"
+    ],
+    "target_obj_name": "pot",
+    "instruction": "Place the pot to the left of the bottle on the table. We also need to specify the rotation of the object after placement:  the pot is upright on the table with its spout pointing towards right.",
+    "init_obj_pos": [
+        [
+            0.3250284278999902,
+            -0.23574964134659138,
+            0.9003783053546845,
+            -0.0009356716591282075,
+            -0.00045565863565762886,
+            -0.07933786166086916,
+            0.9968472403537233,
+            -0.0012679781066253781,
+            0.0012885702308267355,
+            -0.0005377876223064959,
+            -0.013713744468986988,
+            -0.017520710825920105,
+            -0.000608400849159807
+        ],
+        [
+            0.3414650495879806,
+            0.10209273967475926,
+            0.9005648801833502,
+            0.000705243547668567,
+            -0.0006947999846870838,
+            0.09705243468801955,
+            0.9952787774315527,
+            -0.0011580181308090687,
+            -0.00541883846744895,
+            -0.00123419682495296,
+            0.07555875182151794,
+            0.08299561589956284,
+            -0.2643427848815918
+        ],
+        [
+            0.46800294090426486,
+            0.14369186986211066,
+            0.9372359158160521,
+            -0.16249740186032402,
+            0.013046051868044733,
+            0.11494592671161012,
+            0.9799039896090384,
+            0.0046571725979447365,
+            0.022143501788377762,
+            0.0022761423606425524,
+            -0.3803137242794037,
+            0.08041884005069733,
+            -0.002001991029828787
+        ]
+    ],
+    "position_instruction": "Place the pot to the left of the bottle on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the pot is upright on the table with its spout pointing towards right.",
+    "rotation_instruction_label": "spout_right",
+    "obj_codes": [
+        "021",
+        "065-c",
+        "cba3e4df7c354d22b7913d45a28a8159"
+    ],
+    "target_obj_code": "cba3e4df7c354d22b7913d45a28a8159",
+    "anno_target": {
+        "category": "pot",
+        "annotation": {
+            " the pot is upright on the table with its spout pointing towards left.": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            },
+            " the pot is upright on the table with its spout pointing towards right.": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "spout_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "spout_right"
+}

@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "can",
+        "clipboard",
+        "knife"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/007_tuna_fish_can_google_16k/007_tuna_fish_can_google_16k.urdf",
+        "objaverse_rescale/b31c69728a414e639eef2fccd1c3dd75/material_2.urdf",
+        "objaverse_rescale/85db1d392a89459dbde5cdd951c4f6fb/material_2.urdf"
+    ],
+    "target_obj_name": "knife",
+    "instruction": "Place the knife on top of the can on the table. We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.6202984930024937,
+            0.0690526412898829,
+            0.9031510696667022,
+            0.0005849352676743723,
+            -0.0006631505426883249,
+            0.11407017154412169,
+            0.9934723015997904,
+            0.0014066229341551661,
+            0.002074342453852296,
+            -0.008948450908064842,
+            -0.1949487328529358,
+            0.1961115300655365,
+            0.03868621960282326
+        ],
+        [
+            0.48532145401924603,
+            0.08571942806479677,
+            0.9014573544933471,
+            -0.7109723320678073,
+            -0.06778890864741301,
+            0.05381731116786849,
+            0.6978729855189396,
+            -0.004415797535330057,
+            -8.938852261053398e-05,
+            -0.006829302757978439,
+            -0.07888403534889221,
+            -0.07863938808441162,
+            0.050100717693567276
+        ],
+        [
+            0.3285714766467398,
+            0.18803746264899526,
+            0.9213263546361676,
+            -0.01876606967654995,
+            -0.01146044989460052,
+            -0.006068058954400932,
+            0.9997398018372761,
+            0.0030852006748318672,
+            -0.0015865352470427752,
+            -0.0033328840509057045,
+            0.008167652413249016,
+            0.5839608311653137,
+            0.04030027613043785
+        ]
+    ],
+    "position_instruction": "Place the knife on top of the can on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blade_right",
+    "obj_codes": [
+        "007",
+        "b31c69728a414e639eef2fccd1c3dd75",
+        "85db1d392a89459dbde5cdd951c4f6fb"
+    ],
+    "target_obj_code": "85db1d392a89459dbde5cdd951c4f6fb",
+    "anno_target": {
+        "category": "knife",
+        "annotation": {
+            " the blade of the knife is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        -0.7071067690849304,
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blade of the knife is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        -8.429369557916289e-08,
+                        0.7071068286895752,
+                        8.429369557916289e-08,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blade_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "blade_right"
+}

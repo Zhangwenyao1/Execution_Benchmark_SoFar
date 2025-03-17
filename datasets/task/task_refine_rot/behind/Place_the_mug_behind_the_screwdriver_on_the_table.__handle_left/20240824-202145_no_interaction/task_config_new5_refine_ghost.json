@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "screwdriver",
+        "clipboard",
+        "pen",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/044_flat_screwdriver_google_16k/044_flat_screwdriver_google_16k.urdf",
+        "objaverse_rescale/b31c69728a414e639eef2fccd1c3dd75/material_2.urdf",
+        "objaverse_rescale/f126e15c0f904fccbd76f9348baea12c/material_2.urdf",
+        "objaverse_rescale/c609327dd3a74fb597584e1b4a14a615/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug behind the screwdriver on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "init_obj_pos": [
+        [
+            0.5892188381282915,
+            0.06663059159620667,
+            0.9015351172596282,
+            0.017090648114748513,
+            0.00756364346641455,
+            0.08414280832762512,
+            0.9962784193443467,
+            0.002319485414773226,
+            -0.0025907193776220083,
+            -0.0009832398500293493,
+            0.13332220911979675,
+            0.33597877621650696,
+            -0.48588740825653076
+        ],
+        [
+            0.5471276045404584,
+            -0.008664124922318581,
+            0.9058205837469753,
+            -0.6788167384145933,
+            0.10680286512614,
+            -0.13999276022176182,
+            0.7128835884872878,
+            0.0022139213979244232,
+            0.0020165389869362116,
+            0.03018937259912491,
+            -0.043221328407526016,
+            0.31500858068466187,
+            0.03050093725323677
+        ],
+        [
+            0.4787061331124671,
+            -0.05389831970000255,
+            0.9084980041302873,
+            -0.6942299489870399,
+            0.09650577251716332,
+            0.6426346301633581,
+            0.3094384363894092,
+            0.001431665732525289,
+            0.0007895131129771471,
+            0.034738752990961075,
+            0.23428918421268463,
+            -1.0761655569076538,
+            0.21260502934455872
+        ],
+        [
+            0.3167093005257655,
+            -0.05340475474209022,
+            0.9356015430782082,
+            -0.09428397998571547,
+            0.002960306731857263,
+            -0.031150204444641495,
+            0.9950534822134749,
+            0.0034134008456021547,
+            -0.0016313075320795178,
+            -0.0008362160297110677,
+            0.02973918989300728,
+            0.059013210237026215,
+            0.02397940680384636
+        ]
+    ],
+    "position_instruction": "Place the mug behind the screwdriver on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).",
+    "rotation_instruction_label": "handle_left",
+    "obj_codes": [
+        "044",
+        "b31c69728a414e639eef2fccd1c3dd75",
+        "f126e15c0f904fccbd76f9348baea12c",
+        "c609327dd3a74fb597584e1b4a14a615"
+    ],
+    "target_obj_code": "c609327dd3a74fb597584e1b4a14a615",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the left(pointing towards left).": {
+                "quat": [
+                    [
+                        0.5067986845970154,
+                        -0.4931075870990753,
+                        -0.4931075870990753,
+                        0.5067986845970154
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_left",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "handle_left"
+}

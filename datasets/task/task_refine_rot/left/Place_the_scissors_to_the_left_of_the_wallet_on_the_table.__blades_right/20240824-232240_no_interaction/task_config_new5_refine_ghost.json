@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "wallet",
+        "keyboard",
+        "scissors"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/dbb07d13a33546f09ac8ca98b1ddef20/material_2.urdf",
+        "objaverse_rescale/44bb12d306864e2cb4256a61d4168942/material_2.urdf",
+        "ycb_16k_backup/037_scissors_google_16k/037_scissors_google_16k.urdf"
+    ],
+    "target_obj_name": "scissors",
+    "instruction": "Place the scissors to the left of the wallet on the table. We also need to specify the rotation of the object after placement:  the blades of the scissors are on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.3393686134858027,
+            -0.21889927506999693,
+            0.9317447711881239,
+            0.04001709759501618,
+            -0.039864747423743636,
+            0.13047237971156497,
+            0.9898415994215002,
+            0.0003644276293925941,
+            -0.00233684410341084,
+            -0.0017295449506491423,
+            0.03557134047150612,
+            0.011243305169045925,
+            0.008619972504675388
+        ],
+        [
+            0.31386295913952367,
+            0.12359743464296871,
+            0.9085863227892538,
+            -0.7066288239217215,
+            -0.024495291035718042,
+            0.024282880959430042,
+            0.7067432543805354,
+            -1.934594547492452e-05,
+            8.487135346513242e-05,
+            -0.00015586684457957745,
+            -0.010301937349140644,
+            -0.0006025513866916299,
+            0.0005647272919304669
+        ],
+        [
+            0.3829888377657573,
+            -0.049064098481055425,
+            0.9001615612390069,
+            -0.0010957653537940226,
+            -0.0012983514274208096,
+            -0.106036965649711,
+            0.9943607371058366,
+            0.002249768702313304,
+            0.00519031984731555,
+            0.0002746651880443096,
+            -0.5764353275299072,
+            -1.0676054954528809,
+            0.46245914697647095
+        ]
+    ],
+    "position_instruction": "Place the scissors to the left of the wallet on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the blades of the scissors are on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blades_right",
+    "obj_codes": [
+        "dbb07d13a33546f09ac8ca98b1ddef20",
+        "44bb12d306864e2cb4256a61d4168942",
+        "037"
+    ],
+    "target_obj_code": "037",
+    "anno_target": {
+        "category": "scissors",
+        "annotation": {
+            " the blades of the scissors are on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.9899005889892578,
+                        0.1417630910873413
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blades of the scissors are on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.13520878553390503,
+                        0.990817129611969
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blades_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "blades_right"
+}

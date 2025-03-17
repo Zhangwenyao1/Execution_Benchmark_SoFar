@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "plate",
+        "cup",
+        "remote control",
+        "wrench"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6d5a4e1174dd4f5fa0a9a9076e476b91/material_2.urdf",
+        "ycb_16k_backup/065-g_cups_google_16k/065-g_cups_google_16k.urdf",
+        "objaverse_rescale/d72eebbf82be48f0a53e7e8b712e6a66/material_2.urdf",
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf"
+    ],
+    "target_obj_name": "wrench",
+    "instruction": "Place the wrench on top of the plate on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6816343015042633,
+            -0.16200547919326094,
+            0.9127413279675829,
+            0.7047027950527919,
+            0.05825220462997606,
+            0.058260642451226335,
+            0.7047030217344743,
+            -0.00046745152212679386,
+            0.0005625876365229487,
+            -0.0007950441795401275,
+            0.003262424608692527,
+            -0.01771167479455471,
+            0.019239045679569244
+        ],
+        [
+            0.5119697386367049,
+            0.054246294151842595,
+            0.9005623109537304,
+            0.0003752743754971062,
+            -0.0013884351333970165,
+            -0.026035086719289495,
+            0.9996599950365833,
+            0.004877566825598478,
+            0.008115176111459732,
+            -0.0039751543663442135,
+            -0.28110694885253906,
+            0.17565318942070007,
+            0.0036023412831127644
+        ],
+        [
+            0.5274624544445635,
+            -0.06648747562284268,
+            0.9117725201686963,
+            0.011259515573966426,
+            -1.747179235436732e-05,
+            0.02748889277682429,
+            0.999558694513574,
+            0.0007246168679557741,
+            0.0010351912351325154,
+            -9.72908892435953e-05,
+            -0.008814460597932339,
+            0.09045268595218658,
+            0.040449053049087524
+        ],
+        [
+            0.4217626035228761,
+            0.19477368713079873,
+            0.9027384317344872,
+            0.013423602418542572,
+            -0.016011772350804834,
+            0.10306239772440633,
+            0.9944554148978183,
+            0.00406118668615818,
+            -0.004154143389314413,
+            0.03473511338233948,
+            -0.7530491948127747,
+            0.1363757848739624,
+            0.1314546912908554
+        ]
+    ],
+    "position_instruction": "Place the wrench on top of the plate on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "6d5a4e1174dd4f5fa0a9a9076e476b91",
+        "065-g",
+        "d72eebbf82be48f0a53e7e8b712e6a66",
+        "042"
+    ],
+    "target_obj_code": "042",
+    "anno_target": {
+        "category": "wrench",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.2856176793575287,
+                        0.9583436250686646
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "handle_right"
+}

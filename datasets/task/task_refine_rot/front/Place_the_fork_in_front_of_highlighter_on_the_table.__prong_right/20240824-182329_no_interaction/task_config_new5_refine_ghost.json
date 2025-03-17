@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "highlighter",
+        "binder clips",
+        "toy",
+        "fork"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/fd058916fb8843c09b4a2e05e3ee894e/material_2.urdf",
+        "objaverse_rescale/5e55c38b24dc4c239448efa1c6b7f49f/material_2.urdf",
+        "ycb_16k_backup/073-g_lego_duplo_google_16k/073-g_lego_duplo_google_16k.urdf",
+        "objaverse_rescale/e98e7fb33743442383812b68608f7006/material_2.urdf"
+    ],
+    "target_obj_name": "fork",
+    "instruction": "Place the fork in front of highlighter on the table. We also need to specify the rotation of the object after placement:  the prong of the fork is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.32966565384326707,
+            -0.32096652820777644,
+            0.9115238921745782,
+            0.7108958727789644,
+            -0.019526591275419454,
+            -0.01849947565906406,
+            0.7027827115825603,
+            -0.003950210753828287,
+            0.00017620742437429726,
+            -0.005686026997864246,
+            -0.026904266327619553,
+            -0.2793654203414917,
+            -0.002757922513410449
+        ],
+        [
+            0.38673244595365586,
+            0.18663870469040456,
+            0.910008132442288,
+            2.7415729186429724e-05,
+            -7.125354134664719e-06,
+            -0.016270206111305002,
+            0.9998676310345809,
+            0.0011041591642424464,
+            -0.0004864586517214775,
+            -0.0003674548352137208,
+            0.006826144177466631,
+            0.01472797617316246,
+            0.002005856717005372
+        ],
+        [
+            0.311448960020842,
+            -0.07894642432063842,
+            0.900252838337179,
+            0.0020239167227499456,
+            -0.00110104161076998,
+            -0.1246477679575867,
+            0.9921983800690577,
+            -0.001682537840679288,
+            8.216344576794654e-05,
+            -0.0026028789579868317,
+            -1.5137420916744304e-07,
+            -0.038022272288799286,
+            -0.0022261214908212423
+        ],
+        [
+            0.6161782032841356,
+            0.10484823579265105,
+            0.9053451329219461,
+            0.7046609636228779,
+            -0.031906538726066476,
+            -0.024568458294438333,
+            0.7084005152381195,
+            0.00012958994193468243,
+            0.0044814832508563995,
+            0.034583378583192825,
+            -0.737200915813446,
+            -1.0560475587844849,
+            0.03274983912706375
+        ]
+    ],
+    "position_instruction": "Place the fork in front of highlighter on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the prong of the fork is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "prong_right",
+    "obj_codes": [
+        "fd058916fb8843c09b4a2e05e3ee894e",
+        "5e55c38b24dc4c239448efa1c6b7f49f",
+        "073-g",
+        "e98e7fb33743442383812b68608f7006"
+    ],
+    "target_obj_code": "e98e7fb33743442383812b68608f7006",
+    "anno_target": {
+        "category": "fork",
+        "annotation": {
+            " the prong of the fork is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the prong of the fork is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.7071068286895752,
+                        0.0,
+                        0.0,
+                        0.7071067094802856
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "prong_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "prong_right"
+}

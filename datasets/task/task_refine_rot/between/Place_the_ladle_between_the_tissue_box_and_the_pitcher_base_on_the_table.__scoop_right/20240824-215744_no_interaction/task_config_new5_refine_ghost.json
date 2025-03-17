@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "pitcher base",
+        "USB",
+        "ladle"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/dc4c91abf45342b4bb8822f50fa162b2/material_2.urdf",
+        "ycb_16k_backup/019_pitcher_base_google_16k/019_pitcher_base_google_16k.urdf",
+        "objaverse_rescale/0a51815f3c0941ae8312fc6917173ed6/material_2.urdf",
+        "objaverse_rescale/ce27e3369587476c85a436905f1e5c00/material_2.urdf"
+    ],
+    "target_obj_name": "ladle",
+    "instruction": "Place the ladle between the tissue box and the pitcher base on the table. We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "init_obj_pos": [
+        [
+            0.6055814357062002,
+            -0.12604835256587935,
+            0.9471222644751941,
+            0.6940238661687571,
+            0.1354225632021214,
+            0.13542030720451648,
+            0.6940122066365795,
+            -0.00018038136477116495,
+            -0.00014407372509595007,
+            0.00015052231901790947,
+            0.0026749270036816597,
+            -0.00377474632114172,
+            -0.0003613197186496109
+        ],
+        [
+            0.5218541667663125,
+            -0.1644934349451213,
+            0.9119694518558839,
+            0.6757898114406227,
+            0.12979896919724976,
+            -0.5219549000863563,
+            0.5040073815175918,
+            0.000739715585950762,
+            -0.00046788950567133725,
+            -6.841383583378047e-05,
+            0.009716245345771313,
+            0.014799064956605434,
+            8.237342990469187e-05
+        ],
+        [
+            0.28969697709559034,
+            0.11065478196346228,
+            0.9111770410780791,
+            -0.20363974020996065,
+            -0.4037347368153123,
+            -0.06723335261201203,
+            0.8893867520895726,
+            0.00021539218141697347,
+            -0.00011064892169088125,
+            -4.844897557632066e-05,
+            0.010947042144834995,
+            0.021645620465278625,
+            1.2869456440967042e-05
+        ],
+        [
+            0.672541926009383,
+            -0.030802838893891314,
+            0.9195607304285509,
+            0.011615679548912053,
+            0.041835393229040854,
+            -0.10739871353595945,
+            0.9932675330407263,
+            0.006181604228913784,
+            0.002215754706412554,
+            -0.010440779849886894,
+            0.36527615785598755,
+            0.7629736661911011,
+            -0.3310506343841553
+        ]
+    ],
+    "position_instruction": "Place the ladle between the tissue box and the pitcher base on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "rotation_instruction_label": "scoop_right",
+    "obj_codes": [
+        "dc4c91abf45342b4bb8822f50fa162b2",
+        "019",
+        "0a51815f3c0941ae8312fc6917173ed6",
+        "ce27e3369587476c85a436905f1e5c00"
+    ],
+    "target_obj_code": "ce27e3369587476c85a436905f1e5c00",
+    "anno_target": {
+        "category": "ladle",
+        "annotation": {
+            " the ladle is lying on the table, with its scoop on the left(pointing towards left) and its handle on the right. ": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ladle is lying on the table, with its scoop on the right(pointing towards right) and its handle on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "scoop_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "scoop_right"
+}

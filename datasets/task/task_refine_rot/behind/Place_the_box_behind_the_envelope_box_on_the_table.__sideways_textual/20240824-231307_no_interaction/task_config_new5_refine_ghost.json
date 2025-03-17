@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "envelope box",
+        "mug",
+        "box"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/40b28d1cbfbd4e9f9acf653b748324ee/material_2.urdf",
+        "ycb_16k_backup/025_mug_google_16k/025_mug_google_16k.urdf",
+        "ycb_16k_backup/008_pudding_box_google_16k/008_pudding_box_google_16k.urdf"
+    ],
+    "target_obj_name": "box",
+    "instruction": "Place the box behind the envelope box on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.",
+    "init_obj_pos": [
+        [
+            0.508007272016061,
+            -0.09039584652206259,
+            0.9317488268182373,
+            -0.0001226343678657653,
+            -9.271386248657823e-05,
+            0.05988745327341651,
+            0.9982051238625144,
+            1.6168235106306383e-06,
+            1.0684020708140451e-06,
+            -1.1192818419658579e-05,
+            0.00015127270307857543,
+            -6.792909698560834e-05,
+            -3.3460898976045428e-06
+        ],
+        [
+            0.37211717842498454,
+            0.012731563456340817,
+            0.9004586142521692,
+            -0.0006293670704851504,
+            -0.0011338993963121936,
+            0.08008297618985329,
+            0.9967873570094204,
+            -0.0002432910550851375,
+            -0.0012662013759836555,
+            -0.0009121573530137539,
+            0.04131276533007622,
+            -0.009624766185879707,
+            -0.0035445077810436487
+        ],
+        [
+            0.3429337090227953,
+            -0.0925436121004589,
+            0.9003432038970143,
+            -0.005977988804439726,
+            0.0030084199197944546,
+            -0.15950690110320495,
+            0.9871741293003441,
+            -0.0009885076433420181,
+            -0.0011983818840235472,
+            -0.002961990423500538,
+            0.012824748642742634,
+            -0.06464379280805588,
+            -0.0036494373343884945
+        ]
+    ],
+    "position_instruction": "Place the box behind the envelope box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.",
+    "rotation_instruction_label": "sideways_textual",
+    "obj_codes": [
+        "40b28d1cbfbd4e9f9acf653b748324ee",
+        "025",
+        "008"
+    ],
+    "target_obj_code": "008",
+    "anno_target": {
+        "category": "box",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            },
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            },
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways_textual",
+    "rot_tag_level": 2,
+    "position_tag": "behind",
+    "rotation_tag": "sideways_textual"
+}

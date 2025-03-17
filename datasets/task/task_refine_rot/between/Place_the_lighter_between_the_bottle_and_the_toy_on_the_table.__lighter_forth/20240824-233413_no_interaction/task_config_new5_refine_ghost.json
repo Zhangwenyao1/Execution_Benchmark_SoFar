@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "bottle",
+        "toy",
+        "lighter"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6add0a1fa81942acbb24504b130661c1/material_2.urdf",
+        "ycb_16k_backup/072-a_toy_airplane_google_16k/072-a_toy_airplane_google_16k.urdf",
+        "objaverse_rescale/d9675ab05c39447baf27e19ea07d484e/material_2.urdf"
+    ],
+    "target_obj_name": "lighter",
+    "instruction": "Place the lighter between the bottle and the toy on the table. We also need to specify the rotation of the object after placement:  the lighter is lying steadily on the table(not standing up), with its grey head pointing forth.",
+    "init_obj_pos": [
+        [
+            0.643275889716846,
+            0.07154624386523084,
+            0.9344799833161772,
+            -0.005698746656985163,
+            0.1228524046521716,
+            0.015942867459314263,
+            0.9922805228033519,
+            -0.002621531253680587,
+            -0.00016157043864950538,
+            -0.0005986365140415728,
+            0.005956679582595825,
+            -0.07903699576854706,
+            -0.014806478284299374
+        ],
+        [
+            0.4972664320192072,
+            0.07367788459307857,
+            0.9001660137791779,
+            -0.00044146300225554895,
+            -0.011929126048007352,
+            -0.13036869030308726,
+            0.9913937187872468,
+            0.000704611768014729,
+            -0.0007606802973896265,
+            -0.0005672123515978456,
+            0.011400996707379818,
+            0.01334904320538044,
+            0.002912965603172779
+        ],
+        [
+            0.6614030107491777,
+            -0.23070821801569422,
+            0.9249538404151357,
+            0.00418256881093534,
+            0.004053771972295377,
+            0.2498138477968421,
+            0.9682763626671239,
+            0.0010351210366934538,
+            0.003943989984691143,
+            0.03198019042611122,
+            -0.7291107773780823,
+            -0.6485074162483215,
+            0.21105416119098663
+        ]
+    ],
+    "position_instruction": "Place the lighter between the bottle and the toy on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the lighter is lying steadily on the table(not standing up), with its grey head pointing forth.",
+    "rotation_instruction_label": "lighter_forth",
+    "obj_codes": [
+        "6add0a1fa81942acbb24504b130661c1",
+        "072-a",
+        "d9675ab05c39447baf27e19ea07d484e"
+    ],
+    "target_obj_code": "d9675ab05c39447baf27e19ea07d484e",
+    "anno_target": {
+        "category": "lighter",
+        "annotation": {
+            " the lighter is lying steadily on the table(not standing up), with its grey head pointing forth, oriented towards the viewer.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "lighter_forth",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "lighter_forth"
+}

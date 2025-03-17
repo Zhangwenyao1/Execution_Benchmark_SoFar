@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "spatula",
+        "cup",
+        "envelope box",
+        "organizer"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/033_spatula_google_16k/033_spatula_google_16k.urdf",
+        "ycb_16k_backup/065-f_cups_google_16k/065-f_cups_google_16k.urdf",
+        "objaverse_rescale/40b28d1cbfbd4e9f9acf653b748324ee/material_2.urdf",
+        "objaverse_rescale/4f52ebe6c8cf432986e47d8de83386ce/material_2.urdf"
+    ],
+    "target_obj_name": "organizer",
+    "instruction": "Place the organizer behind the spatula on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.5271374189900384,
+            -0.1607410431437062,
+            0.8936229060967256,
+            -0.033590220796908724,
+            -0.0015937955818659366,
+            0.09286671623029873,
+            0.9951105114001461,
+            0.003922400530427694,
+            0.006065966095775366,
+            -0.00548472348600626,
+            -0.05154247209429741,
+            0.05896424129605293,
+            0.024699248373508453
+        ],
+        [
+            0.7039933026377636,
+            -0.03551362041081591,
+            0.9379640976764869,
+            0.6289076893732426,
+            -0.07554206925511858,
+            0.49253826250485744,
+            0.5968036310115405,
+            0.11418097466230392,
+            0.017506564036011696,
+            0.03934827074408531,
+            -9.203043937683105,
+            9.380350112915039,
+            -25.272314071655273
+        ],
+        [
+            0.6792429476360269,
+            0.09179688269558943,
+            0.9317579758748433,
+            8.368893751540364e-05,
+            -3.4253795578637785e-05,
+            -0.10895541394071105,
+            0.9940466335116516,
+            -4.501621333474759e-06,
+            -1.0338236279494595e-05,
+            -1.7958162061404437e-05,
+            0.0003151296405121684,
+            -0.0001323740725638345,
+            2.0179402326903073e-06
+        ],
+        [
+            0.5447902573090269,
+            -0.1315698347820148,
+            1.0196317784438784,
+            0.6230216943380295,
+            0.19119228921331768,
+            0.21485693031248188,
+            0.7274104593874362,
+            -0.07024513930082321,
+            -0.03288395330309868,
+            -0.029455285519361496,
+            -0.20879541337490082,
+            0.38380348682403564,
+            -0.019458860158920288
+        ]
+    ],
+    "position_instruction": "Place the organizer behind the spatula on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "033",
+        "065-f",
+        "40b28d1cbfbd4e9f9acf653b748324ee",
+        "4f52ebe6c8cf432986e47d8de83386ce"
+    ],
+    "target_obj_code": "4f52ebe6c8cf432986e47d8de83386ce",
+    "anno_target": {
+        "category": "organizer",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "upright"
+}

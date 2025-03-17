@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "scissors",
+        "mug",
+        "wrench"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/2b1120c4b517409184413ed709c57a66/material_2.urdf",
+        "objaverse_rescale/db9345f568e8499a9eac2577302b5f51/material_2.urdf",
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf"
+    ],
+    "target_obj_name": "wrench",
+    "instruction": "Place the wrench between the scissors and the mug on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6848014709277623,
+            0.2375828079581,
+            0.904519038748736,
+            -0.14065660570216623,
+            0.9900301633171124,
+            -0.0029891708187501035,
+            0.006860018400355645,
+            0.005793227348476648,
+            0.004864310845732689,
+            0.010641004890203476,
+            -1.2503188848495483,
+            1.7506892681121826,
+            -0.08796939998865128
+        ],
+        [
+            0.5108422082216844,
+            -0.07883963577814038,
+            0.9642122180416454,
+            0.010215422309818608,
+            0.2508818704485766,
+            -0.03937993957135473,
+            0.9671624230637856,
+            0.0006734668859280646,
+            0.0009730134624987841,
+            0.00012973698903806508,
+            -0.015671081840991974,
+            0.003953866194933653,
+            0.0031323672737926245
+        ],
+        [
+            0.32571459583812185,
+            -0.11257465490862079,
+            0.9027627242120558,
+            0.010411961041651555,
+            -0.018122044494133023,
+            -0.08020762725328319,
+            0.996559039445741,
+            0.0016623158007860184,
+            -0.0032082796096801758,
+            0.03431803733110428,
+            0.1678243726491928,
+            -0.25597476959228516,
+            0.1581503450870514
+        ]
+    ],
+    "position_instruction": "Place the wrench between the scissors and the mug on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "2b1120c4b517409184413ed709c57a66",
+        "db9345f568e8499a9eac2577302b5f51",
+        "042"
+    ],
+    "target_obj_code": "042",
+    "anno_target": {
+        "category": "wrench",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.2856176793575287,
+                        0.9583436250686646
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_right"
+}

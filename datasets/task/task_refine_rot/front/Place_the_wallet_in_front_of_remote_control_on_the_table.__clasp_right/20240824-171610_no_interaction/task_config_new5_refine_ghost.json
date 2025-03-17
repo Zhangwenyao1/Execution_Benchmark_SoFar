@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "remote control",
+        "cup",
+        "wallet"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f1bbc61a42b94ee9a2976ca744f8962e/material_2.urdf",
+        "ycb_16k_backup/065-c_cups_google_16k/065-c_cups_google_16k.urdf",
+        "objaverse_rescale/f47fdcf9615d4e94a71e6731242a4c94/material_2.urdf"
+    ],
+    "target_obj_name": "wallet",
+    "instruction": "Place the wallet in front of remote control on the table. We also need to specify the rotation of the object after placement:  the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)",
+    "init_obj_pos": [
+        [
+            0.45804392231120383,
+            -0.004717141512912259,
+            0.9057257788372453,
+            -0.6893945794671029,
+            0.15758294233349668,
+            -0.15773997242871823,
+            0.6892175499688621,
+            0.0002660478057805449,
+            0.0011597124394029379,
+            0.03210621699690819,
+            -0.35641899704933167,
+            0.43763336539268494,
+            -0.02931566722691059
+        ],
+        [
+            0.4193514804916926,
+            0.14016424911740905,
+            0.900566405444652,
+            0.0006732200682585456,
+            -0.0007476741598044642,
+            0.040738008812723374,
+            0.9991693562134818,
+            -0.003596432041376829,
+            -0.005545771215111017,
+            -0.0003836631658487022,
+            0.19445548951625824,
+            -0.18132196366786957,
+            -0.050954028964042664
+        ],
+        [
+            0.759794146821388,
+            0.12053594726963925,
+            0.9530491937906841,
+            0.10211968879195026,
+            0.736133019361932,
+            -0.11309051228589434,
+            0.6594621164229478,
+            0.0006462237215600908,
+            0.0036556730046868324,
+            -3.873894820571877e-05,
+            -0.2468530535697937,
+            0.016522595658898354,
+            -0.034764595329761505
+        ]
+    ],
+    "position_instruction": "Place the wallet in front of remote control on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)",
+    "rotation_instruction_label": "clasp_right",
+    "obj_codes": [
+        "f1bbc61a42b94ee9a2976ca744f8962e",
+        "065-c",
+        "f47fdcf9615d4e94a71e6731242a4c94"
+    ],
+    "target_obj_code": "f47fdcf9615d4e94a71e6731242a4c94",
+    "anno_target": {
+        "category": "wallet",
+        "annotation": {
+            " the wallet is lying flat on the table, and the clasp is on the left(if the wallet has a clasp)": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            },
+            " the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "clasp_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "clasp_right"
+}

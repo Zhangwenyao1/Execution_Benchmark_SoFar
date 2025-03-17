@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "pear",
+        "tissue box",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f9ac5185507b4d0dbc744941e9055b96/material_2.urdf",
+        "objaverse_rescale/dc4c91abf45342b4bb8822f50fa162b2/material_2.urdf",
+        "ycb_16k_backup/065-h_cups_google_16k/065-h_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup to the right of the pear on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6146869596222693,
+            0.17441246748907305,
+            0.9343455393143137,
+            -0.1329723675665607,
+            0.014189447415008561,
+            0.04744323174351264,
+            0.9898818862912546,
+            0.002422658260911703,
+            -2.0860788936261088e-05,
+            -0.00035845136153511703,
+            -0.0005688622477464378,
+            0.06130104511976242,
+            0.010459831915795803
+        ],
+        [
+            0.5452781010799457,
+            -0.21950565339169717,
+            0.9471225307356508,
+            0.7069517247733964,
+            -0.014941811122306737,
+            -0.014934682856665106,
+            0.706946218865535,
+            0.00012794749636668712,
+            -6.635580575675704e-06,
+            -7.55716537241824e-05,
+            -8.121036808006465e-05,
+            0.0014437728095799685,
+            -0.0011763657676056027
+        ],
+        [
+            0.6861550727484934,
+            -0.18177711786003173,
+            0.900495786514234,
+            -0.0005896494995437245,
+            -0.0008346899213883737,
+            0.07547341319705315,
+            0.997147290778343,
+            0.0058161430060863495,
+            -0.0010471600107848644,
+            -0.005124561954289675,
+            0.017784645780920982,
+            0.2127983570098877,
+            -0.004861528519541025
+        ]
+    ],
+    "position_instruction": "Place the cup to the right of the pear on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "f9ac5185507b4d0dbc744941e9055b96",
+        "dc4c91abf45342b4bb8822f50fa162b2",
+        "065-h"
+    ],
+    "target_obj_code": "065-h",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upside_down"
+}

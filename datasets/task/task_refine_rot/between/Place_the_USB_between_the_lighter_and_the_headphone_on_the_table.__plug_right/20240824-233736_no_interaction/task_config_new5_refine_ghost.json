@@ -1,0 +1,127 @@
+{
+    "selected_obj_names": [
+        "lighter",
+        "headphone",
+        "tape measure",
+        "USB"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/d9675ab05c39447baf27e19ea07d484e/material_2.urdf",
+        "objaverse_rescale/ea91786392284f03809c37976da090bf/material_2.urdf",
+        "objaverse_rescale/d1d1c4b27f5c45a29910830e268f7ee2/material_2.urdf",
+        "objaverse_rescale/b1098389cc3b460bb1f1ce558d4b0764/material_2.urdf"
+    ],
+    "target_obj_name": "USB",
+    "instruction": "Place the USB between the lighter and the headphone on the table. We also need to specify the rotation of the object after placement:  the silver plug end of the USB is oriented towards right, and the larger end is on the left.",
+    "init_obj_pos": [
+        [
+            0.5692082029685841,
+            0.09114635490764648,
+            0.9260575892288183,
+            0.5682323282387222,
+            -0.8228138147081355,
+            0.00517945310492699,
+            0.007913326442213172,
+            0.00540807144716382,
+            5.627705104416236e-05,
+            0.032506175339221954,
+            0.3807128369808197,
+            0.7134189009666443,
+            -0.08087009191513062
+        ],
+        [
+            0.3816327001189589,
+            0.012805006796435344,
+            0.919143346698489,
+            0.39013329477026965,
+            -0.5935552469775358,
+            -0.5872825896182952,
+            0.3880558478213686,
+            -0.0009837556863203645,
+            -0.000382219412131235,
+            -0.00010858239693334326,
+            0.00012786049046553671,
+            -0.019942959770560265,
+            -0.0013107708655297756
+        ],
+        [
+            0.6803700244267089,
+            -0.06432842641915752,
+            0.967462026455414,
+            -0.00199586437767651,
+            0.03023594387662121,
+            0.06380023992985938,
+            0.9975025481712663,
+            -0.0007648669998161495,
+            0.0008027530275285244,
+            -0.00027486844919621944,
+            -0.018759410828351974,
+            -0.022250812500715256,
+            -0.00037153399898670614
+        ],
+        [
+            0.4845200509785471,
+            0.21252451336205896,
+            0.9250261336082667,
+            -0.02442605963397877,
+            -0.001844615949276817,
+            0.07551755567566303,
+            0.9968435503064317,
+            -0.002656650962308049,
+            0.00029753855778835714,
+            -0.004169524181634188,
+            -0.07879997044801712,
+            -0.14349882304668427,
+            0.08487022668123245
+        ]
+    ],
+    "position_instruction": "Place the USB between the lighter and the headphone on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the silver plug end of the USB is oriented towards right, and the larger end is on the left.",
+    "rotation_instruction_label": "plug_right",
+    "obj_codes": [
+        "d9675ab05c39447baf27e19ea07d484e",
+        "ea91786392284f03809c37976da090bf",
+        "d1d1c4b27f5c45a29910830e268f7ee2",
+        "b1098389cc3b460bb1f1ce558d4b0764"
+    ],
+    "target_obj_code": "b1098389cc3b460bb1f1ce558d4b0764",
+    "anno_target": {
+        "category": "USB",
+        "annotation": {
+            " the silver plug end of the USB is oriented towards left, and the larger end is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the silver plug end of the USB is oriented towards right, and the larger end is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "plug_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "plug_right"
+}

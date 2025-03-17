@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "pen",
+        "marker",
+        "mouse"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-a_cups_google_16k/065-a_cups_google_16k.urdf",
+        "objaverse_rescale/f126e15c0f904fccbd76f9348baea12c/material_2.urdf",
+        "ycb_16k_backup/040_large_marker_google_16k/040_large_marker_google_16k.urdf",
+        "objaverse_rescale/e51e63e374ee4c25ae3fb4a9c74bd335/material_2.urdf"
+    ],
+    "target_obj_name": "mouse",
+    "instruction": "Place the mouse between the cup and the pen on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.48375848001513333,
+            0.006690238599052539,
+            0.9011474324467061,
+            0.002168762478808057,
+            -0.005302249383093004,
+            -0.020250807986082243,
+            0.9997785191714715,
+            0.0005369510618038476,
+            -0.004796404857188463,
+            0.010433707386255264,
+            -1.347711205482483,
+            -2.696634292602539,
+            5.096724510192871
+        ],
+        [
+            0.3946867187055266,
+            0.317016463955889,
+            0.907042216018001,
+            -0.5407520377783307,
+            -0.458229822297841,
+            -0.37570501325017086,
+            0.5970413776399094,
+            -0.0011898099910467863,
+            -0.0004979834775440395,
+            0.03282863646745682,
+            -0.5330269932746887,
+            1.9818775653839111,
+            -0.15702658891677856
+        ],
+        [
+            0.2652748601235739,
+            0.038823367886313846,
+            0.9293070573601783,
+            0.3774918957747314,
+            -0.11132513691471774,
+            0.8753226945466437,
+            0.280921275319122,
+            6.34940224699676e-05,
+            0.0011696746805682778,
+            0.03345946967601776,
+            4.9490461349487305,
+            4.903967380523682,
+            0.7152029871940613
+        ],
+        [
+            0.7039183488176427,
+            -0.07279085257550856,
+            0.9275073005796516,
+            0.7010896499057715,
+            0.0920439617275789,
+            0.09203699273160097,
+            0.7010922934060956,
+            0.0047338539734482765,
+            -0.01239977777004242,
+            -0.008908979594707489,
+            0.20325367152690887,
+            0.22762446105480194,
+            -0.12967954576015472
+        ]
+    ],
+    "position_instruction": "Place the mouse between the cup and the pen on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "065-a",
+        "f126e15c0f904fccbd76f9348baea12c",
+        "040",
+        "e51e63e374ee4c25ae3fb4a9c74bd335"
+    ],
+    "target_obj_code": "e51e63e374ee4c25ae3fb4a9c74bd335",
+    "anno_target": {
+        "category": "mouse",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upright"
+}

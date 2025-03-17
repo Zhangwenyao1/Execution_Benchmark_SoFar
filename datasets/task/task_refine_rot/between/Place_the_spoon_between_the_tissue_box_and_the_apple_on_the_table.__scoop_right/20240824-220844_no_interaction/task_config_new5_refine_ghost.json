@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "apple",
+        "keyboard",
+        "spoon"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/2bd98e8ea09f49bd85453a927011d31d/material_2.urdf",
+        "ycb_16k_backup/013_apple_google_16k/013_apple_google_16k.urdf",
+        "objaverse_rescale/44bb12d306864e2cb4256a61d4168942/material_2.urdf",
+        "objaverse_rescale/218768789fdd42bd95eb933046698499/material_2.urdf"
+    ],
+    "target_obj_name": "spoon",
+    "instruction": "Place the spoon between the tissue box and the apple on the table. We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "init_obj_pos": [
+        [
+            0.6912714895288861,
+            0.370082864330942,
+            0.9153850750444034,
+            0.1721878114521089,
+            -0.9850636615576934,
+            0.0009566312259848377,
+            -0.0001585010380069251,
+            -0.0001800853351596743,
+            0.00041876648901961744,
+            -3.072907202295028e-05,
+            -0.007783931214362383,
+            -0.00531813083216548,
+            0.0033904812298715115
+        ],
+        [
+            0.41201070455642197,
+            -0.22504554272092464,
+            0.9006192809380542,
+            0.008480050163875394,
+            -0.01877913358583791,
+            0.07560358108610558,
+            0.996925038013361,
+            -0.002371867885813117,
+            0.0008570035570301116,
+            -0.0005086080636829138,
+            -0.012032987549901009,
+            -0.08278051763772964,
+            0.07745745033025742
+        ],
+        [
+            0.28249786227956863,
+            -0.37351710872569605,
+            0.9086075420414151,
+            -0.3468700541480346,
+            -0.6161912299395059,
+            0.6159384063972857,
+            0.34728865977130674,
+            -0.0003677426720969379,
+            -0.0002422594407107681,
+            -0.0013570159208029509,
+            0.03185133635997772,
+            -0.04253917559981346,
+            0.0017630126094445586
+        ],
+        [
+            0.31858719909738764,
+            -0.19556808527328434,
+            0.9072570139061907,
+            0.011761968292192728,
+            -0.02620607239613359,
+            -0.0776502617910645,
+            0.9965667738366764,
+            -0.0007416761363856494,
+            0.00835479237139225,
+            0.03523886576294899,
+            2.8364200592041016,
+            14.848676681518555,
+            0.8571271300315857
+        ]
+    ],
+    "position_instruction": "Place the spoon between the tissue box and the apple on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the ladle is lying on the table, with its scoop on the left(pointing towards right) and its handle on the left.",
+    "rotation_instruction_label": "scoop_right",
+    "obj_codes": [
+        "2bd98e8ea09f49bd85453a927011d31d",
+        "013",
+        "44bb12d306864e2cb4256a61d4168942",
+        "218768789fdd42bd95eb933046698499"
+    ],
+    "target_obj_code": "218768789fdd42bd95eb933046698499",
+    "anno_target": {
+        "category": "spoon",
+        "annotation": {
+            " the ladle is lying on the table, with its scoop on the left(pointing towards left) and its handle on the right. ": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the ladle is lying on the table, with its scoop on the right(pointing towards right) and its handle on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "scoop_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "scoop_right"
+}

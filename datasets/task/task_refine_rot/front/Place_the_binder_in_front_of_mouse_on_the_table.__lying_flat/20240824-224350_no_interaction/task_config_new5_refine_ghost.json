@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "mouse",
+        "wrench",
+        "binder"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f017c73a85484b6da3a66ec1cda70c71/material_2.urdf",
+        "objaverse_rescale/19c1913ba85042938f0a87d94397c946/material_2.urdf",
+        "objaverse_rescale/78e016eeb0bf45d5bea47547128383a8/material_2.urdf"
+    ],
+    "target_obj_name": "binder",
+    "instruction": "Place the binder in front of mouse on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.5371210660590318,
+            0.20942456068051155,
+            0.9160624310685702,
+            -0.6412372337919622,
+            -0.15971755892661887,
+            0.28674932785988955,
+            0.693599260626233,
+            0.0003856761031784117,
+            0.0015009347116574645,
+            -0.00016642322589177638,
+            -0.08862756937742233,
+            0.06700725108385086,
+            0.016423549503087997
+        ],
+        [
+            0.3349364010396678,
+            -0.14072870020110279,
+            0.9075132669322655,
+            0.01024616257381745,
+            0.00038666402748345946,
+            -0.0905606720443084,
+            0.9958381551850295,
+            -0.0002793077437672764,
+            0.0005056264344602823,
+            0.028607496991753578,
+            0.8090406060218811,
+            2.6302342414855957,
+            0.2148989886045456
+        ],
+        [
+            0.5731850743782676,
+            -0.03915652953306841,
+            1.0259464199763426,
+            7.45742591816862e-05,
+            -3.507163626858862e-06,
+            -0.1179410588851188,
+            0.9930205944769908,
+            -0.0018333435291424394,
+            0.00043157528853043914,
+            -0.0008710960973985493,
+            -0.005187115166336298,
+            -0.010540892370045185,
+            0.0009784044232219458
+        ]
+    ],
+    "position_instruction": "Place the binder in front of mouse on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "f017c73a85484b6da3a66ec1cda70c71",
+        "19c1913ba85042938f0a87d94397c946",
+        "78e016eeb0bf45d5bea47547128383a8"
+    ],
+    "target_obj_code": "78e016eeb0bf45d5bea47547128383a8",
+    "anno_target": {
+        "category": "binder",
+        "annotation": {
+            "the binder is standing upright on the table and oriented in a way so that its smaller side is in contact with the tabletop and the larger face is perpendicular to the tabletop, and the label should be in sight as well.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        0.5,
+                        0.4999999701976776
+                    ],
+                    [
+                        -0.4999997913837433,
+                        0.5000002384185791,
+                        0.4999997615814209,
+                        0.5000002384185791
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "front",
+    "rotation_tag": "lying_flat"
+}

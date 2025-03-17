@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "clipboard",
+        "bowl",
+        "calipers",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/a37158f20ccf436483029e8295629738/material_2.urdf",
+        "objaverse_rescale/bf83213efac34b3cb2ad6ac5ddaf05d9/material_2.urdf",
+        "objaverse_rescale/95c967114b624291bc26bcd705aaa334/material_2.urdf",
+        "ycb_16k_backup/065-g_cups_google_16k/065-g_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup in front of clipboard on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.7705498761815728,
+            0.11195872172432814,
+            0.9290108390413491,
+            0.6748827276581422,
+            0.21101721663313167,
+            -0.2860036320285825,
+            0.6466892303568778,
+            0.005318556446582079,
+            0.005314637441188097,
+            0.023428894579410553,
+            -0.12522995471954346,
+            -0.16200722754001617,
+            0.05808882787823677
+        ],
+        [
+            0.41396144741756535,
+            0.07382499619141346,
+            0.9562204523658477,
+            0.42228378459576954,
+            0.07794002089224375,
+            0.27241968110444265,
+            0.8610396481915015,
+            0.0030626533553004265,
+            0.0012478878488764167,
+            -0.0006158745381981134,
+            -0.03804619237780571,
+            0.0760331004858017,
+            -0.019922375679016113
+        ],
+        [
+            0.5380241528934671,
+            -0.00016565196806244114,
+            0.9025979361057526,
+            -0.7026618286867116,
+            -0.07921981386307457,
+            0.07977310606555227,
+            0.7025858147919013,
+            -0.0042242975905537605,
+            -0.001569931162521243,
+            0.032820023596286774,
+            -5.840085029602051,
+            -1.4755388498306274,
+            -0.312234491109848
+        ],
+        [
+            0.6028469736597946,
+            0.07895083924127674,
+            0.9004985975783596,
+            0.0021523720590718816,
+            -0.004135678420853972,
+            0.06920648609577992,
+            0.9975914623435755,
+            -0.0028168901335448027,
+            -0.01212518010288477,
+            0.010455586947500706,
+            0.5193930268287659,
+            -0.0973285362124443,
+            0.10180004686117172
+        ]
+    ],
+    "position_instruction": "Place the cup in front of clipboard on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "a37158f20ccf436483029e8295629738",
+        "bf83213efac34b3cb2ad6ac5ddaf05d9",
+        "95c967114b624291bc26bcd705aaa334",
+        "065-g"
+    ],
+    "target_obj_code": "065-g",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "front",
+    "rotation_tag": "upside_down"
+}

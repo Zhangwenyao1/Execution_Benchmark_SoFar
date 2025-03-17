@@ -1,0 +1,127 @@
+{
+    "selected_obj_names": [
+        "scissors",
+        "mouse",
+        "mug",
+        "can"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/037_scissors_google_16k/037_scissors_google_16k.urdf",
+        "objaverse_rescale/969b0d9d99a8468898753fdcd219f883/material_2.urdf",
+        "objaverse_rescale/e5e87ddbf3f6470384bef58431351e2a/material_2.urdf",
+        "ycb_16k_backup/010_potted_meat_can_google_16k/010_potted_meat_can_google_16k.urdf"
+    ],
+    "target_obj_name": "can",
+    "instruction": "Place the can in front of scissors on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.5967208840625993,
+            0.21906333411736806,
+            0.9001363474206378,
+            -0.0012627184901058902,
+            -0.0008223011072993098,
+            0.11499863461039139,
+            0.9933645068154231,
+            0.000764389056712389,
+            0.0071869357489049435,
+            0.002438802970573306,
+            -0.3439902365207672,
+            -0.1881033033132553,
+            0.2758290469646454
+        ],
+        [
+            0.48565793216247477,
+            -0.057793405744430815,
+            0.9208177725236751,
+            -0.4800723084444784,
+            -0.4196175703719696,
+            0.39644352077834777,
+            0.6605181361119341,
+            0.0034759806003421545,
+            0.005719590466469526,
+            -0.00018216903845313936,
+            -0.08775608986616135,
+            0.3094821274280548,
+            -0.0087911207228899
+        ],
+        [
+            0.3599087069630845,
+            -0.22834757843982958,
+            0.9327733084031922,
+            -0.02547844992214607,
+            0.2287773445402131,
+            0.10774422398837097,
+            0.9671623221630562,
+            -0.001175438635982573,
+            2.7927144401473925e-05,
+            -1.6595300621702336e-05,
+            9.41570324357599e-05,
+            -0.022581079974770546,
+            0.0035076614003628492
+        ],
+        [
+            0.5682998566432049,
+            0.13571371198296434,
+            0.9505303808906747,
+            0.6913938062191735,
+            -0.05754055981947405,
+            -0.09394736045518183,
+            0.7140291185665538,
+            -0.012095888145267963,
+            -0.004225062672048807,
+            0.0018497089622542262,
+            0.16178670525550842,
+            -0.44183170795440674,
+            0.050109513103961945
+        ]
+    ],
+    "position_instruction": "Place the can in front of scissors on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "037",
+        "969b0d9d99a8468898753fdcd219f883",
+        "e5e87ddbf3f6470384bef58431351e2a",
+        "010"
+    ],
+    "target_obj_code": "010",
+    "anno_target": {
+        "category": "can",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.0,
+                        0.7071067690849304,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        0.0,
+                        -0.7071067690849304,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "front",
+    "rotation_tag": "sideways"
+}

@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "toy",
+        "envelope box",
+        "keyboard"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/072-a_toy_airplane_google_16k/072-a_toy_airplane_google_16k.urdf",
+        "objaverse_rescale/40b28d1cbfbd4e9f9acf653b748324ee/material_2.urdf",
+        "objaverse_rescale/0161b6232216457aa8f4f3393960ec85/material_2.urdf"
+    ],
+    "target_obj_name": "keyboard",
+    "instruction": "Place the keyboard between the toy and the envelope box on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.31416708796927495,
+            -0.06976480141694223,
+            0.9001982725024138,
+            -0.00140678872517434,
+            -0.0003243900548711172,
+            0.12358856961542593,
+            0.9923324952741327,
+            0.0005393451428972185,
+            0.00028143011149950325,
+            -0.00021580637258011848,
+            -0.004042827524244785,
+            0.008068121038377285,
+            0.0005135512910783291
+        ],
+        [
+            0.6873793782196788,
+            0.1501083762853343,
+            0.9317034236488614,
+            -0.0003311569429860605,
+            0.00030073426202791357,
+            -0.014475016374958335,
+            0.9998951313987512,
+            -2.0320183011790505e-06,
+            -5.658412646880606e-06,
+            -1.379571585857775e-05,
+            0.00025919798645190895,
+            -9.466208575759083e-05,
+            -3.511849854476168e-06
+        ],
+        [
+            0.5176369205269427,
+            -0.18488998055540942,
+            0.9132956569895512,
+            0.5093736836156435,
+            0.22044268145244225,
+            0.1447804420667685,
+            0.8191349694823428,
+            -0.0031495017465204,
+            -0.0031945309601724148,
+            -0.0012489546788856387,
+            0.21445982158184052,
+            -0.22538670897483826,
+            -0.007711367681622505
+        ]
+    ],
+    "position_instruction": "Place the keyboard between the toy and the envelope box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "072-a",
+        "40b28d1cbfbd4e9f9acf653b748324ee",
+        "0161b6232216457aa8f4f3393960ec85"
+    ],
+    "target_obj_code": "0161b6232216457aa8f4f3393960ec85",
+    "anno_target": {
+        "category": "keyboard",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        -0.8299373984336853,
+                        -0.06110483780503273,
+                        -0.0986846536397934,
+                        0.5456477999687195
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upright"
+}

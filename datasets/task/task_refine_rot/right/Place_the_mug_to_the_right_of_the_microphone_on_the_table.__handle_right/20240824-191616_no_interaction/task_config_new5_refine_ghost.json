@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "microphone",
+        "hammer",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f9d07bb386a04de8b0e1a9a28a936985/material_2.urdf",
+        "objaverse_rescale/6d155e8051294915813e0c156e3cd6de/material_2.urdf",
+        "objaverse_rescale/c609327dd3a74fb597584e1b4a14a615/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug to the right of the microphone on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.4439177745754528,
+            0.10334831248903745,
+            0.9436968571928259,
+            -0.042481090661745796,
+            -0.03341552006988967,
+            0.06283057236178476,
+            0.9965596214634316,
+            0.0009499031002633274,
+            -0.0009255073964595795,
+            -0.003602201584726572,
+            0.02990659698843956,
+            0.03127916157245636,
+            -0.00011578107660170645
+        ],
+        [
+            0.6005133137198038,
+            0.13659959577066422,
+            0.9327221933751119,
+            0.081808310782325,
+            0.008694643929005624,
+            0.1053259418895381,
+            0.9910288842505915,
+            -0.00018496190023142844,
+            0.001065105781890452,
+            -0.00444044778123498,
+            -0.05095842108130455,
+            0.03668894246220589,
+            0.012578408233821392
+        ],
+        [
+            0.4770855891914516,
+            -0.14908425108187706,
+            0.9360363935164007,
+            -0.002719270668862563,
+            0.014069449554059853,
+            0.07074406391000963,
+            0.9973915648218471,
+            -0.0009634931338950992,
+            0.0001638043177081272,
+            -0.00013529884745366871,
+            -0.0018118107691407204,
+            -0.01667703688144684,
+            -0.0010892461286857724
+        ]
+    ],
+    "position_instruction": "Place the mug to the right of the microphone on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "f9d07bb386a04de8b0e1a9a28a936985",
+        "6d155e8051294915813e0c156e3cd6de",
+        "c609327dd3a74fb597584e1b4a14a615"
+    ],
+    "target_obj_code": "c609327dd3a74fb597584e1b4a14a615",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "handle_right"
+}

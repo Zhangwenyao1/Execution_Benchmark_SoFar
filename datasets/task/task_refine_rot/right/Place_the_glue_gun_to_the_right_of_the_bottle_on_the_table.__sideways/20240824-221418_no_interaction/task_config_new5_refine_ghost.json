@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "bottle",
+        "apple",
+        "box",
+        "glue gun"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/006_mustard_bottle_google_16k/006_mustard_bottle_google_16k.urdf",
+        "objaverse_rescale/f53d75bd123b40bca14d12d54286f432/material_2.urdf",
+        "ycb_16k_backup/009_gelatin_box_google_16k/009_gelatin_box_google_16k.urdf",
+        "objaverse_rescale/a1da12b81f034db894496c1ffc4be1f5/material_2.urdf"
+    ],
+    "target_obj_name": "glue gun",
+    "instruction": "Place the glue gun to the right of the bottle on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.641711240296144,
+            0.16365821647468393,
+            0.9030912740684606,
+            0.00028159211057688255,
+            5.227784348144628e-05,
+            -0.09298790158989094,
+            0.9956671974765555,
+            0.003097011474892497,
+            -0.0025678668171167374,
+            -0.0011348293628543615,
+            0.03493732959032059,
+            0.04076402261853218,
+            0.003964411560446024
+        ],
+        [
+            0.5024921244861691,
+            0.026125732219031264,
+            0.9682680393434294,
+            0.05866434849183003,
+            0.05126745370430392,
+            0.11755106107788772,
+            0.9900060052576293,
+            -0.0026902786921709776,
+            0.006528407335281372,
+            -0.0014338704058900476,
+            -0.12828712165355682,
+            -0.04514507204294205,
+            -0.022675687447190285
+        ],
+        [
+            0.38766377074989483,
+            -0.15692791836677764,
+            0.900356220426923,
+            -0.0011450042201744573,
+            0.003262975840795899,
+            -0.409908359219808,
+            0.9121201560078154,
+            -0.0047909351997077465,
+            -0.003938200417906046,
+            0.026363778859376907,
+            0.6215162873268127,
+            -0.5106929540634155,
+            -0.026579011231660843
+        ],
+        [
+            0.6159991622036737,
+            -0.17645966440750524,
+            0.9143093430337897,
+            0.6867507283196013,
+            0.14434802879515338,
+            0.14675866950975558,
+            0.6971362683573256,
+            -0.0031108229886740446,
+            0.010554557666182518,
+            0.013194093480706215,
+            -0.7928803563117981,
+            -0.2177748680114746,
+            0.19398687779903412
+        ]
+    ],
+    "position_instruction": "Place the glue gun to the right of the bottle on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "006",
+        "f53d75bd123b40bca14d12d54286f432",
+        "009",
+        "a1da12b81f034db894496c1ffc4be1f5"
+    ],
+    "target_obj_code": "a1da12b81f034db894496c1ffc4be1f5",
+    "anno_target": {
+        "category": "glue_gun",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.4999999701976776,
+                        0.5
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "sideways"
+}

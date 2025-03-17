@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "pot",
+        "glasses",
+        "plate"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/2bd98e8ea09f49bd85453a927011d31d/material_2.urdf",
+        "objaverse_rescale/cba3e4df7c354d22b7913d45a28a8159/material_2.urdf",
+        "objaverse_rescale/e4f348e98ceb45e3abc77da5b738f1b2/material_2.urdf",
+        "objaverse_rescale/6d5a4e1174dd4f5fa0a9a9076e476b91/material_2.urdf"
+    ],
+    "target_obj_name": "plate",
+    "instruction": "Place the plate at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.34183906221576477,
+            0.016474564621307818,
+            0.9149069881208242,
+            -0.0009764209346971581,
+            -0.00011031691450789261,
+            0.11716978115840114,
+            0.9931114120860906,
+            0.00016302670701406896,
+            0.0002925422159023583,
+            -7.915484457043931e-05,
+            -0.003249115776270628,
+            0.000999969313852489,
+            -0.0001019278060994111
+        ],
+        [
+            0.64168000965579,
+            0.21455680513682718,
+            0.9372863950762338,
+            -0.1208375259910329,
+            0.09567978273671889,
+            -0.4099660886368315,
+            0.8989835803036882,
+            0.00015377056843135506,
+            -0.002201628405600786,
+            -0.00015431783685926348,
+            0.03860275819897652,
+            0.0025818226858973503,
+            0.008438332937657833
+        ],
+        [
+            0.6235598589336843,
+            0.11269928474394422,
+            0.9134669571295024,
+            -0.6348714981717232,
+            0.2121884433103765,
+            -0.1940371307758361,
+            0.7171219123796129,
+            0.010984842665493488,
+            0.0007091031293384731,
+            0.03411417454481125,
+            3.060119152069092,
+            -3.880763530731201,
+            0.7487631440162659
+        ],
+        [
+            0.6192093957987151,
+            -0.30617681431004395,
+            0.912741386945538,
+            0.7010993192546499,
+            0.09201439472668259,
+            0.09201770931572999,
+            0.7010890363399175,
+            0.00014990354247856885,
+            -0.0003603415098041296,
+            -0.0004063089145347476,
+            -0.012474188581109047,
+            0.005214483942836523,
+            -0.011939680203795433
+        ]
+    ],
+    "position_instruction": "Place the plate at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "2bd98e8ea09f49bd85453a927011d31d",
+        "cba3e4df7c354d22b7913d45a28a8159",
+        "e4f348e98ceb45e3abc77da5b738f1b2",
+        "6d5a4e1174dd4f5fa0a9a9076e476b91"
+    ],
+    "target_obj_code": "6d5a4e1174dd4f5fa0a9a9076e476b91",
+    "anno_target": {
+        "category": "plate",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "center",
+    "rotation_tag": "upside_down"
+}

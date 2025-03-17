@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "calipers",
+        "bottle",
+        "calculator"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/95c967114b624291bc26bcd705aaa334/material_2.urdf",
+        "ycb_16k_backup/006_mustard_bottle_google_16k/006_mustard_bottle_google_16k.urdf",
+        "objaverse_rescale/054be0c3f09143f38c4d8038eb2588c6/material_2.urdf"
+    ],
+    "target_obj_name": "calculator",
+    "instruction": "Place the calculator between the calipers and the bottle on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.45351308147933633,
+            0.24272850015934344,
+            0.9029524225384041,
+            -0.6937301186842036,
+            -0.15756150620053547,
+            0.1519927062610611,
+            0.6861567688492611,
+            -0.00202611880376935,
+            -0.0003955528372898698,
+            0.03227986767888069,
+            2.5289013385772705,
+            -2.7433149814605713,
+            0.2247638702392578
+        ],
+        [
+            0.6619370693178035,
+            -0.17312523937910534,
+            0.9564880368634382,
+            0.6824970714081883,
+            -0.19382675703952057,
+            0.12948700594359797,
+            0.6927207598062524,
+            -0.0038625586312264204,
+            0.0004268497577868402,
+            -0.0009402182186022401,
+            -0.020190691575407982,
+            -0.16283372044563293,
+            -0.0002630336966831237
+        ],
+        [
+            0.4310041293141065,
+            0.0349188964990609,
+            0.905604554398803,
+            0.0002119394162227718,
+            0.00014367763429523148,
+            -0.02489697933271679,
+            0.9996899893759702,
+            3.333716085762717e-05,
+            0.0017229587538167834,
+            -0.01035480946302414,
+            -0.1301572173833847,
+            0.007583154831081629,
+            0.01874011568725109
+        ]
+    ],
+    "position_instruction": "Place the calculator between the calipers and the bottle on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "95c967114b624291bc26bcd705aaa334",
+        "006",
+        "054be0c3f09143f38c4d8038eb2588c6"
+    ],
+    "target_obj_code": "054be0c3f09143f38c4d8038eb2588c6",
+    "anno_target": {
+        "category": "calculator",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

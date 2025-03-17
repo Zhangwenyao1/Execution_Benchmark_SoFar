@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "bottle",
+        "SD card",
+        "book"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-g_cups_google_16k/065-g_cups_google_16k.urdf",
+        "ycb_16k_backup/021_bleach_cleanser_google_16k/021_bleach_cleanser_google_16k.urdf",
+        "objaverse_rescale/02f7f045679d402da9b9f280030821d4/material_2.urdf",
+        "objaverse_rescale/de79a920c48745ff95c0df7a7c300091/material_2.urdf"
+    ],
+    "target_obj_name": "book",
+    "instruction": "Place the book on top of the cup on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.3316432155013885,
+            -0.11112995893027097,
+            0.9005724091194156,
+            0.0001420946002200152,
+            -0.0012534306668687775,
+            -0.12756163534676038,
+            0.9918298432232965,
+            0.006946933921426535,
+            0.00746948691084981,
+            -0.003900868585333228,
+            -0.25801366567611694,
+            0.242806538939476,
+            -0.0031172872986644506
+        ],
+        [
+            0.3849771001137594,
+            0.15371210578798059,
+            0.9003785085356767,
+            -0.0008740799123728189,
+            -0.0005720683256620391,
+            0.047542342478795296,
+            0.9988686772513018,
+            -0.0012442191364243627,
+            0.0008437883225269616,
+            -0.0005311128916218877,
+            -0.00879841297864914,
+            -0.016667068004608154,
+            0.00018865821766667068
+        ],
+        [
+            0.6419121835580027,
+            -0.1617368717902317,
+            0.898181020736736,
+            0.7011387275449125,
+            0.08811256442927126,
+            0.08706325384587421,
+            0.7021827757472897,
+            0.00014459413068834692,
+            0.00030736494227312505,
+            0.030791964381933212,
+            -1.131584644317627,
+            1.18209707736969,
+            0.009057026356458664
+        ],
+        [
+            0.5827222193826731,
+            0.23271208957210276,
+            0.9151524519925468,
+            0.007882047128872086,
+            -0.00038104164293589765,
+            0.09703046624248543,
+            0.995250127737289,
+            0.0021390921901911497,
+            -0.0014247559010982513,
+            -0.0011833267053589225,
+            0.08748028427362442,
+            0.17318175733089447,
+            -0.004772793501615524
+        ]
+    ],
+    "position_instruction": "Place the book on top of the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "065-g",
+        "021",
+        "02f7f045679d402da9b9f280030821d4",
+        "de79a920c48745ff95c0df7a7c300091"
+    ],
+    "target_obj_code": "de79a920c48745ff95c0df7a7c300091",
+    "anno_target": {
+        "category": "book",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    [
+                        1.0,
+                        0.0,
+                        0.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "top",
+    "rotation_tag": "lying_flat"
+}

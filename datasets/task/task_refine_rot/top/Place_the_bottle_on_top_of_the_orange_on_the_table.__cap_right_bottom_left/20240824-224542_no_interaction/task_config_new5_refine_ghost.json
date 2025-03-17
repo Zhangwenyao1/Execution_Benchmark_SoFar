@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "orange",
+        "pitcher base",
+        "bottle"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/a4c9a503f63e440e8d6d924d4e5c36b1/material_2.urdf",
+        "ycb_16k_backup/019_pitcher_base_google_16k/019_pitcher_base_google_16k.urdf",
+        "ycb_16k_backup/006_mustard_bottle_google_16k/006_mustard_bottle_google_16k.urdf"
+    ],
+    "target_obj_name": "bottle",
+    "instruction": "Place the bottle on top of the orange on the table. We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.",
+    "init_obj_pos": [
+        [
+            0.703912483275478,
+            0.07673880528775014,
+            0.9373087308625228,
+            0.36173567621595387,
+            0.5644902726630264,
+            -0.6876527165843503,
+            0.27862479070529816,
+            -0.0018959062872454524,
+            -0.0018299169605597854,
+            -0.0003725149726960808,
+            0.023896915838122368,
+            -0.021331099793314934,
+            0.002957344753667712
+        ],
+        [
+            0.5303751636852784,
+            0.03146562958348607,
+            0.9013198032377356,
+            7.769026821578115e-05,
+            0.0007148309017599286,
+            0.09451662662343267,
+            0.9955230234769722,
+            -0.0032217155676335096,
+            0.001956556225195527,
+            -0.0014386320253834128,
+            -0.017672749236226082,
+            -0.028275106102228165,
+            -0.010822305455803871
+        ],
+        [
+            0.42477503642276554,
+            0.16663547108468454,
+            0.9559062013670203,
+            0.691456781176186,
+            -0.15756889468938584,
+            0.08943091844302088,
+            0.6993294459825586,
+            0.004547618329524994,
+            -0.00026368859107606113,
+            8.873627666616812e-05,
+            0.019563307985663414,
+            0.1922137588262558,
+            0.0035996295046061277
+        ]
+    ],
+    "position_instruction": "Place the bottle on top of the orange on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.",
+    "rotation_instruction_label": "cap_right_bottom_left",
+    "obj_codes": [
+        "a4c9a503f63e440e8d6d924d4e5c36b1",
+        "019",
+        "006"
+    ],
+    "target_obj_code": "006",
+    "anno_target": {
+        "category": "bottle",
+        "annotation": {
+            " the bottle is lying sideways on the table, with its cap oriented towards left and the bottom side on the right.": {
+                "quat": [
+                    [
+                        0.6940461993217468,
+                        -0.13927604258060455,
+                        0.13960807025432587,
+                        0.6923955678939819
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the bottle is lying sideways on the table, with its cap oriented towards right and the bottom side on the left.": {
+                "quat": [
+                    [
+                        0.6968799233436584,
+                        -0.14050795137882233,
+                        -0.138368159532547,
+                        -0.6895434260368347
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "cap_right_bottom_left",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "cap_right_bottom_left"
+}

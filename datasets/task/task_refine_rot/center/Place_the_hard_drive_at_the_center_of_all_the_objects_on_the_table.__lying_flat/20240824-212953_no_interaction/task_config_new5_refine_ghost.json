@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "spatula",
+        "remote control",
+        "power drill",
+        "hard drive"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/033_spatula_google_16k/033_spatula_google_16k.urdf",
+        "objaverse_rescale/f1bbc61a42b94ee9a2976ca744f8962e/material_2.urdf",
+        "ycb_16k_backup/035_power_drill_google_16k/035_power_drill_google_16k.urdf",
+        "objaverse_rescale/e32b159011544b8aa7cacd812636353e/material_2.urdf"
+    ],
+    "target_obj_name": "hard drive",
+    "instruction": "Place the hard drive at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.46947727633380987,
+            -0.27276688535641114,
+            0.9006675561151208,
+            0.0021881991266648666,
+            -0.0018930276600345119,
+            0.04598748646678458,
+            0.9989378255523857,
+            -0.0001393066777382046,
+            -0.006651843432337046,
+            -0.02803068421781063,
+            -1.3248127698898315,
+            0.3683260977268219,
+            0.10182105004787445
+        ],
+        [
+            0.5996589464601165,
+            0.31246366336519643,
+            0.9057320713463477,
+            -0.33070742878298437,
+            0.6250830509270051,
+            -0.6252065033643437,
+            0.3301826829839303,
+            0.0003133592545054853,
+            -0.00030069725471548736,
+            0.032029855996370316,
+            0.5220360159873962,
+            0.29870474338531494,
+            -0.01151110790669918
+        ],
+        [
+            0.6023670346321222,
+            0.02314154873375698,
+            0.9030971701356624,
+            -0.00011205381003647533,
+            0.00027993703799730546,
+            0.08760782321186092,
+            0.9961549971722657,
+            -4.9736274377210066e-05,
+            0.00024267248227261007,
+            -0.0004183266428299248,
+            -0.007736696861684322,
+            0.00324307382106781,
+            0.0001433892030036077
+        ],
+        [
+            0.38614576240752074,
+            -0.05140367466808006,
+            0.915186448724221,
+            0.7069037560705537,
+            -0.016862827983139934,
+            -0.01686281624273744,
+            0.7069076107343285,
+            0.003854576265439391,
+            -0.013958676718175411,
+            0.029318301007151604,
+            0.507678747177124,
+            0.4885447919368744,
+            0.08677014708518982
+        ]
+    ],
+    "position_instruction": "Place the hard drive at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "033",
+        "f1bbc61a42b94ee9a2976ca744f8962e",
+        "035",
+        "e32b159011544b8aa7cacd812636353e"
+    ],
+    "target_obj_code": "e32b159011544b8aa7cacd812636353e",
+    "anno_target": {
+        "category": "hard_drive",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "center",
+    "rotation_tag": "lying_flat"
+}

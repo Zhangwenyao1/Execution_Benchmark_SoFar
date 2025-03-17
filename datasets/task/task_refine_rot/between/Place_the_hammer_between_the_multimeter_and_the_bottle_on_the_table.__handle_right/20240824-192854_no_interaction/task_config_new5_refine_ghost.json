@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "multimeter",
+        "bottle",
+        "bowl",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/79ac684e66b34554ba869bd2fc3c2653/material_2.urdf",
+        "ycb_16k_backup/006_mustard_bottle_google_16k/006_mustard_bottle_google_16k.urdf",
+        "objaverse_rescale/bdd36c94f3f74f22b02b8a069c8d97b7/material_2.urdf",
+        "objaverse_rescale/6d155e8051294915813e0c156e3cd6de/material_2.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer between the multimeter and the bottle on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6870779554597004,
+            -0.0011297227087229513,
+            0.9583077058639883,
+            0.527900200510803,
+            -0.013670462385189276,
+            0.04157444598102464,
+            0.8481780840131394,
+            0.008525123819708824,
+            0.015298638492822647,
+            0.004344429820775986,
+            -0.23757614195346832,
+            0.24296726286411285,
+            -0.026890169829130173
+        ],
+        [
+            0.30550372783467866,
+            -0.010504177184461434,
+            0.9568217872986545,
+            0.6359261754508359,
+            -0.31651589173574035,
+            -0.0023003454551881433,
+            0.7038538897143282,
+            -0.004506843164563179,
+            0.0021276562474668026,
+            -0.00046116980956867337,
+            -0.09129331260919571,
+            -0.1898735612630844,
+            0.0013151721796020865
+        ],
+        [
+            0.38153607610872087,
+            0.09360809011659206,
+            0.9575950857877368,
+            0.684821713294737,
+            -0.09069290109478352,
+            -0.10725048829288225,
+            0.7150463981113467,
+            0.00028551649302244186,
+            0.00338294287212193,
+            -0.00110118486918509,
+            -0.07386680692434311,
+            0.006076529622077942,
+            0.008139185607433319
+        ],
+        [
+            0.6180984462611084,
+            -0.22953282929778507,
+            0.9332828695654939,
+            0.07570767258533946,
+            0.005449902838112704,
+            0.08807665296233799,
+            0.9932175743882694,
+            -0.00966364424675703,
+            0.019681638106703758,
+            0.020302942022681236,
+            0.03920277953147888,
+            -0.5464133024215698,
+            0.13560613989830017
+        ]
+    ],
+    "position_instruction": "Place the hammer between the multimeter and the bottle on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "79ac684e66b34554ba869bd2fc3c2653",
+        "006",
+        "bdd36c94f3f74f22b02b8a069c8d97b7",
+        "6d155e8051294915813e0c156e3cd6de"
+    ],
+    "target_obj_code": "6d155e8051294915813e0c156e3cd6de",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_right"
+}

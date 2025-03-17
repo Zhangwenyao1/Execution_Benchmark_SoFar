@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "tissue box",
+        "hammer",
+        "wineglass"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-j_cups_google_16k/065-j_cups_google_16k.urdf",
+        "objaverse_rescale/8eda72f64e6e4443af4fdbeed07cad29/material_2.urdf",
+        "objaverse_rescale/6d155e8051294915813e0c156e3cd6de/material_2.urdf",
+        "objaverse_rescale/dc707f81a94e48078069c6a463f59fcf/material_2.urdf"
+    ],
+    "target_obj_name": "wineglass",
+    "instruction": "Place the wineglass between the cup and the tissue box on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.356935435117643,
+            -0.13774368537347165,
+            0.9003784861264932,
+            0.00026538068628786883,
+            -0.0003005228077812997,
+            0.12401901375542924,
+            0.9922797606956747,
+            0.002841908484697342,
+            -0.0012855842942371964,
+            -0.0028708975296467543,
+            0.028720784932374954,
+            0.1117168441414833,
+            -0.00215409928932786
+        ],
+        [
+            0.5134467054357316,
+            0.1388525337113419,
+            0.9296263984675163,
+            4.952264077514472e-06,
+            1.5613702995402877e-06,
+            -0.0356479886195505,
+            0.9993644084519002,
+            -0.0009911925299093127,
+            0.003626585705205798,
+            -0.005134496837854385,
+            -0.035362742841243744,
+            -0.012787861749529839,
+            -0.00963377021253109
+        ],
+        [
+            0.3422486297465475,
+            0.16913472283081732,
+            0.9327272970402425,
+            0.08183203469917681,
+            0.007981227437271773,
+            0.09674146258474299,
+            0.9919077111922017,
+            -0.0005473679048009217,
+            0.0018136289436370134,
+            -0.005485806614160538,
+            -0.07591869682073593,
+            0.057004865258932114,
+            0.016964545473456383
+        ],
+        [
+            0.4497288140958187,
+            -0.003081747306317085,
+            0.924556850154121,
+            0.04828323207181672,
+            0.03049745524060525,
+            -0.050872975464765796,
+            0.9970709980196542,
+            0.0014410465955734253,
+            0.005169454496353865,
+            -0.006323577370494604,
+            -0.2620278596878052,
+            0.007633682806044817,
+            -0.008949865587055683
+        ]
+    ],
+    "position_instruction": "Place the wineglass between the cup and the tissue box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "065-j",
+        "8eda72f64e6e4443af4fdbeed07cad29",
+        "6d155e8051294915813e0c156e3cd6de",
+        "dc707f81a94e48078069c6a463f59fcf"
+    ],
+    "target_obj_code": "dc707f81a94e48078069c6a463f59fcf",
+    "anno_target": {
+        "category": "wineglass",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    -0.5,
+                    -0.5,
+                    0.4999999701976776,
+                    0.5
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

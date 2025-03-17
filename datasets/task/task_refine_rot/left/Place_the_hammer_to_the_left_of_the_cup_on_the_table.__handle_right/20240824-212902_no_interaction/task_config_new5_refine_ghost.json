@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "wrench",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-c_cups_google_16k/065-c_cups_google_16k.urdf",
+        "objaverse_rescale/5bf781c9fd8d4121b735503b13ba2eaf/material_2.urdf",
+        "objaverse_rescale/d499e1bc8a514e4bb5ca995ea6ba23b6/material_2.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer to the left of the cup on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.38853547784533843,
+            -0.06810780133065646,
+            0.90056840283863,
+            0.0006357228036048897,
+            -0.0007997618415398546,
+            -0.02544228737575088,
+            0.9996757705629381,
+            -0.002455952810123563,
+            -0.005141708999872208,
+            -0.0013649241300299764,
+            -0.037613384425640106,
+            0.35754960775375366,
+            -0.7907244563102722
+        ],
+        [
+            0.7718493836574929,
+            0.26988284582517763,
+            0.906148773406392,
+            0.031239376061690173,
+            0.6781189541295078,
+            0.7329883571428886,
+            0.043667536300396485,
+            -0.0012639006599783897,
+            -0.0021913701202720404,
+            0.02866380289196968,
+            3.8255953788757324,
+            -0.10810482501983643,
+            -0.22281543910503387
+        ],
+        [
+            0.470649197165458,
+            -0.11538399683462892,
+            0.9224603810667535,
+            -0.0007935520210437456,
+            -0.002219448694557174,
+            -0.07508955687159337,
+            0.997174008271129,
+            -0.010781165212392807,
+            -0.0014402150409296155,
+            -0.00916181318461895,
+            0.16500651836395264,
+            -0.27407437562942505,
+            0.06026974692940712
+        ]
+    ],
+    "position_instruction": "Place the hammer to the left of the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "065-c",
+        "5bf781c9fd8d4121b735503b13ba2eaf",
+        "d499e1bc8a514e4bb5ca995ea6ba23b6"
+    ],
+    "target_obj_code": "d499e1bc8a514e4bb5ca995ea6ba23b6",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.9891719818115234,
+                        -0.1467610001564026
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "handle_right"
+}

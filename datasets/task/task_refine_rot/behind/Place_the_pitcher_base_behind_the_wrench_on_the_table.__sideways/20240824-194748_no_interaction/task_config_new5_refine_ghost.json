@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "wrench",
+        "pen",
+        "box",
+        "pitcher base"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf",
+        "objaverse_rescale/fbeb7c776372466daffa619106e0b2e0/material_2.urdf",
+        "ycb_16k_backup/008_pudding_box_google_16k/008_pudding_box_google_16k.urdf",
+        "ycb_16k_backup/019_pitcher_base_google_16k/019_pitcher_base_google_16k.urdf"
+    ],
+    "target_obj_name": "pitcher base",
+    "instruction": "Place the pitcher base behind the wrench on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.6080853703458805,
+            -0.21262209181279942,
+            0.9025496030928232,
+            0.012060179678616358,
+            -0.016957045668977922,
+            0.08151808456722953,
+            0.99645462142377,
+            0.0033323620446026325,
+            -0.004268040414899588,
+            0.034575317054986954,
+            -0.7691611051559448,
+            0.3333241939544678,
+            0.20248231291770935
+        ],
+        [
+            0.47038554504088925,
+            -0.12396873638420845,
+            0.9071956567696525,
+            -0.9660102452375806,
+            -0.21058766997039563,
+            0.04105715742719101,
+            0.1441920565650829,
+            -0.00012327369768172503,
+            -0.0003225091495551169,
+            0.032089561223983765,
+            -0.9271419644355774,
+            0.12506993114948273,
+            -0.03493882343173027
+        ],
+        [
+            0.3553992479903176,
+            -0.1452708921811812,
+            0.9003378626680854,
+            -0.006119261165723053,
+            0.0020419671363071557,
+            -0.002352753884027043,
+            0.9999764245031793,
+            0.0017596043180674314,
+            0.0061081694439053535,
+            -6.197524635354057e-05,
+            -0.25286632776260376,
+            0.10815827548503876,
+            -0.01331902015954256
+        ],
+        [
+            0.48883929855557645,
+            -0.09971484861411754,
+            0.9440519048111407,
+            -0.5834805827784406,
+            -0.3041356492833247,
+            0.3138648702683054,
+            0.684500372218308,
+            0.00727287819609046,
+            0.0043498920276761055,
+            0.0095127634704113,
+            -0.010301213711500168,
+            0.15953326225280762,
+            0.014354241080582142
+        ]
+    ],
+    "position_instruction": "Place the pitcher base behind the wrench on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "042",
+        "fbeb7c776372466daffa619106e0b2e0",
+        "008",
+        "019"
+    ],
+    "target_obj_code": "019",
+    "anno_target": {
+        "category": "pitcher_base",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        0.10603024810552597,
+                        0.6725715398788452,
+                        0.14199596643447876,
+                        0.718500018119812
+                    ],
+                    [
+                        -0.550607442855835,
+                        0.4067119061946869,
+                        -0.574891209602356,
+                        0.44823789596557617
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "behind",
+    "rotation_tag": "sideways"
+}

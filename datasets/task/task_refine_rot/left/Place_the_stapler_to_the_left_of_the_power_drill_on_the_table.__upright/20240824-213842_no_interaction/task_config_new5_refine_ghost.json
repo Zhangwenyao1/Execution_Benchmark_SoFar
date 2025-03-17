@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "power drill",
+        "box",
+        "stapler"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/035_power_drill_google_16k/035_power_drill_google_16k.urdf",
+        "ycb_16k_backup/004_sugar_box_google_16k/004_sugar_box_google_16k.urdf",
+        "objaverse_rescale/d2c345be5c084b4e8c92b48f7be69315/material_2.urdf"
+    ],
+    "target_obj_name": "stapler",
+    "instruction": "Place the stapler to the left of the power drill on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.5674362738595258,
+            0.0961999924936446,
+            0.9030936566486076,
+            -3.093488018823685e-05,
+            0.00027053757443719557,
+            -0.08007989504324839,
+            0.9967884109791385,
+            -2.6018415155704133e-06,
+            0.00011920717224711552,
+            -0.00032371075940318406,
+            -0.005000995472073555,
+            0.0038192092906683683,
+            -0.00017662208119872957
+        ],
+        [
+            0.5093521007484607,
+            -0.2323867798370067,
+            0.8998712210810793,
+            -0.0006287986004563809,
+            -0.00012865226832302332,
+            0.036035915331894125,
+            0.9993502893716029,
+            -0.0030576696153730154,
+            -0.0023535778746008873,
+            -0.0009518391452729702,
+            0.02870243601500988,
+            -0.039172638207674026,
+            -0.015670765191316605
+        ],
+        [
+            0.5430498305274849,
+            -0.10298877829652925,
+            0.9213146785348207,
+            -0.11596324110821647,
+            0.36053819282943095,
+            0.17683449779029475,
+            0.9084570978390891,
+            -0.0006924960762262344,
+            0.00822165422141552,
+            -0.003935857210308313,
+            -0.4489855468273163,
+            -0.04513593018054962,
+            0.01073006633669138
+        ]
+    ],
+    "position_instruction": "Place the stapler to the left of the power drill on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "035",
+        "004",
+        "d2c345be5c084b4e8c92b48f7be69315"
+    ],
+    "target_obj_code": "d2c345be5c084b4e8c92b48f7be69315",
+    "anno_target": {
+        "category": "stapler",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "upright"
+}

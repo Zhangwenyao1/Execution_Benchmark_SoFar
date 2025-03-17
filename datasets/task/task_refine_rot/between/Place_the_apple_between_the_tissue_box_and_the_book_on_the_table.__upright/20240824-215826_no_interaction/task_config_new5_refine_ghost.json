@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "book",
+        "apple"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/213d8df9c37a4d8cba794965676f7a75/material_2.urdf",
+        "objaverse_rescale/de79a920c48745ff95c0df7a7c300091/material_2.urdf",
+        "ycb_16k_backup/013_apple_google_16k/013_apple_google_16k.urdf"
+    ],
+    "target_obj_name": "apple",
+    "instruction": "Place the apple between the tissue box and the book on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.6471696067041902,
+            0.1109509135026904,
+            0.9329000517064299,
+            4.116037896233504e-08,
+            1.0589593845938823e-06,
+            0.047669460187106834,
+            0.9988631650853615,
+            -1.3598864825326018e-05,
+            -0.0004876180610153824,
+            -0.0002406427956884727,
+            0.0008721051854081452,
+            -0.0022898949682712555,
+            -0.002961159450933337
+        ],
+        [
+            0.30380463984012945,
+            0.19974108412944577,
+            0.9151475300515313,
+            0.007576474893651785,
+            -0.00022058918309199606,
+            0.12947084542028048,
+            0.9915542590069171,
+            0.000637887220364064,
+            -0.0007051766733638942,
+            1.247846466867486e-05,
+            -0.0006709372974000871,
+            -0.0019125727703794837,
+            -3.737103497769567e-06
+        ],
+        [
+            0.5306892684583217,
+            -0.03812920002577876,
+            0.9006196629649228,
+            0.006383843484626373,
+            -0.019435967109491255,
+            -0.01948409921901472,
+            0.9996008501409477,
+            0.0010898568434640765,
+            -0.00025163553073070943,
+            -0.0007055815076455474,
+            0.006939079612493515,
+            0.03195440024137497,
+            0.010868285782635212
+        ]
+    ],
+    "position_instruction": "Place the apple between the tissue box and the book on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "213d8df9c37a4d8cba794965676f7a75",
+        "de79a920c48745ff95c0df7a7c300091",
+        "013"
+    ],
+    "target_obj_code": "013",
+    "anno_target": {
+        "category": "apple",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        -0.018678417429327965,
+                        -0.0,
+                        0.0,
+                        0.9998255372047424
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upright"
+}

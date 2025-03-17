@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "toilet paper roll",
+        "hammer",
+        "scissors",
+        "spatula"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6d5284b842434413a17133f7bf259669/material_2.urdf",
+        "objaverse_rescale/35a76a67ea1c45edabbd5013de70d68d/material_2.urdf",
+        "ycb_16k_backup/037_scissors_google_16k/037_scissors_google_16k.urdf",
+        "ycb_16k_backup/033_spatula_google_16k/033_spatula_google_16k.urdf"
+    ],
+    "target_obj_name": "spatula",
+    "instruction": "Place the spatula on top of the toilet paper roll on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.5082098549411456,
+            0.40149394616467476,
+            0.9343963348370231,
+            -0.4802903445921332,
+            0.617887474822053,
+            0.382057942126068,
+            0.4914956583816272,
+            -0.0002235077554360032,
+            0.00015939671720843762,
+            -0.00017622414452489465,
+            -0.0020253616385161877,
+            -0.0026805330999195576,
+            0.0001843433128669858
+        ],
+        [
+            0.6066013801268375,
+            0.31607860908357327,
+            0.9665825265771282,
+            0.5049431061187576,
+            -0.49362731594206544,
+            0.3407755149179174,
+            0.6206742954008986,
+            -0.00041973733459599316,
+            0.0007642647251486778,
+            -0.0001740162551868707,
+            -0.014448449946939945,
+            -0.00038458939525298774,
+            0.014613070525228977
+        ],
+        [
+            0.36246761136395933,
+            -0.05270653742360008,
+            0.9001709008445192,
+            -0.0010960628542861029,
+            -0.0016206204126037874,
+            0.027287251780117722,
+            0.9996257190198671,
+            -0.0002483853022567928,
+            0.007561670616269112,
+            0.0011241310276091099,
+            -0.979471743106842,
+            -1.604535698890686,
+            0.4073868691921234
+        ],
+        [
+            0.5061069259825789,
+            0.1651915264768677,
+            0.9321389074839486,
+            -0.10632197845767422,
+            -0.9940579552605261,
+            -0.008086506795052222,
+            0.02188668289073592,
+            0.0002023068955168128,
+            0.001940320711582899,
+            -0.008434898220002651,
+            -0.15997421741485596,
+            0.08102846890687943,
+            0.03431983292102814
+        ]
+    ],
+    "position_instruction": "Place the spatula on top of the toilet paper roll on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "6d5284b842434413a17133f7bf259669",
+        "35a76a67ea1c45edabbd5013de70d68d",
+        "037",
+        "033"
+    ],
+    "target_obj_code": "033",
+    "anno_target": {
+        "category": "spatula",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.621095597743988,
+                        0.7837347984313965
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "top",
+    "rotation_tag": "handle_right"
+}

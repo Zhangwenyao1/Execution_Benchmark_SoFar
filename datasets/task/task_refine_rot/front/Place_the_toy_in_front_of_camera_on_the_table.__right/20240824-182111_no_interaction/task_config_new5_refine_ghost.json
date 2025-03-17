@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "camera",
+        "ladle",
+        "headphone",
+        "toy"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6a63fc4af48b453c91ca2b335a4d464d/material_2.urdf",
+        "objaverse_rescale/ce27e3369587476c85a436905f1e5c00/material_2.urdf",
+        "objaverse_rescale/efb1727dee214d49b88c58792e4bdffc/material_2.urdf",
+        "ycb_16k_backup/072-a_toy_airplane_google_16k/072-a_toy_airplane_google_16k.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "Place the toy in front of camera on the table. We also need to specify the rotation of the object after placement: the toy is facing right, with its head oriented towards left",
+    "init_obj_pos": [
+        [
+            0.4449681535484802,
+            0.07013613606667543,
+            0.9564943299066619,
+            0.09566727457559789,
+            0.0019691184857441825,
+            0.028079526175235604,
+            0.9950152940319266,
+            0.000865136506035924,
+            -7.126056880224496e-05,
+            -0.0008838885114528239,
+            -0.0059703076258301735,
+            0.011386996135115623,
+            -0.009630863554775715
+        ],
+        [
+            0.3804821957085582,
+            0.20321381071610317,
+            0.9205272356455197,
+            0.036560164506267596,
+            -0.017386999940850512,
+            0.03535053447091414,
+            0.9985546486381961,
+            -0.0015421467833220959,
+            0.0002525253512430936,
+            0.006367354188114405,
+            0.1893324851989746,
+            0.2411804348230362,
+            -0.16920262575149536
+        ],
+        [
+            0.6916956123797066,
+            0.10327212421936821,
+            0.9324177987630533,
+            -0.0031086456125958943,
+            -0.00030673090515891604,
+            0.10015141397681143,
+            0.9949673042452462,
+            0.00045016477815806866,
+            0.0017048941226676106,
+            -0.002149035222828388,
+            -0.03670104220509529,
+            0.026703568175435066,
+            0.012808213010430336
+        ],
+        [
+            0.5274920243574738,
+            0.15281215599947334,
+            0.9023909138657832,
+            0.013068286795900155,
+            0.017380364550862577,
+            -0.07250935872944055,
+            0.9971306512714095,
+            0.00635159108787775,
+            -9.307391155743971e-05,
+            0.0007215053774416447,
+            0.0015401099808514118,
+            0.08038737624883652,
+            -0.004276581108570099
+        ]
+    ],
+    "position_instruction": "Place the toy in front of camera on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement: the toy is facing right, with its head oriented towards left",
+    "rotation_instruction_label": "right",
+    "obj_codes": [
+        "6a63fc4af48b453c91ca2b335a4d464d",
+        "ce27e3369587476c85a436905f1e5c00",
+        "efb1727dee214d49b88c58792e4bdffc",
+        "072-a"
+    ],
+    "target_obj_code": "072-a",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        -0.0,
+                        0.0,
+                        -0.9992738962173462,
+                        -0.038100600242614746
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        -0.0,
+                        0.0,
+                        -0.042994238436222076,
+                        0.9990752935409546
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "right"
+}

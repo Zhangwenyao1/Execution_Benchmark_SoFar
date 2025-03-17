@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "fork",
+        "shoe",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/030_fork_google_16k/030_fork_google_16k.urdf",
+        "objaverse_rescale/ece4453042144b4a82fb86a4eab1ba7f/material_2.urdf",
+        "ycb_16k_backup/065-j_cups_google_16k/065-j_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup to the left of the fork on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.5124824665285044,
+            0.023155356263492414,
+            0.9160297045467575,
+            0.06571068350175226,
+            0.9962289404024854,
+            0.05622972212144534,
+            -0.006944258665889178,
+            0.0030502232257276773,
+            0.006908618379384279,
+            -0.0032225640024989843,
+            -1.2988206148147583,
+            0.5936436057090759,
+            -0.2144119292497635
+        ],
+        [
+            0.35781693501126743,
+            0.05823867832338504,
+            0.9314078329882352,
+            -0.006989608774106219,
+            -0.7008398481972852,
+            0.031058846820519886,
+            0.7126078869772428,
+            0.0012345451395958662,
+            -0.003471406875178218,
+            -0.0016563410172238946,
+            0.10402727127075195,
+            0.050310105085372925,
+            0.013896283693611622
+        ],
+        [
+            0.3066919177637104,
+            0.19028300988128583,
+            0.9003776564032135,
+            0.00023326087038686648,
+            -0.0003069711458842393,
+            -0.0729202807129773,
+            0.9973376980836638,
+            0.0025078775361180305,
+            -0.0024299088399857283,
+            -0.0024856021627783775,
+            0.06419405341148376,
+            0.09278276562690735,
+            -0.007836734876036644
+        ]
+    ],
+    "position_instruction": "Place the cup to the left of the fork on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "030",
+        "ece4453042144b4a82fb86a4eab1ba7f",
+        "065-j"
+    ],
+    "target_obj_code": "065-j",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "upside_down"
+}

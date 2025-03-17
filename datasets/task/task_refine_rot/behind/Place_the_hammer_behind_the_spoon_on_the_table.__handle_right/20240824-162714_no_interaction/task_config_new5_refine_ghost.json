@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "spoon",
+        "glasses",
+        "pear",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/031_spoon_google_16k/031_spoon_google_16k.urdf",
+        "objaverse_rescale/e4f348e98ceb45e3abc77da5b738f1b2/material_2.urdf",
+        "objaverse_rescale/f9ac5185507b4d0dbc744941e9055b96/material_2.urdf",
+        "objaverse_rescale/6d155e8051294915813e0c156e3cd6de/material_2.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer behind the spoon on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.607481626776795,
+            0.20490078812765175,
+            0.9247544736606202,
+            -0.9660528168684919,
+            0.2569639738567587,
+            0.020156813286952985,
+            0.017469231188270293,
+            -0.00054553197696805,
+            -0.0038375824224203825,
+            0.01736699976027012,
+            1.0781028270721436,
+            -0.23653976619243622,
+            0.08765652030706406
+        ],
+        [
+            0.20365182237251764,
+            0.19777635068105606,
+            0.3099196255207062,
+            -0.5755102634429932,
+            -0.32555148005485535,
+            0.40969622135162354,
+            0.6284530758857727,
+            -0.0005973407533019781,
+            -0.00020033970940858126,
+            0.03414865583181381,
+            1.240108847618103,
+            -0.08805706351995468,
+            0.21490256488323212
+        ],
+        [
+            0.32931333780288696,
+            0.21894976496696472,
+            0.33442381024360657,
+            -0.7858664393424988,
+            0.5001594424247742,
+            0.09083440154790878,
+            0.3521413207054138,
+            0.0030266589019447565,
+            -0.005489292088896036,
+            -0.000338778889272362,
+            0.14958526194095612,
+            0.08327402174472809,
+            -0.003990291617810726
+        ],
+        [
+            0.3074737787246704,
+            0.030566703528165817,
+            0.31239938735961914,
+            0.0069531043991446495,
+            -0.7081649303436279,
+            -0.015784630551934242,
+            0.7058362364768982,
+            0.008844930678606033,
+            -0.0022538045886904,
+            0.022301429882645607,
+            0.05452898144721985,
+            0.9077726602554321,
+            0.028615830466151237
+        ]
+    ],
+    "position_instruction": "Place the hammer behind the spoon on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "031",
+        "e4f348e98ceb45e3abc77da5b738f1b2",
+        "f9ac5185507b4d0dbc744941e9055b96",
+        "6d155e8051294915813e0c156e3cd6de"
+    ],
+    "target_obj_code": "6d155e8051294915813e0c156e3cd6de",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "handle_right"
+}

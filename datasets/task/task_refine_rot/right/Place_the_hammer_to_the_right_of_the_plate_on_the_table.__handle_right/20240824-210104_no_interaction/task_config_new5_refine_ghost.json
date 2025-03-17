@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "plate",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/029_plate_google_16k/029_plate_google_16k.urdf",
+        "objaverse_rescale/4f24b866dab248b684149ec6bb40101f/material_2.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer to the right of the plate on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.3568892273062823,
+            -0.17457115361045852,
+            0.9030425768767586,
+            -0.00010419156658288268,
+            -0.00020786449730095754,
+            0.07922108835372349,
+            0.9968570434603555,
+            6.643911183346063e-05,
+            -1.0375448255217634e-05,
+            -0.0002995010872837156,
+            0.00043319136602804065,
+            0.007439465261995792,
+            1.9816503481706604e-05
+        ],
+        [
+            0.5996061641529116,
+            -0.004826052772260027,
+            0.9119182419911183,
+            0.017354627618698416,
+            0.02383685186720294,
+            0.04610161707356671,
+            0.9985015084097172,
+            -0.01346445269882679,
+            0.0010742804734036326,
+            0.014444191008806229,
+            0.5304199457168579,
+            -0.5236613154411316,
+            0.03868667781352997
+        ]
+    ],
+    "position_instruction": "Place the hammer to the right of the plate on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "029",
+        "4f24b866dab248b684149ec6bb40101f"
+    ],
+    "target_obj_code": "4f24b866dab248b684149ec6bb40101f",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.9628205299377441,
+                        0.27014192938804626
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "handle_right"
+}

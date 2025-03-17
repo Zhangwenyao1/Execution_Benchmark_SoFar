@@ -1,0 +1,97 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "box"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-f_cups_google_16k/065-f_cups_google_16k.urdf",
+        "ycb_16k_backup/009_gelatin_box_google_16k/009_gelatin_box_google_16k.urdf"
+    ],
+    "target_obj_name": "box",
+    "instruction": "Place the box to the left of the cup on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.",
+    "init_obj_pos": [
+        [
+            0.32007885596884866,
+            -0.02770745142529536,
+            0.9003512539497098,
+            0.0004984280099383138,
+            0.0001666045040256789,
+            -0.10147012421071704,
+            0.9948384480432583,
+            -0.0006923533510416746,
+            0.000782584713306278,
+            -0.003656493965536356,
+            -0.043630149215459824,
+            -0.010152442380785942,
+            -0.0014366544783115387
+        ],
+        [
+            0.5319148184284381,
+            -0.1835381246016054,
+            0.9003117109647909,
+            -0.002747202760574977,
+            0.0010562280293530564,
+            -0.3235392824906242,
+            0.9462101616156926,
+            -0.012689043767750263,
+            0.00271412031725049,
+            0.011715732514858246,
+            -0.23077067732810974,
+            -0.7845429182052612,
+            0.03509362414479256
+        ]
+    ],
+    "position_instruction": "Place the box to the left of the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.",
+    "rotation_instruction_label": "upside_down_textual",
+    "obj_codes": [
+        "065-f",
+        "009"
+    ],
+    "target_obj_code": "009",
+    "anno_target": {
+        "category": "box",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            },
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            },
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down_textual",
+    "rot_tag_level": 2,
+    "position_tag": "left",
+    "rotation_tag": "upside_down_textual"
+}

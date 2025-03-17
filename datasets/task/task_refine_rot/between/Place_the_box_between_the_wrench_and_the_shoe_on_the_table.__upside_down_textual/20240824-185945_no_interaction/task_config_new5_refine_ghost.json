@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "wrench",
+        "shoe",
+        "box"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/8a6cb4f7b0004f53830e270dc6e1ff1d/material_2.urdf",
+        "objaverse_rescale/aa51af2f1270482193471455b504efc6/material_2.urdf",
+        "objaverse_rescale/9660e0c0326b4f7386014e27717231ae/material_2.urdf"
+    ],
+    "target_obj_name": "box",
+    "instruction": "Place the box between the wrench and the shoe on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.",
+    "init_obj_pos": [
+        [
+            0.36730084113177264,
+            -0.022803933818038327,
+            0.9019937463934132,
+            0.3008478800518342,
+            -0.6411709925073068,
+            0.29992617479048694,
+            0.6390888835765008,
+            0.0002881867403630167,
+            -0.0005325262900441885,
+            0.013573398813605309,
+            -0.8036910891532898,
+            0.7941414713859558,
+            0.017725549638271332
+        ],
+        [
+            0.4949046275390658,
+            -0.20629872623003115,
+            0.932059703766196,
+            0.030765804232603635,
+            0.07848929220868618,
+            0.08450164375690943,
+            0.9928506274867743,
+            -0.00021412067872006446,
+            -0.0013917862670496106,
+            0.00017961148114409298,
+            0.043212708085775375,
+            0.002728150924667716,
+            0.002056179801002145
+        ],
+        [
+            0.5517323208750784,
+            0.06321123154867545,
+            0.919079353288674,
+            -0.262826707906392,
+            0.9648430426815605,
+            0.00013530157494670754,
+            -7.933196634679874e-05,
+            9.709011646918952e-05,
+            -0.000343370862537995,
+            -4.329105649958365e-05,
+            0.000603458727709949,
+            -0.0009616338065825403,
+            -0.0013944528764113784
+        ]
+    ],
+    "position_instruction": "Place the box between the wrench and the shoe on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.",
+    "rotation_instruction_label": "upside_down_textual",
+    "obj_codes": [
+        "8a6cb4f7b0004f53830e270dc6e1ff1d",
+        "aa51af2f1270482193471455b504efc6",
+        "9660e0c0326b4f7386014e27717231ae"
+    ],
+    "target_obj_code": "9660e0c0326b4f7386014e27717231ae",
+    "anno_target": {
+        "category": "box",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            },
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            },
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down_textual",
+    "rot_tag_level": 2,
+    "position_tag": "between",
+    "rotation_tag": "upside_down_textual"
+}

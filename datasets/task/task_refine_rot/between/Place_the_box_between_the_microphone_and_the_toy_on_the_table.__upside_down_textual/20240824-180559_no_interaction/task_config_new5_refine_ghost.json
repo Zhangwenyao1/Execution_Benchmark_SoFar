@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "microphone",
+        "toy",
+        "box"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/fac08019fef5474189f965bb495771eb/material_2.urdf",
+        "ycb_16k_backup/073-g_lego_duplo_google_16k/073-g_lego_duplo_google_16k.urdf",
+        "objaverse_rescale/9660e0c0326b4f7386014e27717231ae/material_2.urdf"
+    ],
+    "target_obj_name": "box",
+    "instruction": "Place the box between the microphone and the toy on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.",
+    "init_obj_pos": [
+        [
+            0.46422675226157284,
+            0.10524198873543007,
+            0.9407691848404561,
+            0.009085584538120434,
+            -0.02581405453685938,
+            -0.0745401404085307,
+            0.9968424420187199,
+            -0.0021801572293043137,
+            0.0007430260884575546,
+            -0.0005179447471164167,
+            -0.021994315087795258,
+            -0.06944523751735687,
+            -0.004145465325564146
+        ],
+        [
+            0.5145009964238074,
+            -0.1834974260759731,
+            0.9002599149959903,
+            0.002272320009013758,
+            -0.0005657426331672769,
+            0.1154142060604456,
+            0.993314692097367,
+            -0.0014962356071919203,
+            -0.00035445744288153946,
+            -0.002690601861104369,
+            0.013759366236627102,
+            -0.009811858646571636,
+            -0.0065874503925442696
+        ],
+        [
+            0.6088305145896397,
+            0.13248412148214755,
+            0.9195047325086266,
+            -1.3263997570928577e-06,
+            -1.8754670018912709e-06,
+            0.10381990334683909,
+            0.9945961128336345,
+            0.00041245255852118134,
+            -0.00040116201853379607,
+            -3.837271287920885e-05,
+            0.00028881742036901414,
+            0.0013626444851979613,
+            0.000250111217610538
+        ]
+    ],
+    "position_instruction": "Place the box between the microphone and the toy on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.",
+    "rotation_instruction_label": "upside_down_textual",
+    "obj_codes": [
+        "fac08019fef5474189f965bb495771eb",
+        "073-g",
+        "9660e0c0326b4f7386014e27717231ae"
+    ],
+    "target_obj_code": "9660e0c0326b4f7386014e27717231ae",
+    "anno_target": {
+        "category": "box",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            },
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on one of its sides.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            },
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an opposite position. Also, if there's texture on the object, the text is likely to be in an upside down manner as well.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down_textual",
+    "rot_tag_level": 2,
+    "position_tag": "between",
+    "rotation_tag": "upside_down_textual"
+}

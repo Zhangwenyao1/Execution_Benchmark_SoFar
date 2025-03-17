@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "can",
+        "can",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/dc4c91abf45342b4bb8822f50fa162b2/material_2.urdf",
+        "ycb_16k_backup/007_tuna_fish_can_google_16k/007_tuna_fish_can_google_16k.urdf",
+        "ycb_16k_backup/005_tomato_soup_can_google_16k/005_tomato_soup_can_google_16k.urdf",
+        "ycb_16k_backup/065-f_cups_google_16k/065-f_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup between the tissue box and the can on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.3323129630398488,
+            -0.11730170251430616,
+            0.9471224762949829,
+            0.7053509802526614,
+            -0.049801780717237516,
+            -0.04978746667668875,
+            0.7053516750217012,
+            -9.985821816371754e-05,
+            -9.646996477385983e-05,
+            -6.021307490300387e-05,
+            0.002071182243525982,
+            -0.001870987587608397,
+            0.0008090752526186407
+        ],
+        [
+            0.5349533235420897,
+            -0.0935058557306806,
+            0.9031511783029588,
+            0.0005196815809302747,
+            -0.000715646963926877,
+            0.019752875254650838,
+            0.9998045017400404,
+            0.0009598982287570834,
+            0.0028454679995775223,
+            -0.010695666074752808,
+            -0.2008381336927414,
+            0.15794716775417328,
+            0.03643125668168068
+        ],
+        [
+            0.5349533235420897,
+            -0.0935058557306806,
+            0.9031511783029588,
+            0.0005196815809302747,
+            -0.000715646963926877,
+            0.019752875254650838,
+            0.9998045017400404,
+            -0.002139149932190776,
+            -0.000625974906142801,
+            -0.0001661906426306814,
+            0.0105044050142169,
+            -0.04648047685623169,
+            0.0003539824392646551
+        ],
+        [
+            0.3459633481895906,
+            0.22874334819053266,
+            0.9003502470680542,
+            0.00047772379444191627,
+            0.00023958443003580998,
+            0.026642223179363385,
+            0.9996448901101511,
+            0.002105940831825137,
+            -0.0002914477954618633,
+            -0.0038963749539107084,
+            -0.007442979142069817,
+            0.08005322515964508,
+            -0.017958980053663254
+        ]
+    ],
+    "position_instruction": "Place the cup between the tissue box and the can on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "dc4c91abf45342b4bb8822f50fa162b2",
+        "007",
+        "005",
+        "065-f"
+    ],
+    "target_obj_code": "065-f",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

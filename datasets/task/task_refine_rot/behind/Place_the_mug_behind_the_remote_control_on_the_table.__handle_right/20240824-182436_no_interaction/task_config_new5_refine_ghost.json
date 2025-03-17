@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "remote control",
+        "pen",
+        "mug"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/c7ec86e7feb746489b30b4a01c2510af/material_2.urdf",
+        "objaverse_rescale/f126e15c0f904fccbd76f9348baea12c/material_2.urdf",
+        "objaverse_rescale/c609327dd3a74fb597584e1b4a14a615/material_2.urdf"
+    ],
+    "target_obj_name": "mug",
+    "instruction": "Place the mug behind the remote control on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.6743999735998611,
+            -0.2269890312031026,
+            0.9078711241695864,
+            0.7040862578232596,
+            0.06527273897880749,
+            0.06217577344543082,
+            0.7043693521776085,
+            -0.0007621020777150989,
+            0.003046542638912797,
+            0.028492294251918793,
+            -0.4792346656322479,
+            -0.42092278599739075,
+            -0.005008771549910307
+        ],
+        [
+            0.6590655229623149,
+            0.2948718613941069,
+            0.9070421161612258,
+            -0.5486001383262545,
+            -0.44881025913302347,
+            -0.38608742689462644,
+            0.5903759296577457,
+            -0.0013705433811992407,
+            -0.0017102155834436417,
+            0.032058604061603546,
+            -0.6582434773445129,
+            4.212401866912842,
+            -0.1883912831544876
+        ],
+        [
+            0.34738328585045913,
+            0.24766032870754526,
+            0.9356015728807264,
+            -0.09423655481703384,
+            -0.004166758367845588,
+            0.04384508904470132,
+            0.9945751444851125,
+            0.0035927153658121824,
+            -0.0010947660775855184,
+            -0.0008159978897310793,
+            0.020822228863835335,
+            0.06225685402750969,
+            0.023311316967010498
+        ]
+    ],
+    "position_instruction": "Place the mug behind the remote control on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "c7ec86e7feb746489b30b4a01c2510af",
+        "f126e15c0f904fccbd76f9348baea12c",
+        "c609327dd3a74fb597584e1b4a14a615"
+    ],
+    "target_obj_code": "c609327dd3a74fb597584e1b4a14a615",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "handle_right"
+}

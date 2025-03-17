@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "book",
+        "mouse",
+        "toilet paper roll"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/2a371c84c5454f7facba7bb2f5312ad6/material_2.urdf",
+        "objaverse_rescale/e51e63e374ee4c25ae3fb4a9c74bd335/material_2.urdf",
+        "objaverse_rescale/6d5284b842434413a17133f7bf259669/material_2.urdf"
+    ],
+    "target_obj_name": "toilet paper roll",
+    "instruction": "Place the toilet paper roll to the left of the book on the table. We also need to specify the rotation of the object after placement:  the paper roll is lying sideways on the table, with its lateral surface in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.5339445277260149,
+            0.21660214053620686,
+            0.9770705328996404,
+            -1.4878617571329982e-05,
+            0.0001668834234723314,
+            -0.008441573187734095,
+            0.9999643552500586,
+            9.250186121789739e-05,
+            -0.002990604378283024,
+            -0.000732769665773958,
+            0.04315374791622162,
+            0.00021093848044984043,
+            0.0003229032445233315
+        ],
+        [
+            0.4294928132978079,
+            0.02262360024418937,
+            0.9275075299445017,
+            0.7031360285815066,
+            0.07488323885712636,
+            0.07488191431814001,
+            0.7031251131604842,
+            0.005731275305151939,
+            -0.012178655713796616,
+            -0.011533346027135849,
+            0.3490211069583893,
+            0.3424451947212219,
+            -0.03238041326403618
+        ],
+        [
+            0.3421792354141069,
+            0.22753496435049855,
+            0.934164692036861,
+            0.0044393202985715035,
+            -0.19685002069631566,
+            0.022148010816242226,
+            0.9801733659940124,
+            -0.05974046513438225,
+            -0.0035467848647385836,
+            -0.006264048628509045,
+            0.044672172516584396,
+            -0.7689327597618103,
+            0.001281909877434373
+        ]
+    ],
+    "position_instruction": "Place the toilet paper roll to the left of the book on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the paper roll is lying sideways on the table, with its lateral surface in contact with the tabletop.",
+    "rotation_instruction_label": "roll_sideways",
+    "obj_codes": [
+        "2a371c84c5454f7facba7bb2f5312ad6",
+        "e51e63e374ee4c25ae3fb4a9c74bd335",
+        "6d5284b842434413a17133f7bf259669"
+    ],
+    "target_obj_code": "6d5284b842434413a17133f7bf259669",
+    "anno_target": {
+        "category": "toilet_paper_roll",
+        "annotation": {
+            " the paper roll is standing upright on the table, in the shape of a cylinder, and the axis(height) of the cylinder is perpendicular to the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the paper roll is lying sideways on the table, with its lateral surface in contact with the tabletop.": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "0"
+            }
+        }
+    },
+    "rot_tag_detail": "roll_sideways",
+    "rot_tag_level": 0,
+    "position_tag": "left",
+    "rotation_tag": "roll_sideways"
+}

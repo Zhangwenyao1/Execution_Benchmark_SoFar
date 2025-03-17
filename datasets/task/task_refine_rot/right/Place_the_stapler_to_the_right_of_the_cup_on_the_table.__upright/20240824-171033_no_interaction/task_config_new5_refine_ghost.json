@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "stapler"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-i_cups_google_16k/065-i_cups_google_16k.urdf",
+        "objaverse_rescale/d2c345be5c084b4e8c92b48f7be69315/material_2.urdf"
+    ],
+    "target_obj_name": "stapler",
+    "instruction": "Place the stapler to the right of the cup on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.346143410857991,
+            0.14810377974449873,
+            0.9005134962714487,
+            0.001639266567795641,
+            -0.0014421680728942913,
+            0.04197392157738506,
+            0.9991163209875933,
+            0.002828750526532531,
+            -0.0047702486626803875,
+            -0.0046660685911774635,
+            0.14030443131923676,
+            0.15011686086654663,
+            0.029524829238653183
+        ],
+        [
+            0.5066459183807269,
+            0.24708282312411378,
+            0.9213144744711634,
+            -0.07179398002448555,
+            0.37185610158309784,
+            0.06642047863535488,
+            0.923123493453348,
+            0.0008474872447550297,
+            0.0075484164990484715,
+            -0.0033918262924999,
+            -0.40639498829841614,
+            0.05556761473417282,
+            0.006926185917109251
+        ]
+    ],
+    "position_instruction": "Place the stapler to the right of the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "065-i",
+        "d2c345be5c084b4e8c92b48f7be69315"
+    ],
+    "target_obj_code": "d2c345be5c084b4e8c92b48f7be69315",
+    "anno_target": {
+        "category": "stapler",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upright"
+}

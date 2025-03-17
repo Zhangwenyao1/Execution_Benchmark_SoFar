@@ -1,0 +1,121 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "multimeter",
+        "tissue box",
+        "wallet"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-i_cups_google_16k/065-i_cups_google_16k.urdf",
+        "objaverse_rescale/79ac684e66b34554ba869bd2fc3c2653/material_2.urdf",
+        "objaverse_rescale/6f8040c86eb84e7bba2cd928c0755029/material_2.urdf",
+        "objaverse_rescale/f47fdcf9615d4e94a71e6731242a4c94/material_2.urdf"
+    ],
+    "target_obj_name": "wallet",
+    "instruction": "Place the wallet between the cup and the multimeter on the table. We also need to specify the rotation of the object after placement:  the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)",
+    "init_obj_pos": [
+        [
+            0.5356332227836356,
+            -0.22093236448695605,
+            0.9005135385589143,
+            0.00172462333310427,
+            -0.0013533627146921135,
+            0.09418956534489956,
+            0.995551866988285,
+            0.003322009462863207,
+            -0.004368907306343317,
+            -0.004777600988745689,
+            0.12703971564769745,
+            0.1689460277557373,
+            0.030074140056967735
+        ],
+        [
+            0.3409922509188201,
+            -0.08208075243177083,
+            0.9203829642294064,
+            0.7066244382295569,
+            -0.0246081770929165,
+            -0.018274525423893205,
+            0.7069245947323222,
+            0.0021725704427808523,
+            0.00019129044085275382,
+            -0.00443915743380785,
+            -0.01944979652762413,
+            0.13265341520309448,
+            -0.0007000815821811557
+        ],
+        [
+            0.5912327666209294,
+            0.09016849342040076,
+            0.927305758129663,
+            0.012580136043601815,
+            0.0014254546161673052,
+            0.11223545463702682,
+            0.9936009817722012,
+            0.00010269138147123158,
+            -0.0009562488412484527,
+            -7.932673906907439e-05,
+            0.021027063950896263,
+            0.0032941491808742285,
+            -6.007653610140551e-06
+        ],
+        [
+            0.6516567879308617,
+            -0.14942642876234832,
+            0.9530489901011409,
+            0.11738910843494305,
+            0.7333452689624383,
+            -0.12669440659332878,
+            0.6575507897107449,
+            0.0005903641576878726,
+            0.00379938050173223,
+            -0.0003361561393830925,
+            -0.25225841999053955,
+            0.028041960671544075,
+            -0.00919538363814354
+        ]
+    ],
+    "position_instruction": "Place the wallet between the cup and the multimeter on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)",
+    "rotation_instruction_label": "clasp_right",
+    "obj_codes": [
+        "065-i",
+        "79ac684e66b34554ba869bd2fc3c2653",
+        "6f8040c86eb84e7bba2cd928c0755029",
+        "f47fdcf9615d4e94a71e6731242a4c94"
+    ],
+    "target_obj_code": "f47fdcf9615d4e94a71e6731242a4c94",
+    "anno_target": {
+        "category": "wallet",
+        "annotation": {
+            " the wallet is lying flat on the table, and the clasp is on the left(if the wallet has a clasp)": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            },
+            " the wallet is lying flat on the table, and the clasp is on the right(if the wallet has a clasp)": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "clasp_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "clasp_right"
+}

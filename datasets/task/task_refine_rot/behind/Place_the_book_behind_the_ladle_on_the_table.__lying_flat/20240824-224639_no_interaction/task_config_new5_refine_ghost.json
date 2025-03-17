@@ -1,0 +1,115 @@
+{
+    "selected_obj_names": [
+        "ladle",
+        "box",
+        "mouse",
+        "book"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/ce27e3369587476c85a436905f1e5c00/material_2.urdf",
+        "ycb_16k_backup/009_gelatin_box_google_16k/009_gelatin_box_google_16k.urdf",
+        "objaverse_rescale/f017c73a85484b6da3a66ec1cda70c71/material_2.urdf",
+        "objaverse_rescale/c61227cac7224b86b43c53ac2a2b6ec7/material_2.urdf"
+    ],
+    "target_obj_name": "book",
+    "instruction": "Place the book behind the ladle on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.43538910809234455,
+            0.20250272315813259,
+            0.9194746832213452,
+            0.009125562362017019,
+            -0.0002508008611903511,
+            0.05282445594047189,
+            0.998562085233111,
+            0.004280685447156429,
+            0.004130026791244745,
+            0.0004661018028855324,
+            -0.5604472756385803,
+            -1.3764053583145142,
+            -0.7422760128974915
+        ],
+        [
+            0.5635397584432286,
+            0.07922350810350656,
+            0.9003113650656331,
+            -0.0029555477197597737,
+            -4.062703789044986e-06,
+            0.04279065943650381,
+            0.999079688606549,
+            -0.006740957032889128,
+            0.00487178098410368,
+            0.004330057185143232,
+            -0.2372947484254837,
+            -0.21380804479122162,
+            -0.18903563916683197
+        ],
+        [
+            0.671864963650307,
+            -0.08920136068107327,
+            0.9155496809360637,
+            -0.6308948695715823,
+            -0.17672218606814144,
+            0.12817047778099194,
+            0.7445221696665227,
+            -0.0017539130058139563,
+            -0.0009318250813521445,
+            -0.00032060383819043636,
+            0.08534461259841919,
+            -0.1398407369852066,
+            0.19070394337177277
+        ],
+        [
+            0.5715024053707366,
+            0.2420819141004697,
+            0.914165217194459,
+            -0.00012807342576928095,
+            1.6311471308891003e-05,
+            0.030206342811558876,
+            0.9995436759767343,
+            -0.0013489730190485716,
+            0.00018168006499763578,
+            -0.002628364134579897,
+            -0.02995941787958145,
+            -0.015184473246335983,
+            0.01008505281060934
+        ]
+    ],
+    "position_instruction": "Place the book behind the ladle on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "ce27e3369587476c85a436905f1e5c00",
+        "009",
+        "f017c73a85484b6da3a66ec1cda70c71",
+        "c61227cac7224b86b43c53ac2a2b6ec7"
+    ],
+    "target_obj_code": "c61227cac7224b86b43c53ac2a2b6ec7",
+    "anno_target": {
+        "category": "book",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        1.0,
+                        0.0,
+                        0.0,
+                        -4.371138828673793e-08
+                    ],
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "behind",
+    "rotation_tag": "lying_flat"
+}

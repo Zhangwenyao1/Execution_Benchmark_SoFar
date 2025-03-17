@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "toy",
+        "shoe",
+        "binder"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/073-g_lego_duplo_google_16k/073-g_lego_duplo_google_16k.urdf",
+        "objaverse_rescale/d6951661c1e445d8a1d00b7d38d86030/material_2.urdf",
+        "objaverse_rescale/78e016eeb0bf45d5bea47547128383a8/material_2.urdf"
+    ],
+    "target_obj_name": "binder",
+    "instruction": "Place the binder behind the toy on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.31873532815071953,
+            0.09485049409389933,
+            0.9163766911794846,
+            0.11539296225659057,
+            0.017710758594733006,
+            0.06855702487397683,
+            0.9907929792000324,
+            -0.003984368871897459,
+            0.0020730954129248857,
+            -0.011731359176337719,
+            -0.11112484335899353,
+            -0.11260772496461868,
+            0.02563651092350483
+        ],
+        [
+            0.28511669738696516,
+            0.23797305226163967,
+            0.927419439539777,
+            -0.13236181958913262,
+            -0.04330940453624308,
+            0.33904385311742796,
+            0.9304052395902863,
+            -0.0060310326516628265,
+            -0.015047349035739899,
+            -0.01024558674544096,
+            0.6832635402679443,
+            0.07803560048341751,
+            0.36397746205329895
+        ],
+        [
+            0.4037258105049278,
+            0.07008039339003232,
+            1.0259536626297985,
+            -5.565467487842399e-05,
+            -4.226274146255954e-06,
+            0.06504699517467649,
+            0.9978822001135407,
+            -0.001235098810866475,
+            0.0003553839633241296,
+            -0.0009108806261792779,
+            -0.0048912810161709785,
+            -0.010064595378935337,
+            0.003151100827381015
+        ]
+    ],
+    "position_instruction": "Place the binder behind the toy on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "073-g",
+        "d6951661c1e445d8a1d00b7d38d86030",
+        "78e016eeb0bf45d5bea47547128383a8"
+    ],
+    "target_obj_code": "78e016eeb0bf45d5bea47547128383a8",
+    "anno_target": {
+        "category": "binder",
+        "annotation": {
+            "the binder is standing upright on the table and oriented in a way so that its smaller side is in contact with the tabletop and the larger face is perpendicular to the tabletop, and the label should be in sight as well.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        0.5,
+                        0.4999999701976776
+                    ],
+                    [
+                        -0.4999997913837433,
+                        0.5000002384185791,
+                        0.4999997615814209,
+                        0.5000002384185791
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "behind",
+    "rotation_tag": "lying_flat"
+}

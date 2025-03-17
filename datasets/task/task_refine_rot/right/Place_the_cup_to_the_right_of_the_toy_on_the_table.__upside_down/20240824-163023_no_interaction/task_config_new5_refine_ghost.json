@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "toy",
+        "microphone",
+        "organizer",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/072-a_toy_airplane_google_16k/072-a_toy_airplane_google_16k.urdf",
+        "objaverse_rescale/fac08019fef5474189f965bb495771eb/material_2.urdf",
+        "objaverse_rescale/4f52ebe6c8cf432986e47d8de83386ce/material_2.urdf",
+        "ycb_16k_backup/065-b_cups_google_16k/065-b_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup to the right of the toy on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.31313182920975885,
+            -0.1817447443901686,
+            0.9001694275787393,
+            -0.0015173686503466345,
+            -0.0008321467183724575,
+            0.10803034277983518,
+            0.9941460909559974,
+            0.003661232301965356,
+            0.00118540960829705,
+            -0.0010755982948467135,
+            -0.015720611438155174,
+            0.04856254905462265,
+            -0.0016788983484730124
+        ],
+        [
+            0.68021549452364,
+            0.49827762875468096,
+            0.9525928550034182,
+            -0.0799907256396196,
+            -0.08786841350306436,
+            0.11343320907638729,
+            0.9864144832669147,
+            -0.08493319153785706,
+            -0.08196911960840225,
+            -0.05118812248110771,
+            4.316045761108398,
+            -4.703680038452148,
+            0.06117741018533707
+        ],
+        [
+            0.6532253680404307,
+            0.24309624424225537,
+            1.0210527476918436,
+            -4.8730173869050345e-05,
+            -3.847198568813719e-05,
+            0.12065447957770645,
+            0.9926945616367149,
+            0.017447510734200478,
+            0.02674243040382862,
+            0.006700973957777023,
+            -0.21165888011455536,
+            0.1076885238289833,
+            0.0860486775636673
+        ],
+        [
+            0.3308238405380977,
+            -0.24754098383763568,
+            0.9006646932756359,
+            0.0005956831554446265,
+            -0.001293198126120017,
+            0.08909320004776444,
+            0.9960222761090403,
+            0.0014681138563901186,
+            0.0026028347201645374,
+            -0.00753176910802722,
+            -0.12889543175697327,
+            0.14738202095031738,
+            0.06631232798099518
+        ]
+    ],
+    "position_instruction": "Place the cup to the right of the toy on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "072-a",
+        "fac08019fef5474189f965bb495771eb",
+        "4f52ebe6c8cf432986e47d8de83386ce",
+        "065-b"
+    ],
+    "target_obj_code": "065-b",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upside_down"
+}

@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "book",
+        "cup",
+        "toy"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/b2d30398ba3741da9f9aef2319ee2b8b/material_2.urdf",
+        "ycb_16k_backup/065-d_cups_google_16k/065-d_cups_google_16k.urdf",
+        "objaverse_rescale/9adc77036b434348ae049776c50df624/material_2.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "Place the toy behind the book on the table. We also need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "init_obj_pos": [
+        [
+            0.6986285057147332,
+            -0.0020999908425592424,
+            0.9163663588499769,
+            -1.8240391124173944e-05,
+            -0.00012785996027165792,
+            0.10235239172780404,
+            0.9947481948848751,
+            -0.0007232616189867258,
+            -0.00018801794794853777,
+            2.3193672404886456e-06,
+            -0.0004342164902482182,
+            0.001050733495503664,
+            -0.003318672301247716
+        ],
+        [
+            0.35405503902783375,
+            0.1761357306216089,
+            0.9006082501737781,
+            0.000820176252481492,
+            -0.0007957463081232227,
+            0.041306843878301205,
+            0.9991458545915811,
+            0.006512943655252457,
+            -0.00020416513143572956,
+            -0.00417705113068223,
+            -0.09058047831058502,
+            0.24334661662578583,
+            0.09610339254140854
+        ],
+        [
+            0.3293490984606173,
+            -0.06410656346751152,
+            0.9406462012456831,
+            -0.08041247900879508,
+            -0.05451182620612868,
+            -0.09057577954350426,
+            0.9911399104987241,
+            0.0008814899483695626,
+            -0.0011777478503063321,
+            -0.0002940035774372518,
+            0.018140478059649467,
+            0.013829994015395641,
+            -0.003469467628747225
+        ]
+    ],
+    "position_instruction": "Place the toy behind the book on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "rotation_instruction_label": "left",
+    "obj_codes": [
+        "b2d30398ba3741da9f9aef2319ee2b8b",
+        "065-d",
+        "9adc77036b434348ae049776c50df624"
+    ],
+    "target_obj_code": "9adc77036b434348ae049776c50df624",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        0.6684325933456421,
+                        0.2306467592716217,
+                        0.2306467443704605,
+                        0.6684325337409973
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        -0.2339881807565689,
+                        0.6672703623771667,
+                        0.667270302772522,
+                        -0.23398815095424652
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_left",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "left"
+}

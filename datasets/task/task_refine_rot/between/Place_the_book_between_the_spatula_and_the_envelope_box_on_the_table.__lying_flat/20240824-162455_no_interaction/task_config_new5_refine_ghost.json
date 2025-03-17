@@ -1,0 +1,97 @@
+{
+    "selected_obj_names": [
+        "spatula",
+        "envelope box",
+        "book"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/81b129ecf5724f63b5b044702a3140c2/material_2.urdf",
+        "objaverse_rescale/40b28d1cbfbd4e9f9acf653b748324ee/material_2.urdf",
+        "objaverse_rescale/2a371c84c5454f7facba7bb2f5312ad6/material_2.urdf"
+    ],
+    "target_obj_name": "book",
+    "instruction": "Place the book between the spatula and the envelope box on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.47708693302707367,
+            -0.2272459027764862,
+            0.912481518168986,
+            0.09398026375500752,
+            0.007679812802477802,
+            -0.045448211039054956,
+            0.9945065060688177,
+            0.0054031494073569775,
+            -0.0006613866426050663,
+            -0.0012045985786244273,
+            0.16430070996284485,
+            0.13891461491584778,
+            -0.27054738998413086
+        ],
+        [
+            0.6710995563062678,
+            -0.013018899572439414,
+            0.9317385031559685,
+            2.9324711340586318e-05,
+            0.00011254549727138027,
+            -0.010574003886912396,
+            0.9999440868945486,
+            -8.16938336356543e-06,
+            -1.7152489817817695e-05,
+            -6.483309334726073e-06,
+            0.0003838085103780031,
+            -0.0001258377160411328,
+            5.592933121079113e-06
+        ],
+        [
+            0.42314183774326836,
+            0.07606632136388317,
+            0.9770658159708103,
+            -1.0855773919670739e-05,
+            0.0001389233483462428,
+            0.00461139822703374,
+            0.9999893577377946,
+            0.00015048599743749946,
+            -0.002969996305182576,
+            -0.0006948819500394166,
+            0.04309871047735214,
+            0.0016063032671809196,
+            0.0004791424726136029
+        ]
+    ],
+    "position_instruction": "Place the book between the spatula and the envelope box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "81b129ecf5724f63b5b044702a3140c2",
+        "40b28d1cbfbd4e9f9acf653b748324ee",
+        "2a371c84c5454f7facba7bb2f5312ad6"
+    ],
+    "target_obj_code": "2a371c84c5454f7facba7bb2f5312ad6",
+    "anno_target": {
+        "category": "book",
+        "annotation": {
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ],
+                    [
+                        -0.7071067690849304,
+                        -0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "between",
+    "rotation_tag": "lying_flat"
+}

@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "USB",
+        "bottle",
+        "spoon",
+        "wrench"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/b1098389cc3b460bb1f1ce558d4b0764/material_2.urdf",
+        "ycb_16k_backup/006_mustard_bottle_google_16k/006_mustard_bottle_google_16k.urdf",
+        "objaverse_rescale/218768789fdd42bd95eb933046698499/material_2.urdf",
+        "objaverse_rescale/5bf781c9fd8d4121b735503b13ba2eaf/material_2.urdf"
+    ],
+    "target_obj_name": "wrench",
+    "instruction": "Place the wrench behind the USB on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.39202957970959645,
+            0.033808690616524854,
+            0.9268174828218434,
+            -0.03286300250697035,
+            -0.012846072710431627,
+            -0.02914591607615435,
+            0.9989522095967497,
+            -0.002098007593303919,
+            0.0014423830434679985,
+            -0.0032147406600415707,
+            -0.07877378910779953,
+            -0.11907243728637695,
+            0.05611322075128555
+        ],
+        [
+            0.6104334340616951,
+            -0.048333403712754956,
+            0.9030924829038973,
+            0.00029245943689230967,
+            2.69544599476747e-05,
+            -0.11073258811785454,
+            0.9938501937765349,
+            0.00032588723115622997,
+            -0.0006295586936175823,
+            -0.00019681280537042767,
+            0.008594392798841,
+            0.0032368095126003027,
+            0.0007547039422206581
+        ],
+        [
+            0.4552882124319423,
+            -0.23157749848197423,
+            0.9074185458044054,
+            0.010328215378155384,
+            -0.024265164638246066,
+            -0.05336535492812786,
+            0.9982267621365281,
+            -0.0009464139002375305,
+            0.0006081421161070466,
+            0.03213319182395935,
+            -1.8104147911071777,
+            -12.5122709274292,
+            2.0741124153137207
+        ],
+        [
+            0.4953542476676819,
+            0.16836876854252458,
+            0.9062880882204815,
+            -0.6500940226566296,
+            -0.210615815866781,
+            -0.21868844229951548,
+            -0.6965587591994684,
+            0.00011471691686892882,
+            -0.0023938848171383142,
+            0.02910241112112999,
+            3.65582275390625,
+            1.57244074344635,
+            0.3009486794471741
+        ]
+    ],
+    "position_instruction": "Place the wrench behind the USB on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "b1098389cc3b460bb1f1ce558d4b0764",
+        "006",
+        "218768789fdd42bd95eb933046698499",
+        "5bf781c9fd8d4121b735503b13ba2eaf"
+    ],
+    "target_obj_code": "5bf781c9fd8d4121b735503b13ba2eaf",
+    "anno_target": {
+        "category": "wrench",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.7071067690849304,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "handle_right"
+}

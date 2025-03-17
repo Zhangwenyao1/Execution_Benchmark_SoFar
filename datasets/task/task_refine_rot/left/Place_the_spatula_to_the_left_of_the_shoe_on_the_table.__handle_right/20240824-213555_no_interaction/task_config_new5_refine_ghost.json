@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "shoe",
+        "mug",
+        "spatula"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/d5a5f0a954f94bcea3168329d1605fe9/material_2.urdf",
+        "objaverse_rescale/922cd7d18c6748d49fe651ded8a04cf4/material_2.urdf",
+        "objaverse_rescale/81b129ecf5724f63b5b044702a3140c2/material_2.urdf"
+    ],
+    "target_obj_name": "spatula",
+    "instruction": "Place the spatula to the left of the shoe on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.4954633793073098,
+            -0.11211929209504533,
+            0.9324831479256085,
+            -0.1309051884430413,
+            -0.6447484146483525,
+            -0.03668656530996182,
+            0.752208355027307,
+            0.002010420896112919,
+            -0.004132968373596668,
+            0.0005594729445874691,
+            0.1039736345410347,
+            0.05527825653553009,
+            0.02323511242866516
+        ],
+        [
+            0.54434204707167,
+            0.14377619437439101,
+            0.9823793666283372,
+            -0.03666693654145627,
+            0.35534414015682053,
+            -0.009153593148955023,
+            0.9339712466416396,
+            0.0015579515602439642,
+            -0.0020711347460746765,
+            -0.001178949372842908,
+            0.03235068544745445,
+            0.026314152404665947,
+            -0.00520971417427063
+        ],
+        [
+            0.7248661266005012,
+            0.018284070427475253,
+            0.9125237130906991,
+            0.1102918406636522,
+            0.0017938391931135362,
+            -0.08878605000186421,
+            0.9899240018047047,
+            0.004725294653326273,
+            0.0036545025650411844,
+            0.0021683608647435904,
+            -0.37923359870910645,
+            0.5757806897163391,
+            0.04549962282180786
+        ]
+    ],
+    "position_instruction": "Place the spatula to the left of the shoe on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "d5a5f0a954f94bcea3168329d1605fe9",
+        "922cd7d18c6748d49fe651ded8a04cf4",
+        "81b129ecf5724f63b5b044702a3140c2"
+    ],
+    "target_obj_code": "81b129ecf5724f63b5b044702a3140c2",
+    "anno_target": {
+        "category": "spatula",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.07927235215902328,
+                        0.0,
+                        0.0,
+                        0.9968529939651489
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "handle_right"
+}

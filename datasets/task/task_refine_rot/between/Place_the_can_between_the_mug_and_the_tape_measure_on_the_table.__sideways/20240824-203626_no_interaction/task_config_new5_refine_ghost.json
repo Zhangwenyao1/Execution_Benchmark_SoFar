@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "tape measure",
+        "can"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/922cd7d18c6748d49fe651ded8a04cf4/material_2.urdf",
+        "objaverse_rescale/d1d1c4b27f5c45a29910830e268f7ee2/material_2.urdf",
+        "ycb_16k_backup/007_tuna_fish_can_google_16k/007_tuna_fish_can_google_16k.urdf"
+    ],
+    "target_obj_name": "can",
+    "instruction": "Place the can between the mug and the tape measure on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.5315389789772481,
+            0.166943873427223,
+            0.9859910303567042,
+            0.053464425170953574,
+            0.3989317038579108,
+            -0.19247788099323485,
+            0.8949566001916057,
+            -0.0031783233862370253,
+            -0.002138701034709811,
+            -0.0015411685453727841,
+            0.034584786742925644,
+            -0.04709811136126518,
+            -0.006461842451244593
+        ],
+        [
+            0.4625104702583863,
+            0.051773731478189894,
+            0.9674622455671281,
+            -0.0010795110294557072,
+            0.030319597581027705,
+            0.033462345245163665,
+            0.9989793932354942,
+            -0.0006203016964718699,
+            0.0011625298066064715,
+            -0.00041069029248319566,
+            -0.02602730318903923,
+            -0.0181767288595438,
+            -0.000241170622757636
+        ],
+        [
+            0.5640587444154482,
+            -0.07188560296146522,
+            0.9031502625095504,
+            0.0004937755567830141,
+            -0.0007225945833138903,
+            0.02124310076442977,
+            0.9997739568085772,
+            0.0009682800155133009,
+            0.0034907057415694,
+            -0.010453924536705017,
+            -0.24641399085521698,
+            0.1565965861082077,
+            0.0381690077483654
+        ]
+    ],
+    "position_instruction": "Place the can between the mug and the tape measure on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "922cd7d18c6748d49fe651ded8a04cf4",
+        "d1d1c4b27f5c45a29910830e268f7ee2",
+        "007"
+    ],
+    "target_obj_code": "007",
+    "anno_target": {
+        "category": "can",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        -1,
+                        -1,
+                        -1,
+                        -1
+                    ]
+                ],
+                "stage": 2,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "sideways"
+}

@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "power drill",
+        "pen",
+        "remote control"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-b_cups_google_16k/065-b_cups_google_16k.urdf",
+        "ycb_16k_backup/035_power_drill_google_16k/035_power_drill_google_16k.urdf",
+        "objaverse_rescale/fbeb7c776372466daffa619106e0b2e0/material_2.urdf",
+        "objaverse_rescale/89dcd45ac1f04680b76b709357a3dba3/material_2.urdf"
+    ],
+    "target_obj_name": "remote control",
+    "instruction": "Place the remote control to the left of the cup on the table. We also need to specify the rotation of the object after placement:  the remote control is lying flat on the tablel, and its buttons are all facing up, which means that the particular side of the remote-control that has all the buttons on it is parallel to the table plane.",
+    "init_obj_pos": [
+        [
+            0.3359226016249667,
+            -0.06298092630146276,
+            0.9005933578747773,
+            4.553196468907696e-05,
+            -0.0022589704663061837,
+            0.10264094255470649,
+            0.9947159051160064,
+            0.0013114426983520389,
+            0.0026961457915604115,
+            -0.007573814131319523,
+            -0.12661005556583405,
+            0.14896833896636963,
+            0.08364319801330566
+        ],
+        [
+            0.5635329329493906,
+            -0.2262726841900838,
+            0.9065075148540852,
+            0.0012894805574216112,
+            -0.0427415493951371,
+            -0.18133968124239047,
+            0.9824904158321869,
+            -0.0003955998981837183,
+            9.144384239334613e-05,
+            -0.00040541260386817157,
+            -0.0030987218488007784,
+            -0.01188043411821127,
+            -0.001963471295312047
+        ],
+        [
+            0.3657879134860137,
+            0.2054083359846241,
+            0.9071985138830534,
+            -0.14808064846509067,
+            0.004979290918672551,
+            0.029490726675222317,
+            0.9885229513027365,
+            -0.004777097143232822,
+            0.0002326429239474237,
+            0.03098377212882042,
+            1.1919176578521729,
+            0.13007287681102753,
+            -0.4933619201183319
+        ],
+        [
+            0.6247091670548219,
+            -0.047830245621816224,
+            0.9092730776501969,
+            -0.5612737667081388,
+            0.42217337600146604,
+            -0.42792451681446775,
+            0.5688778491995331,
+            0.0032297444995492697,
+            -0.00014564988669008017,
+            -0.011099853552877903,
+            -0.0039464617148041725,
+            0.3758847117424011,
+            -0.006541409529745579
+        ]
+    ],
+    "position_instruction": "Place the remote control to the left of the cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the remote control is lying flat on the tablel, and its buttons are all facing up, which means that the particular side of the remote-control that has all the buttons on it is parallel to the table plane.",
+    "rotation_instruction_label": "remote_control_forth",
+    "obj_codes": [
+        "065-b",
+        "035",
+        "fbeb7c776372466daffa619106e0b2e0",
+        "89dcd45ac1f04680b76b709357a3dba3"
+    ],
+    "target_obj_code": "89dcd45ac1f04680b76b709357a3dba3",
+    "anno_target": {
+        "category": "remote_control",
+        "annotation": {
+            " the remote control is lying flat on the tablel, and its buttons are all facing up, which means that the particular side of the remote-control that has all the buttons on it is parallel to the table plane.": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "remote_control_forth",
+    "rot_tag_level": 2,
+    "position_tag": "left",
+    "rotation_tag": "remote_control_forth"
+}

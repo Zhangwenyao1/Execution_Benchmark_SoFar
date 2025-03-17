@@ -1,0 +1,93 @@
+{
+    "selected_obj_names": [
+        "box",
+        "binder clips",
+        "shoe"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/004_sugar_box_google_16k/004_sugar_box_google_16k.urdf",
+        "objaverse_rescale/5e55c38b24dc4c239448efa1c6b7f49f/material_2.urdf",
+        "objaverse_rescale/ae7142127dd84ebbbe7762368ace452c/material_2.urdf"
+    ],
+    "target_obj_name": "shoe",
+    "instruction": "Place the shoe in front of box on the table. We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "init_obj_pos": [
+        [
+            0.36068440878513836,
+            -0.019816765897183296,
+            0.8998700449672853,
+            -0.0006455192554522553,
+            -0.00017527968840098715,
+            0.11434132994337842,
+            0.9934412981393009,
+            -0.0025934495497494936,
+            -0.0029230539221316576,
+            -0.0008471246110275388,
+            0.03877028077840805,
+            -0.03508635237812996,
+            -0.0029213360976427794
+        ],
+        [
+            0.6536101837369355,
+            0.21358732207375822,
+            0.9109310284056166,
+            0.11008851718027925,
+            -0.016816289305248235,
+            -0.13850849995387737,
+            0.98407983733007,
+            -0.0668695792555809,
+            -0.0349738672375679,
+            -0.03980744630098343,
+            0.6390306353569031,
+            -0.46774396300315857,
+            0.7404984831809998
+        ],
+        [
+            0.5347741750229514,
+            0.13146408121172115,
+            0.9401527867244988,
+            0.09090388239108022,
+            0.029917945804615646,
+            -0.06478215765038839,
+            0.993299890634858,
+            0.06155473366379738,
+            0.02901863306760788,
+            -0.01908322423696518,
+            -0.30625075101852417,
+            0.7578560709953308,
+            -0.05984155088663101
+        ]
+    ],
+    "position_instruction": "Place the shoe in front of box on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ",
+    "rotation_instruction_label": "sideways",
+    "obj_codes": [
+        "004",
+        "5e55c38b24dc4c239448efa1c6b7f49f",
+        "ae7142127dd84ebbbe7762368ace452c"
+    ],
+    "target_obj_code": "ae7142127dd84ebbbe7762368ace452c",
+    "anno_target": {
+        "category": "mug",
+        "annotation": {
+            " the object is placed sideways on the table, indicating that it is not in an upright or upside down position, rather, it is lying on its side. ": {
+                "quat": [
+                    [
+                        [
+                            -1,
+                            -1,
+                            -1,
+                            -1
+                        ]
+                    ]
+                ],
+                "stage": 2,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "sideways",
+    "rot_tag_level": 0,
+    "position_tag": "front",
+    "rotation_tag": "sideways"
+}

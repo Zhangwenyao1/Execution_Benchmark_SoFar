@@ -1,0 +1,85 @@
+{
+    "selected_obj_names": [
+        "pen",
+        "toy"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f126e15c0f904fccbd76f9348baea12c/material_2.urdf",
+        "objaverse_rescale/9adc77036b434348ae049776c50df624/material_2.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "Place the toy to the left of the pen on the table. We also need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "init_obj_pos": [
+        [
+            0.4275207287076292,
+            -0.03441905333028978,
+            0.9070413294926134,
+            -0.42750513338525714,
+            -0.5653422192039294,
+            -0.23468827713780915,
+            0.665243525852688,
+            -0.00375335942953825,
+            -0.006476311013102531,
+            0.02651425451040268,
+            -0.41855278611183167,
+            -0.5013726949691772,
+            -0.058259718120098114
+        ],
+        [
+            0.41466542830189373,
+            -0.2071795755541704,
+            0.9406452193717997,
+            -0.07269715536729662,
+            -0.06438007740033301,
+            0.03757938381548288,
+            0.9945642860808347,
+            0.0010967835551127791,
+            -0.0008637301507405937,
+            -0.0004064676759298891,
+            0.013175034895539284,
+            0.017122870311141014,
+            -0.003825659165158868
+        ]
+    ],
+    "position_instruction": "Place the toy to the left of the pen on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "rotation_instruction_label": "left",
+    "obj_codes": [
+        "f126e15c0f904fccbd76f9348baea12c",
+        "9adc77036b434348ae049776c50df624"
+    ],
+    "target_obj_code": "9adc77036b434348ae049776c50df624",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        0.6684325933456421,
+                        0.2306467592716217,
+                        0.2306467443704605,
+                        0.6684325337409973
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        -0.2339881807565689,
+                        0.6672703623771667,
+                        0.667270302772522,
+                        -0.23398815095424652
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_left",
+    "rot_tag_level": 1,
+    "position_tag": "left",
+    "rotation_tag": "left"
+}

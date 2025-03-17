@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "microphone",
+        "hammer",
+        "scissors"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/fac08019fef5474189f965bb495771eb/material_2.urdf",
+        "objaverse_rescale/6d155e8051294915813e0c156e3cd6de/material_2.urdf",
+        "ycb_16k_backup/037_scissors_google_16k/037_scissors_google_16k.urdf"
+    ],
+    "target_obj_name": "scissors",
+    "instruction": "Place the scissors in front of microphone on the table. We also need to specify the rotation of the object after placement:  the blades of the scissors are on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.32034051561065185,
+            -0.16396410324333766,
+            0.9312779403841204,
+            -0.036211749560133975,
+            0.7242492786478882,
+            0.007518119259270193,
+            0.6885456916244628,
+            0.00011390659346943721,
+            -0.0005055781221017241,
+            -0.0005629965453408659,
+            0.001972878584638238,
+            -0.032893549650907516,
+            0.04884398728609085
+        ],
+        [
+            0.403988007395072,
+            0.2249078893075644,
+            0.9327375064390345,
+            0.08171768959142255,
+            -0.007877636711774366,
+            -0.09546064338771186,
+            0.9920420493162976,
+            -0.0005201241583563387,
+            0.0009294509654864669,
+            -0.004215115215629339,
+            -0.07665660232305527,
+            -0.15887434780597687,
+            -0.039802368730306625
+        ],
+        [
+            0.4843398499480292,
+            -0.15215782757402962,
+            0.914733793240567,
+            0.12888113568451473,
+            0.9916342498117187,
+            0.0026543759950338214,
+            -0.006642420725600748,
+            -0.006706657819449902,
+            0.0050048441626131535,
+            0.015145132318139076,
+            -0.8862459063529968,
+            -0.23919545114040375,
+            -0.1372603476047516
+        ]
+    ],
+    "position_instruction": "Place the scissors in front of microphone on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the blades of the scissors are on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blades_right",
+    "obj_codes": [
+        "fac08019fef5474189f965bb495771eb",
+        "6d155e8051294915813e0c156e3cd6de",
+        "037"
+    ],
+    "target_obj_code": "037",
+    "anno_target": {
+        "category": "scissors",
+        "annotation": {
+            " the blades of the scissors are on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        -0.0,
+                        -0.9899005889892578,
+                        0.1417630910873413
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blades of the scissors are on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.13520878553390503,
+                        0.990817129611969
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blades_right",
+    "rot_tag_level": 1,
+    "position_tag": "front",
+    "rotation_tag": "blades_right"
+}

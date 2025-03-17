@@ -1,0 +1,127 @@
+{
+    "selected_obj_names": [
+        "book",
+        "paperweight",
+        "pot",
+        "binder"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/2a371c84c5454f7facba7bb2f5312ad6/material_2.urdf",
+        "objaverse_rescale/21c10181c122474a8f72a4ad0331f185/material_2.urdf",
+        "objaverse_rescale/cba3e4df7c354d22b7913d45a28a8159/material_2.urdf",
+        "objaverse_rescale/a0026e7d1b244b9a9223daf4223c9372/material_2.urdf"
+    ],
+    "target_obj_name": "binder",
+    "instruction": "Place the binder at the center of all the objects on the table. We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "init_obj_pos": [
+        [
+            0.6878445916768691,
+            0.1942408140251339,
+            0.9770669872868624,
+            -8.574935064198852e-07,
+            -4.820779441843215e-05,
+            0.01849872013449866,
+            0.9998288828737936,
+            0.0002879238163586706,
+            -0.002952922135591507,
+            -0.0006780160474590957,
+            0.042606551200151443,
+            0.0048992084339261055,
+            0.0005873594200238585
+        ],
+        [
+            0.6670293905670955,
+            0.007691794310283744,
+            0.9385405491939743,
+            -0.12269909072776829,
+            0.18589831932517842,
+            -0.05248326551139958,
+            0.9734640490782962,
+            0.002089278306812048,
+            -0.003915007226169109,
+            -0.0006353943608701229,
+            0.08171521127223969,
+            0.0657564029097557,
+            0.026682427152991295
+        ],
+        [
+            0.5354639968196052,
+            -0.15541159326707255,
+            0.9375840640265513,
+            -0.18186933083645396,
+            -0.028715615220840707,
+            -0.1204239002321147,
+            0.9754983568394551,
+            -0.022883964702486992,
+            0.0035605188459157944,
+            -0.001822355086915195,
+            -0.06258851289749146,
+            -0.39246582984924316,
+            0.0044840252958238125
+        ],
+        [
+            0.369751635309837,
+            0.07611164625730045,
+            0.9272729018771508,
+            0.00010630782284374423,
+            0.00038510438184655485,
+            0.09456958003927225,
+            0.9955181740804432,
+            0.0003981556510552764,
+            0.00020088271412532777,
+            -0.00040677801007404923,
+            0.0007281709113158286,
+            0.0034947192762047052,
+            -0.0005265763611532748
+        ]
+    ],
+    "position_instruction": "Place the binder at the center of all the objects on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is lying flat on the table, with its larger face in contact with the tabletop.",
+    "rotation_instruction_label": "lying_flat",
+    "obj_codes": [
+        "2a371c84c5454f7facba7bb2f5312ad6",
+        "21c10181c122474a8f72a4ad0331f185",
+        "cba3e4df7c354d22b7913d45a28a8159",
+        "a0026e7d1b244b9a9223daf4223c9372"
+    ],
+    "target_obj_code": "a0026e7d1b244b9a9223daf4223c9372",
+    "anno_target": {
+        "category": "binder",
+        "annotation": {
+            "the binder is standing upright on the table and oriented in a way so that its smaller side is in contact with the tabletop and the larger face is perpendicular to the tabletop, and the label should be in sight as well.": {
+                "quat": [
+                    [
+                        -3.0908619663705394e-08,
+                        0.7071067690849304,
+                        0.7071067690849304,
+                        -3.0908619663705394e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            },
+            " the object is lying flat on the table, with its larger face in contact with the tabletop.": {
+                "quat": [
+                    [
+                        -7.549783020976975e-08,
+                        -3.3001151131603493e-15,
+                        1.0,
+                        -4.371138828673793e-08
+                    ],
+                    [
+                        -0.0,
+                        1.0,
+                        -0.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "lying_flat",
+    "rot_tag_level": 2,
+    "position_tag": "center",
+    "rotation_tag": "lying_flat"
+}

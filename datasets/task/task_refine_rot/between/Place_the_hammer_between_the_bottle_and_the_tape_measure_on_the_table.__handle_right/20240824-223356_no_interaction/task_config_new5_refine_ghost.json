@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "bottle",
+        "tape measure",
+        "hammer"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/794b730ae452424bb3a9ce3c6caaff7a/material_2.urdf",
+        "objaverse_rescale/d1d1c4b27f5c45a29910830e268f7ee2/material_2.urdf",
+        "objaverse_rescale/d499e1bc8a514e4bb5ca995ea6ba23b6/material_2.urdf"
+    ],
+    "target_obj_name": "hammer",
+    "instruction": "Place the hammer between the bottle and the tape measure on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.7131807603318092,
+            0.03125923886245222,
+            0.9317708343063993,
+            0.01641837696127078,
+            0.9992973777857709,
+            -0.007435091124558867,
+            -0.032861939510760184,
+            -0.000890224939212203,
+            0.0016120356740429997,
+            -0.017812902107834816,
+            -0.050294551998376846,
+            -0.09859967231750488,
+            -0.001701160566881299
+        ],
+        [
+            0.32889712893062795,
+            0.1806010368441546,
+            0.9674633554187254,
+            0.0022625062880697916,
+            0.030445993902534458,
+            -0.07621922190790026,
+            0.9966235762474912,
+            -0.001701019937172532,
+            0.00038993623456917703,
+            -0.0003658336354419589,
+            -0.009774279780685902,
+            -0.046678945422172546,
+            0.00622241385281086
+        ],
+        [
+            0.611623123844254,
+            0.09220160568815794,
+            0.922461307710077,
+            -0.0008442679350541487,
+            -0.002203450485728232,
+            -0.0946596596431081,
+            0.9955068964371173,
+            -0.010992036201059818,
+            -0.0010653354693204165,
+            -0.009162179194390774,
+            0.1639942079782486,
+            -0.2945828139781952,
+            0.059521012008190155
+        ]
+    ],
+    "position_instruction": "Place the hammer between the bottle and the tape measure on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "794b730ae452424bb3a9ce3c6caaff7a",
+        "d1d1c4b27f5c45a29910830e268f7ee2",
+        "d499e1bc8a514e4bb5ca995ea6ba23b6"
+    ],
+    "target_obj_code": "d499e1bc8a514e4bb5ca995ea6ba23b6",
+    "anno_target": {
+        "category": "hammer",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.9891719818115234,
+                        -0.1467610001564026
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "handle_right"
+}

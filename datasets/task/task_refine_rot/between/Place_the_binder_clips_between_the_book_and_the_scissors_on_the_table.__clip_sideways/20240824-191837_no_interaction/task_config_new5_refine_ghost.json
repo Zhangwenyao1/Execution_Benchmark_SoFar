@@ -1,0 +1,97 @@
+{
+    "selected_obj_names": [
+        "book",
+        "scissors",
+        "binder clips"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/c61227cac7224b86b43c53ac2a2b6ec7/material_2.urdf",
+        "objaverse_rescale/2b1120c4b517409184413ed709c57a66/material_2.urdf",
+        "objaverse_rescale/5e55c38b24dc4c239448efa1c6b7f49f/material_2.urdf"
+    ],
+    "target_obj_name": "binder clips",
+    "instruction": "Place the binder clips between the book and the scissors on the table. We also need to specify the rotation of the object after placement:  the binder clip is lying sideways on the table, which means that one side face of the black triangular prism is facing the table.",
+    "init_obj_pos": [
+        [
+            0.394249426641504,
+            0.10423916478641752,
+            0.9141623392005666,
+            3.1955806723567093e-05,
+            -0.00015474625406599815,
+            -0.11254226789519271,
+            0.9936469257082367,
+            0.00016949541168287396,
+            0.0011892260517925024,
+            -0.002674085320904851,
+            -0.03594601899385452,
+            0.009797285310924053,
+            0.00379370735026896
+        ],
+        [
+            0.6050704713596305,
+            0.12096015265424456,
+            0.9041839221049033,
+            0.0031506787681701703,
+            -0.007944831604540348,
+            0.569119727185507,
+            0.8222102462280373,
+            0.0021258320193737745,
+            0.007328476756811142,
+            0.013350490480661392,
+            -5.439131259918213,
+            0.9560847282409668,
+            0.007922046817839146
+        ],
+        [
+            0.5226795515895563,
+            -0.21446121926789713,
+            0.9100081193777214,
+            3.786516492746875e-05,
+            -5.198020792070563e-06,
+            -0.07376911771134814,
+            0.9972753460360383,
+            0.001132229226641357,
+            -0.0006300524692051113,
+            -0.00035409818519838154,
+            0.00887902919203043,
+            0.015088277868926525,
+            0.002236508997157216
+        ]
+    ],
+    "position_instruction": "Place the binder clips between the book and the scissors on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the binder clip is lying sideways on the table, which means that one side face of the black triangular prism is facing the table.",
+    "rotation_instruction_label": "clip_sideways",
+    "obj_codes": [
+        "c61227cac7224b86b43c53ac2a2b6ec7",
+        "2b1120c4b517409184413ed709c57a66",
+        "5e55c38b24dc4c239448efa1c6b7f49f"
+    ],
+    "target_obj_code": "5e55c38b24dc4c239448efa1c6b7f49f",
+    "anno_target": {
+        "category": "binder_clips",
+        "annotation": {
+            " the binder clip is lying sideways on the table, which means that one side face of the black triangular prism is facing the table.": {
+                "quat": [
+                    [
+                        -0.13100828230381012,
+                        0.6948646306991577,
+                        -0.13100828230381012,
+                        0.6948646306991577
+                    ],
+                    [
+                        -0.6943783164024353,
+                        0.13356173038482666,
+                        -0.6943783164024353,
+                        0.13356173038482666
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "clip_sideways",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "clip_sideways"
+}

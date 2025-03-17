@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "clipboard",
+        "box",
+        "camera"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/b31c69728a414e639eef2fccd1c3dd75/material_2.urdf",
+        "ycb_16k_backup/008_pudding_box_google_16k/008_pudding_box_google_16k.urdf",
+        "objaverse_rescale/f6f8675406b7437faaf96a1f82062028/material_2.urdf"
+    ],
+    "target_obj_name": "camera",
+    "instruction": "Place the camera in front of clipboard on the table. We also need to specify the rotation of the object after placement:  the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.",
+    "init_obj_pos": [
+        [
+            0.6495390436258272,
+            -0.005286385435392463,
+            0.9014584254800221,
+            -0.7068801074533702,
+            0.10186393963780058,
+            -0.11230751604078172,
+            0.6908916509330022,
+            -0.0003998423053417355,
+            0.0001084253381122835,
+            -0.00700453482568264,
+            0.07226037234067917,
+            -0.026570690795779228,
+            -0.008403116837143898
+        ],
+        [
+            0.3228569172764463,
+            0.16541394484910393,
+            0.9003420585357553,
+            -0.006450965548219665,
+            0.0016238076223512035,
+            0.05892110801690124,
+            0.9982404777018219,
+            0.00037836385308764875,
+            -0.0010990857845172286,
+            -0.0017898232908919454,
+            -0.027367956936359406,
+            -0.006942207925021648,
+            0.011285536922514439
+        ],
+        [
+            0.49505777315746663,
+            0.28107468717518086,
+            0.9580129901385583,
+            -0.4639242052263468,
+            0.28054665173206855,
+            0.24926785796485282,
+            0.8024546360964222,
+            0.0023452064488083124,
+            -0.0017144938465207815,
+            -0.0007522848900407553,
+            0.01830054633319378,
+            0.02100181393325329,
+            -0.0032609652262181044
+        ]
+    ],
+    "position_instruction": "Place the camera in front of clipboard on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.",
+    "rotation_instruction_label": "upright_lens_forth",
+    "obj_codes": [
+        "b31c69728a414e639eef2fccd1c3dd75",
+        "008",
+        "f6f8675406b7437faaf96a1f82062028"
+    ],
+    "target_obj_code": "f6f8675406b7437faaf96a1f82062028",
+    "anno_target": {
+        "category": "camera",
+        "annotation": {
+            " the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "upright_lens_forth",
+    "rot_tag_level": 2,
+    "position_tag": "front",
+    "rotation_tag": "upright_lens_forth"
+}

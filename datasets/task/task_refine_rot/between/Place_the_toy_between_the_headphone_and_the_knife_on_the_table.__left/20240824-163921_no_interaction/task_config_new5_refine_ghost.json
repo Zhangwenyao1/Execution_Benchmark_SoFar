@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "headphone",
+        "knife",
+        "toy"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f8891134871e48ce8cb5053c4287272b/material_2.urdf",
+        "objaverse_rescale/85db1d392a89459dbde5cdd951c4f6fb/material_2.urdf",
+        "objaverse_rescale/9adc77036b434348ae049776c50df624/material_2.urdf"
+    ],
+    "target_obj_name": "toy",
+    "instruction": "Place the toy between the headphone and the knife on the table. We also need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "init_obj_pos": [
+        [
+            0.36548256000629403,
+            -0.05816218433639128,
+            0.9458072920834432,
+            -0.11333178588995545,
+            -0.010548463724668004,
+            0.09203816423245595,
+            0.989228796863882,
+            0.0002445093123242259,
+            0.00028409494552761316,
+            2.4349408704438247e-05,
+            -0.0067719570361077785,
+            0.00759454071521759,
+            -0.00011063337296945974
+        ],
+        [
+            0.44012769982048816,
+            0.21608891277000686,
+            0.9213256130616249,
+            -0.01860590770881838,
+            -0.011725063724334508,
+            0.008710492362539058,
+            0.9997201960557741,
+            0.0028951235581189394,
+            -0.001100919907912612,
+            -0.003362938528880477,
+            0.003980081994086504,
+            0.48936694860458374,
+            -0.014557820744812489
+        ],
+        [
+            0.6486337481098533,
+            -0.10034538040338431,
+            0.9406452874677842,
+            -0.06933278559911718,
+            -0.06798099538996473,
+            0.0880487309870054,
+            0.9913722661434677,
+            0.0012037709821015596,
+            -0.0007216015947051346,
+            -0.00040220347000285983,
+            0.010959985665977001,
+            0.018794957548379898,
+            -0.004033529665321112
+        ]
+    ],
+    "position_instruction": "Place the toy between the headphone and the knife on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement: the toy is facing left, with its head oriented towards right",
+    "rotation_instruction_label": "left",
+    "obj_codes": [
+        "f8891134871e48ce8cb5053c4287272b",
+        "85db1d392a89459dbde5cdd951c4f6fb",
+        "9adc77036b434348ae049776c50df624"
+    ],
+    "target_obj_code": "9adc77036b434348ae049776c50df624",
+    "anno_target": {
+        "category": "toy",
+        "annotation": {
+            "the toy is facing left, with its head oriented towards left": {
+                "quat": [
+                    [
+                        0.6684325933456421,
+                        0.2306467592716217,
+                        0.2306467443704605,
+                        0.6684325337409973
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            "the toy is facing right, with its head oriented towards right": {
+                "quat": [
+                    [
+                        -0.2339881807565689,
+                        0.6672703623771667,
+                        0.667270302772522,
+                        -0.23398815095424652
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "toy_left",
+    "rot_tag_level": 1,
+    "position_tag": "between",
+    "rotation_tag": "left"
+}

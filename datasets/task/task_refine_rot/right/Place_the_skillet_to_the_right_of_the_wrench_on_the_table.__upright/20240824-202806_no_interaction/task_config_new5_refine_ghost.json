@@ -1,0 +1,73 @@
+{
+    "selected_obj_names": [
+        "wrench",
+        "skillet"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/042_adjustable_wrench_google_16k/042_adjustable_wrench_google_16k.urdf",
+        "ycb_16k_backup/027_skillet_google_16k/027_skillet_google_16k.urdf"
+    ],
+    "target_obj_name": "skillet",
+    "instruction": "Place the skillet to the right of the wrench on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.4884625389107629,
+            -0.19985713875752145,
+            0.9089385625451525,
+            -0.01831544752671529,
+            -0.9993508111153223,
+            0.0073824863779048235,
+            0.030133031708127207,
+            -0.0011145668104290962,
+            -0.0037590356077998877,
+            0.0331459566950798,
+            -2.377782106399536,
+            -1.2208726406097412,
+            0.16905681788921356
+        ],
+        [
+            0.3537996530326534,
+            -0.11336294772952613,
+            0.9020731755205555,
+            0.017278718671002894,
+            0.013036086235851832,
+            0.1128378357785938,
+            0.9933776367291249,
+            4.917865226161666e-05,
+            3.6930403439328074e-05,
+            -7.359233859460801e-05,
+            -0.0008363623055629432,
+            0.00016423095075879246,
+            -0.0010634943610057235
+        ]
+    ],
+    "position_instruction": "Place the skillet to the right of the wrench on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "042",
+        "027"
+    ],
+    "target_obj_code": "027",
+    "anno_target": {
+        "category": "skillet",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upright"
+}

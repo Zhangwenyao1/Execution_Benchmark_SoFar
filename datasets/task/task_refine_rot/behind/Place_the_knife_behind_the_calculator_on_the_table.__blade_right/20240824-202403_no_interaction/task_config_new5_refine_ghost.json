@@ -1,0 +1,103 @@
+{
+    "selected_obj_names": [
+        "calculator",
+        "tape measure",
+        "knife"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f0b1f7c17d70489888f5ae922169c0ce/material_2.urdf",
+        "objaverse_rescale/d1d1c4b27f5c45a29910830e268f7ee2/material_2.urdf",
+        "ycb_16k_backup/032_knife_google_16k/032_knife_google_16k.urdf"
+    ],
+    "target_obj_name": "knife",
+    "instruction": "Place the knife behind the calculator on the table. We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.6480692076399258,
+            0.002139764725742776,
+            0.9114479948251086,
+            0.7083163403155602,
+            0.008469924221020475,
+            0.008438173170903096,
+            0.7057938931863886,
+            -0.00016510262503288686,
+            0.0001438456092728302,
+            -0.0007442475762218237,
+            -0.006720568053424358,
+            -0.006015332415699959,
+            -0.00032949450542218983
+        ],
+        [
+            0.3366321219050239,
+            0.03410592543803976,
+            0.926119333064432,
+            0.27706042573754475,
+            -0.6348231591852266,
+            -0.6575917453278347,
+            0.2963278143018523,
+            0.006361152045428753,
+            -0.00027060965658165514,
+            -0.00034389999927952886,
+            0.028253400698304176,
+            0.3069881200790405,
+            0.013164867646992207
+        ],
+        [
+            0.44016814049624414,
+            -0.07448885835135022,
+            0.9091613577060917,
+            -0.9875946545901059,
+            -0.14706121066649738,
+            -0.024432138268030656,
+            0.04932412353002018,
+            -0.011892244219779968,
+            0.003534206422045827,
+            -0.006537721026688814,
+            -7.4467926025390625,
+            -2.4174060821533203,
+            0.2936152219772339
+        ]
+    ],
+    "position_instruction": "Place the knife behind the calculator on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the blade of the knife is on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blade_right",
+    "obj_codes": [
+        "f0b1f7c17d70489888f5ae922169c0ce",
+        "d1d1c4b27f5c45a29910830e268f7ee2",
+        "032"
+    ],
+    "target_obj_code": "032",
+    "anno_target": {
+        "category": "knife",
+        "annotation": {
+            " the blade of the knife is on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        -0.010130898095667362,
+                        0.010130898095667362,
+                        0.707034170627594,
+                        0.707034170627594
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blade of the knife is on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        -0.010140104219317436,
+                        -0.010121682658791542,
+                        0.7076767086982727,
+                        -0.7063910365104675
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blade_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "blade_right"
+}

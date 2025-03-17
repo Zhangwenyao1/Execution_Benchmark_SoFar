@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "cup",
+        "mobile phone",
+        "mouse"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/065-i_cups_google_16k/065-i_cups_google_16k.urdf",
+        "objaverse_rescale/bad5e04d290841779dad272897f384e1/material_2.urdf",
+        "objaverse_rescale/969b0d9d99a8468898753fdcd219f883/material_2.urdf"
+    ],
+    "target_obj_name": "mouse",
+    "instruction": "Place the mouse in front of cup on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.46555593050684557,
+            0.11049174344598331,
+            0.9008497033493308,
+            0.0013652349548116212,
+            -0.005415245167047052,
+            -0.032797572210781716,
+            0.9994464120253658,
+            0.0020530521869659424,
+            -0.005360004957765341,
+            -0.004301701672375202,
+            0.16268035769462585,
+            0.11607406288385391,
+            0.02717715874314308
+        ],
+        [
+            0.2949032074599903,
+            0.13200029897963547,
+            0.9063611184407929,
+            -0.5330503647680287,
+            -0.4657232532474416,
+            -0.5319472349070564,
+            0.46474864096630636,
+            -0.004080026410520077,
+            -0.0017625166801735759,
+            0.025033945217728615,
+            0.5469815731048584,
+            -0.4593382179737091,
+            0.07986782491207123
+        ],
+        [
+            0.5463789256510387,
+            0.30430296652593997,
+            0.9208189119736261,
+            -0.5932008700678478,
+            -0.23374335149781572,
+            0.15125740125747672,
+            0.7553793563145281,
+            0.0066627380438148975,
+            0.0023122604470700026,
+            -0.0007712099468335509,
+            0.07001901417970657,
+            0.1937030702829361,
+            -0.03517065942287445
+        ]
+    ],
+    "position_instruction": "Place the mouse in front of cup on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "065-i",
+        "bad5e04d290841779dad272897f384e1",
+        "969b0d9d99a8468898753fdcd219f883"
+    ],
+    "target_obj_code": "969b0d9d99a8468898753fdcd219f883",
+    "anno_target": {
+        "category": "mouse",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "front",
+    "rotation_tag": "upright"
+}

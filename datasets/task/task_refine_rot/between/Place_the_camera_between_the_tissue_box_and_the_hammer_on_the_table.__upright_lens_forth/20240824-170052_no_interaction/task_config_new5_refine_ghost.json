@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "tissue box",
+        "hammer",
+        "camera"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/8eda72f64e6e4443af4fdbeed07cad29/material_2.urdf",
+        "objaverse_rescale/8ed38a92668a425eb16da938622d9ace/material_2.urdf",
+        "objaverse_rescale/6a63fc4af48b453c91ca2b335a4d464d/material_2.urdf"
+    ],
+    "target_obj_name": "camera",
+    "instruction": "Place the camera between the tissue box and the hammer on the table. We also need to specify the rotation of the object after placement:  the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.",
+    "init_obj_pos": [
+        [
+            0.3206083862641068,
+            -0.1931369747802022,
+            0.9296259611957425,
+            3.637435765470456e-07,
+            -4.490427959311365e-06,
+            0.041705255062579695,
+            0.9991299573528305,
+            -0.000676484836731106,
+            0.0033298013731837273,
+            -0.007576846517622471,
+            -0.03760698065161705,
+            -0.018202120438218117,
+            -0.0023005628027021885
+        ],
+        [
+            0.5634130099581982,
+            -0.18365786291648356,
+            0.9112930115022161,
+            -0.5646091535802786,
+            0.42239421072126837,
+            -0.4254165728632294,
+            0.5672921416482196,
+            -0.0021591614931821823,
+            0.0011653269175440073,
+            -0.011034091003239155,
+            -0.08788757771253586,
+            -0.3151548504829407,
+            -0.006105941254645586
+        ],
+        [
+            0.44890182713306187,
+            -0.0226180231209217,
+            0.9565253293781338,
+            0.09506501485742379,
+            -0.004486747926723492,
+            -0.026469980293919813,
+            0.9951089649814439,
+            0.0007974779000505805,
+            -0.0002684405480977148,
+            -0.0008315513259731233,
+            -0.0011672130785882473,
+            0.012809882871806622,
+            -0.008694793097674847
+        ]
+    ],
+    "position_instruction": "Place the camera between the tissue box and the hammer on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.",
+    "rotation_instruction_label": "upright_lens_forth",
+    "obj_codes": [
+        "8eda72f64e6e4443af4fdbeed07cad29",
+        "8ed38a92668a425eb16da938622d9ace",
+        "6a63fc4af48b453c91ca2b335a4d464d"
+    ],
+    "target_obj_code": "6a63fc4af48b453c91ca2b335a4d464d",
+    "anno_target": {
+        "category": "camera",
+        "annotation": {
+            " the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.": {
+                "quat": [
+                    [
+                        0.5,
+                        -0.5,
+                        -0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "upright_lens_forth",
+    "rot_tag_level": 2,
+    "position_tag": "between",
+    "rotation_tag": "upright_lens_forth"
+}

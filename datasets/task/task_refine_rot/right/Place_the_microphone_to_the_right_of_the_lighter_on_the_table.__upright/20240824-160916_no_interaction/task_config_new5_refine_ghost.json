@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "lighter",
+        "cup",
+        "bottle",
+        "microphone"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/d9675ab05c39447baf27e19ea07d484e/material_2.urdf",
+        "ycb_16k_backup/065-d_cups_google_16k/065-d_cups_google_16k.urdf",
+        "objaverse_rescale/794b730ae452424bb3a9ce3c6caaff7a/material_2.urdf",
+        "objaverse_rescale/f9d07bb386a04de8b0e1a9a28a936985/material_2.urdf"
+    ],
+    "target_obj_name": "microphone",
+    "instruction": "Place the microphone to the right of the lighter on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "init_obj_pos": [
+        [
+            0.6377959738822242,
+            -1.0512279900765769,
+            0.024391433362085612,
+            0.005786049678655032,
+            0.009402337765143914,
+            -0.17443781129310323,
+            0.984606300845642,
+            0.0016453133430331945,
+            0.0007667897152714431,
+            0.02914622239768505,
+            -1.2021480798721313,
+            1.8563951253890991,
+            0.1486654132604599
+        ],
+        [
+            0.33118261369081836,
+            0.14294048155933586,
+            0.9006090810589057,
+            0.00076470606895443,
+            -0.0008327097298226963,
+            -0.04059167834016763,
+            0.9991751785691338,
+            0.0071432143449783325,
+            -0.0005299412296153605,
+            -0.007073940709233284,
+            -0.024226555600762367,
+            0.19829662144184113,
+            -0.009568396024405956
+        ],
+        [
+            0.5899835865578064,
+            0.0005390300845891278,
+            0.9317688186860127,
+            0.10878111208857844,
+            0.9935251390511614,
+            -0.004459121731430076,
+            -0.032474358492914024,
+            0.0016591176390647888,
+            -8.648306538816541e-05,
+            -0.00042302117799408734,
+            0.01585993729531765,
+            0.04643675312399864,
+            0.0037242465186864138
+        ],
+        [
+            0.46217441518085733,
+            0.2476952243154892,
+            0.943702164489119,
+            -0.045372935123304495,
+            -0.027909505917914457,
+            -0.02992124228727866,
+            0.9981317926494981,
+            -0.0038073055911809206,
+            -0.0011273190611973405,
+            -0.003488477086648345,
+            0.034061845391988754,
+            -0.09055313467979431,
+            -0.0072066993452608585
+        ]
+    ],
+    "position_instruction": "Place the microphone to the right of the lighter on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.",
+    "rotation_instruction_label": "upright",
+    "obj_codes": [
+        "d9675ab05c39447baf27e19ea07d484e",
+        "065-d",
+        "794b730ae452424bb3a9ce3c6caaff7a",
+        "f9d07bb386a04de8b0e1a9a28a936985"
+    ],
+    "target_obj_code": "f9d07bb386a04de8b0e1a9a28a936985",
+    "anno_target": {
+        "category": "microphone",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up.": {
+                "quat": [
+                    [
+                        0.7071067690849304,
+                        0.0,
+                        0.0,
+                        0.7071067690849304
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upright"
+}

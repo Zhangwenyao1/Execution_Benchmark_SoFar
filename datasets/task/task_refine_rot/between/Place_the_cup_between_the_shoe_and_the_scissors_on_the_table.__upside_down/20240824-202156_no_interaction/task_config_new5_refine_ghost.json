@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "shoe",
+        "scissors",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/ece4453042144b4a82fb86a4eab1ba7f/material_2.urdf",
+        "objaverse_rescale/2b1120c4b517409184413ed709c57a66/material_2.urdf",
+        "ycb_16k_backup/065-h_cups_google_16k/065-h_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup between the shoe and the scissors on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.48527249369647346,
+            0.16589126586841468,
+            0.9404055998430892,
+            -0.021186700030629457,
+            -0.7043835225022119,
+            -0.041666870446800196,
+            0.7082787931855354,
+            -0.008381752297282219,
+            -0.006959374528378248,
+            0.016086004674434662,
+            0.22380459308624268,
+            -0.4891464114189148,
+            0.001380992354825139
+        ],
+        [
+            0.49479505491361775,
+            0.11238801802745502,
+            0.9040911950367019,
+            -0.007598993112621846,
+            -0.006503677723514799,
+            0.1026792382371517,
+            0.9946642305395235,
+            -0.0015946454368531704,
+            0.007032133173197508,
+            0.018739895895123482,
+            -3.3715949058532715,
+            1.7965832948684692,
+            0.1779761016368866
+        ],
+        [
+            0.46187061891481385,
+            -0.06908098714104392,
+            0.9018966812423926,
+            0.003590211783513992,
+            -0.026658236910530354,
+            -0.030169815956454463,
+            0.9991827815716836,
+            -0.012502830475568771,
+            -0.006955320946872234,
+            0.01604296825826168,
+            0.4397619962692261,
+            -0.25951147079467773,
+            0.3144117593765259
+        ]
+    ],
+    "position_instruction": "Place the cup between the shoe and the scissors on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "ece4453042144b4a82fb86a4eab1ba7f",
+        "2b1120c4b517409184413ed709c57a66",
+        "065-h"
+    ],
+    "target_obj_code": "065-h",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

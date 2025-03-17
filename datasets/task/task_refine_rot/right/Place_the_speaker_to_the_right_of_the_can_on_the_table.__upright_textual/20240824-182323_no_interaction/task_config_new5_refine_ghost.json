@@ -1,0 +1,109 @@
+{
+    "selected_obj_names": [
+        "can",
+        "mug",
+        "mouse",
+        "speaker"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/005_tomato_soup_can_google_16k/005_tomato_soup_can_google_16k.urdf",
+        "objaverse_rescale/e5e87ddbf3f6470384bef58431351e2a/material_2.urdf",
+        "objaverse_rescale/e51e63e374ee4c25ae3fb4a9c74bd335/material_2.urdf",
+        "objaverse_rescale/4445f4442a884999960e7e6660459095/material_2.urdf"
+    ],
+    "target_obj_name": "speaker",
+    "instruction": "Place the speaker to the right of the can on the table. We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.",
+    "init_obj_pos": [
+        [
+            0.4920891035079562,
+            -0.09201556768875081,
+            0.9895377148245973,
+            -0.22632633865754204,
+            -0.6681411284229509,
+            0.4883469160326468,
+            0.5136935959703797,
+            -0.00045962832518853247,
+            0.0011805356480181217,
+            -1.7736252630129457e-05,
+            -0.08367244154214859,
+            -0.04081794247031212,
+            -0.030110616236925125
+        ],
+        [
+            0.6264880497239445,
+            0.08119014212364381,
+            0.9438095715590593,
+            0.6737687966247675,
+            -0.14508594904825947,
+            -0.0016858494597611945,
+            -0.7245569915439212,
+            0.007488301023840904,
+            -0.06474179029464722,
+            -0.018531201407313347,
+            0.30689579248428345,
+            -0.15759292244911194,
+            0.34996119141578674
+        ],
+        [
+            0.5288993296840707,
+            -0.16268742879270243,
+            0.9275075381603228,
+            0.7062750588122948,
+            0.03418485803508731,
+            0.0341851137216332,
+            0.7062848680105275,
+            0.0008417890057899058,
+            -0.0016736352117732167,
+            -0.0004266514733899385,
+            0.06334814429283142,
+            0.024984803050756454,
+            0.005078952759504318
+        ],
+        [
+            0.5168018381774724,
+            0.09146910454750354,
+            1.0041310309904274,
+            0.7046104333143891,
+            -0.05940235255524752,
+            0.034725985209461456,
+            -0.7062503831692012,
+            0.01948770508170128,
+            0.006508747581392527,
+            0.002307276939973235,
+            -0.4205799102783203,
+            -0.08006017655134201,
+            0.8606076836585999
+        ]
+    ],
+    "position_instruction": "Place the speaker to the right of the can on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.",
+    "rotation_instruction_label": "upright_textual",
+    "obj_codes": [
+        "005",
+        "e5e87ddbf3f6470384bef58431351e2a",
+        "e51e63e374ee4c25ae3fb4a9c74bd335",
+        "4445f4442a884999960e7e6660459095"
+    ],
+    "target_obj_code": "4445f4442a884999960e7e6660459095",
+    "anno_target": {
+        "category": "speaker",
+        "annotation": {
+            " the object is placed upright on the table and corresponds with how humans usually place the object, bottom down and top up. Also, if there's texture on the object, the text is likely to be in an upright and legible manner as well.": {
+                "quat": [
+                    [
+                        -0.4999999701976776,
+                        -0.5000000596046448,
+                        -0.4999999701976776,
+                        -0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upright_textual",
+    "rot_tag_level": 2,
+    "position_tag": "right",
+    "rotation_tag": "upright_textual"
+}

@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "remote control",
+        "box",
+        "wrench"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/f1bbc61a42b94ee9a2976ca744f8962e/material_2.urdf",
+        "objaverse_rescale/f81ca566b008446eb704cad4844603b6/material_2.urdf",
+        "objaverse_rescale/19c1913ba85042938f0a87d94397c946/material_2.urdf"
+    ],
+    "target_obj_name": "wrench",
+    "instruction": "Place the wrench to the right of the remote control on the table. We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "init_obj_pos": [
+        [
+            0.3764346540310556,
+            -0.10714162680318817,
+            0.9057326267571852,
+            -0.6739588534045269,
+            0.21418603525659533,
+            -0.21469233153988404,
+            0.6736549628679982,
+            0.0003366473538335413,
+            0.0002485139120835811,
+            0.032021719962358475,
+            -0.3044470548629761,
+            0.5233426094055176,
+            -0.008341575041413307
+        ],
+        [
+            0.5107825433096037,
+            0.09621677851974869,
+            0.9215657518925181,
+            2.8243554867813758e-05,
+            0.00022080296537466856,
+            -0.12718124820123086,
+            0.9918794687633823,
+            0.00015097395225893706,
+            0.00025606868439354,
+            -0.00010918918997049332,
+            -0.002529207384213805,
+            0.002214827574789524,
+            1.9368222638149746e-05
+        ],
+        [
+            0.6518525128821245,
+            -0.0419364095067879,
+            0.9075124291316764,
+            0.010215971417926503,
+            -0.0004945173045518889,
+            -0.15268159567738276,
+            0.988222505168766,
+            0.00012792905909009278,
+            0.0043023014441132545,
+            0.02918964810669422,
+            1.2603709697723389,
+            2.9255151748657227,
+            0.28870490193367004
+        ]
+    ],
+    "position_instruction": "Place the wrench to the right of the remote control on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).",
+    "rotation_instruction_label": "handle_right",
+    "obj_codes": [
+        "f1bbc61a42b94ee9a2976ca744f8962e",
+        "f81ca566b008446eb704cad4844603b6",
+        "19c1913ba85042938f0a87d94397c946"
+    ],
+    "target_obj_code": "19c1913ba85042938f0a87d94397c946",
+    "anno_target": {
+        "category": "wrench",
+        "annotation": {
+            " the position of the object is reasonable and accords with commonsense, and that the handle of the object is on the right(pointing towards right).": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "handle_right",
+    "rot_tag_level": 1,
+    "position_tag": "right",
+    "rotation_tag": "handle_right"
+}

@@ -1,0 +1,85 @@
+{
+    "selected_obj_names": [
+        "mug",
+        "scissors"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/e5e87ddbf3f6470384bef58431351e2a/material_2.urdf",
+        "objaverse_rescale/2b1120c4b517409184413ed709c57a66/material_2.urdf"
+    ],
+    "target_obj_name": "scissors",
+    "instruction": "Place the scissors behind the mug on the table. We also need to specify the rotation of the object after placement:  the blades of the scissors are on the right(oriented towards right), while the handle is on the left.",
+    "init_obj_pos": [
+        [
+            0.6082604210696152,
+            -0.08129377573073863,
+            0.9327732881477574,
+            0.012065045897550909,
+            0.2298725474428591,
+            -0.05098910737587191,
+            0.9718092186888491,
+            -0.0010955366306006908,
+            0.0003509445523377508,
+            -1.5833520592423156e-05,
+            -0.0062318844720721245,
+            -0.020695649087429047,
+            0.0005612315726466477
+        ],
+        [
+            0.48586077604754346,
+            0.005368014050524146,
+            0.9045269988142242,
+            -0.17097778716460454,
+            0.9852391173551776,
+            -0.0028054210070354965,
+            0.007912492809379439,
+            0.0016653083730489016,
+            0.00395367294549942,
+            0.0022460524924099445,
+            -0.4733867943286896,
+            0.18444369733333588,
+            -0.10844852775335312
+        ]
+    ],
+    "position_instruction": "Place the scissors behind the mug on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the blades of the scissors are on the right(oriented towards right), while the handle is on the left.",
+    "rotation_instruction_label": "blades_right",
+    "obj_codes": [
+        "e5e87ddbf3f6470384bef58431351e2a",
+        "2b1120c4b517409184413ed709c57a66"
+    ],
+    "target_obj_code": "2b1120c4b517409184413ed709c57a66",
+    "anno_target": {
+        "category": "scissors",
+        "annotation": {
+            " the blades of the scissors are on the left(oriented towards left), while the handle is on the right.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            },
+            " the blades of the scissors are on the right(oriented towards right), while the handle is on the left.": {
+                "quat": [
+                    [
+                        0.0,
+                        0.0,
+                        1.0,
+                        -4.371138828673793e-08
+                    ]
+                ],
+                "stage": 1,
+                "axis": "y"
+            }
+        }
+    },
+    "rot_tag_detail": "blades_right",
+    "rot_tag_level": 1,
+    "position_tag": "behind",
+    "rotation_tag": "blades_right"
+}

@@ -1,0 +1,89 @@
+{
+    "selected_obj_names": [
+        "highlighter",
+        "plate",
+        "cup"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/fd058916fb8843c09b4a2e05e3ee894e/material_2.urdf",
+        "objaverse_rescale/6d5a4e1174dd4f5fa0a9a9076e476b91/material_2.urdf",
+        "ycb_16k_backup/065-i_cups_google_16k/065-i_cups_google_16k.urdf"
+    ],
+    "target_obj_name": "cup",
+    "instruction": "Place the cup between the highlighter and the plate on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.46315825819653794,
+            0.07395131064315794,
+            0.9115169567717827,
+            0.7104096348278638,
+            -0.03264387178186535,
+            -0.03194333822047875,
+            0.7023048850194347,
+            -0.012172341346740723,
+            0.0037058289162814617,
+            -0.006078054662793875,
+            -0.20572048425674438,
+            -1.2875293493270874,
+            0.038505490869283676
+        ],
+        [
+            0.5516927842024196,
+            -0.2511552529748716,
+            0.912741388806957,
+            0.7071074034865447,
+            -0.001855282907611944,
+            -0.0018495324912829797,
+            0.7071013061007692,
+            -0.00019639200763776898,
+            -9.126421355176717e-05,
+            -0.00045156676787883043,
+            -0.009917173534631729,
+            -0.008379913866519928,
+            -0.005379483103752136
+        ],
+        [
+            0.5730746848646076,
+            0.22406494602852728,
+            0.9005137412095473,
+            0.0014383804739232157,
+            -0.0016276732042140305,
+            -0.09359600687640443,
+            0.9956078893009759,
+            0.001310827792622149,
+            -0.005979054607450962,
+            -0.0038632582873106003,
+            0.19995930790901184,
+            0.09121779352426529,
+            0.041204433888196945
+        ]
+    ],
+    "position_instruction": "Place the cup between the highlighter and the plate on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "fd058916fb8843c09b4a2e05e3ee894e",
+        "6d5a4e1174dd4f5fa0a9a9076e476b91",
+        "065-i"
+    ],
+    "target_obj_code": "065-i",
+    "anno_target": {
+        "category": "cup",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "between",
+    "rotation_tag": "upside_down"
+}

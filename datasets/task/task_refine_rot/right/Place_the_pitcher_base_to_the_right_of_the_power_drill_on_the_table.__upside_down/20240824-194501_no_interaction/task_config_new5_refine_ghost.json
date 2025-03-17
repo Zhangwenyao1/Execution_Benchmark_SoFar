@@ -1,0 +1,107 @@
+{
+    "selected_obj_names": [
+        "power drill",
+        "cup",
+        "fork",
+        "pitcher base"
+    ],
+    "selected_urdfs": [
+        "ycb_16k_backup/035_power_drill_google_16k/035_power_drill_google_16k.urdf",
+        "ycb_16k_backup/065-b_cups_google_16k/065-b_cups_google_16k.urdf",
+        "objaverse_rescale/e98e7fb33743442383812b68608f7006/material_2.urdf",
+        "ycb_16k_backup/019_pitcher_base_google_16k/019_pitcher_base_google_16k.urdf"
+    ],
+    "target_obj_name": "pitcher base",
+    "instruction": "Place the pitcher base to the right of the power drill on the table. We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "init_obj_pos": [
+        [
+            0.6350307035824612,
+            0.16388027872479236,
+            0.9031008354428602,
+            -8.666504255444453e-05,
+            0.00027844454479799527,
+            -0.03316806054129003,
+            0.9994497459691187,
+            -9.019643039209768e-05,
+            0.00016422384942416102,
+            -0.0004014819860458374,
+            -0.005658866837620735,
+            0.000942893442697823,
+            2.825967203534674e-05
+        ],
+        [
+            0.6084672159795806,
+            -0.07939698669310959,
+            0.9006578870808865,
+            0.00042495658439795975,
+            -0.0014096807239494856,
+            0.005353180374201231,
+            0.9999845877172494,
+            0.0023528572637587786,
+            0.002160650445148349,
+            -0.007818307727575302,
+            -0.09918969869613647,
+            0.18446938693523407,
+            0.07405926287174225
+        ],
+        [
+            0.3343012171164713,
+            0.05555600060752638,
+            0.905308499164481,
+            0.6965303895765,
+            -0.11807378638552901,
+            -0.10355138530856745,
+            0.7001293508814431,
+            0.00021715671755373478,
+            0.005267517175525427,
+            0.03380408510565758,
+            0.7410540580749512,
+            7.843076229095459,
+            -1.8560656309127808
+        ],
+        [
+            0.39056433992092554,
+            0.012396104989472799,
+            0.9013352154053342,
+            -5.5864764605894006e-05,
+            0.0006027321710605503,
+            0.05393332328529333,
+            0.9985443556660171,
+            0.005215514916926622,
+            0.0015808442840352654,
+            -0.00025219691451638937,
+            -0.017083587124943733,
+            0.04935038834810257,
+            -0.014299804344773293
+        ]
+    ],
+    "position_instruction": "Place the pitcher base to the right of the power drill on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.",
+    "rotation_instruction_label": "upside_down",
+    "obj_codes": [
+        "035",
+        "065-b",
+        "e98e7fb33743442383812b68608f7006",
+        "019"
+    ],
+    "target_obj_code": "019",
+    "anno_target": {
+        "category": "pitcher_base",
+        "annotation": {
+            " the object is placed upside down on the table, indicating that its top or cap is likely in contact with the table while the bottom side is facing up, in an upside-down position.": {
+                "quat": [
+                    0.7071068286895752,
+                    0.7071067690849304,
+                    -3.0908619663705394e-08,
+                    -3.090862321641907e-08
+                ],
+                "stage": 1,
+                "axis": "z"
+            }
+        }
+    },
+    "rot_tag_detail": "upside_down",
+    "rot_tag_level": 0,
+    "position_tag": "right",
+    "rotation_tag": "upside_down"
+}

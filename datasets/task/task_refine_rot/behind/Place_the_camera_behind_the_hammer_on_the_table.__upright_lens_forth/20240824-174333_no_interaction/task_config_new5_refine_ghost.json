@@ -1,0 +1,91 @@
+{
+    "selected_obj_names": [
+        "hammer",
+        "lighter",
+        "camera"
+    ],
+    "selected_urdfs": [
+        "objaverse_rescale/6d155e8051294915813e0c156e3cd6de/material_2.urdf",
+        "objaverse_rescale/b640aa4990b64db9ab3d868c6f49820e/material_2.urdf",
+        "objaverse_rescale/f6f8675406b7437faaf96a1f82062028/material_2.urdf"
+    ],
+    "target_obj_name": "camera",
+    "instruction": "Place the camera behind the hammer on the table. We also need to specify the rotation of the object after placement:  the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.",
+    "init_obj_pos": [
+        [
+            0.42492577111929447,
+            0.22236784416670766,
+            0.932724589421085,
+            0.08184067459480152,
+            0.008446108692511578,
+            0.10322610497648439,
+            0.9912492817052664,
+            -0.0006919479928910732,
+            0.00308596296235919,
+            -0.006629683542996645,
+            -0.11788734048604965,
+            0.1015840694308281,
+            0.021458391100168228
+        ],
+        [
+            0.6678889804253723,
+            0.17609550422247963,
+            0.9248928724943556,
+            -0.0004907116946012284,
+            0.0035206959672352016,
+            0.07891008765417948,
+            0.9968753994197811,
+            -0.005263997707515955,
+            0.010928161442279816,
+            0.0207069031894207,
+            -0.7312325239181519,
+            -0.1556846797466278,
+            -0.002279688837006688
+        ],
+        [
+            0.4157509774237393,
+            -0.09752951444787818,
+            0.9580129587836139,
+            -0.4605374707592659,
+            0.28607140776274065,
+            0.23965882766395943,
+            0.8053769515016177,
+            0.0023193159140646458,
+            -0.0017740121111273766,
+            -0.000745401659514755,
+            0.01956246607005596,
+            0.020773546770215034,
+            -0.0027701177168637514
+        ]
+    ],
+    "position_instruction": "Place the camera behind the hammer on the table. ",
+    "rotation_instruction": "We also need to specify the rotation of the object after placement:  the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.",
+    "rotation_instruction_label": "upright_lens_forth",
+    "obj_codes": [
+        "6d155e8051294915813e0c156e3cd6de",
+        "b640aa4990b64db9ab3d868c6f49820e",
+        "f6f8675406b7437faaf96a1f82062028"
+    ],
+    "target_obj_code": "f6f8675406b7437faaf96a1f82062028",
+    "anno_target": {
+        "category": "camera",
+        "annotation": {
+            " the camera is upright on the table, and it is oriented in a pose that the lens is facing forth, which means that the lens is directed right towards the viewer, in full view.": {
+                "quat": [
+                    [
+                        0.5,
+                        0.5,
+                        0.5,
+                        0.4999999701976776
+                    ]
+                ],
+                "stage": 1,
+                "axis": "n"
+            }
+        }
+    },
+    "rot_tag_detail": "upright_lens_forth",
+    "rot_tag_level": 2,
+    "position_tag": "behind",
+    "rotation_tag": "upright_lens_forth"
+}
