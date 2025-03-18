@@ -86,22 +86,21 @@ Download the [Open6dorV2 assets](https://drive.google.com/file/d/1BPfAFqq7KBbZS1
 │   └── ...
 ```
 
-Download the [Open6dorV2 assets](https://drive.google.com/file/d/1BPfAFqq7KBbZS1WMZI054Ee5KJurW8ZG/view?usp=sharing) and extract it to `./datasets/open6dor_v2/`. The overall directory structure should be:You can down
-
 ## Execution
 
 **For SoFar:**
 
 You can run the evaluation in the script folder for different track:
-For the position track, you can run as following command
 
-> python sofar_execution/script_open6dor_exec_motion_planning.py  sofar --grasp_track_name task_refine_rot  --root_dir you_path --output_file your_path --output_root your_path --list_file_path your_path 
+for the position track:
 
-For the rotation track, you can run as following command
+> python sofar_execution/script_open6dor_exec_motion_planning.py  sofar --grasp_track_name task_refine_rot  --root_dir you_path --output_file your_path --output_root your_path --list_file_path your_path
 
-> python sofar_execution/script_open6dor_exec_motion_planning_rotonly.py sofar --grasp_track_name task_refine_rotonly  --root_dir you_path --output_file your_path --output_root your_path --list_file_path your_path 
+for the rotation track:
 
-For the 6 dof track, you can run as following command 
+> python sofar_execution/script_open6dor_exec_motion_planning_rotonly.py sofar --grasp_track_name task_refine_rotonly  --root_dir you_path --output_file your_path --output_root your_path --list_file_path your_path
+
+for the 6 dof track:
 
 > python sofar_execution/script_open6dor_exec_motion_planning_rot.py sofar --grasp_track_name task_refine_rot  --root_dir you_path --output_file your_path --output_root your_path --list_file_path your_path
 
