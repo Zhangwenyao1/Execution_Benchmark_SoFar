@@ -1,8 +1,8 @@
-# SoFar Execution Benchmark
+# SoFar Execution Benchmark (Open6DOR V2)
 
-We present SoFar, the first 6-DoF system for spatial reasoning and robotic manipulation.
-
-We introduce the concept of semantic orientation, representing the object orientation condition on open vocabulary language.
+To assess our system, we introduce Open6DOR V2, a largescale robot manipulation benchmark designed for 6-DoF object
+rearrangement in simulation. This benchmark demands robust positional and orientational reasoning in open-world settings
+and supports both open-loop and closed-loop robotic control.
 
 [Zekun Qi](https://qizekun.github.io/) *, [Wenyao Zhang]() *, [Yufei Ding](https://selina2023.github.io/) *, [Runpei Dong](https://runpeidong.web.illinois.edu/), [Xinqiang Yu](), [Jingwen Li](), [Lingyun Xu](), [Baoyu Li](https://baoyuli.github.io/), [Xialin He](https://xialin-he.github.io/), [Guofan Fan](https://github.com/Asterisci/), [Jiazhao Zhang](https://jzhzhang.github.io/), [Jiawei He](https://jiaweihe.com/), [Jiayuan Gu](https://jiayuan-gu.github.io/), [Xin Jin](http://home.ustc.edu.cn/~jinxustc/), [Kaisheng Ma](http://group.iiis.tsinghua.edu.cn/~maks/leader.html), [Zhizheng Zhang](https://scholar.google.com/citations?user=X7M0I8kAAAAJ&hl=en), [He Wang](https://hughw19.github.io/) and [Li Yi](https://ericyi.github.io/).
 
@@ -72,20 +72,42 @@ You need modify the checkpoint or config  path  in following files in SoFar:
 > SoFar/serve/pointso.py
 > sofar_execution_libero.py (the output folder)
 
+## Download Asset and Task Json
+
+Download the [Open6dorV2 assets](https://drive.google.com/file/d/1BPfAFqq7KBbZS1WMZI054Ee5KJurW8ZG/view?usp=sharing) and extract it to `./datasets/open6dor_v2/`. The overall directory structure should be:
+
+```
+│Open6DOR_V2_Execution/datasets/objects/
+├── objaverse_rescale/
+│   ├── 0a51815f3c0941ae8312fc6917173ed6
+│   └── ...
+├── ycb_16k_backup/
+│   └── 0_banana
+│   └── ...
+```
+
+Download the [Open6dorV2 assets](https://drive.google.com/file/d/1BPfAFqq7KBbZS1WMZI054Ee5KJurW8ZG/view?usp=sharing) and extract it to `./datasets/open6dor_v2/`. The overall directory structure should be:You can down
+
 ## Execution
+
+**For SoFar:**
 
 You can run the evaluation in the script folder for different track:
 For the position track, you can run as following command
 
-> python sofar_execution/script_open6dor_exec_motion_planning.py  sofar
+> python sofar_execution/script_open6dor_exec_motion_planning.py  sofar --grasp_track_name task_refine_rot  --root_dir you_path --output_file your_path --output_root your_path --list_file_path your_path 
 
 For the rotation track, you can run as following command
 
-> python sofar_execution/script_open6dor_exec_motion_planning_rotonly.py  sofar
+> python sofar_execution/script_open6dor_exec_motion_planning_rotonly.py sofar --grasp_track_name task_refine_rotonly  --root_dir you_path --output_file your_path --output_root your_path --list_file_path your_path 
 
-For the 6 dof track, you can run as following command
+For the 6 dof track, you can run as following command 
 
-> python sofar_execution/script_open6dor_exec_motion_planning_rot.py  sofar
+> python sofar_execution/script_open6dor_exec_motion_planning_rot.py sofar --grasp_track_name task_refine_rot  --root_dir you_path --output_file your_path --output_root your_path --list_file_path your_path
+
+# Evaluation
+
+> python evaluation/evaluation_sofar.py
 
 ## Acknowledgement
 
